@@ -83,7 +83,7 @@
 									}
 ,
 									"text" : "autopattr",
-									"varname" : "u413000469"
+									"varname" : "u372000210"
 								}
 
 							}
@@ -352,6 +352,7 @@
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
 											"parameter_longname" : "Depth",
+											"parameter_exponent" : 4.0,
 											"parameter_unitstyle" : 5,
 											"parameter_mmax" : 100.0,
 											"parameter_initial" : [ 2.0 ],
@@ -1283,11 +1284,11 @@
  ],
 		"lines" : [  ],
 		"parameters" : 		{
+			"obj-10::obj-86" : [ "Amt", "Amt", 0 ],
 			"obj-10::obj-56" : [ "Depth", "Depth", 0 ],
 			"obj-10::obj-91" : [ "Offset", "Offset", 0 ],
-			"obj-10::obj-20" : [ "mute[1]", "mute", 0 ],
-			"obj-10::obj-86" : [ "Amt", "Amt", 0 ],
-			"obj-10::obj-80" : [ "Ratio", "Ratio", 0 ]
+			"obj-10::obj-80" : [ "Ratio", "Ratio", 0 ],
+			"obj-10::obj-20" : [ "mute[1]", "mute", 0 ]
 		}
 ,
 		"dependency_cache" : [  ]

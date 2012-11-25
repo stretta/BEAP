@@ -43,7 +43,7 @@
 							"architecture" : "x86"
 						}
 ,
-						"rect" : [ 25.0, 69.0, 148.0, 116.0 ],
+						"rect" : [ 26.0, 70.0, 148.0, 116.0 ],
 						"bgcolor" : [ 1.0, 1.0, 1.0, 0.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 1,
@@ -64,6 +64,21 @@
 						"digest" : "",
 						"tags" : "",
 						"boxes" : [ 							{
+								"box" : 								{
+									"fontname" : "Arial",
+									"fontsize" : 12.0,
+									"id" : "obj-3",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 689.0, 347.0, 74.0, 20.0 ],
+									"presentation_rect" : [ 689.0, 347.0, 0.0, 0.0 ],
+									"text" : "prepend set"
+								}
+
+							}
+, 							{
 								"box" : 								{
 									"fontname" : "Arial",
 									"fontsize" : 12.0,
@@ -133,20 +148,6 @@
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 621.0, 295.0, 74.0, 20.0 ],
 									"text" : "prepend set"
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"fontname" : "Arial",
-									"fontsize" : 12.0,
-									"id" : "obj-65",
-									"maxclass" : "newobj",
-									"numinlets" : 2,
-									"numoutlets" : 1,
-									"outlettype" : [ "" ],
-									"patching_rect" : [ 621.0, 254.0, 61.5, 20.0 ],
-									"text" : "pack i i"
 								}
 
 							}
@@ -403,7 +404,7 @@
 									}
 ,
 									"text" : "autopattr",
-									"varname" : "u818001044"
+									"varname" : "u032000884"
 								}
 
 							}
@@ -609,6 +610,15 @@
 							}
 , 							{
 								"patchline" : 								{
+									"destination" : [ "obj-38", 1 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-3", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
 									"destination" : [ "obj-29", 1 ],
 									"disabled" : 0,
 									"hidden" : 0,
@@ -690,7 +700,7 @@
 							}
 , 							{
 								"patchline" : 								{
-									"destination" : [ "obj-65", 1 ],
+									"destination" : [ "obj-3", 0 ],
 									"disabled" : 0,
 									"hidden" : 0,
 									"source" : [ "obj-59", 0 ]
@@ -699,19 +709,10 @@
 							}
 , 							{
 								"patchline" : 								{
-									"destination" : [ "obj-65", 0 ],
-									"disabled" : 0,
-									"hidden" : 0,
-									"source" : [ "obj-64", 0 ]
-								}
-
-							}
-, 							{
-								"patchline" : 								{
 									"destination" : [ "obj-68", 0 ],
 									"disabled" : 0,
 									"hidden" : 0,
-									"source" : [ "obj-65", 0 ]
+									"source" : [ "obj-64", 0 ]
 								}
 
 							}
@@ -745,7 +746,7 @@
  ]
 					}
 ,
-					"patching_rect" : [ 0.0, 0.0, 148.0, 116.0 ],
+					"patching_rect" : [ 1.0, 1.0, 148.0, 116.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 0.0, 0.0, 147.0, 116.0 ],
 					"varname" : "StereoOutput"
@@ -755,10 +756,10 @@
  ],
 		"lines" : [  ],
 		"parameters" : 		{
-			"obj-3::obj-52" : [ "Level", "Level", 0 ],
+			"obj-3::obj-55" : [ "DSP", "DSP", 0 ],
 			"obj-3::obj-22" : [ "Mute", "Mute", 0 ],
-			"obj-3::obj-56" : [ "OutputChannel", "OutputChannel", 0 ],
-			"obj-3::obj-55" : [ "DSP", "DSP", 0 ]
+			"obj-3::obj-52" : [ "Level", "Level", 0 ],
+			"obj-3::obj-56" : [ "OutputChannel", "OutputChannel", 0 ]
 		}
 ,
 		"dependency_cache" : [  ]
