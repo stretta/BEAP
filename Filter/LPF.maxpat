@@ -4,11 +4,10 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 1,
-			"revision" : 0,
-			"architecture" : "x86"
+			"revision" : 0
 		}
 ,
-		"rect" : [ 219.0, 57.0, 1391.0, 1198.0 ],
+		"rect" : [ 0.0, 44.0, 1440.0, 753.0 ],
 		"bgcolor" : [ 1.0, 1.0, 1.0, 0.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
@@ -210,7 +209,7 @@
 					"numinlets" : 6,
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 559.59375, 228.660706, 116.0, 20.0 ],
+					"patching_rect" : [ 559.59375, 325.660706, 116.0, 20.0 ],
 					"text" : "scale~ -5. 5. 0. 120."
 				}
 
@@ -224,7 +223,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 559.59375, 178.660706, 25.0, 25.0 ]
+					"patching_rect" : [ 559.59375, 230.598206, 25.0, 25.0 ]
 				}
 
 			}
@@ -536,7 +535,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 477.59375, 320.660706, 101.0, 20.0 ],
+					"patching_rect" : [ 477.59375, 384.660706, 101.0, 20.0 ],
 					"text" : "+~"
 				}
 
@@ -560,13 +559,13 @@
 					"presentation_rect" : [ 120.640533, 18.157436, 52.0, 17.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_defer" : 1,
 							"parameter_enum" : [ "val1", "val2" ],
 							"parameter_mmax" : 1.0,
 							"parameter_initial" : [ 0.0 ],
 							"parameter_type" : 2,
 							"parameter_shortname" : "power",
-							"parameter_longname" : "power[3]"
+							"parameter_longname" : "power[3]",
+							"parameter_defer" : 1
 						}
 
 					}
@@ -609,7 +608,7 @@
 					}
 ,
 					"text" : "autopattr",
-					"varname" : "u375001357"
+					"varname" : "u291000722"
 				}
 
 			}
@@ -778,7 +777,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-25", 0 ],
+					"destination" : [ "obj-36", 1 ],
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-2", 0 ]
@@ -787,7 +786,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-2", 0 ],
+					"destination" : [ "obj-25", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-20", 0 ]
@@ -823,7 +822,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-36", 1 ],
+					"destination" : [ "obj-2", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-25", 0 ]
@@ -1012,9 +1011,9 @@
 			}
  ],
 		"parameters" : 		{
+			"obj-23" : [ "1v/oct", "1v/oct", 0 ],
 			"obj-11" : [ "Res", "Res", 0 ],
 			"obj-33" : [ "Offset", "Offset", 0 ],
-			"obj-23" : [ "1v/oct", "1v/oct", 0 ],
 			"obj-1" : [ "Linear", "Linear", 0 ],
 			"obj-55" : [ "power[3]", "power", 0 ]
 		}
