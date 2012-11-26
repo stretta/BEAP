@@ -8,7 +8,7 @@
 			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 223.0, 151.0, 1144.0, 1080.0 ],
+		"rect" : [ 427.0, 200.0, 1144.0, 1080.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -17,7 +17,7 @@
 		"gridonopen" : 0,
 		"gridsize" : [ 15.0, 15.0 ],
 		"gridsnaponopen" : 0,
-		"statusbarvisible" : 2,
+		"statusbarvisible" : 1,
 		"toolbarvisible" : 1,
 		"boxanimatetime" : 200,
 		"imprint" : 0,
@@ -44,7 +44,7 @@
 							"architecture" : "x86"
 						}
 ,
-						"rect" : [ 224.0, 151.0, 309.0, 116.0 ],
+						"rect" : [ 428.0, 200.0, 309.0, 116.0 ],
 						"bgcolor" : [ 1.0, 1.0, 1.0, 0.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 1,
@@ -74,7 +74,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "float" ],
 									"patching_rect" : [ 548.599976, 479.077148, 76.0, 20.0 ],
-									"text" : "snapshot~ 5"
+									"text" : "snapshot~ 1"
 								}
 
 							}
@@ -672,13 +672,13 @@
 									"presentation_rect" : [ 240.268768, 42.221527, 63.281036, 49.159897 ],
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
-											"parameter_enum" : [ "Modulate", "Wave A", "Wave B" ],
 											"parameter_unitstyle" : 0,
 											"parameter_initial" : [ 0 ],
 											"parameter_type" : 2,
 											"parameter_initial_enable" : 1,
 											"parameter_shortname" : "EditMode",
-											"parameter_longname" : "EditMode"
+											"parameter_longname" : "EditMode",
+											"parameter_enum" : [ "Modulate", "Wave A", "Wave B" ]
 										}
 
 									}
@@ -885,14 +885,14 @@
 									"presentation_rect" : [ 240.268768, 19.0, 61.257065, 14.764645 ],
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
-											"parameter_defer" : 1,
-											"parameter_enum" : [ "val1", "val2" ],
 											"parameter_mmax" : 1.0,
 											"parameter_initial" : [ 0.0 ],
 											"parameter_type" : 2,
 											"parameter_initial_enable" : 1,
 											"parameter_shortname" : "Mute",
-											"parameter_longname" : "Mute"
+											"parameter_longname" : "Mute",
+											"parameter_defer" : 1,
+											"parameter_enum" : [ "val1", "val2" ]
 										}
 
 									}
@@ -1058,7 +1058,7 @@
 									}
 ,
 									"text" : "autopattr",
-									"varname" : "u789001075"
+									"varname" : "u014001293"
 								}
 
 							}
@@ -1662,7 +1662,7 @@
 					}
 ,
 					"patching_rect" : [ 1.0, 0.0, 309.0, 116.0 ],
-					"varname" : "Oscillator"
+					"varname" : "Spectra"
 				}
 
 			}
@@ -1672,8 +1672,8 @@
 			"obj-18::obj-8" : [ "dict", "dict", -1 ],
 			"obj-18::obj-23" : [ "CV", "CV", 0 ],
 			"obj-18::obj-80" : [ "EditMode", "EditMode", 0 ],
-			"obj-18::obj-53" : [ "Mute", "Mute", 0 ],
-			"obj-18::obj-33" : [ "Offset", "Offset", 0 ]
+			"obj-18::obj-33" : [ "Offset", "Offset", 0 ],
+			"obj-18::obj-53" : [ "Mute", "Mute", 0 ]
 		}
 ,
 		"dependency_cache" : [  ]
