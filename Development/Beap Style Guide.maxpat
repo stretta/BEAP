@@ -8,7 +8,7 @@
 			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 463.0, 78.0, 1635.0, 960.0 ],
+		"rect" : [ 0.0, 44.0, 1280.0, 621.0 ],
 		"bgcolor" : [ 0.497188, 0.497188, 0.497188, 1.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
@@ -29,6 +29,20 @@
 		"digest" : "",
 		"tags" : "",
 		"boxes" : [ 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"id" : "obj-29",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 2,
+					"outlettype" : [ "signal", "bang" ],
+					"patching_rect" : [ 848.0, 254.0, 50.0, 20.0 ],
+					"text" : "line~ 0."
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
@@ -347,7 +361,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 758.700012, 251.5, 111.599976, 20.0 ],
+					"patching_rect" : [ 758.700012, 297.5, 111.599976, 20.0 ],
 					"text" : "*~"
 				}
 
@@ -1032,7 +1046,7 @@
 							"architecture" : "x86"
 						}
 ,
-						"rect" : [ 495.0, 135.0, 190.0, 116.0 ],
+						"rect" : [ 32.0, 96.0, 190.0, 116.0 ],
 						"bgcolor" : [ 1.0, 1.0, 1.0, 0.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 1,
@@ -1710,6 +1724,15 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-74", 1 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-29", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-16", 2 ],
 					"disabled" : 0,
 					"hidden" : 0,
@@ -1899,7 +1922,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-74", 1 ],
+					"destination" : [ "obj-29", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-72", 0 ]
@@ -1981,12 +2004,12 @@
  ],
 		"parameters" : 		{
 			"obj-10::obj-12" : [ "Mute", "Mute", 0 ],
-			"obj-20" : [ "mute", "mute", 0 ],
 			"obj-10::obj-129" : [ "SampleStart", "SampleStart", 0 ],
+			"obj-20" : [ "mute", "mute", 0 ],
 			"obj-25" : [ "cv", "cv", 0 ],
-			"obj-1" : [ "bypass", "bypass", 0 ],
 			"obj-70" : [ "cv[1]", "cv", 0 ],
-			"obj-10::obj-28" : [ "Attack", "Attack", 0 ]
+			"obj-10::obj-28" : [ "Attack", "Attack", 0 ],
+			"obj-1" : [ "bypass", "bypass", 0 ]
 		}
 ,
 		"dependency_cache" : [  ]

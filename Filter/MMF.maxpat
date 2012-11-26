@@ -4,10 +4,11 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 1,
-			"revision" : 0
+			"revision" : 0,
+			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 0.0, 44.0, 1440.0, 753.0 ],
+		"rect" : [ 0.0, 44.0, 1280.0, 621.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -39,7 +40,8 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 0
+							"revision" : 0,
+							"architecture" : "x86"
 						}
 ,
 						"rect" : [ 0.0, 44.0, 229.0, 127.0 ],
@@ -90,13 +92,13 @@
 									"presentation_rect" : [ 182.0, 37.838638, 36.25, 55.161362 ],
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
-											"parameter_enum" : [ "LPF", "BPF", "HPF", "Notch" ],
+											"parameter_longname" : "live.tab",
+											"parameter_enum" : [ "LPF", "HPF", "BPF", "Notch" ],
 											"parameter_unitstyle" : 0,
 											"parameter_initial" : [ 0.0 ],
 											"parameter_type" : 2,
 											"parameter_initial_enable" : 1,
-											"parameter_shortname" : "live.tab",
-											"parameter_longname" : "live.tab"
+											"parameter_shortname" : "live.tab"
 										}
 
 									}
@@ -250,11 +252,11 @@
 									"presentation_rect" : [ 45.5, 41.838638, 44.0, 47.0 ],
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
+											"parameter_longname" : "Linear",
 											"parameter_unitstyle" : 5,
 											"parameter_mmax" : 100.0,
 											"parameter_type" : 0,
-											"parameter_shortname" : "Linear",
-											"parameter_longname" : "Linear"
+											"parameter_shortname" : "Linear"
 										}
 
 									}
@@ -362,11 +364,11 @@
 									"presentation_rect" : [ 89.5, 41.838638, 44.0, 47.0 ],
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
+											"parameter_longname" : "1v/oct",
 											"parameter_unitstyle" : 5,
 											"parameter_mmax" : 100.0,
 											"parameter_type" : 0,
-											"parameter_shortname" : "1v/oct",
-											"parameter_longname" : "1v/oct"
+											"parameter_shortname" : "1v/oct"
 										}
 
 									}
@@ -542,13 +544,13 @@
 									"presentation_rect" : [ 133.5, 41.838638, 44.0, 47.0 ],
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
+											"parameter_longname" : "Res",
 											"parameter_unitstyle" : 5,
 											"parameter_mmax" : 100.0,
 											"parameter_initial" : [ 0.0 ],
 											"parameter_type" : 0,
 											"parameter_initial_enable" : 1,
-											"parameter_shortname" : "Res",
-											"parameter_longname" : "Res"
+											"parameter_shortname" : "Res"
 										}
 
 									}
@@ -601,14 +603,14 @@
 									"presentation_rect" : [ 1.5, 41.838638, 44.0, 47.0 ],
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
+											"parameter_longname" : "Offset",
 											"parameter_unitstyle" : 1,
 											"parameter_mmax" : 64.0,
 											"parameter_mmin" : -64.0,
 											"parameter_initial" : [ 0.0 ],
 											"parameter_type" : 0,
 											"parameter_initial_enable" : 1,
-											"parameter_shortname" : "Offset",
-											"parameter_longname" : "Offset"
+											"parameter_shortname" : "Offset"
 										}
 
 									}
@@ -651,13 +653,13 @@
 									"presentation_rect" : [ 164.640533, 18.157436, 52.0, 17.0 ],
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
+											"parameter_longname" : "power[3]",
+											"parameter_defer" : 1,
 											"parameter_enum" : [ "val1", "val2" ],
 											"parameter_mmax" : 1.0,
 											"parameter_initial" : [ 0.0 ],
 											"parameter_type" : 2,
-											"parameter_shortname" : "power",
-											"parameter_longname" : "power[3]",
-											"parameter_defer" : 1
+											"parameter_shortname" : "power"
 										}
 
 									}
@@ -701,7 +703,7 @@
 									}
 ,
 									"text" : "autopattr",
-									"varname" : "u613000512"
+									"varname" : "u496001575"
 								}
 
 							}
@@ -1167,12 +1169,12 @@
  ],
 		"lines" : [  ],
 		"parameters" : 		{
-			"obj-38::obj-23" : [ "1v/oct", "1v/oct", 0 ],
-			"obj-38::obj-38" : [ "live.tab", "live.tab", 0 ],
+			"obj-38::obj-1" : [ "Linear", "Linear", 0 ],
 			"obj-38::obj-11" : [ "Res", "Res", 0 ],
 			"obj-38::obj-33" : [ "Offset", "Offset", 0 ],
-			"obj-38::obj-1" : [ "Linear", "Linear", 0 ],
-			"obj-38::obj-55" : [ "power[3]", "power", 0 ]
+			"obj-38::obj-55" : [ "power[3]", "power", 0 ],
+			"obj-38::obj-38" : [ "live.tab", "live.tab", 0 ],
+			"obj-38::obj-23" : [ "1v/oct", "1v/oct", 0 ]
 		}
 ,
 		"dependency_cache" : [  ]
