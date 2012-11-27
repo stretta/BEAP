@@ -68,13 +68,13 @@
 								"box" : 								{
 									"fontname" : "Arial Bold",
 									"fontsize" : 10.0,
-									"id" : "obj-5",
+									"id" : "obj-1",
 									"maxclass" : "newobj",
 									"numinlets" : 6,
 									"numoutlets" : 1,
-									"outlettype" : [ "signal" ],
-									"patching_rect" : [ 534.007568, 624.3573, 91.0, 18.0 ],
-									"text" : "scale~ 5. 5. 0 359"
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 571.007568, 309.357239, 86.5, 18.0 ],
+									"text" : "scale 5. 5. 0 359"
 								}
 
 							}
@@ -87,7 +87,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "float" ],
-									"patching_rect" : [ 534.007568, 668.3573, 124.0, 18.0 ],
+									"patching_rect" : [ 571.007568, 284.3573, 124.0, 18.0 ],
 									"text" : "snapshot~ 10 @active 1"
 								}
 
@@ -105,7 +105,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "float" ],
 									"parameter_enable" : 0,
-									"patching_rect" : [ 534.007568, 719.357239, 123.0, 123.0 ],
+									"patching_rect" : [ 571.007568, 335.357239, 123.0, 123.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 2.0, 37.0, 57.789314, 57.789314 ],
 									"size" : 360.0
@@ -246,6 +246,15 @@
  ],
 						"lines" : [ 							{
 								"patchline" : 								{
+									"destination" : [ "obj-7", 0 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-1", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
 									"destination" : [ "obj-29", 0 ],
 									"disabled" : 0,
 									"hidden" : 0,
@@ -255,7 +264,7 @@
 							}
 , 							{
 								"patchline" : 								{
-									"destination" : [ "obj-5", 0 ],
+									"destination" : [ "obj-3", 0 ],
 									"disabled" : 0,
 									"hidden" : 0,
 									"source" : [ "obj-17", 0 ]
@@ -264,19 +273,10 @@
 							}
 , 							{
 								"patchline" : 								{
-									"destination" : [ "obj-7", 0 ],
+									"destination" : [ "obj-1", 0 ],
 									"disabled" : 0,
 									"hidden" : 0,
 									"source" : [ "obj-3", 0 ]
-								}
-
-							}
-, 							{
-								"patchline" : 								{
-									"destination" : [ "obj-3", 0 ],
-									"disabled" : 0,
-									"hidden" : 0,
-									"source" : [ "obj-5", 0 ]
 								}
 
 							}
@@ -290,10 +290,6 @@
 			}
  ],
 		"lines" : [  ],
-		"parameters" : 		{
-
-		}
-,
 		"dependency_cache" : [  ]
 	}
 
