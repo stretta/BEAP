@@ -72,7 +72,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 4,
 									"outlettype" : [ "bang", "bang", "", "int" ],
-									"patching_rect" : [ 761.552917, 228.0, 33.0, 42.0 ],
+									"patching_rect" : [ 795.552917, 182.0, 33.0, 42.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 2.0, 41.0, 96.140533, 54.000206 ]
 								}
@@ -101,7 +101,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "signal" ],
-									"patching_rect" : [ 647.642456, 220.0, 57.0, 20.0 ],
+									"patching_rect" : [ 564.0, 239.0, 57.0, 20.0 ],
 									"text" : "sah~ 2.5"
 								}
 
@@ -121,7 +121,7 @@
 									}
 ,
 									"text" : "autopattr",
-									"varname" : "u568001798"
+									"varname" : "u187000951"
 								}
 
 							}
@@ -428,7 +428,7 @@
 					}
 ,
 					"patching_rect" : [ 0.0, 0.0, 103.0, 116.0 ],
-					"varname" : "VCA"
+					"varname" : "SampleAndHold"
 				}
 
 			}

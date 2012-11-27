@@ -10,7 +10,7 @@
 ,
 		"rect" : [ 108.0, 457.0, 1013.0, 909.0 ],
 		"bglocked" : 0,
-		"openinpresentation" : 1,
+		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
 		"default_fontface" : 0,
 		"default_fontname" : "Arial",
@@ -44,7 +44,7 @@
 							"architecture" : "x86"
 						}
 ,
-						"rect" : [ 108.0, 457.0, 85.0, 116.0 ],
+						"rect" : [ 108.0, 457.0, 89.0, 116.0 ],
 						"bgcolor" : [ 1.0, 1.0, 1.0, 0.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 1,
@@ -113,17 +113,17 @@
 									"parameter_enable" : 1,
 									"patching_rect" : [ 423.170013, 265.691772, 40.0, 20.0 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 28.977173, 20.222733, 52.0, 14.764645 ],
+									"presentation_rect" : [ 30.977173, 19.222733, 52.0, 14.764645 ],
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
+											"parameter_defer" : 1,
 											"parameter_enum" : [ "val1", "val2" ],
 											"parameter_mmax" : 1.0,
 											"parameter_initial" : [ 0.0 ],
 											"parameter_type" : 2,
 											"parameter_initial_enable" : 1,
 											"parameter_shortname" : "bypass",
-											"parameter_longname" : "bypass",
-											"parameter_defer" : 1
+											"parameter_longname" : "bypass"
 										}
 
 									}
@@ -281,7 +281,7 @@
 									}
 ,
 									"text" : "autopattr",
-									"varname" : "u836001062"
+									"varname" : "u622000948"
 								}
 
 							}
@@ -426,7 +426,7 @@
  ]
 					}
 ,
-					"patching_rect" : [ 0.0, 0.0, 85.0, 116.0 ],
+					"patching_rect" : [ 0.0, 0.0, 89.0, 116.0 ],
 					"varname" : "LagProcessor"
 				}
 
@@ -434,8 +434,8 @@
  ],
 		"lines" : [  ],
 		"parameters" : 		{
-			"obj-18::obj-1" : [ "bypass", "bypass", 0 ],
-			"obj-18::obj-37" : [ "Time", "Time", 0 ]
+			"obj-18::obj-37" : [ "Time", "Time", 0 ],
+			"obj-18::obj-1" : [ "bypass", "bypass", 0 ]
 		}
 ,
 		"dependency_cache" : [  ]

@@ -73,13 +73,13 @@
 									"numinlets" : 1,
 									"numoutlets" : 4,
 									"outlettype" : [ "", "", "", "" ],
-									"patching_rect" : [ 706.0, 344.970001, 59.5, 20.0 ],
+									"patching_rect" : [ 359.0, 78.970001, 59.5, 20.0 ],
 									"restore" : 									{
 										"Bypass" : [ 0.0 ]
 									}
 ,
 									"text" : "autopattr",
-									"varname" : "u519000910"
+									"varname" : "u009000953"
 								}
 
 							}
@@ -131,7 +131,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 704.450928, 463.853912, 37.0, 17.0 ],
+									"patching_rect" : [ 352.099976, 175.853912, 37.0, 17.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 75.140533, 0.0, 23.0, 17.0 ],
 									"text" : "CV",
@@ -158,13 +158,13 @@
 									"presentation_rect" : [ 46.140533, 18.0, 52.0, 17.0 ],
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
-											"parameter_longname" : "Bypass",
 											"parameter_defer" : 1,
 											"parameter_enum" : [ "val1", "val2" ],
 											"parameter_mmax" : 1.0,
 											"parameter_initial" : [ 0.0 ],
 											"parameter_type" : 2,
-											"parameter_shortname" : "Bypass"
+											"parameter_shortname" : "Bypass",
+											"parameter_longname" : "Bypass"
 										}
 
 									}
@@ -182,11 +182,11 @@
 									"fontsize" : 12.0,
 									"id" : "obj-5",
 									"maxclass" : "newobj",
-									"numinlets" : 6,
+									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "signal" ],
-									"patching_rect" : [ 741.75, 208.470001, 99.0, 20.0 ],
-									"text" : "scale~ 0. 5. 0. 1."
+									"patching_rect" : [ 741.75, 208.470001, 42.0, 20.0 ],
+									"text" : "*~ 0.2"
 								}
 
 							}
@@ -255,7 +255,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 322.642456, 279.883911, 37.0, 17.0 ],
+									"patching_rect" : [ 352.099976, 279.883911, 37.0, 17.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 2.0, 0.0, 38.0, 17.0 ],
 									"text" : "Signal",
@@ -272,7 +272,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 322.642456, 307.907501, 48.0, 17.0 ],
+									"patching_rect" : [ 352.099976, 307.907501, 48.0, 17.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 2.0, 19.0, 48.0, 17.0 ],
 									"text" : "VCA",
