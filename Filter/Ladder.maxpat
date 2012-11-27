@@ -4,7 +4,8 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 1,
-			"revision" : 0
+			"revision" : 0,
+			"architecture" : "x86"
 		}
 ,
 		"rect" : [ 0.0, 44.0, 1440.0, 753.0 ],
@@ -39,7 +40,8 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 0
+							"revision" : 0,
+							"architecture" : "x86"
 						}
 ,
 						"rect" : [ 0.0, 44.0, 178.0, 116.0 ],
@@ -66,14 +68,27 @@
 								"box" : 								{
 									"fontname" : "Arial",
 									"fontsize" : 12.0,
-									"id" : "obj-12",
+									"id" : "obj-2",
 									"maxclass" : "newobj",
-									"numinlets" : 6,
+									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "signal" ],
-									"patching_rect" : [ 559.59375, 352.285706, 116.0, 20.0 ],
-									"presentation_rect" : [ 556.59375, 352.660706, 0.0, 0.0 ],
-									"text" : "scale~ -5. 5. 0. 120."
+									"patching_rect" : [ 559.59375, 365.785706, 42.0, 20.0 ],
+									"text" : "*~ 12."
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"fontname" : "Arial",
+									"fontsize" : 12.0,
+									"id" : "obj-28",
+									"maxclass" : "newobj",
+									"numinlets" : 2,
+									"numoutlets" : 1,
+									"outlettype" : [ "signal" ],
+									"patching_rect" : [ 559.59375, 328.785706, 35.0, 20.0 ],
+									"text" : "+~ 5"
 								}
 
 							}
@@ -577,7 +592,8 @@
 										"appversion" : 										{
 											"major" : 6,
 											"minor" : 1,
-											"revision" : 0
+											"revision" : 0,
+											"architecture" : "x86"
 										}
 ,
 										"rect" : [ 50.0, 94.0, 640.0, 685.0 ],
@@ -740,7 +756,8 @@
 														"appversion" : 														{
 															"major" : 6,
 															"minor" : 1,
-															"revision" : 0
+															"revision" : 0,
+															"architecture" : "x86"
 														}
 ,
 														"rect" : [ 50.0, 94.0, 816.0, 853.0 ],
@@ -1385,7 +1402,8 @@
 														"appversion" : 														{
 															"major" : 6,
 															"minor" : 1,
-															"revision" : 0
+															"revision" : 0,
+															"architecture" : "x86"
 														}
 ,
 														"rect" : [ 0.0, 44.0, 1440.0, 826.0 ],
@@ -5022,13 +5040,13 @@
 									"presentation_rect" : [ 120.640533, 18.157436, 52.0, 17.0 ],
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
+											"parameter_defer" : 1,
 											"parameter_enum" : [ "val1", "val2" ],
 											"parameter_mmax" : 1.0,
 											"parameter_initial" : [ 0.0 ],
 											"parameter_type" : 2,
 											"parameter_shortname" : "power",
-											"parameter_longname" : "power[3]",
-											"parameter_defer" : 1
+											"parameter_longname" : "power[3]"
 										}
 
 									}
@@ -5061,7 +5079,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 4,
 									"outlettype" : [ "", "", "", "" ],
-									"patching_rect" : [ 610.21875, 926.0, 59.5, 20.0 ],
+									"patching_rect" : [ 275.25, 480.223206, 59.5, 20.0 ],
 									"restore" : 									{
 										"1v/oct" : [ 25.51181 ],
 										"Linear" : [ 51.181103 ],
@@ -5071,7 +5089,7 @@
 									}
 ,
 									"text" : "autopattr",
-									"varname" : "u736000653"
+									"varname" : "u690000707"
 								}
 
 							}
@@ -5213,15 +5231,6 @@
 							}
 , 							{
 								"patchline" : 								{
-									"destination" : [ "obj-36", 1 ],
-									"disabled" : 0,
-									"hidden" : 0,
-									"source" : [ "obj-12", 0 ]
-								}
-
-							}
-, 							{
-								"patchline" : 								{
 									"destination" : [ "obj-25", 1 ],
 									"disabled" : 0,
 									"hidden" : 0,
@@ -5235,6 +5244,15 @@
 									"disabled" : 0,
 									"hidden" : 0,
 									"source" : [ "obj-17", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-36", 1 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-2", 0 ]
 								}
 
 							}
@@ -5276,7 +5294,7 @@
 							}
 , 							{
 								"patchline" : 								{
-									"destination" : [ "obj-12", 0 ],
+									"destination" : [ "obj-28", 0 ],
 									"disabled" : 0,
 									"hidden" : 0,
 									"source" : [ "obj-25", 0 ]
@@ -5298,6 +5316,15 @@
 									"disabled" : 0,
 									"hidden" : 0,
 									"source" : [ "obj-27", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-2", 0 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-28", 0 ]
 								}
 
 							}
@@ -5476,17 +5503,17 @@
 					}
 ,
 					"patching_rect" : [ 0.0, 0.0, 178.0, 116.0 ],
-					"varname" : "patcher[1]"
+					"varname" : "Ladder"
 				}
 
 			}
  ],
 		"lines" : [  ],
 		"parameters" : 		{
-			"obj-38::obj-23" : [ "1v/oct", "1v/oct", 0 ],
-			"obj-38::obj-11" : [ "Res", "Res", 0 ],
 			"obj-38::obj-33" : [ "Offset", "Offset", 0 ],
+			"obj-38::obj-23" : [ "1v/oct", "1v/oct", 0 ],
 			"obj-38::obj-1" : [ "Linear", "Linear", 0 ],
+			"obj-38::obj-11" : [ "Res", "Res", 0 ],
 			"obj-38::obj-55" : [ "power[3]", "power", 0 ]
 		}
 ,
