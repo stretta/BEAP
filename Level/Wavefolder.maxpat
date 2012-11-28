@@ -17,7 +17,7 @@
 		"gridonopen" : 0,
 		"gridsize" : [ 15.0, 15.0 ],
 		"gridsnaponopen" : 0,
-		"statusbarvisible" : 2,
+		"statusbarvisible" : 1,
 		"toolbarvisible" : 1,
 		"boxanimatetime" : 200,
 		"imprint" : 0,
@@ -54,7 +54,7 @@
 							"architecture" : "x86"
 						}
 ,
-						"rect" : [ 29.0, 52.0, 132.0, 116.0 ],
+						"rect" : [ 29.0, 63.0, 132.0, 116.0 ],
 						"bgcolor" : [ 1.0, 1.0, 1.0, 0.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 1,
@@ -75,6 +75,44 @@
 						"digest" : "",
 						"tags" : "",
 						"boxes" : [ 							{
+								"box" : 								{
+									"activebgcolor" : [ 0.572549, 0.615686, 0.658824, 0.0 ],
+									"activebgoncolor" : [ 0.278431, 0.839216, 1.0, 1.0 ],
+									"activetextcolor" : [ 1.0, 1.0, 1.0, 0.57 ],
+									"activetextoncolor" : [ 0.0, 0.019608, 0.078431, 1.0 ],
+									"bgcolor" : [ 0.101961, 0.101961, 0.101961, 0.78 ],
+									"bordercolor" : [ 0.0, 0.019608, 0.078431, 0.37 ],
+									"id" : "obj-1",
+									"maxclass" : "live.text",
+									"numinlets" : 1,
+									"numoutlets" : 2,
+									"outlettype" : [ "", "" ],
+									"parameter_enable" : 1,
+									"patching_rect" : [ 149.236206, 453.691772, 40.0, 20.0 ],
+									"presentation" : 1,
+									"presentation_rect" : [ 75.0, 19.0, 52.0, 14.764645 ],
+									"saved_attribute_attributes" : 									{
+										"valueof" : 										{
+											"parameter_enum" : [ "val1", "val2" ],
+											"parameter_unitstyle" : 1,
+											"parameter_mmax" : 5.0,
+											"parameter_mmin" : -5.0,
+											"parameter_initial" : [ 0.0 ],
+											"parameter_type" : 0,
+											"parameter_shortname" : "Bypass",
+											"parameter_longname" : "Bypass"
+										}
+
+									}
+,
+									"text" : "bypass",
+									"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+									"texton" : "bypass",
+									"varname" : "bypass"
+								}
+
+							}
+, 							{
 								"box" : 								{
 									"fontname" : "Arial",
 									"fontsize" : 12.0,
@@ -122,20 +160,6 @@
 								"box" : 								{
 									"fontname" : "Arial",
 									"fontsize" : 12.0,
-									"frgb" : 0.0,
-									"id" : "obj-9",
-									"maxclass" : "comment",
-									"numinlets" : 1,
-									"numoutlets" : 0,
-									"patching_rect" : [ 149.236206, 414.0, 49.0, 20.0 ],
-									"text" : "bypass"
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"fontname" : "Arial",
-									"fontsize" : 12.0,
 									"id" : "obj-17",
 									"maxclass" : "newobj",
 									"numinlets" : 2,
@@ -157,45 +181,6 @@
 									"outlettype" : [ "signal" ],
 									"patching_rect" : [ 149.236206, 534.754272, 567.0, 20.0 ],
 									"text" : "selector~ 2 1"
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"activebgcolor" : [ 0.572549, 0.615686, 0.658824, 0.0 ],
-									"activebgoncolor" : [ 0.278431, 0.839216, 1.0, 1.0 ],
-									"activetextcolor" : [ 1.0, 1.0, 1.0, 0.57 ],
-									"activetextoncolor" : [ 0.0, 0.019608, 0.078431, 1.0 ],
-									"bgcolor" : [ 0.101961, 0.101961, 0.101961, 0.78 ],
-									"bordercolor" : [ 0.0, 0.019608, 0.078431, 0.37 ],
-									"id" : "obj-1",
-									"maxclass" : "live.text",
-									"numinlets" : 1,
-									"numoutlets" : 2,
-									"outlettype" : [ "", "" ],
-									"parameter_enable" : 1,
-									"patching_rect" : [ 149.236206, 446.691772, 40.0, 20.0 ],
-									"presentation" : 1,
-									"presentation_rect" : [ 75.0, 19.0, 52.0, 14.764645 ],
-									"saved_attribute_attributes" : 									{
-										"valueof" : 										{
-											"parameter_mmax" : 5.0,
-											"parameter_mmin" : -5.0,
-											"parameter_initial" : [ 0.0 ],
-											"parameter_type" : 0,
-											"parameter_initial_enable" : 1,
-											"parameter_shortname" : "Bias",
-											"parameter_longname" : "Bias",
-											"parameter_enum" : [ "val1", "val2" ],
-											"parameter_unitstyle" : 1
-										}
-
-									}
-,
-									"text" : "bypass",
-									"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
-									"texton" : "bypass",
-									"varname" : "bypass"
 								}
 
 							}
@@ -239,13 +224,13 @@
 									"presentation_rect" : [ 2.0, 43.292229, 44.0, 47.0 ],
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
+											"parameter_unitstyle" : 1,
 											"parameter_mmax" : 5.0,
 											"parameter_mmin" : 1.0,
 											"parameter_initial" : [ 0 ],
 											"parameter_type" : 0,
 											"parameter_shortname" : "Range",
-											"parameter_longname" : "Range",
-											"parameter_unitstyle" : 1
+											"parameter_longname" : "Range"
 										}
 
 									}
@@ -501,7 +486,7 @@
 		"lines" : [  ],
 		"parameters" : 		{
 			"obj-3::obj-29" : [ "Range", "Range", 0 ],
-			"obj-3::obj-1" : [ "Bias", "Bias", 0 ]
+			"obj-3::obj-1" : [ "Bypass", "Bypass", 0 ]
 		}
 ,
 		"dependency_cache" : [  ]
