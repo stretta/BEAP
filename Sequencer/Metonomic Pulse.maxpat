@@ -8,7 +8,7 @@
 			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 7.0, 46.0, 1440.0, 753.0 ],
+		"rect" : [ 169.0, 156.0, 1440.0, 753.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -44,7 +44,7 @@
 							"architecture" : "x86"
 						}
 ,
-						"rect" : [ 7.0, 46.0, 107.0, 116.0 ],
+						"rect" : [ 169.0, 156.0, 107.0, 116.0 ],
 						"bgcolor" : [ 1.0, 1.0, 1.0, 0.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 1,
@@ -111,14 +111,14 @@
 									"presentation_rect" : [ 50.0, 19.0, 52.0, 14.764645 ],
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
+											"parameter_longname" : "mute",
+											"parameter_defer" : 1,
 											"parameter_enum" : [ "val1", "val2" ],
 											"parameter_mmax" : 1.0,
 											"parameter_initial" : [ 0.0 ],
 											"parameter_type" : 2,
 											"parameter_initial_enable" : 1,
-											"parameter_shortname" : "mute",
-											"parameter_longname" : "mute",
-											"parameter_defer" : 1
+											"parameter_shortname" : "mute"
 										}
 
 									}
@@ -157,12 +157,12 @@
 									"presentation_rect" : [ 4.0, 72.292229, 15.0, 15.0 ],
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
+											"parameter_longname" : "led",
 											"parameter_enum" : [ "off", "on" ],
 											"parameter_mmax" : 1.0,
 											"parameter_type" : 2,
 											"parameter_invisible" : 2,
-											"parameter_shortname" : "led",
-											"parameter_longname" : "led"
+											"parameter_shortname" : "led"
 										}
 
 									}
@@ -213,13 +213,13 @@
 									"presentation_rect" : [ 25.134384, 72.292229, 78.0, 15.0 ],
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
+											"parameter_longname" : "Key",
 											"parameter_unitstyle" : 2,
 											"parameter_mmax" : 500.0,
-											"parameter_initial" : [ 0.0 ],
+											"parameter_initial" : [ 10 ],
 											"parameter_type" : 0,
 											"parameter_initial_enable" : 1,
-											"parameter_shortname" : "Key",
-											"parameter_longname" : "Key"
+											"parameter_shortname" : "Key"
 										}
 
 									}
@@ -258,13 +258,13 @@
 									"presentation_rect" : [ 3.0, 46.792229, 17.0, 18.0 ],
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
+											"parameter_longname" : "live.toggle",
 											"parameter_enum" : [ "off", "on" ],
 											"parameter_mmax" : 1.0,
 											"parameter_initial" : [ 1 ],
 											"parameter_type" : 2,
 											"parameter_initial_enable" : 1,
-											"parameter_shortname" : "live.toggle",
-											"parameter_longname" : "live.toggle"
+											"parameter_shortname" : "live.toggle"
 										}
 
 									}
@@ -296,7 +296,7 @@
 									"framecolor" : [ 0.0, 0.0, 0.0, 0.0 ],
 									"hltcolor" : [ 0.362819, 0.362819, 0.362819, 1.0 ],
 									"id" : "obj-34",
-									"items" : [ "32.1.0", ",", "16.1.0", ",", "8.1.0", ",", "4.1.0", ",", "2.1.0", ",", "1.1.0", ",", "1nd", ",", "1n", ",", "1nt", ",", "2nd", ",", "2n", ",", "4nd", ",", "4n", ",", "4nt", ",", "8nd", ",", "8n", ",", "8nt", ",", "16nd", ",", "16n", ",", "16nt", ",", "32nd", ",", "32n", ",", "32nt", ",", "64nd", ",", "64n", ",", "128n" ],
+									"items" : [ "32.0.0", ",", "16.0.0", ",", "8.0.0", ",", "4.0.0", ",", "2.0.0", ",", "1.0.0", ",", "1nd", ",", "1n", ",", "1nt", ",", "2nd", ",", "2n", ",", "4nd", ",", "4n", ",", "4nt", ",", "8nd", ",", "8n", ",", "8nt", ",", "16nd", ",", "16n", ",", "16nt", ",", "32nd", ",", "32n", ",", "32nt", ",", "64nd", ",", "64n", ",", "128n" ],
 									"maxclass" : "umenu",
 									"numinlets" : 1,
 									"numoutlets" : 3,
@@ -338,7 +338,7 @@
 									"outlettype" : [ "", "", "", "" ],
 									"patching_rect" : [ 169.0, 493.0, 59.5, 20.0 ],
 									"restore" : 									{
-										"Mode" : [ "32.1.0" ],
+										"Mode" : [ "32.0.0" ],
 										"SampleStart" : [ 0.0 ],
 										"led" : [ 0.0 ],
 										"live.toggle" : [ 0.0 ],
@@ -346,7 +346,7 @@
 									}
 ,
 									"text" : "autopattr",
-									"varname" : "u641001100"
+									"varname" : "u482000760"
 								}
 
 							}
@@ -570,10 +570,10 @@
  ],
 		"lines" : [  ],
 		"parameters" : 		{
-			"obj-18::obj-29" : [ "mute", "mute", 0 ],
+			"obj-18::obj-27" : [ "led", "led", 0 ],
 			"obj-18::obj-129" : [ "Key", "Key", 0 ],
-			"obj-18::obj-20" : [ "live.toggle", "live.toggle", 0 ],
-			"obj-18::obj-27" : [ "led", "led", 0 ]
+			"obj-18::obj-29" : [ "mute", "mute", 0 ],
+			"obj-18::obj-20" : [ "live.toggle", "live.toggle", 0 ]
 		}
 ,
 		"dependency_cache" : [  ]
