@@ -41,7 +41,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 1310.5, 730.0, 150.0, 52.0 ],
-					"presentation_rect" : [ 1310.5, 726.0, 0.0, 0.0 ],
 					"text" : "max 5 compatible version of scale~"
 				}
 
@@ -57,7 +56,6 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "signal", "float" ],
 					"patching_rect" : [ 1352.0, 702.464355, 56.0, 20.0 ],
-					"presentation_rect" : [ 1352.0, 698.464355, 0.0, 0.0 ],
 					"sig" : 0.0
 				}
 
@@ -72,7 +70,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
 					"patching_rect" : [ 1352.0, 621.464355, 41.0, 20.0 ],
-					"presentation_rect" : [ 1352.0, 617.464355, 0.0, 0.0 ],
 					"text" : "/~ 12."
 				}
 
@@ -87,7 +84,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
 					"patching_rect" : [ 1352.0, 660.464355, 32.5, 20.0 ],
-					"presentation_rect" : [ 1352.0, 656.464355, 0.0, 0.0 ],
 					"text" : "-~ 5"
 				}
 
@@ -105,7 +101,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 1013.5, 740.0, 150.0, 52.0 ],
-					"presentation_rect" : [ 948.25, 776.0, 0.0, 0.0 ],
 					"text" : "max 5 compatible version of scale~"
 				}
 
@@ -181,7 +176,6 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "signal", "float" ],
 					"patching_rect" : [ 735.75, 657.464355, 56.0, 20.0 ],
-					"presentation_rect" : [ 822.0, 654.464355, 0.0, 0.0 ],
 					"sig" : 0.0
 				}
 
@@ -196,7 +190,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
 					"patching_rect" : [ 735.75, 621.464355, 41.0, 20.0 ],
-					"presentation_rect" : [ 817.0, 618.464355, 0.0, 0.0 ],
 					"text" : "mtof~"
 				}
 
@@ -629,11 +622,11 @@
 					"presentation_rect" : [ 1319.599976, 203.770004, 44.0, 47.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
+							"parameter_mmax" : 100.0,
 							"parameter_type" : 0,
 							"parameter_shortname" : "cv",
 							"parameter_longname" : "cv[1]",
-							"parameter_unitstyle" : 5,
-							"parameter_mmax" : 100.0
+							"parameter_unitstyle" : 5
 						}
 
 					}
@@ -1076,11 +1069,11 @@
 					"presentation_rect" : [ 67.5, 296.481842, 44.0, 47.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
+							"parameter_mmax" : 100.0,
 							"parameter_type" : 0,
 							"parameter_shortname" : "cv",
 							"parameter_longname" : "cv",
-							"parameter_unitstyle" : 5,
-							"parameter_mmax" : 100.0
+							"parameter_unitstyle" : 5
 						}
 
 					}
@@ -1196,7 +1189,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
 					"patching_rect" : [ 1236.0, 95.77002, 47.0, 21.0 ],
-					"text" : "<~ 2.5"
+					"text" : ">~ 2.5"
 				}
 
 			}
@@ -1247,7 +1240,7 @@
 							"architecture" : "x86"
 						}
 ,
-						"rect" : [ 59.0, 115.0, 190.0, 116.0 ],
+						"rect" : [ 49.0, 152.0, 190.0, 116.0 ],
 						"bgcolor" : [ 1.0, 1.0, 1.0, 0.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 1,
@@ -1281,13 +1274,13 @@
 									"presentation_rect" : [ 184.397644, 127.301857, 70.0, 15.0 ],
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
+											"parameter_mmax" : 2000.0,
 											"parameter_initial" : [ 0.0 ],
 											"parameter_type" : 0,
 											"parameter_initial_enable" : 1,
 											"parameter_shortname" : "SampleStart",
 											"parameter_longname" : "SampleStart",
-											"parameter_unitstyle" : 2,
-											"parameter_mmax" : 2000.0
+											"parameter_unitstyle" : 2
 										}
 
 									}
@@ -1485,14 +1478,14 @@
 									"presentation_rect" : [ 3.0, 43.0, 44.0, 47.0 ],
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
+											"parameter_mmax" : 2000.0,
 											"parameter_initial" : [ 50 ],
 											"parameter_type" : 0,
 											"parameter_initial_enable" : 1,
 											"parameter_shortname" : "Attack",
 											"parameter_longname" : "Attack",
 											"parameter_exponent" : 2.0,
-											"parameter_unitstyle" : 2,
-											"parameter_mmax" : 2000.0
+											"parameter_unitstyle" : 2
 										}
 
 									}
@@ -1538,13 +1531,13 @@
 									"presentation_rect" : [ 127.0, 19.0, 52.0, 14.764645 ],
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
+											"parameter_mmax" : 1.0,
 											"parameter_initial" : [ 0.0 ],
 											"parameter_type" : 2,
 											"parameter_shortname" : "Mute",
 											"parameter_longname" : "Mute",
 											"parameter_defer" : 1,
-											"parameter_enum" : [ "val1", "val2" ],
-											"parameter_mmax" : 1.0
+											"parameter_enum" : [ "val1", "val2" ]
 										}
 
 									}
@@ -1713,14 +1706,14 @@
 					"presentation_rect" : [ 172.977173, 66.238113, 52.0, 14.764645 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
+							"parameter_mmax" : 1.0,
 							"parameter_initial" : [ 0.0 ],
 							"parameter_type" : 2,
 							"parameter_initial_enable" : 1,
 							"parameter_shortname" : "bypass",
 							"parameter_longname" : "bypass",
 							"parameter_defer" : 1,
-							"parameter_enum" : [ "val1", "val2" ],
-							"parameter_mmax" : 1.0
+							"parameter_enum" : [ "val1", "val2" ]
 						}
 
 					}
@@ -1802,14 +1795,14 @@
 					"presentation_rect" : [ 142.977173, 36.238117, 52.0, 14.764645 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
+							"parameter_mmax" : 1.0,
 							"parameter_initial" : [ 0.0 ],
 							"parameter_type" : 2,
 							"parameter_initial_enable" : 1,
 							"parameter_shortname" : "mute",
 							"parameter_longname" : "mute",
 							"parameter_defer" : 1,
-							"parameter_enum" : [ "val1", "val2" ],
-							"parameter_mmax" : 1.0
+							"parameter_enum" : [ "val1", "val2" ]
 						}
 
 					}
@@ -2294,13 +2287,13 @@
 			}
  ],
 		"parameters" : 		{
-			"obj-10::obj-12" : [ "Mute", "Mute", 0 ],
 			"obj-70" : [ "cv[1]", "cv", 0 ],
 			"obj-20" : [ "mute", "mute", 0 ],
-			"obj-25" : [ "cv", "cv", 0 ],
 			"obj-10::obj-28" : [ "Attack", "Attack", 0 ],
+			"obj-25" : [ "cv", "cv", 0 ],
 			"obj-1" : [ "bypass", "bypass", 0 ],
-			"obj-10::obj-129" : [ "SampleStart", "SampleStart", 0 ]
+			"obj-10::obj-129" : [ "SampleStart", "SampleStart", 0 ],
+			"obj-10::obj-12" : [ "Mute", "Mute", 0 ]
 		}
 ,
 		"dependency_cache" : [  ]
