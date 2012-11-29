@@ -8,7 +8,7 @@
 			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 964.0, 249.0, 1217.0, 1002.0 ],
+		"rect" : [ 63.0, 249.0, 1217.0, 1002.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -44,7 +44,7 @@
 							"architecture" : "x86"
 						}
 ,
-						"rect" : [ 964.0, 249.0, 71.0, 116.0 ],
+						"rect" : [ 63.0, 249.0, 71.0, 116.0 ],
 						"bgcolor" : [ 1.0, 1.0, 1.0, 0.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 1,
@@ -116,7 +116,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 469.0, 435.0, 32.5, 18.0 ],
-									"text" : "0"
+									"text" : "5"
 								}
 
 							}
@@ -130,7 +130,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 431.0, 435.0, 32.5, 18.0 ],
-									"text" : "5"
+									"text" : "0"
 								}
 
 							}
@@ -145,7 +145,7 @@
 									"outlettype" : [ "", "", "", "" ],
 									"patching_rect" : [ 619.0, 299.0, 59.5, 20.0 ],
 									"text" : "autopattr",
-									"varname" : "u527001814"
+									"varname" : "u879000541"
 								}
 
 							}
