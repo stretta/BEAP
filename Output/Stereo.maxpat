@@ -73,7 +73,6 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 689.0, 347.0, 74.0, 20.0 ],
-									"presentation_rect" : [ 689.0, 347.0, 0.0, 0.0 ],
 									"text" : "prepend set"
 								}
 
@@ -209,10 +208,10 @@
 									"presentation_rect" : [ 5.0, 49.792229, 52.0, 15.0 ],
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
-											"parameter_longname" : "OutputChannel",
-											"parameter_enum" : [ "1-2", "3-4", "5-6", "7-8", "9-10", "11-12", "13-14", "15-16", "17-18", "19-20", "21-22", "23-24", "25-26", "27-28", "29-30", "31-32" ],
 											"parameter_type" : 2,
-											"parameter_shortname" : "OutputChannel"
+											"parameter_shortname" : "OutputChannel",
+											"parameter_longname" : "OutputChannel",
+											"parameter_enum" : [ "1-2", "3-4", "5-6", "7-8", "9-10", "11-12", "13-14", "15-16", "17-18", "19-20", "21-22", "23-24", "25-26", "27-28", "29-30", "31-32" ]
 										}
 
 									}
@@ -241,13 +240,13 @@
 									"presentation_rect" : [ 3.975494, 72.574341, 52.0, 14.764645 ],
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
-											"parameter_longname" : "DSP",
-											"parameter_defer" : 1,
-											"parameter_enum" : [ "val1", "val2" ],
 											"parameter_mmax" : 1.0,
 											"parameter_initial" : [ 0.0 ],
 											"parameter_type" : 2,
-											"parameter_shortname" : "DSP"
+											"parameter_shortname" : "DSP",
+											"parameter_longname" : "DSP",
+											"parameter_defer" : 1,
+											"parameter_enum" : [ "val1", "val2" ]
 										}
 
 									}
@@ -275,13 +274,13 @@
 									"presentation_rect" : [ 72.896645, 47.792229, 68.0, 38.0 ],
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
-											"parameter_longname" : "Level",
 											"parameter_unitstyle" : 4,
 											"parameter_mmax" : 6.0,
 											"parameter_mmin" : -70.0,
 											"parameter_initial" : [ 0.0 ],
 											"parameter_type" : 0,
-											"parameter_shortname" : "Level"
+											"parameter_shortname" : "Level",
+											"parameter_longname" : "Level"
 										}
 
 									}
@@ -404,7 +403,7 @@
 									}
 ,
 									"text" : "autopattr",
-									"varname" : "u032000884"
+									"varname" : "u410000279"
 								}
 
 							}
@@ -427,14 +426,14 @@
 									"presentation_rect" : [ 88.896645, 20.117678, 52.0, 14.764645 ],
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
-											"parameter_longname" : "Mute",
-											"parameter_defer" : 1,
-											"parameter_enum" : [ "val1", "val2" ],
 											"parameter_mmax" : 1.0,
 											"parameter_initial" : [ 0.0 ],
 											"parameter_type" : 2,
 											"parameter_initial_enable" : 1,
-											"parameter_shortname" : "Mute"
+											"parameter_shortname" : "Mute",
+											"parameter_longname" : "Mute",
+											"parameter_defer" : 1,
+											"parameter_enum" : [ "val1", "val2" ]
 										}
 
 									}
@@ -747,8 +746,6 @@
 					}
 ,
 					"patching_rect" : [ 1.0, 1.0, 148.0, 116.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 0.0, 0.0, 147.0, 116.0 ],
 					"varname" : "StereoOutput"
 				}
 
@@ -758,8 +755,8 @@
 		"parameters" : 		{
 			"obj-3::obj-55" : [ "DSP", "DSP", 0 ],
 			"obj-3::obj-22" : [ "Mute", "Mute", 0 ],
-			"obj-3::obj-52" : [ "Level", "Level", 0 ],
-			"obj-3::obj-56" : [ "OutputChannel", "OutputChannel", 0 ]
+			"obj-3::obj-56" : [ "OutputChannel", "OutputChannel", 0 ],
+			"obj-3::obj-52" : [ "Level", "Level", 0 ]
 		}
 ,
 		"dependency_cache" : [  ]

@@ -156,14 +156,14 @@
 									"presentation_rect" : [ 148.206268, 43.0, 59.843529, 47.0 ],
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
-											"parameter_speedlim" : 0.0,
-											"parameter_enum" : [ "saw", "square", "pulse" ],
 											"parameter_unitstyle" : 0,
 											"parameter_initial" : [ 0 ],
 											"parameter_type" : 2,
 											"parameter_initial_enable" : 1,
 											"parameter_shortname" : "Waveform",
-											"parameter_longname" : "Waveform"
+											"parameter_longname" : "Waveform",
+											"parameter_speedlim" : 0.0,
+											"parameter_enum" : [ "saw", "square", "pulse" ]
 										}
 
 									}
@@ -2135,7 +2135,7 @@
 									}
 ,
 									"text" : "autopattr",
-									"varname" : "u412000255"
+									"varname" : "u209000922"
 								}
 
 							}
@@ -2400,14 +2400,14 @@
 									"presentation_rect" : [ 148.206268, 19.318798, 59.843536, 14.764645 ],
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
-											"parameter_defer" : 1,
-											"parameter_enum" : [ "val1", "val2" ],
 											"parameter_mmax" : 1.0,
 											"parameter_initial" : [ 0.0 ],
 											"parameter_type" : 2,
 											"parameter_initial_enable" : 1,
 											"parameter_shortname" : "Mute",
-											"parameter_longname" : "Mute"
+											"parameter_longname" : "Mute",
+											"parameter_defer" : 1,
+											"parameter_enum" : [ "val1", "val2" ]
 										}
 
 									}
@@ -2783,11 +2783,11 @@
  ],
 		"lines" : [  ],
 		"parameters" : 		{
+			"obj-18::obj-331" : [ "Waveform", "Waveform", 0 ],
 			"obj-18::obj-23" : [ "CV", "CV", 0 ],
 			"obj-18::obj-33" : [ "Offset", "Offset", 0 ],
 			"obj-18::obj-66" : [ "Thick", "Thick", 0 ],
-			"obj-18::obj-20" : [ "Mute", "Mute", 0 ],
-			"obj-18::obj-331" : [ "Waveform", "Waveform", 0 ]
+			"obj-18::obj-20" : [ "Mute", "Mute", 0 ]
 		}
 ,
 		"dependency_cache" : [  ]
