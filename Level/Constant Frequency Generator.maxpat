@@ -8,7 +8,7 @@
 			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 340.0, 133.0, 1400.0, 762.0 ],
+		"rect" : [ 20.0, 44.0, 1400.0, 762.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -44,7 +44,7 @@
 							"architecture" : "x86"
 						}
 ,
-						"rect" : [ 340.0, 133.0, 125.0, 116.0 ],
+						"rect" : [ 20.0, 44.0, 125.0, 116.0 ],
 						"bgcolor" : [ 1.0, 1.0, 1.0, 0.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 1,
@@ -213,16 +213,18 @@
 									"htextcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 									"id" : "obj-70",
 									"maxclass" : "number~",
-									"maximum" : 5.0,
-									"minimum" : -5.0,
+									"maximum" : 20000.0,
+									"minimum" : 0.0,
 									"mode" : 1,
+									"monitormode" : 0,
+									"numdecimalplaces" : 3,
 									"numinlets" : 2,
 									"numoutlets" : 2,
 									"outlettype" : [ "signal", "float" ],
 									"patching_rect" : [ 598.25, 242.0, 68.0, 20.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 4.0, 54.516212, 68.0, 20.0 ],
-									"sig" : 0.0,
+									"sig" : 740.0,
 									"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 								}
 
@@ -325,13 +327,13 @@
 									"presentation_rect" : [ 65.5, 19.0, 52.0, 14.764645 ],
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
-											"parameter_longname" : "Mute",
 											"parameter_defer" : 1,
 											"parameter_enum" : [ "val1", "val2" ],
 											"parameter_mmax" : 1.0,
 											"parameter_initial" : [ 0.0 ],
 											"parameter_type" : 2,
-											"parameter_shortname" : "Mute"
+											"parameter_shortname" : "Mute",
+											"parameter_longname" : "Mute"
 										}
 
 									}
@@ -539,8 +541,6 @@
 					}
 ,
 					"patching_rect" : [ 0.0, 0.0, 125.0, 116.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 58.431091, 244.029999, 190.0, 116.0 ],
 					"varname" : "patcher"
 				}
 

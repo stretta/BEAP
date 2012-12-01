@@ -8,7 +8,7 @@
 			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 140.0, 141.0, 1217.0, 1002.0 ],
+		"rect" : [ 0.0, 44.0, 1440.0, 753.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -44,7 +44,7 @@
 							"architecture" : "x86"
 						}
 ,
-						"rect" : [ 140.0, 141.0, 282.0, 232.0 ],
+						"rect" : [ 0.0, 44.0, 282.0, 232.0 ],
 						"bgcolor" : [ 1.0, 1.0, 1.0, 0.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 1,
@@ -130,8 +130,8 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "float" ],
-									"patching_rect" : [ 708.0, 340.0, 83.0, 20.0 ],
-									"text" : "snapshot~ 10"
+									"patching_rect" : [ 708.0, 340.0, 90.0, 20.0 ],
+									"text" : "snapshot~ 200"
 								}
 
 							}
@@ -226,7 +226,7 @@
 									"outlettype" : [ "", "", "", "" ],
 									"patching_rect" : [ 850.0, 437.0, 59.5, 20.0 ],
 									"text" : "autopattr",
-									"varname" : "u442000035"
+									"varname" : "u848000682"
 								}
 
 							}
