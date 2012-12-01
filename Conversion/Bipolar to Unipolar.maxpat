@@ -44,7 +44,7 @@
 							"architecture" : "x86"
 						}
 ,
-						"rect" : [ 0.0, 44.0, 107.0, 116.0 ],
+						"rect" : [ 0.0, 44.0, 106.0, 116.0 ],
 						"bgcolor" : [ 1.0, 1.0, 1.0, 0.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 1,
@@ -83,14 +83,14 @@
 									"presentation_rect" : [ 50.0, 19.0, 52.0, 14.764645 ],
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
+											"parameter_defer" : 1,
+											"parameter_enum" : [ "val1", "val2" ],
 											"parameter_mmax" : 1.0,
 											"parameter_initial" : [ 0.0 ],
 											"parameter_type" : 2,
 											"parameter_initial_enable" : 1,
 											"parameter_shortname" : "bypass",
-											"parameter_longname" : "bypass",
-											"parameter_defer" : 1,
-											"parameter_enum" : [ "val1", "val2" ]
+											"parameter_longname" : "bypass"
 										}
 
 									}
@@ -359,8 +359,6 @@
 					}
 ,
 					"patching_rect" : [ 0.0, 0.0, 106.0, 116.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 0.0, 0.0, 107.0, 116.0 ],
 					"varname" : "BP2UNI"
 				}
 
