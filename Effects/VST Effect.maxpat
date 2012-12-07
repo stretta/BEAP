@@ -32,7 +32,7 @@
 					"embed" : 1,
 					"id" : "obj-10",
 					"maxclass" : "bpatcher",
-					"numinlets" : 1,
+					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "signal", "signal" ],
 					"patcher" : 					{
@@ -66,6 +66,34 @@
 						"tags" : "",
 						"boxes" : [ 							{
 								"box" : 								{
+									"fontname" : "Arial",
+									"fontsize" : 12.0,
+									"id" : "obj-2",
+									"maxclass" : "newobj",
+									"numinlets" : 2,
+									"numoutlets" : 1,
+									"outlettype" : [ "signal" ],
+									"patching_rect" : [ 755.5, 147.0, 42.0, 20.0 ],
+									"presentation_rect" : [ 757.0, 146.0, 0.0, 0.0 ],
+									"text" : "*~ 0.2"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"comment" : "",
+									"id" : "obj-4",
+									"maxclass" : "inlet",
+									"numinlets" : 0,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 755.5, 66.5, 25.0, 25.0 ],
+									"presentation_rect" : [ 757.0, 65.5, 0.0, 0.0 ]
+								}
+
+							}
+, 							{
+								"box" : 								{
 									"fontname" : "Arial Bold",
 									"fontsize" : 9.0,
 									"frgb" : 0.0,
@@ -91,7 +119,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 944.0, 345.0, 150.0, 47.0 ],
+									"patching_rect" : [ 84.0, 409.0, 150.0, 47.0 ],
 									"text" : "BEAP adaption by Luis Enrique D'Elias Ortega and Matthew Davidson"
 								}
 
@@ -111,7 +139,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
 									"parameter_enable" : 1,
-									"patching_rect" : [ 886.0, 129.0, 104.0, 20.0 ],
+									"patching_rect" : [ 692.25, 298.0, 104.0, 20.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 9.0, 72.379929, 90.634384, 14.764645 ],
 									"saved_attribute_attributes" : 									{
@@ -148,7 +176,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
 									"parameter_enable" : 1,
-									"patching_rect" : [ 767.0, 45.529999, 70.0, 18.0 ],
+									"patching_rect" : [ 573.25, 214.529999, 70.0, 18.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 9.0, 51.821411, 90.634384, 14.764645 ],
 									"saved_attribute_attributes" : 									{
@@ -178,8 +206,7 @@
 									"maxclass" : "outlet",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 727.0, 671.0, 25.0, 25.0 ],
-									"presentation_rect" : [ 732.0, 676.0, 0.0, 0.0 ]
+									"patching_rect" : [ 727.0, 671.0, 25.0, 25.0 ]
 								}
 
 							}
@@ -207,7 +234,6 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "signal" ],
 									"patching_rect" : [ 727.0, 607.883911, 204.0, 20.0 ],
-									"presentation_rect" : [ 729.0, 607.883911, 0.0, 0.0 ],
 									"text" : "selector~ 2 1"
 								}
 
@@ -287,7 +313,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 767.0, 167.0, 81.0, 20.0 ],
+									"patching_rect" : [ 573.25, 336.0, 81.0, 20.0 ],
 									"text" : "prepend plug"
 								}
 
@@ -301,7 +327,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "" ],
-									"patching_rect" : [ 767.0, 131.529999, 70.0, 20.0 ],
+									"patching_rect" : [ 573.25, 300.529999, 70.0, 20.0 ],
 									"restore" : [ "blackbird:/Library/Audio/Plug-Ins/Components/Eos.component" ],
 									"saved_object_attributes" : 									{
 										"parameter_enable" : 0
@@ -321,7 +347,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 2,
 									"outlettype" : [ "", "bang" ],
-									"patching_rect" : [ 767.0, 86.529999, 69.0, 20.0 ],
+									"patching_rect" : [ 573.25, 255.529999, 69.0, 20.0 ],
 									"text" : "opendialog"
 								}
 
@@ -349,7 +375,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 886.0, 167.0, 37.0, 18.0 ],
+									"patching_rect" : [ 692.25, 336.0, 37.0, 18.0 ],
 									"text" : "open"
 								}
 
@@ -363,7 +389,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 8,
 									"outlettype" : [ "signal", "signal", "", "list", "int", "", "", "" ],
-									"patching_rect" : [ 667.0, 255.0, 113.5, 20.0 ],
+									"patching_rect" : [ 682.75, 409.0, 113.5, 20.0 ],
 									"save" : [ "#N", "vst~", "loaduniqueid", 0, ";" ],
 									"text" : "vst~"
 								}
@@ -553,6 +579,15 @@
 							}
 , 							{
 								"patchline" : 								{
+									"destination" : [ "obj-5", 1 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-2", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
 									"destination" : [ "obj-22", 0 ],
 									"disabled" : 0,
 									"hidden" : 0,
@@ -616,6 +651,25 @@
 							}
 , 							{
 								"patchline" : 								{
+									"destination" : [ "obj-2", 0 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-4", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-6", 2 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"midpoints" : [ 765.0, 134.191956, 921.5, 134.191956 ],
+									"source" : [ "obj-4", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
 									"destination" : [ "obj-10", 0 ],
 									"disabled" : 0,
 									"hidden" : 0,
@@ -629,15 +683,6 @@
 									"disabled" : 0,
 									"hidden" : 0,
 									"midpoints" : [ 676.5, 116.0, 573.5, 116.0 ],
-									"source" : [ "obj-41", 0 ]
-								}
-
-							}
-, 							{
-								"patchline" : 								{
-									"destination" : [ "obj-6", 2 ],
-									"disabled" : 0,
-									"hidden" : 0,
 									"source" : [ "obj-41", 0 ]
 								}
 
