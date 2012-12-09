@@ -560,7 +560,7 @@
 									}
 ,
 									"text" : "autopattr",
-									"varname" : "u942000479"
+									"varname" : "u921000996"
 								}
 
 							}
@@ -892,7 +892,7 @@
 							}
 , 							{
 								"patchline" : 								{
-									"destination" : [ "obj-41", 2 ],
+									"destination" : [ "obj-41", 0 ],
 									"disabled" : 0,
 									"hidden" : 0,
 									"source" : [ "obj-31", 0 ]
@@ -919,7 +919,7 @@
 							}
 , 							{
 								"patchline" : 								{
-									"destination" : [ "obj-41", 3 ],
+									"destination" : [ "obj-41", 0 ],
 									"disabled" : 0,
 									"hidden" : 0,
 									"source" : [ "obj-34", 0 ]
@@ -937,7 +937,7 @@
 							}
 , 							{
 								"patchline" : 								{
-									"destination" : [ "obj-41", 1 ],
+									"destination" : [ "obj-41", 0 ],
 									"disabled" : 0,
 									"hidden" : 0,
 									"source" : [ "obj-36", 0 ]
@@ -1054,11 +1054,11 @@
  ],
 		"lines" : [  ],
 		"parameters" : 		{
-			"obj-15::obj-29" : [ "3", "3", 0 ],
-			"obj-15::obj-33" : [ "4", "4", 0 ],
-			"obj-15::obj-37" : [ "Mute", "Mute", 0 ],
 			"obj-15::obj-39" : [ "1", "1", 0 ],
-			"obj-15::obj-32" : [ "2", "2", 0 ]
+			"obj-15::obj-32" : [ "2", "2", 0 ],
+			"obj-15::obj-37" : [ "Mute", "Mute", 0 ],
+			"obj-15::obj-29" : [ "3", "3", 0 ],
+			"obj-15::obj-33" : [ "4", "4", 0 ]
 		}
 ,
 		"dependency_cache" : [  ]
