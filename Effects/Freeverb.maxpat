@@ -74,7 +74,6 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "signal" ],
 									"patching_rect" : [ 489.0, 443.691772, 58.5, 20.0 ],
-									"presentation_rect" : [ 797.5, 423.691772, 0.0, 0.0 ],
 									"text" : "+~"
 								}
 
@@ -103,7 +102,6 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "signal" ],
 									"patching_rect" : [ 603.0, 371.0, 32.5, 20.0 ],
-									"presentation_rect" : [ 823.0, 349.0, 0.0, 0.0 ],
 									"text" : "*~"
 								}
 
@@ -165,11 +163,11 @@
 									"presentation_rect" : [ 138.415253, 44.0, 44.0, 47.0 ],
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
-											"parameter_longname" : "Dry",
 											"parameter_unitstyle" : 5,
 											"parameter_mmax" : 100.0,
 											"parameter_type" : 0,
-											"parameter_shortname" : "Dry"
+											"parameter_shortname" : "Dry",
+											"parameter_longname" : "Dry"
 										}
 
 									}
@@ -302,20 +300,6 @@
 								"box" : 								{
 									"fontname" : "Arial",
 									"fontsize" : 12.0,
-									"id" : "obj-12",
-									"maxclass" : "newobj",
-									"numinlets" : 2,
-									"numoutlets" : 1,
-									"outlettype" : [ "int" ],
-									"patching_rect" : [ 647.0, 533.907471, 32.5, 20.0 ],
-									"text" : "+ 1"
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"fontname" : "Arial",
-									"fontsize" : 12.0,
 									"id" : "obj-22",
 									"maxclass" : "newobj",
 									"numinlets" : 3,
@@ -356,7 +340,7 @@
 									}
 ,
 									"text" : "autopattr",
-									"varname" : "u190003684"
+									"varname" : "u945000802"
 								}
 
 							}
@@ -404,11 +388,11 @@
 									"presentation_rect" : [ 91.276833, 44.0, 44.0, 47.0 ],
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
-											"parameter_longname" : "Damp[1]",
 											"parameter_unitstyle" : 1,
 											"parameter_mmax" : 1.0,
 											"parameter_type" : 0,
-											"parameter_shortname" : "Damp"
+											"parameter_shortname" : "Damp",
+											"parameter_longname" : "Damp[1]"
 										}
 
 									}
@@ -433,11 +417,11 @@
 									"presentation_rect" : [ 45.638416, 44.0, 44.0, 47.0 ],
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
-											"parameter_longname" : "Feedback2",
 											"parameter_unitstyle" : 1,
 											"parameter_mmax" : 4.0,
 											"parameter_type" : 0,
-											"parameter_shortname" : "FB2"
+											"parameter_shortname" : "FB2",
+											"parameter_longname" : "Feedback2"
 										}
 
 									}
@@ -462,11 +446,11 @@
 									"presentation_rect" : [ 0.0, 44.0, 44.0, 47.0 ],
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
-											"parameter_longname" : "Feedback1",
 											"parameter_unitstyle" : 1,
 											"parameter_mmax" : 4.0,
 											"parameter_type" : 0,
-											"parameter_shortname" : "FB1"
+											"parameter_shortname" : "FB1",
+											"parameter_longname" : "Feedback1"
 										}
 
 									}
@@ -551,14 +535,14 @@
 									"presentation_rect" : [ 126.915253, 19.0, 52.0, 14.764645 ],
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
-											"parameter_longname" : "bypass[3]",
-											"parameter_defer" : 1,
-											"parameter_enum" : [ "val1", "val2" ],
 											"parameter_mmax" : 1.0,
 											"parameter_initial" : [ 0.0 ],
 											"parameter_type" : 2,
 											"parameter_initial_enable" : 1,
-											"parameter_shortname" : "bypass"
+											"parameter_shortname" : "bypass",
+											"parameter_longname" : "bypass[3]",
+											"parameter_defer" : 1,
+											"parameter_enum" : [ "val1", "val2" ]
 										}
 
 									}
@@ -820,15 +804,6 @@
 							}
 , 							{
 								"patchline" : 								{
-									"destination" : [ "obj-22", 0 ],
-									"disabled" : 0,
-									"hidden" : 0,
-									"source" : [ "obj-12", 0 ]
-								}
-
-							}
-, 							{
-								"patchline" : 								{
 									"destination" : [ "obj-1", 0 ],
 									"disabled" : 0,
 									"hidden" : 0,
@@ -905,7 +880,7 @@
 							}
 , 							{
 								"patchline" : 								{
-									"destination" : [ "obj-12", 0 ],
+									"destination" : [ "obj-22", 0 ],
 									"disabled" : 0,
 									"hidden" : 0,
 									"source" : [ "obj-24", 0 ]
@@ -1106,10 +1081,10 @@
 		"lines" : [  ],
 		"parameters" : 		{
 			"obj-2::obj-31" : [ "Feedback1", "FB1", 0 ],
-			"obj-2::obj-26" : [ "bypass[3]", "bypass", 0 ],
-			"obj-2::obj-101" : [ "Dry", "Dry", 0 ],
+			"obj-2::obj-32" : [ "Feedback2", "FB2", 0 ],
 			"obj-2::obj-33" : [ "Damp[1]", "Damp", 0 ],
-			"obj-2::obj-32" : [ "Feedback2", "FB2", 0 ]
+			"obj-2::obj-101" : [ "Dry", "Dry", 0 ],
+			"obj-2::obj-26" : [ "bypass[3]", "bypass", 0 ]
 		}
 ,
 		"dependency_cache" : [ 			{
