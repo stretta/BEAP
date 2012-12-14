@@ -8,7 +8,7 @@
 			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 0.0, 44.0, 1440.0, 755.0 ],
+		"rect" : [ 0.0, 70.0, 1440.0, 729.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -44,7 +44,7 @@
 							"architecture" : "x86"
 						}
 ,
-						"rect" : [ 0.0, 44.0, 265.0, 116.0 ],
+						"rect" : [ 0.0, 70.0, 265.0, 116.0 ],
 						"bgcolor" : [ 1.0, 1.0, 1.0, 0.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 1,
@@ -68,13 +68,39 @@
 								"box" : 								{
 									"fontname" : "Arial",
 									"fontsize" : 12.0,
+									"id" : "obj-23",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 4,
+									"outlettype" : [ "", "", "", "" ],
+									"patching_rect" : [ 278.0, 852.0, 59.5, 20.0 ],
+									"restore" : 									{
+										"Feedback" : [ 16.0 ],
+										"HPF" : [ 20.0 ],
+										"LPF" : [ 20000.0 ],
+										"Mix" : [ 50.0 ],
+										"bypass" : [ 0.0 ],
+										"delay_left" : [ 9.0 ],
+										"delay_right" : [ 3.0 ],
+										"stepduration[4]" : [ 13.0 ],
+										"stepduration[6]" : [ 13.0 ]
+									}
+,
+									"text" : "autopattr",
+									"varname" : "u320001359"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"fontname" : "Arial",
+									"fontsize" : 12.0,
 									"id" : "obj-20",
 									"maxclass" : "newobj",
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "signal" ],
 									"patching_rect" : [ 920.380127, 1575.754272, 36.0, 20.0 ],
-									"presentation_rect" : [ 941.380127, 1582.0, 0.0, 0.0 ],
 									"text" : "*~ 5."
 								}
 
@@ -205,14 +231,14 @@
 									"presentation_rect" : [ 210.788971, 20.0, 52.0, 14.764645 ],
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
+											"parameter_defer" : 1,
 											"parameter_enum" : [ "val1", "val2" ],
 											"parameter_mmax" : 1.0,
 											"parameter_initial" : [ 0.0 ],
 											"parameter_type" : 2,
 											"parameter_initial_enable" : 1,
 											"parameter_shortname" : "bypass",
-											"parameter_longname" : "bypass",
-											"parameter_defer" : 1
+											"parameter_longname" : "bypass"
 										}
 
 									}
@@ -2377,13 +2403,13 @@
 		"parameters" : 		{
 			"obj-10::obj-27" : [ "Feedback", "Feedback", 0 ],
 			"obj-10::obj-708" : [ "step.duration[9]", "step.duration", 0 ],
-			"obj-10::obj-957" : [ "step.duration[6]", "step.duration", 0 ],
-			"obj-10::obj-49" : [ "HPF", "HPF", 0 ],
-			"obj-10::obj-7" : [ "bypass", "bypass", 0 ],
-			"obj-10::obj-9" : [ "delay_right", "delay_right", 0 ],
 			"obj-10::obj-96" : [ "delay_left", "delay_left", 0 ],
+			"obj-10::obj-118" : [ "Mix", "Mix", 0 ],
+			"obj-10::obj-49" : [ "HPF", "HPF", 0 ],
+			"obj-10::obj-957" : [ "step.duration[6]", "step.duration", 0 ],
 			"obj-10::obj-50" : [ "LPF", "LPF", 0 ],
-			"obj-10::obj-118" : [ "Mix", "Mix", 0 ]
+			"obj-10::obj-7" : [ "bypass", "bypass", 0 ],
+			"obj-10::obj-9" : [ "delay_right", "delay_right", 0 ]
 		}
 ,
 		"dependency_cache" : [ 			{
