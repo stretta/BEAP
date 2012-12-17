@@ -240,13 +240,13 @@
 									"presentation_rect" : [ 3.975494, 72.574341, 52.0, 14.764645 ],
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
-											"parameter_mmax" : 1.0,
 											"parameter_initial" : [ 0.0 ],
 											"parameter_type" : 2,
 											"parameter_shortname" : "DSP",
 											"parameter_longname" : "DSP",
 											"parameter_defer" : 1,
-											"parameter_enum" : [ "val1", "val2" ]
+											"parameter_enum" : [ "val1", "val2" ],
+											"parameter_mmax" : 1.0
 										}
 
 									}
@@ -274,13 +274,13 @@
 									"presentation_rect" : [ 72.896645, 47.792229, 68.0, 38.0 ],
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
-											"parameter_unitstyle" : 4,
-											"parameter_mmax" : 6.0,
 											"parameter_mmin" : -70.0,
 											"parameter_initial" : [ 0.0 ],
 											"parameter_type" : 0,
 											"parameter_shortname" : "Level",
-											"parameter_longname" : "Level"
+											"parameter_longname" : "Level",
+											"parameter_unitstyle" : 4,
+											"parameter_mmax" : 6.0
 										}
 
 									}
@@ -403,7 +403,7 @@
 									}
 ,
 									"text" : "autopattr",
-									"varname" : "u410000279"
+									"varname" : "u247000151"
 								}
 
 							}
@@ -426,14 +426,14 @@
 									"presentation_rect" : [ 88.896645, 20.117678, 52.0, 14.764645 ],
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
-											"parameter_mmax" : 1.0,
 											"parameter_initial" : [ 0.0 ],
 											"parameter_type" : 2,
 											"parameter_initial_enable" : 1,
 											"parameter_shortname" : "Mute",
 											"parameter_longname" : "Mute",
 											"parameter_defer" : 1,
-											"parameter_enum" : [ "val1", "val2" ]
+											"parameter_enum" : [ "val1", "val2" ],
+											"parameter_mmax" : 1.0
 										}
 
 									}
@@ -442,23 +442,6 @@
 									"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 									"texton" : "mute",
 									"varname" : "Mute"
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"fontname" : "Arial Bold",
-									"fontsize" : 9.0,
-									"frgb" : 0.0,
-									"id" : "obj-8",
-									"maxclass" : "comment",
-									"numinlets" : 1,
-									"numoutlets" : 0,
-									"patching_rect" : [ 352.099976, 220.0, 37.0, 17.0 ],
-									"presentation" : 1,
-									"presentation_rect" : [ 2.0, 97.0, 38.0, 17.0 ],
-									"text" : "Signal",
-									"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 								}
 
 							}
@@ -753,10 +736,10 @@
  ],
 		"lines" : [  ],
 		"parameters" : 		{
+			"obj-3::obj-52" : [ "Level", "Level", 0 ],
 			"obj-3::obj-55" : [ "DSP", "DSP", 0 ],
 			"obj-3::obj-22" : [ "Mute", "Mute", 0 ],
-			"obj-3::obj-56" : [ "OutputChannel", "OutputChannel", 0 ],
-			"obj-3::obj-52" : [ "Level", "Level", 0 ]
+			"obj-3::obj-56" : [ "OutputChannel", "OutputChannel", 0 ]
 		}
 ,
 		"dependency_cache" : [  ]

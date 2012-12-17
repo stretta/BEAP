@@ -8,7 +8,7 @@
 			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 474.0, 271.0, 1089.0, 999.0 ],
+		"rect" : [ 0.0, 44.0, 1440.0, 755.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -44,7 +44,7 @@
 							"architecture" : "x86"
 						}
 ,
-						"rect" : [ 474.0, 271.0, 170.0, 116.0 ],
+						"rect" : [ 0.0, 44.0, 170.0, 116.0 ],
 						"bgcolor" : [ 1.0, 1.0, 1.0, 0.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 1,
@@ -276,8 +276,8 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "float" ],
-									"patching_rect" : [ 803.405701, 599.0, 125.0, 18.0 ],
-									"text" : "snapshot~ 10 @active 1"
+									"patching_rect" : [ 803.405701, 599.0, 124.0, 18.0 ],
+									"text" : "snapshot~ 20 @active 1"
 								}
 
 							}
@@ -455,7 +455,6 @@
 									"prototypename" : "amount",
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
-											"parameter_linknames" : 1,
 											"parameter_speedlim" : 0.0,
 											"parameter_unitstyle" : 1,
 											"parameter_mmax" : 1.0,
@@ -463,7 +462,8 @@
 											"parameter_type" : 0,
 											"parameter_shortname" : "Phase",
 											"parameter_annotation_name" : "Phase",
-											"parameter_longname" : "SpectraLFOPhase[1]"
+											"parameter_longname" : "SpectraLFOPhase[1]",
+											"parameter_linknames" : 1
 										}
 
 									}
@@ -4359,7 +4359,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "float" ],
 									"patching_rect" : [ 616.007568, 473.1427, 124.0, 18.0 ],
-									"text" : "snapshot~ 10 @active 1"
+									"text" : "snapshot~ 20 @active 1"
 								}
 
 							}
@@ -4450,7 +4450,7 @@
 									}
 ,
 									"text" : "autopattr",
-									"varname" : "u287001125"
+									"varname" : "u905000617"
 								}
 
 							}
@@ -4905,14 +4905,14 @@
  ],
 		"lines" : [  ],
 		"parameters" : 		{
-			"obj-74::obj-89" : [ "SpectraLFORate[1]", "Rate", 0 ],
-			"obj-74::obj-12" : [ "Mute[6]", "Mute", 0 ],
-			"obj-74::obj-144" : [ "SpectraLFOPhase[1]", "Phase", 0 ],
-			"obj-74::obj-88" : [ "SpectraLFOTimeMode[1]", "Time Mode", 1 ],
 			"obj-74::obj-81" : [ "InvertA[1]", "Phase-Inversion", 1 ],
-			"obj-74::obj-75" : [ "SpectraLFOShape[1]", "Shape", 0 ],
+			"obj-74::obj-12" : [ "Mute[6]", "Mute", 0 ],
 			"obj-74::obj-94" : [ "ReTriggerA[1]", "Re-Trigger", 0 ],
-			"obj-74::obj-74" : [ "SpectraLFORateSync[1]", "Rate", 0 ]
+			"obj-74::obj-75" : [ "SpectraLFOShape[1]", "Shape", 0 ],
+			"obj-74::obj-88" : [ "SpectraLFOTimeMode[1]", "Time Mode", 1 ],
+			"obj-74::obj-89" : [ "SpectraLFORate[1]", "Rate", 0 ],
+			"obj-74::obj-74" : [ "SpectraLFORateSync[1]", "Rate", 0 ],
+			"obj-74::obj-144" : [ "SpectraLFOPhase[1]", "Phase", 0 ]
 		}
 ,
 		"dependency_cache" : [  ]
