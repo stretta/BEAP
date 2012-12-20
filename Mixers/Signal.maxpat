@@ -8,7 +8,7 @@
 			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 58.0, 200.0, 1737.0, 1194.0 ],
+		"rect" : [ 0.0, 44.0, 1440.0, 755.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -44,7 +44,7 @@
 							"architecture" : "x86"
 						}
 ,
-						"rect" : [ 58.0, 200.0, 175.0, 116.0 ],
+						"rect" : [ 0.0, 44.0, 175.0, 116.0 ],
 						"bgcolor" : [ 1.0, 1.0, 1.0, 0.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 1,
@@ -291,14 +291,14 @@
 									"presentation_rect" : [ 116.977173, 19.657436, 52.0, 14.764645 ],
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
-											"parameter_longname" : "power[1]",
 											"parameter_defer" : 1,
 											"parameter_enum" : [ "val1", "val2" ],
 											"parameter_mmax" : 1.0,
 											"parameter_initial" : [ 0.0 ],
 											"parameter_type" : 2,
 											"parameter_initial_enable" : 1,
-											"parameter_shortname" : "power"
+											"parameter_shortname" : "power",
+											"parameter_longname" : "power[1]"
 										}
 
 									}
@@ -371,14 +371,13 @@
 									"presentation_rect" : [ 129.0, 41.71455, 44.0, 47.0 ],
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
-											"parameter_longname" : "4",
-											"parameter_unitstyle" : 4,
-											"parameter_mmax" : 0.0,
-											"parameter_mmin" : -72.0,
+											"parameter_unitstyle" : 1,
+											"parameter_mmax" : 1.0,
 											"parameter_initial" : [ 0 ],
 											"parameter_type" : 0,
 											"parameter_initial_enable" : 1,
-											"parameter_shortname" : "4"
+											"parameter_shortname" : "4",
+											"parameter_longname" : "4"
 										}
 
 									}
@@ -498,14 +497,14 @@
 									"patching_rect" : [ 1173.0, 241.0, 59.5, 20.0 ],
 									"restore" : 									{
 										"in3" : [ 0.0 ],
-										"in4" : [ -28.195276 ],
-										"live.dial" : [ -72.0 ],
-										"live.dial[1]" : [ -72.0 ],
+										"in4" : [ 0.0 ],
+										"live.dial" : [ 0.0 ],
+										"live.dial[1]" : [ 0.850394 ],
 										"power[1]" : [ 0.0 ]
 									}
 ,
 									"text" : "autopattr",
-									"varname" : "u674000654"
+									"varname" : "u901000417"
 								}
 
 							}
@@ -524,12 +523,11 @@
 									"presentation_rect" : [ 85.0, 41.71455, 44.0, 47.0 ],
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
-											"parameter_longname" : "3",
-											"parameter_unitstyle" : 4,
-											"parameter_mmax" : 0.0,
-											"parameter_mmin" : -72.0,
+											"parameter_unitstyle" : 1,
+											"parameter_mmax" : 1.0,
 											"parameter_type" : 0,
-											"parameter_shortname" : "3"
+											"parameter_shortname" : "3",
+											"parameter_longname" : "3"
 										}
 
 									}
@@ -568,12 +566,11 @@
 									"presentation_rect" : [ 41.0, 41.71455, 44.0, 47.0 ],
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
-											"parameter_longname" : "2",
-											"parameter_unitstyle" : 4,
-											"parameter_mmax" : 0.0,
-											"parameter_mmin" : -72.0,
+											"parameter_unitstyle" : 1,
+											"parameter_mmax" : 1.0,
 											"parameter_type" : 0,
-											"parameter_shortname" : "2"
+											"parameter_shortname" : "2",
+											"parameter_longname" : "2"
 										}
 
 									}
@@ -612,12 +609,11 @@
 									"presentation_rect" : [ -3.0, 41.71455, 44.0, 47.0 ],
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
-											"parameter_longname" : "1",
-											"parameter_unitstyle" : 4,
-											"parameter_mmax" : 0.0,
-											"parameter_mmin" : -72.0,
+											"parameter_unitstyle" : 1,
+											"parameter_mmax" : 1.0,
 											"parameter_type" : 0,
-											"parameter_shortname" : "1"
+											"parameter_shortname" : "1",
+											"parameter_longname" : "1"
 										}
 
 									}
@@ -957,11 +953,11 @@
  ],
 		"lines" : [  ],
 		"parameters" : 		{
-			"obj-15::obj-39" : [ "1", "1", 0 ],
-			"obj-15::obj-32" : [ "2", "2", 0 ],
 			"obj-15::obj-29" : [ "3", "3", 0 ],
 			"obj-15::obj-33" : [ "4", "4", 0 ],
-			"obj-15::obj-37" : [ "power[1]", "power", 0 ]
+			"obj-15::obj-37" : [ "power[1]", "power", 0 ],
+			"obj-15::obj-39" : [ "1", "1", 0 ],
+			"obj-15::obj-32" : [ "2", "2", 0 ]
 		}
 ,
 		"dependency_cache" : [  ]
