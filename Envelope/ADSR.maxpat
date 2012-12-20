@@ -8,7 +8,7 @@
 			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 1083.0, 332.0, 1251.0, 1021.0 ],
+		"rect" : [ 0.0, 44.0, 1440.0, 755.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -30,7 +30,7 @@
 		"boxes" : [ 			{
 				"box" : 				{
 					"embed" : 1,
-					"id" : "obj-18",
+					"id" : "obj-4",
 					"maxclass" : "bpatcher",
 					"numinlets" : 1,
 					"numoutlets" : 1,
@@ -44,7 +44,7 @@
 							"architecture" : "x86"
 						}
 ,
-						"rect" : [ 1083.0, 332.0, 190.0, 116.0 ],
+						"rect" : [ 0.0, 44.0, 190.0, 116.0 ],
 						"bgcolor" : [ 1.0, 1.0, 1.0, 0.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 1,
@@ -114,7 +114,7 @@
 											"parameter_type" : 0,
 											"parameter_initial_enable" : 1,
 											"parameter_shortname" : "Sustain",
-											"parameter_longname" : "Sustain"
+											"parameter_longname" : "Sustain[1]"
 										}
 
 									}
@@ -140,14 +140,14 @@
 									"presentation_rect" : [ 134.977173, 43.45966, 44.0, 47.0 ],
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
+											"parameter_exponent" : 2.0,
 											"parameter_unitstyle" : 2,
 											"parameter_mmax" : 2000.0,
 											"parameter_initial" : [ 50 ],
 											"parameter_type" : 0,
 											"parameter_initial_enable" : 1,
 											"parameter_shortname" : "Release",
-											"parameter_longname" : "Release",
-											"parameter_exponent" : 2.0
+											"parameter_longname" : "Release"
 										}
 
 									}
@@ -173,14 +173,14 @@
 									"presentation_rect" : [ 47.992371, 43.45966, 44.0, 47.0 ],
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
+											"parameter_exponent" : 4.0,
 											"parameter_unitstyle" : 2,
-											"parameter_mmax" : 2000.0,
+											"parameter_mmax" : 4000.0,
 											"parameter_initial" : [ 50 ],
 											"parameter_type" : 0,
 											"parameter_initial_enable" : 1,
 											"parameter_shortname" : "Decay",
-											"parameter_longname" : "Decay",
-											"parameter_exponent" : 2.0
+											"parameter_longname" : "Release[2]"
 										}
 
 									}
@@ -206,14 +206,14 @@
 									"presentation_rect" : [ 4.5, 43.45966, 44.0, 47.0 ],
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
+											"parameter_exponent" : 2.0,
 											"parameter_unitstyle" : 2,
 											"parameter_mmax" : 2000.0,
 											"parameter_initial" : [ 50 ],
 											"parameter_type" : 0,
 											"parameter_initial_enable" : 1,
 											"parameter_shortname" : "Attack",
-											"parameter_longname" : "Attack",
-											"parameter_exponent" : 2.0
+											"parameter_longname" : "Attack"
 										}
 
 									}
@@ -242,14 +242,14 @@
 									"presentation_rect" : [ 126.977173, 19.238117, 52.0, 14.764645 ],
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
+											"parameter_defer" : 1,
+											"parameter_enum" : [ "val1", "val2" ],
 											"parameter_mmax" : 1.0,
 											"parameter_initial" : [ 0.0 ],
 											"parameter_type" : 2,
 											"parameter_initial_enable" : 1,
 											"parameter_shortname" : "Mute",
-											"parameter_longname" : "Mute",
-											"parameter_defer" : 1,
-											"parameter_enum" : [ "val1", "val2" ]
+											"parameter_longname" : "Mute[4]"
 										}
 
 									}
@@ -272,15 +272,15 @@
 									"outlettype" : [ "", "", "", "" ],
 									"patching_rect" : [ 484.0, 614.0, 59.5, 20.0 ],
 									"restore" : 									{
-										"Attack" : [ 50.0 ],
+										"Attack" : [ 2000.0 ],
 										"Decay" : [ 50.0 ],
 										"Mute" : [ 0.0 ],
-										"Release" : [ 50.0 ],
-										"Sustain" : [ 100.0 ]
+										"Release" : [ 1142.786255 ],
+										"Sustain" : [ 14.173228 ]
 									}
 ,
 									"text" : "autopattr",
-									"varname" : "u131000898"
+									"varname" : "u454000849"
 								}
 
 							}
@@ -553,11 +553,11 @@
  ],
 		"lines" : [  ],
 		"parameters" : 		{
-			"obj-18::obj-1" : [ "Attack", "Attack", 0 ],
-			"obj-18::obj-29" : [ "Decay", "Decay", 0 ],
-			"obj-18::obj-31" : [ "Release", "Release", 0 ],
-			"obj-18::obj-20" : [ "Mute", "Mute", 0 ],
-			"obj-18::obj-32" : [ "Sustain", "Sustain", 0 ]
+			"obj-4::obj-31" : [ "Release", "Release", 0 ],
+			"obj-4::obj-29" : [ "Release[2]", "Decay", 0 ],
+			"obj-4::obj-1" : [ "Attack", "Attack", 0 ],
+			"obj-4::obj-32" : [ "Sustain[1]", "Sustain", 0 ],
+			"obj-4::obj-20" : [ "Mute[4]", "Mute", 0 ]
 		}
 ,
 		"dependency_cache" : [  ]
