@@ -8,7 +8,7 @@
 			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 0.0, 44.0, 2053.0, 1350.0 ],
+		"rect" : [ 225.0, 73.0, 2053.0, 1350.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -44,7 +44,7 @@
 							"architecture" : "x86"
 						}
 ,
-						"rect" : [ 0.0, 44.0, 260.0, 116.0 ],
+						"rect" : [ 225.0, 73.0, 260.0, 116.0 ],
 						"bgcolor" : [ 1.0, 1.0, 1.0, 0.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 1,
@@ -120,14 +120,14 @@
 									"presentation_rect" : [ 2.0, 41.0, 60.799217, 15.0 ],
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
-											"parameter_type" : 0,
-											"parameter_initial_enable" : 1,
-											"parameter_shortname" : "Attack",
-											"parameter_longname" : "Attack[1]",
 											"parameter_exponent" : 2.0,
 											"parameter_unitstyle" : 2,
 											"parameter_mmax" : 2000.0,
-											"parameter_initial" : [ 50 ]
+											"parameter_initial" : [ 50 ],
+											"parameter_type" : 0,
+											"parameter_initial_enable" : 1,
+											"parameter_shortname" : "Attack",
+											"parameter_longname" : "Attack[1]"
 										}
 
 									}
@@ -379,13 +379,13 @@
 									"presentation_rect" : [ 129.523849, 41.0, 60.799217, 15.0 ],
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
+											"parameter_unitstyle" : 5,
+											"parameter_mmax" : 100.0,
+											"parameter_initial" : [ 1 ],
 											"parameter_type" : 0,
 											"parameter_initial_enable" : 1,
 											"parameter_shortname" : "Sustain",
-											"parameter_longname" : "Sustain[1]",
-											"parameter_unitstyle" : 5,
-											"parameter_mmax" : 100.0,
-											"parameter_initial" : [ 1 ]
+											"parameter_longname" : "Sustain[1]"
 										}
 
 									}
@@ -414,15 +414,15 @@
 									"presentation_rect" : [ 193.285782, 41.0, 60.799217, 15.0 ],
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
-											"parameter_type" : 0,
-											"parameter_initial_enable" : 1,
-											"parameter_shortname" : "Release",
-											"parameter_longname" : "Release[1]",
 											"parameter_exponent" : 4.0,
 											"parameter_unitstyle" : 2,
 											"parameter_mmax" : 4000.0,
 											"parameter_mmin" : 0.1,
-											"parameter_initial" : [ 1 ]
+											"parameter_initial" : [ 1 ],
+											"parameter_type" : 0,
+											"parameter_initial_enable" : 1,
+											"parameter_shortname" : "Release",
+											"parameter_longname" : "Release[1]"
 										}
 
 									}
@@ -451,15 +451,15 @@
 									"presentation_rect" : [ 65.761925, 41.0, 60.799217, 15.0 ],
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
-											"parameter_type" : 0,
-											"parameter_initial_enable" : 1,
-											"parameter_shortname" : "Decay",
-											"parameter_longname" : "Decay[1]",
 											"parameter_exponent" : 4.0,
 											"parameter_unitstyle" : 2,
 											"parameter_mmax" : 1000.0,
 											"parameter_mmin" : 0.1,
-											"parameter_initial" : [ 1 ]
+											"parameter_initial" : [ 1 ],
+											"parameter_type" : 0,
+											"parameter_initial_enable" : 1,
+											"parameter_shortname" : "Decay",
+											"parameter_longname" : "Decay[1]"
 										}
 
 									}
@@ -542,13 +542,13 @@
 									"presentation_rect" : [ 129.523849, 59.646118, 60.799217, 15.0 ],
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
+											"parameter_unitstyle" : 5,
+											"parameter_mmax" : 100.0,
+											"parameter_initial" : [ 0 ],
 											"parameter_type" : 0,
 											"parameter_initial_enable" : 1,
 											"parameter_shortname" : "SustainCV",
-											"parameter_longname" : "SustainCV[1]",
-											"parameter_unitstyle" : 5,
-											"parameter_mmax" : 100.0,
-											"parameter_initial" : [ 0 ]
+											"parameter_longname" : "SustainCV[1]"
 										}
 
 									}
@@ -715,13 +715,13 @@
 									"presentation_rect" : [ 193.285782, 59.646118, 60.799217, 15.0 ],
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
+											"parameter_unitstyle" : 5,
+											"parameter_mmax" : 100.0,
+											"parameter_initial" : [ 0 ],
 											"parameter_type" : 0,
 											"parameter_initial_enable" : 1,
 											"parameter_shortname" : "ReleaseCV",
-											"parameter_longname" : "ReleaseCV[1]",
-											"parameter_unitstyle" : 5,
-											"parameter_mmax" : 100.0,
-											"parameter_initial" : [ 0 ]
+											"parameter_longname" : "ReleaseCV[1]"
 										}
 
 									}
@@ -903,13 +903,13 @@
 									"presentation_rect" : [ 65.761925, 59.646118, 60.799217, 15.0 ],
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
+											"parameter_unitstyle" : 5,
+											"parameter_mmax" : 100.0,
+											"parameter_initial" : [ 0 ],
 											"parameter_type" : 0,
 											"parameter_initial_enable" : 1,
 											"parameter_shortname" : "DecayCV",
-											"parameter_longname" : "DecayCV[1]",
-											"parameter_unitstyle" : 5,
-											"parameter_mmax" : 100.0,
-											"parameter_initial" : [ 0 ]
+											"parameter_longname" : "DecayCV[1]"
 										}
 
 									}
@@ -1103,13 +1103,13 @@
 									"presentation_rect" : [ 2.0, 59.646118, 60.799217, 15.0 ],
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
+											"parameter_unitstyle" : 5,
+											"parameter_mmax" : 100.0,
+											"parameter_initial" : [ 0 ],
 											"parameter_type" : 0,
 											"parameter_initial_enable" : 1,
 											"parameter_shortname" : "AttackCV",
-											"parameter_longname" : "AttackCV[1]",
-											"parameter_unitstyle" : 5,
-											"parameter_mmax" : 100.0,
-											"parameter_initial" : [ 0 ]
+											"parameter_longname" : "AttackCV[1]"
 										}
 
 									}
@@ -1166,13 +1166,13 @@
 									"presentation_rect" : [ 193.285782, 78.292236, 60.799217, 15.0 ],
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
+											"parameter_unitstyle" : 1,
+											"parameter_mmax" : 2.0,
+											"parameter_initial" : [ 1 ],
 											"parameter_type" : 0,
 											"parameter_initial_enable" : 1,
 											"parameter_shortname" : "filter envelope release curve",
-											"parameter_longname" : "filter envelope release curve[1]",
-											"parameter_unitstyle" : 1,
-											"parameter_mmax" : 2.0,
-											"parameter_initial" : [ 1 ]
+											"parameter_longname" : "filter envelope release curve[1]"
 										}
 
 									}
@@ -1201,13 +1201,13 @@
 									"presentation_rect" : [ 65.761925, 78.292236, 60.799217, 15.0 ],
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
+											"parameter_unitstyle" : 1,
+											"parameter_mmax" : 2.0,
+											"parameter_initial" : [ 1 ],
 											"parameter_type" : 0,
 											"parameter_initial_enable" : 1,
 											"parameter_shortname" : "filter envelope decay curve",
-											"parameter_longname" : "filter envelope decay curve[1]",
-											"parameter_unitstyle" : 1,
-											"parameter_mmax" : 2.0,
-											"parameter_initial" : [ 1 ]
+											"parameter_longname" : "filter envelope decay curve[1]"
 										}
 
 									}
@@ -1236,13 +1236,13 @@
 									"presentation_rect" : [ 2.0, 78.292236, 60.799217, 15.0 ],
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
+											"parameter_unitstyle" : 1,
+											"parameter_mmax" : 2.0,
+											"parameter_initial" : [ 1 ],
 											"parameter_type" : 0,
 											"parameter_initial_enable" : 1,
 											"parameter_shortname" : "filter envelope attack curve",
-											"parameter_longname" : "filter envelope attack curve[1]",
-											"parameter_unitstyle" : 1,
-											"parameter_mmax" : 2.0,
-											"parameter_initial" : [ 1 ]
+											"parameter_longname" : "filter envelope attack curve[1]"
 										}
 
 									}
@@ -2786,10 +2786,10 @@
 									"restore" : 									{
 										"Attack" : [ 1.116002 ],
 										"AttackCV" : [ 0.0 ],
-										"Decay" : [ 8.992014 ],
+										"Decay" : [ 315.257324 ],
 										"DecayCV" : [ 0.0 ],
 										"Mute" : [ 0.0 ],
-										"Release" : [ 1418.303467 ],
+										"Release" : [ 4000.0 ],
 										"ReleaseCV" : [ 100.0 ],
 										"Sustain" : [ 58.188976 ],
 										"SustainCV" : [ 85.826775 ],
@@ -2799,7 +2799,7 @@
 									}
 ,
 									"text" : "autopattr",
-									"varname" : "u378000776"
+									"varname" : "u397004708"
 								}
 
 							}
@@ -2856,13 +2856,13 @@
 									"presentation_rect" : [ 202.084991, 19.0, 52.0, 14.764645 ],
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
-											"parameter_type" : 2,
-											"parameter_shortname" : "Mute",
-											"parameter_longname" : "Mute[3]",
 											"parameter_defer" : 1,
 											"parameter_enum" : [ "val1", "val2" ],
 											"parameter_mmax" : 1.0,
-											"parameter_initial" : [ 0.0 ]
+											"parameter_initial" : [ 0.0 ],
+											"parameter_type" : 2,
+											"parameter_shortname" : "Mute",
+											"parameter_longname" : "Mute[3]"
 										}
 
 									}
@@ -3588,7 +3588,7 @@
  ]
 					}
 ,
-					"patching_rect" : [ 0.0, 0.030029, 260.0, 116.0 ],
+					"patching_rect" : [ 0.0, 0.0, 260.0, 116.0 ],
 					"varname" : "VC-ADSR"
 				}
 
@@ -3596,18 +3596,18 @@
  ],
 		"lines" : [  ],
 		"parameters" : 		{
+			"obj-2::obj-46" : [ "filter envelope decay curve[1]", "filter envelope decay curve", 0 ],
+			"obj-2::obj-12" : [ "Mute[3]", "Mute", 0 ],
+			"obj-2::obj-174" : [ "Attack[1]", "Attack", 0 ],
 			"obj-2::obj-150" : [ "Decay[1]", "Decay", 0 ],
-			"obj-2::obj-47" : [ "filter envelope attack curve[1]", "filter envelope attack curve", 0 ],
 			"obj-2::obj-144" : [ "SustainCV[1]", "SustainCV", 0 ],
 			"obj-2::obj-137" : [ "ReleaseCV[1]", "ReleaseCV", 0 ],
 			"obj-2::obj-122" : [ "DecayCV[1]", "DecayCV", 0 ],
+			"obj-2::obj-45" : [ "filter envelope release curve[1]", "filter envelope release curve", 0 ],
 			"obj-2::obj-151" : [ "Release[1]", "Release", 0 ],
-			"obj-2::obj-46" : [ "filter envelope decay curve[1]", "filter envelope decay curve", 0 ],
 			"obj-2::obj-90" : [ "AttackCV[1]", "AttackCV", 0 ],
 			"obj-2::obj-152" : [ "Sustain[1]", "Sustain", 0 ],
-			"obj-2::obj-45" : [ "filter envelope release curve[1]", "filter envelope release curve", 0 ],
-			"obj-2::obj-12" : [ "Mute[3]", "Mute", 0 ],
-			"obj-2::obj-174" : [ "Attack[1]", "Attack", 0 ]
+			"obj-2::obj-47" : [ "filter envelope attack curve[1]", "filter envelope attack curve", 0 ]
 		}
 ,
 		"dependency_cache" : [  ]
