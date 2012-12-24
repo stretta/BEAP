@@ -8,7 +8,7 @@
 			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 589.0, 119.0, 1445.0, 1103.0 ],
+		"rect" : [ 1725.0, 248.0, 1445.0, 1103.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -44,7 +44,7 @@
 							"architecture" : "x86"
 						}
 ,
-						"rect" : [ 589.0, 119.0, 472.0, 226.0 ],
+						"rect" : [ 1725.0, 248.0, 472.0, 226.0 ],
 						"bgcolor" : [ 1.0, 1.0, 1.0, 0.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 1,
@@ -146,11 +146,11 @@
 									"id" : "obj-41",
 									"interp" : 1,
 									"maxclass" : "jit.pwindow",
-									"name" : "1014display3",
+									"name" : "display3",
 									"numinlets" : 1,
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
-									"patching_rect" : [ 237.512421, 1258.0, 150.0, 68.0 ],
+									"patching_rect" : [ 237.512421, 1255.0, 150.0, 68.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 332.393799, 51.829346, 128.765915, 49.295029 ],
 									"srcrect" : [ 0, 0, 160, 120 ]
@@ -164,7 +164,7 @@
 									"id" : "obj-181",
 									"interp" : 1,
 									"maxclass" : "jit.pwindow",
-									"name" : "1014display2",
+									"name" : "display2",
 									"numinlets" : 1,
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
@@ -182,7 +182,7 @@
 									"id" : "obj-102",
 									"interp" : 1,
 									"maxclass" : "jit.pwindow",
-									"name" : "1014display",
+									"name" : "display",
 									"numinlets" : 1,
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
@@ -698,7 +698,7 @@
 
 									}
 ,
-									"textcolor" : [ 1.0, 1.0, 1.0, 0.6 ],
+									"textcolor" : [ 1.0, 1.0, 1.0, 0.1 ],
 									"varname" : "max pulse[1]"
 								}
 
@@ -1808,13 +1808,12 @@
 													"fontname" : "Arial Bold",
 													"fontsize" : 9.0,
 													"id" : "obj-100",
-													"linecount" : 2,
 													"maxclass" : "newobj",
 													"numinlets" : 1,
 													"numoutlets" : 2,
 													"outlettype" : [ "bang", "" ],
-													"patching_rect" : [ 142.0, 213.0, 329.0, 17.0 ],
-													"text" : "jit.gl.render -#0display @drawto #0display3 @erase_color 0.094 0.118 0.1 1"
+													"patching_rect" : [ 142.0, 213.0, 311.0, 17.0 ],
+													"text" : "jit.gl.render display3 @drawto display3 @erase_color 0.094 0.118 0.1 1"
 												}
 
 											}
@@ -1837,13 +1836,12 @@
 													"fontname" : "Arial Bold",
 													"fontsize" : 9.0,
 													"id" : "obj-91",
-													"linecount" : 2,
 													"maxclass" : "newobj",
 													"numinlets" : 1,
 													"numoutlets" : 2,
 													"outlettype" : [ "jit_matrix", "" ],
-													"patching_rect" : [ 124.0, 307.5, 448.0, 17.0 ],
-													"text" : "jit.gl.graph #0display3 @circpoints 1 @position 0 -0.5 0 @antialias 1 @color 0.278 0.839 1 @scale 2 1 1"
+													"patching_rect" : [ 124.0, 307.5, 438.0, 17.0 ],
+													"text" : "jit.gl.graph display3 @circpoints 1 @position 0 -0.5 0 @antialias 1 @color 0.278 0.839 1 @scale 2 1 1"
 												}
 
 											}
@@ -2737,13 +2735,12 @@
 													"fontname" : "Arial Bold",
 													"fontsize" : 9.0,
 													"id" : "obj-100",
-													"linecount" : 2,
 													"maxclass" : "newobj",
 													"numinlets" : 1,
 													"numoutlets" : 2,
 													"outlettype" : [ "bang", "" ],
-													"patching_rect" : [ 142.0, 213.0, 326.0, 17.0 ],
-													"text" : "jit.gl.render #0display @drawto #0display2 @erase_color 0.094 0.118 0.1 1"
+													"patching_rect" : [ 142.0, 213.0, 311.0, 17.0 ],
+													"text" : "jit.gl.render display2 @drawto display2 @erase_color 0.094 0.118 0.1 1"
 												}
 
 											}
@@ -2766,13 +2763,12 @@
 													"fontname" : "Arial Bold",
 													"fontsize" : 9.0,
 													"id" : "obj-91",
-													"linecount" : 2,
 													"maxclass" : "newobj",
 													"numinlets" : 1,
 													"numoutlets" : 2,
 													"outlettype" : [ "jit_matrix", "" ],
-													"patching_rect" : [ 124.0, 307.5, 448.0, 17.0 ],
-													"text" : "jit.gl.graph #0display2 @circpoints 1 @position 0 -0.5 0 @antialias 1 @color 0.278 0.839 1 @scale 2 1 1"
+													"patching_rect" : [ 124.0, 307.5, 438.0, 17.0 ],
+													"text" : "jit.gl.graph display2 @circpoints 1 @position 0 -0.5 0 @antialias 1 @color 0.278 0.839 1 @scale 2 1 1"
 												}
 
 											}
@@ -7866,8 +7862,8 @@
 													"numinlets" : 1,
 													"numoutlets" : 2,
 													"outlettype" : [ "bang", "" ],
-													"patching_rect" : [ 142.0, 213.0, 339.0, 17.0 ],
-													"text" : "jit.gl.render #0display @drawto #0display @erase_color 0.094 0.118 0.1 1"
+													"patching_rect" : [ 142.0, 213.0, 301.0, 17.0 ],
+													"text" : "jit.gl.render display @drawto display @erase_color 0.094 0.118 0.1 1"
 												}
 
 											}
@@ -7894,8 +7890,8 @@
 													"numinlets" : 1,
 													"numoutlets" : 2,
 													"outlettype" : [ "jit_matrix", "" ],
-													"patching_rect" : [ 124.0, 307.5, 451.0, 17.0 ],
-													"text" : "jit.gl.graph #0display @circpoints 1 @position 0 -0.5 0 @antialias 1 @color 0.278 0.839 1 @scale 2 1 1"
+													"patching_rect" : [ 124.0, 307.5, 433.0, 17.0 ],
+													"text" : "jit.gl.graph display @circpoints 1 @position 0 -0.5 0 @antialias 1 @color 0.278 0.839 1 @scale 2 1 1"
 												}
 
 											}
@@ -12143,33 +12139,33 @@
 									"patching_rect" : [ 306.236206, 94.0, 59.5, 20.0 ],
 									"restore" : 									{
 										"FreqRate" : [ 4.0 ],
-										"FreqRate[1]" : [ 4.0 ],
+										"FreqRate[1]" : [ 0.895681 ],
 										"Hold" : [ 0.0 ],
 										"Hold[1]" : [ 0.0 ],
-										"Level" : [ 100.0 ],
+										"Level" : [ 92.125984 ],
 										"Mute" : [ 0.0 ],
-										"Phase" : [ -1.0 ],
+										"Phase" : [ -0.566929 ],
 										"Phase-Inversion" : [ 0.0 ],
 										"Phase-Inversion[1]" : [ 0.0 ],
 										"Phase[1]" : [ -1.0 ],
-										"PulseWidth" : [ 50.0 ],
-										"PulseWidth[1]" : [ 50.0 ],
-										"PulseWidth[2]" : [ 50.0 ],
+										"PulseWidth" : [ 43.700787 ],
+										"PulseWidth[1]" : [ 67.322838 ],
+										"PulseWidth[2]" : [ 34.251968 ],
 										"Reset[1]" : [ 0.0 ],
 										"Reset[2]" : [ 0.0 ],
 										"SyncRate" : [ 5.0 ],
 										"SyncRate[1]" : [ 5.0 ],
 										"TimeMode" : [ 1.0 ],
 										"TimeMode[1]" : [ 1.0 ],
-										"TimeMode[2]" : [ 1.0 ],
-										"live.tab" : [ 1.0 ],
+										"TimeMode[2]" : [ 0.0 ],
+										"live.tab" : [ 0.0 ],
 										"max pulse[1]" : [ 13.0 ],
 										"re-trigger" : [ 0.0 ],
 										"re-trigger[1]" : [ 0.0 ]
 									}
 ,
 									"text" : "autopattr",
-									"varname" : "u582001500"
+									"varname" : "u038001971"
 								}
 
 							}
@@ -13404,30 +13400,30 @@
  ],
 		"lines" : [  ],
 		"parameters" : 		{
-			"obj-10::obj-123" : [ "Level", "Level", 0 ],
-			"obj-10::obj-89" : [ "FreqRate", "Rate", 0 ],
 			"obj-10::obj-186" : [ "Re-Trigger[1]", "Re-Trigger", 0 ],
-			"obj-10::obj-144" : [ "Phase", "Phase", 0 ],
-			"obj-10::obj-61" : [ "PulseWidth[1]", "PulseWidth", 0 ],
-			"obj-10::obj-191" : [ "SyncRate[1]", "Rate", 0 ],
-			"obj-10::obj-214" : [ "Invert[1]", "Phase-Inversion", 1 ],
-			"obj-10::obj-224" : [ "FreqRate[1]", "Rate", 0 ],
-			"obj-10::obj-94" : [ "Re-Trigger", "Re-Trigger", 0 ],
 			"obj-10::obj-96" : [ "PulseWidth[2]", "Pulse", 0 ],
+			"obj-10::obj-30" : [ "Time Mode", "Time Mode", 1 ],
 			"obj-10::obj-223" : [ "Time Mode[1]", "Time Mode", 1 ],
-			"obj-10::obj-57" : [ "Invert", "Phase-Inversion", 1 ],
-			"obj-10::obj-55" : [ "Hold", "Hold", 0 ],
-			"obj-10::obj-67" : [ "Reset[1]", "Reset", 0 ],
 			"obj-10::obj-1" : [ "Time Mode[2]", "Time Mode", 1 ],
-			"obj-10::obj-66" : [ "Max pulse[1]", "Max pulse", 0 ],
-			"obj-10::obj-212" : [ "Hold[1]", "Hold", 0 ],
+			"obj-10::obj-214" : [ "Invert[1]", "Phase-Inversion", 1 ],
+			"obj-10::obj-89" : [ "FreqRate", "Rate", 0 ],
+			"obj-10::obj-123" : [ "Level", "Level", 0 ],
+			"obj-10::obj-94" : [ "Re-Trigger", "Re-Trigger", 0 ],
+			"obj-10::obj-67" : [ "Reset[1]", "Reset", 0 ],
+			"obj-10::obj-12" : [ "Mute", "Mute", 0 ],
+			"obj-10::obj-57" : [ "Invert", "Phase-Inversion", 1 ],
+			"obj-10::obj-224" : [ "FreqRate[1]", "Rate", 0 ],
 			"obj-10::obj-219" : [ "Phase[1]", "Phase", 0 ],
 			"obj-10::obj-81" : [ "Reset[2]", "Reset", 0 ],
-			"obj-10::obj-30" : [ "Time Mode", "Time Mode", 1 ],
-			"obj-10::obj-32" : [ "live.tab", "live.tab", 0 ],
-			"obj-10::obj-12" : [ "Mute", "Mute", 0 ],
+			"obj-10::obj-66" : [ "Max pulse[1]", "Max pulse", 0 ],
+			"obj-10::obj-55" : [ "Hold", "Hold", 0 ],
 			"obj-10::obj-49" : [ "PulseWidth", "PulseWidth", 0 ],
-			"obj-10::obj-58" : [ "SyncRate", "Rate", 0 ]
+			"obj-10::obj-58" : [ "SyncRate", "Rate", 0 ],
+			"obj-10::obj-212" : [ "Hold[1]", "Hold", 0 ],
+			"obj-10::obj-61" : [ "PulseWidth[1]", "PulseWidth", 0 ],
+			"obj-10::obj-32" : [ "live.tab", "live.tab", 0 ],
+			"obj-10::obj-191" : [ "SyncRate[1]", "Rate", 0 ],
+			"obj-10::obj-144" : [ "Phase", "Phase", 0 ]
 		}
 ,
 		"dependency_cache" : [ 			{
