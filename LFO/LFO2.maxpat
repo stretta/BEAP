@@ -3,9 +3,8 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 6,
-			"minor" : 1,
-			"revision" : 0,
-			"architecture" : "x86"
+			"minor" : 0,
+			"revision" : 8
 		}
 ,
 		"rect" : [ 0.0, 44.0, 1440.0, 755.0 ],
@@ -39,9 +38,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 6,
-							"minor" : 1,
-							"revision" : 0,
-							"architecture" : "x86"
+							"minor" : 0,
+							"revision" : 8
 						}
 ,
 						"rect" : [ 0.0, 44.0, 170.0, 116.0 ],
@@ -65,18 +63,6 @@
 						"digest" : "",
 						"tags" : "",
 						"boxes" : [ 							{
-								"box" : 								{
-									"fontname" : "Arial",
-									"fontsize" : 12.0,
-									"id" : "obj-20",
-									"maxclass" : "newobj",
-									"numinlets" : 0,
-									"numoutlets" : 0,
-									"patching_rect" : [ 0.0, 0.0, 100.0, 20.0 ]
-								}
-
-							}
-, 							{
 								"box" : 								{
 									"fontname" : "Arial Bold",
 									"fontsize" : 10.0,
@@ -500,9 +486,8 @@
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 6,
-											"minor" : 1,
-											"revision" : 0,
-											"architecture" : "x86"
+											"minor" : 0,
+											"revision" : 8
 										}
 ,
 										"rect" : [ 1560.0, 203.0, 440.0, 307.0 ],
@@ -1147,9 +1132,8 @@
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 6,
-											"minor" : 1,
-											"revision" : 0,
-											"architecture" : "x86"
+											"minor" : 0,
+											"revision" : 8
 										}
 ,
 										"rect" : [ 836.0, 218.0, 595.0, 606.0 ],
@@ -1269,9 +1253,8 @@
 														"fileversion" : 1,
 														"appversion" : 														{
 															"major" : 6,
-															"minor" : 1,
-															"revision" : 0,
-															"architecture" : "x86"
+															"minor" : 0,
+															"revision" : 8
 														}
 ,
 														"rect" : [ 1307.0, 544.0, 1069.0, 820.0 ],
@@ -1544,9 +1527,8 @@
 																		"fileversion" : 1,
 																		"appversion" : 																		{
 																			"major" : 6,
-																			"minor" : 1,
-																			"revision" : 0,
-																			"architecture" : "x86"
+																			"minor" : 0,
+																			"revision" : 8
 																		}
 ,
 																		"rect" : [ 50.0, 94.0, 269.0, 354.0 ],
@@ -2822,9 +2804,8 @@
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 6,
-											"minor" : 1,
-											"revision" : 0,
-											"architecture" : "x86"
+											"minor" : 0,
+											"revision" : 8
 										}
 ,
 										"rect" : [ 1127.0, 764.0, 1262.0, 606.0 ],
@@ -3165,9 +3146,8 @@
 														"fileversion" : 1,
 														"appversion" : 														{
 															"major" : 6,
-															"minor" : 1,
-															"revision" : 0,
-															"architecture" : "x86"
+															"minor" : 0,
+															"revision" : 8
 														}
 ,
 														"rect" : [ 694.0, 251.0, 640.0, 480.0 ],
@@ -3572,9 +3552,8 @@
 														"fileversion" : 1,
 														"appversion" : 														{
 															"major" : 6,
-															"minor" : 1,
-															"revision" : 0,
-															"architecture" : "x86"
+															"minor" : 0,
+															"revision" : 8
 														}
 ,
 														"rect" : [ 345.0, 95.0, 640.0, 480.0 ],
@@ -4450,7 +4429,7 @@
 									}
 ,
 									"text" : "autopattr",
-									"varname" : "u905000617"
+									"varname" : "u091000570"
 								}
 
 							}
@@ -4905,14 +4884,14 @@
  ],
 		"lines" : [  ],
 		"parameters" : 		{
-			"obj-74::obj-81" : [ "InvertA[1]", "Phase-Inversion", 1 ],
-			"obj-74::obj-12" : [ "Mute[6]", "Mute", 0 ],
+			"obj-74::obj-144" : [ "SpectraLFOPhase[1]", "Phase", 0 ],
 			"obj-74::obj-94" : [ "ReTriggerA[1]", "Re-Trigger", 0 ],
-			"obj-74::obj-75" : [ "SpectraLFOShape[1]", "Shape", 0 ],
+			"obj-74::obj-12" : [ "Mute[6]", "Mute", 0 ],
+			"obj-74::obj-81" : [ "InvertA[1]", "Phase-Inversion", 1 ],
 			"obj-74::obj-88" : [ "SpectraLFOTimeMode[1]", "Time Mode", 1 ],
 			"obj-74::obj-89" : [ "SpectraLFORate[1]", "Rate", 0 ],
-			"obj-74::obj-74" : [ "SpectraLFORateSync[1]", "Rate", 0 ],
-			"obj-74::obj-144" : [ "SpectraLFOPhase[1]", "Phase", 0 ]
+			"obj-74::obj-75" : [ "SpectraLFOShape[1]", "Shape", 0 ],
+			"obj-74::obj-74" : [ "SpectraLFORateSync[1]", "Rate", 0 ]
 		}
 ,
 		"dependency_cache" : [  ]
