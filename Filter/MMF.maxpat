@@ -619,11 +619,11 @@
 									"presentation_rect" : [ 132.640533, 41.838638, 44.0, 47.0 ],
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
-											"parameter_unitstyle" : 5,
-											"parameter_mmax" : 100.0,
 											"parameter_type" : 0,
 											"parameter_shortname" : "CV3",
-											"parameter_longname" : "CV3[1]"
+											"parameter_longname" : "CV3[1]",
+											"parameter_unitstyle" : 5,
+											"parameter_mmax" : 100.0
 										}
 
 									}
@@ -648,11 +648,11 @@
 									"presentation_rect" : [ 44.640533, 41.838638, 44.0, 47.0 ],
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
-											"parameter_unitstyle" : 5,
-											"parameter_mmax" : 100.0,
 											"parameter_type" : 0,
 											"parameter_shortname" : "CV1",
-											"parameter_longname" : "CV1[1]"
+											"parameter_longname" : "CV1[1]",
+											"parameter_unitstyle" : 5,
+											"parameter_mmax" : 100.0
 										}
 
 									}
@@ -677,11 +677,11 @@
 									"presentation_rect" : [ 88.640533, 41.838638, 44.0, 47.0 ],
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
-											"parameter_unitstyle" : 5,
-											"parameter_mmax" : 100.0,
 											"parameter_type" : 0,
 											"parameter_shortname" : "CV2",
-											"parameter_longname" : "CV2[1]"
+											"parameter_longname" : "CV2[1]",
+											"parameter_unitstyle" : 5,
+											"parameter_mmax" : 100.0
 										}
 
 									}
@@ -706,14 +706,14 @@
 									"presentation_rect" : [ 0.640533, 41.838638, 44.0, 47.0 ],
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
-											"parameter_unitstyle" : 1,
-											"parameter_mmax" : 64.0,
-											"parameter_mmin" : -64.0,
-											"parameter_initial" : [ 0.0 ],
 											"parameter_type" : 0,
 											"parameter_initial_enable" : 1,
 											"parameter_shortname" : "Offset",
-											"parameter_longname" : "Offset[3]"
+											"parameter_longname" : "Offset[3]",
+											"parameter_unitstyle" : 1,
+											"parameter_mmax" : 64.0,
+											"parameter_mmin" : -64.0,
+											"parameter_initial" : [ 0.0 ]
 										}
 
 									}
@@ -751,18 +751,18 @@
 									"presentation_rect" : [ 229.268768, 37.838638, 36.25, 55.161362 ],
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
-											"parameter_enum" : [ "LPF", "HPF", "BPF", "Notch" ],
-											"parameter_unitstyle" : 0,
-											"parameter_initial" : [ 0.0 ],
 											"parameter_type" : 2,
 											"parameter_initial_enable" : 1,
-											"parameter_shortname" : "live.tab",
-											"parameter_longname" : "live.tab"
+											"parameter_shortname" : "FilterType",
+											"parameter_longname" : "FilterType",
+											"parameter_enum" : [ "LPF", "HPF", "BPF", "Notch" ],
+											"parameter_unitstyle" : 0,
+											"parameter_initial" : [ 0.0 ]
 										}
 
 									}
 ,
-									"varname" : "live.tab"
+									"varname" : "FilterType"
 								}
 
 							}
@@ -924,13 +924,13 @@
 									"presentation_rect" : [ 176.640533, 41.838638, 44.0, 47.0 ],
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
-											"parameter_unitstyle" : 5,
-											"parameter_mmax" : 100.0,
-											"parameter_initial" : [ 0.0 ],
 											"parameter_type" : 0,
 											"parameter_initial_enable" : 1,
 											"parameter_shortname" : "Res",
-											"parameter_longname" : "Res"
+											"parameter_longname" : "Res",
+											"parameter_unitstyle" : 5,
+											"parameter_mmax" : 100.0,
+											"parameter_initial" : [ 0.0 ]
 										}
 
 									}
@@ -987,13 +987,13 @@
 									"presentation_rect" : [ 211.909302, 18.157436, 52.0, 17.0 ],
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
+											"parameter_type" : 2,
+											"parameter_shortname" : "power",
+											"parameter_longname" : "power[3]",
 											"parameter_defer" : 1,
 											"parameter_enum" : [ "val1", "val2" ],
 											"parameter_mmax" : 1.0,
-											"parameter_initial" : [ 0.0 ],
-											"parameter_type" : 2,
-											"parameter_shortname" : "power",
-											"parameter_longname" : "power[3]"
+											"parameter_initial" : [ 0.0 ]
 										}
 
 									}
@@ -1031,14 +1031,14 @@
 										"CV1" : [ 0.0 ],
 										"CV2" : [ 0.0 ],
 										"CV3" : [ 0.0 ],
+										"FilterType" : [ 0.0 ],
 										"Offset[1]" : [ 0.0 ],
 										"Res" : [ 0.0 ],
-										"live.tab" : [ 0.0 ],
 										"power[1]" : [ 0.0 ]
 									}
 ,
 									"text" : "autopattr",
-									"varname" : "u652005158"
+									"varname" : "u485003349"
 								}
 
 							}
@@ -1651,13 +1651,13 @@
  ],
 		"lines" : [  ],
 		"parameters" : 		{
-			"obj-38::obj-54" : [ "CV1[1]", "CV1", 0 ],
-			"obj-38::obj-73" : [ "Offset[3]", "Offset", 0 ],
-			"obj-38::obj-11" : [ "Res", "Res", 0 ],
-			"obj-38::obj-38" : [ "live.tab", "live.tab", 0 ],
-			"obj-38::obj-63" : [ "CV3[1]", "CV3", 0 ],
 			"obj-38::obj-51" : [ "CV2[1]", "CV2", 0 ],
-			"obj-38::obj-55" : [ "power[3]", "power", 0 ]
+			"obj-38::obj-54" : [ "CV1[1]", "CV1", 0 ],
+			"obj-38::obj-11" : [ "Res", "Res", 0 ],
+			"obj-38::obj-38" : [ "FilterType", "FilterType", 0 ],
+			"obj-38::obj-55" : [ "power[3]", "power", 0 ],
+			"obj-38::obj-63" : [ "CV3[1]", "CV3", 0 ],
+			"obj-38::obj-73" : [ "Offset[3]", "Offset", 0 ]
 		}
 ,
 		"dependency_cache" : [  ]
