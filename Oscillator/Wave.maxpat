@@ -3,11 +3,12 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 6,
-			"minor" : 0,
-			"revision" : 8
+			"minor" : 1,
+			"revision" : 0,
+			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 0.0, 44.0, 2506.0, 1350.0 ],
+		"rect" : [ 0.0, 44.0, 1440.0, 755.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -38,8 +39,9 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 6,
-							"minor" : 0,
-							"revision" : 8
+							"minor" : 1,
+							"revision" : 0,
+							"architecture" : "x86"
 						}
 ,
 						"rect" : [ 0.0, 44.0, 400.0, 116.0 ],
@@ -87,20 +89,6 @@
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 1135.69458, 685.0, 34.0, 20.0 ],
 									"text" : "gate"
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"fontname" : "Arial",
-									"fontsize" : 12.0,
-									"id" : "obj-54",
-									"maxclass" : "newobj",
-									"numinlets" : 2,
-									"numoutlets" : 1,
-									"outlettype" : [ "int" ],
-									"patching_rect" : [ 1376.977783, 648.624817, 51.0, 20.0 ],
-									"text" : "% 1000"
 								}
 
 							}
@@ -898,8 +886,8 @@
 									"id" : "obj-134",
 									"maxclass" : "newobj",
 									"numinlets" : 1,
-									"numoutlets" : 8,
-									"outlettype" : [ "float", "list", "float", "float", "float", "float", "float", "" ],
+									"numoutlets" : 9,
+									"outlettype" : [ "float", "list", "float", "float", "float", "float", "float", "", "int" ],
 									"patching_rect" : [ 1537.435913, 1201.24585, 113.5, 21.0 ],
 									"text" : "info~ #0buffer"
 								}
@@ -1069,7 +1057,6 @@
 									"patching_rect" : [ 2000.436035, 809.033997, 151.0, 20.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 6.383804, 39.761871, 384.935455, 20.0 ],
-									"text" : "cello-f2.aif",
 									"textcolor" : [ 1.0, 1.0, 1.0, 0.61 ]
 								}
 
@@ -1143,7 +1130,7 @@
 									"presentation" : 1,
 									"presentation_rect" : [ 72.085411, 47.665756, 267.0, 40.0 ],
 									"text" : "drag audio file here",
-									"textcolor" : [ 0.0, 0.0, 0.0, 0.1 ]
+									"textcolor" : [ 0.0, 0.0, 0.0, 0.0 ]
 								}
 
 							}
@@ -1157,9 +1144,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 388.988892, 627.102722, 86.0, 18.0 ],
-									"presentation" : 1,
-									"presentation_rect" : [ 72.085411, 17.0, 94.0, 18.0 ],
+									"patching_rect" : [ 1935.988892, 489.102722, 86.0, 18.0 ],
 									"text" : "set #0buffer"
 								}
 
@@ -1206,7 +1191,7 @@
 									"numinlets" : 5,
 									"numoutlets" : 6,
 									"outlettype" : [ "float", "float", "float", "float", "list", "" ],
-									"patching_rect" : [ 388.988892, 698.602661, 256.0, 64.0 ],
+									"patching_rect" : [ 1935.988892, 560.602661, 256.0, 64.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 5.141289, 27.858765, 386.039124, 67.710861 ],
 									"selectioncolor" : [ 0.235294, 0.698039, 0.678431, 0.0 ],
@@ -1225,8 +1210,8 @@
 									"outlettype" : [ "", "", "", "" ],
 									"patching_rect" : [ 1240.227783, 1514.014648, 59.5, 20.0 ],
 									"restore" : 									{
-										"Length" : [ 105.51181 ],
-										"Length[1]" : [ 460.629913 ],
+										"Length" : [ 1000.0 ],
+										"Length[1]" : [ 0.0 ],
 										"ModulatePosition" : [ 0.0 ],
 										"PitchOffset" : [ 0.0 ],
 										"getsamplelength" : [ 0.0 ],
@@ -1234,7 +1219,7 @@
 									}
 ,
 									"text" : "autopattr",
-									"varname" : "u381000390"
+									"varname" : "u748000395"
 								}
 
 							}
@@ -1757,6 +1742,15 @@
 							}
 , 							{
 								"patchline" : 								{
+									"destination" : [ "obj-102", 0 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-87", 1 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
 									"destination" : [ "obj-104", 0 ],
 									"disabled" : 0,
 									"hidden" : 0,
@@ -1856,12 +1850,12 @@
  ],
 		"lines" : [  ],
 		"parameters" : 		{
-			"obj-46::obj-172" : [ "ModulatePosition", "ModulatePosition", 0 ],
-			"obj-46::obj-171" : [ "PitchOffset", "PitchOffset", 0 ],
 			"obj-46::obj-32" : [ "getsamplelength", "getsamplelength", 0 ],
-			"obj-46::obj-20" : [ "power[1]", "power", 0 ],
 			"obj-46::obj-59" : [ "Length", "Length", 0 ],
-			"obj-46::obj-5" : [ "Length[1]", "Length", 0 ]
+			"obj-46::obj-5" : [ "Length[1]", "Length", 0 ],
+			"obj-46::obj-172" : [ "ModulatePosition", "ModulatePosition", 0 ],
+			"obj-46::obj-20" : [ "power[1]", "power", 0 ],
+			"obj-46::obj-171" : [ "PitchOffset", "PitchOffset", 0 ]
 		}
 ,
 		"dependency_cache" : [  ]
