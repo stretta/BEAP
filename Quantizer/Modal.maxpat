@@ -118,12 +118,12 @@
 									"presentation_rect" : [ 6.0, 48.792229, 90.0, 15.0 ],
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
-											"parameter_unitstyle" : 8,
 											"parameter_initial" : [ 0.0 ],
 											"parameter_type" : 0,
 											"parameter_initial_enable" : 1,
 											"parameter_shortname" : "Key",
-											"parameter_longname" : "Key"
+											"parameter_longname" : "Key",
+											"parameter_unitstyle" : 8
 										}
 
 									}
@@ -1036,13 +1036,13 @@
 									"outlettype" : [ "", "", "", "" ],
 									"patching_rect" : [ 151.0, 399.970001, 59.5, 20.0 ],
 									"restore" : 									{
-										"Key" : [ 5.9 ],
-										"Mode" : [ "dorian" ],
+										"Key" : [ 0.0 ],
+										"Mode" : [ "ionian" ],
 										"bypass" : [ 0.0 ]
 									}
 ,
 									"text" : "autopattr",
-									"varname" : "u940001269"
+									"varname" : "u754006093"
 								}
 
 							}
@@ -1111,14 +1111,14 @@
 									"presentation_rect" : [ 44.0, 19.0, 52.0, 14.764645 ],
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
-											"parameter_enum" : [ "val1", "val2" ],
-											"parameter_mmax" : 1.0,
 											"parameter_initial" : [ 0.0 ],
 											"parameter_type" : 2,
 											"parameter_initial_enable" : 1,
 											"parameter_shortname" : "bypass",
 											"parameter_longname" : "bypass",
-											"parameter_defer" : 1
+											"parameter_defer" : 1,
+											"parameter_enum" : [ "val1", "val2" ],
+											"parameter_mmax" : 1.0
 										}
 
 									}
@@ -1350,8 +1350,8 @@
  ],
 		"lines" : [  ],
 		"parameters" : 		{
-			"obj-18::obj-129" : [ "Key", "Key", 0 ],
-			"obj-18::obj-12" : [ "bypass", "bypass", 0 ]
+			"obj-18::obj-12" : [ "bypass", "bypass", 0 ],
+			"obj-18::obj-129" : [ "Key", "Key", 0 ]
 		}
 ,
 		"dependency_cache" : [  ]
