@@ -66,6 +66,77 @@
 						"tags" : "",
 						"boxes" : [ 							{
 								"box" : 								{
+									"activebgcolor" : [ 0.917647, 0.94902, 0.054902, 0.0 ],
+									"activebgoncolor" : [ 0.278431, 0.839216, 1.0, 1.0 ],
+									"activetextcolor" : [ 0.278431, 0.839216, 1.0, 1.0 ],
+									"activetextoncolor" : [ 0.137255, 0.145098, 0.160784, 1.0 ],
+									"annotation" : "Time mode: when Sync is selected, the LFO runs in sync with Live's transport. When in Freq mode, the LFO runs using its own internal clock. Synced rates are expressed in note values, and Frequency rates are expressed in Herz.",
+									"automation" : "Freq",
+									"automationon" : "Semitone",
+									"bgcolor" : [ 0.6, 0.6, 0.6, 0.0 ],
+									"bordercolor" : [ 0.278431, 0.839216, 1.0, 1.0 ],
+									"focusbordercolor" : [ 0.278431, 0.839216, 1.0, 1.0 ],
+									"hint" : "",
+									"id" : "obj-22",
+									"maxclass" : "live.text",
+									"numinlets" : 1,
+									"numoutlets" : 2,
+									"outlettype" : [ "", "" ],
+									"parameter_enable" : 1,
+									"patching_rect" : [ 433.439941, 76.822601, 35.0, 19.0 ],
+									"presentation" : 1,
+									"presentation_rect" : [ 43.0, 41.838638, 33.0, 15.0 ],
+									"saved_attribute_attributes" : 									{
+										"valueof" : 										{
+											"parameter_order" : 1,
+											"parameter_speedlim" : 0.0,
+											"parameter_enum" : [ "Freq", "Semitone" ],
+											"parameter_mmax" : 1.0,
+											"parameter_initial" : [ 1 ],
+											"parameter_type" : 2,
+											"parameter_initial_enable" : 1,
+											"parameter_shortname" : "TimeMode",
+											"parameter_annotation_name" : "Time Mode",
+											"parameter_longname" : "TimeMode"
+										}
+
+									}
+,
+									"text" : "Freq",
+									"textcolor" : [ 0.556863, 0.556863, 0.556863, 1.0 ],
+									"texton" : "Semi",
+									"varname" : "FreqMode"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-36",
+									"linecolor" : [ 1.0, 1.0, 1.0, 0.32 ],
+									"maxclass" : "live.line",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 70.550323, 82.170105, 5.0, 100.0 ],
+									"presentation" : 1,
+									"presentation_rect" : [ 56.781197, 53.350815, 12.437605, 15.612484 ]
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-3",
+									"linecolor" : [ 1.0, 1.0, 1.0, 0.32 ],
+									"maxclass" : "live.line",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 465.72583, 153.662445, 5.0, 100.0 ],
+									"presentation" : 1,
+									"presentation_rect" : [ 35.502075, 68.170105, 22.279121, 7.793194 ]
+								}
+
+							}
+, 							{
+								"box" : 								{
 									"fontname" : "Arial Bold",
 									"fontsize" : 9.0,
 									"frgb" : 0.0,
@@ -88,7 +159,7 @@
 									"maxclass" : "live.line",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 176.900467, 349.019836, 5.0, 100.0 ],
+									"patching_rect" : [ 1013.900452, 810.005188, 5.0, 100.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 238.00209, 65.716515, 12.437605, 7.793194 ]
 								}
@@ -131,7 +202,7 @@
 									"numinlets" : 3,
 									"numoutlets" : 1,
 									"outlettype" : [ "signal" ],
-									"patching_rect" : [ 1699.439941, 726.314514, 56.0, 20.0 ],
+									"patching_rect" : [ 726.439941, 815.314514, 56.0, 20.0 ],
 									"text" : "clip~ 0 5"
 								}
 
@@ -145,7 +216,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "signal" ],
-									"patching_rect" : [ 1699.439941, 819.344482, 42.0, 20.0 ],
+									"patching_rect" : [ 726.439941, 908.344482, 42.0, 20.0 ],
 									"text" : "*~ 0.2"
 								}
 
@@ -159,7 +230,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "signal" ],
-									"patching_rect" : [ 1699.439941, 778.476807, 140.406006, 18.0 ],
+									"patching_rect" : [ 726.439941, 867.476807, 140.406006, 18.0 ],
 									"text" : "*~"
 								}
 
@@ -172,7 +243,7 @@
 									"numinlets" : 0,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 1699.439941, 629.053833, 25.0, 25.0 ]
+									"patching_rect" : [ 726.439941, 766.053833, 25.0, 25.0 ]
 								}
 
 							}
@@ -185,7 +256,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "signal" ],
-									"patching_rect" : [ 1820.845947, 695.87915, 45.0, 21.0 ],
+									"patching_rect" : [ 847.845947, 784.87915, 45.0, 21.0 ],
 									"text" : "sig~ 2"
 								}
 
@@ -199,7 +270,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "signal" ],
-									"patching_rect" : [ 1820.845947, 738.820435, 81.0, 21.0 ],
+									"patching_rect" : [ 847.845947, 827.820435, 81.0, 21.0 ],
 									"text" : "pow~"
 								}
 
@@ -213,7 +284,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "float" ],
-									"patching_rect" : [ 1882.845947, 704.637573, 37.0, 18.0 ],
+									"patching_rect" : [ 909.845947, 793.637573, 37.0, 18.0 ],
 									"text" : "* 0.01"
 								}
 
@@ -229,7 +300,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "float" ],
 									"parameter_enable" : 1,
-									"patching_rect" : [ 1882.845947, 638.053833, 47.0, 36.0 ],
+									"patching_rect" : [ 909.845947, 727.053833, 47.0, 36.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 247.640533, 41.838638, 47.0, 36.0 ],
 									"saved_attribute_attributes" : 									{
@@ -824,51 +895,6 @@
 									}
 ,
 									"text" : "p TimeMode"
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"activebgcolor" : [ 0.917647, 0.94902, 0.054902, 0.0 ],
-									"activebgoncolor" : [ 0.278431, 0.839216, 1.0, 1.0 ],
-									"activetextcolor" : [ 0.278431, 0.839216, 1.0, 1.0 ],
-									"activetextoncolor" : [ 0.137255, 0.145098, 0.160784, 1.0 ],
-									"annotation" : "Time mode: when Sync is selected, the LFO runs in sync with Live's transport. When in Freq mode, the LFO runs using its own internal clock. Synced rates are expressed in note values, and Frequency rates are expressed in Herz.",
-									"automation" : "Freq",
-									"automationon" : "Semitone",
-									"bgcolor" : [ 0.6, 0.6, 0.6, 0.0 ],
-									"bordercolor" : [ 0.278431, 0.839216, 1.0, 1.0 ],
-									"focusbordercolor" : [ 0.278431, 0.839216, 1.0, 1.0 ],
-									"hint" : "",
-									"id" : "obj-22",
-									"maxclass" : "live.text",
-									"numinlets" : 1,
-									"numoutlets" : 2,
-									"outlettype" : [ "", "" ],
-									"parameter_enable" : 1,
-									"patching_rect" : [ 433.439941, 76.822601, 35.0, 19.0 ],
-									"presentation" : 1,
-									"presentation_rect" : [ 43.0, 41.838638, 33.0, 15.0 ],
-									"saved_attribute_attributes" : 									{
-										"valueof" : 										{
-											"parameter_order" : 1,
-											"parameter_speedlim" : 0.0,
-											"parameter_enum" : [ "Freq", "Semitone" ],
-											"parameter_mmax" : 1.0,
-											"parameter_initial" : [ 1 ],
-											"parameter_type" : 2,
-											"parameter_initial_enable" : 1,
-											"parameter_shortname" : "TimeMode",
-											"parameter_annotation_name" : "Time Mode",
-											"parameter_longname" : "TimeMode"
-										}
-
-									}
-,
-									"text" : "Freq",
-									"textcolor" : [ 0.556863, 0.556863, 0.556863, 1.0 ],
-									"texton" : "Semi",
-									"varname" : "FreqMode"
 								}
 
 							}
@@ -1826,7 +1852,7 @@
 									}
 ,
 									"text" : "autopattr",
-									"varname" : "u494001029"
+									"varname" : "u356003273"
 								}
 
 							}
@@ -2533,7 +2559,6 @@
 									"destination" : [ "obj-98", 1 ],
 									"disabled" : 0,
 									"hidden" : 0,
-									"midpoints" : [ 1708.939941, 903.291016, 735.939941, 903.291016 ],
 									"source" : [ "obj-96", 0 ]
 								}
 
