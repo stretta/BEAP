@@ -8,7 +8,7 @@
 			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 59.0, 83.0, 1653.0, 1204.0 ],
+		"rect" : [ 0.0, 44.0, 1440.0, 755.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -44,7 +44,7 @@
 							"architecture" : "x86"
 						}
 ,
-						"rect" : [ 58.0, 83.0, 90.0, 116.0 ],
+						"rect" : [ -1.0, 44.0, 90.0, 116.0 ],
 						"bgcolor" : [ 1.0, 1.0, 1.0, 0.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 1,
@@ -88,7 +88,6 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 819.5, 266.0, 32.5, 18.0 ],
-									"presentation_rect" : [ 818.0, 266.0, 0.0, 0.0 ],
 									"text" : "1"
 								}
 
@@ -146,11 +145,11 @@
 									"outlettype" : [ "", "", "", "" ],
 									"patching_rect" : [ 706.0, 344.970001, 59.5, 20.0 ],
 									"restore" : 									{
-										"Bypass" : [ 1.0 ]
+										"Bypass" : [ 0.0 ]
 									}
 ,
 									"text" : "autopattr",
-									"varname" : "u693000659"
+									"varname" : "u158006040"
 								}
 
 							}
@@ -230,14 +229,14 @@
 									"presentation_rect" : [ 33.140533, 18.0, 52.0, 17.0 ],
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
-											"parameter_longname" : "Bypass",
-											"parameter_defer" : 1,
-											"parameter_enum" : [ "val1", "val2" ],
-											"parameter_mmax" : 1.0,
 											"parameter_initial" : [ 0 ],
 											"parameter_type" : 2,
 											"parameter_initial_enable" : 1,
-											"parameter_shortname" : "Bypass"
+											"parameter_shortname" : "Bypass",
+											"parameter_longname" : "Bypass",
+											"parameter_defer" : 1,
+											"parameter_enum" : [ "val1", "val2" ],
+											"parameter_mmax" : 1.0
 										}
 
 									}
