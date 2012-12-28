@@ -8,7 +8,7 @@
 			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 0.0, 44.0, 2053.0, 1350.0 ],
+		"rect" : [ 0.0, 44.0, 712.0, 359.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -65,6 +65,43 @@
 						"digest" : "",
 						"tags" : "",
 						"boxes" : [ 							{
+								"box" : 								{
+									"fontname" : "Arial",
+									"fontsize" : 12.0,
+									"id" : "obj-12",
+									"maxclass" : "message",
+									"numinlets" : 2,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 1661.647217, 722.842651, 123.0, 18.0 ],
+									"text" : "bgcolor 0 146 255 $1"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"bgcolor" : [ 0.0, 146.0, 255.0, 0.0 ],
+									"bgovercolor" : [ 0.698039, 0.698039, 0.698039, 0.0 ],
+									"border" : 1,
+									"bordercolor" : [ 0.101961, 0.101961, 0.101961, 0.54 ],
+									"borderoncolor" : [ 0.101961, 0.101961, 0.101961, 0.54 ],
+									"fontname" : "Arial",
+									"fontsize" : 12.0,
+									"id" : "obj-3",
+									"ignoreclick" : 1,
+									"maxclass" : "textbutton",
+									"numinlets" : 1,
+									"numoutlets" : 3,
+									"outlettype" : [ "", "", "int" ],
+									"parameter_enable" : 0,
+									"patching_rect" : [ 1666.903809, 762.584717, 10.243361, 10.197549 ],
+									"presentation" : 1,
+									"presentation_rect" : [ 28.926483, 3.375908, 10.049012, 10.748189 ],
+									"text" : ""
+								}
+
+							}
+, 							{
 								"box" : 								{
 									"fontname" : "Arial",
 									"fontsize" : 12.0,
@@ -177,7 +214,7 @@
 									}
 ,
 									"text" : "autopattr",
-									"varname" : "u005000885"
+									"varname" : "u337001071"
 								}
 
 							}
@@ -2225,10 +2262,28 @@
 							}
 , 							{
 								"patchline" : 								{
+									"destination" : [ "obj-12", 0 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-11", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
 									"destination" : [ "obj-246", 0 ],
 									"disabled" : 0,
 									"hidden" : 0,
 									"source" : [ "obj-11", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-3", 0 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-12", 0 ]
 								}
 
 							}
@@ -2249,6 +2304,15 @@
 									"hidden" : 0,
 									"midpoints" : [ 1118.5, 448.37915, 1393.877563, 448.37915 ],
 									"source" : [ "obj-127", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-12", 0 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-16", 0 ]
 								}
 
 							}
@@ -2448,14 +2512,14 @@
  ],
 		"lines" : [  ],
 		"parameters" : 		{
-			"obj-10::obj-86" : [ "Filter envelope attack", "Attack", 0 ],
-			"obj-10::obj-26" : [ "mute", "mute", 0 ],
-			"obj-10::obj-104" : [ "Filter envelope decay", "Decay", 0 ],
 			"obj-10::obj-102" : [ "Filter envelope sustain", "Sustain", 0 ],
 			"obj-10::obj-47" : [ "filter envelope attack curve", "filter envelope attack curve", 0 ],
-			"obj-10::obj-101" : [ "Filter envelope release", "Release", 0 ],
+			"obj-10::obj-104" : [ "Filter envelope decay", "Decay", 0 ],
 			"obj-10::obj-46" : [ "filter envelope decay curve", "filter envelope decay curve", 0 ],
-			"obj-10::obj-45" : [ "filter envelope release curve", "filter envelope release curve", 0 ]
+			"obj-10::obj-45" : [ "filter envelope release curve", "filter envelope release curve", 0 ],
+			"obj-10::obj-26" : [ "mute", "mute", 0 ],
+			"obj-10::obj-86" : [ "Filter envelope attack", "Attack", 0 ],
+			"obj-10::obj-101" : [ "Filter envelope release", "Release", 0 ]
 		}
 ,
 		"dependency_cache" : [  ]

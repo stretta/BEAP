@@ -8,7 +8,7 @@
 			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 225.0, 73.0, 2053.0, 1350.0 ],
+		"rect" : [ 25.0, 44.0, 496.0, 225.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -44,7 +44,7 @@
 							"architecture" : "x86"
 						}
 ,
-						"rect" : [ 225.0, 73.0, 260.0, 116.0 ],
+						"rect" : [ 25.0, 44.0, 260.0, 116.0 ],
 						"bgcolor" : [ 1.0, 1.0, 1.0, 0.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 1,
@@ -141,21 +141,6 @@
 								"box" : 								{
 									"fontname" : "Arial",
 									"fontsize" : 12.0,
-									"id" : "obj-169",
-									"maxclass" : "number~",
-									"mode" : 2,
-									"numinlets" : 2,
-									"numoutlets" : 2,
-									"outlettype" : [ "signal", "float" ],
-									"patching_rect" : [ 435.0, 880.0, 56.0, 20.0 ],
-									"sig" : 0.0
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"fontname" : "Arial",
-									"fontsize" : 12.0,
 									"id" : "obj-168",
 									"maxclass" : "newobj",
 									"numinlets" : 1,
@@ -233,23 +218,6 @@
 									"outlettype" : [ "signal" ],
 									"patching_rect" : [ 714.784119, 1214.0, 32.5, 20.0 ],
 									"text" : "*~ 5"
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"bubble" : 1,
-									"bubbleside" : 2,
-									"fontname" : "Arial",
-									"fontsize" : 12.0,
-									"frgb" : 0.0,
-									"id" : "obj-157",
-									"linecount" : 2,
-									"maxclass" : "comment",
-									"numinlets" : 1,
-									"numoutlets" : 0,
-									"patching_rect" : [ 556.135559, 1246.15918, 97.0, 52.0 ],
-									"text" : "module output goes here"
 								}
 
 							}
@@ -1066,7 +1034,7 @@
 									"numinlets" : 0,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 130.870422, 462.061188, 25.0, 25.0 ]
+									"patching_rect" : [ 160.0, 574.685303, 25.0, 25.0 ]
 								}
 
 							}
@@ -2784,22 +2752,22 @@
 									"outlettype" : [ "", "", "", "" ],
 									"patching_rect" : [ 175.236206, 372.0, 59.5, 20.0 ],
 									"restore" : 									{
-										"Attack" : [ 1.116002 ],
+										"Attack" : [ 1.0 ],
 										"AttackCV" : [ 0.0 ],
-										"Decay" : [ 315.257324 ],
+										"Decay" : [ 250.0 ],
 										"DecayCV" : [ 0.0 ],
 										"Mute" : [ 0.0 ],
-										"Release" : [ 4000.0 ],
-										"ReleaseCV" : [ 100.0 ],
-										"Sustain" : [ 58.188976 ],
-										"SustainCV" : [ 85.826775 ],
-										"filter envelope attack curve" : [ 1.070866 ],
-										"filter envelope decay curve" : [ 1.181102 ],
-										"filter envelope release curve" : [ 0.535433 ]
+										"Release" : [ 500.0 ],
+										"ReleaseCV" : [ 0.0 ],
+										"Sustain" : [ 60.0 ],
+										"SustainCV" : [ 0.0 ],
+										"filter envelope attack curve" : [ 0.5 ],
+										"filter envelope decay curve" : [ 1.0 ],
+										"filter envelope release curve" : [ 0.5 ]
 									}
 ,
 									"text" : "autopattr",
-									"varname" : "u397004708"
+									"varname" : "u796001258"
 								}
 
 							}
@@ -3388,15 +3356,6 @@
 							}
 , 							{
 								"patchline" : 								{
-									"destination" : [ "obj-169", 0 ],
-									"disabled" : 0,
-									"hidden" : 0,
-									"source" : [ "obj-161", 0 ]
-								}
-
-							}
-, 							{
-								"patchline" : 								{
 									"destination" : [ "obj-183", 1 ],
 									"disabled" : 0,
 									"hidden" : 0,
@@ -3596,18 +3555,18 @@
  ],
 		"lines" : [  ],
 		"parameters" : 		{
-			"obj-2::obj-46" : [ "filter envelope decay curve[1]", "filter envelope decay curve", 0 ],
-			"obj-2::obj-12" : [ "Mute[3]", "Mute", 0 ],
 			"obj-2::obj-174" : [ "Attack[1]", "Attack", 0 ],
+			"obj-2::obj-122" : [ "DecayCV[1]", "DecayCV", 0 ],
+			"obj-2::obj-12" : [ "Mute[3]", "Mute", 0 ],
+			"obj-2::obj-47" : [ "filter envelope attack curve[1]", "filter envelope attack curve", 0 ],
+			"obj-2::obj-152" : [ "Sustain[1]", "Sustain", 0 ],
 			"obj-2::obj-150" : [ "Decay[1]", "Decay", 0 ],
 			"obj-2::obj-144" : [ "SustainCV[1]", "SustainCV", 0 ],
 			"obj-2::obj-137" : [ "ReleaseCV[1]", "ReleaseCV", 0 ],
-			"obj-2::obj-122" : [ "DecayCV[1]", "DecayCV", 0 ],
-			"obj-2::obj-45" : [ "filter envelope release curve[1]", "filter envelope release curve", 0 ],
-			"obj-2::obj-151" : [ "Release[1]", "Release", 0 ],
 			"obj-2::obj-90" : [ "AttackCV[1]", "AttackCV", 0 ],
-			"obj-2::obj-152" : [ "Sustain[1]", "Sustain", 0 ],
-			"obj-2::obj-47" : [ "filter envelope attack curve[1]", "filter envelope attack curve", 0 ]
+			"obj-2::obj-46" : [ "filter envelope decay curve[1]", "filter envelope decay curve", 0 ],
+			"obj-2::obj-151" : [ "Release[1]", "Release", 0 ],
+			"obj-2::obj-45" : [ "filter envelope release curve[1]", "filter envelope release curve", 0 ]
 		}
 ,
 		"dependency_cache" : [  ]
