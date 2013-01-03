@@ -68,6 +68,20 @@
 								"box" : 								{
 									"fontname" : "Arial",
 									"fontsize" : 12.0,
+									"id" : "obj-9",
+									"maxclass" : "newobj",
+									"numinlets" : 2,
+									"numoutlets" : 1,
+									"outlettype" : [ "signal" ],
+									"patching_rect" : [ 443.0, 478.0, 32.5, 20.0 ],
+									"text" : "*~ 5"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"fontname" : "Arial",
+									"fontsize" : 12.0,
 									"id" : "obj-25",
 									"maxclass" : "message",
 									"numinlets" : 2,
@@ -373,7 +387,7 @@
 									}
 ,
 									"text" : "autopattr",
-									"varname" : "u836000044"
+									"varname" : "u741004737"
 								}
 
 							}
@@ -628,7 +642,7 @@
 							}
 , 							{
 								"patchline" : 								{
-									"destination" : [ "obj-16", 1 ],
+									"destination" : [ "obj-9", 0 ],
 									"disabled" : 0,
 									"hidden" : 0,
 									"source" : [ "obj-3", 0 ]
@@ -698,6 +712,15 @@
 								}
 
 							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-16", 1 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-9", 0 ]
+								}
+
+							}
  ]
 					}
 ,
@@ -709,11 +732,11 @@
  ],
 		"lines" : [  ],
 		"parameters" : 		{
-			"obj-4::obj-31" : [ "Release", "Release", 0 ],
-			"obj-4::obj-1" : [ "Attack", "Attack", 0 ],
-			"obj-4::obj-20" : [ "Mute[4]", "Mute", 0 ],
 			"obj-4::obj-32" : [ "Sustain[1]", "Sustain", 0 ],
-			"obj-4::obj-29" : [ "Release[2]", "Decay", 0 ]
+			"obj-4::obj-31" : [ "Release", "Release", 0 ],
+			"obj-4::obj-20" : [ "Mute[4]", "Mute", 0 ],
+			"obj-4::obj-29" : [ "Release[2]", "Decay", 0 ],
+			"obj-4::obj-1" : [ "Attack", "Attack", 0 ]
 		}
 ,
 		"dependency_cache" : [  ]
