@@ -68,6 +68,71 @@
 								"box" : 								{
 									"fontname" : "Arial",
 									"fontsize" : 12.0,
+									"id" : "obj-25",
+									"maxclass" : "message",
+									"numinlets" : 2,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 756.5047, 174.854095, 32.5, 18.0 ],
+									"text" : "0"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"fontname" : "Arial",
+									"fontsize" : 12.0,
+									"id" : "obj-23",
+									"maxclass" : "message",
+									"numinlets" : 2,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 713.0, 174.854095, 32.5, 18.0 ],
+									"text" : "1"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"fontname" : "Arial",
+									"fontsize" : 12.0,
+									"id" : "obj-4",
+									"maxclass" : "message",
+									"numinlets" : 2,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 473.0, 230.964355, 123.0, 18.0 ],
+									"text" : "bgcolor 0 146 255 $1"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"bgcolor" : [ 0.0, 146.0, 255.0, 0.0 ],
+									"bgovercolor" : [ 0.698039, 0.698039, 0.698039, 0.0 ],
+									"border" : 1,
+									"bordercolor" : [ 0.101961, 0.101961, 0.101961, 0.54 ],
+									"borderoncolor" : [ 0.101961, 0.101961, 0.101961, 0.54 ],
+									"fontname" : "Arial",
+									"fontsize" : 12.0,
+									"id" : "obj-5",
+									"ignoreclick" : 1,
+									"maxclass" : "textbutton",
+									"numinlets" : 1,
+									"numoutlets" : 3,
+									"outlettype" : [ "", "", "int" ],
+									"parameter_enable" : 0,
+									"patching_rect" : [ 478.256653, 270.706421, 10.243361, 10.197549 ],
+									"presentation" : 1,
+									"presentation_rect" : [ 30.926483, 3.375908, 10.049012, 10.748189 ],
+									"text" : ""
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"fontname" : "Arial",
+									"fontsize" : 12.0,
 									"id" : "obj-52",
 									"maxclass" : "newobj",
 									"numinlets" : 2,
@@ -209,14 +274,14 @@
 									"presentation_rect" : [ 85.0, 19.0, 52.0, 14.764645 ],
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
-											"parameter_shortname" : "mute",
-											"parameter_longname" : "mute",
-											"parameter_defer" : 1,
 											"parameter_enum" : [ "val1", "val2" ],
 											"parameter_mmax" : 1.0,
 											"parameter_initial" : [ 0.0 ],
 											"parameter_type" : 2,
-											"parameter_initial_enable" : 1
+											"parameter_initial_enable" : 1,
+											"parameter_shortname" : "mute",
+											"parameter_longname" : "mute",
+											"parameter_defer" : 1
 										}
 
 									}
@@ -295,13 +360,13 @@
 									"presentation_rect" : [ 4.0, 42.292229, 44.0, 47.0 ],
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
-											"parameter_shortname" : "Attack",
-											"parameter_longname" : "Attack",
 											"parameter_unitstyle" : 2,
 											"parameter_mmax" : 4000.0,
 											"parameter_initial" : [ 100 ],
 											"parameter_type" : 0,
-											"parameter_initial_enable" : 1
+											"parameter_initial_enable" : 1,
+											"parameter_shortname" : "Attack",
+											"parameter_longname" : "Attack"
 										}
 
 									}
@@ -327,13 +392,13 @@
 									"presentation_rect" : [ 92.0, 42.292229, 44.0, 47.0 ],
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
-											"parameter_shortname" : "Release",
-											"parameter_longname" : "Release",
 											"parameter_unitstyle" : 2,
 											"parameter_mmax" : 4000.0,
 											"parameter_initial" : [ 100 ],
 											"parameter_type" : 0,
-											"parameter_initial_enable" : 1
+											"parameter_initial_enable" : 1,
+											"parameter_shortname" : "Release",
+											"parameter_longname" : "Release"
 										}
 
 									}
@@ -359,14 +424,14 @@
 									"presentation_rect" : [ 48.0, 42.292229, 44.0, 47.0 ],
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
-											"parameter_shortname" : "Hold",
-											"parameter_longname" : "Hold",
 											"parameter_exponent" : 2.0,
 											"parameter_unitstyle" : 2,
 											"parameter_mmax" : 2000.0,
 											"parameter_initial" : [ 50 ],
 											"parameter_type" : 0,
-											"parameter_initial_enable" : 1
+											"parameter_initial_enable" : 1,
+											"parameter_shortname" : "Hold",
+											"parameter_longname" : "Hold"
 										}
 
 									}
@@ -408,7 +473,7 @@
 									}
 ,
 									"text" : "autopattr",
-									"varname" : "u262000841"
+									"varname" : "u931002249"
 								}
 
 							}
@@ -531,6 +596,24 @@
 							}
 , 							{
 								"patchline" : 								{
+									"destination" : [ "obj-23", 0 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-1", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-25", 0 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-1", 1 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
 									"destination" : [ "obj-38", 0 ],
 									"disabled" : 0,
 									"hidden" : 0,
@@ -576,10 +659,28 @@
 							}
 , 							{
 								"patchline" : 								{
+									"destination" : [ "obj-4", 0 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-23", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
 									"destination" : [ "obj-1", 0 ],
 									"disabled" : 0,
 									"hidden" : 0,
 									"source" : [ "obj-24", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-4", 0 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-25", 0 ]
 								}
 
 							}
@@ -634,6 +735,15 @@
 									"disabled" : 0,
 									"hidden" : 0,
 									"source" : [ "obj-39", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-5", 0 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-4", 0 ]
 								}
 
 							}
@@ -702,10 +812,10 @@
  ],
 		"lines" : [  ],
 		"parameters" : 		{
+			"obj-10::obj-45" : [ "Attack", "Attack", 0 ],
 			"obj-10::obj-29" : [ "Hold", "Hold", 0 ],
 			"obj-10::obj-20" : [ "mute", "mute", 0 ],
-			"obj-10::obj-32" : [ "Release", "Release", 0 ],
-			"obj-10::obj-45" : [ "Attack", "Attack", 0 ]
+			"obj-10::obj-32" : [ "Release", "Release", 0 ]
 		}
 ,
 		"dependency_cache" : [  ]
