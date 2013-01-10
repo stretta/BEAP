@@ -30,7 +30,7 @@
 		"boxes" : [ 			{
 				"box" : 				{
 					"embed" : 1,
-					"id" : "obj-18",
+					"id" : "obj-2",
 					"maxclass" : "bpatcher",
 					"numinlets" : 1,
 					"numoutlets" : 2,
@@ -65,6 +65,20 @@
 						"digest" : "",
 						"tags" : "",
 						"boxes" : [ 							{
+								"box" : 								{
+									"fontname" : "Arial",
+									"fontsize" : 12.0,
+									"id" : "obj-1",
+									"maxclass" : "newobj",
+									"numinlets" : 2,
+									"numoutlets" : 1,
+									"outlettype" : [ "signal" ],
+									"patching_rect" : [ 604.0, 950.313232, 32.5, 20.0 ],
+									"text" : "*~ 5"
+								}
+
+							}
+, 							{
 								"box" : 								{
 									"fontname" : "Arial Bold",
 									"fontsize" : 9.0,
@@ -103,7 +117,7 @@
 											"parameter_mmax" : 100.0,
 											"parameter_type" : 0,
 											"parameter_shortname" : "live.numbox",
-											"parameter_longname" : "live.numbox"
+											"parameter_longname" : "live.numbox[1]"
 										}
 
 									}
@@ -151,7 +165,7 @@
 											"parameter_initial_enable" : 1,
 											"parameter_shortname" : "Shape",
 											"parameter_annotation_name" : "Shape",
-											"parameter_longname" : "SpectraLFOShape[1]"
+											"parameter_longname" : "SpectraLFOShape[2]"
 										}
 
 									}
@@ -702,7 +716,7 @@
 											"parameter_type" : 0,
 											"parameter_initial_enable" : 1,
 											"parameter_shortname" : "Freq",
-											"parameter_longname" : "Frequency"
+											"parameter_longname" : "Frequency[3]"
 										}
 
 									}
@@ -758,14 +772,14 @@
 									"outlettype" : [ "", "", "", "" ],
 									"patching_rect" : [ 396.0, 430.0, 59.5, 20.0 ],
 									"restore" : 									{
-										"Frequency" : [ 0.350444 ],
+										"Frequency" : [ 1.0 ],
 										"Mute" : [ 0.0 ],
-										"SpectraShape" : [ 5.0 ],
+										"SpectraShape" : [ 0.0 ],
 										"live.numbox" : [ 0.0 ]
 									}
 ,
 									"text" : "autopattr",
-									"varname" : "u033004296"
+									"varname" : "u251002819"
 								}
 
 							}
@@ -833,7 +847,7 @@
 											"parameter_type" : 2,
 											"parameter_initial_enable" : 1,
 											"parameter_shortname" : "Mute",
-											"parameter_longname" : "Mute",
+											"parameter_longname" : "Mute[10]",
 											"parameter_defer" : 1
 										}
 
@@ -921,6 +935,15 @@
 							}
  ],
 						"lines" : [ 							{
+								"patchline" : 								{
+									"destination" : [ "obj-26", 1 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-1", 0 ]
+								}
+
+							}
+, 							{
 								"patchline" : 								{
 									"destination" : [ "obj-71", 0 ],
 									"disabled" : 0,
@@ -1264,7 +1287,7 @@
 							}
 , 							{
 								"patchline" : 								{
-									"destination" : [ "obj-26", 1 ],
+									"destination" : [ "obj-1", 0 ],
 									"disabled" : 0,
 									"hidden" : 0,
 									"source" : [ "obj-97", 0 ]
@@ -1284,17 +1307,17 @@
 					}
 ,
 					"patching_rect" : [ 0.0, 0.0, 116.0, 116.0 ],
-					"varname" : "LFO"
+					"varname" : "LFO3"
 				}
 
 			}
  ],
 		"lines" : [  ],
 		"parameters" : 		{
-			"obj-18::obj-12" : [ "Mute", "Mute", 0 ],
-			"obj-18::obj-106" : [ "live.numbox", "live.numbox", 0 ],
-			"obj-18::obj-20" : [ "Frequency", "Freq", 0 ],
-			"obj-18::obj-75" : [ "SpectraLFOShape[1]", "Shape", 0 ]
+			"obj-2::obj-75" : [ "SpectraLFOShape[2]", "Shape", 0 ],
+			"obj-2::obj-20" : [ "Frequency[3]", "Freq", 0 ],
+			"obj-2::obj-106" : [ "live.numbox[1]", "live.numbox", 0 ],
+			"obj-2::obj-12" : [ "Mute[10]", "Mute", 0 ]
 		}
 ,
 		"dependency_cache" : [  ]
