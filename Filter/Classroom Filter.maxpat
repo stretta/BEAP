@@ -5,7 +5,7 @@
 			"major" : 6,
 			"minor" : 1,
 			"revision" : 0,
-			"architecture" : "x86"
+			"architecture" : "x64"
 		}
 ,
 		"rect" : [ 0.0, 44.0, 1440.0, 753.0 ],
@@ -41,7 +41,7 @@
 							"major" : 6,
 							"minor" : 1,
 							"revision" : 0,
-							"architecture" : "x86"
+							"architecture" : "x64"
 						}
 ,
 						"rect" : [ 0.0, 44.0, 518.0, 224.0 ],
@@ -83,13 +83,13 @@
 									"presentation_rect" : [ 427.314941, 180.838638, 81.25, 17.0 ],
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
-											"parameter_defer" : 1,
 											"parameter_enum" : [ "val1", "val2" ],
+											"parameter_longname" : "spectral",
 											"parameter_mmax" : 1.0,
 											"parameter_initial" : [ 0.0 ],
+											"parameter_defer" : 1,
 											"parameter_type" : 2,
-											"parameter_shortname" : "spectral",
-											"parameter_longname" : "spectral"
+											"parameter_shortname" : "spectral"
 										}
 
 									}
@@ -151,13 +151,13 @@
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
 											"parameter_exponent" : 2.0,
+											"parameter_longname" : "Gain",
 											"parameter_unitstyle" : 5,
 											"parameter_mmax" : 16.0,
 											"parameter_initial" : [ 1 ],
 											"parameter_type" : 0,
 											"parameter_initial_enable" : 1,
-											"parameter_shortname" : "Gain",
-											"parameter_longname" : "Gain"
+											"parameter_shortname" : "Gain"
 										}
 
 									}
@@ -198,14 +198,14 @@
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
 											"parameter_exponent" : 4.0,
+											"parameter_longname" : "Frequency",
 											"parameter_unitstyle" : 3,
 											"parameter_mmax" : 20000.0,
 											"parameter_mmin" : 20.0,
 											"parameter_initial" : [ 500 ],
 											"parameter_type" : 0,
 											"parameter_initial_enable" : 1,
-											"parameter_shortname" : "Freq",
-											"parameter_longname" : "Frequency"
+											"parameter_shortname" : "Freq"
 										}
 
 									}
@@ -230,12 +230,12 @@
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
 											"parameter_enum" : [ "lowpass", "highpass", "bandpass", "bandstop", "peaknotch", "lowshelf", "highshelf" ],
+											"parameter_longname" : "live.tab[1]",
 											"parameter_unitstyle" : 0,
 											"parameter_initial" : [ 0.0 ],
 											"parameter_type" : 2,
 											"parameter_initial_enable" : 1,
-											"parameter_shortname" : "live.tab",
-											"parameter_longname" : "live.tab[1]"
+											"parameter_shortname" : "live.tab"
 										}
 
 									}
@@ -288,6 +288,8 @@
 									"hbwidthcolor" : [ 0.278431, 0.839216, 1.0, 0.61 ],
 									"hcurvecolor" : [ 0.278431, 0.839216, 1.0, 1.0 ],
 									"id" : "obj-36",
+									"linmarkers" : [ 0.0, 11025.0, 16537.5 ],
+									"logmarkers" : [ 0.0, 100.0, 1000.0, 10000.0 ],
 									"markercolor" : [ 0.509804, 0.509804, 0.509804, 1.0 ],
 									"maxclass" : "filtergraph~",
 									"nfilters" : 1,
@@ -477,7 +479,9 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 1582.689941, 1196.576904, 63.0, 17.0 ],
+									"patching_rect" : [ 1604.689941, 1182.576904, 63.0, 17.0 ],
+									"presentation" : 1,
+									"presentation_rect" : [ 311.634399, 0.0, 63.0, 17.0 ],
 									"text" : "CV2 (1v/oct)",
 									"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 								}
@@ -739,11 +743,11 @@
 									"patching_rect" : [ 1339.189941, 265.576904, 44.0, 47.0 ],
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
+											"parameter_longname" : "CV3[1]",
 											"parameter_unitstyle" : 5,
 											"parameter_mmax" : 100.0,
 											"parameter_type" : 0,
-											"parameter_shortname" : "CV3",
-											"parameter_longname" : "CV3[1]"
+											"parameter_shortname" : "CV3"
 										}
 
 									}
@@ -822,11 +826,11 @@
 									"patching_rect" : [ 805.627441, 29.041199, 44.0, 47.0 ],
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
+											"parameter_longname" : "CV1[1]",
 											"parameter_unitstyle" : 5,
 											"parameter_mmax" : 100.0,
 											"parameter_type" : 0,
-											"parameter_shortname" : "CV1",
-											"parameter_longname" : "CV1[1]"
+											"parameter_shortname" : "CV1"
 										}
 
 									}
@@ -916,11 +920,11 @@
 									"patching_rect" : [ 982.189941, 109.73761, 44.0, 47.0 ],
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
+											"parameter_longname" : "CV2[1]",
 											"parameter_unitstyle" : 5,
 											"parameter_mmax" : 100.0,
 											"parameter_type" : 0,
-											"parameter_shortname" : "CV2",
-											"parameter_longname" : "CV2[1]"
+											"parameter_shortname" : "CV2"
 										}
 
 									}
@@ -1009,7 +1013,9 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 1582.689941, 1213.576904, 55.0, 17.0 ],
+									"patching_rect" : [ 1604.689941, 1199.576904, 55.0, 17.0 ],
+									"presentation" : 1,
+									"presentation_rect" : [ 459.634399, 0.0, 55.0, 17.0 ],
 									"text" : "CV3 (0-5v)",
 									"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 								}
@@ -1025,6 +1031,8 @@
 									"numinlets" : 1,
 									"numoutlets" : 0,
 									"patching_rect" : [ 1582.689941, 1213.576904, 63.0, 17.0 ],
+									"presentation" : 1,
+									"presentation_rect" : [ 148.0, 0.0, 63.0, 17.0 ],
 									"text" : "CV1 (1v/oct)",
 									"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 								}
@@ -1085,13 +1093,13 @@
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
 											"parameter_exponent" : 1.5,
+											"parameter_longname" : "Res",
 											"parameter_unitstyle" : 5,
 											"parameter_mmax" : 25.0,
 											"parameter_initial" : [ 0.0 ],
 											"parameter_type" : 0,
 											"parameter_initial_enable" : 1,
-											"parameter_shortname" : "Res",
-											"parameter_longname" : "Res"
+											"parameter_shortname" : "Res"
 										}
 
 									}
@@ -1148,13 +1156,13 @@
 									"presentation_rect" : [ 456.564941, 18.0, 52.0, 17.0 ],
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
-											"parameter_defer" : 1,
 											"parameter_enum" : [ "val1", "val2" ],
+											"parameter_longname" : "power[3]",
 											"parameter_mmax" : 1.0,
 											"parameter_initial" : [ 0.0 ],
+											"parameter_defer" : 1,
 											"parameter_type" : 2,
-											"parameter_shortname" : "power",
-											"parameter_longname" : "power[3]"
+											"parameter_shortname" : "power"
 										}
 
 									}
@@ -1201,7 +1209,7 @@
 									}
 ,
 									"text" : "autopattr",
-									"varname" : "u855003524"
+									"varname" : "u425000551"
 								}
 
 							}
@@ -1234,7 +1242,7 @@
 									"patching_rect" : [ 1582.689941, 1233.576904, 36.0, 17.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 2.0, 0.0, 38.0, 17.0 ],
-									"text" : "Audio",
+									"text" : "Signal",
 									"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 								}
 
@@ -1850,15 +1858,15 @@
  ],
 		"lines" : [  ],
 		"parameters" : 		{
-			"obj-38::obj-55" : [ "power[3]", "power", 0 ],
-			"obj-38::obj-11" : [ "Res", "Res", 0 ],
-			"obj-38::obj-95" : [ "Frequency", "Freq", 0 ],
-			"obj-38::obj-26" : [ "spectral", "spectral", 0 ],
 			"obj-38::obj-54" : [ "CV1[1]", "CV1", 0 ],
-			"obj-38::obj-98" : [ "Gain", "Gain", 0 ],
 			"obj-38::obj-63" : [ "CV3[1]", "CV3", 0 ],
+			"obj-38::obj-59" : [ "live.tab[1]", "live.tab", 0 ],
 			"obj-38::obj-51" : [ "CV2[1]", "CV2", 0 ],
-			"obj-38::obj-59" : [ "live.tab[1]", "live.tab", 0 ]
+			"obj-38::obj-26" : [ "spectral", "spectral", 0 ],
+			"obj-38::obj-98" : [ "Gain", "Gain", 0 ],
+			"obj-38::obj-55" : [ "power[3]", "power", 0 ],
+			"obj-38::obj-95" : [ "Frequency", "Freq", 0 ],
+			"obj-38::obj-11" : [ "Res", "Res", 0 ]
 		}
 ,
 		"dependency_cache" : [  ]

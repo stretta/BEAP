@@ -5,7 +5,7 @@
 			"major" : 6,
 			"minor" : 1,
 			"revision" : 0,
-			"architecture" : "x86"
+			"architecture" : "x64"
 		}
 ,
 		"rect" : [ 0.0, 44.0, 1440.0, 753.0 ],
@@ -41,7 +41,7 @@
 							"major" : 6,
 							"minor" : 1,
 							"revision" : 0,
-							"architecture" : "x86"
+							"architecture" : "x64"
 						}
 ,
 						"rect" : [ 0.0, 44.0, 230.0, 116.0 ],
@@ -634,11 +634,11 @@
 									"presentation_rect" : [ 136.5, 42.292229, 44.0, 47.0 ],
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
+											"parameter_longname" : "CV3[1]",
 											"parameter_unitstyle" : 5,
 											"parameter_mmax" : 100.0,
 											"parameter_type" : 0,
-											"parameter_shortname" : "CV3",
-											"parameter_longname" : "CV3[1]"
+											"parameter_shortname" : "CV3"
 										}
 
 									}
@@ -663,11 +663,11 @@
 									"presentation_rect" : [ 45.5, 42.292229, 44.0, 47.0 ],
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
+											"parameter_longname" : "CV1[1]",
 											"parameter_unitstyle" : 5,
 											"parameter_mmax" : 100.0,
 											"parameter_type" : 0,
-											"parameter_shortname" : "CV1",
-											"parameter_longname" : "CV1[1]"
+											"parameter_shortname" : "CV1"
 										}
 
 									}
@@ -692,11 +692,11 @@
 									"presentation_rect" : [ 91.0, 42.292229, 44.0, 47.0 ],
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
+											"parameter_longname" : "CV2[1]",
 											"parameter_unitstyle" : 5,
 											"parameter_mmax" : 100.0,
 											"parameter_type" : 0,
-											"parameter_shortname" : "CV2",
-											"parameter_longname" : "CV2[1]"
+											"parameter_shortname" : "CV2"
 										}
 
 									}
@@ -721,14 +721,14 @@
 									"presentation_rect" : [ 0.0, 42.292229, 44.0, 47.0 ],
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
+											"parameter_longname" : "Offset[3]",
 											"parameter_unitstyle" : 1,
 											"parameter_mmax" : 64.0,
 											"parameter_mmin" : -64.0,
 											"parameter_initial" : [ 0.0 ],
 											"parameter_type" : 0,
 											"parameter_initial_enable" : 1,
-											"parameter_shortname" : "Offset",
-											"parameter_longname" : "Offset[3]"
+											"parameter_shortname" : "Offset"
 										}
 
 									}
@@ -869,13 +869,13 @@
 									"presentation_rect" : [ 182.0, 42.292229, 44.0, 47.0 ],
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
+											"parameter_longname" : "Res",
 											"parameter_unitstyle" : 5,
 											"parameter_mmax" : 100.0,
 											"parameter_initial" : [ 0.0 ],
 											"parameter_type" : 0,
 											"parameter_initial_enable" : 1,
-											"parameter_shortname" : "Res",
-											"parameter_longname" : "Res"
+											"parameter_shortname" : "Res"
 										}
 
 									}
@@ -947,13 +947,13 @@
 									"presentation_rect" : [ 168.0, 18.0, 52.0, 17.0 ],
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
-											"parameter_defer" : 1,
 											"parameter_enum" : [ "val1", "val2" ],
+											"parameter_longname" : "power[3]",
 											"parameter_mmax" : 1.0,
 											"parameter_initial" : [ 0.0 ],
+											"parameter_defer" : 1,
 											"parameter_type" : 2,
-											"parameter_shortname" : "power",
-											"parameter_longname" : "power[3]"
+											"parameter_shortname" : "power"
 										}
 
 									}
@@ -997,7 +997,7 @@
 									}
 ,
 									"text" : "autopattr",
-									"varname" : "u332004917"
+									"varname" : "u798000554"
 								}
 
 							}
@@ -1031,7 +1031,7 @@
 									"patching_rect" : [ 352.099976, 279.883911, 37.0, 17.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 2.0, 0.0, 38.0, 17.0 ],
-									"text" : "Audio",
+									"text" : "Signal",
 									"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 								}
 
@@ -1557,11 +1557,11 @@
 		"lines" : [  ],
 		"parameters" : 		{
 			"obj-38::obj-54" : [ "CV1[1]", "CV1", 0 ],
-			"obj-38::obj-69" : [ "Offset[3]", "Offset", 0 ],
-			"obj-38::obj-11" : [ "Res", "Res", 0 ],
 			"obj-38::obj-63" : [ "CV3[1]", "CV3", 0 ],
 			"obj-38::obj-48" : [ "CV2[1]", "CV2", 0 ],
-			"obj-38::obj-55" : [ "power[3]", "power", 0 ]
+			"obj-38::obj-69" : [ "Offset[3]", "Offset", 0 ],
+			"obj-38::obj-55" : [ "power[3]", "power", 0 ],
+			"obj-38::obj-11" : [ "Res", "Res", 0 ]
 		}
 ,
 		"dependency_cache" : [  ]
