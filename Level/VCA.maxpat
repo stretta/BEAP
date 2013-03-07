@@ -5,7 +5,7 @@
 			"major" : 6,
 			"minor" : 1,
 			"revision" : 0,
-			"architecture" : "x86"
+			"architecture" : "x64"
 		}
 ,
 		"rect" : [ 25.0, 69.0, 640.0, 480.0 ],
@@ -41,10 +41,10 @@
 							"major" : 6,
 							"minor" : 1,
 							"revision" : 0,
-							"architecture" : "x86"
+							"architecture" : "x64"
 						}
 ,
-						"rect" : [ 25.0, 69.0, 103.0, 116.0 ],
+						"rect" : [ 25.0, 69.0, 113.0, 116.0 ],
 						"bgcolor" : [ 1.0, 1.0, 1.0, 0.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 1,
@@ -65,6 +65,70 @@
 						"digest" : "",
 						"tags" : "",
 						"boxes" : [ 							{
+								"box" : 								{
+									"activebgcolor" : [ 0.137255, 0.145098, 0.160784, 0.65 ],
+									"activebgoncolor" : [ 0.278431, 0.839216, 1.0, 1.0 ],
+									"bordercolor" : [ 0.0, 0.0, 0.0, 0.56 ],
+									"id" : "obj-33",
+									"maxclass" : "live.tab",
+									"numinlets" : 1,
+									"numoutlets" : 3,
+									"outlettype" : [ "", "", "float" ],
+									"parameter_enable" : 1,
+									"patching_rect" : [ 744.0, 78.970001, 103.0, 21.663452 ],
+									"presentation" : 1,
+									"presentation_rect" : [ 4.834977, 65.637062, 102.165024, 22.159897 ],
+									"saved_attribute_attributes" : 									{
+										"valueof" : 										{
+											"parameter_unitstyle" : 0,
+											"parameter_initial" : [ 0 ],
+											"parameter_type" : 2,
+											"parameter_initial_enable" : 1,
+											"parameter_shortname" : "Quadrants",
+											"parameter_enum" : [ "2 Quad", "4 Quad" ],
+											"parameter_longname" : "Quadrants"
+										}
+
+									}
+,
+									"textcolor" : [ 1.0, 1.0, 1.0, 0.501961 ],
+									"varname" : "Quadrants"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"activebgcolor" : [ 0.137255, 0.145098, 0.160784, 0.65 ],
+									"activebgoncolor" : [ 0.278431, 0.839216, 1.0, 1.0 ],
+									"bordercolor" : [ 0.0, 0.0, 0.0, 0.56 ],
+									"id" : "obj-80",
+									"maxclass" : "live.tab",
+									"numinlets" : 1,
+									"numoutlets" : 3,
+									"outlettype" : [ "", "", "float" ],
+									"parameter_enable" : 1,
+									"patching_rect" : [ 618.5, 255.806549, 103.0, 21.663452 ],
+									"presentation" : 1,
+									"presentation_rect" : [ 4.834977, 43.477165, 102.165024, 22.159897 ],
+									"saved_attribute_attributes" : 									{
+										"valueof" : 										{
+											"parameter_mmax" : 1.0,
+											"parameter_initial" : [ 0.0 ],
+											"parameter_defer" : 1,
+											"parameter_type" : 2,
+											"parameter_shortname" : "Response",
+											"parameter_enum" : [ "Expo", "Lin" ],
+											"parameter_longname" : "Response"
+										}
+
+									}
+,
+									"textcolor" : [ 1.0, 1.0, 1.0, 0.501961 ],
+									"varname" : "Response"
+								}
+
+							}
+, 							{
 								"box" : 								{
 									"fontname" : "Arial",
 									"fontsize" : 12.0,
@@ -94,43 +158,6 @@
 							}
 , 							{
 								"box" : 								{
-									"activebgcolor" : [ 0.572549, 0.615686, 0.658824, 0.0 ],
-									"activebgoncolor" : [ 0.278431, 0.839216, 1.0, 1.0 ],
-									"activetextcolor" : [ 1.0, 1.0, 1.0, 0.57 ],
-									"activetextoncolor" : [ 0.0, 0.019608, 0.078431, 1.0 ],
-									"bgcolor" : [ 0.101961, 0.101961, 0.101961, 0.78 ],
-									"bordercolor" : [ 0.0, 0.019608, 0.078431, 0.37 ],
-									"id" : "obj-23",
-									"maxclass" : "live.text",
-									"numinlets" : 1,
-									"numoutlets" : 2,
-									"outlettype" : [ "", "" ],
-									"parameter_enable" : 1,
-									"patching_rect" : [ 744.0, 94.970001, 43.0, 19.0 ],
-									"presentation" : 1,
-									"presentation_rect" : [ 3.0, 46.0, 95.0, 17.0 ],
-									"saved_attribute_attributes" : 									{
-										"valueof" : 										{
-											"parameter_defer" : 1,
-											"parameter_enum" : [ "val1", "val2" ],
-											"parameter_mmax" : 1.0,
-											"parameter_initial" : [ 0.0 ],
-											"parameter_type" : 2,
-											"parameter_shortname" : "Quad",
-											"parameter_longname" : "Quad"
-										}
-
-									}
-,
-									"text" : "two quadrant",
-									"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
-									"texton" : "four quadrant",
-									"varname" : "Quad"
-								}
-
-							}
-, 							{
-								"box" : 								{
 									"fontname" : "Arial",
 									"fontsize" : 12.0,
 									"id" : "obj-22",
@@ -152,7 +179,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "signal" ],
-									"patching_rect" : [ 799.0, 307.470001, 45.0, 21.0 ],
+									"patching_rect" : [ 744.0, 307.470001, 45.0, 21.0 ],
 									"text" : "sig~ 2"
 								}
 
@@ -166,7 +193,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "signal" ],
-									"patching_rect" : [ 799.0, 342.470001, 81.0, 21.0 ],
+									"patching_rect" : [ 744.0, 342.470001, 81.0, 21.0 ],
 									"text" : "pow~"
 								}
 
@@ -196,43 +223,6 @@
 									"outlettype" : [ "signal" ],
 									"patching_rect" : [ 689.0, 387.470001, 129.0, 20.0 ],
 									"text" : "selector~ 2 1"
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"activebgcolor" : [ 0.572549, 0.615686, 0.658824, 0.0 ],
-									"activebgoncolor" : [ 0.278431, 0.839216, 1.0, 1.0 ],
-									"activetextcolor" : [ 1.0, 1.0, 1.0, 0.57 ],
-									"activetextoncolor" : [ 0.0, 0.019608, 0.078431, 1.0 ],
-									"bgcolor" : [ 0.101961, 0.101961, 0.101961, 0.78 ],
-									"bordercolor" : [ 0.0, 0.019608, 0.078431, 0.37 ],
-									"id" : "obj-40",
-									"maxclass" : "live.text",
-									"numinlets" : 1,
-									"numoutlets" : 2,
-									"outlettype" : [ "", "" ],
-									"parameter_enable" : 1,
-									"patching_rect" : [ 689.0, 299.470001, 43.0, 19.0 ],
-									"presentation" : 1,
-									"presentation_rect" : [ 3.0, 69.0, 95.0, 17.0 ],
-									"saved_attribute_attributes" : 									{
-										"valueof" : 										{
-											"parameter_defer" : 1,
-											"parameter_enum" : [ "val1", "val2" ],
-											"parameter_mmax" : 1.0,
-											"parameter_initial" : [ 0.0 ],
-											"parameter_type" : 2,
-											"parameter_shortname" : "Type",
-											"parameter_longname" : "Type[1]"
-										}
-
-									}
-,
-									"text" : "linear",
-									"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
-									"texton" : "exponential",
-									"varname" : "Type"
 								}
 
 							}
@@ -333,7 +323,7 @@
 									"parameter_enable" : 0,
 									"patching_rect" : [ 927.75, 429.212067, 17.0, 13.902634 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 65.091522, 2.0, 10.049012, 10.748189 ],
+									"presentation_rect" : [ 74.091522, 2.0, 10.049012, 10.748189 ],
 									"text" : ""
 								}
 
@@ -392,12 +382,12 @@
 									"patching_rect" : [ 359.0, 78.970001, 59.5, 20.0 ],
 									"restore" : 									{
 										"Bypass" : [ 0.0 ],
-										"Quad" : [ 0.0 ],
-										"Type" : [ 0.0 ]
+										"Quadrants" : [ 0.0 ],
+										"Response" : [ 0.0 ]
 									}
 ,
 									"text" : "autopattr",
-									"varname" : "u274002974"
+									"varname" : "u372000472"
 								}
 
 							}
@@ -451,7 +441,7 @@
 									"numoutlets" : 0,
 									"patching_rect" : [ 352.099976, 175.853912, 37.0, 17.0 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 75.140533, 0.0, 23.0, 17.0 ],
+									"presentation_rect" : [ 84.140533, 0.0, 23.0, 17.0 ],
 									"text" : "CV",
 									"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 								}
@@ -473,15 +463,15 @@
 									"parameter_enable" : 1,
 									"patching_rect" : [ 456.25, 501.470001, 43.0, 19.0 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 46.0, 18.0, 52.0, 17.0 ],
+									"presentation_rect" : [ 55.0, 18.0, 52.0, 17.0 ],
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
-											"parameter_defer" : 1,
-											"parameter_enum" : [ "val1", "val2" ],
 											"parameter_mmax" : 1.0,
 											"parameter_initial" : [ 0.0 ],
+											"parameter_defer" : 1,
 											"parameter_type" : 2,
 											"parameter_shortname" : "Bypass",
+											"parameter_enum" : [ "val1", "val2" ],
 											"parameter_longname" : "Bypass[4]"
 										}
 
@@ -525,6 +515,7 @@
 , 							{
 								"box" : 								{
 									"comment" : "CV",
+									"hint" : "CV input. Modulation input. Modulator. This is the control signal that dictates the behavior of the VCA. This signal does not appear at the output.",
 									"id" : "obj-6",
 									"maxclass" : "inlet",
 									"numinlets" : 0,
@@ -537,12 +528,13 @@
 , 							{
 								"box" : 								{
 									"comment" : "signal input",
+									"hint" : "Signal input. Carriers input. Audio input. This is the signal that will be modified by the CV input. The result of this will appear on the outlet.",
 									"id" : "obj-17",
 									"maxclass" : "inlet",
 									"numinlets" : 0,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 502.25, 188.970001, 25.0, 25.0 ]
+									"patching_rect" : [ 501.25, 188.970001, 25.0, 25.0 ]
 								}
 
 							}
@@ -711,7 +703,7 @@
 							}
 , 							{
 								"patchline" : 								{
-									"destination" : [ "obj-38", 2 ],
+									"destination" : [ "obj-38", 1 ],
 									"disabled" : 0,
 									"hidden" : 0,
 									"source" : [ "obj-20", 0 ]
@@ -729,15 +721,6 @@
 							}
 , 							{
 								"patchline" : 								{
-									"destination" : [ "obj-30", 0 ],
-									"disabled" : 0,
-									"hidden" : 0,
-									"source" : [ "obj-23", 0 ]
-								}
-
-							}
-, 							{
-								"patchline" : 								{
 									"destination" : [ "obj-20", 1 ],
 									"disabled" : 0,
 									"hidden" : 0,
@@ -747,7 +730,7 @@
 							}
 , 							{
 								"patchline" : 								{
-									"destination" : [ "obj-38", 1 ],
+									"destination" : [ "obj-38", 2 ],
 									"disabled" : 0,
 									"hidden" : 0,
 									"source" : [ "obj-24", 0 ]
@@ -829,6 +812,15 @@
 							}
 , 							{
 								"patchline" : 								{
+									"destination" : [ "obj-30", 0 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-33", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
 									"destination" : [ "obj-38", 0 ],
 									"disabled" : 0,
 									"hidden" : 0,
@@ -851,15 +843,6 @@
 									"disabled" : 0,
 									"hidden" : 0,
 									"source" : [ "obj-4", 0 ]
-								}
-
-							}
-, 							{
-								"patchline" : 								{
-									"destination" : [ "obj-37", 0 ],
-									"disabled" : 0,
-									"hidden" : 0,
-									"source" : [ "obj-40", 0 ]
 								}
 
 							}
@@ -901,6 +884,15 @@
 							}
 , 							{
 								"patchline" : 								{
+									"destination" : [ "obj-37", 0 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-80", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
 									"destination" : [ "obj-11", 0 ],
 									"disabled" : 0,
 									"hidden" : 0,
@@ -911,7 +903,7 @@
  ]
 					}
 ,
-					"patching_rect" : [ 0.0, 0.0, 103.0, 116.0 ],
+					"patching_rect" : [ 0.0, 0.0, 113.0, 116.0 ],
 					"varname" : "VCA"
 				}
 
@@ -919,9 +911,9 @@
  ],
 		"lines" : [  ],
 		"parameters" : 		{
-			"obj-42::obj-55" : [ "Bypass[4]", "Bypass", 0 ],
-			"obj-42::obj-23" : [ "Quad", "Quad", 0 ],
-			"obj-42::obj-40" : [ "Type[1]", "Type", 0 ]
+			"obj-42::obj-33" : [ "Quadrants", "Quadrants", 0 ],
+			"obj-42::obj-80" : [ "Response", "Response", 0 ],
+			"obj-42::obj-55" : [ "Bypass[4]", "Bypass", 0 ]
 		}
 ,
 		"dependency_cache" : [  ]

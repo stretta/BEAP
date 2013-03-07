@@ -5,7 +5,7 @@
 			"major" : 6,
 			"minor" : 1,
 			"revision" : 0,
-			"architecture" : "x86"
+			"architecture" : "x64"
 		}
 ,
 		"rect" : [ 0.0, 44.0, 1440.0, 755.0 ],
@@ -41,7 +41,7 @@
 							"major" : 6,
 							"minor" : 1,
 							"revision" : 0,
-							"architecture" : "x86"
+							"architecture" : "x64"
 						}
 ,
 						"rect" : [ 0.0, 44.0, 395.0, 116.0 ],
@@ -84,13 +84,13 @@
 									"presentation_rect" : [ 51.263977, 97.0, 52.0, 14.764645 ],
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
-											"parameter_defer" : 1,
-											"parameter_enum" : [ "val1", "val2" ],
 											"parameter_mmax" : 1.0,
 											"parameter_initial" : [ 0.0 ],
+											"parameter_defer" : 1,
 											"parameter_type" : 2,
 											"parameter_initial_enable" : 1,
 											"parameter_shortname" : "write",
+											"parameter_enum" : [ "val1", "val2" ],
 											"parameter_longname" : "write"
 										}
 
@@ -123,12 +123,12 @@
 									"presentation_rect" : [ 211.623413, 20.126471, 119.0, 14.764645 ],
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
-											"parameter_defer" : 1,
-											"parameter_enum" : [ "val1", "val2" ],
 											"parameter_mmax" : 1.0,
 											"parameter_initial" : [ 0.0 ],
+											"parameter_defer" : 1,
 											"parameter_type" : 2,
 											"parameter_shortname" : "getsamplelength",
+											"parameter_enum" : [ "val1", "val2" ],
 											"parameter_longname" : "getsamplelength"
 										}
 
@@ -193,7 +193,7 @@
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "" ],
 									"patching_rect" : [ 1535.0, 205.328674, 100.0, 20.0 ],
-									"restore" : [ "Macintosh HD:/Applications/Max 6.1/examples/sounds/anton.aif" ],
+									"restore" : [ "Macintosh HD:/Applications/Max 6.1/examples/sounds/cello-f2.aif" ],
 									"saved_object_attributes" : 									{
 										"parameter_enable" : 0
 									}
@@ -392,13 +392,13 @@
 									"presentation_rect" : [ 336.303101, 20.126471, 52.0, 14.764645 ],
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
-											"parameter_defer" : 1,
-											"parameter_enum" : [ "val1", "val2" ],
 											"parameter_mmax" : 1.0,
 											"parameter_initial" : [ 0.0 ],
+											"parameter_defer" : 1,
 											"parameter_type" : 2,
 											"parameter_initial_enable" : 1,
 											"parameter_shortname" : "power",
+											"parameter_enum" : [ "val1", "val2" ],
 											"parameter_longname" : "power[1]"
 										}
 
@@ -616,10 +616,10 @@
 									"presentation_rect" : [ 219.647644, 95.770889, 15.0, 15.0 ],
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
-											"parameter_enum" : [ "off", "on" ],
 											"parameter_mmax" : 1.0,
 											"parameter_type" : 2,
 											"parameter_shortname" : "live.toggle",
+											"parameter_enum" : [ "off", "on" ],
 											"parameter_longname" : "live.toggle"
 										}
 
@@ -941,8 +941,8 @@
 									"id" : "obj-134",
 									"maxclass" : "newobj",
 									"numinlets" : 1,
-									"numoutlets" : 8,
-									"outlettype" : [ "float", "list", "float", "float", "float", "float", "float", "" ],
+									"numoutlets" : 9,
+									"outlettype" : [ "float", "list", "float", "float", "float", "float", "float", "", "int" ],
 									"patching_rect" : [ 1670.435913, 666.24585, 113.5, 21.0 ],
 									"text" : "info~ #0buffer"
 								}
@@ -966,8 +966,8 @@
 									"id" : "obj-132",
 									"maxclass" : "newobj",
 									"numinlets" : 1,
-									"numoutlets" : 8,
-									"outlettype" : [ "float", "list", "float", "float", "float", "float", "float", "" ],
+									"numoutlets" : 9,
+									"outlettype" : [ "float", "list", "float", "float", "float", "float", "float", "", "int" ],
 									"patching_rect" : [ 1117.75, 124.211975, 113.5, 21.0 ],
 									"text" : "info~ #0buffer"
 								}
@@ -1343,6 +1343,7 @@
 									"maxclass" : "waveform~",
 									"numinlets" : 5,
 									"numoutlets" : 6,
+									"offset" : -5.511766,
 									"outlettype" : [ "float", "float", "float", "float", "list", "" ],
 									"patching_rect" : [ 521.988892, 163.602661, 256.0, 64.0 ],
 									"presentation" : 1,
@@ -1363,18 +1364,18 @@
 									"outlettype" : [ "", "", "", "" ],
 									"patching_rect" : [ 1373.227783, 979.014648, 59.5, 20.0 ],
 									"restore" : 									{
-										"LoopEnd" : [ 2173.228271 ],
-										"LoopStart" : [ 1322.834595 ],
+										"LoopEnd" : [ 1443.996735 ],
+										"LoopStart" : [ 13.00898 ],
 										"SampleStart" : [ 137.007874 ],
 										"getsamplelength" : [ 0.0 ],
 										"live.numbox" : [ 60.0 ],
-										"live.toggle" : [ 0.0 ],
+										"live.toggle" : [ 1.0 ],
 										"power[1]" : [ 0.0 ],
 										"write" : [ 0.0 ]
 									}
 ,
 									"text" : "autopattr",
-									"varname" : "u350002157"
+									"varname" : "u218002212"
 								}
 
 							}
@@ -1612,7 +1613,7 @@
 									"destination" : [ "obj-45", 1 ],
 									"disabled" : 0,
 									"hidden" : 0,
-									"midpoints" : [ 1078.602539, 529.215942, 951.55127, 529.215942 ],
+									"midpoints" : [ 1078.602539, 529.215942, 951.551269, 529.215942 ],
 									"source" : [ "obj-151", 0 ]
 								}
 
@@ -2082,13 +2083,13 @@
  ],
 		"lines" : [  ],
 		"parameters" : 		{
-			"obj-42::obj-152" : [ "LoopEnd", "LoopEnd", 0 ],
-			"obj-42::obj-171" : [ "live.numbox", "live.numbox", 0 ],
-			"obj-42::obj-151" : [ "LoopStart", "LoopStart", 0 ],
-			"obj-42::obj-172" : [ "live.toggle", "live.toggle", 0 ],
-			"obj-42::obj-32" : [ "getsamplelength", "getsamplelength", 0 ],
 			"obj-42::obj-20" : [ "power[1]", "power", 0 ],
 			"obj-42::obj-8" : [ "write", "write", 0 ],
+			"obj-42::obj-152" : [ "LoopEnd", "LoopEnd", 0 ],
+			"obj-42::obj-171" : [ "live.numbox", "live.numbox", 0 ],
+			"obj-42::obj-32" : [ "getsamplelength", "getsamplelength", 0 ],
+			"obj-42::obj-151" : [ "LoopStart", "LoopStart", 0 ],
+			"obj-42::obj-172" : [ "live.toggle", "live.toggle", 0 ],
 			"obj-42::obj-129" : [ "SampleStart[1]", "SampleStart", 0 ]
 		}
 ,

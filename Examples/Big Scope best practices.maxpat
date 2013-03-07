@@ -49,12 +49,12 @@
 					"fontsize" : 12.0,
 					"frgb" : 0.0,
 					"id" : "obj-5",
-					"linecount" : 3,
+					"linecount" : 6,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 474.0, 465.0, 253.0, 51.0 ],
-					"text" : "Number of sample points - best if related to sample rate and period. For example, 1kHz wave @ 44.1kHz sampling = 441"
+					"patching_rect" : [ 474.0, 465.0, 262.0, 91.0 ],
+					"text" : "Number of sample points - best if related to sample rate and period. For example, 1kHz wave @ 44.1kHz sampling = 441\n\nAnything that doesn't divide into an integer will 'float'."
 				}
 
 			}
@@ -171,7 +171,7 @@
 									}
 ,
 									"text" : "autopattr",
-									"varname" : "u909000154"
+									"varname" : "u925000939"
 								}
 
 							}
@@ -1390,7 +1390,7 @@
 							"architecture" : "x64"
 						}
 ,
-						"rect" : [ 90.0, 75.0, 122.0, 116.0 ],
+						"rect" : [ 90.0, 76.0, 122.0, 116.0 ],
 						"bgcolor" : [ 1.0, 1.0, 1.0, 0.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 1,
@@ -3594,16 +3594,16 @@
 									"outlettype" : [ "", "", "", "" ],
 									"patching_rect" : [ 318.236206, 129.0, 59.5, 20.0 ],
 									"restore" : 									{
-										"Freq" : [ 250.0 ],
-										"MIDI" : [ 59.0 ],
-										"Semi" : [ 59.213095 ],
+										"Freq" : [ 1000.0 ],
+										"MIDI" : [ 83.0 ],
+										"Semi" : [ 83.213095 ],
 										"Type" : [ 1.0 ],
-										"Volts" : [ -0.065575 ],
+										"Volts" : [ 1.934425 ],
 										"mute" : [ 0.0 ]
 									}
 ,
 									"text" : "autopattr",
-									"varname" : "u676000156"
+									"varname" : "u214000941"
 								}
 
 							}
@@ -3965,7 +3965,7 @@
  ]
 					}
 ,
-					"patching_rect" : [ 90.0, 31.0, 122.0, 116.0 ],
+					"patching_rect" : [ 90.0, 32.0, 122.0, 116.0 ],
 					"varname" : "Constant"
 				}
 
@@ -4346,7 +4346,7 @@
 									}
 ,
 									"text" : "autopattr",
-									"varname" : "u013000158"
+									"varname" : "u008000943"
 								}
 
 							}
@@ -4723,7 +4723,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 900.5, 672.0, 74.0, 31.0 ],
-									"text" : "1764."
+									"text" : "882."
 								}
 
 							}
@@ -4809,7 +4809,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 802.0, 672.0, 74.0, 18.0 ],
-									"text" : "441."
+									"text" : "220.5"
 								}
 
 							}
@@ -5080,7 +5080,7 @@
 									"maxclass" : "plot~",
 									"numinlets" : 1,
 									"numoutlets" : 1,
-									"numpoints" : 882,
+									"numpoints" : 441,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 655.0, 719.0, 250.0, 164.0 ],
 									"presentation" : 1,
