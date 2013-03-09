@@ -69,6 +69,7 @@
 									"activebgcolor" : [ 0.137255, 0.145098, 0.160784, 0.65 ],
 									"activebgoncolor" : [ 0.278431, 0.839216, 1.0, 1.0 ],
 									"bordercolor" : [ 0.0, 0.0, 0.0, 0.56 ],
+									"hint" : "Two quadrant = VCA. Four quadrant for amplitude modulation",
 									"id" : "obj-33",
 									"maxclass" : "live.tab",
 									"numinlets" : 1,
@@ -80,13 +81,13 @@
 									"presentation_rect" : [ 4.834977, 65.637062, 102.165024, 22.159897 ],
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
+											"parameter_longname" : "Quadrants",
 											"parameter_unitstyle" : 0,
 											"parameter_initial" : [ 0 ],
 											"parameter_type" : 2,
 											"parameter_initial_enable" : 1,
 											"parameter_shortname" : "Quadrants",
-											"parameter_enum" : [ "2 Quad", "4 Quad" ],
-											"parameter_longname" : "Quadrants"
+											"parameter_enum" : [ "2 Quad", "4 Quad" ]
 										}
 
 									}
@@ -101,6 +102,7 @@
 									"activebgcolor" : [ 0.137255, 0.145098, 0.160784, 0.65 ],
 									"activebgoncolor" : [ 0.278431, 0.839216, 1.0, 1.0 ],
 									"bordercolor" : [ 0.0, 0.0, 0.0, 0.56 ],
+									"hint" : "Expo or linear response. (Expo for audio, linear for CV)",
 									"id" : "obj-80",
 									"maxclass" : "live.tab",
 									"numinlets" : 1,
@@ -112,13 +114,14 @@
 									"presentation_rect" : [ 4.834977, 43.477165, 102.165024, 22.159897 ],
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
+											"parameter_longname" : "Response",
+											"parameter_unitstyle" : 0,
 											"parameter_mmax" : 1.0,
 											"parameter_initial" : [ 0.0 ],
 											"parameter_defer" : 1,
 											"parameter_type" : 2,
 											"parameter_shortname" : "Response",
-											"parameter_enum" : [ "Expo", "Lin" ],
-											"parameter_longname" : "Response"
+											"parameter_enum" : [ "Expo", "Lin" ]
 										}
 
 									}
@@ -387,7 +390,7 @@
 									}
 ,
 									"text" : "autopattr",
-									"varname" : "u372000472"
+									"varname" : "u443000448"
 								}
 
 							}
@@ -421,7 +424,8 @@
 							}
 , 							{
 								"box" : 								{
-									"comment" : "",
+									"comment" : "Output",
+									"hint" : "",
 									"id" : "obj-11",
 									"maxclass" : "outlet",
 									"numinlets" : 1,
@@ -466,13 +470,13 @@
 									"presentation_rect" : [ 55.0, 18.0, 52.0, 17.0 ],
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
+											"parameter_longname" : "Bypass[4]",
 											"parameter_mmax" : 1.0,
 											"parameter_initial" : [ 0.0 ],
 											"parameter_defer" : 1,
 											"parameter_type" : 2,
 											"parameter_shortname" : "Bypass",
-											"parameter_enum" : [ "val1", "val2" ],
-											"parameter_longname" : "Bypass[4]"
+											"parameter_enum" : [ "val1", "val2" ]
 										}
 
 									}
@@ -514,8 +518,9 @@
 							}
 , 							{
 								"box" : 								{
-									"comment" : "CV",
-									"hint" : "CV input. Modulation input. Modulator. This is the control signal that dictates the behavior of the VCA. This signal does not appear at the output.",
+									"annotation" : "",
+									"comment" : "CV input. Modulation input. Modulator. This is the control signal that dictates the behavior of the VCA. This signal does not appear at the output.",
+									"hint" : "",
 									"id" : "obj-6",
 									"maxclass" : "inlet",
 									"numinlets" : 0,
@@ -527,8 +532,9 @@
 							}
 , 							{
 								"box" : 								{
-									"comment" : "signal input",
-									"hint" : "Signal input. Carriers input. Audio input. This is the signal that will be modified by the CV input. The result of this will appear on the outlet.",
+									"annotation" : "",
+									"comment" : "Signal input. Carrier input. Audio input. This is the signal that will be modified by the CV input. The result of this will appear at the output.",
+									"hint" : "",
 									"id" : "obj-17",
 									"maxclass" : "inlet",
 									"numinlets" : 0,

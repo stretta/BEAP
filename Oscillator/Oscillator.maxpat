@@ -8,7 +8,7 @@
 			"architecture" : "x64"
 		}
 ,
-		"rect" : [ 0.0, 44.0, 1440.0, 758.0 ],
+		"rect" : [ 526.0, 106.0, 1440.0, 758.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -44,7 +44,7 @@
 							"architecture" : "x64"
 						}
 ,
-						"rect" : [ 0.0, 44.0, 311.0, 116.0 ],
+						"rect" : [ 527.0, 106.0, 311.0, 116.0 ],
 						"bgcolor" : [ 1.0, 1.0, 1.0, 0.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 1,
@@ -158,6 +158,7 @@
 , 							{
 								"box" : 								{
 									"activebgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+									"hint" : "Attenuator for linear freq modulation input.",
 									"id" : "obj-107",
 									"maxclass" : "live.numbox",
 									"numinlets" : 1,
@@ -169,11 +170,11 @@
 									"presentation_rect" : [ 110.0, 78.0, 46.826775, 15.0 ],
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
+											"parameter_longname" : "Linear",
+											"parameter_unitstyle" : 5,
 											"parameter_mmax" : 100.0,
 											"parameter_type" : 0,
-											"parameter_shortname" : "Linear",
-											"parameter_longname" : "Linear",
-											"parameter_unitstyle" : 5
+											"parameter_shortname" : "Linear"
 										}
 
 									}
@@ -186,6 +187,7 @@
 , 							{
 								"box" : 								{
 									"activebgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+									"hint" : "Attenuator for CV3 expo freq modulation input.",
 									"id" : "obj-106",
 									"maxclass" : "live.numbox",
 									"numinlets" : 1,
@@ -197,11 +199,11 @@
 									"presentation_rect" : [ 110.0, 60.0, 46.826775, 15.0 ],
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
+											"parameter_longname" : "CV3",
+											"parameter_unitstyle" : 5,
 											"parameter_mmax" : 100.0,
 											"parameter_type" : 0,
-											"parameter_shortname" : "CV3",
-											"parameter_longname" : "CV3",
-											"parameter_unitstyle" : 5
+											"parameter_shortname" : "CV3"
 										}
 
 									}
@@ -214,6 +216,7 @@
 , 							{
 								"box" : 								{
 									"activebgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+									"hint" : "Attenuator for CV2 expo freq modulation input.",
 									"id" : "obj-129",
 									"maxclass" : "live.numbox",
 									"numinlets" : 1,
@@ -225,11 +228,11 @@
 									"presentation_rect" : [ 110.0, 42.0, 46.826775, 15.0 ],
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
+											"parameter_longname" : "CV2",
+											"parameter_unitstyle" : 5,
 											"parameter_mmax" : 100.0,
 											"parameter_type" : 0,
-											"parameter_shortname" : "CV2",
-											"parameter_longname" : "CV2",
-											"parameter_unitstyle" : 5
+											"parameter_shortname" : "CV2"
 										}
 
 									}
@@ -286,7 +289,8 @@
 							}
 , 							{
 								"box" : 								{
-									"comment" : "",
+									"comment" : "Linear FM input. Used for frequency modulation.",
+									"hint" : "",
 									"id" : "obj-77",
 									"maxclass" : "inlet",
 									"numinlets" : 0,
@@ -429,6 +433,8 @@
 									"prototypename" : "freq",
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
+											"parameter_longname" : "Freq",
+											"parameter_unitstyle" : 3,
 											"parameter_mmax" : 20000.0,
 											"parameter_initial" : [ 0.6 ],
 											"parameter_type" : 0,
@@ -436,9 +442,7 @@
 											"parameter_speedlim" : 0.0,
 											"parameter_shortname" : "Freq",
 											"parameter_annotation_name" : "Freq",
-											"parameter_exponent" : 4.0,
-											"parameter_longname" : "Freq",
-											"parameter_unitstyle" : 3
+											"parameter_exponent" : 4.0
 										}
 
 									}
@@ -965,13 +969,13 @@
 									"activebgoncolor" : [ 0.278431, 0.839216, 1.0, 1.0 ],
 									"activetextcolor" : [ 0.278431, 0.839216, 1.0, 1.0 ],
 									"activetextoncolor" : [ 0.137255, 0.145098, 0.160784, 1.0 ],
-									"annotation" : "Time mode: when Sync is selected, the LFO runs in sync with Live's transport. When in Freq mode, the LFO runs using its own internal clock. Synced rates are expressed in note values, and Frequency rates are expressed in Herz.",
+									"annotation" : "",
 									"automation" : "Freq",
 									"automationon" : "Semitone",
 									"bgcolor" : [ 0.6, 0.6, 0.6, 0.0 ],
 									"bordercolor" : [ 0.278431, 0.839216, 1.0, 1.0 ],
 									"focusbordercolor" : [ 0.278431, 0.839216, 1.0, 1.0 ],
-									"hint" : "",
+									"hint" : "Switches between semitone and Hz frequency modes.",
 									"id" : "obj-45",
 									"maxclass" : "live.text",
 									"numinlets" : 1,
@@ -983,16 +987,16 @@
 									"presentation_rect" : [ 45.0, 41.221527, 33.0, 15.0 ],
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
+											"parameter_longname" : "FreqMode",
 											"parameter_mmax" : 1.0,
 											"parameter_initial" : [ 1 ],
 											"parameter_order" : 1,
 											"parameter_type" : 2,
 											"parameter_initial_enable" : 1,
 											"parameter_speedlim" : 0.0,
-											"parameter_shortname" : "TimeMode",
-											"parameter_annotation_name" : "Time Mode",
-											"parameter_enum" : [ "Freq", "Semitone" ],
-											"parameter_longname" : "TimeMode"
+											"parameter_shortname" : "FreqMode",
+											"parameter_annotation_name" : "FreqMode",
+											"parameter_enum" : [ "Freq", "Semitone" ]
 										}
 
 									}
@@ -1024,15 +1028,15 @@
 									"prototypename" : "freq",
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
+											"parameter_longname" : "Offset[2]",
+											"parameter_unitstyle" : 1,
 											"parameter_mmax" : 64.0,
 											"parameter_mmin" : -64.0,
 											"parameter_initial" : [ 0 ],
 											"parameter_type" : 0,
 											"parameter_initial_enable" : 1,
 											"parameter_speedlim" : 0.0,
-											"parameter_shortname" : "Offset",
-											"parameter_longname" : "Offset[2]",
-											"parameter_unitstyle" : 1
+											"parameter_shortname" : "Offset"
 										}
 
 									}
@@ -1109,7 +1113,8 @@
 							}
 , 							{
 								"box" : 								{
-									"comment" : "",
+									"comment" : "CV3: pitch modulation input. This input has a built-in attenuator (CV3). At 100%, this will track 1v/oct.",
+									"hint" : "",
 									"id" : "obj-95",
 									"maxclass" : "inlet",
 									"numinlets" : 0,
@@ -1205,7 +1210,9 @@
 							}
 , 							{
 								"box" : 								{
-									"comment" : "",
+									"annotation" : "",
+									"comment" : "CV1: 1v/oct pitch modulation input. This input is typically used for keyboard tracking since there is no attenuator.",
+									"hint" : "",
 									"id" : "obj-41",
 									"maxclass" : "inlet",
 									"numinlets" : 0,
@@ -1231,7 +1238,8 @@
 							}
 , 							{
 								"box" : 								{
-									"comment" : "",
+									"comment" : "CV2: pitch modulation input. This input has a built-in attenuator (CV2). At 100%, this will track 1v/oct.",
+									"hint" : "",
 									"id" : "obj-65",
 									"maxclass" : "inlet",
 									"numinlets" : 0,
@@ -1488,14 +1496,14 @@
 									"presentation_rect" : [ 252.025818, 19.0, 52.0, 14.764645 ],
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
+											"parameter_longname" : "Mute[5]",
 											"parameter_mmax" : 1.0,
 											"parameter_initial" : [ 0.0 ],
 											"parameter_defer" : 1,
 											"parameter_type" : 2,
 											"parameter_initial_enable" : 1,
 											"parameter_shortname" : "Mute",
-											"parameter_enum" : [ "val1", "val2" ],
-											"parameter_longname" : "Mute[5]"
+											"parameter_enum" : [ "val1", "val2" ]
 										}
 
 									}
@@ -1511,6 +1519,7 @@
 								"box" : 								{
 									"activedialcolor" : [ 0.278431, 0.839216, 1.0, 1.0 ],
 									"activeneedlecolor" : [ 1.0, 1.0, 1.0, 0.7 ],
+									"hint" : "Pulse width modulation CV input attenuator.",
 									"id" : "obj-11",
 									"maxclass" : "live.dial",
 									"numinlets" : 1,
@@ -1522,13 +1531,13 @@
 									"presentation_rect" : [ 260.648956, 43.221527, 44.0, 47.0 ],
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
+											"parameter_longname" : "PWM",
+											"parameter_unitstyle" : 5,
 											"parameter_mmax" : 100.0,
 											"parameter_initial" : [ 0.0 ],
 											"parameter_type" : 0,
 											"parameter_initial_enable" : 1,
-											"parameter_shortname" : "PWM",
-											"parameter_longname" : "PWM",
-											"parameter_unitstyle" : 5
+											"parameter_shortname" : "PWM"
 										}
 
 									}
@@ -1542,6 +1551,7 @@
 								"box" : 								{
 									"activedialcolor" : [ 0.278431, 0.839216, 1.0, 1.0 ],
 									"activeneedlecolor" : [ 1.0, 1.0, 1.0, 0.7 ],
+									"hint" : "Pulse width/duty cycle. (only available when waveform is set to square)",
 									"id" : "obj-36",
 									"maxclass" : "live.dial",
 									"numinlets" : 1,
@@ -1553,13 +1563,13 @@
 									"presentation_rect" : [ 217.927765, 43.221527, 44.0, 47.0 ],
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
+											"parameter_longname" : "PW",
+											"parameter_unitstyle" : 5,
 											"parameter_mmax" : 100.0,
 											"parameter_initial" : [ 50 ],
 											"parameter_type" : 0,
 											"parameter_initial_enable" : 1,
-											"parameter_shortname" : "PW",
-											"parameter_longname" : "PW",
-											"parameter_unitstyle" : 5
+											"parameter_shortname" : "PW"
 										}
 
 									}
@@ -1577,6 +1587,7 @@
 									"bgcolor" : [ 0.301961, 0.337255, 0.403922, 1.0 ],
 									"bgoncolor" : [ 0.494118, 0.556863, 0.607843, 1.0 ],
 									"bordercolor" : [ 0.27451, 0.32549, 0.4, 0.0 ],
+									"hint" : "Waveform selection.",
 									"id" : "obj-4",
 									"maxclass" : "live.tab",
 									"numinlets" : 1,
@@ -1589,15 +1600,15 @@
 									"presentation_rect" : [ 163.286697, 48.221527, 54.919865, 39.0 ],
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
+											"parameter_longname" : "Waveform",
+											"parameter_unitstyle" : 0,
+											"parameter_linknames" : 1,
 											"parameter_initial" : [ 0.0 ],
 											"parameter_type" : 2,
 											"parameter_initial_enable" : 1,
 											"parameter_speedlim" : 0.0,
 											"parameter_shortname" : "Waveform",
-											"parameter_enum" : [ "sine", "tri", "saw", "square" ],
-											"parameter_longname" : "Waveform",
-											"parameter_unitstyle" : 0,
-											"parameter_linknames" : 1
+											"parameter_enum" : [ "sine", "tri", "saw", "square" ]
 										}
 
 									}
@@ -1700,7 +1711,7 @@
 									}
 ,
 									"text" : "autopattr",
-									"varname" : "u476000613"
+									"varname" : "u231000820"
 								}
 
 							}
@@ -1790,7 +1801,8 @@
 							}
 , 							{
 								"box" : 								{
-									"comment" : "PWM",
+									"comment" : "Pulse width modulation. +/-5v. This only operates when waveform selection = square. ",
+									"hint" : "",
 									"id" : "obj-9",
 									"maxclass" : "inlet",
 									"numinlets" : 0,
@@ -1844,7 +1856,8 @@
 							}
 , 							{
 								"box" : 								{
-									"comment" : "sync",
+									"comment" : "Sync input. Locks to frequency of master osc. Square wave only.",
+									"hint" : "",
 									"id" : "obj-42",
 									"maxclass" : "inlet",
 									"numinlets" : 0,
@@ -2751,7 +2764,7 @@
  ]
 					}
 ,
-					"patching_rect" : [ 0.0, 0.0, 311.0, 116.0 ],
+					"patching_rect" : [ 1.0, 0.0, 311.0, 116.0 ],
 					"varname" : "Oscillator"
 				}
 
@@ -2759,16 +2772,16 @@
  ],
 		"lines" : [  ],
 		"parameters" : 		{
-			"obj-17::obj-129" : [ "CV2", "CV2", 0 ],
-			"obj-17::obj-36" : [ "PW", "PW", 0 ],
-			"obj-17::obj-107" : [ "Linear", "Linear", 0 ],
-			"obj-17::obj-106" : [ "CV3", "CV3", 0 ],
-			"obj-17::obj-11" : [ "PWM", "PWM", 0 ],
-			"obj-17::obj-46" : [ "Offset[2]", "Offset", 0 ],
-			"obj-17::obj-53" : [ "Mute[5]", "Mute", 0 ],
-			"obj-17::obj-4" : [ "Waveform", "Waveform", 0 ],
 			"obj-17::obj-51" : [ "Freq", "Freq", 0 ],
-			"obj-17::obj-45" : [ "TimeMode", "TimeMode", 1 ]
+			"obj-17::obj-11" : [ "PWM", "PWM", 0 ],
+			"obj-17::obj-129" : [ "CV2", "CV2", 0 ],
+			"obj-17::obj-46" : [ "Offset[2]", "Offset", 0 ],
+			"obj-17::obj-45" : [ "FreqMode", "FreqMode", 1 ],
+			"obj-17::obj-4" : [ "Waveform", "Waveform", 0 ],
+			"obj-17::obj-106" : [ "CV3", "CV3", 0 ],
+			"obj-17::obj-36" : [ "PW", "PW", 0 ],
+			"obj-17::obj-53" : [ "Mute[5]", "Mute", 0 ],
+			"obj-17::obj-107" : [ "Linear", "Linear", 0 ]
 		}
 ,
 		"dependency_cache" : [ 			{
