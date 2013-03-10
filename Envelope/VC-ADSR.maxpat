@@ -253,12 +253,13 @@
 							}
 , 							{
 								"box" : 								{
-									"activebgcolor" : [ 0.74902, 0.74902, 0.74902, 0.0 ],
+									"activebgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"activeslidercolor" : [ 0.278431, 0.839216, 1.0, 0.57 ],
 									"activetricolor2" : [ 0.278431, 0.839216, 1.0, 1.0 ],
 									"annotation" : "",
 									"appearance" : 2,
 									"bordercolor" : [ 1.0, 1.0, 1.0, 0.6 ],
+									"hint" : "Attack time",
 									"id" : "obj-174",
 									"maxclass" : "live.numbox",
 									"numinlets" : 1,
@@ -271,7 +272,7 @@
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
 											"parameter_exponent" : 2.0,
-											"parameter_longname" : "Attack[1]",
+											"parameter_longname" : "Attack",
 											"parameter_unitstyle" : 2,
 											"parameter_mmax" : 2000.0,
 											"parameter_initial" : [ 50 ],
@@ -480,12 +481,13 @@
 							}
 , 							{
 								"box" : 								{
-									"activebgcolor" : [ 0.74902, 0.74902, 0.74902, 0.0 ],
+									"activebgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"activeslidercolor" : [ 0.278431, 0.839216, 1.0, 0.57 ],
 									"activetricolor2" : [ 0.278431, 0.839216, 1.0, 1.0 ],
-									"annotation" : "Segment curve amount. 1.00 = linear. ",
+									"annotation" : "",
 									"appearance" : 2,
 									"bordercolor" : [ 1.0, 1.0, 1.0, 0.6 ],
+									"hint" : "Sustain level",
 									"id" : "obj-152",
 									"maxclass" : "live.numbox",
 									"numinlets" : 1,
@@ -497,7 +499,7 @@
 									"presentation_rect" : [ 129.523849, 41.0, 60.799217, 15.0 ],
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
-											"parameter_longname" : "Sustain[1]",
+											"parameter_longname" : "Sustain",
 											"parameter_unitstyle" : 5,
 											"parameter_mmax" : 100.0,
 											"parameter_initial" : [ 1 ],
@@ -515,12 +517,13 @@
 							}
 , 							{
 								"box" : 								{
-									"activebgcolor" : [ 0.74902, 0.74902, 0.74902, 0.0 ],
+									"activebgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"activeslidercolor" : [ 0.278431, 0.839216, 1.0, 0.57 ],
 									"activetricolor2" : [ 0.278431, 0.839216, 1.0, 1.0 ],
 									"annotation" : "",
 									"appearance" : 2,
 									"bordercolor" : [ 1.0, 1.0, 1.0, 0.6 ],
+									"hint" : "Release time",
 									"id" : "obj-151",
 									"maxclass" : "live.numbox",
 									"numinlets" : 1,
@@ -533,7 +536,7 @@
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
 											"parameter_exponent" : 4.0,
-											"parameter_longname" : "Release[1]",
+											"parameter_longname" : "Release",
 											"parameter_unitstyle" : 2,
 											"parameter_mmax" : 4000.0,
 											"parameter_mmin" : 0.1,
@@ -552,12 +555,13 @@
 							}
 , 							{
 								"box" : 								{
-									"activebgcolor" : [ 0.74902, 0.74902, 0.74902, 0.0 ],
+									"activebgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"activeslidercolor" : [ 0.278431, 0.839216, 1.0, 0.57 ],
 									"activetricolor2" : [ 0.278431, 0.839216, 1.0, 1.0 ],
 									"annotation" : "",
 									"appearance" : 2,
 									"bordercolor" : [ 1.0, 1.0, 1.0, 0.6 ],
+									"hint" : "Decay time",
 									"id" : "obj-150",
 									"maxclass" : "live.numbox",
 									"numinlets" : 1,
@@ -570,7 +574,7 @@
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
 											"parameter_exponent" : 4.0,
-											"parameter_longname" : "Decay[1]",
+											"parameter_longname" : "Decay",
 											"parameter_unitstyle" : 2,
 											"parameter_mmax" : 1000.0,
 											"parameter_mmin" : 0.1,
@@ -643,7 +647,7 @@
 							}
 , 							{
 								"box" : 								{
-									"activebgcolor" : [ 0.74902, 0.74902, 0.74902, 0.0 ],
+									"activebgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"activeslidercolor" : [ 0.278431, 0.839216, 1.0, 0.57 ],
 									"activetricolor2" : [ 1.0, 0.94852, 0.0, 1.0 ],
 									"annotation" : "",
@@ -817,7 +821,7 @@
 							}
 , 							{
 								"box" : 								{
-									"activebgcolor" : [ 0.74902, 0.74902, 0.74902, 0.0 ],
+									"activebgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"activeslidercolor" : [ 0.278431, 0.839216, 1.0, 0.57 ],
 									"activetricolor2" : [ 1.0, 0.94852, 0.0, 1.0 ],
 									"annotation" : "",
@@ -1006,7 +1010,7 @@
 							}
 , 							{
 								"box" : 								{
-									"activebgcolor" : [ 0.74902, 0.74902, 0.74902, 0.0 ],
+									"activebgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"activeslidercolor" : [ 0.278431, 0.839216, 1.0, 0.57 ],
 									"activetricolor2" : [ 1.0, 0.94852, 0.0, 1.0 ],
 									"annotation" : "",
@@ -1207,7 +1211,7 @@
 							}
 , 							{
 								"box" : 								{
-									"activebgcolor" : [ 0.74902, 0.74902, 0.74902, 0.0 ],
+									"activebgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"activeslidercolor" : [ 0.278431, 0.839216, 1.0, 0.57 ],
 									"activetricolor2" : [ 1.0, 0.94852, 0.0, 1.0 ],
 									"annotation" : "",
@@ -1271,7 +1275,7 @@
 							}
 , 							{
 								"box" : 								{
-									"activebgcolor" : [ 0.74902, 0.74902, 0.74902, 0.0 ],
+									"activebgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"activeslidercolor" : [ 0.278431, 0.839216, 1.0, 0.57 ],
 									"activetricolor2" : [ 0.278431, 0.839216, 1.0, 1.0 ],
 									"annotation" : "",
@@ -1307,7 +1311,7 @@
 							}
 , 							{
 								"box" : 								{
-									"activebgcolor" : [ 0.74902, 0.74902, 0.74902, 0.0 ],
+									"activebgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"activeslidercolor" : [ 0.278431, 0.839216, 1.0, 0.57 ],
 									"activetricolor2" : [ 0.278431, 0.839216, 1.0, 1.0 ],
 									"annotation" : "",
@@ -1343,7 +1347,7 @@
 							}
 , 							{
 								"box" : 								{
-									"activebgcolor" : [ 0.74902, 0.74902, 0.74902, 0.0 ],
+									"activebgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"activeslidercolor" : [ 0.278431, 0.839216, 1.0, 0.57 ],
 									"activetricolor2" : [ 0.278431, 0.839216, 1.0, 1.0 ],
 									"annotation" : "",
@@ -3001,22 +3005,22 @@
 									"outlettype" : [ "", "", "", "" ],
 									"patching_rect" : [ 175.236206, 372.0, 59.5, 20.0 ],
 									"restore" : 									{
-										"Attack" : [ 1.0 ],
+										"Attack" : [ 5.0 ],
 										"AttackCV" : [ 0.0 ],
-										"Decay" : [ 250.0 ],
+										"Decay" : [ 50.0 ],
 										"DecayCV" : [ 0.0 ],
 										"Mute" : [ 0.0 ],
 										"Release" : [ 500.0 ],
 										"ReleaseCV" : [ 0.0 ],
-										"Sustain" : [ 60.0 ],
+										"Sustain" : [ 80.0 ],
 										"SustainCV" : [ 0.0 ],
 										"filter envelope attack curve" : [ 0.5 ],
-										"filter envelope decay curve" : [ 1.0 ],
+										"filter envelope decay curve" : [ 0.5 ],
 										"filter envelope release curve" : [ 0.5 ]
 									}
 ,
 									"text" : "autopattr",
-									"varname" : "u945000676"
+									"varname" : "u146000902"
 								}
 
 							}
@@ -3894,17 +3898,17 @@
  ],
 		"lines" : [  ],
 		"parameters" : 		{
-			"obj-2::obj-174" : [ "Attack[1]", "Attack", 0 ],
 			"obj-2::obj-12" : [ "Mute[3]", "Mute", 0 ],
 			"obj-2::obj-45" : [ "filter envelope release curve[1]", "filter envelope release curve", 0 ],
 			"obj-2::obj-46" : [ "filter envelope decay curve[1]", "filter envelope decay curve", 0 ],
 			"obj-2::obj-47" : [ "filter envelope attack curve[1]", "filter envelope attack curve", 0 ],
 			"obj-2::obj-90" : [ "AttackCV[1]", "AttackCV", 0 ],
-			"obj-2::obj-152" : [ "Sustain[1]", "Sustain", 0 ],
+			"obj-2::obj-150" : [ "Decay", "Decay", 0 ],
+			"obj-2::obj-152" : [ "Sustain", "Sustain", 0 ],
 			"obj-2::obj-122" : [ "DecayCV[1]", "DecayCV", 0 ],
+			"obj-2::obj-174" : [ "Attack", "Attack", 0 ],
+			"obj-2::obj-151" : [ "Release", "Release", 0 ],
 			"obj-2::obj-137" : [ "ReleaseCV[1]", "ReleaseCV", 0 ],
-			"obj-2::obj-151" : [ "Release[1]", "Release", 0 ],
-			"obj-2::obj-150" : [ "Decay[1]", "Decay", 0 ],
 			"obj-2::obj-144" : [ "SustainCV[1]", "SustainCV", 0 ]
 		}
 ,
