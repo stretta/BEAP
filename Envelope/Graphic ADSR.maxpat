@@ -302,6 +302,7 @@
 									"activetextoncolor" : [ 0.0, 0.019608, 0.078431, 1.0 ],
 									"bgcolor" : [ 0.101961, 0.101961, 0.101961, 0.78 ],
 									"bordercolor" : [ 0.0, 0.019608, 0.078431, 0.37 ],
+									"hint" : "Muts output.",
 									"id" : "obj-20",
 									"maxclass" : "live.text",
 									"numinlets" : 1,
@@ -483,6 +484,8 @@
 , 							{
 								"box" : 								{
 									"activebgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+									"annotation" : "",
+									"hint" : "Amount of domain (time scale) modulation applied from the CV input.",
 									"id" : "obj-106",
 									"maxclass" : "live.numbox",
 									"numinlets" : 1,
@@ -494,17 +497,17 @@
 									"presentation_rect" : [ 209.0, 65.292236, 51.774319, 15.0 ],
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
-											"parameter_longname" : "CV3[1]",
+											"parameter_longname" : "DomainCV_Amt",
 											"parameter_unitstyle" : 5,
 											"parameter_mmax" : 100.0,
 											"parameter_type" : 0,
-											"parameter_shortname" : "CV3"
+											"parameter_shortname" : "DomainCV_Amt"
 										}
 
 									}
 ,
 									"textcolor" : [ 0.278431, 0.839216, 1.0, 1.0 ],
-									"varname" : "CV3"
+									"varname" : "DomainCV_Amt"
 								}
 
 							}
@@ -708,13 +711,13 @@
 									"outlettype" : [ "", "", "", "" ],
 									"patching_rect" : [ 326.236206, 830.0, 59.5, 20.0 ],
 									"restore" : 									{
-										"CV3" : [ 100.0 ],
 										"Domain" : [ 1000.0 ],
+										"DomainCV_Amt" : [ 0.0 ],
 										"mute" : [ 0.0 ]
 									}
 ,
 									"text" : "autopattr",
-									"varname" : "u756001536"
+									"varname" : "u626001638"
 								}
 
 							}
@@ -1242,7 +1245,7 @@
 		"lines" : [  ],
 		"parameters" : 		{
 			"obj-10::obj-20" : [ "mute", "mute", 0 ],
-			"obj-10::obj-106" : [ "CV3[1]", "CV3", 0 ],
+			"obj-10::obj-106" : [ "DomainCV_Amt", "DomainCV_Amt", 0 ],
 			"obj-10::obj-129" : [ "Domain", "Domain", 0 ]
 		}
 ,

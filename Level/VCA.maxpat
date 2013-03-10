@@ -81,13 +81,13 @@
 									"presentation_rect" : [ 4.834977, 65.637062, 102.165024, 22.159897 ],
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
+											"parameter_enum" : [ "2 Quad", "4 Quad" ],
 											"parameter_longname" : "Quadrants",
 											"parameter_unitstyle" : 0,
 											"parameter_initial" : [ 0 ],
 											"parameter_type" : 2,
 											"parameter_initial_enable" : 1,
-											"parameter_shortname" : "Quadrants",
-											"parameter_enum" : [ "2 Quad", "4 Quad" ]
+											"parameter_shortname" : "Quadrants"
 										}
 
 									}
@@ -114,14 +114,14 @@
 									"presentation_rect" : [ 4.834977, 43.477165, 102.165024, 22.159897 ],
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
+											"parameter_enum" : [ "Expo", "Lin" ],
 											"parameter_longname" : "Response",
 											"parameter_unitstyle" : 0,
 											"parameter_mmax" : 1.0,
 											"parameter_initial" : [ 0.0 ],
 											"parameter_defer" : 1,
 											"parameter_type" : 2,
-											"parameter_shortname" : "Response",
-											"parameter_enum" : [ "Expo", "Lin" ]
+											"parameter_shortname" : "Response"
 										}
 
 									}
@@ -390,7 +390,7 @@
 									}
 ,
 									"text" : "autopattr",
-									"varname" : "u443000448"
+									"varname" : "u704001571"
 								}
 
 							}
@@ -424,7 +424,7 @@
 							}
 , 							{
 								"box" : 								{
-									"comment" : "Output",
+									"comment" : "Scaled output.",
 									"hint" : "",
 									"id" : "obj-11",
 									"maxclass" : "outlet",
@@ -470,13 +470,13 @@
 									"presentation_rect" : [ 55.0, 18.0, 52.0, 17.0 ],
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
+											"parameter_enum" : [ "val1", "val2" ],
 											"parameter_longname" : "Bypass[4]",
 											"parameter_mmax" : 1.0,
 											"parameter_initial" : [ 0.0 ],
 											"parameter_defer" : 1,
 											"parameter_type" : 2,
-											"parameter_shortname" : "Bypass",
-											"parameter_enum" : [ "val1", "val2" ]
+											"parameter_shortname" : "Bypass"
 										}
 
 									}
@@ -519,7 +519,7 @@
 , 							{
 								"box" : 								{
 									"annotation" : "",
-									"comment" : "CV input. Modulation input. Modulator. This is the control signal that dictates the behavior of the VCA. This signal does not appear at the output.",
+									"comment" : "CV input. Modulation input. Modulator. This is the control signal input that scales the signal input. In two quadrant mode, 0 to +5v scales signal from 0-100%. In four quadrant mode, -5v to +5v scales and inverts accordingly.",
 									"hint" : "",
 									"id" : "obj-6",
 									"maxclass" : "inlet",
@@ -533,7 +533,7 @@
 , 							{
 								"box" : 								{
 									"annotation" : "",
-									"comment" : "Signal input. Carrier input. Audio input. This is the signal that will be modified by the CV input. The result of this will appear at the output.",
+									"comment" : "Signal input. Carrier input. Audio input. This is the signal that will be scaled by the CV input. The result of this will appear at the output.",
 									"hint" : "",
 									"id" : "obj-17",
 									"maxclass" : "inlet",
@@ -917,9 +917,9 @@
  ],
 		"lines" : [  ],
 		"parameters" : 		{
-			"obj-42::obj-33" : [ "Quadrants", "Quadrants", 0 ],
 			"obj-42::obj-80" : [ "Response", "Response", 0 ],
-			"obj-42::obj-55" : [ "Bypass[4]", "Bypass", 0 ]
+			"obj-42::obj-55" : [ "Bypass[4]", "Bypass", 0 ],
+			"obj-42::obj-33" : [ "Quadrants", "Quadrants", 0 ]
 		}
 ,
 		"dependency_cache" : [  ]
