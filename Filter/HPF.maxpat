@@ -8,7 +8,7 @@
 			"architecture" : "x64"
 		}
 ,
-		"rect" : [ 399.0, 58.0, 1440.0, 753.0 ],
+		"rect" : [ 15.0, 44.0, 1440.0, 753.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -44,7 +44,7 @@
 							"architecture" : "x64"
 						}
 ,
-						"rect" : [ 399.0, 58.0, 253.0, 116.0 ],
+						"rect" : [ 15.0, 44.0, 253.0, 116.0 ],
 						"bgcolor" : [ 1.0, 1.0, 1.0, 0.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 1,
@@ -65,6 +65,41 @@
 						"digest" : "",
 						"tags" : "",
 						"boxes" : [ 							{
+								"box" : 								{
+									"activebgcolor" : [ 0.137255, 0.145098, 0.160784, 0.65 ],
+									"activebgoncolor" : [ 0.278431, 0.839216, 1.0, 1.0 ],
+									"bordercolor" : [ 0.0, 0.0, 0.0, 0.56 ],
+									"fontsize" : 9.0,
+									"hint" : "Switches cƒ control between semiton and frequency modes.",
+									"id" : "obj-80",
+									"maxclass" : "live.tab",
+									"numinlets" : 1,
+									"numoutlets" : 3,
+									"outlettype" : [ "", "", "float" ],
+									"parameter_enable" : 1,
+									"patching_rect" : [ 599.453125, 83.336548, 76.0, 59.663452 ],
+									"presentation" : 1,
+									"presentation_rect" : [ 40.145195, 43.838638, 35.924076, 36.514233 ],
+									"saved_attribute_attributes" : 									{
+										"valueof" : 										{
+											"parameter_defer" : 1,
+											"parameter_type" : 2,
+											"parameter_shortname" : "FreqMode",
+											"parameter_enum" : [ "Freq", "Semi" ],
+											"parameter_longname" : "FreqMode",
+											"parameter_unitstyle" : 0,
+											"parameter_mmax" : 1.0,
+											"parameter_initial" : [ 0.0 ]
+										}
+
+									}
+,
+									"textcolor" : [ 1.0, 1.0, 1.0, 0.501961 ],
+									"varname" : "FreqMode"
+								}
+
+							}
+, 							{
 								"box" : 								{
 									"fontname" : "Arial",
 									"fontsize" : 12.0,
@@ -113,16 +148,16 @@
 									"prototypename" : "freq",
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
+											"parameter_type" : 0,
+											"parameter_initial_enable" : 1,
+											"parameter_speedlim" : 0.0,
 											"parameter_shortname" : "Freq",
 											"parameter_annotation_name" : "Freq",
 											"parameter_exponent" : 4.0,
 											"parameter_longname" : "Freq",
 											"parameter_unitstyle" : 3,
 											"parameter_mmax" : 20000.0,
-											"parameter_initial" : [ 0.6 ],
-											"parameter_type" : 0,
-											"parameter_initial_enable" : 1,
-											"parameter_speedlim" : 0.0
+											"parameter_initial" : [ 0.6 ]
 										}
 
 									}
@@ -140,7 +175,7 @@
 									"maxclass" : "newobj",
 									"numinlets" : 1,
 									"numoutlets" : 2,
-									"outlettype" : [ "bang", "" ],
+									"outlettype" : [ "", "" ],
 									"patcher" : 									{
 										"fileversion" : 1,
 										"appversion" : 										{
@@ -645,51 +680,6 @@
 							}
 , 							{
 								"box" : 								{
-									"activebgcolor" : [ 0.917647, 0.94902, 0.054902, 0.0 ],
-									"activebgoncolor" : [ 0.278431, 0.839216, 1.0, 1.0 ],
-									"activetextcolor" : [ 0.278431, 0.839216, 1.0, 1.0 ],
-									"activetextoncolor" : [ 0.137255, 0.145098, 0.160784, 1.0 ],
-									"annotation" : "Time mode: when Sync is selected, the LFO runs in sync with Live's transport. When in Freq mode, the LFO runs using its own internal clock. Synced rates are expressed in note values, and Frequency rates are expressed in Herz.",
-									"automation" : "Freq",
-									"automationon" : "Semitone",
-									"bgcolor" : [ 0.6, 0.6, 0.6, 0.0 ],
-									"bordercolor" : [ 0.278431, 0.839216, 1.0, 1.0 ],
-									"focusbordercolor" : [ 0.278431, 0.839216, 1.0, 1.0 ],
-									"hint" : "",
-									"id" : "obj-4",
-									"maxclass" : "live.text",
-									"numinlets" : 1,
-									"numoutlets" : 2,
-									"outlettype" : [ "", "" ],
-									"parameter_enable" : 1,
-									"patching_rect" : [ 599.453125, 117.413605, 35.0, 19.0 ],
-									"presentation" : 1,
-									"presentation_rect" : [ 42.0, 43.838638, 33.0, 15.0 ],
-									"saved_attribute_attributes" : 									{
-										"valueof" : 										{
-											"parameter_shortname" : "TimeMode",
-											"parameter_annotation_name" : "Time Mode",
-											"parameter_enum" : [ "Freq", "Semitone" ],
-											"parameter_longname" : "TimeMode",
-											"parameter_mmax" : 1.0,
-											"parameter_initial" : [ 1 ],
-											"parameter_order" : 1,
-											"parameter_type" : 2,
-											"parameter_initial_enable" : 1,
-											"parameter_speedlim" : 0.0
-										}
-
-									}
-,
-									"text" : "Freq",
-									"textcolor" : [ 0.556863, 0.556863, 0.556863, 1.0 ],
-									"texton" : "Semi",
-									"varname" : "FreqMode"
-								}
-
-							}
-, 							{
-								"box" : 								{
 									"activedialcolor" : [ 0.278431, 0.839216, 1.0, 1.0 ],
 									"activeneedlecolor" : [ 1.0, 1.0, 1.0, 0.4 ],
 									"annotation" : "",
@@ -708,15 +698,15 @@
 									"prototypename" : "freq",
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
+											"parameter_type" : 0,
+											"parameter_initial_enable" : 1,
+											"parameter_speedlim" : 0.0,
 											"parameter_shortname" : "Offset",
 											"parameter_longname" : "Offset[2]",
 											"parameter_unitstyle" : 1,
 											"parameter_mmax" : 64.0,
 											"parameter_mmin" : -64.0,
-											"parameter_initial" : [ 0 ],
-											"parameter_type" : 0,
-											"parameter_initial_enable" : 1,
-											"parameter_speedlim" : 0.0
+											"parameter_initial" : [ 0 ]
 										}
 
 									}
@@ -757,7 +747,7 @@
 							}
 , 							{
 								"box" : 								{
-									"comment" : "",
+									"comment" : "CV input to modulate cƒ",
 									"id" : "obj-56",
 									"maxclass" : "inlet",
 									"numinlets" : 0,
@@ -895,7 +885,7 @@
 							}
 , 							{
 								"box" : 								{
-									"comment" : "",
+									"comment" : "CV input to modulate cƒ",
 									"id" : "obj-51",
 									"maxclass" : "inlet",
 									"numinlets" : 0,
@@ -1153,7 +1143,7 @@
 , 							{
 								"box" : 								{
 									"annotation" : "1v/oct",
-									"comment" : "",
+									"comment" : "CV input to modulate cƒ",
 									"id" : "obj-67",
 									"maxclass" : "inlet",
 									"numinlets" : 0,
@@ -1167,6 +1157,7 @@
 								"box" : 								{
 									"activedialcolor" : [ 0.278431, 0.839216, 1.0, 1.0 ],
 									"activeneedlecolor" : [ 1.0, 1.0, 1.0, 0.6 ],
+									"hint" : "Input attenuator for CV input 1",
 									"id" : "obj-68",
 									"maxclass" : "live.dial",
 									"numinlets" : 1,
@@ -1178,11 +1169,11 @@
 									"presentation_rect" : [ 158.640533, 43.838638, 44.0, 47.0 ],
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
+											"parameter_type" : 0,
 											"parameter_shortname" : "CV3",
 											"parameter_longname" : "CV3[2]",
 											"parameter_unitstyle" : 5,
-											"parameter_mmax" : 100.0,
-											"parameter_type" : 0
+											"parameter_mmax" : 100.0
 										}
 
 									}
@@ -1196,6 +1187,7 @@
 								"box" : 								{
 									"activedialcolor" : [ 0.278431, 0.839216, 1.0, 1.0 ],
 									"activeneedlecolor" : [ 1.0, 1.0, 1.0, 0.6 ],
+									"hint" : "Input attenuator for CV input 1",
 									"id" : "obj-102",
 									"maxclass" : "live.dial",
 									"numinlets" : 1,
@@ -1207,11 +1199,11 @@
 									"presentation_rect" : [ 70.640533, 43.838638, 44.0, 47.0 ],
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
+											"parameter_type" : 0,
 											"parameter_shortname" : "CV1",
 											"parameter_longname" : "CV1[2]",
 											"parameter_unitstyle" : 5,
-											"parameter_mmax" : 100.0,
-											"parameter_type" : 0
+											"parameter_mmax" : 100.0
 										}
 
 									}
@@ -1225,6 +1217,7 @@
 								"box" : 								{
 									"activedialcolor" : [ 0.278431, 0.839216, 1.0, 1.0 ],
 									"activeneedlecolor" : [ 1.0, 1.0, 1.0, 0.6 ],
+									"hint" : "Input attenuator for CV input 2",
 									"id" : "obj-103",
 									"maxclass" : "live.dial",
 									"numinlets" : 1,
@@ -1236,11 +1229,11 @@
 									"presentation_rect" : [ 114.640533, 43.838638, 44.0, 47.0 ],
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
+											"parameter_type" : 0,
 											"parameter_shortname" : "CV2",
 											"parameter_longname" : "CV2[2]",
 											"parameter_unitstyle" : 5,
-											"parameter_mmax" : 100.0,
-											"parameter_type" : 0
+											"parameter_mmax" : 100.0
 										}
 
 									}
@@ -1443,6 +1436,7 @@
 								"box" : 								{
 									"activedialcolor" : [ 0.278431, 0.839216, 1.0, 1.0 ],
 									"activeneedlecolor" : [ 1.0, 1.0, 1.0, 0.6 ],
+									"hint" : "Resonance amount.",
 									"id" : "obj-11",
 									"maxclass" : "live.dial",
 									"numinlets" : 1,
@@ -1454,13 +1448,13 @@
 									"presentation_rect" : [ 202.640533, 43.838638, 44.0, 47.0 ],
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
+											"parameter_type" : 0,
+											"parameter_initial_enable" : 1,
 											"parameter_shortname" : "Res",
 											"parameter_longname" : "Res",
 											"parameter_unitstyle" : 5,
 											"parameter_mmax" : 100.0,
-											"parameter_initial" : [ 0.0 ],
-											"parameter_type" : 0,
-											"parameter_initial_enable" : 1
+											"parameter_initial" : [ 0.0 ]
 										}
 
 									}
@@ -1529,16 +1523,16 @@
 									"parameter_enable" : 1,
 									"patching_rect" : [ 551.203125, 852.5, 43.0, 19.0 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 189.0, 18.0, 52.0, 17.0 ],
+									"presentation_rect" : [ 196.0, 18.0, 52.0, 17.0 ],
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
+											"parameter_defer" : 1,
+											"parameter_type" : 2,
 											"parameter_shortname" : "power",
 											"parameter_enum" : [ "val1", "val2" ],
 											"parameter_longname" : "power[3]",
 											"parameter_mmax" : 1.0,
-											"parameter_initial" : [ 0.0 ],
-											"parameter_defer" : 1,
-											"parameter_type" : 2
+											"parameter_initial" : [ 0.0 ]
 										}
 
 									}
@@ -1552,13 +1546,13 @@
 							}
 , 							{
 								"box" : 								{
-									"comment" : "",
+									"comment" : "Signal input to be filtered.",
 									"id" : "obj-39",
 									"maxclass" : "inlet",
 									"numinlets" : 0,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 506.905365, 618.006775, 25.0, 25.0 ]
+									"patching_rect" : [ 506.905365, 619.006775, 25.0, 25.0 ]
 								}
 
 							}
@@ -1584,7 +1578,7 @@
 									}
 ,
 									"text" : "autopattr",
-									"varname" : "u815007862"
+									"varname" : "u038001005"
 								}
 
 							}
@@ -1897,15 +1891,6 @@
 							}
 , 							{
 								"patchline" : 								{
-									"destination" : [ "obj-3", 0 ],
-									"disabled" : 0,
-									"hidden" : 0,
-									"source" : [ "obj-4", 0 ]
-								}
-
-							}
-, 							{
-								"patchline" : 								{
 									"destination" : [ "obj-82", 0 ],
 									"disabled" : 0,
 									"hidden" : 0,
@@ -2107,6 +2092,15 @@
 							}
 , 							{
 								"patchline" : 								{
+									"destination" : [ "obj-3", 0 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-80", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
 									"destination" : [ "obj-65", 0 ],
 									"disabled" : 0,
 									"hidden" : 0,
@@ -2188,14 +2182,14 @@
  ],
 		"lines" : [  ],
 		"parameters" : 		{
-			"obj-38::obj-4" : [ "TimeMode", "TimeMode", 1 ],
+			"obj-38::obj-102" : [ "CV1[2]", "CV1", 0 ],
 			"obj-38::obj-2" : [ "Freq", "Freq", 0 ],
+			"obj-38::obj-11" : [ "Res", "Res", 0 ],
+			"obj-38::obj-80" : [ "FreqMode", "FreqMode", 0 ],
 			"obj-38::obj-103" : [ "CV2[2]", "CV2", 0 ],
 			"obj-38::obj-7" : [ "Offset[2]", "Offset", 0 ],
-			"obj-38::obj-11" : [ "Res", "Res", 0 ],
-			"obj-38::obj-102" : [ "CV1[2]", "CV1", 0 ],
-			"obj-38::obj-68" : [ "CV3[2]", "CV3", 0 ],
-			"obj-38::obj-55" : [ "power[3]", "power", 0 ]
+			"obj-38::obj-55" : [ "power[3]", "power", 0 ],
+			"obj-38::obj-68" : [ "CV3[2]", "CV3", 0 ]
 		}
 ,
 		"dependency_cache" : [  ]
