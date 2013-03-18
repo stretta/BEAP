@@ -66,6 +66,28 @@
 						"tags" : "",
 						"boxes" : [ 							{
 								"box" : 								{
+									"fontname" : "Arial",
+									"fontsize" : 12.0,
+									"id" : "obj-2",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 4,
+									"outlettype" : [ "", "", "", "" ],
+									"patching_rect" : [ 239.0, 573.0, 59.5, 20.0 ],
+									"restore" : 									{
+										"Mute" : [ 0.0 ],
+										"Resolution" : [ 1.0 ],
+										"TriggerTime" : [ 1.0 ],
+										"live.tab" : [ 0.0 ]
+									}
+,
+									"text" : "autopattr",
+									"varname" : "u865000712"
+								}
+
+							}
+, 							{
+								"box" : 								{
 									"fontname" : "Arial Bold",
 									"fontsize" : 9.0,
 									"frgb" : 0.0,
@@ -493,13 +515,13 @@
 									"presentation_rect" : [ 53.0401, 19.0, 44.0, 14.764645 ],
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
-											"parameter_defer" : 1,
 											"parameter_enum" : [ "val1", "val2" ],
 											"parameter_mmax" : 1.0,
 											"parameter_initial" : [ 0.0 ],
 											"parameter_type" : 2,
 											"parameter_shortname" : "Mute",
-											"parameter_longname" : "Mute[2]"
+											"parameter_longname" : "Mute[2]",
+											"parameter_defer" : 1
 										}
 
 									}
@@ -831,8 +853,8 @@
 		"lines" : [  ],
 		"parameters" : 		{
 			"obj-4::obj-28" : [ "TriggerTime", "TriggerTime", 0 ],
-			"obj-4::obj-32" : [ "live.tab[1]", "live.tab", 0 ],
 			"obj-4::obj-12" : [ "Mute[2]", "Mute", 0 ],
+			"obj-4::obj-32" : [ "live.tab[1]", "live.tab", 0 ],
 			"obj-4::obj-129" : [ "Resolution", "Resolution", 0 ]
 		}
 ,
