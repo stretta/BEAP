@@ -5,7 +5,7 @@
 			"major" : 6,
 			"minor" : 1,
 			"revision" : 0,
-			"architecture" : "x64"
+			"architecture" : "x86"
 		}
 ,
 		"rect" : [ 25.0, 69.0, 640.0, 480.0 ],
@@ -41,7 +41,7 @@
 							"major" : 6,
 							"minor" : 1,
 							"revision" : 0,
-							"architecture" : "x64"
+							"architecture" : "x86"
 						}
 ,
 						"rect" : [ 25.0, 69.0, 106.0, 116.0 ],
@@ -81,7 +81,7 @@
 									}
 ,
 									"text" : "autopattr",
-									"varname" : "u355000465"
+									"varname" : "u819004356"
 								}
 
 							}
@@ -325,8 +325,8 @@
 										"valueof" : 										{
 											"parameter_type" : 2,
 											"parameter_shortname" : "live.tab",
-											"parameter_enum" : [ "1", "2", "3", "4" ],
 											"parameter_longname" : "live.tab",
+											"parameter_enum" : [ "1", "2", "3", "4" ],
 											"parameter_unitstyle" : 0
 										}
 
@@ -402,8 +402,8 @@
 									"numinlets" : 2,
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
-									"patching_rect" : [ 586.932068, 156.907501, 142.0, 20.0 ],
-									"text" : "route /example/enc/delta"
+									"patching_rect" : [ 586.932068, 156.907501, 143.0, 20.0 ],
+									"text" : "route /monome/enc/delta"
 								}
 
 							}
@@ -491,11 +491,11 @@
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
 											"parameter_initial" : [ 0.0 ],
-											"parameter_defer" : 1,
 											"parameter_type" : 2,
 											"parameter_shortname" : "Mute",
-											"parameter_enum" : [ "val1", "val2" ],
 											"parameter_longname" : "Mute[1]",
+											"parameter_defer" : 1,
+											"parameter_enum" : [ "val1", "val2" ],
 											"parameter_mmax" : 1.0
 										}
 
@@ -867,8 +867,8 @@
 		"lines" : [  ],
 		"parameters" : 		{
 			"obj-10::obj-12" : [ "Mute[1]", "Mute", 0 ],
-			"obj-10::obj-129" : [ "Resolution", "Resolution", 0 ],
-			"obj-10::obj-32" : [ "live.tab", "live.tab", 0 ]
+			"obj-10::obj-32" : [ "live.tab", "live.tab", 0 ],
+			"obj-10::obj-129" : [ "Resolution", "Resolution", 0 ]
 		}
 ,
 		"dependency_cache" : [  ]

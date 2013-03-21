@@ -73,8 +73,8 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 575.0, 632.0, 282.0, 18.0 ],
-									"text" : "/example/grid/led/map 0 0 $1 $2 $3 $4 $5 $6 $7 $8"
+									"patching_rect" : [ 575.0, 632.0, 283.0, 18.0 ],
+									"text" : "/monome/grid/led/map 0 0 $1 $2 $3 $4 $5 $6 $7 $8"
 								}
 
 							}
@@ -320,14 +320,14 @@
 									"presentation_rect" : [ 45.432007, 49.0, 43.0401, 15.0 ],
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
-											"parameter_longname" : "SampleRate[4]",
-											"parameter_unitstyle" : 0,
-											"parameter_mmax" : 1000.0,
 											"parameter_mmin" : 1.0,
 											"parameter_initial" : [ 10 ],
 											"parameter_type" : 0,
 											"parameter_initial_enable" : 1,
-											"parameter_shortname" : "SampleRate"
+											"parameter_shortname" : "SampleRate",
+											"parameter_longname" : "SampleRate[4]",
+											"parameter_unitstyle" : 0,
+											"parameter_mmax" : 1000.0
 										}
 
 									}
@@ -384,13 +384,13 @@
 									"presentation_rect" : [ 7.911957, 73.0, 80.56015, 14.764645 ],
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
+											"parameter_initial" : [ 0.0 ],
+											"parameter_type" : 2,
+											"parameter_shortname" : "Mute",
 											"parameter_longname" : "Mute[19]",
 											"parameter_defer" : 1,
 											"parameter_enum" : [ "val1", "val2" ],
-											"parameter_mmax" : 1.0,
-											"parameter_initial" : [ 0.0 ],
-											"parameter_type" : 2,
-											"parameter_shortname" : "Mute"
+											"parameter_mmax" : 1.0
 										}
 
 									}
@@ -478,13 +478,13 @@
 									"presentation_rect" : [ 44.212082, 19.0, 45.47995, 14.764645 ],
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
+											"parameter_initial" : [ 0.0 ],
+											"parameter_type" : 2,
+											"parameter_shortname" : "Mute",
 											"parameter_longname" : "Mute[20]",
 											"parameter_defer" : 1,
 											"parameter_enum" : [ "val1", "val2" ],
-											"parameter_mmax" : 1.0,
-											"parameter_initial" : [ 0.0 ],
-											"parameter_type" : 2,
-											"parameter_shortname" : "Mute"
+											"parameter_mmax" : 1.0
 										}
 
 									}
@@ -815,9 +815,9 @@
  ],
 		"lines" : [  ],
 		"parameters" : 		{
-			"obj-78::obj-70" : [ "Mute[19]", "Mute", 0 ],
+			"obj-78::obj-12" : [ "Mute[20]", "Mute", 0 ],
 			"obj-78::obj-75" : [ "SampleRate[4]", "SampleRate", 0 ],
-			"obj-78::obj-12" : [ "Mute[20]", "Mute", 0 ]
+			"obj-78::obj-70" : [ "Mute[19]", "Mute", 0 ]
 		}
 ,
 		"dependency_cache" : [  ]

@@ -228,8 +228,8 @@
 									"numinlets" : 2,
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
-									"patching_rect" : [ 359.0, 87.0, 135.0, 20.0 ],
-									"text" : "route /example/grid/key"
+									"patching_rect" : [ 359.0, 87.0, 137.0, 20.0 ],
+									"text" : "route /monome/grid/key"
 								}
 
 							}
@@ -297,13 +297,13 @@
 									"presentation_rect" : [ 9.131882, 57.0, 80.56015, 14.764645 ],
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
+											"parameter_initial" : [ 0.0 ],
+											"parameter_type" : 2,
+											"parameter_shortname" : "Mute",
 											"parameter_longname" : "Mute[21]",
 											"parameter_defer" : 1,
 											"parameter_enum" : [ "val1", "val2" ],
-											"parameter_mmax" : 1.0,
-											"parameter_initial" : [ 0.0 ],
-											"parameter_type" : 2,
-											"parameter_shortname" : "Mute"
+											"parameter_mmax" : 1.0
 										}
 
 									}
@@ -390,13 +390,13 @@
 									"presentation_rect" : [ 44.212082, 19.0, 45.47995, 14.764645 ],
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
+											"parameter_initial" : [ 0.0 ],
+											"parameter_type" : 2,
+											"parameter_shortname" : "Mute",
 											"parameter_longname" : "Mute[22]",
 											"parameter_defer" : 1,
 											"parameter_enum" : [ "val1", "val2" ],
-											"parameter_mmax" : 1.0,
-											"parameter_initial" : [ 0.0 ],
-											"parameter_type" : 2,
-											"parameter_shortname" : "Mute"
+											"parameter_mmax" : 1.0
 										}
 
 									}
@@ -673,8 +673,8 @@
  ],
 		"lines" : [  ],
 		"parameters" : 		{
-			"obj-79::obj-12" : [ "Mute[22]", "Mute", 0 ],
-			"obj-79::obj-70" : [ "Mute[21]", "Mute", 0 ]
+			"obj-79::obj-70" : [ "Mute[21]", "Mute", 0 ],
+			"obj-79::obj-12" : [ "Mute[22]", "Mute", 0 ]
 		}
 ,
 		"dependency_cache" : [  ]

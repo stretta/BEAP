@@ -83,7 +83,7 @@
 									}
 ,
 									"text" : "autopattr",
-									"varname" : "u359001264"
+									"varname" : "u159004362"
 								}
 
 							}
@@ -166,14 +166,14 @@
 									"presentation_rect" : [ 145.432007, 46.087891, 43.0401, 15.0 ],
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
-											"parameter_unitstyle" : 0,
-											"parameter_mmax" : 64.0,
 											"parameter_mmin" : 1.0,
 											"parameter_initial" : [ 1 ],
 											"parameter_type" : 0,
 											"parameter_initial_enable" : 1,
 											"parameter_shortname" : "Range",
-											"parameter_longname" : "Range"
+											"parameter_longname" : "Range",
+											"parameter_unitstyle" : 0,
+											"parameter_mmax" : 64.0
 										}
 
 									}
@@ -307,14 +307,14 @@
 									"presentation_rect" : [ 145.432007, 73.0, 43.0401, 15.0 ],
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
-											"parameter_unitstyle" : 0,
-											"parameter_mmax" : 1000.0,
 											"parameter_mmin" : 1.0,
 											"parameter_initial" : [ 10 ],
 											"parameter_type" : 0,
 											"parameter_initial_enable" : 1,
 											"parameter_shortname" : "SampleRate",
-											"parameter_longname" : "SampleRate"
+											"parameter_longname" : "SampleRate",
+											"parameter_unitstyle" : 0,
+											"parameter_mmax" : 1000.0
 										}
 
 									}
@@ -371,13 +371,13 @@
 									"presentation_rect" : [ 7.911957, 73.0, 94.0401, 14.764645 ],
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
-											"parameter_defer" : 1,
-											"parameter_enum" : [ "val1", "val2" ],
-											"parameter_mmax" : 1.0,
 											"parameter_initial" : [ 0.0 ],
 											"parameter_type" : 2,
 											"parameter_shortname" : "Mute",
-											"parameter_longname" : "Mute[3]"
+											"parameter_longname" : "Mute[3]",
+											"parameter_defer" : 1,
+											"parameter_enum" : [ "val1", "val2" ],
+											"parameter_mmax" : 1.0
 										}
 
 									}
@@ -417,11 +417,11 @@
 									"presentation_rect" : [ 7.911957, 46.087891, 94.0401, 20.0 ],
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
-											"parameter_enum" : [ "1", "2", "3", "4" ],
-											"parameter_unitstyle" : 0,
 											"parameter_type" : 2,
 											"parameter_shortname" : "live.tab",
-											"parameter_longname" : "live.tab[2]"
+											"parameter_longname" : "live.tab[2]",
+											"parameter_enum" : [ "1", "2", "3", "4" ],
+											"parameter_unitstyle" : 0
 										}
 
 									}
@@ -524,8 +524,8 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 632.0, 753.64801, 196.0, 34.0 ],
-									"text" : "/example/ring/range $1 $2 $3 4, /example/ring/range $1 $5 $4 0"
+									"patching_rect" : [ 632.0, 753.64801, 205.0, 34.0 ],
+									"text" : "/monome/ring/range $1 $2 $3 4, /monome/ring/range $1 $5 $4 0"
 								}
 
 							}
@@ -633,13 +633,13 @@
 									"presentation_rect" : [ 141.952057, 20.0, 45.47995, 14.764645 ],
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
-											"parameter_defer" : 1,
-											"parameter_enum" : [ "val1", "val2" ],
-											"parameter_mmax" : 1.0,
 											"parameter_initial" : [ 0.0 ],
 											"parameter_type" : 2,
 											"parameter_shortname" : "Mute",
-											"parameter_longname" : "Mute[2]"
+											"parameter_longname" : "Mute[2]",
+											"parameter_defer" : 1,
+											"parameter_enum" : [ "val1", "val2" ],
+											"parameter_mmax" : 1.0
 										}
 
 									}
@@ -1049,9 +1049,9 @@
 		"parameters" : 		{
 			"obj-5::obj-70" : [ "Mute[3]", "Mute", 0 ],
 			"obj-5::obj-36" : [ "live.tab[2]", "live.tab", 0 ],
-			"obj-5::obj-12" : [ "Mute[2]", "Mute", 0 ],
 			"obj-5::obj-87" : [ "Range", "Range", 0 ],
-			"obj-5::obj-75" : [ "SampleRate", "SampleRate", 0 ]
+			"obj-5::obj-75" : [ "SampleRate", "SampleRate", 0 ],
+			"obj-5::obj-12" : [ "Mute[2]", "Mute", 0 ]
 		}
 ,
 		"dependency_cache" : [  ]

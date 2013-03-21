@@ -197,7 +197,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 2983.976074, 1241.829834, 181.0, 18.0 ],
-									"text" : "/example/grid/led/col 15 0 $1 $2"
+									"text" : "/monome/grid/led/col 15 0 $1 $2"
 								}
 
 							}
@@ -298,7 +298,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 2800.976074, 1241.829834, 181.0, 18.0 ],
-									"text" : "/example/grid/led/col 14 0 $1 $2"
+									"text" : "/monome/grid/led/col 14 0 $1 $2"
 								}
 
 							}
@@ -399,7 +399,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 2622.976074, 1241.829834, 181.0, 18.0 ],
-									"text" : "/example/grid/led/col 13 0 $1 $2"
+									"text" : "/monome/grid/led/col 13 0 $1 $2"
 								}
 
 							}
@@ -500,7 +500,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 2439.976074, 1241.829834, 181.0, 18.0 ],
-									"text" : "/example/grid/led/col 12 0 $1 $2"
+									"text" : "/monome/grid/led/col 12 0 $1 $2"
 								}
 
 							}
@@ -601,7 +601,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 2257.97583, 1241.829834, 180.0, 18.0 ],
-									"text" : "/example/grid/led/col 11 0 $1 $2"
+									"text" : "/monome/grid/led/col 11 0 $1 $2"
 								}
 
 							}
@@ -702,7 +702,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 2074.97583, 1241.829834, 181.0, 18.0 ],
-									"text" : "/example/grid/led/col 10 0 $1 $2"
+									"text" : "/monome/grid/led/col 10 0 $1 $2"
 								}
 
 							}
@@ -803,7 +803,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 1896.975952, 1241.829834, 174.0, 18.0 ],
-									"text" : "/example/grid/led/col 9 0 $1 $2"
+									"text" : "/monome/grid/led/col 9 0 $1 $2"
 								}
 
 							}
@@ -904,7 +904,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 1713.975952, 1241.829834, 174.0, 18.0 ],
-									"text" : "/example/grid/led/col 8 0 $1 $2"
+									"text" : "/monome/grid/led/col 8 0 $1 $2"
 								}
 
 							}
@@ -1005,7 +1005,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 2983.976074, 1113.829834, 174.0, 18.0 ],
-									"text" : "/example/grid/led/col 7 0 $1 $2"
+									"text" : "/monome/grid/led/col 7 0 $1 $2"
 								}
 
 							}
@@ -1106,7 +1106,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 2800.976074, 1113.829834, 174.0, 18.0 ],
-									"text" : "/example/grid/led/col 6 0 $1 $2"
+									"text" : "/monome/grid/led/col 6 0 $1 $2"
 								}
 
 							}
@@ -1207,7 +1207,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 2622.976074, 1113.829834, 174.0, 18.0 ],
-									"text" : "/example/grid/led/col 5 0 $1 $2"
+									"text" : "/monome/grid/led/col 5 0 $1 $2"
 								}
 
 							}
@@ -1308,7 +1308,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 2439.976074, 1113.829834, 174.0, 18.0 ],
-									"text" : "/example/grid/led/col 4 0 $1 $2"
+									"text" : "/monome/grid/led/col 4 0 $1 $2"
 								}
 
 							}
@@ -1409,7 +1409,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 2257.97583, 1113.829834, 174.0, 18.0 ],
-									"text" : "/example/grid/led/col 3 0 $1 $2"
+									"text" : "/monome/grid/led/col 3 0 $1 $2"
 								}
 
 							}
@@ -1510,7 +1510,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 2074.97583, 1113.829834, 174.0, 18.0 ],
-									"text" : "/example/grid/led/col 2 0 $1 $2"
+									"text" : "/monome/grid/led/col 2 0 $1 $2"
 								}
 
 							}
@@ -1611,7 +1611,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 1896.975952, 1113.829834, 174.0, 18.0 ],
-									"text" : "/example/grid/led/col 1 0 $1 $2"
+									"text" : "/monome/grid/led/col 1 0 $1 $2"
 								}
 
 							}
@@ -1712,7 +1712,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 1713.975952, 1113.829834, 174.0, 18.0 ],
-									"text" : "/example/grid/led/col 0 0 $1 $2"
+									"text" : "/monome/grid/led/col 0 0 $1 $2"
 								}
 
 							}
@@ -1824,7 +1824,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 1449.642578, 1228.932373, 181.0, 18.0 ],
-									"text" : "/example/grid/led/col 15 0 $1 $2"
+									"text" : "/monome/grid/led/col 15 0 $1 $2"
 								}
 
 							}
@@ -1925,7 +1925,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 1266.642456, 1228.932373, 181.0, 18.0 ],
-									"text" : "/example/grid/led/col 14 0 $1 $2"
+									"text" : "/monome/grid/led/col 14 0 $1 $2"
 								}
 
 							}
@@ -2026,7 +2026,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 1088.642456, 1228.932373, 181.0, 18.0 ],
-									"text" : "/example/grid/led/col 13 0 $1 $2"
+									"text" : "/monome/grid/led/col 13 0 $1 $2"
 								}
 
 							}
@@ -2127,7 +2127,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 905.642456, 1228.932373, 181.0, 18.0 ],
-									"text" : "/example/grid/led/col 12 0 $1 $2"
+									"text" : "/monome/grid/led/col 12 0 $1 $2"
 								}
 
 							}
@@ -2228,7 +2228,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 723.642456, 1228.932373, 180.0, 18.0 ],
-									"text" : "/example/grid/led/col 11 0 $1 $2"
+									"text" : "/monome/grid/led/col 11 0 $1 $2"
 								}
 
 							}
@@ -2329,7 +2329,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 540.642456, 1228.932373, 181.0, 18.0 ],
-									"text" : "/example/grid/led/col 10 0 $1 $2"
+									"text" : "/monome/grid/led/col 10 0 $1 $2"
 								}
 
 							}
@@ -2430,7 +2430,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 362.642456, 1228.932373, 174.0, 18.0 ],
-									"text" : "/example/grid/led/col 9 0 $1 $2"
+									"text" : "/monome/grid/led/col 9 0 $1 $2"
 								}
 
 							}
@@ -2531,7 +2531,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 179.642456, 1228.932373, 174.0, 18.0 ],
-									"text" : "/example/grid/led/col 8 0 $1 $2"
+									"text" : "/monome/grid/led/col 8 0 $1 $2"
 								}
 
 							}
@@ -2632,7 +2632,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 1449.642578, 1100.932373, 174.0, 18.0 ],
-									"text" : "/example/grid/led/col 7 0 $1 $2"
+									"text" : "/monome/grid/led/col 7 0 $1 $2"
 								}
 
 							}
@@ -2733,7 +2733,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 1266.642456, 1100.932373, 174.0, 18.0 ],
-									"text" : "/example/grid/led/col 6 0 $1 $2"
+									"text" : "/monome/grid/led/col 6 0 $1 $2"
 								}
 
 							}
@@ -2834,7 +2834,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 1088.642456, 1100.932373, 174.0, 18.0 ],
-									"text" : "/example/grid/led/col 5 0 $1 $2"
+									"text" : "/monome/grid/led/col 5 0 $1 $2"
 								}
 
 							}
@@ -2935,7 +2935,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 905.642456, 1100.932373, 174.0, 18.0 ],
-									"text" : "/example/grid/led/col 4 0 $1 $2"
+									"text" : "/monome/grid/led/col 4 0 $1 $2"
 								}
 
 							}
@@ -3036,7 +3036,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 723.642456, 1100.932373, 174.0, 18.0 ],
-									"text" : "/example/grid/led/col 3 0 $1 $2"
+									"text" : "/monome/grid/led/col 3 0 $1 $2"
 								}
 
 							}
@@ -3137,7 +3137,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 540.642456, 1100.932373, 174.0, 18.0 ],
-									"text" : "/example/grid/led/col 2 0 $1 $2"
+									"text" : "/monome/grid/led/col 2 0 $1 $2"
 								}
 
 							}
@@ -3238,7 +3238,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 362.642456, 1100.932373, 174.0, 18.0 ],
-									"text" : "/example/grid/led/col 1 0 $1 $2"
+									"text" : "/monome/grid/led/col 1 0 $1 $2"
 								}
 
 							}
@@ -3339,7 +3339,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 179.642456, 1100.932373, 174.0, 18.0 ],
-									"text" : "/example/grid/led/col 0 0 $1 $2"
+									"text" : "/monome/grid/led/col 0 0 $1 $2"
 								}
 
 							}
