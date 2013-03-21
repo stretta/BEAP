@@ -294,14 +294,14 @@
 									"presentation_rect" : [ 538.0, 68.909904, 33.40152, 15.0 ],
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
-											"parameter_mmax" : 16.0,
-											"parameter_mmin" : 1.0,
-											"parameter_initial" : [ 5 ],
 											"parameter_type" : 1,
 											"parameter_initial_enable" : 1,
 											"parameter_shortname" : "pattern_length",
 											"parameter_longname" : "pattern_length",
-											"parameter_unitstyle" : 0
+											"parameter_unitstyle" : 0,
+											"parameter_mmax" : 16.0,
+											"parameter_mmin" : 1.0,
+											"parameter_initial" : [ 5 ]
 										}
 
 									}
@@ -325,13 +325,13 @@
 									"presentation_rect" : [ 410.9599, 45.909904, 31.859346, 15.0 ],
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
-											"parameter_mmax" : 12.0,
-											"parameter_initial" : [ 5 ],
 											"parameter_type" : 1,
 											"parameter_initial_enable" : 1,
 											"parameter_shortname" : "x_interval",
 											"parameter_longname" : "x_interval",
-											"parameter_unitstyle" : 0
+											"parameter_unitstyle" : 0,
+											"parameter_mmax" : 12.0,
+											"parameter_initial" : [ 5 ]
 										}
 
 									}
@@ -355,13 +355,13 @@
 									"presentation_rect" : [ 410.9599, 68.909904, 31.859346, 15.0 ],
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
-											"parameter_mmax" : 12.0,
-											"parameter_initial" : [ 5 ],
 											"parameter_type" : 1,
 											"parameter_initial_enable" : 1,
 											"parameter_shortname" : "y_interval",
 											"parameter_longname" : "y_interval",
-											"parameter_unitstyle" : 0
+											"parameter_unitstyle" : 0,
+											"parameter_mmax" : 12.0,
+											"parameter_initial" : [ 5 ]
 										}
 
 									}
@@ -26308,7 +26308,7 @@
 									"numinlets" : 0,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 1956.307983, 3766.62915, 87.0, 20.0 ],
+									"patching_rect" : [ 1952.307861, 3763.055176, 87.0, 20.0 ],
 									"text" : "r #0_pattern"
 								}
 
@@ -26322,7 +26322,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 1956.307983, 3836.174316, 75.0, 20.0 ],
+									"patching_rect" : [ 1952.307861, 3832.600342, 75.0, 20.0 ],
 									"text" : "prepend get"
 								}
 
@@ -26336,7 +26336,7 @@
 									"numinlets" : 4,
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
-									"patching_rect" : [ 1956.307983, 3801.350586, 251.0, 21.0 ],
+									"patching_rect" : [ 1952.307861, 3797.776611, 251.0, 21.0 ],
 									"text" : "combine 1 ::steps:: 1 ::enable @triggers 2"
 								}
 
@@ -26350,7 +26350,7 @@
 									"numinlets" : 0,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 2370.808105, 3693.976074, 87.0, 20.0 ],
+									"patching_rect" : [ 2366.807861, 3693.62915, 87.0, 20.0 ],
 									"text" : "r #0_pattern"
 								}
 
@@ -26364,7 +26364,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 2370.808105, 3763.52124, 75.0, 20.0 ],
+									"patching_rect" : [ 2366.807861, 3763.174316, 75.0, 20.0 ],
 									"text" : "prepend get"
 								}
 
@@ -26378,7 +26378,7 @@
 									"numinlets" : 4,
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
-									"patching_rect" : [ 2370.808105, 3728.69751, 229.0, 21.0 ],
+									"patching_rect" : [ 2366.807861, 3728.350586, 229.0, 21.0 ],
 									"text" : "combine 1 ::steps:: 1 ::vel @triggers 2"
 								}
 
@@ -26696,7 +26696,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 4,
 									"outlettype" : [ "dictionary", "", "", "" ],
-									"patching_rect" : [ 1956.307983, 3874.463623, 117.0, 20.0 ],
+									"patching_rect" : [ 1952.307861, 3870.889648, 117.0, 20.0 ],
 									"saved_object_attributes" : 									{
 										"embed" : 0,
 										"parameter_enable" : 0
@@ -27270,7 +27270,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 4,
 									"outlettype" : [ "dictionary", "", "", "" ],
-									"patching_rect" : [ 2370.808105, 3801.69751, 117.0, 20.0 ],
+									"patching_rect" : [ 2366.807861, 3801.350586, 117.0, 20.0 ],
 									"saved_object_attributes" : 									{
 										"embed" : 0,
 										"parameter_enable" : 0
@@ -27332,8 +27332,8 @@
 									"data" : 									{
 										"0" : 										{
 											"parameters" : 											{
-												"x_interval" : 5,
-												"y_interval" : 0,
+												"x_interval" : 2,
+												"y_interval" : 5,
 												"pattern_length" : 5
 											}
 ,
@@ -27464,7 +27464,7 @@
 										"1" : 										{
 											"parameters" : 											{
 												"x_interval" : 2,
-												"y_interval" : 5,
+												"y_interval" : 4,
 												"pattern_length" : 8
 											}
 ,
@@ -31946,7 +31946,7 @@
 									"one/row" : 1,
 									"outlettype" : [ "list", "list" ],
 									"parameter_enable" : 0,
-									"patching_rect" : [ 1722.951416, 838.058167, 224.0, 48.0 ],
+									"patching_rect" : [ 1722.951416, 838.058167, 226.0, 18.0 ],
 									"presentation_rect" : [ 45.0, 45.0, 224.0, 48.0 ],
 									"rows" : 1
 								}
@@ -33017,11 +33017,11 @@
 										"pattern_length" : [ 8.0 ],
 										"preset" : [ 0.0 ],
 										"x_interval" : [ 2.0 ],
-										"y_interval" : [ 5.0 ]
+										"y_interval" : [ 4.0 ]
 									}
 ,
 									"text" : "autopattr",
-									"varname" : "u923001147"
+									"varname" : "u943000799"
 								}
 
 							}
@@ -36571,9 +36571,9 @@
 		"lines" : [  ],
 		"parameters" : 		{
 			"obj-2::obj-32" : [ "preset", "preset", 0 ],
-			"obj-2::obj-143" : [ "mode", "mode", 0 ],
-			"obj-2::obj-138" : [ "x_interval", "x_interval", 0 ],
 			"obj-2::obj-145" : [ "mode[1]", "mode", 0 ],
+			"obj-2::obj-138" : [ "x_interval", "x_interval", 0 ],
+			"obj-2::obj-143" : [ "mode", "mode", 0 ],
 			"obj-2::obj-75" : [ "y_interval", "y_interval", 0 ],
 			"obj-2::obj-139" : [ "pattern_length", "pattern_length", 0 ]
 		}
