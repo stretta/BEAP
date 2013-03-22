@@ -8,7 +8,7 @@
 			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 127.0, 180.0, 1383.0, 1159.0 ],
+		"rect" : [ 907.0, 155.0, 1383.0, 1159.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -30,7 +30,7 @@
 		"boxes" : [ 			{
 				"box" : 				{
 					"embed" : 1,
-					"id" : "obj-41",
+					"id" : "obj-2",
 					"maxclass" : "bpatcher",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -43,7 +43,7 @@
 							"architecture" : "x86"
 						}
 ,
-						"rect" : [ 127.0, 180.0, 128.0, 122.0 ],
+						"rect" : [ 907.0, 155.0, 128.0, 122.0 ],
 						"bgcolor" : [ 1.0, 1.0, 1.0, 0.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 1,
@@ -76,15 +76,15 @@
 									"parameter_enable" : 1,
 									"patching_rect" : [ 568.5, 105.0, 15.0, 15.0 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 29.5, 5.0, 9.733376, 9.733376 ],
+									"presentation_rect" : [ 27.5, 4.0, 9.733376, 9.733376 ],
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
-											"parameter_enum" : [ "off", "on" ],
-											"parameter_mmax" : 1.0,
 											"parameter_type" : 2,
 											"parameter_invisible" : 2,
 											"parameter_shortname" : "PitchActivityLED",
-											"parameter_longname" : "PitchActivityLED"
+											"parameter_longname" : "PitchActivityLED[2]",
+											"parameter_enum" : [ "off", "on" ],
+											"parameter_mmax" : 1.0
 										}
 
 									}
@@ -131,11 +131,11 @@
 									"patching_rect" : [ 526.0, 352.0, 59.5, 20.0 ],
 									"restore" : 									{
 										"MIDIPort" : [ "AU DLS Synth 1" ],
-										"PitchActivityLED" : [ 0.0 ]
+										"PitchActivityLED" : [ 1.0 ]
 									}
 ,
 									"text" : "autopattr",
-									"varname" : "u294000696"
+									"varname" : "u296002533"
 								}
 
 							}
@@ -163,7 +163,7 @@
 									"hint" : "MIDI port",
 									"hltcolor" : [ 0.362819, 0.362819, 0.362819, 1.0 ],
 									"id" : "obj-2",
-									"items" : [ "AU DLS Synth 1", ",", "IAC Driver Bus 1", ",", "828mk3 #2 MIDI Port", ",", "VMidi 1", ",", "VMidi 2", ",", "VMidi 3", ",", "VMidi 4", ",", "from Max 1", ",", "from Max 2" ],
+									"items" : [ "AU DLS Synth 1", ",", "IAC Driver Bus 1", ",", "VMidi 1", ",", "VMidi 2", ",", "VMidi 3", ",", "VMidi 4", ",", "from Max 1", ",", "from Max 2" ],
 									"maxclass" : "umenu",
 									"numinlets" : 1,
 									"numoutlets" : 3,
@@ -396,7 +396,7 @@
  ],
 		"lines" : [  ],
 		"parameters" : 		{
-			"obj-41::obj-9" : [ "PitchActivityLED", "PitchActivityLED", 0 ]
+			"obj-2::obj-9" : [ "PitchActivityLED[2]", "PitchActivityLED", 0 ]
 		}
 ,
 		"dependency_cache" : [  ]

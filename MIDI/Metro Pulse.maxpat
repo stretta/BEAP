@@ -85,13 +85,13 @@
 									"presentation_rect" : [ 168.642151, 48.0, 52.0, 15.0 ],
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
-											"parameter_unitstyle" : 5,
-											"parameter_mmax" : 100.0,
 											"parameter_initial" : [ 15.0 ],
 											"parameter_type" : 0,
 											"parameter_initial_enable" : 1,
 											"parameter_shortname" : "swing.amt",
-											"parameter_longname" : "swing.amt[1]"
+											"parameter_longname" : "swing.amt[1]",
+											"parameter_unitstyle" : 5,
+											"parameter_mmax" : 100.0
 										}
 
 									}
@@ -122,13 +122,13 @@
 									"presentation_rect" : [ 109.264206, 67.966904, 111.691216, 22.325319 ],
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
-											"parameter_enum" : [ "1/32", "1/16", "1/8" ],
-											"parameter_unitstyle" : 0,
 											"parameter_initial" : [ 1.0 ],
 											"parameter_type" : 2,
 											"parameter_initial_enable" : 1,
 											"parameter_shortname" : "swing.base",
-											"parameter_longname" : "swing.base"
+											"parameter_longname" : "swing.base",
+											"parameter_enum" : [ "1/32", "1/16", "1/8" ],
+											"parameter_unitstyle" : 0
 										}
 
 									}
@@ -187,14 +187,14 @@
 									"presentation_rect" : [ 109.264206, 46.0, 56.0, 18.0 ],
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
-											"parameter_enum" : [ "off", "on" ],
-											"parameter_mmax" : 1.0,
 											"parameter_initial" : [ 0.0 ],
 											"parameter_type" : 2,
 											"parameter_initial_enable" : 1,
 											"parameter_shortname" : "swing",
 											"parameter_longname" : "swing_switch[1]",
-											"parameter_linknames" : 1
+											"parameter_linknames" : 1,
+											"parameter_enum" : [ "off", "on" ],
+											"parameter_mmax" : 1.0
 										}
 
 									}
@@ -1778,14 +1778,14 @@
 									"presentation_rect" : [ 175.124115, 20.0, 52.0, 14.764645 ],
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
-											"parameter_defer" : 1,
-											"parameter_enum" : [ "val1", "val2" ],
-											"parameter_mmax" : 1.0,
 											"parameter_initial" : [ 0.0 ],
 											"parameter_type" : 2,
 											"parameter_initial_enable" : 1,
 											"parameter_shortname" : "mute",
-											"parameter_longname" : "mute"
+											"parameter_longname" : "mute",
+											"parameter_defer" : 1,
+											"parameter_enum" : [ "val1", "val2" ],
+											"parameter_mmax" : 1.0
 										}
 
 									}
@@ -1821,15 +1821,15 @@
 									"parameter_enable" : 1,
 									"patching_rect" : [ 540.5, 413.0, 15.0, 15.0 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 4.0, 72.292229, 15.0, 15.0 ],
+									"presentation_rect" : [ 27.134384, 100.0, 9.341643, 9.341643 ],
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
-											"parameter_enum" : [ "off", "on" ],
-											"parameter_mmax" : 1.0,
 											"parameter_type" : 2,
 											"parameter_invisible" : 2,
 											"parameter_shortname" : "led",
-											"parameter_longname" : "led"
+											"parameter_longname" : "led",
+											"parameter_enum" : [ "off", "on" ],
+											"parameter_mmax" : 1.0
 										}
 
 									}
@@ -1853,13 +1853,13 @@
 									"presentation_rect" : [ 3.0, 46.792229, 17.0, 18.0 ],
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
-											"parameter_enum" : [ "off", "on" ],
-											"parameter_mmax" : 1.0,
 											"parameter_initial" : [ 1 ],
 											"parameter_type" : 2,
 											"parameter_initial_enable" : 1,
 											"parameter_shortname" : "live.toggle",
-											"parameter_longname" : "live.toggle"
+											"parameter_longname" : "live.toggle",
+											"parameter_enum" : [ "off", "on" ],
+											"parameter_mmax" : 1.0
 										}
 
 									}
@@ -1920,14 +1920,14 @@
 										"Pulse" : [ "16n" ],
 										"led" : [ 0.0 ],
 										"live.numbox[1]" : [ 15.0 ],
-										"live.toggle" : [ 0.0 ],
+										"live.toggle" : [ 1.0 ],
 										"mute" : [ 0.0 ],
 										"swing_switch[1]" : [ 0.0 ],
 										"swingbase" : [ 0.0 ]
 									}
 ,
 									"text" : "autopattr",
-									"varname" : "u569001693"
+									"varname" : "u140002649"
 								}
 
 							}
@@ -1942,7 +1942,7 @@
 									"numoutlets" : 0,
 									"patching_rect" : [ 352.099976, 220.0, 37.0, 17.0 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 2.0, 97.0, 41.0, 17.0 ],
+									"presentation_rect" : [ 2.0, 97.0, 29.0, 17.0 ],
 									"text" : "MIDI",
 									"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 								}
@@ -2204,12 +2204,12 @@
  ],
 		"lines" : [  ],
 		"parameters" : 		{
-			"obj-18::obj-34" : [ "Pulse", "Pulse", 0 ],
 			"obj-18::obj-477" : [ "swing.base", "swing.base", 0 ],
 			"obj-18::obj-478" : [ "swing_switch[1]", "swing", 0 ],
-			"obj-18::obj-20" : [ "live.toggle", "live.toggle", 0 ],
 			"obj-18::obj-29" : [ "mute", "mute", 0 ],
+			"obj-18::obj-20" : [ "live.toggle", "live.toggle", 0 ],
 			"obj-18::obj-476" : [ "swing.amt[1]", "swing.amt", 0 ],
+			"obj-18::obj-34" : [ "Pulse", "Pulse", 0 ],
 			"obj-18::obj-27" : [ "led", "led", 0 ]
 		}
 ,
