@@ -8,7 +8,7 @@
 			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 1218.0, 221.0, 1140.0, 1042.0 ],
+		"rect" : [ 946.0, 380.0, 1140.0, 1042.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -43,7 +43,7 @@
 							"architecture" : "x86"
 						}
 ,
-						"rect" : [ 1218.0, 221.0, 54.0, 122.0 ],
+						"rect" : [ 946.0, 380.0, 54.0, 122.0 ],
 						"bgcolor" : [ 1.0, 1.0, 1.0, 0.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 1,
@@ -96,12 +96,23 @@
 									"numinlets" : 1,
 									"numoutlets" : 2,
 									"outlettype" : [ "int", "bang" ],
-									"parameter_enable" : 0,
+									"parameter_enable" : 1,
 									"patching_rect" : [ 782.0, 272.0, 62.0, 29.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 6.5, 49.166325, 41.5, 29.0 ],
+									"saved_attribute_attributes" : 									{
+										"valueof" : 										{
+											"parameter_shortname" : "number",
+											"parameter_longname" : "number",
+											"parameter_type" : 3,
+											"parameter_invisible" : 1
+										}
+
+									}
+,
 									"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
-									"tricolor" : [ 1.0, 1.0, 1.0, 0.0 ]
+									"tricolor" : [ 1.0, 1.0, 1.0, 0.0 ],
+									"varname" : "number"
 								}
 
 							}
@@ -206,14 +217,14 @@
 									"presentation_rect" : [ 2.975494, 79.892792, 45.024506, 14.764645 ],
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
-											"parameter_mmax" : 1.0,
-											"parameter_initial" : [ 0.0 ],
-											"parameter_type" : 2,
-											"parameter_initial_enable" : 1,
 											"parameter_shortname" : "power",
 											"parameter_longname" : "power",
 											"parameter_defer" : 1,
-											"parameter_enum" : [ "val1", "val2" ]
+											"parameter_enum" : [ "val1", "val2" ],
+											"parameter_mmax" : 1.0,
+											"parameter_initial" : [ 0.0 ],
+											"parameter_type" : 2,
+											"parameter_initial_enable" : 1
 										}
 
 									}
@@ -264,11 +275,12 @@
 									"outlettype" : [ "", "", "", "" ],
 									"patching_rect" : [ 1232.0, 651.0, 59.5, 20.0 ],
 									"restore" : 									{
+										"number" : [ 1 ],
 										"power" : [ 0.0 ]
 									}
 ,
 									"text" : "autopattr",
-									"varname" : "u421002907"
+									"varname" : "u754001180"
 								}
 
 							}
@@ -486,7 +498,8 @@
  ],
 		"lines" : [  ],
 		"parameters" : 		{
-			"obj-9::obj-25" : [ "power", "power", 0 ]
+			"obj-9::obj-25" : [ "power", "power", 0 ],
+			"obj-9::obj-27" : [ "number", "number", 0 ]
 		}
 ,
 		"dependency_cache" : [  ]
