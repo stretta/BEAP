@@ -5,7 +5,7 @@
 			"major" : 6,
 			"minor" : 1,
 			"revision" : 0,
-			"architecture" : "x64"
+			"architecture" : "x86"
 		}
 ,
 		"rect" : [ 224.0, 44.0, 1000.0, 699.0 ],
@@ -41,7 +41,7 @@
 							"major" : 6,
 							"minor" : 1,
 							"revision" : 0,
-							"architecture" : "x64"
+							"architecture" : "x86"
 						}
 ,
 						"rect" : [ 224.0, 44.0, 108.0, 119.0 ],
@@ -66,6 +66,74 @@
 						"tags" : "",
 						"boxes" : [ 							{
 								"box" : 								{
+									"fontname" : "Arial",
+									"fontsize" : 12.0,
+									"id" : "obj-2",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 998.5, 631.0, 74.0, 20.0 ],
+									"text" : "prepend set"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"fontname" : "Arial",
+									"fontsize" : 12.0,
+									"id" : "obj-1",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 3,
+									"outlettype" : [ "", "", "" ],
+									"patching_rect" : [ 998.5, 592.0, 85.0, 20.0 ],
+									"restore" : [ 0 ],
+									"saved_object_attributes" : 									{
+										"parameter_enable" : 0
+									}
+,
+									"text" : "pattr pruginno",
+									"varname" : "pruginno"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"fontname" : "Arial",
+									"fontsize" : 12.0,
+									"id" : "obj-6",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 1,
+									"outlettype" : [ "bang" ],
+									"patching_rect" : [ 970.0, 523.883911, 60.0, 20.0 ],
+									"text" : "loadbang"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"fontname" : "Arial",
+									"fontsize" : 12.0,
+									"id" : "obj-4",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 3,
+									"outlettype" : [ "", "", "" ],
+									"patching_rect" : [ 885.5, 631.0, 71.0, 20.0 ],
+									"restore" : [ 0 ],
+									"saved_object_attributes" : 									{
+										"parameter_enable" : 0
+									}
+,
+									"text" : "pattr prugin",
+									"varname" : "prugin"
+								}
+
+							}
+, 							{
+								"box" : 								{
 									"align" : 1,
 									"arrow" : 0,
 									"arrowframe" : 0,
@@ -77,7 +145,7 @@
 									"framecolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"hltcolor" : [ 0.0, 0.870117, 0.103208, 1.0 ],
 									"id" : "obj-20",
-									"items" : [ "no plug-in", ",", "Absynth 5 FX Surround.vst", ",", "Absynth 5 FX.vst", ",", "Absynth 5 Stereo.vst", ",", "Absynth 5.vst", ",", "Battery 3.vst", ",", "FM8 FX.vst", ",", "FM8.vst", ",", "Guitar Rig 5.vst", ",", "iZotope Ozone 4.vst", ",", "Kontakt 5 16out.vst", ",", "Kontakt 5 8out.vst", ",", "Kontakt 5.vst", ",", "Massive.vst", ",", "Modular V Efx.vst", ",", "Modular V.vst", ",", "Reaktor5 FX 2x8.vst", ",", "Reaktor5 FX.vst", ",", "Reaktor5 Surround.vst", ",", "Reaktor5.vst", ",", "914.vst", ",", "ADverb.vst", ",", "Automaton.vst", ",", "Axon.vst", ",", "BigSeq.vst", ",", "BigSeq2.vst", ",", "Bitcom.vst", ",", "Discord2.vst", ",", "Discord3.vst", ",", "DrDevice.vst", ",", "DubStation_15.vst", ",", "Eos.vst", ",", "Filterstation.vst", ",", "Fluid.vst", ",", "Kombinat.vst", ",", "Kombinat_Dva.vst", ",", "Liquid.vst", ",", "Panstation.vst", ",", "PhaseTwo.vst", ",", "Phosphor.vst", ",", "Replicant.vst", ",", "Ricochet.vst", ",", "RoughRiderPro.vst", ",", "Tattoo.vst", ",", "Vapor.vst", ",", "914.auinfo", ",", "Absynth 5 FX.auinfo", ",", "Absynth 5.auinfo", ",", "ADverb.auinfo", ",", "AUAudioFilePlayer.auinfo", ",", "AUBandpass.auinfo", ",", "AUDelay.auinfo", ",", "AUDistortion.auinfo", ",", "AUDynamicsProcessor.auinfo", ",", "AUFilter.auinfo", ",", "AUGraphicEQ.auinfo", ",", "AUHighShelfFilter.auinfo", ",", "AUHipass.auinfo", ",", "AULowpass.auinfo", ",", "AULowShelfFilter.auinfo", ",", "AUMatrixMixer.auinfo", ",", "AUMatrixReverb.auinfo", ",", "AUMixer.auinfo", ",", "AUMixer3D.auinfo", ",", "AUMultibandCompressor.auinfo", ",", "AUMultiChannelMixer.auinfo", ",", "AUNetReceive.auinfo", ",", "AUNetSend.auinfo", ",", "AUParametricEQ.auinfo", ",", "AUPeakLimiter.auinfo", ",", "AUPitch.auinfo", ",", "AURogerBeep.auinfo", ",", "AUSampleDelay.auinfo", ",", "AUSampler.auinfo", ",", "AUScheduledSoundPlayer.auinfo", ",", "AUSoundFieldPanner.auinfo", ",", "AUSphericalHeadPanner.auinfo", ",", "Automaton.auinfo", ",", "AUVectorPanner.auinfo", ",", "Axon.auinfo", ",", "Battery 3.auinfo", ",", "BigSeq2.auinfo", ",", "Bitcom.auinfo", ",", "Discord3.auinfo", ",", "DLSMusicDevice.auinfo", ",", "Dr. Device.auinfo", ",", "DubStation 1.5.auinfo", ",", "Eos.auinfo", ",", "Filterstation.auinfo", ",", "Fluid.auinfo", ",", "FM8 FX.auinfo", ",", "FM8.auinfo", ",", "Guitar Rig 5 FX.auinfo", ",", "Guitar Rig 5 MFX.auinfo", ",", "HRTFPanner.auinfo", ",", "Kombinat_Dva.auinfo", ",", "Kontakt 5.auinfo", ",", "Liquid.auinfo", ",", "Massive.auinfo", ",", "Modular V effect.auinfo", ",", "Modular V.auinfo", ",", "Ozone 4.auinfo", ",", "Panstation.auinfo", ",", "PhaseTwo.auinfo", ",", "Phosphor.auinfo", ",", "Reaktor5 FX.auinfo", ",", "Reaktor5.auinfo", ",", "Replicant.auinfo", ",", "Ricochet.auinfo", ",", "RoughRiderPro.auinfo", ",", "RoundTripAAC.auinfo", ",", "Tattoo.auinfo", ",", "Vapor.auinfo" ],
+									"items" : [ "no plug-in", ",", "Absynth 4 FX 2x8.vst", ",", "Absynth 4 FX.vst", ",", "Absynth 4 Stereo.vst", ",", "Absynth 4 Surround.vst", ",", "Absynth 4.vst", ",", "Battery 3.vst", ",", "BIAS Freq-4.vst", ",", "BIAS Sqweez 1.1.vst", ",", "BIAS Sqweez-1.vst", ",", "BIAS Vbox 2.5.vst", ",", "BIAS Vbox 3.0.vst", ",", "BPM.vst", ",", "BPMSampler.vst", ",", "CircleVST.vst", ",", "Effectrix.vst", ",", "FM8 FX.vst", ",", "FM8.vst", ",", "iZotope Ozone 4.vst", ",", "Kore FX.vst", ",", "Kore.vst", ",", "MachFive3.vst", ",", "Massive.vst", ",", "Modular V Efx.vst", ",", "Modular V.vst", ",", "MOTU Ethno Instrument.vst", ",", "Pro-53 FX.vst", ",", "Pro-53.vst", ",", "Reaktor5 FX 2x8.vst", ",", "Reaktor5 FX.vst", ",", "Reaktor5 Surround.vst", ",", "Reaktor5.vst", ",", "UVIWorkstationVST.vst", ",", "ValhallaUberMod.vst", ",", "ValhallaUberMod_x64.vst", ",", "914.vst", ",", "ADverb.vst", ",", "Automaton.vst", ",", "Axon.vst", ",", "BigSeq.vst", ",", "BigSeq2.vst", ",", "Discord3.vst", ",", "DrDevice.vst", ",", "DubStation_15.vst", ",", "Eos.vst", ",", "Filterstation.vst", ",", "Kombinat_Dva.vst", ",", "Panstation.vst", ",", "PhaseTwo.vst", ",", "Phosphor.vst", ",", "Replicant.vst", ",", "RoughRiderPro.vst", ",", "Tattoo.vst", ",", "MachFive2 VST 5.1.vst", ",", "MachFive2 VST 7.1.vst", ",", "MachFive2 VST Quad.vst", ",", "MachFive2 VST.vst", ",", "mda Ambience.vst", ",", "mda Bandisto.vst", ",", "mda BeatBox.vst", ",", "mda Combo.vst", ",", "mda De-ess.vst", ",", "mda Degrade.vst", ",", "mda Delay.vst", ",", "mda Detune.vst", ",", "mda Dither.vst", ",", "mda DubDelay.vst", ",", "mda Dynamics.vst", ",", "mda Image.vst", ",", "mda Leslie.vst", ",", "mda Limiter.vst", ",", "mda Loudness.vst", ",", "mda MultiBand.vst", ",", "mda Overdrive.vst", ",", "mda RePsycho!.vst", ",", "mda RezFilter.vst", ",", "mda RingMod.vst", ",", "mda RoundPan.vst", ",", "mda Shepard.vst", ",", "mda Splitter.vst", ",", "mda Stereo.vst", ",", "mda SubBass.vst", ",", "mda Talkbox.vst", ",", "mda TestTone.vst", ",", "mda ThruZero.vst", ",", "mda Tracker.vst", ",", "mda VocInput.vst", ",", "mda Vocoder.vst", ",", "914.auinfo", ",", "Absynth 4 FX.auinfo", ",", "Absynth 4.auinfo", ",", "ADverb.auinfo", ",", "AUAudioFilePlayer.auinfo", ",", "AUBandpass.auinfo", ",", "AUDelay.auinfo", ",", "AUDistortion.auinfo", ",", "AUDynamicsProcessor.auinfo", ",", "AUFilter.auinfo", ",", "AUGraphicEQ.auinfo", ",", "AUHighShelfFilter.auinfo", ",", "AUHipass.auinfo", ",", "AULowpass.auinfo", ",", "AULowShelfFilter.auinfo", ",", "AUMatrixMixer.auinfo", ",", "AUMatrixReverb.auinfo", ",", "AUMixer.auinfo", ",", "AUMixer3D.auinfo", ",", "AUMultibandCompressor.auinfo", ",", "AUMultiChannelMixer.auinfo", ",", "AUNetReceive.auinfo", ",", "AUNetSend.auinfo", ",", "AUParametricEQ.auinfo", ",", "AUPeakLimiter.auinfo", ",", "AUPitch.auinfo", ",", "AURogerBeep.auinfo", ",", "AUSampleDelay.auinfo", ",", "AUSampler.auinfo", ",", "AUScheduledSoundPlayer.auinfo", ",", "AUSoundFieldPanner.auinfo", ",", "AUSphericalHeadPanner.auinfo", ",", "Automaton.auinfo", ",", "AUVectorPanner.auinfo", ",", "Axon.auinfo", ",", "Battery 3.auinfo", ",", "BigSeq.auinfo", ",", "BigSeq2.auinfo", ",", "BPM.auinfo", ",", "BPMSampler.auinfo", ",", "Circle.auinfo", ",", "Comb Filter Bank.auinfo", ",", "Discord3.auinfo", ",", "DLSMusicDevice.auinfo", ",", "Dr. Device.auinfo", ",", "DubStation 1.5.auinfo", ",", "Effectrix.auinfo", ",", "Eos.auinfo", ",", "Ethno.auinfo", ",", "Filterstation.auinfo", ",", "FM8 FX.auinfo", ",", "FM8.auinfo", ",", "Freeverb3.auinfo", ",", "Grain Streamer.auinfo", ",", "Harmony EFX.auinfo", ",", "HRTFPanner.auinfo", ",", "Kombinat_Dva.auinfo", ",", "Kore FX.auinfo", ",", "Kore.auinfo", ",", "MachFive2.auinfo", ",", "MachFive3.auinfo", ",", "Massive.auinfo", ",", "Modular V effect.auinfo", ",", "Modular V.auinfo", ",", "Mr Filterbank.auinfo", ",", "MX4.auinfo", ",", "Ozone 4.auinfo", ",", "Panstation.auinfo", ",", "Phase Two.auinfo", ",", "Phosphor.auinfo", ",", "Reaktor5 FX.auinfo", ",", "Reaktor5.auinfo", ",", "Replicant.auinfo", ",", "RoughRiderPro.auinfo", ",", "RoundTripAAC.auinfo", ",", "Spectral Averaging.auinfo", ",", "Spectral Bin Shift.auinfo", ",", "Spectral Blurring.auinfo", ",", "Spectral DroneMaker.auinfo", ",", "Spectral Emergence.auinfo", ",", "Spectral Filterbank.auinfo", ",", "Spectral Freezing.auinfo", ",", "Spectral Gate & Hold.auinfo", ",", "Spectral Gliding Filters.auinfo", ",", "Spectral Granulation.auinfo", ",", "Spectral Harmonizer.auinfo", ",", "Spectral Partial Glide.auinfo", ",", "Spectral Pitch Shift.auinfo", ",", "Spectral Pulsing.auinfo", ",", "Spectral Shimmer.auinfo", ",", "Spectral Shuffle.auinfo", ",", "Spectral Stretch.auinfo", ",", "Spectral Tracing.auinfo", ",", "Tattoo.auinfo", ",", "UVIWorkstation.auinfo", ",", "ValhallaFreqEchoMkI.auinfo", ",", "ValhallaShimmer.auinfo", ",", "ValhallaUberMod.auinfo", ",", "ValhallaVintageVerb.auinfo", ",", "Volta.auinfo" ],
 									"maxclass" : "umenu",
 									"numinlets" : 1,
 									"numoutlets" : 3,
@@ -237,13 +305,13 @@
 									"presentation_rect" : [ 49.134384, 19.0, 52.0, 14.764645 ],
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
+											"parameter_defer" : 1,
+											"parameter_enum" : [ "val1", "val2" ],
 											"parameter_mmax" : 1.0,
 											"parameter_initial" : [ 0.0 ],
-											"parameter_defer" : 1,
 											"parameter_type" : 2,
 											"parameter_initial_enable" : 1,
 											"parameter_shortname" : "mute",
-											"parameter_enum" : [ "val1", "val2" ],
 											"parameter_longname" : "mute"
 										}
 
@@ -272,11 +340,11 @@
 									"presentation_rect" : [ 30.134384, 3.0, 9.277222, 9.795346 ],
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
+											"parameter_enum" : [ "off", "on" ],
 											"parameter_mmax" : 1.0,
 											"parameter_type" : 2,
 											"parameter_invisible" : 2,
 											"parameter_shortname" : "PitchActivityLED",
-											"parameter_enum" : [ "off", "on" ],
 											"parameter_longname" : "PitchActivityLED[6]"
 										}
 
@@ -316,7 +384,7 @@
 									}
 ,
 									"text" : "autopattr",
-									"varname" : "u376007010"
+									"varname" : "u372000571"
 								}
 
 							}
@@ -357,11 +425,11 @@
 									"presentation_rect" : [ 9.0, 72.379929, 90.634384, 14.764645 ],
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
+											"parameter_enum" : [ "val1", "val2" ],
 											"parameter_mmax" : 1.0,
 											"parameter_initial" : [ 0.0 ],
 											"parameter_type" : 2,
 											"parameter_shortname" : "open",
-											"parameter_enum" : [ "val1", "val2" ],
 											"parameter_longname" : "open"
 										}
 
@@ -392,11 +460,11 @@
 									"patching_rect" : [ 337.25, 446.530029, 70.0, 18.0 ],
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
+											"parameter_enum" : [ "val1", "val2" ],
 											"parameter_mmax" : 1.0,
 											"parameter_initial" : [ 0.0 ],
 											"parameter_type" : 2,
 											"parameter_shortname" : "choose",
-											"parameter_enum" : [ "val1", "val2" ],
 											"parameter_longname" : "choose"
 										}
 
@@ -596,6 +664,15 @@
  ],
 						"lines" : [ 							{
 								"patchline" : 								{
+									"destination" : [ "obj-2", 0 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-1", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
 									"destination" : [ "obj-5", 0 ],
 									"disabled" : 0,
 									"hidden" : 0,
@@ -618,6 +695,34 @@
 									"disabled" : 0,
 									"hidden" : 0,
 									"source" : [ "obj-17", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-20", 0 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"midpoints" : [ 1008.0, 660.0, 1142.25, 660.0, 1142.25, 490.0, 846.5, 490.0 ],
+									"source" : [ "obj-2", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-1", 0 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-20", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-4", 0 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-20", 1 ]
 								}
 
 							}
@@ -672,6 +777,15 @@
 									"disabled" : 0,
 									"hidden" : 0,
 									"source" : [ "obj-3", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-5", 0 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-4", 0 ]
 								}
 
 							}
@@ -749,6 +863,24 @@
 							}
 , 							{
 								"patchline" : 								{
+									"destination" : [ "obj-1", 0 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-6", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-4", 0 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-6", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
 									"destination" : [ "obj-9", 0 ],
 									"disabled" : 0,
 									"hidden" : 0,
@@ -776,10 +908,10 @@
  ],
 		"lines" : [  ],
 		"parameters" : 		{
-			"obj-10::obj-24" : [ "mute", "mute", 0 ],
+			"obj-10::obj-28" : [ "open", "open", 0 ],
 			"obj-10::obj-39" : [ "PitchActivityLED[6]", "PitchActivityLED", 0 ],
-			"obj-10::obj-27" : [ "choose", "choose", 0 ],
-			"obj-10::obj-28" : [ "open", "open", 0 ]
+			"obj-10::obj-24" : [ "mute", "mute", 0 ],
+			"obj-10::obj-27" : [ "choose", "choose", 0 ]
 		}
 ,
 		"dependency_cache" : [ 			{
