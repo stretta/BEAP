@@ -4,11 +4,11 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 1,
-			"revision" : 0,
+			"revision" : 2,
 			"architecture" : "x64"
 		}
 ,
-		"rect" : [ 526.0, 106.0, 1440.0, 758.0 ],
+		"rect" : [ 0.0, 44.0, 1440.0, 761.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -40,11 +40,11 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 0,
+							"revision" : 2,
 							"architecture" : "x64"
 						}
 ,
-						"rect" : [ 527.0, 106.0, 311.0, 116.0 ],
+						"rect" : [ 1.0, 44.0, 311.0, 116.0 ],
 						"bgcolor" : [ 1.0, 1.0, 1.0, 0.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 1,
@@ -170,11 +170,13 @@
 									"presentation_rect" : [ 110.0, 78.0, 46.826775, 15.0 ],
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
+											"parameter_shortname" : "Linear",
 											"parameter_longname" : "Linear",
 											"parameter_unitstyle" : 5,
 											"parameter_mmax" : 100.0,
+											"parameter_initial" : [ 0.0 ],
 											"parameter_type" : 0,
-											"parameter_shortname" : "Linear"
+											"parameter_initial_enable" : 1
 										}
 
 									}
@@ -199,11 +201,13 @@
 									"presentation_rect" : [ 110.0, 60.0, 46.826775, 15.0 ],
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
+											"parameter_shortname" : "CV3",
 											"parameter_longname" : "CV3",
 											"parameter_unitstyle" : 5,
 											"parameter_mmax" : 100.0,
+											"parameter_initial" : [ 0.0 ],
 											"parameter_type" : 0,
-											"parameter_shortname" : "CV3"
+											"parameter_initial_enable" : 1
 										}
 
 									}
@@ -228,11 +232,13 @@
 									"presentation_rect" : [ 110.0, 42.0, 46.826775, 15.0 ],
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
+											"parameter_shortname" : "CV2",
 											"parameter_longname" : "CV2",
 											"parameter_unitstyle" : 5,
 											"parameter_mmax" : 100.0,
+											"parameter_initial" : [ 0.0 ],
 											"parameter_type" : 0,
-											"parameter_shortname" : "CV2"
+											"parameter_initial_enable" : 1
 										}
 
 									}
@@ -289,7 +295,7 @@
 							}
 , 							{
 								"box" : 								{
-									"comment" : "Linear FM input. Used for frequency modulation.",
+									"comment" : "Linear FM input. Used for frequency modulation. 0% = zero modulation.",
 									"hint" : "",
 									"id" : "obj-77",
 									"maxclass" : "inlet",
@@ -433,16 +439,16 @@
 									"prototypename" : "freq",
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
+											"parameter_shortname" : "Freq",
+											"parameter_annotation_name" : "Freq",
+											"parameter_exponent" : 4.0,
 											"parameter_longname" : "Freq",
 											"parameter_unitstyle" : 3,
 											"parameter_mmax" : 20000.0,
 											"parameter_initial" : [ 0.6 ],
 											"parameter_type" : 0,
 											"parameter_initial_enable" : 1,
-											"parameter_speedlim" : 0.0,
-											"parameter_shortname" : "Freq",
-											"parameter_annotation_name" : "Freq",
-											"parameter_exponent" : 4.0
+											"parameter_speedlim" : 0.0
 										}
 
 									}
@@ -466,7 +472,7 @@
 										"appversion" : 										{
 											"major" : 6,
 											"minor" : 1,
-											"revision" : 0,
+											"revision" : 2,
 											"architecture" : "x64"
 										}
 ,
@@ -987,16 +993,15 @@
 									"presentation_rect" : [ 45.0, 41.221527, 33.0, 15.0 ],
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
+											"parameter_shortname" : "FreqMode",
+											"parameter_annotation_name" : "FreqMode",
+											"parameter_enum" : [ "Freq", "Semitone" ],
 											"parameter_longname" : "FreqMode",
 											"parameter_mmax" : 1.0,
 											"parameter_initial" : [ 1 ],
-											"parameter_order" : 1,
 											"parameter_type" : 2,
 											"parameter_initial_enable" : 1,
-											"parameter_speedlim" : 0.0,
-											"parameter_shortname" : "FreqMode",
-											"parameter_annotation_name" : "FreqMode",
-											"parameter_enum" : [ "Freq", "Semitone" ]
+											"parameter_speedlim" : 0.0
 										}
 
 									}
@@ -1028,15 +1033,15 @@
 									"prototypename" : "freq",
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
-											"parameter_longname" : "Offset[2]",
+											"parameter_shortname" : "Offset",
+											"parameter_longname" : "Offset",
 											"parameter_unitstyle" : 1,
 											"parameter_mmax" : 64.0,
 											"parameter_mmin" : -64.0,
 											"parameter_initial" : [ 0 ],
 											"parameter_type" : 0,
 											"parameter_initial_enable" : 1,
-											"parameter_speedlim" : 0.0,
-											"parameter_shortname" : "Offset"
+											"parameter_speedlim" : 0.0
 										}
 
 									}
@@ -1113,7 +1118,7 @@
 							}
 , 							{
 								"box" : 								{
-									"comment" : "CV3: pitch modulation input. This input has a built-in attenuator (CV3). At 100%, this will track 1v/oct.",
+									"comment" : "CV3: pitch modulation input. This input has a built-in attenuator (CV3). At 100%, this will track 1v/oct. At 0%, no modulation will occur, even if something is connected at the CV3 input.",
 									"hint" : "",
 									"id" : "obj-95",
 									"maxclass" : "inlet",
@@ -1238,7 +1243,7 @@
 							}
 , 							{
 								"box" : 								{
-									"comment" : "CV2: pitch modulation input. This input has a built-in attenuator (CV2). At 100%, this will track 1v/oct.",
+									"comment" : "CV2: pitch modulation input. This input has a built-in attenuator (CV2). At 100%, this will track 1v/oct. At 0%, no modulation will occur, even if something is connected to the CV2 input.",
 									"hint" : "",
 									"id" : "obj-65",
 									"maxclass" : "inlet",
@@ -1496,14 +1501,13 @@
 									"presentation_rect" : [ 252.025818, 19.0, 52.0, 14.764645 ],
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
-											"parameter_longname" : "Mute[5]",
+											"parameter_shortname" : "Mute",
+											"parameter_enum" : [ "val1", "val2" ],
+											"parameter_longname" : "Mute",
 											"parameter_mmax" : 1.0,
 											"parameter_initial" : [ 0.0 ],
-											"parameter_defer" : 1,
 											"parameter_type" : 2,
-											"parameter_initial_enable" : 1,
-											"parameter_shortname" : "Mute",
-											"parameter_enum" : [ "val1", "val2" ]
+											"parameter_initial_enable" : 1
 										}
 
 									}
@@ -1531,13 +1535,13 @@
 									"presentation_rect" : [ 260.648956, 43.221527, 44.0, 47.0 ],
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
+											"parameter_shortname" : "PWM",
 											"parameter_longname" : "PWM",
 											"parameter_unitstyle" : 5,
 											"parameter_mmax" : 100.0,
 											"parameter_initial" : [ 0.0 ],
 											"parameter_type" : 0,
-											"parameter_initial_enable" : 1,
-											"parameter_shortname" : "PWM"
+											"parameter_initial_enable" : 1
 										}
 
 									}
@@ -1563,13 +1567,13 @@
 									"presentation_rect" : [ 217.927765, 43.221527, 44.0, 47.0 ],
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
+											"parameter_shortname" : "PW",
 											"parameter_longname" : "PW",
 											"parameter_unitstyle" : 5,
 											"parameter_mmax" : 100.0,
 											"parameter_initial" : [ 50 ],
 											"parameter_type" : 0,
-											"parameter_initial_enable" : 1,
-											"parameter_shortname" : "PW"
+											"parameter_initial_enable" : 1
 										}
 
 									}
@@ -1600,15 +1604,14 @@
 									"presentation_rect" : [ 163.286697, 48.221527, 54.919865, 39.0 ],
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
+											"parameter_shortname" : "Waveform",
+											"parameter_enum" : [ "sine", "tri", "saw", "square" ],
 											"parameter_longname" : "Waveform",
 											"parameter_unitstyle" : 0,
-											"parameter_linknames" : 1,
 											"parameter_initial" : [ 0.0 ],
 											"parameter_type" : 2,
 											"parameter_initial_enable" : 1,
-											"parameter_speedlim" : 0.0,
-											"parameter_shortname" : "Waveform",
-											"parameter_enum" : [ "sine", "tri", "saw", "square" ]
+											"parameter_speedlim" : 0.0
 										}
 
 									}
@@ -1664,7 +1667,7 @@
 									"patching_rect" : [ 243.620804, 460.026947, 38.0, 17.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 2.0, 97.0, 38.0, 17.0 ],
-									"text" : "Output",
+									"text" : "Signal",
 									"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 								}
 
@@ -1711,7 +1714,7 @@
 									}
 ,
 									"text" : "autopattr",
-									"varname" : "u231000820"
+									"varname" : "u267002296"
 								}
 
 							}
@@ -2010,7 +2013,7 @@
 							}
 , 							{
 								"box" : 								{
-									"comment" : "",
+									"comment" : "Signal output. ",
 									"id" : "obj-50",
 									"maxclass" : "outlet",
 									"numinlets" : 1,
@@ -2772,16 +2775,16 @@
  ],
 		"lines" : [  ],
 		"parameters" : 		{
-			"obj-17::obj-51" : [ "Freq", "Freq", 0 ],
-			"obj-17::obj-11" : [ "PWM", "PWM", 0 ],
-			"obj-17::obj-129" : [ "CV2", "CV2", 0 ],
-			"obj-17::obj-46" : [ "Offset[2]", "Offset", 0 ],
-			"obj-17::obj-45" : [ "FreqMode", "FreqMode", 1 ],
-			"obj-17::obj-4" : [ "Waveform", "Waveform", 0 ],
 			"obj-17::obj-106" : [ "CV3", "CV3", 0 ],
+			"obj-17::obj-53" : [ "Mute", "Mute", 0 ],
+			"obj-17::obj-45" : [ "FreqMode", "FreqMode", 0 ],
+			"obj-17::obj-46" : [ "Offset", "Offset", 0 ],
 			"obj-17::obj-36" : [ "PW", "PW", 0 ],
-			"obj-17::obj-53" : [ "Mute[5]", "Mute", 0 ],
-			"obj-17::obj-107" : [ "Linear", "Linear", 0 ]
+			"obj-17::obj-129" : [ "CV2", "CV2", 0 ],
+			"obj-17::obj-107" : [ "Linear", "Linear", 0 ],
+			"obj-17::obj-51" : [ "Freq", "Freq", 0 ],
+			"obj-17::obj-4" : [ "Waveform", "Waveform", 0 ],
+			"obj-17::obj-11" : [ "PWM", "PWM", 0 ]
 		}
 ,
 		"dependency_cache" : [ 			{
