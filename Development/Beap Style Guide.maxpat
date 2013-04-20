@@ -4,11 +4,11 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 1,
-			"revision" : 0,
+			"revision" : 2,
 			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 0.0, 44.0, 1487.0, 892.0 ],
+		"rect" : [ 0.0, 44.0, 1440.0, 761.0 ],
 		"bgcolor" : [ 0.497188, 0.497188, 0.497188, 1.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
@@ -1802,7 +1802,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 0,
+							"revision" : 2,
 							"architecture" : "x86"
 						}
 ,
@@ -1843,7 +1843,7 @@
 									}
 ,
 									"text" : "autopattr",
-									"varname" : "u113000705"
+									"varname" : "u151001005"
 								}
 
 							}
@@ -3078,15 +3078,15 @@
 			}
  ],
 		"parameters" : 		{
-			"obj-122" : [ "DecayCV[1]", "DecayCV", 0 ],
-			"obj-1" : [ "bypass", "bypass", 0 ],
-			"obj-10::obj-28" : [ "Attack", "Attack", 0 ],
-			"obj-10::obj-129" : [ "SampleStart", "SampleStart", 0 ],
-			"obj-101" : [ "CV1", "CV1", 0 ],
-			"obj-70" : [ "cv[1]", "cv", 0 ],
-			"obj-20" : [ "mute", "mute", 0 ],
 			"obj-25" : [ "cv", "cv", 0 ],
-			"obj-10::obj-12" : [ "Mute", "Mute", 0 ]
+			"obj-10::obj-12" : [ "Mute", "Mute", 0 ],
+			"obj-20" : [ "mute", "mute", 0 ],
+			"obj-70" : [ "cv[1]", "cv", 0 ],
+			"obj-101" : [ "CV1", "CV1", 0 ],
+			"obj-10::obj-28" : [ "Attack", "Attack", 0 ],
+			"obj-1" : [ "bypass", "bypass", 0 ],
+			"obj-122" : [ "DecayCV[1]", "DecayCV", 0 ],
+			"obj-10::obj-129" : [ "SampleStart", "SampleStart", 0 ]
 		}
 ,
 		"dependency_cache" : [  ]
