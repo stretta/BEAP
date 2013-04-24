@@ -4,11 +4,11 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 1,
-			"revision" : 0,
+			"revision" : 3,
 			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 25.0, 69.0, 1660.0, 1132.0 ],
+		"rect" : [ 0.0, 44.0, 1440.0, 761.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -40,11 +40,11 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 0,
+							"revision" : 3,
 							"architecture" : "x86"
 						}
 ,
-						"rect" : [ 25.0, 69.0, 378.0, 116.0 ],
+						"rect" : [ 0.0, 44.0, 378.0, 116.0 ],
 						"bgcolor" : [ 1.0, 1.0, 1.0, 0.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 1,
@@ -65,6 +65,27 @@
 						"digest" : "",
 						"tags" : "",
 						"boxes" : [ 							{
+								"box" : 								{
+									"fontname" : "Arial",
+									"fontsize" : 12.0,
+									"id" : "obj-11",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 4,
+									"outlettype" : [ "", "", "", "" ],
+									"patching_rect" : [ 692.068909, 214.0, 59.5, 20.0 ],
+									"restore" : 									{
+										"Octaves" : [ 1.0 ],
+										"Root" : [ 24.0 ],
+										"mute" : [ 0.0 ]
+									}
+,
+									"text" : "autopattr",
+									"varname" : "u318000828"
+								}
+
+							}
+, 							{
 								"box" : 								{
 									"fontname" : "Arial",
 									"fontsize" : 12.0,
@@ -426,14 +447,14 @@
 									"presentation_rect" : [ 318.977173, 20.117678, 52.0, 14.764645 ],
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
-											"parameter_defer" : 1,
-											"parameter_enum" : [ "val1", "val2" ],
-											"parameter_mmax" : 1.0,
-											"parameter_initial" : [ 0.0 ],
-											"parameter_type" : 2,
-											"parameter_initial_enable" : 1,
+											"parameter_longname" : "mute",
 											"parameter_shortname" : "mute",
-											"parameter_longname" : "mute"
+											"parameter_type" : 2,
+											"parameter_mmax" : 1.0,
+											"parameter_enum" : [ "val1", "val2" ],
+											"parameter_initial_enable" : 1,
+											"parameter_initial" : [ 0.0 ],
+											"parameter_defer" : 1
 										}
 
 									}
@@ -1256,15 +1277,15 @@
 									"presentation_rect" : [ 52.0, 43.0, 44.0, 47.0 ],
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
-											"parameter_exponent" : 2.0,
-											"parameter_unitstyle" : 0,
-											"parameter_mmax" : 10.0,
-											"parameter_mmin" : 1.0,
-											"parameter_initial" : [ 1 ],
-											"parameter_type" : 0,
-											"parameter_initial_enable" : 1,
+											"parameter_longname" : "Octaves",
 											"parameter_shortname" : "Octaves",
-											"parameter_longname" : "Octaves"
+											"parameter_type" : 0,
+											"parameter_mmin" : 1.0,
+											"parameter_mmax" : 10.0,
+											"parameter_initial_enable" : 1,
+											"parameter_initial" : [ 1 ],
+											"parameter_unitstyle" : 0,
+											"parameter_exponent" : 2.0
 										}
 
 									}
@@ -1326,13 +1347,13 @@
 									"presentation_rect" : [ 3.0, 43.0, 44.0, 47.0 ],
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
-											"parameter_exponent" : 2.0,
-											"parameter_unitstyle" : 8,
-											"parameter_initial" : [ 24 ],
+											"parameter_longname" : "Root",
+											"parameter_shortname" : "Root",
 											"parameter_type" : 0,
 											"parameter_initial_enable" : 1,
-											"parameter_shortname" : "Root",
-											"parameter_longname" : "Root"
+											"parameter_initial" : [ 24 ],
+											"parameter_unitstyle" : 8,
+											"parameter_exponent" : 2.0
 										}
 
 									}
@@ -2174,9 +2195,9 @@
  ],
 		"lines" : [  ],
 		"parameters" : 		{
+			"obj-10::obj-28" : [ "Root", "Root", 0 ],
 			"obj-10::obj-2" : [ "Octaves", "Octaves", 0 ],
-			"obj-10::obj-25" : [ "mute", "mute", 0 ],
-			"obj-10::obj-28" : [ "Root", "Root", 0 ]
+			"obj-10::obj-25" : [ "mute", "mute", 0 ]
 		}
 ,
 		"dependency_cache" : [  ]
