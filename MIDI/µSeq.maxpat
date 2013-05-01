@@ -4,11 +4,11 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 1,
-			"revision" : 0,
+			"revision" : 3,
 			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 78.0, 85.0, 1440.0, 755.0 ],
+		"rect" : [ 1.0, 44.0, 1440.0, 755.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -40,11 +40,11 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 0,
+							"revision" : 3,
 							"architecture" : "x86"
 						}
 ,
-						"rect" : [ 78.0, 85.0, 335.0, 116.0 ],
+						"rect" : [ 1.0, 44.0, 335.0, 116.0 ],
 						"bgcolor" : [ 1.0, 1.0, 1.0, 0.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 1,
@@ -78,7 +78,7 @@
 										"appversion" : 										{
 											"major" : 6,
 											"minor" : 1,
-											"revision" : 0,
+											"revision" : 3,
 											"architecture" : "x86"
 										}
 ,
@@ -1064,13 +1064,13 @@
 									"presentation_rect" : [ 42.0, 42.221527, 44.0, 47.0 ],
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
-											"parameter_unitstyle" : 2,
-											"parameter_mmax" : 1000.0,
-											"parameter_initial" : [ 0 ],
-											"parameter_type" : 0,
-											"parameter_initial_enable" : 1,
+											"parameter_longname" : "NoteDur[1]",
 											"parameter_shortname" : "NoteDur",
-											"parameter_longname" : "NoteDur[1]"
+											"parameter_type" : 0,
+											"parameter_mmax" : 1000.0,
+											"parameter_initial_enable" : 1,
+											"parameter_initial" : [ 0 ],
+											"parameter_unitstyle" : 2
 										}
 
 									}
@@ -1277,8 +1277,8 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "int" ],
-									"patching_rect" : [ 95.609039, 1078.0, 32.5, 20.0 ],
-									"text" : "+ 1"
+									"patching_rect" : [ 95.609039, 1078.0, 35.0, 20.0 ],
+									"text" : "== 0"
 								}
 
 							}
@@ -1315,14 +1315,14 @@
 									"presentation_rect" : [ 280.788452, 20.0, 44.969158, 14.764645 ],
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
-											"parameter_defer" : 1,
-											"parameter_enum" : [ "val1", "val2" ],
-											"parameter_mmax" : 1.0,
-											"parameter_initial" : [ 0.0 ],
-											"parameter_type" : 2,
-											"parameter_initial_enable" : 1,
+											"parameter_longname" : "mute[3]",
 											"parameter_shortname" : "mute",
-											"parameter_longname" : "mute[3]"
+											"parameter_type" : 2,
+											"parameter_mmax" : 1.0,
+											"parameter_enum" : [ "val1", "val2" ],
+											"parameter_initial_enable" : 1,
+											"parameter_initial" : [ 0.0 ],
+											"parameter_defer" : 1
 										}
 
 									}
@@ -1350,12 +1350,12 @@
 									"presentation_rect" : [ 28.0, 101.0, 9.277222, 9.795346 ],
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
-											"parameter_enum" : [ "off", "on" ],
-											"parameter_mmax" : 1.0,
-											"parameter_type" : 2,
-											"parameter_invisible" : 2,
+											"parameter_longname" : "PitchActivityLED[17]",
 											"parameter_shortname" : "PitchActivityLED",
-											"parameter_longname" : "PitchActivityLED[17]"
+											"parameter_type" : 2,
+											"parameter_mmax" : 1.0,
+											"parameter_enum" : [ "off", "on" ],
+											"parameter_invisible" : 2
 										}
 
 									}
@@ -1390,14 +1390,14 @@
 									"presentation_rect" : [ 0.0, 42.221527, 44.0, 47.0 ],
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
-											"parameter_unitstyle" : 0,
-											"parameter_mmax" : 32.0,
-											"parameter_mmin" : 1.0,
-											"parameter_initial" : [ 32 ],
-											"parameter_type" : 1,
-											"parameter_initial_enable" : 1,
+											"parameter_longname" : "Loop[2]",
 											"parameter_shortname" : "Loop",
-											"parameter_longname" : "Loop[2]"
+											"parameter_type" : 1,
+											"parameter_mmin" : 1.0,
+											"parameter_mmax" : 32.0,
+											"parameter_initial_enable" : 1,
+											"parameter_initial" : [ 32 ],
+											"parameter_unitstyle" : 0
 										}
 
 									}
@@ -1492,12 +1492,12 @@
 									"presentation_rect" : [ 290.757599, 42.221527, 44.0, 47.0 ],
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
-											"parameter_unitstyle" : 8,
-											"parameter_initial" : [ 0 ],
+											"parameter_longname" : "Top[2]",
+											"parameter_shortname" : "Top",
 											"parameter_type" : 1,
 											"parameter_initial_enable" : 1,
-											"parameter_shortname" : "Top",
-											"parameter_longname" : "Top[2]"
+											"parameter_initial" : [ 0 ],
+											"parameter_unitstyle" : 8
 										}
 
 									}
@@ -1522,12 +1522,12 @@
 									"presentation_rect" : [ 252.268768, 42.221527, 44.0, 47.0 ],
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
-											"parameter_unitstyle" : 8,
-											"parameter_initial" : [ 0 ],
+											"parameter_longname" : "Bottom[2]",
+											"parameter_shortname" : "Bottom",
 											"parameter_type" : 1,
 											"parameter_initial_enable" : 1,
-											"parameter_shortname" : "Bottom",
-											"parameter_longname" : "Bottom[2]"
+											"parameter_initial" : [ 0 ],
+											"parameter_unitstyle" : 8
 										}
 
 									}
@@ -2438,7 +2438,7 @@
 									}
 ,
 									"text" : "autopattr",
-									"varname" : "u853002919"
+									"varname" : "u120006578"
 								}
 
 							}
@@ -3323,12 +3323,12 @@
  ],
 		"lines" : [  ],
 		"parameters" : 		{
+			"obj-11::obj-29" : [ "mute[3]", "mute", 0 ],
 			"obj-11::obj-31" : [ "Bottom[2]", "Bottom", 0 ],
-			"obj-11::obj-46" : [ "Loop[2]", "Loop", 0 ],
-			"obj-11::obj-42" : [ "NoteDur[1]", "NoteDur", 0 ],
 			"obj-11::obj-22" : [ "PitchActivityLED[17]", "PitchActivityLED", 0 ],
+			"obj-11::obj-46" : [ "Loop[2]", "Loop", 0 ],
 			"obj-11::obj-32" : [ "Top[2]", "Top", 0 ],
-			"obj-11::obj-29" : [ "mute[3]", "mute", 0 ]
+			"obj-11::obj-42" : [ "NoteDur[1]", "NoteDur", 0 ]
 		}
 ,
 		"dependency_cache" : [  ]

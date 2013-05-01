@@ -38,7 +38,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 708.0, 690.25, 67.0, 18.0 ],
-					"text" : "83.213097"
+					"text" : "71.213097"
 				}
 
 			}
@@ -65,8 +65,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 756.0, 625.25, 37.0, 18.0 ],
-					"text" : "1000"
+					"patching_rect" : [ 756.0, 625.25, 32.5, 18.0 ],
+					"text" : "500"
 				}
 
 			}
@@ -218,6 +218,36 @@
 													"Oscillator::CV2" : [ 0.0 ],
 													"Oscillator::CV3" : [ 0.0 ],
 													"Oscillator::Freq" : [ 1000.0 ],
+													"Oscillator::FreqMode" : [ 0.0 ],
+													"Oscillator::Linear" : [ 0.0 ],
+													"Oscillator::Mute" : [ 0.0 ],
+													"Oscillator::Offset[2]" : [ 0.0 ],
+													"Oscillator::PW" : [ 50.0 ],
+													"Oscillator::PWM" : [ 100.0 ],
+													"Oscillator::Waveform" : [ 3.0 ],
+													"StereoOutput::DSP" : [ 1.0 ],
+													"StereoOutput::Level" : [ -14.373372 ],
+													"StereoOutput::Mute" : [ 1.0 ],
+													"StereoOutput::OutputChannel" : [ 0.0 ],
+													"BigScope[1]::Lock" : [ 0.0 ],
+													"BigScope[1]::Points" : [ 441.0 ],
+													"BigScope[1]::divide" : [ 0.0 ],
+													"BigScope[1]::multiply" : [ 0.0 ]
+												}
+
+											}
+,
+											"2" : 											{
+												"id" : 2,
+												"data" : 												{
+													"number" : [ 20 ],
+													"BigScope::Base" : [ 71.209999 ],
+													"BigScope::Gain" : [ 33.0 ],
+													"BigScope::Source" : [ 0.0 ],
+													"BigScope::divide" : [ 0.0 ],
+													"Oscillator::CV2" : [ 0.0 ],
+													"Oscillator::CV3" : [ 0.0 ],
+													"Oscillator::Freq" : [ 500.0 ],
 													"Oscillator::FreqMode" : [ 0.0 ],
 													"Oscillator::Linear" : [ 0.0 ],
 													"Oscillator::Mute" : [ 0.0 ],
@@ -3850,7 +3880,7 @@
 									"restore" : 									{
 										"CV2" : [ 0.0 ],
 										"CV3" : [ 0.0 ],
-										"Freq" : [ 1000.0 ],
+										"Freq" : [ 500.0 ],
 										"FreqMode" : [ 0.0 ],
 										"Linear" : [ 0.0 ],
 										"Mute" : [ 0.0 ],
@@ -4965,7 +4995,7 @@
 									"outlettype" : [ "", "", "", "" ],
 									"patching_rect" : [ 560.0, 133.0, 59.5, 20.0 ],
 									"restore" : 									{
-										"Base" : [ 83.213966 ],
+										"Base" : [ 71.209999 ],
 										"Gain" : [ 33.0 ],
 										"Source" : [ 0.0 ],
 										"divide" : [ 0.0 ]
@@ -5460,7 +5490,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 762.0, 655.0, 278.0, 98.0 ],
-									"text" : "0.695356 0.002123 0.227527 0.00209 0.132333 0.002133 0.096779 0.002121 0.073999 0.002123 0.063338 0.002108 0.050533 0.002054 0.044384 0.001896 0.027402 0.001324 0.009207 0.000892 0.001215 0.000788 0.001048 0.001075 0.004334 0.001913 0.013424 0.003156 0.022814 0.00443 0.026881 0.005551"
+									"text" : "0.607968 0.002107 0.225203 0.002116 0.135118 0.00212 0.09562 0.002114 0.074473 0.002117 0.059136 0.002126 0.051577 0.002119 0.044551 0.002114 0.039021 0.002117 0.035256 0.00213 0.031472 0.002007 0.029096 0.002113 0.026606 0.0021 0.025122 0.002108 0.023288 0.002055 0.020255 0.001872"
 								}
 
 							}
