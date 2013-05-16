@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 1,
-			"revision" : 0,
+			"revision" : 3,
 			"architecture" : "x86"
 		}
 ,
@@ -39,7 +39,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 0,
+							"revision" : 3,
 							"architecture" : "x86"
 						}
 ,
@@ -92,14 +92,14 @@
 									"presentation_rect" : [ 4.0, 72.792229, 100.0, 19.0 ],
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
-											"parameter_mmax" : 2000.0,
-											"parameter_initial" : [ 80 ],
-											"parameter_type" : 0,
-											"parameter_initial_enable" : 1,
-											"parameter_shortname" : "Tempo",
 											"parameter_longname" : "Tempo",
-											"parameter_units" : "bpm",
-											"parameter_unitstyle" : 9
+											"parameter_shortname" : "Tempo",
+											"parameter_type" : 0,
+											"parameter_mmax" : 250.0,
+											"parameter_initial_enable" : 1,
+											"parameter_initial" : [ 80 ],
+											"parameter_unitstyle" : 9,
+											"parameter_units" : "bpm"
 										}
 
 									}
@@ -142,14 +142,14 @@
 									"presentation_rect" : [ 4.0, 42.792229, 100.0, 24.0 ],
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
-											"parameter_mmax" : 1.0,
-											"parameter_initial" : [ 0.0 ],
-											"parameter_type" : 2,
-											"parameter_initial_enable" : 1,
-											"parameter_shortname" : "Transport",
 											"parameter_longname" : "Transport",
-											"parameter_defer" : 1,
-											"parameter_enum" : [ "val1", "val2" ]
+											"parameter_shortname" : "Transport",
+											"parameter_type" : 2,
+											"parameter_mmax" : 1.0,
+											"parameter_enum" : [ "val1", "val2" ],
+											"parameter_initial_enable" : 1,
+											"parameter_initial" : [ 0.0 ],
+											"parameter_defer" : 1
 										}
 
 									}
@@ -191,7 +191,7 @@
 									}
 ,
 									"text" : "autopattr",
-									"varname" : "u790004739"
+									"varname" : "u859001315"
 								}
 
 							}
@@ -287,7 +287,7 @@
 					}
 ,
 					"patching_rect" : [ 0.0, 0.0, 111.0, 116.0 ],
-					"varname" : "Recordr"
+					"varname" : "GlobalTransport"
 				}
 
 			}

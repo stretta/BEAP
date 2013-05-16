@@ -39,7 +39,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 191.0, 75.5, 159.0, 51.0 ],
-					"presentation_rect" : [ 248.0, 101.5, 0.0, 0.0 ],
 					"text" : "This constant produces a voltage that is used to control pitch."
 				}
 
@@ -407,7 +406,6 @@
 									"annotation" : "",
 									"bordercolor" : [ 1.0, 1.0, 1.0, 0.2 ],
 									"focusbordercolor" : [ 1.0, 1.0, 1.0, 0.2 ],
-									"hidden" : 1,
 									"id" : "obj-72",
 									"maxclass" : "live.dial",
 									"needlecolor" : [ 0.752941, 0.784314, 0.839216, 1.0 ],
@@ -2296,16 +2294,16 @@
 									"outlettype" : [ "", "", "", "" ],
 									"patching_rect" : [ 318.236206, 129.0, 59.5, 20.0 ],
 									"restore" : 									{
-										"Freq" : [ 261.62558 ],
-										"MIDI" : [ 60.0 ],
-										"Semi" : [ 60.0 ],
-										"Type" : [ 0.0 ],
-										"Volts" : [ 0.0 ],
+										"Freq" : [ 391.995422 ],
+										"MIDI" : [ 67.0 ],
+										"Semi" : [ 67.0 ],
+										"Type" : [ 3.0 ],
+										"Volts" : [ 0.583333 ],
 										"mute" : [ 0.0 ]
 									}
 ,
 									"text" : "autopattr",
-									"varname" : "u377006358"
+									"varname" : "u496009090"
 								}
 
 							}
@@ -2314,6 +2312,7 @@
 									"activedialcolor" : [ 0.278431, 0.839216, 1.0, 1.0 ],
 									"activeneedlecolor" : [ 1.0, 1.0, 1.0, 0.7 ],
 									"focusbordercolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+									"hidden" : 1,
 									"id" : "obj-28",
 									"maxclass" : "live.dial",
 									"numinlets" : 1,
@@ -3047,7 +3046,7 @@
 									}
 ,
 									"text" : "autopattr",
-									"varname" : "u100006301"
+									"varname" : "u304009089"
 								}
 
 							}
@@ -5251,7 +5250,7 @@
 									}
 ,
 									"text" : "autopattr",
-									"varname" : "u608006276"
+									"varname" : "u972009088"
 								}
 
 							}
@@ -6300,7 +6299,6 @@
 					}
 ,
 					"patching_rect" : [ 409.0, 327.0, 311.0, 116.0 ],
-					"presentation_rect" : [ 287.0, 290.0, 0.0, 0.0 ],
 					"varname" : "Oscillator[1]"
 				}
 
@@ -8179,7 +8177,7 @@
 									}
 ,
 									"text" : "autopattr",
-									"varname" : "u906006214"
+									"varname" : "u896009087"
 								}
 
 							}
@@ -9585,7 +9583,7 @@
 									}
 ,
 									"text" : "autopattr",
-									"varname" : "u294006152"
+									"varname" : "u332009086"
 								}
 
 							}
