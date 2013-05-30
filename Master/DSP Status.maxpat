@@ -4,8 +4,8 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 1,
-			"revision" : 0,
-			"architecture" : "x86"
+			"revision" : 3,
+			"architecture" : "x64"
 		}
 ,
 		"rect" : [ 517.0, 327.0, 640.0, 480.0 ],
@@ -39,8 +39,8 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 0,
-							"architecture" : "x86"
+							"revision" : 3,
+							"architecture" : "x64"
 						}
 ,
 						"rect" : [ 517.0, 327.0, 67.0, 116.0 ],
@@ -83,12 +83,12 @@
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
 											"parameter_longname" : "DSP[1]",
-											"parameter_defer" : 1,
-											"parameter_enum" : [ "val1", "val2" ],
-											"parameter_mmax" : 1.0,
-											"parameter_initial" : [ 0.0 ],
+											"parameter_shortname" : "DSP",
 											"parameter_type" : 2,
-											"parameter_shortname" : "DSP"
+											"parameter_mmax" : 1.0,
+											"parameter_enum" : [ "val1", "val2" ],
+											"parameter_initial" : [ 0.0 ],
+											"parameter_defer" : 1
 										}
 
 									}
@@ -156,7 +156,7 @@
 									}
 ,
 									"text" : "autopattr",
-									"varname" : "u870000742"
+									"varname" : "u493003399"
 								}
 
 							}
@@ -252,8 +252,6 @@
 					}
 ,
 					"patching_rect" : [ 0.0, 0.0, 67.0, 116.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 582.0, 22.470001, 147.0, 116.0 ],
 					"varname" : "DSP"
 				}
 
