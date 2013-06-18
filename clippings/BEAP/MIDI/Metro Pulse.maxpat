@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 1,
-			"revision" : 0,
+			"revision" : 3,
 			"architecture" : "x86"
 		}
 ,
@@ -40,7 +40,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 0,
+							"revision" : 3,
 							"architecture" : "x86"
 						}
 ,
@@ -85,13 +85,13 @@
 									"presentation_rect" : [ 168.642151, 48.0, 52.0, 15.0 ],
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
-											"parameter_initial" : [ 15.0 ],
-											"parameter_type" : 0,
-											"parameter_initial_enable" : 1,
-											"parameter_shortname" : "swing.amt",
 											"parameter_longname" : "swing.amt[1]",
-											"parameter_unitstyle" : 5,
-											"parameter_mmax" : 100.0
+											"parameter_shortname" : "swing.amt",
+											"parameter_type" : 0,
+											"parameter_mmax" : 100.0,
+											"parameter_initial_enable" : 1,
+											"parameter_initial" : [ 15.0 ],
+											"parameter_unitstyle" : 5
 										}
 
 									}
@@ -122,12 +122,12 @@
 									"presentation_rect" : [ 109.264206, 67.966904, 111.691216, 22.325319 ],
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
-											"parameter_initial" : [ 1.0 ],
-											"parameter_type" : 2,
-											"parameter_initial_enable" : 1,
-											"parameter_shortname" : "swing.base",
 											"parameter_longname" : "swing.base",
+											"parameter_shortname" : "swing.base",
+											"parameter_type" : 2,
 											"parameter_enum" : [ "1/32", "1/16", "1/8" ],
+											"parameter_initial_enable" : 1,
+											"parameter_initial" : [ 1.0 ],
 											"parameter_unitstyle" : 0
 										}
 
@@ -187,14 +187,14 @@
 									"presentation_rect" : [ 109.264206, 46.0, 56.0, 18.0 ],
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
-											"parameter_initial" : [ 0.0 ],
-											"parameter_type" : 2,
-											"parameter_initial_enable" : 1,
-											"parameter_shortname" : "swing",
-											"parameter_longname" : "swing_switch[1]",
 											"parameter_linknames" : 1,
+											"parameter_longname" : "swing_switch[1]",
+											"parameter_shortname" : "swing",
+											"parameter_type" : 2,
+											"parameter_mmax" : 1.0,
 											"parameter_enum" : [ "off", "on" ],
-											"parameter_mmax" : 1.0
+											"parameter_initial_enable" : 1,
+											"parameter_initial" : [ 0.0 ]
 										}
 
 									}
@@ -235,11 +235,11 @@
 										"appversion" : 										{
 											"major" : 6,
 											"minor" : 1,
-											"revision" : 0,
+											"revision" : 3,
 											"architecture" : "x86"
 										}
 ,
-										"rect" : [ 696.0, 233.0, 1218.0, 782.0 ],
+										"rect" : [ 203.0, 44.0, 1218.0, 782.0 ],
 										"bglocked" : 0,
 										"openinpresentation" : 0,
 										"default_fontsize" : 13.0,
@@ -561,7 +561,7 @@
 														"appversion" : 														{
 															"major" : 6,
 															"minor" : 1,
-															"revision" : 0,
+															"revision" : 3,
 															"architecture" : "x86"
 														}
 ,
@@ -1281,6 +1281,15 @@
 											}
 , 											{
 												"patchline" : 												{
+													"destination" : [ "obj-8", 1 ],
+													"disabled" : 0,
+													"hidden" : 0,
+													"source" : [ "obj-11", 0 ]
+												}
+
+											}
+, 											{
+												"patchline" : 												{
 													"destination" : [ "obj-18", 0 ],
 													"disabled" : 0,
 													"hidden" : 0,
@@ -1778,14 +1787,14 @@
 									"presentation_rect" : [ 175.124115, 20.0, 52.0, 14.764645 ],
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
-											"parameter_initial" : [ 0.0 ],
-											"parameter_type" : 2,
-											"parameter_initial_enable" : 1,
-											"parameter_shortname" : "mute",
 											"parameter_longname" : "mute",
-											"parameter_defer" : 1,
+											"parameter_shortname" : "mute",
+											"parameter_type" : 2,
+											"parameter_mmax" : 1.0,
 											"parameter_enum" : [ "val1", "val2" ],
-											"parameter_mmax" : 1.0
+											"parameter_initial_enable" : 1,
+											"parameter_initial" : [ 0.0 ],
+											"parameter_defer" : 1
 										}
 
 									}
@@ -1824,12 +1833,12 @@
 									"presentation_rect" : [ 27.134384, 100.0, 9.341643, 9.341643 ],
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
-											"parameter_type" : 2,
-											"parameter_invisible" : 2,
-											"parameter_shortname" : "led",
 											"parameter_longname" : "led",
+											"parameter_shortname" : "led",
+											"parameter_type" : 2,
+											"parameter_mmax" : 1.0,
 											"parameter_enum" : [ "off", "on" ],
-											"parameter_mmax" : 1.0
+											"parameter_invisible" : 2
 										}
 
 									}
@@ -1853,13 +1862,13 @@
 									"presentation_rect" : [ 3.0, 46.792229, 17.0, 18.0 ],
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
-											"parameter_initial" : [ 1 ],
-											"parameter_type" : 2,
-											"parameter_initial_enable" : 1,
-											"parameter_shortname" : "live.toggle",
 											"parameter_longname" : "live.toggle",
+											"parameter_shortname" : "live.toggle",
+											"parameter_type" : 2,
+											"parameter_mmax" : 1.0,
 											"parameter_enum" : [ "off", "on" ],
-											"parameter_mmax" : 1.0
+											"parameter_initial_enable" : 1,
+											"parameter_initial" : [ 1 ]
 										}
 
 									}
@@ -1890,12 +1899,12 @@
 									"rounded" : 0,
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
-											"parameter_initial" : [ "8n" ],
+											"parameter_longname" : "Pulse",
+											"parameter_shortname" : "Pulse",
 											"parameter_type" : 3,
 											"parameter_initial_enable" : 1,
-											"parameter_invisible" : 1,
-											"parameter_shortname" : "Pulse",
-											"parameter_longname" : "Pulse"
+											"parameter_initial" : [ "8n" ],
+											"parameter_invisible" : 1
 										}
 
 									}
@@ -1927,7 +1936,7 @@
 									}
 ,
 									"text" : "autopattr",
-									"varname" : "u140002649"
+									"varname" : "u435002029"
 								}
 
 							}
@@ -2204,19 +2213,19 @@
  ],
 		"lines" : [  ],
 		"parameters" : 		{
-			"obj-18::obj-477" : [ "swing.base", "swing.base", 0 ],
+			"obj-18::obj-27" : [ "led", "led", 0 ],
+			"obj-18::obj-20" : [ "live.toggle", "live.toggle", 0 ],
 			"obj-18::obj-478" : [ "swing_switch[1]", "swing", 0 ],
 			"obj-18::obj-29" : [ "mute", "mute", 0 ],
-			"obj-18::obj-20" : [ "live.toggle", "live.toggle", 0 ],
-			"obj-18::obj-476" : [ "swing.amt[1]", "swing.amt", 0 ],
 			"obj-18::obj-34" : [ "Pulse", "Pulse", 0 ],
-			"obj-18::obj-27" : [ "led", "led", 0 ]
+			"obj-18::obj-476" : [ "swing.amt[1]", "swing.amt", 0 ],
+			"obj-18::obj-477" : [ "swing.base", "swing.base", 0 ]
 		}
 ,
 		"dependency_cache" : [ 			{
 				"name" : "swingCalc.js",
-				"bootpath" : "/Applications/Max 6.1/patches/clippings/BEAP/Sequencer",
-				"patcherrelativepath" : "./Sequencer",
+				"bootpath" : "/Applications/Max 6.1/packages/BEAP/clippings/BEAP/Sequencer",
+				"patcherrelativepath" : "../Sequencer",
 				"type" : "TEXT",
 				"implicit" : 1
 			}

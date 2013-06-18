@@ -4,11 +4,11 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 1,
-			"revision" : 0,
+			"revision" : 3,
 			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 574.0, 356.0, 1440.0, 753.0 ],
+		"rect" : [ 62.0, 44.0, 1440.0, 753.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -40,11 +40,11 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 0,
+							"revision" : 3,
 							"architecture" : "x86"
 						}
 ,
-						"rect" : [ 574.0, 356.0, 107.0, 116.0 ],
+						"rect" : [ 62.0, 44.0, 107.0, 116.0 ],
 						"bgcolor" : [ 1.0, 1.0, 1.0, 0.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 1,
@@ -65,6 +65,20 @@
 						"digest" : "",
 						"tags" : "",
 						"boxes" : [ 							{
+								"box" : 								{
+									"fontname" : "Arial",
+									"fontsize" : 12.0,
+									"id" : "obj-3",
+									"maxclass" : "message",
+									"numinlets" : 2,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 571.0, 213.0, 135.0, 18.0 ],
+									"text" : "interval $1, quantize $1"
+								}
+
+							}
+, 							{
 								"box" : 								{
 									"fontname" : "Arial",
 									"fontsize" : 12.0,
@@ -111,14 +125,14 @@
 									"presentation_rect" : [ 50.0, 19.0, 52.0, 14.764645 ],
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
-											"parameter_mmax" : 1.0,
-											"parameter_initial" : [ 0.0 ],
-											"parameter_type" : 2,
-											"parameter_initial_enable" : 1,
-											"parameter_shortname" : "mute",
 											"parameter_longname" : "mute",
-											"parameter_defer" : 1,
-											"parameter_enum" : [ "val1", "val2" ]
+											"parameter_shortname" : "mute",
+											"parameter_type" : 2,
+											"parameter_mmax" : 1.0,
+											"parameter_enum" : [ "val1", "val2" ],
+											"parameter_initial_enable" : 1,
+											"parameter_initial" : [ 0.0 ],
+											"parameter_defer" : 1
 										}
 
 									}
@@ -157,12 +171,12 @@
 									"presentation_rect" : [ 4.0, 72.292229, 15.0, 15.0 ],
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
-											"parameter_mmax" : 1.0,
-											"parameter_type" : 2,
-											"parameter_invisible" : 2,
-											"parameter_shortname" : "led",
 											"parameter_longname" : "led",
-											"parameter_enum" : [ "off", "on" ]
+											"parameter_shortname" : "led",
+											"parameter_type" : 2,
+											"parameter_mmax" : 1.0,
+											"parameter_enum" : [ "off", "on" ],
+											"parameter_invisible" : 2
 										}
 
 									}
@@ -213,13 +227,13 @@
 									"presentation_rect" : [ 25.134384, 72.292229, 78.0, 15.0 ],
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
-											"parameter_unitstyle" : 2,
-											"parameter_mmax" : 500.0,
-											"parameter_initial" : [ 10 ],
-											"parameter_type" : 0,
-											"parameter_initial_enable" : 1,
+											"parameter_longname" : "GateTime",
 											"parameter_shortname" : "GateTime",
-											"parameter_longname" : "GateTime"
+											"parameter_type" : 0,
+											"parameter_mmax" : 500.0,
+											"parameter_initial_enable" : 1,
+											"parameter_initial" : [ 10 ],
+											"parameter_unitstyle" : 2
 										}
 
 									}
@@ -258,13 +272,13 @@
 									"presentation_rect" : [ 3.0, 46.792229, 17.0, 18.0 ],
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
-											"parameter_mmax" : 1.0,
-											"parameter_initial" : [ 1 ],
-											"parameter_type" : 2,
-											"parameter_initial_enable" : 1,
-											"parameter_shortname" : "live.toggle",
 											"parameter_longname" : "live.toggle",
-											"parameter_enum" : [ "off", "on" ]
+											"parameter_shortname" : "live.toggle",
+											"parameter_type" : 2,
+											"parameter_mmax" : 1.0,
+											"parameter_enum" : [ "off", "on" ],
+											"parameter_initial_enable" : 1,
+											"parameter_initial" : [ 1 ]
 										}
 
 									}
@@ -282,8 +296,8 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "bang" ],
-									"patching_rect" : [ 513.0, 316.0, 115.0, 20.0 ],
-									"text" : "metro 4n @active 1"
+									"patching_rect" : [ 513.0, 316.0, 199.0, 20.0 ],
+									"text" : "metro 4n @active 1 @quantize 16n"
 								}
 
 							}
@@ -302,19 +316,19 @@
 									"numoutlets" : 3,
 									"outlettype" : [ "int", "", "" ],
 									"parameter_enable" : 1,
-									"patching_rect" : [ 545.0, 267.907501, 71.0, 18.0 ],
+									"patching_rect" : [ 545.0, 175.907501, 71.0, 18.0 ],
 									"pattrmode" : 1,
 									"presentation" : 1,
 									"presentation_rect" : [ 25.134384, 46.792229, 78.0, 18.0 ],
 									"rounded" : 0,
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
-											"parameter_initial" : [ "8n" ],
+											"parameter_longname" : "Pulse",
+											"parameter_shortname" : "Pulse",
 											"parameter_type" : 3,
 											"parameter_initial_enable" : 1,
-											"parameter_invisible" : 1,
-											"parameter_shortname" : "Pulse",
-											"parameter_longname" : "Pulse"
+											"parameter_initial" : [ "8n" ],
+											"parameter_invisible" : 1
 										}
 
 									}
@@ -351,14 +365,14 @@
 									"patching_rect" : [ 169.0, 493.0, 59.5, 20.0 ],
 									"restore" : 									{
 										"GateTime" : [ 10.0 ],
-										"Pulse" : [ "8n" ],
+										"Pulse" : [ "16n" ],
 										"led" : [ 0.0 ],
 										"live.toggle" : [ 0.0 ],
 										"mute" : [ 0.0 ]
 									}
 ,
 									"text" : "autopattr",
-									"varname" : "u858001220"
+									"varname" : "u815001317"
 								}
 
 							}
@@ -555,7 +569,16 @@
 							}
 , 							{
 								"patchline" : 								{
-									"destination" : [ "obj-17", 1 ],
+									"destination" : [ "obj-17", 0 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-3", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-3", 0 ],
 									"disabled" : 0,
 									"hidden" : 0,
 									"source" : [ "obj-34", 1 ]
@@ -582,10 +605,10 @@
  ],
 		"lines" : [  ],
 		"parameters" : 		{
-			"obj-18::obj-29" : [ "mute", "mute", 0 ],
-			"obj-18::obj-129" : [ "GateTime", "GateTime", 0 ],
-			"obj-18::obj-20" : [ "live.toggle", "live.toggle", 0 ],
 			"obj-18::obj-27" : [ "led", "led", 0 ],
+			"obj-18::obj-20" : [ "live.toggle", "live.toggle", 0 ],
+			"obj-18::obj-129" : [ "GateTime", "GateTime", 0 ],
+			"obj-18::obj-29" : [ "mute", "mute", 0 ],
 			"obj-18::obj-34" : [ "Pulse", "Pulse", 0 ]
 		}
 ,
