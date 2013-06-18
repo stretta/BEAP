@@ -1702,7 +1702,7 @@
 									"presentation_rect" : [ 157.425232, 41.0, 59.843529, 52.375916 ],
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
-											"parameter_longname" : "Waveform",
+											"parameter_longname" : "WaveformCloud",
 											"parameter_shortname" : "Waveform",
 											"parameter_type" : 2,
 											"parameter_enum" : [ "saw", "square", "pulse" ],
@@ -1715,7 +1715,7 @@
 									}
 ,
 									"textcolor" : [ 1.0, 1.0, 1.0, 0.6 ],
-									"varname" : "Waveform"
+									"varname" : "WaveformCloud"
 								}
 
 							}
@@ -3617,11 +3617,11 @@
 										"Linear" : [ 0.0 ],
 										"Mute" : [ 0.0 ],
 										"Offset[2]" : [ 0.0 ],
-										"Waveform" : [ 0.0 ]
+										"WaveformCloud" : [ 0.0 ]
 									}
 ,
 									"text" : "autopattr",
-									"varname" : "u882000927"
+									"varname" : "u547004606"
 								}
 
 							}
@@ -4298,15 +4298,15 @@
  ],
 		"lines" : [  ],
 		"parameters" : 		{
-			"obj-18::obj-107" : [ "Linear", "Linear", 0 ],
-			"obj-18::obj-331" : [ "Waveform", "Waveform", 0 ],
 			"obj-18::obj-51" : [ "Fatness", "Fatness", 0 ],
-			"obj-18::obj-129" : [ "CV2", "CV2", 0 ],
-			"obj-18::obj-20" : [ "Mute", "Mute", 0 ],
+			"obj-18::obj-46" : [ "Offset[2]", "Offset", 0 ],
+			"obj-18::obj-331" : [ "WaveformCloud", "Waveform", 0 ],
+			"obj-18::obj-24" : [ "Freq", "Freq", 0 ],
+			"obj-18::obj-107" : [ "Linear", "Linear", 0 ],
 			"obj-18::obj-45" : [ "TimeMode", "TimeMode", 1 ],
 			"obj-18::obj-106" : [ "CV3", "CV3", 0 ],
-			"obj-18::obj-46" : [ "Offset[2]", "Offset", 0 ],
-			"obj-18::obj-24" : [ "Freq", "Freq", 0 ]
+			"obj-18::obj-20" : [ "Mute", "Mute", 0 ],
+			"obj-18::obj-129" : [ "CV2", "CV2", 0 ]
 		}
 ,
 		"dependency_cache" : [  ]
