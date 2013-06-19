@@ -4,8 +4,8 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 1,
-			"revision" : 2,
-			"architecture" : "x64"
+			"revision" : 3,
+			"architecture" : "x86"
 		}
 ,
 		"rect" : [ 25.0, 69.0, 640.0, 480.0 ],
@@ -39,8 +39,8 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 2,
-							"architecture" : "x64"
+							"revision" : 3,
+							"architecture" : "x86"
 						}
 ,
 						"rect" : [ 25.0, 69.0, 372.0, 116.0 ],
@@ -138,14 +138,14 @@
 									"presentation_rect" : [ 300.821564, 69.674789, 61.939789, 18.0 ],
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
-											"parameter_shortname" : "AutoName",
-											"parameter_enum" : [ "val1", "val2" ],
 											"parameter_longname" : "AutoName",
-											"parameter_mmax" : 1.0,
-											"parameter_initial" : [ 1 ],
-											"parameter_defer" : 1,
+											"parameter_shortname" : "AutoName",
 											"parameter_type" : 2,
-											"parameter_initial_enable" : 1
+											"parameter_mmax" : 1.0,
+											"parameter_enum" : [ "val1", "val2" ],
+											"parameter_initial_enable" : 1,
+											"parameter_initial" : [ 1 ],
+											"parameter_defer" : 1
 										}
 
 									}
@@ -195,11 +195,11 @@
 									"rounded" : 0,
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
-											"parameter_shortname" : "Format",
 											"parameter_longname" : "Format",
-											"parameter_initial" : [ "int24" ],
+											"parameter_shortname" : "Format",
 											"parameter_type" : 3,
 											"parameter_initial_enable" : 1,
+											"parameter_initial" : [ "int24" ],
 											"parameter_invisible" : 1
 										}
 
@@ -227,13 +227,13 @@
 									"presentation_rect" : [ 69.0, 47.792229, 93.0, 38.0 ],
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
-											"parameter_shortname" : "Level",
 											"parameter_longname" : "Level",
-											"parameter_unitstyle" : 4,
-											"parameter_mmax" : 6.0,
+											"parameter_shortname" : "Level",
+											"parameter_type" : 0,
 											"parameter_mmin" : -70.0,
+											"parameter_mmax" : 6.0,
 											"parameter_initial" : [ 0.0 ],
-											"parameter_type" : 0
+											"parameter_unitstyle" : 4
 										}
 
 									}
@@ -279,13 +279,13 @@
 									"presentation_rect" : [ 241.623413, 69.674789, 52.000008, 17.764645 ],
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
-											"parameter_shortname" : "getsamplelength",
-											"parameter_enum" : [ "val1", "val2" ],
 											"parameter_longname" : "getsamplelength",
+											"parameter_shortname" : "getsamplelength",
+											"parameter_type" : 2,
 											"parameter_mmax" : 1.0,
+											"parameter_enum" : [ "val1", "val2" ],
 											"parameter_initial" : [ 0.0 ],
-											"parameter_defer" : 1,
-											"parameter_type" : 2
+											"parameter_defer" : 1
 										}
 
 									}
@@ -330,14 +330,14 @@
 									"presentation_rect" : [ 4.0, 42.792229, 56.38699, 49.152851 ],
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
-											"parameter_shortname" : "Record",
-											"parameter_enum" : [ "val1", "val2" ],
 											"parameter_longname" : "Record",
-											"parameter_mmax" : 1.0,
-											"parameter_initial" : [ 0.0 ],
-											"parameter_defer" : 1,
+											"parameter_shortname" : "Record",
 											"parameter_type" : 2,
-											"parameter_initial_enable" : 1
+											"parameter_mmax" : 1.0,
+											"parameter_enum" : [ "val1", "val2" ],
+											"parameter_initial_enable" : 1,
+											"parameter_initial" : [ 0.0 ],
+											"parameter_defer" : 1
 										}
 
 									}
@@ -380,13 +380,13 @@
 									"presentation_rect" : [ 169.969315, 42.792229, 60.665066, 50.510143 ],
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
-											"parameter_shortname" : "Channels",
-											"parameter_enum" : [ "Mono", "Stereo" ],
 											"parameter_longname" : "Channels",
-											"parameter_unitstyle" : 0,
-											"parameter_initial" : [ 0 ],
+											"parameter_shortname" : "Channels",
 											"parameter_type" : 2,
-											"parameter_initial_enable" : 1
+											"parameter_enum" : [ "Mono", "Stereo" ],
+											"parameter_initial_enable" : 1,
+											"parameter_initial" : [ 0 ],
+											"parameter_unitstyle" : 0
 										}
 
 									}
@@ -653,7 +653,7 @@
 									}
 ,
 									"text" : "autopattr",
-									"varname" : "u490000526"
+									"varname" : "u694010387"
 								}
 
 							}
@@ -680,13 +680,14 @@
 									"fontsize" : 9.0,
 									"frgb" : 0.0,
 									"id" : "obj-13",
+									"linecount" : 2,
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 747.0, 231.907471, 48.0, 17.0 ],
+									"patching_rect" : [ 747.0, 231.907471, 48.0, 27.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 2.0, 19.0, 56.0, 17.0 ],
-									"text" : "RECRDR",
+									"text" : "CAPTURE",
 									"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 								}
 
@@ -1045,19 +1046,19 @@
 					}
 ,
 					"patching_rect" : [ 0.0, 0.0, 372.0, 116.0 ],
-					"varname" : "Recordr"
+					"varname" : "Capture"
 				}
 
 			}
  ],
 		"lines" : [  ],
 		"parameters" : 		{
-			"obj-3::obj-52" : [ "Level", "Level", 0 ],
-			"obj-3::obj-76" : [ "Record", "Record", 0 ],
-			"obj-3::obj-7" : [ "AutoName", "AutoName", 0 ],
 			"obj-3::obj-74" : [ "Channels", "Channels", 0 ],
-			"obj-3::obj-77" : [ "getsamplelength", "getsamplelength", 0 ],
-			"obj-3::obj-73" : [ "Format", "Format", 0 ]
+			"obj-3::obj-7" : [ "AutoName", "AutoName", 0 ],
+			"obj-3::obj-73" : [ "Format", "Format", 0 ],
+			"obj-3::obj-76" : [ "Record", "Record", 0 ],
+			"obj-3::obj-52" : [ "Level", "Level", 0 ],
+			"obj-3::obj-77" : [ "getsamplelength", "getsamplelength", 0 ]
 		}
 ,
 		"dependency_cache" : [  ]
