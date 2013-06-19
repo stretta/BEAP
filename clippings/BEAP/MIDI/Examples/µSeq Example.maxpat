@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 1,
-			"revision" : 0,
+			"revision" : 3,
 			"architecture" : "x86"
 		}
 ,
@@ -29,6 +29,24 @@
 		"tags" : "",
 		"boxes" : [ 			{
 				"box" : 				{
+					"bubble" : 1,
+					"bubblepoint" : 0.22,
+					"bubbleside" : 0,
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"frgb" : 0.0,
+					"id" : "obj-6",
+					"linecount" : 2,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 461.0, 269.0, 185.0, 52.0 ],
+					"text" : "Connect up to two monome 256 grids to edit 32 steps.. "
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"embed" : 1,
 					"id" : "obj-3",
 					"maxclass" : "bpatcher",
@@ -40,7 +58,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 0,
+							"revision" : 3,
 							"architecture" : "x86"
 						}
 ,
@@ -79,13 +97,13 @@
 									"presentation_rect" : [ 42.0, 42.221527, 44.0, 47.0 ],
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
-											"parameter_initial" : [ 0 ],
-											"parameter_type" : 0,
-											"parameter_initial_enable" : 1,
-											"parameter_shortname" : "NoteDur",
 											"parameter_longname" : "NoteDur",
-											"parameter_unitstyle" : 2,
-											"parameter_mmax" : 1000.0
+											"parameter_shortname" : "NoteDur",
+											"parameter_type" : 0,
+											"parameter_mmax" : 1000.0,
+											"parameter_initial_enable" : 1,
+											"parameter_initial" : [ 0 ],
+											"parameter_unitstyle" : 2
 										}
 
 									}
@@ -344,14 +362,14 @@
 									"presentation_rect" : [ 280.788452, 20.0, 44.969158, 14.764645 ],
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
-											"parameter_initial" : [ 0.0 ],
-											"parameter_type" : 2,
-											"parameter_initial_enable" : 1,
-											"parameter_shortname" : "mute",
 											"parameter_longname" : "mute[2]",
-											"parameter_defer" : 1,
+											"parameter_shortname" : "mute",
+											"parameter_type" : 2,
+											"parameter_mmax" : 1.0,
 											"parameter_enum" : [ "val1", "val2" ],
-											"parameter_mmax" : 1.0
+											"parameter_initial_enable" : 1,
+											"parameter_initial" : [ 0.0 ],
+											"parameter_defer" : 1
 										}
 
 									}
@@ -379,12 +397,12 @@
 									"presentation_rect" : [ 28.0, 101.0, 9.277222, 9.795346 ],
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
-											"parameter_type" : 2,
-											"parameter_invisible" : 2,
-											"parameter_shortname" : "PitchActivityLED",
 											"parameter_longname" : "PitchActivityLED[3]",
+											"parameter_shortname" : "PitchActivityLED",
+											"parameter_type" : 2,
+											"parameter_mmax" : 1.0,
 											"parameter_enum" : [ "off", "on" ],
-											"parameter_mmax" : 1.0
+											"parameter_invisible" : 2
 										}
 
 									}
@@ -419,14 +437,14 @@
 									"presentation_rect" : [ 0.0, 42.221527, 44.0, 47.0 ],
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
-											"parameter_mmin" : 1.0,
-											"parameter_initial" : [ 32 ],
-											"parameter_type" : 1,
-											"parameter_initial_enable" : 1,
-											"parameter_shortname" : "Loop",
 											"parameter_longname" : "Loop[1]",
-											"parameter_unitstyle" : 0,
-											"parameter_mmax" : 32.0
+											"parameter_shortname" : "Loop",
+											"parameter_type" : 1,
+											"parameter_mmin" : 1.0,
+											"parameter_mmax" : 32.0,
+											"parameter_initial_enable" : 1,
+											"parameter_initial" : [ 32 ],
+											"parameter_unitstyle" : 0
 										}
 
 									}
@@ -521,11 +539,11 @@
 									"presentation_rect" : [ 290.757599, 42.221527, 44.0, 47.0 ],
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
-											"parameter_initial" : [ 0 ],
+											"parameter_longname" : "Top[1]",
+											"parameter_shortname" : "Top",
 											"parameter_type" : 1,
 											"parameter_initial_enable" : 1,
-											"parameter_shortname" : "Top",
-											"parameter_longname" : "Top[1]",
+											"parameter_initial" : [ 0 ],
 											"parameter_unitstyle" : 8
 										}
 
@@ -551,11 +569,11 @@
 									"presentation_rect" : [ 252.268768, 42.221527, 44.0, 47.0 ],
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
-											"parameter_initial" : [ 0 ],
+											"parameter_longname" : "Bottom[1]",
+											"parameter_shortname" : "Bottom",
 											"parameter_type" : 1,
 											"parameter_initial_enable" : 1,
-											"parameter_shortname" : "Bottom",
-											"parameter_longname" : "Bottom[1]",
+											"parameter_initial" : [ 0 ],
 											"parameter_unitstyle" : 8
 										}
 
@@ -1459,7 +1477,7 @@
 										"Bottom" : [ 36.0 ],
 										"Loop" : [ 8.0 ],
 										"NoteDur" : [ 214.173233 ],
-										"PitchActivityLED[2]" : [ 1.0 ],
+										"PitchActivityLED[2]" : [ 0.0 ],
 										"Sequence" : [ 0.234043, 0.425532, 0.595745, 0.680851, 0.765957, 0.744681, 0.723404, 0.638298, 0.468085, 0.382979, 0.382979, 0.446809, 0.446809, 0.446809, 0.446809, 0.446809, 0.425532, 0.468085, 0.468085, 0.468085, 0.468085, 0.446809, 0.382979, 0.361702, 0.361702, 0.404255, 0.489362, 0.574468, 0.617021, 0.404255, 0.468085, 0.574468 ],
 										"Sequence[1]" : [ 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0 ],
 										"Top" : [ 60.0 ],
@@ -1467,7 +1485,7 @@
 									}
 ,
 									"text" : "autopattr",
-									"varname" : "u111003096"
+									"varname" : "u548007461"
 								}
 
 							}
@@ -2260,7 +2278,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 0,
+							"revision" : 3,
 							"architecture" : "x86"
 						}
 ,
@@ -2300,12 +2318,12 @@
 									"presentation_rect" : [ 27.5, 4.0, 9.733376, 9.733376 ],
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
-											"parameter_type" : 2,
-											"parameter_invisible" : 2,
-											"parameter_shortname" : "PitchActivityLED",
 											"parameter_longname" : "PitchActivityLED[2]",
+											"parameter_shortname" : "PitchActivityLED",
+											"parameter_type" : 2,
+											"parameter_mmax" : 1.0,
 											"parameter_enum" : [ "off", "on" ],
-											"parameter_mmax" : 1.0
+											"parameter_invisible" : 2
 										}
 
 									}
@@ -2352,11 +2370,11 @@
 									"patching_rect" : [ 526.0, 352.0, 59.5, 20.0 ],
 									"restore" : 									{
 										"MIDIPort" : [ "AU DLS Synth 1" ],
-										"PitchActivityLED" : [ 1.0 ]
+										"PitchActivityLED" : [ 0.0 ]
 									}
 ,
 									"text" : "autopattr",
-									"varname" : "u190003051"
+									"varname" : "u993007460"
 								}
 
 							}
@@ -2384,7 +2402,7 @@
 									"hint" : "MIDI port",
 									"hltcolor" : [ 0.362819, 0.362819, 0.362819, 1.0 ],
 									"id" : "obj-2",
-									"items" : [ "AU DLS Synth 1", ",", "IAC Driver Bus 1", ",", "VMidi 1", ",", "VMidi 2", ",", "VMidi 3", ",", "VMidi 4", ",", "from Max 1", ",", "from Max 2" ],
+									"items" : [ "AU DLS Synth 1", ",", "IAC Driver Bus 1", ",", "IAC Driver IAC Bus 2", ",", "from Max 1", ",", "from Max 2" ],
 									"maxclass" : "umenu",
 									"numinlets" : 1,
 									"numoutlets" : 3,
@@ -2627,7 +2645,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 0,
+							"revision" : 3,
 							"architecture" : "x86"
 						}
 ,
@@ -2672,13 +2690,13 @@
 									"presentation_rect" : [ 168.642151, 48.0, 52.0, 15.0 ],
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
-											"parameter_initial" : [ 15.0 ],
-											"parameter_type" : 0,
-											"parameter_initial_enable" : 1,
-											"parameter_shortname" : "swing.amt",
 											"parameter_longname" : "swing.amt[1]",
-											"parameter_unitstyle" : 5,
-											"parameter_mmax" : 100.0
+											"parameter_shortname" : "swing.amt",
+											"parameter_type" : 0,
+											"parameter_mmax" : 100.0,
+											"parameter_initial_enable" : 1,
+											"parameter_initial" : [ 15.0 ],
+											"parameter_unitstyle" : 5
 										}
 
 									}
@@ -2709,12 +2727,12 @@
 									"presentation_rect" : [ 109.264206, 67.966904, 111.691216, 22.325319 ],
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
-											"parameter_initial" : [ 1.0 ],
-											"parameter_type" : 2,
-											"parameter_initial_enable" : 1,
-											"parameter_shortname" : "swing.base",
 											"parameter_longname" : "swing.base",
+											"parameter_shortname" : "swing.base",
+											"parameter_type" : 2,
 											"parameter_enum" : [ "1/32", "1/16", "1/8" ],
+											"parameter_initial_enable" : 1,
+											"parameter_initial" : [ 1.0 ],
 											"parameter_unitstyle" : 0
 										}
 
@@ -2774,14 +2792,14 @@
 									"presentation_rect" : [ 109.264206, 46.0, 56.0, 18.0 ],
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
-											"parameter_initial" : [ 0.0 ],
-											"parameter_type" : 2,
-											"parameter_initial_enable" : 1,
-											"parameter_shortname" : "swing",
-											"parameter_longname" : "swing_switch[1]",
 											"parameter_linknames" : 1,
+											"parameter_longname" : "swing_switch[1]",
+											"parameter_shortname" : "swing",
+											"parameter_type" : 2,
+											"parameter_mmax" : 1.0,
 											"parameter_enum" : [ "off", "on" ],
-											"parameter_mmax" : 1.0
+											"parameter_initial_enable" : 1,
+											"parameter_initial" : [ 0.0 ]
 										}
 
 									}
@@ -2822,7 +2840,7 @@
 										"appversion" : 										{
 											"major" : 6,
 											"minor" : 1,
-											"revision" : 0,
+											"revision" : 3,
 											"architecture" : "x86"
 										}
 ,
@@ -3148,7 +3166,7 @@
 														"appversion" : 														{
 															"major" : 6,
 															"minor" : 1,
-															"revision" : 0,
+															"revision" : 3,
 															"architecture" : "x86"
 														}
 ,
@@ -4365,14 +4383,14 @@
 									"presentation_rect" : [ 175.124115, 20.0, 52.0, 14.764645 ],
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
-											"parameter_initial" : [ 0.0 ],
-											"parameter_type" : 2,
-											"parameter_initial_enable" : 1,
-											"parameter_shortname" : "mute",
 											"parameter_longname" : "mute[1]",
-											"parameter_defer" : 1,
+											"parameter_shortname" : "mute",
+											"parameter_type" : 2,
+											"parameter_mmax" : 1.0,
 											"parameter_enum" : [ "val1", "val2" ],
-											"parameter_mmax" : 1.0
+											"parameter_initial_enable" : 1,
+											"parameter_initial" : [ 0.0 ],
+											"parameter_defer" : 1
 										}
 
 									}
@@ -4411,12 +4429,12 @@
 									"presentation_rect" : [ 27.134384, 100.0, 9.341643, 9.341643 ],
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
-											"parameter_type" : 2,
-											"parameter_invisible" : 2,
-											"parameter_shortname" : "led",
 											"parameter_longname" : "led",
+											"parameter_shortname" : "led",
+											"parameter_type" : 2,
+											"parameter_mmax" : 1.0,
 											"parameter_enum" : [ "off", "on" ],
-											"parameter_mmax" : 1.0
+											"parameter_invisible" : 2
 										}
 
 									}
@@ -4440,13 +4458,13 @@
 									"presentation_rect" : [ 3.0, 46.792229, 17.0, 18.0 ],
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
-											"parameter_initial" : [ 1 ],
-											"parameter_type" : 2,
-											"parameter_initial_enable" : 1,
-											"parameter_shortname" : "live.toggle",
 											"parameter_longname" : "live.toggle",
+											"parameter_shortname" : "live.toggle",
+											"parameter_type" : 2,
+											"parameter_mmax" : 1.0,
 											"parameter_enum" : [ "off", "on" ],
-											"parameter_mmax" : 1.0
+											"parameter_initial_enable" : 1,
+											"parameter_initial" : [ 1 ]
 										}
 
 									}
@@ -4477,12 +4495,12 @@
 									"rounded" : 0,
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
-											"parameter_initial" : [ "8n" ],
+											"parameter_longname" : "Pulse",
+											"parameter_shortname" : "Pulse",
 											"parameter_type" : 3,
 											"parameter_initial_enable" : 1,
-											"parameter_invisible" : 1,
-											"parameter_shortname" : "Pulse",
-											"parameter_longname" : "Pulse"
+											"parameter_initial" : [ "8n" ],
+											"parameter_invisible" : 1
 										}
 
 									}
@@ -4505,7 +4523,7 @@
 									"patching_rect" : [ 169.0, 493.0, 59.5, 20.0 ],
 									"restore" : 									{
 										"Pulse" : [ "16n" ],
-										"led" : [ 1.0 ],
+										"led" : [ 0.0 ],
 										"live.numbox[1]" : [ 15.0 ],
 										"live.toggle" : [ 1.0 ],
 										"mute" : [ 0.0 ],
@@ -4514,7 +4532,7 @@
 									}
 ,
 									"text" : "autopattr",
-									"varname" : "u119003053"
+									"varname" : "u043007459"
 								}
 
 							}
@@ -4794,7 +4812,7 @@
 					"id" : "obj-1",
 					"maxclass" : "bpatcher",
 					"name" : "serialosc.maxpat",
-					"numinlets" : 2,
+					"numinlets" : 3,
 					"numoutlets" : 4,
 					"offset" : [ -79.0, -64.0 ],
 					"outlettype" : [ "", "int", "", "" ],
@@ -4811,7 +4829,7 @@
 					"id" : "obj-7",
 					"maxclass" : "bpatcher",
 					"name" : "serialosc.maxpat",
-					"numinlets" : 2,
+					"numinlets" : 3,
 					"numoutlets" : 4,
 					"offset" : [ -79.0, -64.0 ],
 					"outlettype" : [ "", "int", "", "" ],
@@ -4881,32 +4899,32 @@
 			}
  ],
 		"parameters" : 		{
-			"obj-18::obj-477" : [ "swing.base", "swing.base", 0 ],
 			"obj-3::obj-42" : [ "NoteDur", "NoteDur", 0 ],
-			"obj-3::obj-29" : [ "mute[2]", "mute", 0 ],
-			"obj-3::obj-46" : [ "Loop[1]", "Loop", 0 ],
-			"obj-18::obj-478" : [ "swing_switch[1]", "swing", 0 ],
-			"obj-18::obj-29" : [ "mute[1]", "mute", 0 ],
-			"obj-3::obj-32" : [ "Top[1]", "Top", 0 ],
-			"obj-2::obj-9" : [ "PitchActivityLED[2]", "PitchActivityLED", 0 ],
-			"obj-18::obj-20" : [ "live.toggle", "live.toggle", 0 ],
-			"obj-18::obj-476" : [ "swing.amt[1]", "swing.amt", 0 ],
+			"obj-18::obj-27" : [ "led", "led", 0 ],
 			"obj-3::obj-22" : [ "PitchActivityLED[3]", "PitchActivityLED", 0 ],
-			"obj-18::obj-34" : [ "Pulse", "Pulse", 0 ],
 			"obj-3::obj-31" : [ "Bottom[1]", "Bottom", 0 ],
-			"obj-18::obj-27" : [ "led", "led", 0 ]
+			"obj-18::obj-20" : [ "live.toggle", "live.toggle", 0 ],
+			"obj-2::obj-9" : [ "PitchActivityLED[2]", "PitchActivityLED", 0 ],
+			"obj-18::obj-478" : [ "swing_switch[1]", "swing", 0 ],
+			"obj-18::obj-34" : [ "Pulse", "Pulse", 0 ],
+			"obj-3::obj-32" : [ "Top[1]", "Top", 0 ],
+			"obj-18::obj-476" : [ "swing.amt[1]", "swing.amt", 0 ],
+			"obj-3::obj-46" : [ "Loop[1]", "Loop", 0 ],
+			"obj-3::obj-29" : [ "mute[2]", "mute", 0 ],
+			"obj-18::obj-29" : [ "mute[1]", "mute", 0 ],
+			"obj-18::obj-477" : [ "swing.base", "swing.base", 0 ]
 		}
 ,
 		"dependency_cache" : [ 			{
 				"name" : "serialosc.maxpat",
 				"bootpath" : "/Applications/Max 6.1/patches",
-				"patcherrelativepath" : "./",
+				"patcherrelativepath" : "../../../../../../patches",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "swingCalc.js",
-				"bootpath" : "/Applications/Max 6.1/patches/clippings/BEAP/Sequencer",
+				"bootpath" : "/Applications/Max 6.1/packages/BEAP/clippings/BEAP/Sequencer",
 				"patcherrelativepath" : "../../Sequencer",
 				"type" : "TEXT",
 				"implicit" : 1
