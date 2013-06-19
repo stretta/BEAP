@@ -8,7 +8,7 @@
 			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 500.0, 50.0, 515.0, 228.0 ],
+		"rect" : [ 728.0, 43.0, 515.0, 228.0 ],
 		"bgcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
@@ -107,7 +107,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 91.0, 151.0, 62.0, 18.0 ],
-					"save" : [ "#N", "thispatcher", ";", "#Q", "window", "flags", "nogrow", "close", "nozoom", "nofloat", "menu", "minimize", ";", "#Q", "window", "constrain", 50, 50, 32768, 32768, ";", "#Q", "window", "size", 500, 50, 1015, 278, ";", "#Q", "window", "title", ";", "#Q", "window", "exec", ";", "#Q", "savewindow", 1, ";", "#Q", "end", ";" ],
+					"save" : [ "#N", "thispatcher", ";", "#Q", "window", "flags", "nogrow", "close", "nozoom", "float", "menu", "minimize", ";", "#Q", "window", "constrain", 50, 50, 32768, 32768, ";", "#Q", "window", "size", 728, 43, 1243, 271, ";", "#Q", "window", "title", ";", "#Q", "window", "exec", ";", "#Q", "savewindow", 1, ";", "#Q", "end", ";" ],
 					"text" : "thispatcher"
 				}
 
@@ -1521,7 +1521,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 1012.0, 1914.0, 30.0, 18.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 6.0, 175.066101, 30.0, 18.0 ],
+					"presentation_rect" : [ 4.0, 175.066101, 30.0, 18.0 ],
 					"text" : "LFO",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
@@ -2038,7 +2038,7 @@
 					"framecolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"hltcolor" : [ 0.530174, 0.530174, 0.530174, 1.0 ],
 					"id" : "obj-65",
-					"items" : [ "Calibrated.maxpat", ",", "Mono.maxpat", ",", "Recordr.maxpat", ",", "Stereo.maxpat" ],
+					"items" : [ "Calibrated.maxpat", ",", "Capture.maxpat", ",", "Mono.maxpat", ",", "Stereo.maxpat" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -3118,7 +3118,7 @@
 					"framecolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"hltcolor" : [ 0.530174, 0.530174, 0.530174, 1.0 ],
 					"id" : "obj-37",
-					"items" : [ "Classroom Samplr.maxpat", ",", "Cloud.maxpat", ",", "Demosnd.maxpat", ",", "FM.maxpat", ",", "Folder.maxpat", ",", "Karplus.maxpat", ",", "Noise.maxpat", ",", "Oscillator.maxpat", ",", "Samplr.maxpat", ",", "Spectra.maxpat", ",", "Table.maxpat", ",", "Wave.maxpat", ",", "Waveshaper 1.maxpat" ],
+					"items" : [ "Cell.maxpat", ",", "Classroom Samplr.maxpat", ",", "Cloud.maxpat", ",", "Demosnd.maxpat", ",", "FM.maxpat", ",", "Folder.maxpat", ",", "Karplus.maxpat", ",", "Noise.maxpat", ",", "Oscillator.maxpat", ",", "Samplr.maxpat", ",", "Spectra.maxpat", ",", "Table.maxpat", ",", "Wave.maxpat", ",", "Waveshaper 1.maxpat" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
