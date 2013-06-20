@@ -4,8 +4,8 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 1,
-			"revision" : 0,
-			"architecture" : "x64"
+			"revision" : 3,
+			"architecture" : "x86"
 		}
 ,
 		"rect" : [ 25.0, 69.0, 640.0, 480.0 ],
@@ -40,8 +40,8 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 0,
-							"architecture" : "x64"
+							"revision" : 3,
+							"architecture" : "x86"
 						}
 ,
 						"rect" : [ 25.0, 69.0, 129.0, 116.0 ],
@@ -65,6 +65,20 @@
 						"digest" : "",
 						"tags" : "",
 						"boxes" : [ 							{
+								"box" : 								{
+									"attr" : "size",
+									"fontname" : "Arial",
+									"fontsize" : 13.0,
+									"id" : "obj-22",
+									"maxclass" : "attrui",
+									"numinlets" : 1,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 659.0, 231.0, 150.0, 21.0 ]
+								}
+
+							}
+, 							{
 								"box" : 								{
 									"fontname" : "Arial",
 									"fontsize" : 12.0,
@@ -208,13 +222,13 @@
 									"presentation_rect" : [ 68.0, 69.292229, 56.0, 15.0 ],
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
-											"parameter_unitstyle" : 1,
-											"parameter_mmax" : 40000.0,
-											"parameter_initial" : [ 0.0 ],
-											"parameter_type" : 0,
-											"parameter_initial_enable" : 1,
+											"parameter_longname" : "Smoothing",
 											"parameter_shortname" : "Smoothing",
-											"parameter_longname" : "Smoothing"
+											"parameter_type" : 0,
+											"parameter_mmax" : 40000.0,
+											"parameter_initial_enable" : 1,
+											"parameter_initial" : [ 0.0 ],
+											"parameter_unitstyle" : 1
 										}
 
 									}
@@ -253,13 +267,13 @@
 									"presentation_rect" : [ 68.0, 48.516212, 56.0, 15.0 ],
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
-											"parameter_unitstyle" : 8,
-											"parameter_mmax" : 120.0,
-											"parameter_initial" : [ 0.0 ],
-											"parameter_type" : 0,
-											"parameter_initial_enable" : 1,
+											"parameter_longname" : "Pitch[1]",
 											"parameter_shortname" : "Pitch",
-											"parameter_longname" : "Pitch[1]"
+											"parameter_type" : 0,
+											"parameter_mmax" : 120.0,
+											"parameter_initial_enable" : 1,
+											"parameter_initial" : [ 0.0 ],
+											"parameter_unitstyle" : 8
 										}
 
 									}
@@ -338,7 +352,7 @@
 									}
 ,
 									"text" : "autopattr",
-									"varname" : "u417002319"
+									"varname" : "u367006333"
 								}
 
 							}
@@ -357,13 +371,13 @@
 									"presentation_rect" : [ 9.0, 48.516212, 56.0, 15.0 ],
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
-											"parameter_unitstyle" : 1,
-											"parameter_mmax" : 120.0,
-											"parameter_initial" : [ 0.0 ],
-											"parameter_type" : 0,
-											"parameter_initial_enable" : 1,
+											"parameter_longname" : "Pitch",
 											"parameter_shortname" : "Pitch",
-											"parameter_longname" : "Pitch"
+											"parameter_type" : 0,
+											"parameter_mmax" : 120.0,
+											"parameter_initial_enable" : 1,
+											"parameter_initial" : [ 0.0 ],
+											"parameter_unitstyle" : 1
 										}
 
 									}
@@ -426,13 +440,13 @@
 									"presentation_rect" : [ 72.0, 19.0, 52.0, 14.764645 ],
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
-											"parameter_mmax" : 1.0,
-											"parameter_initial" : [ 0.0 ],
-											"parameter_defer" : 1,
-											"parameter_type" : 2,
+											"parameter_longname" : "Mute",
 											"parameter_shortname" : "Mute",
+											"parameter_type" : 2,
+											"parameter_mmax" : 1.0,
 											"parameter_enum" : [ "val1", "val2" ],
-											"parameter_longname" : "Mute"
+											"parameter_initial" : [ 0.0 ],
+											"parameter_defer" : 1
 										}
 
 									}
@@ -575,6 +589,15 @@
 							}
 , 							{
 								"patchline" : 								{
+									"destination" : [ "obj-40", 0 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-22", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
 									"destination" : [ "obj-20", 0 ],
 									"disabled" : 0,
 									"hidden" : 0,
@@ -665,10 +688,10 @@
  ],
 		"lines" : [  ],
 		"parameters" : 		{
-			"obj-10::obj-5" : [ "Smoothing", "Smoothing", 0 ],
 			"obj-10::obj-129" : [ "Pitch", "Pitch", 0 ],
-			"obj-10::obj-12" : [ "Mute", "Mute", 0 ],
-			"obj-10::obj-3" : [ "Pitch[1]", "Pitch", 0 ]
+			"obj-10::obj-3" : [ "Pitch[1]", "Pitch", 0 ],
+			"obj-10::obj-5" : [ "Smoothing", "Smoothing", 0 ],
+			"obj-10::obj-12" : [ "Mute", "Mute", 0 ]
 		}
 ,
 		"dependency_cache" : [  ]

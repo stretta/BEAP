@@ -4,11 +4,11 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 1,
-			"revision" : 0,
+			"revision" : 3,
 			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 4.0, 44.0, 1635.0, 960.0 ],
+		"rect" : [ 0.0, 44.0, 1440.0, 759.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -39,11 +39,11 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 0,
+							"revision" : 3,
 							"architecture" : "x86"
 						}
 ,
-						"rect" : [ 4.0, 44.0, 410.0, 116.0 ],
+						"rect" : [ 0.0, 44.0, 410.0, 116.0 ],
 						"bgcolor" : [ 1.0, 1.0, 1.0, 0.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 1,
@@ -65,6 +65,46 @@
 						"tags" : "",
 						"boxes" : [ 							{
 								"box" : 								{
+									"fontname" : "Arial",
+									"fontsize" : 12.0,
+									"id" : "obj-3",
+									"maxclass" : "newobj",
+									"numinlets" : 2,
+									"numoutlets" : 2,
+									"outlettype" : [ "bang", "" ],
+									"patching_rect" : [ 962.169922, 440.0, 36.0, 20.0 ],
+									"text" : "sel 0"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-2",
+									"maxclass" : "live.text",
+									"numinlets" : 1,
+									"numoutlets" : 2,
+									"outlettype" : [ "", "" ],
+									"parameter_enable" : 1,
+									"patching_rect" : [ 962.169922, 406.94339, 40.0, 20.0 ],
+									"saved_attribute_attributes" : 									{
+										"valueof" : 										{
+											"parameter_longname" : "stealth_init",
+											"parameter_shortname" : "stealth_init",
+											"parameter_type" : 2,
+											"parameter_mmax" : 1.0,
+											"parameter_enum" : [ "val1", "val2" ],
+											"parameter_initial_enable" : 1,
+											"parameter_initial" : [ 0.0 ]
+										}
+
+									}
+,
+									"varname" : "stealth_init"
+								}
+
+							}
+, 							{
+								"box" : 								{
 									"fontname" : "Arial Bold",
 									"fontsize" : 9.0,
 									"frgb" : 0.0,
@@ -82,7 +122,7 @@
 							}
 , 							{
 								"box" : 								{
-									"bgcolor" : [ 0.0, 146.0, 255.0, 0.000006 ],
+									"bgcolor" : [ 0.0, 146.0, 255.0, 0.013968 ],
 									"bgovercolor" : [ 0.698039, 0.698039, 0.698039, 0.0 ],
 									"border" : 1,
 									"bordercolor" : [ 0.101961, 0.101961, 0.101961, 0.54 ],
@@ -197,14 +237,14 @@
 									"presentation_rect" : [ 334.901306, 93.570465, 69.219215, 15.0 ],
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
-											"parameter_unitstyle" : 1,
-											"parameter_mmax" : 64.0,
-											"parameter_mmin" : -64.0,
-											"parameter_initial" : [ 0.0 ],
-											"parameter_type" : 0,
-											"parameter_initial_enable" : 1,
+											"parameter_longname" : "offset[2]",
 											"parameter_shortname" : "offset",
-											"parameter_longname" : "offset[2]"
+											"parameter_type" : 0,
+											"parameter_mmin" : -64.0,
+											"parameter_mmax" : 64.0,
+											"parameter_initial_enable" : 1,
+											"parameter_initial" : [ 0.0 ],
+											"parameter_unitstyle" : 1
 										}
 
 									}
@@ -489,7 +529,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 962.169922, 470.25, 146.0, 64.0 ],
+									"patching_rect" : [ 979.669922, 468.494568, 146.0, 64.0 ],
 									"text" : "this large number of points enables sigmund to accurately track low frequencies"
 								}
 
@@ -707,14 +747,14 @@
 									"presentation_rect" : [ 333.796661, 18.503336, 70.79599, 14.764645 ],
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
-											"parameter_defer" : 1,
-											"parameter_enum" : [ "val1", "val2" ],
-											"parameter_mmax" : 1.0,
-											"parameter_initial" : [ 0.0 ],
-											"parameter_type" : 2,
-											"parameter_initial_enable" : 1,
+											"parameter_longname" : "power[4]",
 											"parameter_shortname" : "power",
-											"parameter_longname" : "power[4]"
+											"parameter_type" : 2,
+											"parameter_mmax" : 1.0,
+											"parameter_enum" : [ "val1", "val2" ],
+											"parameter_initial_enable" : 1,
+											"parameter_initial" : [ 0.0 ],
+											"parameter_defer" : 1
 										}
 
 									}
@@ -895,11 +935,12 @@
 									"patching_rect" : [ 1137.6698, 1217.864258, 59.5, 20.0 ],
 									"restore" : 									{
 										"offset[1]" : [ 0.0 ],
-										"power[2]" : [ 0.0 ]
+										"power[2]" : [ 0.0 ],
+										"stealth_init" : [ 0.0 ]
 									}
 ,
 									"text" : "autopattr",
-									"varname" : "u489002431"
+									"varname" : "u443006365"
 								}
 
 							}
@@ -990,6 +1031,15 @@
 							}
 , 							{
 								"patchline" : 								{
+									"destination" : [ "obj-3", 0 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-2", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
 									"destination" : [ "obj-49", 0 ],
 									"disabled" : 0,
 									"hidden" : 0,
@@ -1013,6 +1063,15 @@
 									"disabled" : 0,
 									"hidden" : 0,
 									"source" : [ "obj-274", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-56", 0 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-3", 0 ]
 								}
 
 							}
@@ -1412,12 +1471,13 @@
  ],
 		"lines" : [  ],
 		"parameters" : 		{
-			"obj-3::obj-22" : [ "offset[2]", "offset", 0 ],
-			"obj-3::obj-54" : [ "power[4]", "power", 0 ]
+			"obj-3::obj-54" : [ "power[4]", "power", 0 ],
+			"obj-3::obj-2" : [ "stealth_init", "stealth_init", 0 ],
+			"obj-3::obj-22" : [ "offset[2]", "offset", 0 ]
 		}
 ,
 		"dependency_cache" : [ 			{
-				"name" : "sigmund~..mxo",
+				"name" : "sigmund~.mxo",
 				"type" : "iLaX"
 			}
  ]

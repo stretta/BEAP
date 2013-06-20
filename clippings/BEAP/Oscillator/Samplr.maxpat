@@ -5,7 +5,7 @@
 			"major" : 6,
 			"minor" : 1,
 			"revision" : 3,
-			"architecture" : "x64"
+			"architecture" : "x86"
 		}
 ,
 		"rect" : [ 0.0, 44.0, 1440.0, 761.0 ],
@@ -41,7 +41,7 @@
 							"major" : 6,
 							"minor" : 1,
 							"revision" : 3,
-							"architecture" : "x64"
+							"architecture" : "x86"
 						}
 ,
 						"rect" : [ 0.0, 44.0, 395.0, 116.0 ],
@@ -422,7 +422,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
 									"parameter_enable" : 1,
-									"patching_rect" : [ 1450.833252, 220.5, 40.0, 20.0 ],
+									"patching_rect" : [ 1431.333252, 180.5, 40.0, 20.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 51.263977, 97.0, 52.0, 14.764645 ],
 									"saved_attribute_attributes" : 									{
@@ -521,8 +521,8 @@
 									"numinlets" : 1,
 									"numoutlets" : 2,
 									"outlettype" : [ "float", "bang" ],
-									"patching_rect" : [ 1535.0, 284.328674, 175.0, 20.0 ],
-									"text" : "buffer~ #0buffer @size 2000"
+									"patching_rect" : [ 1535.0, 284.328674, 185.0, 20.0 ],
+									"text" : "buffer~ #0buffer @size 2000 1"
 								}
 
 							}
@@ -1674,7 +1674,7 @@
 									}
 ,
 									"text" : "autopattr",
-									"varname" : "u562003883"
+									"varname" : "u892006300"
 								}
 
 							}
@@ -1921,7 +1921,7 @@
 									"destination" : [ "obj-45", 1 ],
 									"disabled" : 0,
 									"hidden" : 0,
-									"midpoints" : [ 1078.602539, 529.215942, 951.551269, 529.215942 ],
+									"midpoints" : [ 1078.602539, 529.215942, 951.55127, 529.215942 ],
 									"source" : [ "obj-151", 0 ]
 								}
 
@@ -2518,17 +2518,17 @@
  ],
 		"lines" : [  ],
 		"parameters" : 		{
+			"obj-42::obj-152" : [ "LoopEnd", "LoopEnd", 0 ],
+			"obj-42::obj-32" : [ "getsamplelength", "getsamplelength", 0 ],
+			"obj-42::obj-57" : [ "Snap", "Snap", 0 ],
+			"obj-42::obj-151" : [ "LoopStart", "LoopStart", 0 ],
+			"obj-42::obj-19" : [ "replace", "replace", 0 ],
 			"obj-42::obj-8" : [ "write", "write", 0 ],
 			"obj-42::obj-20" : [ "power", "power", 0 ],
 			"obj-42::obj-49" : [ "RecordGate", "RecordGate", 0 ],
-			"obj-42::obj-152" : [ "LoopEnd", "LoopEnd", 0 ],
-			"obj-42::obj-32" : [ "getsamplelength", "getsamplelength", 0 ],
-			"obj-42::obj-61" : [ "Loop", "Loop", 0 ],
-			"obj-42::obj-57" : [ "Snap", "Snap", 0 ],
 			"obj-42::obj-171" : [ "RootPitch", "RootPitch", 0 ],
-			"obj-42::obj-151" : [ "LoopStart", "LoopStart", 0 ],
-			"obj-42::obj-129" : [ "SampleStart", "SampleStart", 0 ],
-			"obj-42::obj-19" : [ "replace", "replace", 0 ]
+			"obj-42::obj-61" : [ "Loop", "Loop", 0 ],
+			"obj-42::obj-129" : [ "SampleStart", "SampleStart", 0 ]
 		}
 ,
 		"dependency_cache" : [  ]
