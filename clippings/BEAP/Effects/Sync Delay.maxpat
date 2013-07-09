@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 1,
-			"revision" : 0,
+			"revision" : 3,
 			"architecture" : "x86"
 		}
 ,
@@ -40,7 +40,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 0,
+							"revision" : 3,
 							"architecture" : "x86"
 						}
 ,
@@ -82,12 +82,12 @@
 										"bypass" : [ 0.0 ],
 										"delay_left" : [ 9.0 ],
 										"delay_right" : [ 3.0 ],
-										"stepduration[4]" : [ 13.0 ],
-										"stepduration[6]" : [ 13.0 ]
+										"stepduration[4]" : [ 9.0 ],
+										"stepduration[6]" : [ 10.0 ]
 									}
 ,
 									"text" : "autopattr",
-									"varname" : "u320001359"
+									"varname" : "u927003488"
 								}
 
 							}
@@ -231,14 +231,14 @@
 									"presentation_rect" : [ 210.788971, 20.0, 52.0, 14.764645 ],
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
-											"parameter_defer" : 1,
-											"parameter_enum" : [ "val1", "val2" ],
-											"parameter_mmax" : 1.0,
-											"parameter_initial" : [ 0.0 ],
-											"parameter_type" : 2,
-											"parameter_initial_enable" : 1,
+											"parameter_longname" : "bypass",
 											"parameter_shortname" : "bypass",
-											"parameter_longname" : "bypass"
+											"parameter_type" : 2,
+											"parameter_mmax" : 1.0,
+											"parameter_enum" : [ "val1", "val2" ],
+											"parameter_initial_enable" : 1,
+											"parameter_initial" : [ 0.0 ],
+											"parameter_defer" : 1
 										}
 
 									}
@@ -325,18 +325,18 @@
 									"presentation_rect" : [ 178.0, 43.208965, 47.0, 36.0 ],
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
-											"parameter_exponent" : 1.06,
-											"parameter_unitstyle" : 3,
-											"parameter_mmax" : 20000.0,
-											"parameter_mmin" : 20.0,
-											"parameter_initial" : [ 20000 ],
-											"parameter_type" : 0,
-											"parameter_initial_enable" : 1,
-											"parameter_shortname" : "LPF",
-											"parameter_modmax" : 20000.0,
 											"parameter_longname" : "LPF",
+											"parameter_shortname" : "LPF",
+											"parameter_type" : 0,
+											"parameter_mmin" : 20.0,
+											"parameter_mmax" : 20000.0,
+											"parameter_modmode" : 4,
 											"parameter_modmin" : 20.0,
-											"parameter_modmode" : 4
+											"parameter_modmax" : 20000.0,
+											"parameter_initial_enable" : 1,
+											"parameter_initial" : [ 20000 ],
+											"parameter_unitstyle" : 3,
+											"parameter_exponent" : 1.06
 										}
 
 									}
@@ -364,18 +364,18 @@
 									"presentation_rect" : [ 131.0, 43.208965, 47.0, 36.0 ],
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
-											"parameter_exponent" : 1.06,
-											"parameter_unitstyle" : 3,
-											"parameter_mmax" : 20000.0,
-											"parameter_mmin" : 20.0,
-											"parameter_initial" : [ 20 ],
-											"parameter_type" : 0,
-											"parameter_initial_enable" : 1,
-											"parameter_shortname" : "HPF",
-											"parameter_modmax" : 20000.0,
 											"parameter_longname" : "HPF",
+											"parameter_shortname" : "HPF",
+											"parameter_type" : 0,
+											"parameter_mmin" : 20.0,
+											"parameter_mmax" : 20000.0,
+											"parameter_modmode" : 4,
 											"parameter_modmin" : 20.0,
-											"parameter_modmode" : 4
+											"parameter_modmax" : 20000.0,
+											"parameter_initial_enable" : 1,
+											"parameter_initial" : [ 20 ],
+											"parameter_unitstyle" : 3,
+											"parameter_exponent" : 1.06
 										}
 
 									}
@@ -403,13 +403,13 @@
 									"presentation_rect" : [ 80.27446, 43.208965, 47.0, 36.0 ],
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
-											"parameter_unitstyle" : 5,
-											"parameter_mmax" : 100.0,
-											"parameter_initial" : [ 16 ],
-											"parameter_type" : 0,
-											"parameter_initial_enable" : 1,
+											"parameter_longname" : "Feedback",
 											"parameter_shortname" : "Feedback",
-											"parameter_longname" : "Feedback"
+											"parameter_type" : 0,
+											"parameter_mmax" : 100.0,
+											"parameter_initial_enable" : 1,
+											"parameter_initial" : [ 16 ],
+											"parameter_unitstyle" : 5
 										}
 
 									}
@@ -464,13 +464,13 @@
 									"presentation_rect" : [ 8.001607, 72.145409, 67.016434, 15.0 ],
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
-											"parameter_enum" : [ "whole", "1/2", "1/4", "1/8", "1/16", "1/32", "--", "1/2 dotted", "1/4 dotted", "1/8 dotted", "1/16 dotted", "1/32 dotted", "--", "1/2 triplet", "1/4 triplet", "1/8 triplet", "1/16 triplet", "1/32 triplet" ],
-											"parameter_initial" : [ 3 ],
-											"parameter_type" : 2,
-											"parameter_initial_enable" : 1,
-											"parameter_invisible" : 1,
+											"parameter_longname" : "delay_right",
 											"parameter_shortname" : "delay_right",
-											"parameter_longname" : "delay_right"
+											"parameter_type" : 2,
+											"parameter_enum" : [ "whole", "1/2", "1/4", "1/8", "1/16", "1/32", "--", "1/2 dotted", "1/4 dotted", "1/8 dotted", "1/16 dotted", "1/32 dotted", "--", "1/2 triplet", "1/4 triplet", "1/8 triplet", "1/16 triplet", "1/32 triplet" ],
+											"parameter_initial_enable" : 1,
+											"parameter_initial" : [ 3 ],
+											"parameter_invisible" : 1
 										}
 
 									}
@@ -497,13 +497,13 @@
 									"presentation_rect" : [ 8.001607, 46.708965, 67.016434, 15.0 ],
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
-											"parameter_enum" : [ "whole", "1/2", "1/4", "1/8", "1/16", "1/32", "--", "1/2 dotted", "1/4 dotted", "1/8 dotted", "1/16 dotted", "1/32 dotted", "--", "1/2 triplet", "1/4 triplet", "1/8 triplet", "1/16 triplet", "1/32 triplet" ],
-											"parameter_initial" : [ 9 ],
-											"parameter_type" : 2,
-											"parameter_initial_enable" : 1,
-											"parameter_invisible" : 1,
+											"parameter_longname" : "delay_left",
 											"parameter_shortname" : "delay_left",
-											"parameter_longname" : "delay_left"
+											"parameter_type" : 2,
+											"parameter_enum" : [ "whole", "1/2", "1/4", "1/8", "1/16", "1/32", "--", "1/2 dotted", "1/4 dotted", "1/8 dotted", "1/16 dotted", "1/32 dotted", "--", "1/2 triplet", "1/4 triplet", "1/8 triplet", "1/16 triplet", "1/32 triplet" ],
+											"parameter_initial_enable" : 1,
+											"parameter_initial" : [ 9 ],
+											"parameter_invisible" : 1
 										}
 
 									}
@@ -529,13 +529,13 @@
 									"presentation_rect" : [ 218.788971, 43.208965, 44.0, 47.0 ],
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
-											"parameter_unitstyle" : 5,
-											"parameter_mmax" : 100.0,
-											"parameter_initial" : [ 50 ],
-											"parameter_type" : 0,
-											"parameter_initial_enable" : 1,
+											"parameter_longname" : "Mix",
 											"parameter_shortname" : "Mix",
-											"parameter_longname" : "Mix"
+											"parameter_type" : 0,
+											"parameter_mmax" : 100.0,
+											"parameter_initial_enable" : 1,
+											"parameter_initial" : [ 50 ],
+											"parameter_unitstyle" : 5
 										}
 
 									}
@@ -780,12 +780,12 @@
 									"patching_rect" : [ 1165.385254, 958.825867, 50.0, 27.0 ],
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
-											"parameter_enum" : [ "1nd", "1n", "1nt", "2nd", "2n", "2nt", "4nd", "4n", "4nt", "8nd", "8n", "8nt", "16nd", "16n", "16nt", "32nd", "32n", "32nt", "64nd", "64n", "128nd", "128n" ],
-											"parameter_initial" : [ 13 ],
-											"parameter_type" : 2,
-											"parameter_initial_enable" : 1,
+											"parameter_longname" : "step.duration[9]",
 											"parameter_shortname" : "step.duration",
-											"parameter_longname" : "step.duration[9]"
+											"parameter_type" : 2,
+											"parameter_enum" : [ "1nd", "1n", "1nt", "2nd", "2n", "2nt", "4nd", "4n", "4nt", "8nd", "8n", "8nt", "16nd", "16n", "16nt", "32nd", "32n", "32nt", "64nd", "64n", "128nd", "128n" ],
+											"parameter_initial_enable" : 1,
+											"parameter_initial" : [ 13 ]
 										}
 
 									}
@@ -815,12 +815,12 @@
 									"patching_rect" : [ 543.281311, 958.825867, 50.0, 27.0 ],
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
-											"parameter_enum" : [ "1nd", "1n", "1nt", "2nd", "2n", "2nt", "4nd", "4n", "4nt", "8nd", "8n", "8nt", "16nd", "16n", "16nt", "32nd", "32n", "32nt", "64nd", "64n", "128nd", "128n" ],
-											"parameter_initial" : [ 13 ],
-											"parameter_type" : 2,
-											"parameter_initial_enable" : 1,
+											"parameter_longname" : "step.duration[6]",
 											"parameter_shortname" : "step.duration",
-											"parameter_longname" : "step.duration[6]"
+											"parameter_type" : 2,
+											"parameter_enum" : [ "1nd", "1n", "1nt", "2nd", "2n", "2nt", "4nd", "4n", "4nt", "8nd", "8n", "8nt", "16nd", "16n", "16nt", "32nd", "32n", "32nt", "64nd", "64n", "128nd", "128n" ],
+											"parameter_initial_enable" : 1,
+											"parameter_initial" : [ 13 ]
 										}
 
 									}
@@ -857,7 +857,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "float" ],
 									"patching_rect" : [ 603.307373, 1214.940552, 42.0, 18.0 ],
-									"text" : "* 0.005"
+									"text" : "* 0.001"
 								}
 
 							}
@@ -876,7 +876,7 @@
 										"appversion" : 										{
 											"major" : 6,
 											"minor" : 1,
-											"revision" : 0,
+											"revision" : 3,
 											"architecture" : "x86"
 										}
 ,
@@ -1367,7 +1367,7 @@
 										"appversion" : 										{
 											"major" : 6,
 											"minor" : 1,
-											"revision" : 0,
+											"revision" : 3,
 											"architecture" : "x86"
 										}
 ,
@@ -2401,21 +2401,21 @@
  ],
 		"lines" : [  ],
 		"parameters" : 		{
-			"obj-10::obj-27" : [ "Feedback", "Feedback", 0 ],
-			"obj-10::obj-708" : [ "step.duration[9]", "step.duration", 0 ],
 			"obj-10::obj-96" : [ "delay_left", "delay_left", 0 ],
-			"obj-10::obj-118" : [ "Mix", "Mix", 0 ],
-			"obj-10::obj-49" : [ "HPF", "HPF", 0 ],
+			"obj-10::obj-9" : [ "delay_right", "delay_right", 0 ],
+			"obj-10::obj-708" : [ "step.duration[9]", "step.duration", 0 ],
 			"obj-10::obj-957" : [ "step.duration[6]", "step.duration", 0 ],
-			"obj-10::obj-50" : [ "LPF", "LPF", 0 ],
+			"obj-10::obj-49" : [ "HPF", "HPF", 0 ],
+			"obj-10::obj-27" : [ "Feedback", "Feedback", 0 ],
 			"obj-10::obj-7" : [ "bypass", "bypass", 0 ],
-			"obj-10::obj-9" : [ "delay_right", "delay_right", 0 ]
+			"obj-10::obj-118" : [ "Mix", "Mix", 0 ],
+			"obj-10::obj-50" : [ "LPF", "LPF", 0 ]
 		}
 ,
 		"dependency_cache" : [ 			{
 				"name" : "M4L.bal2~.maxpat",
 				"bootpath" : "/Applications/Max 6.1/patches/m4l-patches/Tools resources",
-				"patcherrelativepath" : "../../../m4l-patches/Tools resources",
+				"patcherrelativepath" : "../../../../../patches/m4l-patches/Tools resources",
 				"type" : "JSON",
 				"implicit" : 1
 			}

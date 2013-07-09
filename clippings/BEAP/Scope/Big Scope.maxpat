@@ -4,8 +4,8 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 1,
-			"revision" : 2,
-			"architecture" : "x64"
+			"revision" : 3,
+			"architecture" : "x86"
 		}
 ,
 		"rect" : [ 0.0, 67.0, 1440.0, 758.0 ],
@@ -40,8 +40,8 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 2,
-							"architecture" : "x64"
+							"revision" : 3,
+							"architecture" : "x86"
 						}
 ,
 						"rect" : [ 0.0, 67.0, 372.0, 233.0 ],
@@ -76,13 +76,13 @@
 									"patching_rect" : [ 278.0, 668.0, 59.5, 20.0 ],
 									"restore" : 									{
 										"Lock" : [ 0.0 ],
-										"Points" : [ 842.105283 ],
+										"Points" : [ 842.105286 ],
 										"divide" : [ 0.0 ],
 										"multiply" : [ 0.0 ]
 									}
 ,
 									"text" : "autopattr",
-									"varname" : "u307002641"
+									"varname" : "u478003651"
 								}
 
 							}
@@ -101,13 +101,13 @@
 									"presentation_rect" : [ 302.0, 180.0, 26.623941, 16.734447 ],
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
-											"parameter_shortname" : "divide",
-											"parameter_annotation_name" : "divide",
-											"parameter_enum" : [ "val1", "val2" ],
 											"parameter_longname" : "divide",
+											"parameter_shortname" : "divide",
+											"parameter_type" : 0,
 											"parameter_mmax" : 1.0,
+											"parameter_enum" : [ "val1", "val2" ],
 											"parameter_initial" : [ 0 ],
-											"parameter_type" : 0
+											"parameter_annotation_name" : "divide"
 										}
 
 									}
@@ -128,7 +128,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 900.5, 672.0, 74.0, 31.0 ],
-									"text" : "1684.210566"
+									"text" : "1684.210571"
 								}
 
 							}
@@ -161,11 +161,11 @@
 									"presentation_rect" : [ 337.0, 180.0, 26.623941, 16.734447 ],
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
-											"parameter_shortname" : "multiply",
-											"parameter_enum" : [ "val1", "val2" ],
 											"parameter_longname" : "multiply",
+											"parameter_shortname" : "multiply",
+											"parameter_type" : 2,
 											"parameter_mmax" : 1.0,
-											"parameter_type" : 2
+											"parameter_enum" : [ "val1", "val2" ]
 										}
 
 									}
@@ -185,7 +185,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 802.0, 672.0, 74.0, 18.0 ],
-									"text" : "421.052642"
+									"text" : "421.052643"
 								}
 
 							}
@@ -231,13 +231,13 @@
 									"presentation_rect" : [ 302.0, 154.516205, 63.688538, 15.0 ],
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
-											"parameter_shortname" : "Points",
 											"parameter_longname" : "Points",
-											"parameter_unitstyle" : 1,
-											"parameter_mmax" : 10000.0,
-											"parameter_initial" : [ 100 ],
+											"parameter_shortname" : "Points",
 											"parameter_type" : 0,
-											"parameter_initial_enable" : 1
+											"parameter_mmax" : 40000.0,
+											"parameter_initial_enable" : 1,
+											"parameter_initial" : [ 100 ],
+											"parameter_unitstyle" : 1
 										}
 
 									}
@@ -393,11 +393,11 @@
 									"presentation_rect" : [ 302.0, 65.292229, 63.688538, 76.0 ],
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
-											"parameter_shortname" : "Lock",
-											"parameter_enum" : [ "Off", "Smart", "1v/oct" ],
 											"parameter_longname" : "Lock",
-											"parameter_unitstyle" : 0,
-											"parameter_type" : 2
+											"parameter_shortname" : "Lock",
+											"parameter_type" : 2,
+											"parameter_enum" : [ "Off", "Smart", "1v/oct" ],
+											"parameter_unitstyle" : 0
 										}
 
 									}
@@ -974,10 +974,10 @@
  ],
 		"lines" : [  ],
 		"parameters" : 		{
-			"obj-1::obj-52" : [ "multiply", "multiply", 0 ],
 			"obj-1::obj-69" : [ "Lock", "Lock", 0 ],
+			"obj-1::obj-129" : [ "Points", "Points", 0 ],
 			"obj-1::obj-1" : [ "divide", "divide", 0 ],
-			"obj-1::obj-129" : [ "Points", "Points", 0 ]
+			"obj-1::obj-52" : [ "multiply", "multiply", 0 ]
 		}
 ,
 		"dependency_cache" : [  ]
