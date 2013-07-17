@@ -8,7 +8,7 @@
 			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 57.0, 155.0, 1383.0, 1159.0 ],
+		"rect" : [ 0.0, 44.0, 1440.0, 759.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -43,7 +43,7 @@
 							"architecture" : "x86"
 						}
 ,
-						"rect" : [ 57.0, 155.0, 128.0, 122.0 ],
+						"rect" : [ 0.0, 44.0, 167.0, 119.0 ],
 						"bgcolor" : [ 1.0, 1.0, 1.0, 0.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 1,
@@ -64,6 +64,33 @@
 						"digest" : "",
 						"tags" : "",
 						"boxes" : [ 							{
+								"box" : 								{
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+									"bgcolor2" : [ 0.0, 0.0, 0.0, 1.0 ],
+									"fontname" : "Arial",
+									"fontsize" : 10.0,
+									"framecolor" : [ 0.0, 0.0, 0.0, 0.0 ],
+									"hint" : "Channel",
+									"hltcolor" : [ 0.362819, 0.362819, 0.362819, 1.0 ],
+									"id" : "obj-4",
+									"items" : [ 1, ",", 2, ",", 3, ",", 4, ",", 5, ",", 6, ",", 7, ",", 8, ",", 9, ",", 10, ",", 11, ",", 12, ",", 13, ",", 14, ",", 15, ",", 16 ],
+									"maxclass" : "umenu",
+									"numinlets" : 1,
+									"numoutlets" : 3,
+									"outlettype" : [ "int", "", "" ],
+									"parameter_enable" : 0,
+									"patching_rect" : [ 685.5, 119.0, 59.0, 18.0 ],
+									"pattrmode" : 1,
+									"presentation" : 1,
+									"presentation_rect" : [ 121.493271, 55.0, 35.993271, 18.0 ],
+									"rounded" : 0,
+									"textcolor" : [ 0.0, 0.870117, 0.103208, 1.0 ],
+									"textcolor2" : [ 0.0, 0.870117, 0.103208, 1.0 ],
+									"varname" : "Channel"
+								}
+
+							}
+, 							{
 								"box" : 								{
 									"activebgcolor" : [ 0.0, 0.019608, 0.078431, 0.4 ],
 									"activebgoncolor" : [ 0.0, 0.870117, 0.103208, 1.0 ],
@@ -130,12 +157,13 @@
 									"outlettype" : [ "", "", "", "" ],
 									"patching_rect" : [ 526.0, 352.0, 59.5, 20.0 ],
 									"restore" : 									{
+										"Channel" : [ "10" ],
 										"MIDIPort" : [ "AU DLS Synth 1" ],
 										"PitchActivityLED" : [ 1.0 ]
 									}
 ,
 									"text" : "autopattr",
-									"varname" : "u437001074"
+									"varname" : "u902002239"
 								}
 
 							}
@@ -351,6 +379,15 @@
 							}
 , 							{
 								"patchline" : 								{
+									"destination" : [ "obj-43", 2 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-4", 1 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
 									"destination" : [ "obj-42", 0 ],
 									"disabled" : 0,
 									"hidden" : 0,
@@ -388,7 +425,7 @@
  ]
 					}
 ,
-					"patching_rect" : [ 0.0, 0.0, 128.0, 122.0 ],
+					"patching_rect" : [ 0.0, 0.0, 167.0, 119.0 ],
 					"varname" : "MIDI"
 				}
 
