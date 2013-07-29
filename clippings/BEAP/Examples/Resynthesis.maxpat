@@ -45,7 +45,7 @@
 							"architecture" : "x86"
 						}
 ,
-						"rect" : [ 286.0, 375.0, 395.0, 116.0 ],
+						"rect" : [ 286.0, 345.0, 395.0, 116.0 ],
 						"bgcolor" : [ 1.0, 1.0, 1.0, 0.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 1,
@@ -1676,7 +1676,7 @@
 									}
 ,
 									"text" : "autopattr",
-									"varname" : "u733009662"
+									"varname" : "u223002542"
 								}
 
 							}
@@ -2568,7 +2568,7 @@
 							"architecture" : "x86"
 						}
 ,
-						"rect" : [ 870.0, 410.0, 309.0, 116.0 ],
+						"rect" : [ 870.0, 380.0, 309.0, 116.0 ],
 						"bgcolor" : [ 1.0, 1.0, 1.0, 0.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 1,
@@ -4576,7 +4576,7 @@
 									}
 ,
 									"text" : "autopattr",
-									"varname" : "u928009567"
+									"varname" : "u200002535"
 								}
 
 							}
@@ -5688,7 +5688,7 @@
 							"architecture" : "x86"
 						}
 ,
-						"rect" : [ 1427.0, 456.0, 101.0, 116.0 ],
+						"rect" : [ 1427.0, 426.0, 101.0, 116.0 ],
 						"bgcolor" : [ 1.0, 1.0, 1.0, 0.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 1,
@@ -5799,7 +5799,7 @@
 									}
 ,
 									"text" : "autopattr",
-									"varname" : "u828009566"
+									"varname" : "u461002534"
 								}
 
 							}
@@ -6088,7 +6088,7 @@
 							"architecture" : "x86"
 						}
 ,
-						"rect" : [ 1427.0, 311.0, 106.0, 116.0 ],
+						"rect" : [ 1427.0, 281.0, 106.0, 116.0 ],
 						"bgcolor" : [ 1.0, 1.0, 1.0, 0.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 1,
@@ -6123,7 +6123,7 @@
 									}
 ,
 									"text" : "autopattr",
-									"varname" : "u363009565"
+									"varname" : "u811002533"
 								}
 
 							}
@@ -6454,7 +6454,7 @@
 							"architecture" : "x86"
 						}
 ,
-						"rect" : [ 1427.0, 180.0, 267.0, 116.0 ],
+						"rect" : [ 1427.0, 150.0, 267.0, 116.0 ],
 						"bgcolor" : [ 1.0, 1.0, 1.0, 0.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 1,
@@ -6986,7 +6986,7 @@
 									}
 ,
 									"text" : "autopattr",
-									"varname" : "u370009564"
+									"varname" : "u612002532"
 								}
 
 							}
@@ -7445,7 +7445,7 @@
 							"architecture" : "x86"
 						}
 ,
-						"rect" : [ 1427.0, 44.0, 71.0, 116.0 ],
+						"rect" : [ 1427.0, 14.0, 71.0, 116.0 ],
 						"bgcolor" : [ 1.0, 1.0, 1.0, 0.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 1,
@@ -7546,7 +7546,7 @@
 									"outlettype" : [ "", "", "", "" ],
 									"patching_rect" : [ 619.0, 299.0, 59.5, 20.0 ],
 									"text" : "autopattr",
-									"varname" : "u273009563"
+									"varname" : "u862002531"
 								}
 
 							}
@@ -7724,7 +7724,7 @@
 							"architecture" : "x86"
 						}
 ,
-						"rect" : [ 870.0, 261.0, 122.0, 116.0 ],
+						"rect" : [ 870.0, 231.0, 122.0, 116.0 ],
 						"bgcolor" : [ 1.0, 1.0, 1.0, 0.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 1,
@@ -9937,7 +9937,7 @@
 									}
 ,
 									"text" : "autopattr",
-									"varname" : "u502009562"
+									"varname" : "u580002530"
 								}
 
 							}
@@ -10531,7 +10531,7 @@
 					"outlettype" : [ "", "", "", "" ],
 					"patching_rect" : [ 1306.0, 850.25, 84.0, 15.0 ],
 					"text" : "autopattr @greedy 1",
-					"varname" : "u317009574"
+					"varname" : "u047002544"
 				}
 
 			}
@@ -10676,7 +10676,7 @@
 							"architecture" : "x86"
 						}
 ,
-						"rect" : [ 817.0, 723.0, 179.0, 116.0 ],
+						"rect" : [ 817.0, 693.0, 179.0, 116.0 ],
 						"bgcolor" : [ 1.0, 1.0, 1.0, 0.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 1,
@@ -11636,7 +11636,7 @@
 									}
 ,
 									"text" : "autopattr",
-									"varname" : "u411009561"
+									"varname" : "u639002529"
 								}
 
 							}
@@ -12468,7 +12468,7 @@
 							"architecture" : "x86"
 						}
 ,
-						"rect" : [ 870.0, 565.0, 101.0, 116.0 ],
+						"rect" : [ 870.0, 535.0, 101.0, 116.0 ],
 						"bgcolor" : [ 1.0, 1.0, 1.0, 0.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 1,
@@ -12579,7 +12579,7 @@
 									}
 ,
 									"text" : "autopattr",
-									"varname" : "u796009560"
+									"varname" : "u710002528"
 								}
 
 							}
@@ -12868,7 +12868,7 @@
 							"architecture" : "x86"
 						}
 ,
-						"rect" : [ 266.0, 510.0, 101.0, 116.0 ],
+						"rect" : [ 266.0, 480.0, 101.0, 116.0 ],
 						"bgcolor" : [ 1.0, 1.0, 1.0, 0.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 1,
@@ -12979,7 +12979,7 @@
 									}
 ,
 									"text" : "autopattr",
-									"varname" : "u817009559"
+									"varname" : "u051002527"
 								}
 
 							}
@@ -13268,7 +13268,7 @@
 							"architecture" : "x86"
 						}
 ,
-						"rect" : [ 173.0, 251.0, 101.0, 116.0 ],
+						"rect" : [ 173.0, 221.0, 101.0, 116.0 ],
 						"bgcolor" : [ 1.0, 1.0, 1.0, 0.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 1,
@@ -13379,7 +13379,7 @@
 									}
 ,
 									"text" : "autopattr",
-									"varname" : "u536009558"
+									"varname" : "u960002526"
 								}
 
 							}
@@ -13668,7 +13668,7 @@
 							"architecture" : "x86"
 						}
 ,
-						"rect" : [ 517.0, 243.0, 92.0, 116.0 ],
+						"rect" : [ 517.0, 213.0, 92.0, 116.0 ],
 						"bgcolor" : [ 1.0, 1.0, 1.0, 0.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 1,
@@ -13809,7 +13809,7 @@
 									}
 ,
 									"text" : "autopattr",
-									"varname" : "u409009557"
+									"varname" : "u282002525"
 								}
 
 							}
@@ -14106,7 +14106,7 @@
 							"architecture" : "x86"
 						}
 ,
-						"rect" : [ 642.0, 243.0, 71.0, 116.0 ],
+						"rect" : [ 642.0, 213.0, 71.0, 116.0 ],
 						"bgcolor" : [ 1.0, 1.0, 1.0, 0.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 1,
@@ -14207,7 +14207,7 @@
 									"outlettype" : [ "", "", "", "" ],
 									"patching_rect" : [ 619.0, 299.0, 59.5, 20.0 ],
 									"text" : "autopattr",
-									"varname" : "u400009556"
+									"varname" : "u329002524"
 								}
 
 							}
@@ -14385,7 +14385,7 @@
 							"architecture" : "x86"
 						}
 ,
-						"rect" : [ 173.0, 90.0, 311.0, 116.0 ],
+						"rect" : [ 173.0, 60.0, 311.0, 116.0 ],
 						"bgcolor" : [ 1.0, 1.0, 1.0, 0.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 1,
@@ -16041,7 +16041,7 @@
 									}
 ,
 									"text" : "autopattr",
-									"varname" : "u216009555"
+									"varname" : "u790002523"
 								}
 
 							}
@@ -17114,7 +17114,7 @@
 							"architecture" : "x86"
 						}
 ,
-						"rect" : [ 414.0, 788.0, 121.0, 116.0 ],
+						"rect" : [ 414.0, 758.0, 121.0, 116.0 ],
 						"bgcolor" : [ 1.0, 1.0, 1.0, 0.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 1,
@@ -17265,7 +17265,7 @@
 									}
 ,
 									"text" : "autopattr",
-									"varname" : "u423009554"
+									"varname" : "u063002522"
 								}
 
 							}
@@ -17498,7 +17498,7 @@
 							"architecture" : "x86"
 						}
 ,
-						"rect" : [ 1015.0, 261.0, 137.0, 116.0 ],
+						"rect" : [ 1015.0, 231.0, 137.0, 116.0 ],
 						"bgcolor" : [ 1.0, 1.0, 1.0, 0.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 1,
@@ -18003,7 +18003,7 @@
 									}
 ,
 									"text" : "autopattr",
-									"varname" : "u095009553"
+									"varname" : "u808002521"
 								}
 
 							}
@@ -18443,7 +18443,7 @@
 							"architecture" : "x86"
 						}
 ,
-						"rect" : [ 1160.0, 261.0, 122.0, 116.0 ],
+						"rect" : [ 1160.0, 231.0, 122.0, 116.0 ],
 						"bgcolor" : [ 1.0, 1.0, 1.0, 0.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 1,
@@ -20657,7 +20657,7 @@
 									}
 ,
 									"text" : "autopattr",
-									"varname" : "u350009552"
+									"varname" : "u619002520"
 								}
 
 							}
@@ -21040,7 +21040,7 @@
 							"architecture" : "x86"
 						}
 ,
-						"rect" : [ 266.0, 920.0, 467.0, 234.0 ],
+						"rect" : [ 266.0, 890.0, 467.0, 234.0 ],
 						"bgcolor" : [ 1.0, 1.0, 1.0, 0.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 1,
@@ -21532,7 +21532,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 762.0, 655.0, 278.0, 98.0 ],
-									"text" : "0.210207 0.206964 0.12989 0.15259 0.132926 0.100174 0.13284 0.042294 0.008876 0.025279 0.045574 0.03209 0.060016 0.010708 0.004082 0.010171 0.01152 0.006764 0.015147 0.012851 0.009647 0.019705 0.00684 0.006008 0.008917 0.010076 0.005103 0.00935 0.009073 0.007093 0.003218 0.004055"
+									"text" : "0.034332 0.023199 0.019894 0.065589 0.012036 0.015372 0.006202 0.04341 0.003172 0.004472 0.005922 0.001816 0.003137 0.001384 0.003326 0.001458 0.00123 0.000778 0.00083 0.003418 0.000993 0.000883 0.001015 0.001467 0.000839 0.000567 0.000649 0.001339 0.000538 0.000752 0.000684 0.000552"
 								}
 
 							}
@@ -30946,7 +30946,7 @@
 							"architecture" : "x86"
 						}
 ,
-						"rect" : [ 304.0, 658.0, 129.0, 116.0 ],
+						"rect" : [ 304.0, 628.0, 129.0, 116.0 ],
 						"bgcolor" : [ 1.0, 1.0, 1.0, 0.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 1,
@@ -31234,13 +31234,13 @@
 									"patching_rect" : [ 175.236206, 372.0, 59.5, 20.0 ],
 									"restore" : 									{
 										"Mute" : [ 0.0 ],
-										"Pitch" : [ 40.977257 ],
-										"Pitch[1]" : [ 40.977257 ],
+										"Pitch" : [ 41.059368 ],
+										"Pitch[1]" : [ 41.059368 ],
 										"Smoothing" : [ 3128.110352 ]
 									}
 ,
 									"text" : "autopattr",
-									"varname" : "u622009551"
+									"varname" : "u374002519"
 								}
 
 							}
@@ -31581,7 +31581,7 @@
 							"architecture" : "x86"
 						}
 ,
-						"rect" : [ 391.0, 243.0, 71.0, 116.0 ],
+						"rect" : [ 391.0, 213.0, 71.0, 116.0 ],
 						"bgcolor" : [ 1.0, 1.0, 1.0, 0.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 1,
@@ -31682,7 +31682,7 @@
 									"outlettype" : [ "", "", "", "" ],
 									"patching_rect" : [ 619.0, 299.0, 59.5, 20.0 ],
 									"text" : "autopattr",
-									"varname" : "u371009550"
+									"varname" : "u273002518"
 								}
 
 							}
@@ -31859,7 +31859,7 @@
 							"architecture" : "x86"
 						}
 ,
-						"rect" : [ 818.0, 872.0, 148.0, 116.0 ],
+						"rect" : [ 818.0, 842.0, 148.0, 116.0 ],
 						"bgcolor" : [ 1.0, 1.0, 1.0, 0.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 1,
@@ -32085,9 +32085,9 @@
 									"orientation" : 1,
 									"outlettype" : [ "signal", "signal", "", "float", "list" ],
 									"parameter_enable" : 1,
-									"patching_rect" : [ 748.1875, 261.0, 197.0, 38.0 ],
+									"patching_rect" : [ 748.1875, 261.0, 197.0, 24.0 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 72.896645, 47.792229, 68.0, 38.0 ],
+									"presentation_rect" : [ 72.896645, 47.792229, 68.0, 24.0 ],
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
 											"parameter_longname" : "Level",
@@ -32219,7 +32219,7 @@
 									}
 ,
 									"text" : "autopattr",
-									"varname" : "u547009549"
+									"varname" : "u758002517"
 								}
 
 							}
@@ -32797,79 +32797,79 @@
 			}
  ],
 		"parameters" : 		{
-			"obj-11::obj-20" : [ "RangeSwitch", "RangeSwitch", 0 ],
-			"obj-31::obj-51" : [ "Freq[2]", "Freq", 0 ],
-			"obj-42::obj-151" : [ "LoopStart", "LoopStart", 0 ],
-			"obj-42::obj-57" : [ "Snap", "Snap", 0 ],
-			"obj-31::obj-20" : [ "mute[1]", "mute", 0 ],
+			"obj-3::obj-56" : [ "OutputChannel", "OutputChannel", 0 ],
+			"obj-2::obj-25" : [ "Base", "Base", 0 ],
+			"obj-17::obj-11" : [ "PWM", "PWM", 0 ],
+			"obj-31::obj-72" : [ "MIDI[1]", "MIDI", 0 ],
+			"obj-10::obj-3" : [ "Pitch[1]", "Pitch", 0 ],
+			"obj-13::obj-20" : [ "RangeSwitch[2]", "RangeSwitch", 0 ],
+			"obj-31::obj-43" : [ "Type[1]", "Type", 0 ],
+			"obj-42::obj-171" : [ "RootPitch", "RootPitch", 0 ],
+			"obj-15::obj-39" : [ "1", "1", 0 ],
 			"obj-6::obj-53" : [ "Mute[6]", "Mute", 0 ],
-			"obj-17::obj-106" : [ "CV3", "CV3", 0 ],
-			"obj-15::obj-32" : [ "2", "2", 0 ],
-			"obj-42::obj-61" : [ "Loop", "Loop", 0 ],
-			"obj-17::obj-46" : [ "Offset[2]", "Offset", 0 ],
+			"obj-2::obj-26" : [ "Gain", "Gain", 0 ],
+			"obj-4::obj-46" : [ "Semi", "Semi", 0 ],
+			"obj-6::obj-8" : [ "dict[1]", "dict", -1 ],
+			"obj-15::obj-64" : [ "MuteCh3", "MuteCh3", 0 ],
+			"obj-3::obj-22" : [ "Mute", "Mute", 0 ],
 			"obj-15::obj-49" : [ "MuteCh1", "MuteCh1", 0 ],
-			"obj-5::obj-20" : [ "Frequency", "Freq", 0 ],
-			"obj-17::obj-45" : [ "TimeMode", "TimeMode", 1 ],
-			"obj-17::obj-51" : [ "Freq[1]", "Freq", 0 ],
-			"obj-35::obj-129" : [ "Domain", "Domain", 0 ],
-			"obj-2::obj-69" : [ "Source", "Source", 0 ],
-			"obj-10::obj-129" : [ "Pitch", "Pitch", 0 ],
-			"obj-42::obj-49" : [ "RecordGate", "RecordGate", 0 ],
-			"obj-17::obj-53" : [ "Mute[5]", "Mute", 0 ],
-			"obj-15::obj-37" : [ "Mute[4]", "Mute", 0 ],
-			"obj-31::obj-46" : [ "Semi[1]", "Semi", 0 ],
+			"obj-4::obj-72" : [ "MIDI", "MIDI", 0 ],
+			"obj-17::obj-129" : [ "CV2", "CV2", 0 ],
+			"obj-17::obj-4" : [ "Waveform", "Waveform", 0 ],
+			"obj-10::obj-5" : [ "Smoothing", "Smoothing", 0 ],
+			"obj-42::obj-61" : [ "Loop", "Loop", 0 ],
+			"obj-42::obj-129" : [ "SampleStart", "SampleStart", 0 ],
+			"obj-11::obj-20" : [ "RangeSwitch", "RangeSwitch", 0 ],
+			"obj-15::obj-32" : [ "2", "2", 0 ],
+			"obj-3::obj-52" : [ "Level", "Level", 0 ],
+			"obj-17::obj-106" : [ "CV3", "CV3", 0 ],
 			"obj-4::obj-28" : [ "Volts", "Volts", 0 ],
-			"obj-4::obj-51" : [ "Freq", "Freq", 0 ],
+			"obj-9::obj-20" : [ "bypass[1]", "bypass", 0 ],
+			"obj-12::obj-20" : [ "RangeSwitch[1]", "RangeSwitch", 0 ],
+			"obj-5::obj-20" : [ "Frequency", "Freq", 0 ],
+			"obj-3::obj-55" : [ "DSP", "DSP", 0 ],
+			"obj-42::obj-152" : [ "LoopEnd", "LoopEnd", 0 ],
+			"obj-42::obj-57" : [ "Snap", "Snap", 0 ],
+			"obj-10::obj-12" : [ "Mute[1]", "Mute", 0 ],
 			"obj-15::obj-29" : [ "3", "3", 0 ],
+			"obj-31::obj-20" : [ "mute[1]", "mute", 0 ],
+			"obj-36::obj-6" : [ "bypass", "bypass", 0 ],
+			"obj-35::obj-129" : [ "Domain", "Domain", 0 ],
+			"obj-17::obj-51" : [ "Freq[1]", "Freq", 0 ],
+			"obj-15::obj-58" : [ "MuteCh2", "MuteCh2", 0 ],
+			"obj-6::obj-80" : [ "EditMode[1]", "EditMode", 0 ],
+			"obj-17::obj-46" : [ "Offset[2]", "Offset", 0 ],
+			"obj-17::obj-53" : [ "Mute[5]", "Mute", 0 ],
+			"obj-42::obj-20" : [ "power", "power", 0 ],
+			"obj-15::obj-37" : [ "Mute[4]", "Mute", 0 ],
+			"obj-42::obj-151" : [ "LoopStart", "LoopStart", 0 ],
+			"obj-8::obj-16" : [ "range", "range", 0 ],
+			"obj-31::obj-46" : [ "Semi[1]", "Semi", 0 ],
+			"obj-42::obj-32" : [ "getsamplelength", "getsamplelength", 0 ],
+			"obj-15::obj-33" : [ "4", "4", 0 ],
+			"obj-6::obj-23" : [ "CV[1]", "CV", 0 ],
+			"obj-17::obj-107" : [ "Linear", "Linear", 0 ],
+			"obj-9::obj-3" : [ "Signal[1]", "Signal", 0 ],
+			"obj-33" : [ "storage", "storage", 0 ],
+			"obj-2::obj-51" : [ "divide", "divide", 0 ],
+			"obj-15::obj-70" : [ "MuteCh4", "MuteCh4", 0 ],
+			"obj-5::obj-12" : [ "Mute[3]", "Mute", 0 ],
 			"obj-17::obj-36" : [ "PW", "PW", 0 ],
 			"obj-37::obj-20" : [ "RangeSwitch[3]", "RangeSwitch", 0 ],
-			"obj-33" : [ "storage", "storage", 0 ],
-			"obj-2::obj-26" : [ "Gain", "Gain", 0 ],
-			"obj-10::obj-3" : [ "Pitch[1]", "Pitch", 0 ],
-			"obj-31::obj-43" : [ "Type[1]", "Type", 0 ],
-			"obj-6::obj-33" : [ "Offset[3]", "Offset", 0 ],
-			"obj-42::obj-171" : [ "RootPitch", "RootPitch", 0 ],
-			"obj-4::obj-72" : [ "MIDI", "MIDI", 0 ],
-			"obj-5::obj-12" : [ "Mute[3]", "Mute", 0 ],
-			"obj-31::obj-28" : [ "Volts[1]", "Volts", 0 ],
-			"obj-6::obj-23" : [ "CV[1]", "CV", 0 ],
-			"obj-9::obj-20" : [ "bypass[1]", "bypass", 0 ],
-			"obj-15::obj-33" : [ "4", "4", 0 ],
-			"obj-4::obj-46" : [ "Semi", "Semi", 0 ],
-			"obj-17::obj-11" : [ "PWM", "PWM", 0 ],
-			"obj-15::obj-58" : [ "MuteCh2", "MuteCh2", 0 ],
-			"obj-13::obj-20" : [ "RangeSwitch[2]", "RangeSwitch", 0 ],
-			"obj-3::obj-52" : [ "Level", "Level", 0 ],
+			"obj-10::obj-129" : [ "Pitch", "Pitch", 0 ],
 			"obj-35::obj-20" : [ "mute[2]", "mute", 0 ],
-			"obj-10::obj-5" : [ "Smoothing", "Smoothing", 0 ],
-			"obj-4::obj-43" : [ "Type", "Type", 0 ],
-			"obj-42::obj-129" : [ "SampleStart", "SampleStart", 0 ],
-			"obj-10::obj-12" : [ "Mute[1]", "Mute", 0 ],
-			"obj-3::obj-55" : [ "DSP", "DSP", 0 ],
-			"obj-2::obj-25" : [ "Base", "Base", 0 ],
-			"obj-8::obj-16" : [ "range", "range", 0 ],
-			"obj-6::obj-80" : [ "EditMode[1]", "EditMode", 0 ],
-			"obj-17::obj-107" : [ "Linear", "Linear", 0 ],
-			"obj-17::obj-4" : [ "Waveform", "Waveform", 0 ],
-			"obj-15::obj-70" : [ "MuteCh4", "MuteCh4", 0 ],
-			"obj-12::obj-20" : [ "RangeSwitch[1]", "RangeSwitch", 0 ],
-			"obj-2::obj-51" : [ "divide", "divide", 0 ],
-			"obj-35::obj-106" : [ "CV3[1]", "CV3", 0 ],
-			"obj-31::obj-72" : [ "MIDI[1]", "MIDI", 0 ],
-			"obj-42::obj-152" : [ "LoopEnd", "LoopEnd", 0 ],
-			"obj-36::obj-6" : [ "bypass", "bypass", 0 ],
-			"obj-42::obj-32" : [ "getsamplelength", "getsamplelength", 0 ],
-			"obj-6::obj-8" : [ "dict[1]", "dict", -1 ],
 			"obj-42::obj-19" : [ "replace", "replace", 0 ],
 			"obj-4::obj-20" : [ "mute", "mute", 0 ],
-			"obj-3::obj-56" : [ "OutputChannel", "OutputChannel", 0 ],
-			"obj-17::obj-129" : [ "CV2", "CV2", 0 ],
-			"obj-15::obj-39" : [ "1", "1", 0 ],
-			"obj-3::obj-22" : [ "Mute", "Mute", 0 ],
-			"obj-9::obj-3" : [ "Signal[1]", "Signal", 0 ],
+			"obj-31::obj-51" : [ "Freq[2]", "Freq", 0 ],
+			"obj-42::obj-49" : [ "RecordGate", "RecordGate", 0 ],
+			"obj-4::obj-43" : [ "Type", "Type", 0 ],
+			"obj-6::obj-33" : [ "Offset[3]", "Offset", 0 ],
+			"obj-4::obj-51" : [ "Freq", "Freq", 0 ],
+			"obj-31::obj-28" : [ "Volts[1]", "Volts", 0 ],
 			"obj-42::obj-8" : [ "write", "write", 0 ],
-			"obj-15::obj-64" : [ "MuteCh3", "MuteCh3", 0 ],
-			"obj-42::obj-20" : [ "power", "power", 0 ]
+			"obj-2::obj-69" : [ "Source", "Source", 0 ],
+			"obj-17::obj-45" : [ "TimeMode", "TimeMode", 1 ],
+			"obj-35::obj-106" : [ "CV3[1]", "CV3", 0 ]
 		}
 ,
 		"dependency_cache" : [ 			{
