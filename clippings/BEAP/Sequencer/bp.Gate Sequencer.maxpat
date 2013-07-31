@@ -171,7 +171,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 1111.0, 938.0, 50.0, 18.0 ],
-									"text" : "4."
+									"text" : "4"
 								}
 
 							}
@@ -221,7 +221,7 @@
 										"valueof" : 										{
 											"parameter_longname" : "Steps",
 											"parameter_shortname" : "Steps",
-											"parameter_type" : 0,
+											"parameter_type" : 1,
 											"parameter_mmin" : 1.0,
 											"parameter_mmax" : 32.0,
 											"parameter_initial_enable" : 1,
@@ -1906,7 +1906,7 @@
 										"Reset" : [ 0.0 ],
 										"Steps" : [ 4.0 ],
 										"Sync" : [ 0.0 ],
-										"live.grid" : [ 3, 4, 1, 0, 2, 1000, 3000, 2, 2, 2, 2 ],
+										"live.grid" : [ 3, 4, 1, 0, 4, 0, 1000, 2000, 3000, 2, 2, 2, 2 ],
 										"max pulse[1]" : [ 10.0 ],
 										"mute" : [ 0.0 ],
 										"swing amount" : [ 0.0 ],
@@ -1914,7 +1914,7 @@
 									}
 ,
 									"text" : "autopattr",
-									"varname" : "u575006783"
+									"varname" : "u437003375"
 								}
 
 							}
@@ -2490,16 +2490,16 @@
  ],
 		"lines" : [  ],
 		"parameters" : 		{
-			"obj-12::obj-20" : [ "mute[2]", "mute", 0 ],
-			"obj-12::obj-96" : [ "Pulse[1]", "Pulse", 0 ],
-			"obj-12::obj-157" : [ "Swing enable", "Swing enable", 0 ],
+			"obj-12::obj-120" : [ "Max pulse[1]", "Max pulse", 0 ],
+			"obj-12::obj-95" : [ "Steps", "Steps", 0 ],
+			"obj-12::obj-89" : [ "Reset", "Reset", 0 ],
 			"obj-12::obj-155" : [ "Swing amount", "Swing amount", 0 ],
 			"obj-12::obj-28" : [ "Attack[1]", "Attack", 0 ],
-			"obj-12::obj-120" : [ "Max pulse[1]", "Max pulse", 0 ],
-			"obj-12::obj-89" : [ "Reset", "Reset", 0 ],
-			"obj-12::obj-95" : [ "Steps", "Steps", 0 ],
+			"obj-12::obj-157" : [ "Swing enable", "Swing enable", 0 ],
 			"obj-12::obj-139" : [ "ClockSelect", "ClockSelect", 0 ],
-			"obj-12::obj-125" : [ "NoteGrid", "NoteGrid", 0 ]
+			"obj-12::obj-125" : [ "NoteGrid", "NoteGrid", 0 ],
+			"obj-12::obj-20" : [ "mute[2]", "mute", 0 ],
+			"obj-12::obj-96" : [ "Pulse[1]", "Pulse", 0 ]
 		}
 ,
 		"dependency_cache" : [ 			{

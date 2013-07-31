@@ -88,7 +88,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 1017.800537, 1245.0, 50.0, 18.0 ],
-									"text" : "12 2 1"
+									"text" : "4 2 1"
 								}
 
 							}
@@ -441,7 +441,7 @@
 										"valueof" : 										{
 											"parameter_longname" : "Steps",
 											"parameter_shortname" : "Steps",
-											"parameter_type" : 0,
+											"parameter_type" : 1,
 											"parameter_mmin" : 1.0,
 											"parameter_mmax" : 32.0,
 											"parameter_initial_enable" : 1,
@@ -2070,7 +2070,7 @@
 									}
 ,
 									"text" : "autopattr",
-									"varname" : "u481002723"
+									"varname" : "u479003429"
 								}
 
 							}
@@ -2736,15 +2736,15 @@
  ],
 		"lines" : [  ],
 		"parameters" : 		{
-			"obj-10::obj-74" : [ "bypass", "bypass", 0 ],
+			"obj-10::obj-120" : [ "Max pulse[1]", "Max pulse", 0 ],
 			"obj-10::obj-95" : [ "Steps", "Steps", 0 ],
 			"obj-10::obj-89" : [ "Reset", "Reset", 0 ],
 			"obj-10::obj-155" : [ "Swing amount", "Swing amount", 0 ],
-			"obj-10::obj-157" : [ "Swing enable", "Swing enable", 0 ],
-			"obj-10::obj-120" : [ "Max pulse[1]", "Max pulse", 0 ],
-			"obj-10::obj-139" : [ "ClockSelect", "ClockSelect", 0 ],
-			"obj-10::obj-125" : [ "NoteGrid", "NoteGrid", 0 ],
+			"obj-10::obj-74" : [ "bypass", "bypass", 0 ],
 			"obj-10::obj-28" : [ "Attack", "Attack", 0 ],
+			"obj-10::obj-139" : [ "ClockSelect", "ClockSelect", 0 ],
+			"obj-10::obj-157" : [ "Swing enable", "Swing enable", 0 ],
+			"obj-10::obj-125" : [ "NoteGrid", "NoteGrid", 0 ],
 			"obj-10::obj-96" : [ "Pulse", "Pulse", 0 ]
 		}
 ,
