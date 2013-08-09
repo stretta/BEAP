@@ -5,7 +5,7 @@
 			"major" : 6,
 			"minor" : 1,
 			"revision" : 3,
-			"architecture" : "x86"
+			"architecture" : "x64"
 		}
 ,
 		"rect" : [ 25.0, 69.0, 640.0, 480.0 ],
@@ -40,7 +40,7 @@
 							"major" : 6,
 							"minor" : 1,
 							"revision" : 3,
-							"architecture" : "x86"
+							"architecture" : "x64"
 						}
 ,
 						"rect" : [ 25.0, 69.0, 372.0, 116.0 ],
@@ -653,7 +653,7 @@
 									}
 ,
 									"text" : "autopattr",
-									"varname" : "u694010387"
+									"varname" : "u867001992"
 								}
 
 							}
@@ -687,7 +687,7 @@
 									"patching_rect" : [ 747.0, 231.907471, 48.0, 27.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 2.0, 19.0, 56.0, 17.0 ],
-									"text" : "CAPTURE",
+									"text" : "RECORDR",
 									"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 								}
 
@@ -1053,12 +1053,12 @@
  ],
 		"lines" : [  ],
 		"parameters" : 		{
+			"obj-3::obj-76" : [ "Record", "Record", 0 ],
 			"obj-3::obj-74" : [ "Channels", "Channels", 0 ],
 			"obj-3::obj-7" : [ "AutoName", "AutoName", 0 ],
-			"obj-3::obj-73" : [ "Format", "Format", 0 ],
-			"obj-3::obj-76" : [ "Record", "Record", 0 ],
+			"obj-3::obj-77" : [ "getsamplelength", "getsamplelength", 0 ],
 			"obj-3::obj-52" : [ "Level", "Level", 0 ],
-			"obj-3::obj-77" : [ "getsamplelength", "getsamplelength", 0 ]
+			"obj-3::obj-73" : [ "Format", "Format", 0 ]
 		}
 ,
 		"dependency_cache" : [  ]

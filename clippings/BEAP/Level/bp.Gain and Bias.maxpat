@@ -8,7 +8,7 @@
 			"architecture" : "x64"
 		}
 ,
-		"rect" : [ 44.0, 136.0, 1440.0, 753.0 ],
+		"rect" : [ 1012.0, 466.0, 1440.0, 753.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -30,7 +30,7 @@
 		"boxes" : [ 			{
 				"box" : 				{
 					"embed" : 1,
-					"id" : "obj-9",
+					"id" : "obj-2",
 					"maxclass" : "bpatcher",
 					"numinlets" : 1,
 					"numoutlets" : 1,
@@ -44,7 +44,7 @@
 							"architecture" : "x64"
 						}
 ,
-						"rect" : [ 44.0, 136.0, 146.0, 116.0 ],
+						"rect" : [ 1012.0, 466.0, 146.0, 116.0 ],
 						"bgcolor" : [ 1.0, 1.0, 1.0, 0.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 1,
@@ -73,21 +73,22 @@
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "float" ],
 									"parameter_enable" : 1,
-									"patching_rect" : [ 353.562378, 73.0, 51.0, 15.0 ],
+									"patching_rect" : [ 353.562378, 73.0, 129.5, 15.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 90.062378, 43.0, 49.121742, 15.0 ],
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
-											"parameter_longname" : "presets",
+											"parameter_longname" : "presets[1]",
 											"parameter_shortname" : "presets",
 											"parameter_type" : 2,
-											"parameter_enum" : [ "default", "unipolar to bipolar", "bipolar to unipolar", "inversion" ]
+											"parameter_enum" : [ "default", "bipolar to unipolar +", "bipolar to unipolar -", "unipolar + to bipolar", "unipolar - to bipolar", "inversion" ]
 										}
 
 									}
 ,
 									"textcolor" : [ 0.278431, 0.839216, 1.0, 1.0 ],
-									"tricolor" : [ 0.278431, 0.839216, 1.0, 1.0 ]
+									"tricolor" : [ 0.278431, 0.839216, 1.0, 1.0 ],
+									"varname" : "live.menu"
 								}
 
 							}
@@ -108,7 +109,7 @@
 , 							{
 								"box" : 								{
 									"coll_data" : 									{
-										"count" : 4,
+										"count" : 6,
 										"data" : [ 											{
 												"key" : 0,
 												"value" : [ 100, 0 ]
@@ -123,6 +124,14 @@
 											}
 , 											{
 												"key" : 3,
+												"value" : [ 200, -5 ]
+											}
+, 											{
+												"key" : 4,
+												"value" : [ 50, 2.5 ]
+											}
+, 											{
+												"key" : 5,
 												"value" : [ -100, 0 ]
 											}
  ]
@@ -209,18 +218,23 @@
 									"numinlets" : 1,
 									"numoutlets" : 2,
 									"outlettype" : [ "", "float" ],
-									"parameter_enable" : 1,
+									"parameter_enable" : 0,
 									"patching_rect" : [ 353.562378, 184.5, 44.0, 47.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 2.0, 43.0, 44.0, 47.0 ],
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
-											"parameter_longname" : "Gain",
-											"parameter_shortname" : "Gain",
 											"parameter_type" : 0,
-											"parameter_mmin" : -200.0,
-											"parameter_mmax" : 200.0,
-											"parameter_unitstyle" : 5
+											"parameter_mmax" : 0,
+											"parameter_modmin" : 0,
+											"parameter_modmax" : 0,
+											"parameter_initial_enable" : 0,
+											"parameter_unitstyle" : 0,
+											"parameter_steps" : 0,
+											"parameter_speedlim" : 0,
+											"parameter_defer" : 0,
+											"parameter_info" : 0,
+											"parameter_annotation_name" : 0
 										}
 
 									}
@@ -257,7 +271,7 @@
 									"presentation_rect" : [ 45.062378, 43.0, 44.0, 47.0 ],
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
-											"parameter_longname" : "Bias",
+											"parameter_longname" : "Bias[1]",
 											"parameter_shortname" : "Bias",
 											"parameter_type" : 0,
 											"parameter_mmin" : -5.0,
@@ -285,13 +299,14 @@
 									"outlettype" : [ "", "", "", "" ],
 									"patching_rect" : [ 510.0, 518.0, 59.5, 20.0 ],
 									"restore" : 									{
-										"Bias" : [ 0.0 ],
-										"Gain" : [ 100.0 ],
-										"Mute" : [ 0.0 ]
+										"Bias" : [ 2.5 ],
+										"Gain" : [ 50.0 ],
+										"Mute" : [ 0.0 ],
+										"live.menu" : [ 1.0 ]
 									}
 ,
 									"text" : "autopattr",
-									"varname" : "u459003190"
+									"varname" : "u842001901"
 								}
 
 							}
@@ -423,20 +438,24 @@
 									"numinlets" : 1,
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
-									"parameter_enable" : 1,
+									"parameter_enable" : 0,
 									"patching_rect" : [ 189.236206, 387.0, 40.0, 20.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 94.0, 19.0, 47.0, 14.764645 ],
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
-											"parameter_longname" : "bypass",
-											"parameter_shortname" : "bypass",
-											"parameter_type" : 2,
-											"parameter_mmax" : 1.0,
-											"parameter_enum" : [ "val1", "val2" ],
-											"parameter_initial_enable" : 1,
-											"parameter_initial" : [ 0.0 ],
-											"parameter_defer" : 1
+											"parameter_type" : 0,
+											"parameter_mmax" : 0,
+											"parameter_modmin" : 0,
+											"parameter_modmax" : 0,
+											"parameter_initial_enable" : 0,
+											"parameter_unitstyle" : 0,
+											"parameter_exponent" : 0,
+											"parameter_steps" : 0,
+											"parameter_speedlim" : 0,
+											"parameter_defer" : 0,
+											"parameter_info" : 0,
+											"parameter_annotation_name" : 0
 										}
 
 									}
@@ -689,17 +708,15 @@
 					}
 ,
 					"patching_rect" : [ 0.0, 0.0, 146.0, 116.0 ],
-					"varname" : "GainAndBias"
+					"varname" : "GainAndBias[1]"
 				}
 
 			}
  ],
 		"lines" : [  ],
 		"parameters" : 		{
-			"obj-9::obj-1" : [ "Bias", "Bias", 0 ],
-			"obj-9::obj-22" : [ "Gain", "Gain", 0 ],
-			"obj-9::obj-40" : [ "presets", "presets", 0 ],
-			"obj-9::obj-12" : [ "bypass", "bypass", 0 ]
+			"obj-2::obj-1" : [ "Bias[1]", "Bias", 0 ],
+			"obj-2::obj-40" : [ "presets[1]", "presets", 0 ]
 		}
 ,
 		"dependency_cache" : [  ]
