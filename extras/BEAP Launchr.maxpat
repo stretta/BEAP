@@ -8,7 +8,7 @@
 			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 728.0, 43.0, 515.0, 228.0 ],
+		"rect" : [ 500.0, 50.0, 515.0, 228.0 ],
 		"bgcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
@@ -107,7 +107,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 91.0, 151.0, 62.0, 18.0 ],
-					"save" : [ "#N", "thispatcher", ";", "#Q", "window", "flags", "nogrow", "close", "nozoom", "float", "menu", "minimize", ";", "#Q", "window", "constrain", 50, 50, 32768, 32768, ";", "#Q", "window", "size", 728, 43, 1243, 271, ";", "#Q", "window", "title", ";", "#Q", "window", "exec", ";", "#Q", "savewindow", 1, ";", "#Q", "end", ";" ],
+					"save" : [ "#N", "thispatcher", ";", "#Q", "window", "flags", "nogrow", "close", "nozoom", "float", "menu", "minimize", ";", "#Q", "window", "constrain", 50, 50, 32768, 32768, ";", "#Q", "window", "size", 500, 50, 1015, 278, ";", "#Q", "window", "title", ";", "#Q", "window", "exec", ";", "#Q", "savewindow", 1, ";", "#Q", "end", ";" ],
 					"text" : "thispatcher"
 				}
 
@@ -1359,7 +1359,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 1031.487183, 4490.140625, 62.0, 18.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 269.0, 196.201477, 63.0, 18.0 ],
+					"presentation_rect" : [ 259.0, 175.066071, 63.0, 18.0 ],
 					"text" : "Sequencer",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
@@ -1377,7 +1377,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 1031.487305, 4219.140625, 41.0, 18.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 269.0, 175.066101, 42.0, 18.0 ],
+					"presentation_rect" : [ 259.0, 153.930695, 42.0, 18.0 ],
 					"text" : "Scope",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
@@ -1395,7 +1395,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 1031.487183, 3908.140625, 57.0, 18.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 269.0, 153.930664, 58.0, 18.0 ],
+					"presentation_rect" : [ 259.0, 132.795258, 58.0, 18.0 ],
 					"text" : "Quantizer",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
@@ -1413,7 +1413,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 1012.0, 3540.050049, 43.0, 18.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 269.0, 132.795288, 44.0, 18.0 ],
+					"presentation_rect" : [ 259.0, 111.659882, 44.0, 18.0 ],
 					"text" : "Output",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
@@ -1431,7 +1431,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 1012.000183, 3265.172363, 57.0, 18.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 269.0, 111.659851, 58.0, 18.0 ],
+					"presentation_rect" : [ 259.0, 90.524445, 58.0, 18.0 ],
 					"text" : "Oscillator",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
@@ -1449,7 +1449,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 1012.0, 2963.898682, 52.0, 18.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 269.0, 90.524475, 53.0, 18.0 ],
+					"presentation_rect" : [ 259.0, 69.389069, 53.0, 18.0 ],
 					"text" : "Monome",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
@@ -1467,7 +1467,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 1012.0, 2728.898682, 42.0, 18.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 269.0, 69.389038, 43.0, 18.0 ],
+					"presentation_rect" : [ 259.0, 48.253632, 43.0, 18.0 ],
 					"text" : "Mixers",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
@@ -1485,7 +1485,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 1012.0, 2428.0, 32.0, 18.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 269.0, 48.253632, 32.0, 18.0 ],
+					"presentation_rect" : [ 8.999985, 196.201477, 32.0, 18.0 ],
 					"text" : "MIDI",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
@@ -1503,7 +1503,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 1012.0, 2148.0, 43.0, 18.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 4.0, 196.201477, 44.0, 18.0 ],
+					"presentation_rect" : [ 4.0, 174.201477, 44.0, 18.0 ],
 					"text" : "Master",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
@@ -1521,7 +1521,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 1012.0, 1914.0, 30.0, 18.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 4.0, 175.066101, 30.0, 18.0 ],
+					"presentation_rect" : [ 4.0, 153.066101, 30.0, 18.0 ],
 					"text" : "LFO",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
@@ -1539,7 +1539,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 1012.0, 1630.0, 36.0, 18.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 4.0, 153.930664, 37.0, 18.0 ],
+					"presentation_rect" : [ 4.0, 131.930664, 37.0, 18.0 ],
 					"text" : "Level",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
@@ -1557,7 +1557,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 1012.0, 1349.0, 35.0, 18.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 4.0, 132.795288, 36.0, 18.0 ],
+					"presentation_rect" : [ 4.0, 110.795288, 36.0, 18.0 ],
 					"text" : "Filter",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
@@ -1575,7 +1575,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 1012.0, 1108.0, 55.0, 18.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 4.0, 111.659851, 56.0, 18.0 ],
+					"presentation_rect" : [ 4.0, 89.659851, 56.0, 18.0 ],
 					"text" : "Envelope",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
@@ -1593,26 +1593,8 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 1012.0, 791.0, 44.0, 18.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 4.0, 90.524445, 45.0, 18.0 ],
+					"presentation_rect" : [ 4.0, 68.524445, 45.0, 18.0 ],
 					"text" : "Effects",
-					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontface" : 1,
-					"fontname" : "Arial",
-					"fontsize" : 10.0,
-					"frgb" : 0.0,
-					"id" : "obj-7",
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 1012.0, 519.0, 66.0, 18.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 4.0, 69.389038, 67.0, 18.0 ],
-					"text" : "Conversion",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 
@@ -1714,7 +1696,7 @@
 					"framecolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"hltcolor" : [ 0.530174, 0.530174, 0.530174, 1.0 ],
 					"id" : "obj-107",
-					"items" : [ "Detonator.maxpat", ",", "Dual Gate Sequencer.maxpat", ",", "Gate Sequencer.maxpat", ",", "Gate to Trigger.maxpat", ",", "Logic.maxpat", ",", "Metonomic Pulse.maxpat", ",", "Morphing Sequencer.maxpat", ",", "Pulse Designer.maxpat", ",", "Quadrature Risset Generator.maxpat", ",", "Sequencer.maxpat", ",", "Slide Sequencer.maxpat", ",", "swingCalc.js", ",", "Threshold.maxpat" ],
+					"items" : [ "bp.Detonator.maxpat", ",", "bp.Dual Gate Sequencer.maxpat", ",", "bp.Gate Sequencer.maxpat", ",", "bp.Gate to Trigger.maxpat", ",", "bp.Logic.maxpat", ",", "bp.Metonomic Pulse.maxpat", ",", "bp.Morphing Sequencer.maxpat", ",", "bp.Pulse Designer.maxpat", ",", "bp.Quadrature Risset Generator.maxpat", ",", "bp.Sequencer.maxpat", ",", "bp.Slide Sequencer.maxpat", ",", "bp.Threshold.maxpat", ",", "swingCalc.js" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -1722,7 +1704,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 1297.487183, 4484.291992, 207.0, 18.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 335.996277, 196.201477, 149.0, 18.0 ],
+					"presentation_rect" : [ 325.996277, 175.066071, 149.0, 18.0 ],
 					"rounded" : 4,
 					"textcolor" : [ 0.278431, 0.839216, 1.0, 1.0 ],
 					"textcolor2" : [ 0.278431, 0.839216, 1.0, 1.0 ]
@@ -1822,7 +1804,7 @@
 					"framecolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"hltcolor" : [ 0.530174, 0.530174, 0.530174, 1.0 ],
 					"id" : "obj-114",
-					"items" : [ "Beat Quantizer.maxpat", ",", "Chromatic.maxpat", ",", "Modal.maxpat", ",", "Ratios.maxpat" ],
+					"items" : [ "bp.Beat Quantizer.maxpat", ",", "bp.Quantizer.maxpat", ",", "bp.Ratios.maxpat" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -1830,7 +1812,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 1310.487183, 3908.140625, 207.0, 18.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 335.996277, 153.930664, 149.0, 18.0 ],
+					"presentation_rect" : [ 325.996277, 132.795258, 149.0, 18.0 ],
 					"rounded" : 4,
 					"textcolor" : [ 0.278431, 0.839216, 1.0, 1.0 ],
 					"textcolor2" : [ 0.278431, 0.839216, 1.0, 1.0 ]
@@ -1930,7 +1912,7 @@
 					"framecolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"hltcolor" : [ 0.530174, 0.530174, 0.530174, 1.0 ],
 					"id" : "obj-121",
-					"items" : [ "Big Scope.maxpat", ",", "History.maxpat", ",", "Radial.maxpat", ",", "Scope.maxpat", ",", "Spectral.maxpat", ",", "Value.maxpat", ",", "Volt Meter.maxpat" ],
+					"items" : [ "bp.Big Scope.maxpat", ",", "bp.History.maxpat", ",", "bp.Radial.maxpat", ",", "bp.Scope.maxpat", ",", "bp.Spectral.maxpat", ",", "bp.Value.maxpat", ",", "bp.Volt Meter.maxpat" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -1938,7 +1920,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 1310.487183, 4209.414062, 207.0, 18.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 335.996277, 175.066101, 149.0, 18.0 ],
+					"presentation_rect" : [ 325.996277, 153.930695, 149.0, 18.0 ],
 					"rounded" : 4,
 					"textcolor" : [ 0.278431, 0.839216, 1.0, 1.0 ],
 					"textcolor2" : [ 0.278431, 0.839216, 1.0, 1.0 ]
@@ -2038,7 +2020,7 @@
 					"framecolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"hltcolor" : [ 0.530174, 0.530174, 0.530174, 1.0 ],
 					"id" : "obj-65",
-					"items" : [ "Calibrated.maxpat", ",", "Capture.maxpat", ",", "Mono.maxpat", ",", "Stereo.maxpat" ],
+					"items" : [ "bp.Calibrated.maxpat", ",", "bp.M4L Out.maxpat", ",", "bp.Mono.maxpat", ",", "bp.Recordr.maxpat", ",", "bp.Stereo.maxpat" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -2046,7 +2028,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 1278.0, 3540.050049, 207.0, 18.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 335.996277, 132.795288, 149.0, 18.0 ],
+					"presentation_rect" : [ 325.996277, 111.659882, 149.0, 18.0 ],
 					"rounded" : 4,
 					"textcolor" : [ 0.278431, 0.839216, 1.0, 1.0 ],
 					"textcolor2" : [ 0.278431, 0.839216, 1.0, 1.0 ]
@@ -2146,7 +2128,7 @@
 					"framecolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"hltcolor" : [ 0.530174, 0.530174, 0.530174, 1.0 ],
 					"id" : "obj-72",
-					"items" : [ "Audio.maxpat", ",", "Pan Mixer.maxpat", ",", "Signal.maxpat", ",", "Stereo Mixer.maxpat" ],
+					"items" : [ "bp.Audio.maxpat", ",", "bp.Pan Mixer.maxpat", ",", "bp.Signal.maxpat", ",", "bp.Stereo Mixer.maxpat" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -2154,7 +2136,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 1278.0, 2728.898682, 207.0, 18.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 335.996277, 69.389038, 149.0, 18.0 ],
+					"presentation_rect" : [ 325.996277, 48.253632, 149.0, 18.0 ],
 					"rounded" : 4,
 					"textcolor" : [ 0.278431, 0.839216, 1.0, 1.0 ],
 					"textcolor2" : [ 0.278431, 0.839216, 1.0, 1.0 ]
@@ -2254,7 +2236,7 @@
 					"framecolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"hltcolor" : [ 0.530174, 0.530174, 0.530174, 1.0 ],
 					"id" : "obj-79",
-					"items" : [ "64L.maxpat", ",", "64P.maxpat", ",", "Arc DC.maxpat", ",", "Arc Flash.maxpat", ",", "Arc Ring.maxpat", ",", "Arc Trigger.maxpat", ",", "Cell.maxpat", ",", "Gate4.maxpat", ",", "GridScope.maxpat", ",", "Plane-P.maxpat", ",", "Polygome.maxpat", ",", "Switch4.maxpat" ],
+					"items" : [ "bp.64L.maxpat", ",", "bp.64P.maxpat", ",", "bp.Arc DC.maxpat", ",", "bp.Arc Flash.maxpat", ",", "bp.Arc Ring.maxpat", ",", "bp.Arc Trigger.maxpat", ",", "bp.Cell-monome.maxpat", ",", "bp.Gate4.maxpat", ",", "bp.GridScope.maxpat", ",", "bp.Plane-P.maxpat", ",", "bp.Polygome.maxpat", ",", "bp.Switch4.maxpat" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -2262,7 +2244,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 1291.0, 2963.898682, 207.0, 18.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 335.996277, 90.524475, 149.0, 18.0 ],
+					"presentation_rect" : [ 325.996277, 69.389069, 149.0, 18.0 ],
 					"rounded" : 4,
 					"textcolor" : [ 1.0, 0.58852, 0.0, 1.0 ],
 					"textcolor2" : [ 1.0, 0.58852, 0.0, 1.0 ]
@@ -2362,7 +2344,7 @@
 					"framecolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"hltcolor" : [ 0.530174, 0.530174, 0.530174, 1.0 ],
 					"id" : "obj-86",
-					"items" : [ "Arpeggiator.maxpat", ",", "Cell.maxpat", ",", "Drum Sequencer.maxpat", ",", "Fodal.maxpat", ",", "Metro Pulse.maxpat", ",", "MIDI In.maxpat", ",", "MIDI Out.maxpat", ",", "MIDI to Signal.maxpat", ",", "Modal.maxpat", ",", "Poly4.maxpat", ",", "Scalar.maxpat", ",", "Signal to MIDI.maxpat", ",", "Signal to Pulse.maxpat", ",", "Splittr.maxpat", ",", "Transpose.maxpat", ",", "Virtual Instrument.maxpat", ",", "µSeq.maxpat" ],
+					"items" : [ "bp.Arpeggiator.maxpat", ",", "bp.Cell-MIDI.maxpat", ",", "bp.Drum Sequencer.maxpat", ",", "bp.Metro Pulse.maxpat", ",", "bp.MIDI In.maxpat", ",", "bp.MIDI Out.maxpat", ",", "bp.MIDI to Signal.maxpat", ",", "bp.Poly4.maxpat", ",", "bp.Quantizer-MIDI.maxpat", ",", "bp.Scalar.maxpat", ",", "bp.Signal to MIDI.maxpat", ",", "bp.Signal to Pulse.maxpat", ",", "bp.Splittr.maxpat", ",", "bp.Transpose.maxpat", ",", "bp.Virtual Instrument.maxpat", ",", "bp.µSeq.maxpat" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -2370,7 +2352,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 1278.0, 2420.898682, 207.0, 18.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 335.996277, 48.253632, 149.0, 18.0 ],
+					"presentation_rect" : [ 75.996262, 196.201477, 163.0, 18.0 ],
 					"rounded" : 4,
 					"textcolor" : [ 0.146782, 0.869579, 0.0, 1.0 ],
 					"textcolor2" : [ 0.146782, 0.869579, 0.0, 1.0 ]
@@ -2470,7 +2452,7 @@
 					"framecolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"hltcolor" : [ 0.530174, 0.530174, 0.530174, 1.0 ],
 					"id" : "obj-93",
-					"items" : [ "CV LFO.maxpat", ",", "DFLFO.maxpat", ",", "LFO.maxpat", ",", "LFO2.maxpat", ",", "LFO3.maxpat", ",", "VPW-LFO.maxpat" ],
+					"items" : [ "bp.CV LFO.maxpat", ",", "bp.DFLFO.maxpat", ",", "bp.LFO.maxpat", ",", "bp.LFO2.maxpat", ",", "bp.LFO3.maxpat", ",", "bp.VPW-LFO.maxpat" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -2478,7 +2460,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 1278.0, 1906.898682, 207.0, 18.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 75.996262, 175.066101, 163.0, 18.0 ],
+					"presentation_rect" : [ 75.996262, 153.066101, 163.0, 18.0 ],
 					"rounded" : 4,
 					"textcolor" : [ 0.278431, 0.839216, 1.0, 1.0 ],
 					"textcolor2" : [ 0.278431, 0.839216, 1.0, 1.0 ]
@@ -2578,7 +2560,7 @@
 					"framecolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"hltcolor" : [ 0.530174, 0.530174, 0.530174, 1.0 ],
 					"id" : "obj-100",
-					"items" : [ "DSP Status.maxpat", ",", "Global Transport.maxpat", ",", "Presets.maxpat" ],
+					"items" : [ "bp.DSP Status.maxpat", ",", "bp.Global Transport.maxpat", ",", "bp.Presets.maxpat" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -2586,7 +2568,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 1291.0, 2141.898682, 207.0, 18.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 75.996262, 196.201477, 163.0, 18.0 ],
+					"presentation_rect" : [ 75.996262, 174.201477, 163.0, 18.0 ],
 					"rounded" : 4,
 					"textcolor" : [ 0.278431, 0.839216, 1.0, 1.0 ],
 					"textcolor2" : [ 0.278431, 0.839216, 1.0, 1.0 ]
@@ -2686,7 +2668,7 @@
 					"framecolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"hltcolor" : [ 0.530174, 0.530174, 0.530174, 1.0 ],
 					"id" : "obj-44",
-					"items" : [ "Attenuator Exponential.maxpat", ",", "Attenuator.maxpat", ",", "Bias.maxpat", ",", "Constant.maxpat", ",", "Envelope Follower.maxpat", ",", "Gain and Bias.maxpat", ",", "Harmonic.maxpat", ",", "Lag Processor.maxpat", ",", "Pan.maxpat", ",", "Quadrature Morph.maxpat", ",", "Sample and Hold.maxpat", ",", "Track and Hold.maxpat", ",", "Transpose.maxpat", ",", "VCA.maxpat", ",", "Wavefolder.maxpat", ",", "Wrap and Bias.maxpat", ",", "Xfade.maxpat" ],
+					"items" : [ "bp.Attenuator Exponential.maxpat", ",", "bp.Attenuator.maxpat", ",", "bp.Constant.maxpat", ",", "bp.Envelope Follower.maxpat", ",", "bp.Gain and Bias.maxpat", ",", "bp.Harmonic.maxpat", ",", "bp.Lag Processor.maxpat", ",", "bp.Pan.maxpat", ",", "bp.Quadrature Morph.maxpat", ",", "bp.Sample and Hold.maxpat", ",", "bp.Track and Hold.maxpat", ",", "bp.Transpose.maxpat", ",", "bp.VCA.maxpat", ",", "bp.Wavefolder.maxpat", ",", "bp.Wrap and Bias.maxpat", ",", "bp.Xfade.maxpat" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -2694,7 +2676,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 1278.0, 1622.0, 207.0, 18.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 75.996262, 153.930664, 163.0, 18.0 ],
+					"presentation_rect" : [ 75.996262, 131.930664, 163.0, 18.0 ],
 					"rounded" : 4,
 					"textcolor" : [ 0.278431, 0.839216, 1.0, 1.0 ],
 					"textcolor2" : [ 0.278431, 0.839216, 1.0, 1.0 ]
@@ -2794,7 +2776,7 @@
 					"framecolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"hltcolor" : [ 0.530174, 0.530174, 0.530174, 1.0 ],
 					"id" : "obj-51",
-					"items" : [ "ADSR.maxpat", ",", "ADSR2 - Adjustable Curves.maxpat", ",", "AHR.maxpat", ",", "AR.maxpat", ",", "ASR.maxpat", ",", "DADSR.maxpat", ",", "Functional.maxpat", ",", "Graphic ADSR.maxpat", ",", "VC-ADSR.maxpat" ],
+					"items" : [ "bp.ADSR.maxpat", ",", "bp.ADSR2 - Adjustable Curves.maxpat", ",", "bp.AHR.maxpat", ",", "bp.AR.maxpat", ",", "bp.ASR.maxpat", ",", "bp.DADSR.maxpat", ",", "bp.Function.maxpat", ",", "bp.Graphic ADSR.maxpat", ",", "bp.VC-ADSR.maxpat" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -2802,7 +2784,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 1278.0, 1108.0, 207.0, 18.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 75.996262, 111.659851, 163.0, 18.0 ],
+					"presentation_rect" : [ 75.996262, 89.659851, 163.0, 18.0 ],
 					"rounded" : 4,
 					"textcolor" : [ 0.278431, 0.839216, 1.0, 1.0 ],
 					"textcolor2" : [ 0.278431, 0.839216, 1.0, 1.0 ]
@@ -2902,7 +2884,7 @@
 					"framecolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"hltcolor" : [ 0.530174, 0.530174, 0.530174, 1.0 ],
 					"id" : "obj-58",
-					"items" : [ "Classroom Filter.maxpat", ",", "HPF.maxpat", ",", "Ladder.maxpat", ",", "LPF.maxpat", ",", "MFFB.maxpat", ",", "MMF.maxpat", ",", "MMF2.maxpat", ",", "Triple Morphing Filter.maxpat" ],
+					"items" : [ "bp.Classroom Filter.maxpat", ",", "bp.HPF.maxpat", ",", "bp.Ladder.maxpat", ",", "bp.LPF.maxpat", ",", "bp.MFFB.maxpat", ",", "bp.MMF.maxpat", ",", "bp.Spectral Filter.maxpat", ",", "bp.Triple Morphing Filter.maxpat" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -2910,7 +2892,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 1291.0, 1343.0, 207.0, 18.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 75.996262, 132.795288, 163.0, 18.0 ],
+					"presentation_rect" : [ 75.996262, 110.795288, 163.0, 18.0 ],
 					"rounded" : 4,
 					"textcolor" : [ 0.278431, 0.839216, 1.0, 1.0 ],
 					"textcolor2" : [ 0.278431, 0.839216, 1.0, 1.0 ]
@@ -3010,7 +2992,7 @@
 					"framecolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"hltcolor" : [ 0.530174, 0.530174, 0.530174, 1.0 ],
 					"id" : "obj-30",
-					"items" : [ "Chorus.maxpat", ",", "Compressor.maxpat", ",", "Flanger.maxpat", ",", "Freeverb.maxpat", ",", "Gate Delay.maxpat", ",", "Gigaverb.maxpat", ",", "Signal Delay.maxpat", ",", "Sync Delay.maxpat", ",", "VST Effect.maxpat" ],
+					"items" : [ "bp.Chorus.maxpat", ",", "bp.Compressor.maxpat", ",", "bp.Feedback Delay.maxpat", ",", "bp.Flanger.maxpat", ",", "bp.Freeverb.maxpat", ",", "bp.Gate Delay.maxpat", ",", "bp.Gigaverb.maxpat", ",", "bp.Signal Delay.maxpat", ",", "bp.Sync Delay.maxpat", ",", "bp.VST Effect.maxpat" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -3018,7 +3000,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 1278.0, 800.0, 207.0, 18.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 75.996262, 90.524445, 163.0, 18.0 ],
+					"presentation_rect" : [ 75.996262, 68.524445, 163.0, 18.0 ],
 					"rounded" : 4,
 					"textcolor" : [ 0.278431, 0.839216, 1.0, 1.0 ],
 					"textcolor2" : [ 0.278431, 0.839216, 1.0, 1.0 ]
@@ -3118,7 +3100,7 @@
 					"framecolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"hltcolor" : [ 0.530174, 0.530174, 0.530174, 1.0 ],
 					"id" : "obj-37",
-					"items" : [ "Cell.maxpat", ",", "Classroom Samplr.maxpat", ",", "Cloud.maxpat", ",", "Demosnd.maxpat", ",", "FM.maxpat", ",", "Folder.maxpat", ",", "Karplus.maxpat", ",", "Noise.maxpat", ",", "Oscillator.maxpat", ",", "Samplr.maxpat", ",", "Spectra.maxpat", ",", "Table.maxpat", ",", "Wave.maxpat", ",", "Waveshaper 1.maxpat" ],
+					"items" : [ "bp.Cell.maxpat", ",", "bp.Classroom Samplr.maxpat", ",", "bp.Cloud.maxpat", ",", "bp.Demosnd.maxpat", ",", "bp.FM.maxpat", ",", "bp.Folder.maxpat", ",", "bp.Karplus.maxpat", ",", "bp.Noise.maxpat", ",", "bp.Oscillator.maxpat", ",", "bp.Phase Vocoder.maxpat", ",", "bp.Samplr.maxpat", ",", "bp.Spectra.maxpat", ",", "bp.Table.maxpat", ",", "bp.Waveshaper.maxpat" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -3126,7 +3108,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 1291.0, 3265.172363, 207.0, 18.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 335.996277, 111.659851, 149.0, 18.0 ],
+					"presentation_rect" : [ 325.996277, 90.524445, 149.0, 18.0 ],
 					"rounded" : 4,
 					"textcolor" : [ 0.278431, 0.839216, 1.0, 1.0 ],
 					"textcolor2" : [ 0.278431, 0.839216, 1.0, 1.0 ]
@@ -3226,7 +3208,7 @@
 					"framecolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"hltcolor" : [ 0.530174, 0.530174, 0.530174, 1.0 ],
 					"id" : "obj-133",
-					"items" : [ "32-band analysis.maxpat", ",", "Pitch to CV.maxpat" ],
+					"items" : [ "bp.32-band analysis.maxpat", ",", "bp.Pitch to CV.maxpat" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -3324,33 +3306,6 @@
 			}
 , 			{
 				"box" : 				{
-					"arrowbgcolor" : [ 0.018335, 0.018335, 0.018335, 1.0 ],
-					"arrowcolor" : [ 0.943698, 0.943698, 0.943698, 1.0 ],
-					"arrowlink" : 0,
-					"bgcolor" : [ 0.163564, 0.163564, 0.163564, 1.0 ],
-					"bgcolor2" : [ 0.244519, 0.244519, 0.244519, 1.0 ],
-					"fontname" : "Arial",
-					"fontsize" : 10.0,
-					"framecolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-					"hltcolor" : [ 0.530174, 0.530174, 0.530174, 1.0 ],
-					"id" : "obj-8",
-					"items" : [ "Bipolar to Unipolar.maxpat", ",", "Inversion.maxpat", ",", "Note to Signal.maxpat", ",", "Unipolar to Bipolar.maxpat" ],
-					"maxclass" : "umenu",
-					"numinlets" : 1,
-					"numoutlets" : 3,
-					"outlettype" : [ "int", "", "" ],
-					"parameter_enable" : 0,
-					"patching_rect" : [ 1291.0, 521.0, 207.0, 18.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 75.996262, 69.389038, 163.0, 18.0 ],
-					"rounded" : 4,
-					"textcolor" : [ 0.278431, 0.839216, 1.0, 1.0 ],
-					"textcolor2" : [ 0.278431, 0.839216, 1.0, 1.0 ]
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
 					"id" : "obj-1",
@@ -3427,15 +3382,6 @@
 			}
  ],
 		"lines" : [ 			{
-				"patchline" : 				{
-					"destination" : [ "obj-8", 0 ],
-					"disabled" : 0,
-					"hidden" : 0,
-					"source" : [ "obj-1", 0 ]
-				}
-
-			}
-, 			{
 				"patchline" : 				{
 					"destination" : [ "obj-96", 1 ],
 					"disabled" : 0,
@@ -4155,15 +4101,6 @@
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-79", 1 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-11", 1 ],
-					"disabled" : 0,
-					"hidden" : 0,
-					"source" : [ "obj-8", 1 ]
 				}
 
 			}
