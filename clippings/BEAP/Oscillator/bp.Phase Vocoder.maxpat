@@ -44,7 +44,7 @@
 							"architecture" : "x86"
 						}
 ,
-						"rect" : [ 23.0, 51.0, 279.0, 214.0 ],
+						"rect" : [ 23.0, 52.0, 279.0, 214.0 ],
 						"bgcolor" : [ 1.0, 1.0, 1.0, 0.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 1,
@@ -241,8 +241,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "int" ],
 									"parameter_enable" : 0,
-									"patching_rect" : [ 526.348633, 417.59314, 20.0, 20.0 ],
-									"presentation_rect" : [ 457.348633, 438.855713, 0.0, 0.0 ]
+									"patching_rect" : [ 526.348633, 417.59314, 20.0, 20.0 ]
 								}
 
 							}
@@ -480,7 +479,7 @@
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "" ],
 									"patching_rect" : [ 77.0, 122.0, 77.0, 20.0 ],
-									"restore" : [ "Macintosh HD:/Applications/Max 6.1/examples/sounds/anton.aif" ],
+									"restore" : [ "Macintosh HD:/Applications/Max 6.1/examples/sounds/cherokee.aif" ],
 									"saved_object_attributes" : 									{
 										"parameter_enable" : 0
 									}
@@ -1170,7 +1169,6 @@
 								"box" : 								{
 									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"buffername" : "#0-pvocOriginalSample",
-									"chanoffset" : 0,
 									"fontsize" : 11.595187,
 									"gridcolor" : [ 1.0, 1.0, 1.0, 0.0 ],
 									"id" : "obj-61",
@@ -1188,7 +1186,7 @@
 									"ruler" : 0,
 									"selectioncolor" : [ 0.0, 0.0, 0.003922, 0.0 ],
 									"vticks" : 0,
-									"waveformcolor" : [ 0.278431, 0.839216, 1.0, 1.0 ]
+									"waveformcolor" : [ 0.278431, 0.839216, 1.0, 0.2 ]
 								}
 
 							}
@@ -1200,7 +1198,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "int" ],
 									"parameter_enable" : 0,
-									"patching_rect" : [ 526.348633, 503.855713, 20.0, 20.0 ]
+									"patching_rect" : [ 489.348633, 503.855713, 20.0, 20.0 ]
 								}
 
 							}
@@ -1891,14 +1889,14 @@
 									"restore" : 									{
 										"CV2" : [ 0.0 ],
 										"Mute" : [ 0.0 ],
-										"Offset" : [ 0.0 ],
-										"Position" : [ 0.0 ],
-										"PositionCV" : [ 0.0 ],
+										"Offset" : [ 4.47874 ],
+										"Position" : [ -0.519685 ],
+										"PositionCV" : [ 26.614174 ],
 										"live.text" : [ 0.0 ]
 									}
 ,
 									"text" : "autopattr",
-									"varname" : "u964001193"
+									"varname" : "u323002978"
 								}
 
 							}
@@ -2073,6 +2071,15 @@
 , 							{
 								"patchline" : 								{
 									"destination" : [ "obj-122", 0 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-119", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-71", 0 ],
 									"disabled" : 0,
 									"hidden" : 0,
 									"source" : [ "obj-119", 0 ]
@@ -2585,15 +2592,6 @@
 							}
 , 							{
 								"patchline" : 								{
-									"destination" : [ "obj-71", 0 ],
-									"disabled" : 0,
-									"hidden" : 0,
-									"source" : [ "obj-63", 0 ]
-								}
-
-							}
-, 							{
-								"patchline" : 								{
 									"destination" : [ "obj-73", 0 ],
 									"disabled" : 0,
 									"hidden" : 0,
@@ -2869,7 +2867,7 @@
  ]
 					}
 ,
-					"patching_rect" : [ 0.0, -1.0, 279.0, 214.0 ],
+					"patching_rect" : [ 0.0, 0.0, 279.0, 214.0 ],
 					"varname" : "PhaseVocoder"
 				}
 
