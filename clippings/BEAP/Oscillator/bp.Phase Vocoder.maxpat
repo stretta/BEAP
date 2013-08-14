@@ -66,6 +66,32 @@
 						"tags" : "",
 						"boxes" : [ 							{
 								"box" : 								{
+									"id" : "obj-11",
+									"maxclass" : "live.text",
+									"numinlets" : 1,
+									"numoutlets" : 2,
+									"outlettype" : [ "", "" ],
+									"parameter_enable" : 1,
+									"patching_rect" : [ 1092.0, 323.125366, 40.0, 20.0 ],
+									"saved_attribute_attributes" : 									{
+										"valueof" : 										{
+											"parameter_longname" : "live.text[1]",
+											"parameter_shortname" : "live.text[1]",
+											"parameter_type" : 2,
+											"parameter_mmax" : 1.0,
+											"parameter_enum" : [ "val1", "val2" ],
+											"parameter_initial_enable" : 1,
+											"parameter_initial" : [ 0.0 ]
+										}
+
+									}
+,
+									"varname" : "live.text[1]"
+								}
+
+							}
+, 							{
+								"box" : 								{
 									"fontname" : "Arial",
 									"fontsize" : 12.0,
 									"id" : "obj-122",
@@ -215,7 +241,7 @@
  ]
 									}
 ,
-									"patching_rect" : [ 380.598663, 503.855713, 86.0, 20.0 ],
+									"patching_rect" : [ 224.098602, 503.855713, 86.0, 20.0 ],
 									"saved_object_attributes" : 									{
 										"default_fontface" : 0,
 										"default_fontname" : "Arial",
@@ -423,7 +449,7 @@
  ]
 									}
 ,
-									"patching_rect" : [ 576.348633, 437.59314, 51.0, 20.0 ],
+									"patching_rect" : [ 442.098663, 494.59314, 51.0, 20.0 ],
 									"saved_object_attributes" : 									{
 										"default_fontface" : 0,
 										"default_fontname" : "Arial",
@@ -464,7 +490,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 526.348633, 467.852295, 69.0, 20.0 ],
+									"patching_rect" : [ 392.098663, 524.855713, 69.0, 20.0 ],
 									"text" : "gate"
 								}
 
@@ -496,12 +522,11 @@
 									"fontsize" : 12.0,
 									"frgb" : 0.0,
 									"id" : "obj-87",
-									"linecount" : 3,
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 1141.0, 374.0, 150.0, 51.0 ],
-									"text" : "I do this because loadbang does not function on paste from."
+									"patching_rect" : [ 1149.0, 323.125366, 150.0, 24.0 ],
+									"text" : "stealth init"
 								}
 
 							}
@@ -747,7 +772,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
 									"parameter_enable" : 1,
-									"patching_rect" : [ 380.598663, 571.192017, 108.0, 20.0 ],
+									"patching_rect" : [ 372.598663, 630.192017, 108.0, 20.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 155.518768, 111.211548, 108.0, 20.0 ],
 									"saved_attribute_attributes" : 									{
@@ -1169,6 +1194,7 @@
 								"box" : 								{
 									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"buffername" : "#0-pvocOriginalSample",
+									"chanoffset" : 0,
 									"fontsize" : 11.595187,
 									"gridcolor" : [ 1.0, 1.0, 1.0, 0.0 ],
 									"id" : "obj-61",
@@ -1186,7 +1212,7 @@
 									"ruler" : 0,
 									"selectioncolor" : [ 0.0, 0.0, 0.003922, 0.0 ],
 									"vticks" : 0,
-									"waveformcolor" : [ 0.278431, 0.839216, 1.0, 0.2 ]
+									"waveformcolor" : [ 0.278431, 0.839216, 1.0, 1.0 ]
 								}
 
 							}
@@ -1198,7 +1224,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "int" ],
 									"parameter_enable" : 0,
-									"patching_rect" : [ 489.348633, 503.855713, 20.0, 20.0 ]
+									"patching_rect" : [ 372.598663, 562.855713, 20.0, 20.0 ]
 								}
 
 							}
@@ -1889,14 +1915,15 @@
 									"restore" : 									{
 										"CV2" : [ 0.0 ],
 										"Mute" : [ 0.0 ],
-										"Offset" : [ 4.47874 ],
-										"Position" : [ -0.519685 ],
-										"PositionCV" : [ 26.614174 ],
-										"live.text" : [ 0.0 ]
+										"Offset" : [ 0.0 ],
+										"Position" : [ 0.0 ],
+										"PositionCV" : [ 0.0 ],
+										"live.text" : [ 0.0 ],
+										"live.text[1]" : [ 0.0 ]
 									}
 ,
 									"text" : "autopattr",
-									"varname" : "u323002978"
+									"varname" : "u644001068"
 								}
 
 							}
@@ -2070,9 +2097,19 @@
 							}
 , 							{
 								"patchline" : 								{
+									"destination" : [ "obj-85", 0 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-11", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
 									"destination" : [ "obj-122", 0 ],
 									"disabled" : 0,
 									"hidden" : 0,
+									"midpoints" : [ 535.848633, 470.224426, 233.598602, 470.224426 ],
 									"source" : [ "obj-119", 0 ]
 								}
 
@@ -2082,6 +2119,7 @@
 									"destination" : [ "obj-71", 0 ],
 									"disabled" : 0,
 									"hidden" : 0,
+									"midpoints" : [ 535.848633, 576.263, 535.848633, 576.263 ],
 									"source" : [ "obj-119", 0 ]
 								}
 
@@ -2091,6 +2129,7 @@
 									"destination" : [ "obj-94", 0 ],
 									"disabled" : 0,
 									"hidden" : 0,
+									"midpoints" : [ 535.848633, 486.724426, 401.598663, 486.724426 ],
 									"source" : [ "obj-119", 0 ]
 								}
 
@@ -2106,20 +2145,10 @@
 							}
 , 							{
 								"patchline" : 								{
-									"destination" : [ "obj-85", 0 ],
-									"disabled" : 0,
-									"hidden" : 0,
-									"midpoints" : [ 1587.137695, 752.369629, 1344.318848, 752.369629, 1344.318848, 364.0, 1101.5, 364.0 ],
-									"source" : [ "obj-12", 0 ]
-								}
-
-							}
-, 							{
-								"patchline" : 								{
 									"destination" : [ "obj-61", 0 ],
 									"disabled" : 0,
 									"hidden" : 0,
-									"midpoints" : [ 390.098663, 532.855713, 132.598633, 532.855713, 132.598633, 335.59314, 181.098602, 335.59314 ],
+									"midpoints" : [ 233.598602, 532.855713, 132.598633, 532.855713, 132.598633, 335.59314, 181.098602, 335.59314 ],
 									"source" : [ "obj-122", 0 ]
 								}
 
@@ -2851,6 +2880,7 @@
 									"destination" : [ "obj-63", 0 ],
 									"disabled" : 0,
 									"hidden" : 0,
+									"midpoints" : [ 535.848633, 402.489746, 382.098663, 402.489746 ],
 									"source" : [ "obj-98", 0 ]
 								}
 
@@ -2875,12 +2905,13 @@
  ],
 		"lines" : [  ],
 		"parameters" : 		{
-			"obj-38::obj-19" : [ "CV2", "CV2", 0 ],
-			"obj-38::obj-3" : [ "Position", "Position", 0 ],
-			"obj-38::obj-12" : [ "Mute", "Mute", 0 ],
 			"obj-38::obj-28" : [ "Offset", "Offset", 0 ],
+			"obj-38::obj-12" : [ "Mute", "Mute", 0 ],
+			"obj-38::obj-3" : [ "Position", "Position", 0 ],
+			"obj-38::obj-11" : [ "live.text[1]", "live.text[1]", 0 ],
+			"obj-38::obj-25" : [ "CV", "CV", 0 ],
 			"obj-38::obj-73" : [ "analyzing", "analyzing", 0 ],
-			"obj-38::obj-25" : [ "CV", "CV", 0 ]
+			"obj-38::obj-19" : [ "CV2", "CV2", 0 ]
 		}
 ,
 		"dependency_cache" : [ 			{

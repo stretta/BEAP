@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 1,
-			"revision" : 0,
+			"revision" : 3,
 			"architecture" : "x86"
 		}
 ,
@@ -40,7 +40,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 0,
+							"revision" : 3,
 							"architecture" : "x86"
 						}
 ,
@@ -65,6 +65,60 @@
 						"digest" : "",
 						"tags" : "",
 						"boxes" : [ 							{
+								"box" : 								{
+									"fontname" : "Arial",
+									"fontsize" : 12.0,
+									"id" : "obj-66",
+									"maxclass" : "newobj",
+									"numinlets" : 2,
+									"numoutlets" : 2,
+									"outlettype" : [ "bang", "" ],
+									"patching_rect" : [ 570.0, 8.970001, 36.0, 20.0 ],
+									"text" : "sel 0"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-64",
+									"maxclass" : "live.text",
+									"numinlets" : 1,
+									"numoutlets" : 2,
+									"outlettype" : [ "", "" ],
+									"parameter_enable" : 1,
+									"patching_rect" : [ 570.0, -32.0, 40.0, 20.0 ],
+									"saved_attribute_attributes" : 									{
+										"valueof" : 										{
+											"parameter_longname" : "live.text",
+											"parameter_shortname" : "live.text",
+											"parameter_type" : 2,
+											"parameter_mmax" : 1.0,
+											"parameter_enum" : [ "val1", "val2" ],
+											"parameter_initial_enable" : 1,
+											"parameter_initial" : [ 0.0 ]
+										}
+
+									}
+,
+									"varname" : "live.text"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"fontname" : "Arial",
+									"fontsize" : 12.0,
+									"id" : "obj-46",
+									"maxclass" : "message",
+									"numinlets" : 2,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 570.0, 48.0, 32.5, 18.0 ],
+									"text" : "60"
+								}
+
+							}
+, 							{
 								"box" : 								{
 									"fontname" : "Arial",
 									"fontsize" : 12.0,
@@ -119,14 +173,14 @@
 									"presentation_rect" : [ 457.0, 41.0, 44.0, 47.0 ],
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
-											"parameter_initial" : [ 250 ],
-											"parameter_type" : 0,
-											"parameter_initial_enable" : 1,
-											"parameter_shortname" : "Repeat",
 											"parameter_longname" : "RepeatInterval[1]",
-											"parameter_exponent" : 2.0,
+											"parameter_shortname" : "Repeat",
+											"parameter_type" : 0,
+											"parameter_mmax" : 1000.0,
+											"parameter_initial_enable" : 1,
+											"parameter_initial" : [ 250 ],
 											"parameter_unitstyle" : 2,
-											"parameter_mmax" : 1000.0
+											"parameter_exponent" : 2.0
 										}
 
 									}
@@ -236,9 +290,9 @@
 									"presentation_rect" : [ 391.411713, 41.0, 60.130524, 53.0 ],
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
-											"parameter_type" : 2,
-											"parameter_shortname" : "KeyboardMode",
 											"parameter_longname" : "KeyboardMode[1]",
+											"parameter_shortname" : "KeyboardMode",
+											"parameter_type" : 2,
 											"parameter_enum" : [ "Normal", "Drone", "Repeat" ],
 											"parameter_unitstyle" : 0
 										}
@@ -580,9 +634,9 @@
 									"presentation_rect" : [ 349.411713, 41.0, 37.130524, 53.0 ],
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
-											"parameter_type" : 2,
-											"parameter_shortname" : "Octave",
 											"parameter_longname" : "Octave[1]",
+											"parameter_shortname" : "Octave",
+											"parameter_type" : 2,
 											"parameter_enum" : [ "0", "+1", "+2" ],
 											"parameter_unitstyle" : 0
 										}
@@ -638,7 +692,7 @@
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "" ],
 									"patching_rect" : [ 878.477783, 536.5, 78.0, 20.0 ],
-									"restore" : [ 1.934714 ],
+									"restore" : [ 1.269763 ],
 									"saved_object_attributes" : 									{
 										"parameter_enable" : 0
 									}
@@ -678,7 +732,7 @@
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "" ],
 									"patching_rect" : [ 515.5, 828.0, 63.0, 20.0 ],
-									"restore" : [ -5.0 ],
+									"restore" : [ 0.0 ],
 									"saved_object_attributes" : 									{
 										"parameter_enable" : 0
 									}
@@ -855,11 +909,12 @@
 									"restore" : 									{
 										"KeyboardMode" : [ 0.0 ],
 										"Octave" : [ 0.0 ],
-										"RepeatInterval" : [ 250.0 ]
+										"RepeatInterval" : [ 250.0 ],
+										"live.text" : [ 0.0 ]
 									}
 ,
 									"text" : "autopattr",
-									"varname" : "u952001639"
+									"varname" : "u552000174"
 								}
 
 							}
@@ -1593,6 +1648,15 @@
 							}
 , 							{
 								"patchline" : 								{
+									"destination" : [ "obj-22", 0 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-46", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
 									"destination" : [ "obj-44", 0 ],
 									"disabled" : 0,
 									"hidden" : 0,
@@ -1782,6 +1846,15 @@
 							}
 , 							{
 								"patchline" : 								{
+									"destination" : [ "obj-66", 0 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-64", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
 									"destination" : [ "obj-23", 0 ],
 									"disabled" : 0,
 									"hidden" : 0,
@@ -1795,6 +1868,15 @@
 									"disabled" : 0,
 									"hidden" : 0,
 									"source" : [ "obj-65", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-46", 0 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-66", 0 ]
 								}
 
 							}
@@ -1944,9 +2026,10 @@
  ],
 		"lines" : [  ],
 		"parameters" : 		{
-			"obj-6::obj-12" : [ "KeyboardMode[1]", "KeyboardMode", 0 ],
+			"obj-6::obj-64" : [ "live.text", "live.text", 0 ],
 			"obj-6::obj-5" : [ "Octave[1]", "Octave", 0 ],
-			"obj-6::obj-58" : [ "RepeatInterval[1]", "Repeat", 0 ]
+			"obj-6::obj-58" : [ "RepeatInterval[1]", "Repeat", 0 ],
+			"obj-6::obj-12" : [ "KeyboardMode[1]", "KeyboardMode", 0 ]
 		}
 ,
 		"dependency_cache" : [  ]
