@@ -697,11 +697,10 @@
 							}
 , 							{
 								"box" : 								{
-									"addpoints" : [ 0.0, -5.0, 0, 1001.067688, 0.035973, 2, 2000.0, 5.0, 0 ],
+									"addpoints" : [ 0.0, -5.0, 0, 500.533844, 0.035973, 2, 1000.0, 5.0, 0 ],
 									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"bordercolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"clicksustain" : 0,
-									"domain" : 2000.0,
 									"grid" : 3,
 									"gridcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 									"gridstep_x" : 329.0,
@@ -746,14 +745,14 @@
 									"restore" : 									{
 										"ZoomHi" : [ 100.0 ],
 										"ZoomLo" : [ 0.0 ],
-										"domain" : [ 0.0 ],
-										"function" : [ 2000.0, -5.0, 5.0, 0.0, -5.0, 0, 1001.067688, 0.035973, 2, 2000.0, 5.0, 0, "linear" ],
+										"domain" : [ 1000.0 ],
+										"function" : [ 1000.0, -5.0, 5.0, 0.0, -5.0, 0, 500.533844, 0.035973, 2, 1000.0, 5.0, 0, "linear" ],
 										"mute" : [ 0.0 ],
 										"stealthinit" : [ 0.0 ]
 									}
 ,
 									"text" : "autopattr",
-									"varname" : "u838004274"
+									"varname" : "u046000492"
 								}
 
 							}
@@ -1188,11 +1187,11 @@
  ],
 		"lines" : [  ],
 		"parameters" : 		{
-			"obj-10::obj-73" : [ "ZoomHi", "ZoomHi", 0 ],
-			"obj-10::obj-9" : [ "stealth.init", "stealth.init", 0 ],
 			"obj-10::obj-70" : [ "ZoomLo", "ZoomLo", 0 ],
 			"obj-10::obj-20" : [ "function", "function", 0 ],
 			"obj-10::obj-129" : [ "domain", "domain", 0 ],
+			"obj-10::obj-9" : [ "stealth.init", "stealth.init", 0 ],
+			"obj-10::obj-73" : [ "ZoomHi", "ZoomHi", 0 ],
 			"obj-10::obj-65" : [ "mute", "mute", 0 ]
 		}
 ,

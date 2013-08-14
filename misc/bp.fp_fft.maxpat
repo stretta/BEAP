@@ -92,10 +92,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 351.0, 31.0, 32.0, 21.0 ],
-					"saved_object_attributes" : 					{
-						"attr_comment" : ""
-					}
-,
 					"text" : "in 2"
 				}
 
@@ -152,7 +148,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 2,
 					"numoutlets" : 0,
-					"patching_rect" : [ 10.0, 198.0, 62.0, 21.0 ],
+					"patching_rect" : [ 8.5, 237.0, 62.0, 21.0 ],
 					"text" : "fftout~ 1"
 				}
 
@@ -323,7 +319,12 @@
 				}
 
 			}
- ]
+ ],
+		"parameters" : 		{
+			"obj-8" : [ "StealthInit", "StealthInit", 0 ]
+		}
+,
+		"dependency_cache" : [  ]
 	}
 
 }

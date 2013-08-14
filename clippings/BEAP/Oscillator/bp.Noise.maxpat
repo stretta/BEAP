@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 1,
-			"revision" : 0,
+			"revision" : 3,
 			"architecture" : "x86"
 		}
 ,
@@ -40,7 +40,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 0,
+							"revision" : 3,
 							"architecture" : "x86"
 						}
 ,
@@ -88,7 +88,6 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "int" ],
 									"patching_rect" : [ 519.0, 84.529999, 32.5, 20.0 ],
-									"presentation_rect" : [ 546.0, 102.0, 0.0, 0.0 ],
 									"text" : "+ 1"
 								}
 
@@ -121,11 +120,11 @@
 									"presentation_rect" : [ 8.451996, 44.0, 79.688538, 45.0 ],
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
-											"parameter_enum" : [ "White", "Pink" ],
-											"parameter_unitstyle" : 0,
-											"parameter_type" : 2,
+											"parameter_longname" : "NoiseType",
 											"parameter_shortname" : "NoiseType",
-											"parameter_longname" : "NoiseType"
+											"parameter_type" : 2,
+											"parameter_enum" : [ "White", "Pink" ],
+											"parameter_unitstyle" : 0
 										}
 
 									}
@@ -174,11 +173,11 @@
 									"patching_rect" : [ 545.0, 278.5, 59.5, 20.0 ],
 									"restore" : 									{
 										"Mute" : [ 0.0 ],
-										"manCVa" : [ 1.0 ]
+										"manCVa" : [ 0.0 ]
 									}
 ,
 									"text" : "autopattr",
-									"varname" : "u919000161"
+									"varname" : "u984000390"
 								}
 
 							}
@@ -240,13 +239,13 @@
 									"presentation_rect" : [ 46.140533, 18.0, 42.0, 17.0 ],
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
-											"parameter_defer" : 1,
-											"parameter_enum" : [ "val1", "val2" ],
-											"parameter_mmax" : 1.0,
-											"parameter_initial" : [ 0.0 ],
-											"parameter_type" : 2,
+											"parameter_longname" : "Mute",
 											"parameter_shortname" : "Mute",
-											"parameter_longname" : "Mute"
+											"parameter_type" : 2,
+											"parameter_mmax" : 1.0,
+											"parameter_enum" : [ "val1", "val2" ],
+											"parameter_initial" : [ 0.0 ],
+											"parameter_defer" : 1
 										}
 
 									}
@@ -442,8 +441,8 @@
  ],
 		"lines" : [  ],
 		"parameters" : 		{
-			"obj-18::obj-55" : [ "Mute", "Mute", 0 ],
-			"obj-18::obj-69" : [ "NoiseType", "NoiseType", 0 ]
+			"obj-18::obj-69" : [ "NoiseType", "NoiseType", 0 ],
+			"obj-18::obj-55" : [ "Mute", "Mute", 0 ]
 		}
 ,
 		"dependency_cache" : [  ]
