@@ -5,10 +5,10 @@
 			"major" : 6,
 			"minor" : 1,
 			"revision" : 3,
-			"architecture" : "x64"
+			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 1012.0, 466.0, 1440.0, 753.0 ],
+		"rect" : [ 42.0, 44.0, 1440.0, 753.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -41,10 +41,10 @@
 							"major" : 6,
 							"minor" : 1,
 							"revision" : 3,
-							"architecture" : "x64"
+							"architecture" : "x86"
 						}
 ,
-						"rect" : [ 1012.0, 466.0, 146.0, 116.0 ],
+						"rect" : [ 42.0, 44.0, 146.0, 116.0 ],
 						"bgcolor" : [ 1.0, 1.0, 1.0, 0.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 1,
@@ -65,6 +65,38 @@
 						"digest" : "",
 						"tags" : "",
 						"boxes" : [ 							{
+								"box" : 								{
+									"activedialcolor" : [ 0.278431, 0.839216, 1.0, 1.0 ],
+									"activeneedlecolor" : [ 1.0, 1.0, 1.0, 0.7 ],
+									"id" : "obj-10",
+									"maxclass" : "live.dial",
+									"numinlets" : 1,
+									"numoutlets" : 2,
+									"outlettype" : [ "", "float" ],
+									"parameter_enable" : 1,
+									"patching_rect" : [ 353.562378, 176.0, 44.0, 47.0 ],
+									"presentation" : 1,
+									"presentation_rect" : [ 0.0, 43.0, 44.0, 47.0 ],
+									"saved_attribute_attributes" : 									{
+										"valueof" : 										{
+											"parameter_longname" : "Gain",
+											"parameter_shortname" : "Gain",
+											"parameter_type" : 0,
+											"parameter_mmin" : -100.0,
+											"parameter_mmax" : 100.0,
+											"parameter_initial_enable" : 1,
+											"parameter_initial" : [ 0.0 ],
+											"parameter_unitstyle" : 5
+										}
+
+									}
+,
+									"textcolor" : [ 1.0, 1.0, 1.0, 0.7 ],
+									"varname" : "Gain"
+								}
+
+							}
+, 							{
 								"box" : 								{
 									"activebgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"id" : "obj-40",
@@ -211,41 +243,6 @@
 							}
 , 							{
 								"box" : 								{
-									"activedialcolor" : [ 0.278431, 0.839216, 1.0, 1.0 ],
-									"activeneedlecolor" : [ 1.0, 1.0, 1.0, 0.7 ],
-									"id" : "obj-22",
-									"maxclass" : "live.dial",
-									"numinlets" : 1,
-									"numoutlets" : 2,
-									"outlettype" : [ "", "float" ],
-									"parameter_enable" : 0,
-									"patching_rect" : [ 353.562378, 184.5, 44.0, 47.0 ],
-									"presentation" : 1,
-									"presentation_rect" : [ 2.0, 43.0, 44.0, 47.0 ],
-									"saved_attribute_attributes" : 									{
-										"valueof" : 										{
-											"parameter_type" : 0,
-											"parameter_mmax" : 0,
-											"parameter_modmin" : 0,
-											"parameter_modmax" : 0,
-											"parameter_initial_enable" : 0,
-											"parameter_unitstyle" : 0,
-											"parameter_steps" : 0,
-											"parameter_speedlim" : 0,
-											"parameter_defer" : 0,
-											"parameter_info" : 0,
-											"parameter_annotation_name" : 0
-										}
-
-									}
-,
-									"textcolor" : [ 1.0, 1.0, 1.0, 0.7 ],
-									"varname" : "Gain"
-								}
-
-							}
-, 							{
-								"box" : 								{
 									"comment" : "signal input",
 									"id" : "obj-23",
 									"maxclass" : "inlet",
@@ -299,14 +296,14 @@
 									"outlettype" : [ "", "", "", "" ],
 									"patching_rect" : [ 510.0, 518.0, 59.5, 20.0 ],
 									"restore" : 									{
-										"Bias" : [ 2.5 ],
-										"Gain" : [ 50.0 ],
+										"Bias" : [ 0.0 ],
+										"Gain" : [ 100.0 ],
 										"Mute" : [ 0.0 ],
-										"live.menu" : [ 1.0 ]
+										"live.menu" : [ 0.0 ]
 									}
 ,
 									"text" : "autopattr",
-									"varname" : "u842001901"
+									"varname" : "u512000976"
 								}
 
 							}
@@ -442,24 +439,6 @@
 									"patching_rect" : [ 189.236206, 387.0, 40.0, 20.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 94.0, 19.0, 47.0, 14.764645 ],
-									"saved_attribute_attributes" : 									{
-										"valueof" : 										{
-											"parameter_type" : 0,
-											"parameter_mmax" : 0,
-											"parameter_modmin" : 0,
-											"parameter_modmax" : 0,
-											"parameter_initial_enable" : 0,
-											"parameter_unitstyle" : 0,
-											"parameter_exponent" : 0,
-											"parameter_steps" : 0,
-											"parameter_speedlim" : 0,
-											"parameter_defer" : 0,
-											"parameter_info" : 0,
-											"parameter_annotation_name" : 0
-										}
-
-									}
-,
 									"text" : "bypass",
 									"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 									"texton" : "bypass",
@@ -506,7 +485,7 @@
 									"maxclass" : "panel",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 149.236206, 15.0, 128.0, 128.0 ],
+									"patching_rect" : [ 325.062378, 149.470001, 128.0, 128.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 0.0, 97.0, 283.268768, 35.433025 ],
 									"rounded" : 0
@@ -548,6 +527,15 @@
 									"disabled" : 0,
 									"hidden" : 0,
 									"source" : [ "obj-1", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-20", 0 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-10", 0 ]
 								}
 
 							}
@@ -607,15 +595,6 @@
 							}
 , 							{
 								"patchline" : 								{
-									"destination" : [ "obj-20", 0 ],
-									"disabled" : 0,
-									"hidden" : 0,
-									"source" : [ "obj-22", 0 ]
-								}
-
-							}
-, 							{
-								"patchline" : 								{
 									"destination" : [ "obj-17", 0 ],
 									"disabled" : 0,
 									"hidden" : 0,
@@ -652,7 +631,7 @@
 							}
 , 							{
 								"patchline" : 								{
-									"destination" : [ "obj-22", 0 ],
+									"destination" : [ "obj-10", 0 ],
 									"disabled" : 0,
 									"hidden" : 0,
 									"source" : [ "obj-25", 0 ]
@@ -715,8 +694,9 @@
  ],
 		"lines" : [  ],
 		"parameters" : 		{
+			"obj-2::obj-40" : [ "presets[1]", "presets", 0 ],
 			"obj-2::obj-1" : [ "Bias[1]", "Bias", 0 ],
-			"obj-2::obj-40" : [ "presets[1]", "presets", 0 ]
+			"obj-2::obj-10" : [ "Gain", "Gain", 0 ]
 		}
 ,
 		"dependency_cache" : [  ]
