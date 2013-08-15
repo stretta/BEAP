@@ -525,7 +525,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 1149.0, 323.125366, 150.0, 24.0 ],
+									"patching_rect" : [ 1149.0, 323.125366, 82.0, 24.0 ],
 									"text" : "stealth init"
 								}
 
@@ -898,7 +898,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "int", "bang" ],
 									"parameter_enable" : 0,
-									"patching_rect" : [ 1815.0, 781.307007, 41.0, 17.0 ],
+									"patching_rect" : [ 1839.348633, 806.307007, 41.0, 17.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 8.149376, 112.211548, 41.0, 17.0 ],
 									"textcolor" : [ 0.278431, 0.839216, 1.0, 0.44 ],
@@ -923,7 +923,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "float", "bang" ],
 									"parameter_enable" : 0,
-									"patching_rect" : [ 1748.0, 781.307007, 50.0, 17.0 ],
+									"patching_rect" : [ 1772.348633, 806.307007, 50.0, 17.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 34.440216, 112.211548, 45.0, 17.0 ],
 									"textcolor" : [ 0.278431, 0.839216, 1.0, 0.44 ],
@@ -941,7 +941,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 1748.0, 723.369629, 47.0, 20.0 ],
+									"patching_rect" : [ 1772.348633, 748.369629, 47.0, 20.0 ],
 									"text" : "ftom 0."
 								}
 
@@ -955,7 +955,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 3,
 									"outlettype" : [ "float", "float", "bang" ],
-									"patching_rect" : [ 1748.0, 670.0, 46.0, 20.0 ],
+									"patching_rect" : [ 1772.348633, 695.0, 46.0, 20.0 ],
 									"text" : "fzero~"
 								}
 
@@ -1115,8 +1115,8 @@
 									"numinlets" : 1,
 									"numoutlets" : 2,
 									"outlettype" : [ "signal", "bang" ],
-									"patching_rect" : [ 603.410095, 571.192017, 193.0, 21.0 ],
-									"text" : "play~ #0-pvocOriginalSample"
+									"patching_rect" : [ 603.410095, 571.192017, 155.0, 21.0 ],
+									"text" : "play~ #0-pvoc_sample"
 								}
 
 							}
@@ -1157,8 +1157,8 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 171.598602, 294.625366, 191.0, 19.0 ],
-									"text" : "set #0-pvocOriginalSample 1"
+									"patching_rect" : [ 171.598602, 294.625366, 152.0, 19.0 ],
+									"text" : "set #0-pvoc_sample 1"
 								}
 
 							}
@@ -1171,8 +1171,8 @@
 									"numinlets" : 1,
 									"numoutlets" : 9,
 									"outlettype" : [ "float", "list", "float", "float", "float", "float", "float", "", "int" ],
-									"patching_rect" : [ 398.098663, 294.625366, 190.0, 21.0 ],
-									"text" : "info~ #0-pvocOriginalSample"
+									"patching_rect" : [ 398.098663, 275.123779, 189.999954, 21.0 ],
+									"text" : "info~ #0-pvoc_sample"
 								}
 
 							}
@@ -1185,8 +1185,8 @@
 									"numinlets" : 1,
 									"numoutlets" : 2,
 									"outlettype" : [ "float", "bang" ],
-									"patching_rect" : [ 215.098602, 220.679321, 202.0, 21.0 ],
-									"text" : "buffer~ #0-pvocOriginalSample"
+									"patching_rect" : [ 215.098602, 220.679321, 165.0, 21.0 ],
+									"text" : "buffer~ #0-pvoc_sample"
 								}
 
 							}
@@ -1194,7 +1194,6 @@
 								"box" : 								{
 									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"buffername" : "#0-pvocOriginalSample",
-									"chanoffset" : 0,
 									"fontsize" : 11.595187,
 									"gridcolor" : [ 1.0, 1.0, 1.0, 0.0 ],
 									"id" : "obj-61",
@@ -1291,7 +1290,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "signal" ],
-									"patching_rect" : [ 1651.396484, 661.215454, 32.5, 20.0 ],
+									"patching_rect" : [ 1651.396484, 770.369507, 32.5, 20.0 ],
 									"text" : "*~ 5"
 								}
 
@@ -1800,7 +1799,7 @@
 									"numinlets" : 3,
 									"numoutlets" : 2,
 									"outlettype" : [ "signal", "signal" ],
-									"patching_rect" : [ 1405.776733, 619.204956, 264.619781, 20.0 ],
+									"patching_rect" : [ 1405.776733, 619.204956, 385.571899, 20.0 ],
 									"text" : "pfft~ bp.pvoc.pfft 4096 4"
 								}
 
@@ -1923,7 +1922,7 @@
 									}
 ,
 									"text" : "autopattr",
-									"varname" : "u644001068"
+									"varname" : "u976001527"
 								}
 
 							}
