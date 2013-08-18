@@ -442,19 +442,19 @@
 									"presentation_rect" : [ 340.893768, 44.721527, 39.0, 36.0 ],
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
-											"parameter_longname" : "CV[1]",
+											"parameter_longname" : "BankCV",
 											"parameter_shortname" : "CV",
 											"parameter_type" : 1,
 											"parameter_mmax" : 100.0,
 											"parameter_initial_enable" : 1,
-											"parameter_initial" : [ 0.0 ],
+											"parameter_initial" : [ 1 ],
 											"parameter_unitstyle" : 5
 										}
 
 									}
 ,
 									"textcolor" : [ 1.0, 1.0, 1.0, 0.7 ],
-									"varname" : "PositionCV[1]"
+									"varname" : "BankCV"
 								}
 
 							}
@@ -673,7 +673,7 @@
 									"prototypename" : "freq",
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
-											"parameter_longname" : "Offset[1]",
+											"parameter_longname" : "Offset",
 											"parameter_shortname" : "Offset",
 											"parameter_type" : 0,
 											"parameter_mmin" : -64.0,
@@ -1703,19 +1703,19 @@
 									"presentation_rect" : [ 262.393768, 44.721527, 38.0, 36.0 ],
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
-											"parameter_longname" : "CV",
+											"parameter_longname" : "WaveCV",
 											"parameter_shortname" : "CV",
 											"parameter_type" : 1,
 											"parameter_mmax" : 100.0,
 											"parameter_initial_enable" : 1,
-											"parameter_initial" : [ 0.0 ],
+											"parameter_initial" : [ 1 ],
 											"parameter_unitstyle" : 5
 										}
 
 									}
 ,
 									"textcolor" : [ 1.0, 1.0, 1.0, 0.7 ],
-									"varname" : "PositionCV"
+									"varname" : "WaveCV"
 								}
 
 							}
@@ -1875,17 +1875,17 @@
 									"patching_rect" : [ 1799.351685, 1383.562378, 59.5, 20.0 ],
 									"restore" : 									{
 										"Bank" : [ 1.0 ],
+										"BankCV" : [ 1.0 ],
 										"CV2" : [ 0.0 ],
 										"Mute" : [ 0.0 ],
 										"Offset[2]" : [ 0.0 ],
-										"PositionCV" : [ 0.0 ],
-										"PositionCV[1]" : [ 0.0 ],
 										"Wave" : [ 1.0 ],
-										"Wavetable" : [ 1.0 ]
+										"WaveCV" : [ 1.0 ],
+										"Wavetable" : [ 0.0 ]
 									}
 ,
 									"text" : "autopattr",
-									"varname" : "u890000058"
+									"varname" : "u045000058"
 								}
 
 							}
@@ -3116,14 +3116,14 @@
  ],
 		"lines" : [  ],
 		"parameters" : 		{
-			"obj-38::obj-81" : [ "Bank", "Bank", 0 ],
-			"obj-38::obj-100" : [ "Offset[1]", "Offset", 0 ],
-			"obj-38::obj-25" : [ "CV", "CV", 0 ],
+			"obj-38::obj-25" : [ "WaveCV", "CV", 0 ],
+			"obj-38::obj-100" : [ "Offset", "Offset", 0 ],
 			"obj-38::obj-154" : [ "CV2", "CV2", 0 ],
 			"obj-38::obj-3" : [ "Wave", "Wave", 0 ],
-			"obj-38::obj-80" : [ "CV[1]", "CV", 0 ],
 			"obj-38::obj-12" : [ "Mute", "Mute", 0 ],
-			"obj-38::obj-110" : [ "Wavetable", "Wavetable", 0 ]
+			"obj-38::obj-110" : [ "Wavetable", "Wavetable", 0 ],
+			"obj-38::obj-80" : [ "BankCV", "CV", 0 ],
+			"obj-38::obj-81" : [ "Bank", "Bank", 0 ]
 		}
 ,
 		"dependency_cache" : [  ]
