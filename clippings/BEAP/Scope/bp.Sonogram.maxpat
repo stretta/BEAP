@@ -8,7 +8,7 @@
 			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 270.0, 90.0, 997.0, 970.0 ],
+		"rect" : [ 60.0, 44.0, 1440.0, 759.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -44,7 +44,7 @@
 							"architecture" : "x86"
 						}
 ,
-						"rect" : [ 270.0, 90.0, 141.0, 116.0 ],
+						"rect" : [ 60.0, 44.0, 146.0, 116.0 ],
 						"bgcolor" : [ 1.0, 1.0, 1.0, 0.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 1,
@@ -80,6 +80,8 @@
 											"parameter_shortname" : "display",
 											"parameter_type" : 2,
 											"parameter_enum" : [ "Sonogram", "Spectrogram" ],
+											"parameter_initial_enable" : 1,
+											"parameter_initial" : [ 1.0 ],
 											"parameter_unitstyle" : 0
 										}
 
@@ -114,7 +116,7 @@
 									"parameter_enable" : 1,
 									"patching_rect" : [ 427.5, 258.737061, 111.0, 19.280884 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 61.0, 17.0, 71.688538, 19.0 ],
+									"presentation_rect" : [ 68.0, 17.0, 71.688538, 19.0 ],
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
 											"parameter_longname" : "LinLog",
@@ -159,9 +161,10 @@
 									"patching_rect" : [ 230.5, 468.0, 300.0, 100.0 ],
 									"peakcolor" : [ 0.952941, 0.8, 0.8, 1.0 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 4.5, 41.0, 128.0, 52.0 ],
+									"presentation_rect" : [ 4.5, 41.0, 135.0, 52.0 ],
 									"range" : [ 0.0, 1.0 ],
 									"rounded" : 0,
+									"sono" : 1,
 									"sonohicolor" : [ 0.278431, 0.839216, 1.0, 1.0 ],
 									"sonomedcolor" : [ 0.129761, 0.394144, 0.47164, 1.0 ],
 									"sonomedhicolor" : [ 0.198412, 0.602667, 0.721161, 1.0 ],
@@ -182,11 +185,11 @@
 									"patching_rect" : [ 482.0, 618.0, 59.5, 20.0 ],
 									"restore" : 									{
 										"LinLog" : [ 0.0 ],
-										"display" : [ 0.0 ]
+										"display" : [ 1.0 ]
 									}
 ,
 									"text" : "autopattr",
-									"varname" : "u864003458"
+									"varname" : "u742003481"
 								}
 
 							}
@@ -260,8 +263,8 @@
 									"numoutlets" : 0,
 									"patching_rect" : [ 322.642456, 307.907501, 48.0, 27.0 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 2.0, 19.0, 59.0, 17.0 ],
-									"text" : "SPECTRAL",
+									"presentation_rect" : [ 2.0, 19.0, 64.0, 17.0 ],
+									"text" : "SONOGRAM",
 									"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 								}
 
@@ -380,7 +383,7 @@
  ]
 					}
 ,
-					"patching_rect" : [ 0.0, 0.0, 141.0, 116.0 ],
+					"patching_rect" : [ 0.0, 0.0, 146.0, 116.0 ],
 					"varname" : "Spectral"
 				}
 
