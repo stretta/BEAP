@@ -5,10 +5,10 @@
 			"major" : 6,
 			"minor" : 1,
 			"revision" : 3,
-			"architecture" : "x64"
+			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 3.0, 47.0, 1213.0, 709.0 ],
+		"rect" : [ 13.0, 78.0, 1213.0, 709.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -41,10 +41,10 @@
 							"major" : 6,
 							"minor" : 1,
 							"revision" : 3,
-							"architecture" : "x64"
+							"architecture" : "x86"
 						}
 ,
-						"rect" : [ 3.0, 47.0, 381.0, 116.0 ],
+						"rect" : [ 13.0, 78.0, 381.0, 116.0 ],
 						"bgcolor" : [ 1.0, 1.0, 1.0, 0.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 1,
@@ -65,6 +65,19 @@
 						"digest" : "",
 						"tags" : "",
 						"boxes" : [ 							{
+								"box" : 								{
+									"id" : "obj-15",
+									"maxclass" : "jit.pwindow",
+									"numinlets" : 1,
+									"numoutlets" : 2,
+									"outlettype" : [ "", "" ],
+									"patching_rect" : [ 1163.221924, 1180.0, 64.0, 64.0 ],
+									"presentation" : 1,
+									"presentation_rect" : [ 88.221924, 37.0, 64.0, 64.0 ]
+								}
+
+							}
+, 							{
 								"box" : 								{
 									"fontname" : "Arial",
 									"fontsize" : 12.0,
@@ -911,20 +924,6 @@
 									"outlettype" : [ "jit_matrix", "" ],
 									"patching_rect" : [ 1163.221924, 1127.530518, 234.0, 20.0 ],
 									"text" : "jit.matrix #0_wave_display 4 char 64 64"
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"id" : "obj-45",
-									"maxclass" : "jit.pwindow",
-									"name" : "#0_wave_display",
-									"numinlets" : 1,
-									"numoutlets" : 2,
-									"outlettype" : [ "", "" ],
-									"patching_rect" : [ 1163.221924, 1175.742432, 64.0, 64.0 ],
-									"presentation" : 1,
-									"presentation_rect" : [ 89.018768, 37.0, 64.0, 64.0 ]
 								}
 
 							}
@@ -1899,7 +1898,7 @@
 									}
 ,
 									"text" : "autopattr",
-									"varname" : "u657000189"
+									"varname" : "u203010629"
 								}
 
 							}
@@ -2020,7 +2019,7 @@
 									"numoutlets" : 0,
 									"patching_rect" : [ 1484.089233, 1383.562378, 44.0, 9.0 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 0.0, -15.0, 426.268768, 131.0 ],
+									"presentation_rect" : [ 0.0, 0.0, 426.268768, 131.0 ],
 									"rounded" : 0
 								}
 
@@ -2293,7 +2292,7 @@
 									"destination" : [ "obj-9", 0 ],
 									"disabled" : 0,
 									"hidden" : 0,
-									"midpoints" : [ 1259.972168, 806.530533, 1196.722046, 806.530533 ],
+									"midpoints" : [ 1259.972168, 806.530518, 1196.722046, 806.530518 ],
 									"source" : [ "obj-122", 0 ]
 								}
 
@@ -2357,7 +2356,7 @@
 									"destination" : [ "obj-46", 0 ],
 									"disabled" : 0,
 									"hidden" : 0,
-									"midpoints" : [ 1400.346924, 1112.530533, 1172.721924, 1112.530533 ],
+									"midpoints" : [ 1400.346924, 1112.530518, 1172.721924, 1112.530518 ],
 									"source" : [ "obj-128", 3 ]
 								}
 
@@ -2688,7 +2687,7 @@
 							}
 , 							{
 								"patchline" : 								{
-									"destination" : [ "obj-45", 0 ],
+									"destination" : [ "obj-15", 0 ],
 									"disabled" : 0,
 									"hidden" : 0,
 									"source" : [ "obj-46", 0 ]
@@ -2889,7 +2888,7 @@
 									"destination" : [ "obj-73", 0 ],
 									"disabled" : 0,
 									"hidden" : 0,
-									"midpoints" : [ 314.601257, 829.03946, 411.601257, 829.03946 ],
+									"midpoints" : [ 314.601257, 829.03949, 411.601257, 829.03949 ],
 									"source" : [ "obj-70", 0 ]
 								}
 
@@ -3157,14 +3156,14 @@
  ],
 		"lines" : [  ],
 		"parameters" : 		{
-			"obj-38::obj-12" : [ "Mute", "Mute", 0 ],
+			"obj-38::obj-25" : [ "WaveCV", "CV", 0 ],
+			"obj-38::obj-81" : [ "Bank", "Bank", 0 ],
 			"obj-38::obj-80" : [ "BankCV", "CV", 0 ],
 			"obj-38::obj-100" : [ "Offset", "Offset", 0 ],
-			"obj-38::obj-25" : [ "WaveCV", "CV", 0 ],
-			"obj-38::obj-154" : [ "CV2", "CV2", 0 ],
+			"obj-38::obj-3" : [ "Wave", "Wave", 0 ],
 			"obj-38::obj-110" : [ "Wavetable", "Wavetable", 0 ],
-			"obj-38::obj-81" : [ "Bank", "Bank", 0 ],
-			"obj-38::obj-3" : [ "Wave", "Wave", 0 ]
+			"obj-38::obj-154" : [ "CV2", "CV2", 0 ],
+			"obj-38::obj-12" : [ "Mute", "Mute", 0 ]
 		}
 ,
 		"dependency_cache" : [  ]
