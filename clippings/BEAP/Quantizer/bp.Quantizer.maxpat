@@ -5,7 +5,7 @@
 			"major" : 6,
 			"minor" : 1,
 			"revision" : 3,
-			"architecture" : "x64"
+			"architecture" : "x86"
 		}
 ,
 		"rect" : [ 0.0, 44.0, 513.0, 494.0 ],
@@ -41,7 +41,7 @@
 							"major" : 6,
 							"minor" : 1,
 							"revision" : 3,
-							"architecture" : "x64"
+							"architecture" : "x86"
 						}
 ,
 						"rect" : [ 0.0, 44.0, 171.0, 116.0 ],
@@ -1213,12 +1213,12 @@
 									"patching_rect" : [ 59.723087, 2296.813477, 59.5, 20.0 ],
 									"restore" : 									{
 										"bypass" : [ 0.0 ],
-										"kslider[2]" : [ 0, 1, 2, 41, 4, 41, 5, 31, 7, 26, 9, 53, 11, 65 ],
+										"kslider[2]" : [ 0, 91, 1, 60, 2, 89, 3, 60, 4, 89, 5, 89, 6, 60, 7, 89, 8, 60, 9, 89, 10, 60, 11, 65 ],
 										"stealthinit" : [ 0.0 ]
 									}
 ,
 									"text" : "autopattr",
-									"varname" : "u177001252"
+									"varname" : "u822005728"
 								}
 
 							}
@@ -1745,15 +1745,6 @@
 							}
 , 							{
 								"patchline" : 								{
-									"destination" : [ "obj-71", 0 ],
-									"disabled" : 0,
-									"hidden" : 0,
-									"source" : [ "obj-53", 0 ]
-								}
-
-							}
-, 							{
-								"patchline" : 								{
 									"destination" : [ "obj-53", 0 ],
 									"disabled" : 0,
 									"hidden" : 0,
@@ -2083,9 +2074,9 @@
  ],
 		"lines" : [  ],
 		"parameters" : 		{
-			"obj-18::obj-12" : [ "bypass", "bypass", 0 ],
+			"obj-18::obj-25" : [ "stealthinit", "stealthinit", 0 ],
 			"obj-18::obj-71" : [ "kslider[3]", "kslider", 0 ],
-			"obj-18::obj-25" : [ "stealthinit", "stealthinit", 0 ]
+			"obj-18::obj-12" : [ "bypass", "bypass", 0 ]
 		}
 ,
 		"dependency_cache" : [  ]

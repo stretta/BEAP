@@ -683,20 +683,6 @@
 							}
 , 							{
 								"box" : 								{
-									"fontname" : "Arial",
-									"fontsize" : 12.0,
-									"id" : "obj-10",
-									"maxclass" : "message",
-									"numinlets" : 2,
-									"numoutlets" : 1,
-									"outlettype" : [ "" ],
-									"patching_rect" : [ 742.809021, 415.819733, 373.0, 18.0 ],
-									"text" : "chord 0 10 1 10 2 10 3 10 4 10 5 10 6 10 7 10 8 10 9 10 10 10 11 10"
-								}
-
-							}
-, 							{
-								"box" : 								{
 									"bubble" : 1,
 									"fontname" : "Arial",
 									"fontsize" : 12.0,
@@ -1175,7 +1161,7 @@
 									}
 ,
 									"text" : "autopattr",
-									"varname" : "u031002635"
+									"varname" : "u325005796"
 								}
 
 							}
@@ -1241,7 +1227,7 @@
 									"parameter_enable" : 1,
 									"patching_rect" : [ 44.585918, 221.819733, 40.0, 20.0 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 98.320618, 17.0, 66.0, 14.764645 ],
+									"presentation_rect" : [ 98.320618, 19.0, 66.0, 14.764645 ],
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
 											"parameter_longname" : "bypass[1]",
@@ -1349,15 +1335,6 @@
 							}
 , 							{
 								"patchline" : 								{
-									"destination" : [ "obj-92", 0 ],
-									"disabled" : 0,
-									"hidden" : 0,
-									"source" : [ "obj-10", 0 ]
-								}
-
-							}
-, 							{
-								"patchline" : 								{
 									"destination" : [ "obj-2", 0 ],
 									"disabled" : 0,
 									"hidden" : 0,
@@ -1371,16 +1348,6 @@
 									"disabled" : 0,
 									"hidden" : 0,
 									"source" : [ "obj-156", 0 ]
-								}
-
-							}
-, 							{
-								"patchline" : 								{
-									"destination" : [ "obj-10", 0 ],
-									"disabled" : 0,
-									"hidden" : 0,
-									"midpoints" : [ 752.309021, 365.819733, 752.309021, 365.819733 ],
-									"source" : [ "obj-16", 0 ]
 								}
 
 							}
@@ -2111,10 +2078,10 @@
  ],
 		"lines" : [  ],
 		"parameters" : 		{
+			"obj-1::obj-48" : [ "PitchActivityLED[3]", "PitchActivityLED", 0 ],
 			"obj-1::obj-12" : [ "bypass[1]", "bypass", 0 ],
 			"obj-1::obj-29" : [ "PitchActivityLED[2]", "PitchActivityLED", 0 ],
 			"obj-1::obj-92" : [ "kslider[1]", "kslider", 0 ],
-			"obj-1::obj-48" : [ "PitchActivityLED[3]", "PitchActivityLED", 0 ],
 			"obj-1::obj-39" : [ "stealth_init", "stealth_init", 0 ]
 		}
 ,
