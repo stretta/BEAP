@@ -8,7 +8,7 @@
 			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 0.0, 44.0, 1440.0, 761.0 ],
+		"rect" : [ 51.0, 119.0, 1440.0, 761.0 ],
 		"bgcolor" : [ 0.497188, 0.497188, 0.497188, 1.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
@@ -44,7 +44,7 @@
 							"architecture" : "x86"
 						}
 ,
-						"rect" : [ 34.0, 120.0, 190.0, 116.0 ],
+						"rect" : [ 85.0, 195.0, 190.0, 116.0 ],
 						"bgcolor" : [ 1.0, 1.0, 1.0, 0.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 1,
@@ -81,7 +81,7 @@
 									}
 ,
 									"text" : "autopattr",
-									"varname" : "u062001433"
+									"varname" : "u971000499"
 								}
 
 							}
@@ -2997,6 +2997,51 @@
 				}
 
 			}
+, 			{
+				"box" : 				{
+					"background" : 1,
+					"bgcolor" : [ 0.137255, 0.145098, 0.160784, 0.65 ],
+					"id" : "obj-130",
+					"maxclass" : "panel",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 184.173828, 208.529999, 37.0, 5.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 15.0, 52.0, 283.0, 60.338158 ],
+					"rounded" : 0
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"background" : 1,
+					"bgcolor" : [ 0.367404, 0.389405, 0.430238, 1.0 ],
+					"id" : "obj-131",
+					"maxclass" : "panel",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 244.0, 208.529999, 37.0, 5.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 15.0, 32.0, 283.0, 80.338158 ],
+					"rounded" : 0
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"background" : 1,
+					"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"id" : "obj-135",
+					"maxclass" : "panel",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 301.673828, 208.529999, 37.0, 5.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 15.0, 15.0, 283.0, 133.0 ],
+					"rounded" : 0
+				}
+
+			}
  ],
 		"lines" : [ 			{
 				"patchline" : 				{
@@ -3721,15 +3766,15 @@
 			}
  ],
 		"parameters" : 		{
+			"obj-1" : [ "bypass", "bypass", 0 ],
+			"obj-70" : [ "cv[1]", "cv", 0 ],
+			"obj-101" : [ "CV1", "CV1", 0 ],
 			"obj-122" : [ "DecayCV[1]", "DecayCV", 0 ],
 			"obj-25" : [ "cv", "cv", 0 ],
-			"obj-1" : [ "bypass", "bypass", 0 ],
-			"obj-101" : [ "CV1", "CV1", 0 ],
-			"obj-10::obj-12" : [ "Mute", "Mute", 0 ],
-			"obj-10::obj-28" : [ "Attack", "Attack", 0 ],
 			"obj-10::obj-129" : [ "SampleStart", "SampleStart", 0 ],
-			"obj-70" : [ "cv[1]", "cv", 0 ],
-			"obj-20" : [ "mute", "mute", 0 ]
+			"obj-20" : [ "mute", "mute", 0 ],
+			"obj-10::obj-12" : [ "Mute", "Mute", 0 ],
+			"obj-10::obj-28" : [ "Attack", "Attack", 0 ]
 		}
 ,
 		"dependency_cache" : [  ]

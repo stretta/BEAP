@@ -8,7 +8,7 @@
 			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 564.0, 45.0, 1440.0, 761.0 ],
+		"rect" : [ 0.0, 45.0, 1440.0, 761.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -44,7 +44,7 @@
 							"architecture" : "x86"
 						}
 ,
-						"rect" : [ 564.0, 45.0, 366.0, 214.0 ],
+						"rect" : [ 0.0, 45.0, 366.0, 214.0 ],
 						"bgcolor" : [ 1.0, 1.0, 1.0, 0.0 ],
 						"bglocked" : 1,
 						"openinpresentation" : 1,
@@ -65,6 +65,19 @@
 						"digest" : "",
 						"tags" : "",
 						"boxes" : [ 							{
+								"box" : 								{
+									"fontname" : "Arial",
+									"fontsize" : 12.0,
+									"id" : "obj-53",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 1016.0, 538.820557, 128.0, 20.0 ],
+									"text" : "s beap_buffer_refresh"
+								}
+
+							}
+, 							{
 								"box" : 								{
 									"fontname" : "Arial",
 									"fontsize" : 12.0,
@@ -240,7 +253,7 @@
 									"framecolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"hltcolor" : [ 0.278431, 0.839216, 1.0, 1.0 ],
 									"id" : "obj-114",
-									"items" : "send to...",
+									"items" : [ "send to...", ",", 2554, ",", 2555, ",", 2556, ",", 2557, ",", 2558 ],
 									"maxclass" : "umenu",
 									"numinlets" : 1,
 									"numoutlets" : 3,
@@ -283,7 +296,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "int", "bang" ],
 									"parameter_enable" : 0,
-									"patching_rect" : [ 761.948975, 578.384705, 48.0, 17.0 ],
+									"patching_rect" : [ 681.948975, 577.126099, 48.0, 17.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 320.416931, 112.696091, 39.0, 17.0 ],
 									"textcolor" : [ 0.278431, 0.839216, 1.0, 0.68 ],
@@ -300,7 +313,7 @@
 									"numinlets" : 0,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 761.948975, 499.0, 126.0, 20.0 ],
+									"patching_rect" : [ 681.948975, 499.0, 126.0, 20.0 ],
 									"text" : "r beap_buffer_refresh"
 								}
 
@@ -313,7 +326,7 @@
 									"maxclass" : "newobj",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 761.948975, 616.384705, 84.0, 20.0 ],
+									"patching_rect" : [ 681.948975, 615.126099, 84.0, 20.0 ],
 									"text" : "s beap_buffer"
 								}
 
@@ -327,7 +340,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 761.948975, 543.855713, 37.0, 18.0 ],
+									"patching_rect" : [ 681.948975, 542.597107, 37.0, 18.0 ],
 									"text" : "#0"
 								}
 
@@ -1981,7 +1994,7 @@
 									}
 ,
 									"text" : "autopattr",
-									"varname" : "u219010676"
+									"varname" : "u361001156"
 								}
 
 							}
@@ -2432,7 +2445,7 @@
 							}
 , 							{
 								"patchline" : 								{
-									"destination" : [ "obj-108", 0 ],
+									"destination" : [ "obj-53", 0 ],
 									"disabled" : 0,
 									"hidden" : 0,
 									"source" : [ "obj-27", 0 ]
@@ -2956,18 +2969,18 @@
  ],
 		"lines" : [  ],
 		"parameters" : 		{
-			"obj-2::obj-63" : [ "Root[1]", "Root", 0 ],
 			"obj-2::obj-151" : [ "LoopStart[1]", "LoopStart", 0 ],
 			"obj-2::obj-152" : [ "LoopEnd[1]", "LoopEnd", 0 ],
-			"obj-2::obj-15" : [ "live.text", "live.text", 0 ],
-			"obj-2::obj-49" : [ "RecordGate[1]", "RecordGate", 0 ],
-			"obj-2::obj-20" : [ "power[1]", "power", 0 ],
 			"obj-2::obj-129" : [ "SampleStart[1]", "SampleStart", 0 ],
-			"obj-2::obj-8" : [ "write[1]", "write", 0 ],
 			"obj-2::obj-32" : [ "getsamplelength[1]", "getsamplelength", 0 ],
+			"obj-2::obj-8" : [ "write[1]", "write", 0 ],
+			"obj-2::obj-20" : [ "power[1]", "power", 0 ],
+			"obj-2::obj-15" : [ "live.text", "live.text", 0 ],
 			"obj-2::obj-19" : [ "import[1]", "import", 0 ],
+			"obj-2::obj-49" : [ "RecordGate[1]", "RecordGate", 0 ],
 			"obj-2::obj-61" : [ "Loop[1]", "Loop", 0 ],
-			"obj-2::obj-57" : [ "Select all", "Select all", 0 ]
+			"obj-2::obj-57" : [ "Select all", "Select all", 0 ],
+			"obj-2::obj-63" : [ "Root[1]", "Root", 0 ]
 		}
 ,
 		"dependency_cache" : [  ]
