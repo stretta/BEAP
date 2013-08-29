@@ -5,10 +5,10 @@
 			"major" : 6,
 			"minor" : 1,
 			"revision" : 3,
-			"architecture" : "x64"
+			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 365.0, 260.0, 1344.0, 617.0 ],
+		"rect" : [ 81.0, 97.0, 1344.0, 617.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -41,10 +41,10 @@
 							"major" : 6,
 							"minor" : 1,
 							"revision" : 3,
-							"architecture" : "x64"
+							"architecture" : "x86"
 						}
 ,
-						"rect" : [ 365.0, 260.0, 163.0, 116.0 ],
+						"rect" : [ 81.0, 97.0, 163.0, 116.0 ],
 						"bgcolor" : [ 1.0, 1.0, 1.0, 0.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 1,
@@ -200,19 +200,6 @@
 								"box" : 								{
 									"fontname" : "Arial",
 									"fontsize" : 12.0,
-									"id" : "obj-32",
-									"maxclass" : "message",
-									"numinlets" : 2,
-									"numoutlets" : 1,
-									"outlettype" : [ "" ],
-									"patching_rect" : [ 911.0, 861.0, 50.0, 18.0 ]
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"fontname" : "Arial",
-									"fontsize" : 12.0,
 									"id" : "obj-6",
 									"maxclass" : "newobj",
 									"numinlets" : 2,
@@ -311,7 +298,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "bang" ],
 									"patching_rect" : [ 858.0, 752.917297, 56.0, 20.0 ],
-									"text" : "delay 10"
+									"text" : "delay 20"
 								}
 
 							}
@@ -340,7 +327,7 @@
 									"numoutlets" : 0,
 									"patching_rect" : [ 883.0, 930.0, 45.0, 17.0 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 72.60717, 97.0, 29.0, 17.0 ],
+									"presentation_rect" : [ 68.60717, 97.0, 29.0, 17.0 ],
 									"text" : "Trig",
 									"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 								}
@@ -457,7 +444,7 @@
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "" ],
 									"patching_rect" : [ 994.5, 833.5, 78.0, 20.0 ],
-									"restore" : [ 1.190476 ],
+									"restore" : [ 2.5 ],
 									"saved_object_attributes" : 									{
 										"parameter_enable" : 0
 									}
@@ -497,7 +484,7 @@
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "" ],
 									"patching_rect" : [ 428.5, 926.0, 61.0, 20.0 ],
-									"restore" : [ 1.830688 ],
+									"restore" : [ -0.916667 ],
 									"saved_object_attributes" : 									{
 										"parameter_enable" : 0
 									}
@@ -596,8 +583,8 @@
 									"numinlets" : 2,
 									"numoutlets" : 2,
 									"outlettype" : [ "int", "int" ],
-									"patching_rect" : [ 547.5, 521.0, 156.0, 20.0 ],
-									"text" : "ddg.mono 0"
+									"patching_rect" : [ 547.5, 521.0, 193.0, 20.0 ],
+									"text" : "ddg.mono 1"
 								}
 
 							}
@@ -659,7 +646,7 @@
 									"numoutlets" : 0,
 									"patching_rect" : [ 1051.5, 922.0, 38.0, 17.0 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 103.910751, 96.5, 23.0, 17.0 ],
+									"presentation_rect" : [ 105.910751, 96.5, 23.0, 17.0 ],
 									"text" : "Vel",
 									"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 								}
@@ -676,7 +663,7 @@
 									"numoutlets" : 0,
 									"patching_rect" : [ 732.5, 930.0, 38.0, 17.0 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 41.303585, 96.5, 29.0, 17.0 ],
+									"presentation_rect" : [ 40.303585, 96.5, 29.0, 17.0 ],
 									"text" : "Gate",
 									"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 								}
@@ -756,7 +743,7 @@
 									"outlettype" : [ "", "", "", "" ],
 									"patching_rect" : [ 279.75, 782.0, 59.5, 20.0 ],
 									"restore" : 									{
-										"Bend" : [ 0.0 ],
+										"Bend" : [ 2.0 ],
 										"ModWheelActivityLED" : [ 0.0 ],
 										"NotePriority" : [ "Last Note Priority" ],
 										"Triggering" : [ "Retrigger" ],
@@ -764,7 +751,7 @@
 									}
 ,
 									"text" : "autopattr",
-									"varname" : "u170002425"
+									"varname" : "u347004454"
 								}
 
 							}
@@ -1370,8 +1357,8 @@
  ],
 		"lines" : [  ],
 		"parameters" : 		{
-			"obj-41::obj-69" : [ "live.text", "live.text", 0 ],
 			"obj-41::obj-20" : [ "ModWheelActivityLED", "ModWheelActivityLED", 0 ],
+			"obj-41::obj-69" : [ "live.text", "live.text", 0 ],
 			"obj-41::obj-28" : [ "Bend", "Bend", 0 ]
 		}
 ,
