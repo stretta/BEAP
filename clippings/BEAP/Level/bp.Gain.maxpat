@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 1,
-			"revision" : 0,
+			"revision" : 3,
 			"architecture" : "x86"
 		}
 ,
@@ -30,7 +30,7 @@
 		"boxes" : [ 			{
 				"box" : 				{
 					"embed" : 1,
-					"id" : "obj-6",
+					"id" : "obj-7",
 					"maxclass" : "bpatcher",
 					"numinlets" : 1,
 					"numoutlets" : 1,
@@ -40,13 +40,13 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 0,
+							"revision" : 3,
 							"architecture" : "x86"
 						}
 ,
-						"rect" : [ 26.0, 69.0, 92.0, 116.0 ],
+						"rect" : [ 25.0, 69.0, 92.0, 116.0 ],
 						"bgcolor" : [ 1.0, 1.0, 1.0, 0.0 ],
-						"bglocked" : 0,
+						"bglocked" : 1,
 						"openinpresentation" : 1,
 						"default_fontsize" : 12.0,
 						"default_fontface" : 0,
@@ -139,13 +139,13 @@
 									"presentation_rect" : [ 41.0, 19.0, 45.0, 14.764645 ],
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
-											"parameter_enum" : [ "val1", "val2" ],
-											"parameter_mmax" : 1.0,
-											"parameter_initial" : [ 0.0 ],
-											"parameter_type" : 2,
-											"parameter_initial_enable" : 1,
-											"parameter_shortname" : "bypass",
 											"parameter_longname" : "bypass",
+											"parameter_shortname" : "bypass",
+											"parameter_type" : 2,
+											"parameter_mmax" : 1.0,
+											"parameter_enum" : [ "val1", "val2" ],
+											"parameter_initial_enable" : 1,
+											"parameter_initial" : [ 0.0 ],
 											"parameter_defer" : 1
 										}
 
@@ -180,12 +180,12 @@
 									"outlettype" : [ "", "", "", "" ],
 									"patching_rect" : [ 703.0, 594.0, 59.5, 20.0 ],
 									"restore" : 									{
-										"Signal" : [ 9.212599 ],
+										"Signal" : [ 100.0 ],
 										"bypass" : [ 0.0 ]
 									}
 ,
 									"text" : "autopattr",
-									"varname" : "u776000341"
+									"varname" : "u189008819"
 								}
 
 							}
@@ -232,11 +232,11 @@
 									"presentation_rect" : [ 3.0, 43.0, 44.0, 47.0 ],
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
-											"parameter_unitstyle" : 5,
-											"parameter_mmax" : 100.0,
-											"parameter_type" : 0,
+											"parameter_longname" : "Signal",
 											"parameter_shortname" : "Signal",
-											"parameter_longname" : "Signal"
+											"parameter_type" : 0,
+											"parameter_mmax" : 200.0,
+											"parameter_unitstyle" : 5
 										}
 
 									}
@@ -304,63 +304,52 @@
 									"patching_rect" : [ 322.642456, 307.907501, 48.0, 17.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 2.0, 19.0, 52.0, 17.0 ],
-									"text" : "ATTNEX",
+									"text" : "GAIN",
 									"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 								}
 
 							}
 , 							{
 								"box" : 								{
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-									"id" : "obj-14",
-									"maxclass" : "panel",
-									"numinlets" : 1,
-									"numoutlets" : 0,
-									"patching_rect" : [ 15.0, 149.470001, 128.0, 128.0 ],
-									"presentation" : 1,
-									"presentation_rect" : [ 0.0, 0.0, 283.268768, 17.0 ],
-									"rounded" : 0
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-									"id" : "obj-15",
-									"maxclass" : "panel",
-									"numinlets" : 1,
-									"numoutlets" : 0,
-									"patching_rect" : [ 175.236206, 15.0, 128.0, 128.0 ],
-									"presentation" : 1,
-									"presentation_rect" : [ 0.0, 97.0, 283.268768, 35.433025 ],
-									"rounded" : 0
-								}
-
-							}
-, 							{
-								"box" : 								{
+									"background" : 1,
 									"bgcolor" : [ 0.137255, 0.145098, 0.160784, 0.65 ],
-									"id" : "obj-18",
+									"id" : "obj-130",
 									"maxclass" : "panel",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 21.736206, 15.0, 128.0, 128.0 ],
+									"patching_rect" : [ 199.173828, 223.529999, 37.0, 5.0 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 0.0, 37.0, 283.268768, 71.584457 ],
+									"presentation_rect" : [ 0.0, 36.330921, 283.0, 60.338158 ],
 									"rounded" : 0
 								}
 
 							}
 , 							{
 								"box" : 								{
+									"background" : 1,
 									"bgcolor" : [ 0.367404, 0.389405, 0.430238, 1.0 ],
-									"id" : "obj-21",
+									"id" : "obj-131",
 									"maxclass" : "panel",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 161.562378, 149.470001, 128.0, 128.0 ],
+									"patching_rect" : [ 259.0, 223.529999, 37.0, 5.0 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 0.0, 17.0, 283.268768, 116.114227 ],
+									"presentation_rect" : [ 0.0, 16.330921, 283.0, 80.338158 ],
+									"rounded" : 0
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"background" : 1,
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+									"id" : "obj-135",
+									"maxclass" : "panel",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 316.673828, 223.529999, 37.0, 5.0 ],
+									"presentation" : 1,
+									"presentation_rect" : [ 0.0, -0.669079, 283.0, 133.0 ],
 									"rounded" : 0
 								}
 
@@ -460,7 +449,7 @@
  ]
 					}
 ,
-					"patching_rect" : [ 1.0, 0.0, 92.0, 116.0 ],
+					"patching_rect" : [ 0.0, 0.0, 92.0, 116.0 ],
 					"varname" : "Attenuator"
 				}
 
@@ -468,8 +457,8 @@
  ],
 		"lines" : [  ],
 		"parameters" : 		{
-			"obj-6::obj-20" : [ "bypass", "bypass", 0 ],
-			"obj-6::obj-3" : [ "Signal", "Signal", 0 ]
+			"obj-7::obj-3" : [ "Signal", "Signal", 0 ],
+			"obj-7::obj-20" : [ "bypass", "bypass", 0 ]
 		}
 ,
 		"dependency_cache" : [  ]
