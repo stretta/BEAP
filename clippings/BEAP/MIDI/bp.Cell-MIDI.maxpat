@@ -30,7 +30,7 @@
 		"boxes" : [ 			{
 				"box" : 				{
 					"embed" : 1,
-					"id" : "obj-60",
+					"id" : "obj-25",
 					"maxclass" : "bpatcher",
 					"numinlets" : 1,
 					"numoutlets" : 2,
@@ -102,7 +102,7 @@
 									"patching_rect" : [ 1321.0, 332.322632, 40.0, 20.0 ],
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
-											"parameter_longname" : "live.text",
+											"parameter_longname" : "live.text[3]",
 											"parameter_shortname" : "live.text",
 											"parameter_type" : 2,
 											"parameter_mmax" : 1.0,
@@ -240,7 +240,7 @@
 									"presentation_rect" : [ 102.0, 39.953262, 44.0, 47.0 ],
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
-											"parameter_longname" : "Note",
+											"parameter_longname" : "Note[2]",
 											"parameter_shortname" : "Note",
 											"parameter_type" : 1,
 											"parameter_initial_enable" : 1,
@@ -271,7 +271,7 @@
 									"presentation_rect" : [ 34.122688, 3.0, 9.742592, 9.742592 ],
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
-											"parameter_longname" : "Duration",
+											"parameter_longname" : "Duration[2]",
 											"parameter_shortname" : "Duration",
 											"parameter_type" : 0,
 											"parameter_mmax" : 100.0,
@@ -476,7 +476,7 @@
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "" ],
 									"patching_rect" : [ 1067.0, 735.0, 107.0, 20.0 ],
-									"restore" : [ "samples:/Cycles/Momentary Incursions_44k/hits/noise bursts/wazp_noizebursts/wazp_09.wav" ],
+									"restore" : [ "Macintosh HD:/Users/Shared/Battery 3 Library/07 - Battery 3 Kits/02 - Production Kits/Dub Remix Kit/Dub Remix Kit Samples/Hi Hat Dub Pedal_01.WAV" ],
 									"saved_object_attributes" : 									{
 										"parameter_enable" : 0
 									}
@@ -564,7 +564,7 @@
 									"presentation_rect" : [ 145.272064, 39.0, 67.353462, 52.0 ],
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
-											"parameter_longname" : "Mype",
+											"parameter_longname" : "Mype[2]",
 											"parameter_shortname" : "Mype",
 											"parameter_type" : 2,
 											"parameter_enum" : [ "One shot", "Gated" ],
@@ -643,7 +643,7 @@
 									"presentation_rect" : [ 158.634384, 19.126471, 52.0, 14.764645 ],
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
-											"parameter_longname" : "power",
+											"parameter_longname" : "power[4]",
 											"parameter_shortname" : "power",
 											"parameter_type" : 2,
 											"parameter_mmax" : 1.0,
@@ -818,14 +818,14 @@
 									"patching_rect" : [ 76.227783, 374.779785, 59.5, 20.0 ],
 									"restore" : 									{
 										"Mype" : [ 0.0 ],
-										"Note" : [ 60.0 ],
+										"Note" : [ 36.0 ],
 										"led" : [ 0.0 ],
 										"power[1]" : [ 0.0 ],
 										"stealth_init" : [ 0.0 ]
 									}
 ,
 									"text" : "autopattr",
-									"varname" : "u532001918"
+									"varname" : "u897006321"
 								}
 
 							}
@@ -876,6 +876,15 @@
 							}
  ],
 						"lines" : [ 							{
+								"patchline" : 								{
+									"destination" : [ "obj-11", 0 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-1", 0 ]
+								}
+
+							}
+, 							{
 								"patchline" : 								{
 									"destination" : [ "obj-3", 0 ],
 									"disabled" : 0,
@@ -1246,7 +1255,7 @@
 							}
 , 							{
 								"patchline" : 								{
-									"destination" : [ "obj-11", 0 ],
+									"destination" : [ "obj-11", 1 ],
 									"disabled" : 0,
 									"hidden" : 0,
 									"source" : [ "obj-9", 0 ]
@@ -1266,18 +1275,18 @@
 					}
 ,
 					"patching_rect" : [ 0.0, 0.0, 217.0, 116.0 ],
-					"varname" : "CellM"
+					"varname" : "CellM[2]"
 				}
 
 			}
  ],
 		"lines" : [  ],
 		"parameters" : 		{
-			"obj-60::obj-20" : [ "power", "power", 0 ],
-			"obj-60::obj-28" : [ "Duration", "Duration", 0 ],
-			"obj-60::obj-22" : [ "live.text", "live.text", 0 ],
-			"obj-60::obj-9" : [ "Note", "Note", 0 ],
-			"obj-60::obj-48" : [ "Mype", "Mype", 0 ]
+			"obj-25::obj-20" : [ "power[4]", "power", 0 ],
+			"obj-25::obj-28" : [ "Duration[2]", "Duration", 0 ],
+			"obj-25::obj-48" : [ "Mype[2]", "Mype", 0 ],
+			"obj-25::obj-9" : [ "Note[2]", "Note", 0 ],
+			"obj-25::obj-22" : [ "live.text[3]", "live.text", 0 ]
 		}
 ,
 		"dependency_cache" : [  ]

@@ -10,7 +10,7 @@
 ,
 		"rect" : [ 500.0, 50.0, 515.0, 228.0 ],
 		"bgcolor" : [ 0.5, 0.5, 0.5, 1.0 ],
-		"bglocked" : 0,
+		"bglocked" : 1,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
 		"default_fontface" : 0,
@@ -29,6 +29,136 @@
 		"digest" : "",
 		"tags" : "",
 		"boxes" : [ 			{
+				"box" : 				{
+					"fontface" : 1,
+					"fontname" : "Arial",
+					"fontsize" : 10.0,
+					"frgb" : 0.0,
+					"id" : "obj-2",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 1012.0, 1621.435913, 35.0, 18.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 4.0, 132.792236, 36.0, 18.0 ],
+					"text" : "Input",
+					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"id" : "obj-5",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "bang" ],
+					"patching_rect" : [ 1291.0, 1500.435913, 60.0, 20.0 ],
+					"presentation_rect" : [ 1291.0, 1500.435913, 0.0, 0.0 ],
+					"text" : "loadbang"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"id" : "obj-7",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "" ],
+					"patching_rect" : [ 1012.0, 1654.435913, 414.0, 20.0 ],
+					"text" : "combine ./packages/BEAP/clippings/BEAP/Input/ Patch.maxpat @triggers 1"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"id" : "obj-8",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 1012.0, 1719.435913, 53.0, 20.0 ],
+					"presentation_rect" : [ 1012.0, 1719.435913, 0.0, 0.0 ],
+					"text" : "pcontrol"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"id" : "obj-15",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 1012.0, 1688.435913, 81.0, 20.0 ],
+					"presentation_rect" : [ 1012.0, 1688.435913, 0.0, 0.0 ],
+					"text" : "prepend load"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-136",
+					"maxclass" : "button",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "bang" ],
+					"patching_rect" : [ 1291.0, 1539.435913, 20.0, 20.0 ],
+					"presentation_rect" : [ 1291.0, 1539.435913, 0.0, 0.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"arrowbgcolor" : [ 0.018335, 0.018335, 0.018335, 1.0 ],
+					"arrowcolor" : [ 0.943698, 0.943698, 0.943698, 1.0 ],
+					"arrowlink" : 0,
+					"bgcolor" : [ 0.163564, 0.163564, 0.163564, 1.0 ],
+					"bgcolor2" : [ 0.244519, 0.244519, 0.244519, 1.0 ],
+					"fontname" : "Arial",
+					"fontsize" : 10.0,
+					"framecolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"hltcolor" : [ 0.530174, 0.530174, 0.530174, 1.0 ],
+					"id" : "obj-137",
+					"items" : [ "bp.Gate Pad.maxpat", ",", "bp.Input.maxpat", ",", "bp.Keyboard.maxpat", ",", "bp.M4L In.maxpat", ",", "bp.MIDI.maxpat", ",", "bp.XY Pad.maxpat" ],
+					"maxclass" : "umenu",
+					"numinlets" : 1,
+					"numoutlets" : 3,
+					"outlettype" : [ "int", "", "" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 1291.0, 1615.435913, 207.0, 18.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 75.996262, 132.792236, 163.0, 18.0 ],
+					"rounded" : 4,
+					"textcolor" : [ 0.278431, 0.839216, 1.0, 1.0 ],
+					"textcolor2" : [ 0.278431, 0.839216, 1.0, 1.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"id" : "obj-138",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "int" ],
+					"patching_rect" : [ 1291.0, 1576.435913, 253.0, 20.0 ],
+					"text" : "folder ./packages/BEAP/clippings/BEAP/Input"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"hidden" : 1,
 					"id" : "obj-190",
@@ -1357,9 +1487,9 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1031.487183, 4490.140625, 62.0, 18.0 ],
+					"patching_rect" : [ 1031.487183, 4857.095215, 62.0, 18.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 259.0, 175.066071, 63.0, 18.0 ],
+					"presentation_rect" : [ 256.0, 196.201477, 63.0, 18.0 ],
 					"text" : "Sequencer",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
@@ -1375,9 +1505,9 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1031.487305, 4219.140625, 41.0, 18.0 ],
+					"patching_rect" : [ 1031.487305, 4586.095215, 41.0, 18.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 259.0, 153.930695, 42.0, 18.0 ],
+					"presentation_rect" : [ 256.0, 175.066101, 42.0, 18.0 ],
 					"text" : "Scope",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
@@ -1393,9 +1523,9 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1031.487183, 3908.140625, 57.0, 18.0 ],
+					"patching_rect" : [ 1031.487183, 4275.095215, 57.0, 18.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 259.0, 132.795258, 58.0, 18.0 ],
+					"presentation_rect" : [ 256.0, 153.930664, 58.0, 18.0 ],
 					"text" : "Quantizer",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
@@ -1411,9 +1541,9 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1012.0, 3540.050049, 43.0, 18.0 ],
+					"patching_rect" : [ 1012.0, 3907.004639, 43.0, 18.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 259.0, 111.659882, 44.0, 18.0 ],
+					"presentation_rect" : [ 256.0, 132.795288, 44.0, 18.0 ],
 					"text" : "Output",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
@@ -1429,9 +1559,9 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1012.000183, 3265.172363, 57.0, 18.0 ],
+					"patching_rect" : [ 1012.000183, 3632.126953, 57.0, 18.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 259.0, 90.524445, 58.0, 18.0 ],
+					"presentation_rect" : [ 256.0, 111.659851, 58.0, 18.0 ],
 					"text" : "Oscillator",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
@@ -1447,9 +1577,9 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1012.0, 2963.898682, 52.0, 18.0 ],
+					"patching_rect" : [ 1012.0, 3330.853271, 52.0, 18.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 259.0, 69.389069, 53.0, 18.0 ],
+					"presentation_rect" : [ 256.0, 90.524475, 53.0, 18.0 ],
 					"text" : "Monome",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
@@ -1465,9 +1595,9 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1012.0, 2728.898682, 42.0, 18.0 ],
+					"patching_rect" : [ 1012.0, 3095.853271, 42.0, 18.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 259.0, 48.253632, 43.0, 18.0 ],
+					"presentation_rect" : [ 256.0, 69.389038, 43.0, 18.0 ],
 					"text" : "Mixers",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
@@ -1483,9 +1613,9 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1012.0, 2428.0, 32.0, 18.0 ],
+					"patching_rect" : [ 1012.0, 2794.95459, 32.0, 18.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 8.999985, 196.201477, 32.0, 18.0 ],
+					"presentation_rect" : [ 256.0, 48.253632, 32.0, 18.0 ],
 					"text" : "MIDI",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
@@ -1501,9 +1631,9 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1012.0, 2148.0, 43.0, 18.0 ],
+					"patching_rect" : [ 1012.0, 2514.95459, 43.0, 18.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 4.0, 174.201477, 44.0, 18.0 ],
+					"presentation_rect" : [ 4.0, 196.201477, 44.0, 18.0 ],
 					"text" : "Master",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
@@ -1519,9 +1649,9 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1012.0, 1914.0, 30.0, 18.0 ],
+					"patching_rect" : [ 1012.0, 2280.95459, 30.0, 18.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 4.0, 153.066101, 30.0, 18.0 ],
+					"presentation_rect" : [ 4.0, 175.066101, 30.0, 18.0 ],
 					"text" : "LFO",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
@@ -1537,9 +1667,9 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1012.0, 1630.0, 36.0, 18.0 ],
+					"patching_rect" : [ 1012.0, 1996.954468, 36.0, 18.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 4.0, 131.930664, 37.0, 18.0 ],
+					"presentation_rect" : [ 4.0, 153.930664, 37.0, 18.0 ],
 					"text" : "Level",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
@@ -1626,7 +1756,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 1297.487183, 4369.291992, 60.0, 20.0 ],
+					"patching_rect" : [ 1297.487183, 4736.246582, 60.0, 20.0 ],
 					"text" : "loadbang"
 				}
 
@@ -1640,7 +1770,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 1031.487183, 4523.291992, 445.0, 20.0 ],
+					"patching_rect" : [ 1031.487183, 4890.246582, 445.0, 20.0 ],
 					"text" : "combine ./packages/BEAP/clippings/BEAP/Sequencer/ Patch.maxpat @triggers 1"
 				}
 
@@ -1654,7 +1784,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1031.487183, 4588.291992, 53.0, 20.0 ],
+					"patching_rect" : [ 1031.487183, 4955.246582, 53.0, 20.0 ],
 					"text" : "pcontrol"
 				}
 
@@ -1668,7 +1798,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1031.487183, 4557.291992, 81.0, 20.0 ],
+					"patching_rect" : [ 1031.487183, 4924.246582, 81.0, 20.0 ],
 					"text" : "prepend load"
 				}
 
@@ -1680,7 +1810,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 1297.487183, 4408.291992, 20.0, 20.0 ]
+					"patching_rect" : [ 1297.487183, 4775.246582, 20.0, 20.0 ]
 				}
 
 			}
@@ -1696,15 +1826,15 @@
 					"framecolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"hltcolor" : [ 0.530174, 0.530174, 0.530174, 1.0 ],
 					"id" : "obj-107",
-					"items" : [ "bp.Detonator.maxpat", ",", "bp.Dual Gate Sequencer.maxpat", ",", "bp.Gate Sequencer.maxpat", ",", "bp.Gate to Trigger.maxpat", ",", "bp.Logic.maxpat", ",", "bp.Metonomic Pulse.maxpat", ",", "bp.Morphing Sequencer.maxpat", ",", "bp.Pulse Designer.maxpat", ",", "bp.Quadrature Risset Generator.maxpat", ",", "bp.Sequencer.maxpat", ",", "bp.Slide Sequencer.maxpat", ",", "bp.Threshold.maxpat", ",", "swingCalc.js" ],
+					"items" : [ "bp.Detonator.maxpat", ",", "bp.Gate Sequencer.maxpat", ",", "bp.Gate to Trigger.maxpat", ",", "bp.Logic.maxpat", ",", "bp.Metonomic Pulse.maxpat", ",", "bp.Morphing Sequencer.maxpat", ",", "bp.Pulse Designer.maxpat", ",", "bp.Quadrature Risset Generator.maxpat", ",", "bp.Sequencer.maxpat", ",", "bp.Slide Sequencer.maxpat", ",", "bp.Threshold.maxpat" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "int", "", "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 1297.487183, 4484.291992, 207.0, 18.0 ],
+					"patching_rect" : [ 1297.487183, 4851.246582, 207.0, 18.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 325.996277, 175.066071, 149.0, 18.0 ],
+					"presentation_rect" : [ 322.996277, 196.201477, 149.0, 18.0 ],
 					"rounded" : 4,
 					"textcolor" : [ 0.278431, 0.839216, 1.0, 1.0 ],
 					"textcolor2" : [ 0.278431, 0.839216, 1.0, 1.0 ]
@@ -1720,7 +1850,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "int" ],
-					"patching_rect" : [ 1297.487183, 4445.291992, 284.0, 20.0 ],
+					"patching_rect" : [ 1297.487183, 4812.246582, 284.0, 20.0 ],
 					"text" : "folder ./packages/BEAP/clippings/BEAP/Sequencer"
 				}
 
@@ -1734,7 +1864,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 1310.487183, 3793.140625, 60.0, 20.0 ],
+					"patching_rect" : [ 1310.487183, 4160.095215, 60.0, 20.0 ],
 					"text" : "loadbang"
 				}
 
@@ -1748,7 +1878,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 1031.487183, 3947.140625, 439.0, 20.0 ],
+					"patching_rect" : [ 1031.487183, 4314.095215, 439.0, 20.0 ],
 					"text" : "combine ./packages/BEAP/clippings/BEAP/Quantizer/ Patch.maxpat @triggers 1"
 				}
 
@@ -1762,7 +1892,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1031.487183, 4012.140625, 53.0, 20.0 ],
+					"patching_rect" : [ 1031.487183, 4379.095215, 53.0, 20.0 ],
 					"text" : "pcontrol"
 				}
 
@@ -1776,7 +1906,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1031.487183, 3981.140625, 81.0, 20.0 ],
+					"patching_rect" : [ 1031.487183, 4348.095215, 81.0, 20.0 ],
 					"text" : "prepend load"
 				}
 
@@ -1788,7 +1918,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 1310.487183, 3832.140625, 20.0, 20.0 ]
+					"patching_rect" : [ 1310.487183, 4199.095215, 20.0, 20.0 ]
 				}
 
 			}
@@ -1810,9 +1940,9 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "int", "", "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 1310.487183, 3908.140625, 207.0, 18.0 ],
+					"patching_rect" : [ 1310.487183, 4275.095215, 207.0, 18.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 325.996277, 132.795258, 149.0, 18.0 ],
+					"presentation_rect" : [ 322.996277, 153.930664, 149.0, 18.0 ],
 					"rounded" : 4,
 					"textcolor" : [ 0.278431, 0.839216, 1.0, 1.0 ],
 					"textcolor2" : [ 0.278431, 0.839216, 1.0, 1.0 ]
@@ -1828,7 +1958,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "int" ],
-					"patching_rect" : [ 1310.487183, 3869.140625, 278.0, 20.0 ],
+					"patching_rect" : [ 1310.487183, 4236.095215, 278.0, 20.0 ],
 					"text" : "folder ./packages/BEAP/clippings/BEAP/Quantizer"
 				}
 
@@ -1842,7 +1972,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 1310.487183, 4094.414307, 60.0, 20.0 ],
+					"patching_rect" : [ 1310.487183, 4461.368652, 60.0, 20.0 ],
 					"text" : "loadbang"
 				}
 
@@ -1856,7 +1986,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 1031.487305, 4248.414062, 421.0, 20.0 ],
+					"patching_rect" : [ 1031.487305, 4615.368652, 421.0, 20.0 ],
 					"text" : "combine ./packages/BEAP/clippings/BEAP/Scope/ Patch.maxpat @triggers 1"
 				}
 
@@ -1870,7 +2000,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1031.487305, 4313.414551, 53.0, 20.0 ],
+					"patching_rect" : [ 1031.487305, 4680.369141, 53.0, 20.0 ],
 					"text" : "pcontrol"
 				}
 
@@ -1884,7 +2014,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1031.487305, 4282.414551, 81.0, 20.0 ],
+					"patching_rect" : [ 1031.487305, 4649.369141, 81.0, 20.0 ],
 					"text" : "prepend load"
 				}
 
@@ -1896,7 +2026,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 1310.487183, 4133.414062, 20.0, 20.0 ]
+					"patching_rect" : [ 1310.487183, 4500.368652, 20.0, 20.0 ]
 				}
 
 			}
@@ -1912,15 +2042,15 @@
 					"framecolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"hltcolor" : [ 0.530174, 0.530174, 0.530174, 1.0 ],
 					"id" : "obj-121",
-					"items" : [ "bp.Big Scope.maxpat", ",", "bp.History.maxpat", ",", "bp.Radial.maxpat", ",", "bp.Scope.maxpat", ",", "bp.Spectral.maxpat", ",", "bp.Value.maxpat", ",", "bp.Volt Meter.maxpat" ],
+					"items" : [ "bp.Big Scope.maxpat", ",", "bp.Big Spectral.maxpat", ",", "bp.History.maxpat", ",", "bp.Radial.maxpat", ",", "bp.Scope.maxpat", ",", "bp.Sonogram.maxpat", ",", "bp.Spectral.maxpat", ",", "bp.Value.maxpat", ",", "bp.Volt Meter.maxpat" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "int", "", "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 1310.487183, 4209.414062, 207.0, 18.0 ],
+					"patching_rect" : [ 1310.487183, 4576.368652, 207.0, 18.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 325.996277, 153.930695, 149.0, 18.0 ],
+					"presentation_rect" : [ 322.996277, 175.066101, 149.0, 18.0 ],
 					"rounded" : 4,
 					"textcolor" : [ 0.278431, 0.839216, 1.0, 1.0 ],
 					"textcolor2" : [ 0.278431, 0.839216, 1.0, 1.0 ]
@@ -1936,7 +2066,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "int" ],
-					"patching_rect" : [ 1310.487183, 4170.414062, 260.0, 20.0 ],
+					"patching_rect" : [ 1310.487183, 4537.368652, 260.0, 20.0 ],
 					"text" : "folder ./packages/BEAP/clippings/BEAP/Scope"
 				}
 
@@ -1950,7 +2080,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 1278.0, 3425.050049, 60.0, 20.0 ],
+					"patching_rect" : [ 1278.0, 3792.004639, 60.0, 20.0 ],
 					"text" : "loadbang"
 				}
 
@@ -1964,7 +2094,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 1012.0, 3579.050049, 423.0, 20.0 ],
+					"patching_rect" : [ 1012.0, 3946.004639, 423.0, 20.0 ],
 					"text" : "combine ./packages/BEAP/clippings/BEAP/Output/ Patch.maxpat @triggers 1"
 				}
 
@@ -1978,7 +2108,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1012.0, 3644.050049, 53.0, 20.0 ],
+					"patching_rect" : [ 1012.0, 4011.004639, 53.0, 20.0 ],
 					"text" : "pcontrol"
 				}
 
@@ -1992,7 +2122,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1012.0, 3613.050049, 81.0, 20.0 ],
+					"patching_rect" : [ 1012.0, 3980.004639, 81.0, 20.0 ],
 					"text" : "prepend load"
 				}
 
@@ -2004,7 +2134,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 1278.0, 3464.050049, 20.0, 20.0 ]
+					"patching_rect" : [ 1278.0, 3831.004639, 20.0, 20.0 ]
 				}
 
 			}
@@ -2026,9 +2156,9 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "int", "", "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 1278.0, 3540.050049, 207.0, 18.0 ],
+					"patching_rect" : [ 1278.0, 3907.004639, 207.0, 18.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 325.996277, 111.659882, 149.0, 18.0 ],
+					"presentation_rect" : [ 322.996277, 132.795288, 149.0, 18.0 ],
 					"rounded" : 4,
 					"textcolor" : [ 0.278431, 0.839216, 1.0, 1.0 ],
 					"textcolor2" : [ 0.278431, 0.839216, 1.0, 1.0 ]
@@ -2044,7 +2174,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "int" ],
-					"patching_rect" : [ 1278.0, 3501.050049, 262.0, 20.0 ],
+					"patching_rect" : [ 1278.0, 3868.004639, 262.0, 20.0 ],
 					"text" : "folder ./packages/BEAP/clippings/BEAP/Output"
 				}
 
@@ -2058,7 +2188,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 1278.0, 2613.898682, 60.0, 20.0 ],
+					"patching_rect" : [ 1278.0, 2980.853271, 60.0, 20.0 ],
 					"text" : "loadbang"
 				}
 
@@ -2072,7 +2202,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 1012.0, 2767.898682, 422.0, 20.0 ],
+					"patching_rect" : [ 1012.0, 3134.853271, 422.0, 20.0 ],
 					"text" : "combine ./packages/BEAP/clippings/BEAP/Mixers/ Patch.maxpat @triggers 1"
 				}
 
@@ -2086,7 +2216,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1012.0, 2832.898682, 53.0, 20.0 ],
+					"patching_rect" : [ 1012.0, 3199.853271, 53.0, 20.0 ],
 					"text" : "pcontrol"
 				}
 
@@ -2100,7 +2230,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1012.0, 2801.898682, 81.0, 20.0 ],
+					"patching_rect" : [ 1012.0, 3168.853271, 81.0, 20.0 ],
 					"text" : "prepend load"
 				}
 
@@ -2112,7 +2242,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 1278.0, 2652.898682, 20.0, 20.0 ]
+					"patching_rect" : [ 1278.0, 3019.853271, 20.0, 20.0 ]
 				}
 
 			}
@@ -2134,9 +2264,9 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "int", "", "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 1278.0, 2728.898682, 207.0, 18.0 ],
+					"patching_rect" : [ 1278.0, 3095.853271, 207.0, 18.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 325.996277, 48.253632, 149.0, 18.0 ],
+					"presentation_rect" : [ 322.996277, 69.389038, 149.0, 18.0 ],
 					"rounded" : 4,
 					"textcolor" : [ 0.278431, 0.839216, 1.0, 1.0 ],
 					"textcolor2" : [ 0.278431, 0.839216, 1.0, 1.0 ]
@@ -2152,7 +2282,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "int" ],
-					"patching_rect" : [ 1278.0, 2689.898682, 261.0, 20.0 ],
+					"patching_rect" : [ 1278.0, 3056.853271, 261.0, 20.0 ],
 					"text" : "folder ./packages/BEAP/clippings/BEAP/Mixers"
 				}
 
@@ -2166,7 +2296,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 1291.0, 2848.898682, 60.0, 20.0 ],
+					"patching_rect" : [ 1291.0, 3215.853271, 60.0, 20.0 ],
 					"text" : "loadbang"
 				}
 
@@ -2180,7 +2310,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 1012.0, 3002.898682, 434.0, 20.0 ],
+					"patching_rect" : [ 1012.0, 3369.853271, 434.0, 20.0 ],
 					"text" : "combine ./packages/BEAP/clippings/BEAP/Monome/ Patch.maxpat @triggers 1"
 				}
 
@@ -2194,7 +2324,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1012.0, 3067.898682, 53.0, 20.0 ],
+					"patching_rect" : [ 1012.0, 3434.853271, 53.0, 20.0 ],
 					"text" : "pcontrol"
 				}
 
@@ -2208,7 +2338,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1012.0, 3036.898682, 81.0, 20.0 ],
+					"patching_rect" : [ 1012.0, 3403.853271, 81.0, 20.0 ],
 					"text" : "prepend load"
 				}
 
@@ -2220,7 +2350,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 1291.0, 2887.898682, 20.0, 20.0 ]
+					"patching_rect" : [ 1291.0, 3254.853271, 20.0, 20.0 ]
 				}
 
 			}
@@ -2242,9 +2372,9 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "int", "", "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 1291.0, 2963.898682, 207.0, 18.0 ],
+					"patching_rect" : [ 1291.0, 3330.853271, 207.0, 18.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 325.996277, 69.389069, 149.0, 18.0 ],
+					"presentation_rect" : [ 322.996277, 90.524475, 149.0, 18.0 ],
 					"rounded" : 4,
 					"textcolor" : [ 1.0, 0.58852, 0.0, 1.0 ],
 					"textcolor2" : [ 1.0, 0.58852, 0.0, 1.0 ]
@@ -2260,7 +2390,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "int" ],
-					"patching_rect" : [ 1291.0, 2924.898682, 273.0, 20.0 ],
+					"patching_rect" : [ 1291.0, 3291.853271, 273.0, 20.0 ],
 					"text" : "folder ./packages/BEAP/clippings/BEAP/Monome"
 				}
 
@@ -2274,7 +2404,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 1278.0, 2305.898682, 60.0, 20.0 ],
+					"patching_rect" : [ 1278.0, 2672.853271, 60.0, 20.0 ],
 					"text" : "loadbang"
 				}
 
@@ -2288,7 +2418,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 1012.0, 2459.898682, 412.0, 20.0 ],
+					"patching_rect" : [ 1012.0, 2826.853271, 412.0, 20.0 ],
 					"text" : "combine ./packages/BEAP/clippings/BEAP/MIDI/ Patch.maxpat @triggers 1"
 				}
 
@@ -2302,7 +2432,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1012.0, 2524.898682, 53.0, 20.0 ],
+					"patching_rect" : [ 1012.0, 2891.853271, 53.0, 20.0 ],
 					"text" : "pcontrol"
 				}
 
@@ -2316,7 +2446,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1012.0, 2493.898682, 81.0, 20.0 ],
+					"patching_rect" : [ 1012.0, 2860.853271, 81.0, 20.0 ],
 					"text" : "prepend load"
 				}
 
@@ -2328,7 +2458,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 1278.0, 2344.898682, 20.0, 20.0 ]
+					"patching_rect" : [ 1278.0, 2711.853271, 20.0, 20.0 ]
 				}
 
 			}
@@ -2350,9 +2480,9 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "int", "", "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 1278.0, 2420.898682, 207.0, 18.0 ],
+					"patching_rect" : [ 1278.0, 2787.853271, 207.0, 18.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 75.996262, 196.201477, 163.0, 18.0 ],
+					"presentation_rect" : [ 322.996277, 48.253632, 149.0, 18.0 ],
 					"rounded" : 4,
 					"textcolor" : [ 0.146782, 0.869579, 0.0, 1.0 ],
 					"textcolor2" : [ 0.146782, 0.869579, 0.0, 1.0 ]
@@ -2368,7 +2498,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "int" ],
-					"patching_rect" : [ 1278.0, 2381.898682, 251.0, 20.0 ],
+					"patching_rect" : [ 1278.0, 2748.853271, 251.0, 20.0 ],
 					"text" : "folder ./packages/BEAP/clippings/BEAP/MIDI"
 				}
 
@@ -2382,7 +2512,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 1278.0, 1791.898682, 60.0, 20.0 ],
+					"patching_rect" : [ 1278.0, 2158.853271, 60.0, 20.0 ],
 					"text" : "loadbang"
 				}
 
@@ -2396,7 +2526,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 1012.0, 1945.898682, 410.0, 20.0 ],
+					"patching_rect" : [ 1012.0, 2312.853271, 410.0, 20.0 ],
 					"text" : "combine ./packages/BEAP/clippings/BEAP/LFO/ Patch.maxpat @triggers 1"
 				}
 
@@ -2410,7 +2540,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1012.0, 2010.898682, 53.0, 20.0 ],
+					"patching_rect" : [ 1012.0, 2377.853271, 53.0, 20.0 ],
 					"text" : "pcontrol"
 				}
 
@@ -2424,7 +2554,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1012.0, 1979.898682, 81.0, 20.0 ],
+					"patching_rect" : [ 1012.0, 2346.853271, 81.0, 20.0 ],
 					"text" : "prepend load"
 				}
 
@@ -2436,7 +2566,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 1278.0, 1830.898682, 20.0, 20.0 ]
+					"patching_rect" : [ 1278.0, 2197.853271, 20.0, 20.0 ]
 				}
 
 			}
@@ -2458,9 +2588,9 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "int", "", "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 1278.0, 1906.898682, 207.0, 18.0 ],
+					"patching_rect" : [ 1278.0, 2273.853271, 207.0, 18.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 75.996262, 153.066101, 163.0, 18.0 ],
+					"presentation_rect" : [ 75.996262, 175.066101, 163.0, 18.0 ],
 					"rounded" : 4,
 					"textcolor" : [ 0.278431, 0.839216, 1.0, 1.0 ],
 					"textcolor2" : [ 0.278431, 0.839216, 1.0, 1.0 ]
@@ -2476,7 +2606,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "int" ],
-					"patching_rect" : [ 1278.0, 1867.898682, 249.0, 20.0 ],
+					"patching_rect" : [ 1278.0, 2234.853271, 249.0, 20.0 ],
 					"text" : "folder ./packages/BEAP/clippings/BEAP/LFO"
 				}
 
@@ -2490,7 +2620,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 1291.0, 2026.898682, 60.0, 20.0 ],
+					"patching_rect" : [ 1291.0, 2393.853271, 60.0, 20.0 ],
 					"text" : "loadbang"
 				}
 
@@ -2504,7 +2634,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 1012.0, 2180.898682, 424.0, 20.0 ],
+					"patching_rect" : [ 1012.0, 2547.853271, 424.0, 20.0 ],
 					"text" : "combine ./packages/BEAP/clippings/BEAP/Master/ Patch.maxpat @triggers 1"
 				}
 
@@ -2518,7 +2648,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1012.0, 2245.898682, 53.0, 20.0 ],
+					"patching_rect" : [ 1012.0, 2612.853271, 53.0, 20.0 ],
 					"text" : "pcontrol"
 				}
 
@@ -2532,7 +2662,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1012.0, 2214.898682, 81.0, 20.0 ],
+					"patching_rect" : [ 1012.0, 2581.853271, 81.0, 20.0 ],
 					"text" : "prepend load"
 				}
 
@@ -2544,7 +2674,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 1291.0, 2065.898682, 20.0, 20.0 ]
+					"patching_rect" : [ 1291.0, 2432.853271, 20.0, 20.0 ]
 				}
 
 			}
@@ -2566,9 +2696,9 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "int", "", "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 1291.0, 2141.898682, 207.0, 18.0 ],
+					"patching_rect" : [ 1291.0, 2508.853271, 207.0, 18.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 75.996262, 174.201477, 163.0, 18.0 ],
+					"presentation_rect" : [ 75.996262, 196.201477, 163.0, 18.0 ],
 					"rounded" : 4,
 					"textcolor" : [ 0.278431, 0.839216, 1.0, 1.0 ],
 					"textcolor2" : [ 0.278431, 0.839216, 1.0, 1.0 ]
@@ -2584,7 +2714,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "int" ],
-					"patching_rect" : [ 1291.0, 2102.898682, 263.0, 20.0 ],
+					"patching_rect" : [ 1291.0, 2469.853271, 263.0, 20.0 ],
 					"text" : "folder ./packages/BEAP/clippings/BEAP/Master"
 				}
 
@@ -2598,7 +2728,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 1278.0, 1507.0, 60.0, 20.0 ],
+					"patching_rect" : [ 1278.0, 1873.954468, 60.0, 20.0 ],
 					"text" : "loadbang"
 				}
 
@@ -2612,7 +2742,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 1012.0, 1661.0, 416.0, 20.0 ],
+					"patching_rect" : [ 1012.0, 2027.954468, 416.0, 20.0 ],
 					"text" : "combine ./packages/BEAP/clippings/BEAP/Level/ Patch.maxpat @triggers 1"
 				}
 
@@ -2626,7 +2756,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1012.0, 1726.0, 53.0, 20.0 ],
+					"patching_rect" : [ 1012.0, 2092.95459, 53.0, 20.0 ],
 					"text" : "pcontrol"
 				}
 
@@ -2640,7 +2770,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1012.0, 1695.0, 81.0, 20.0 ],
+					"patching_rect" : [ 1012.0, 2061.95459, 81.0, 20.0 ],
 					"text" : "prepend load"
 				}
 
@@ -2652,7 +2782,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 1278.0, 1546.0, 20.0, 20.0 ]
+					"patching_rect" : [ 1278.0, 1912.954468, 20.0, 20.0 ]
 				}
 
 			}
@@ -2668,15 +2798,15 @@
 					"framecolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"hltcolor" : [ 0.530174, 0.530174, 0.530174, 1.0 ],
 					"id" : "obj-44",
-					"items" : [ "bp.Attenuator Exponential.maxpat", ",", "bp.Attenuator.maxpat", ",", "bp.Constant.maxpat", ",", "bp.Envelope Follower.maxpat", ",", "bp.Gain and Bias.maxpat", ",", "bp.Harmonic.maxpat", ",", "bp.Lag Processor.maxpat", ",", "bp.Pan.maxpat", ",", "bp.Quadrature Morph.maxpat", ",", "bp.Sample and Hold.maxpat", ",", "bp.Track and Hold.maxpat", ",", "bp.Transpose.maxpat", ",", "bp.VCA.maxpat", ",", "bp.Wavefolder.maxpat", ",", "bp.Wrap and Bias.maxpat", ",", "bp.Xfade.maxpat" ],
+					"items" : [ "bp.Attenuator.maxpat", ",", "bp.Constant.maxpat", ",", "bp.Envelope Follower.maxpat", ",", "bp.Gain and Bias.maxpat", ",", "bp.Gain.maxpat", ",", "bp.Harmonic.maxpat", ",", "bp.Lag Processor.maxpat", ",", "bp.Pan.maxpat", ",", "bp.Quadrature Morph.maxpat", ",", "bp.Sample and Hold.maxpat", ",", "bp.Track and Hold.maxpat", ",", "bp.Transpose.maxpat", ",", "bp.VCA.maxpat", ",", "bp.Vector.maxpat", ",", "bp.Wavefolder.maxpat", ",", "bp.Wrap and Bias.maxpat", ",", "bp.Xfade.maxpat" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "int", "", "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 1278.0, 1622.0, 207.0, 18.0 ],
+					"patching_rect" : [ 1278.0, 1988.954468, 207.0, 18.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 75.996262, 131.930664, 163.0, 18.0 ],
+					"presentation_rect" : [ 75.996262, 153.930664, 163.0, 18.0 ],
 					"rounded" : 4,
 					"textcolor" : [ 0.278431, 0.839216, 1.0, 1.0 ],
 					"textcolor2" : [ 0.278431, 0.839216, 1.0, 1.0 ]
@@ -2692,7 +2822,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "int" ],
-					"patching_rect" : [ 1278.0, 1583.0, 255.0, 20.0 ],
+					"patching_rect" : [ 1278.0, 1949.954468, 255.0, 20.0 ],
 					"text" : "folder ./packages/BEAP/clippings/BEAP/Level"
 				}
 
@@ -2776,7 +2906,7 @@
 					"framecolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"hltcolor" : [ 0.530174, 0.530174, 0.530174, 1.0 ],
 					"id" : "obj-51",
-					"items" : [ "bp.ADSR.maxpat", ",", "bp.ADSR2 - Adjustable Curves.maxpat", ",", "bp.AHR.maxpat", ",", "bp.AR.maxpat", ",", "bp.ASR.maxpat", ",", "bp.DADSR.maxpat", ",", "bp.Function.maxpat", ",", "bp.Graphic ADSR.maxpat", ",", "bp.VC-ADSR.maxpat" ],
+					"items" : [ "bp.AD.maxpat", ",", "bp.ADSR.maxpat", ",", "bp.ADSR2 - Adjustable Curves.maxpat", ",", "bp.AHR.maxpat", ",", "bp.AR.maxpat", ",", "bp.DADSR.maxpat", ",", "bp.Function.maxpat", ",", "bp.Graphic ADSR.maxpat", ",", "bp.VC-ADSR.maxpat" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -2992,7 +3122,7 @@
 					"framecolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"hltcolor" : [ 0.530174, 0.530174, 0.530174, 1.0 ],
 					"id" : "obj-30",
-					"items" : [ "bp.Chorus.maxpat", ",", "bp.Compressor.maxpat", ",", "bp.Feedback Delay.maxpat", ",", "bp.Flanger.maxpat", ",", "bp.Freeverb.maxpat", ",", "bp.Gate Delay.maxpat", ",", "bp.Gigaverb.maxpat", ",", "bp.Signal Delay.maxpat", ",", "bp.Sync Delay.maxpat", ",", "bp.VST Effect.maxpat" ],
+					"items" : [ "bp.Chorus.maxpat", ",", "bp.Compressor.maxpat", ",", "bp.Dual Gate Sequencer.maxpat", ",", "bp.Feedback Delay.maxpat", ",", "bp.Flanger.maxpat", ",", "bp.Freeverb.maxpat", ",", "bp.Gate Delay.maxpat", ",", "bp.Gigaverb.maxpat", ",", "bp.Signal Delay.maxpat", ",", "bp.Sync Delay.maxpat", ",", "bp.VST Effect.maxpat" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -3030,7 +3160,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 1291.0, 3150.172363, 60.0, 20.0 ],
+					"patching_rect" : [ 1291.0, 3517.126953, 60.0, 20.0 ],
 					"text" : "loadbang"
 				}
 
@@ -3044,7 +3174,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 1012.000183, 3304.172363, 437.0, 20.0 ],
+					"patching_rect" : [ 1012.000183, 3671.126953, 437.0, 20.0 ],
 					"text" : "combine ./packages/BEAP/clippings/BEAP/Oscillator/ Patch.maxpat @triggers 1"
 				}
 
@@ -3058,7 +3188,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1012.000183, 3369.172363, 53.0, 20.0 ],
+					"patching_rect" : [ 1012.000183, 3736.126953, 53.0, 20.0 ],
 					"text" : "pcontrol"
 				}
 
@@ -3072,7 +3202,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1012.000183, 3338.172363, 81.0, 20.0 ],
+					"patching_rect" : [ 1012.000183, 3705.126953, 81.0, 20.0 ],
 					"text" : "prepend load"
 				}
 
@@ -3084,7 +3214,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 1291.0, 3189.172363, 20.0, 20.0 ]
+					"patching_rect" : [ 1291.0, 3556.126953, 20.0, 20.0 ]
 				}
 
 			}
@@ -3100,15 +3230,15 @@
 					"framecolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"hltcolor" : [ 0.530174, 0.530174, 0.530174, 1.0 ],
 					"id" : "obj-37",
-					"items" : [ "bp.Cell.maxpat", ",", "bp.Classroom Samplr.maxpat", ",", "bp.Cloud.maxpat", ",", "bp.Demosnd.maxpat", ",", "bp.FM.maxpat", ",", "bp.Folder.maxpat", ",", "bp.Karplus.maxpat", ",", "bp.Noise.maxpat", ",", "bp.Oscillator.maxpat", ",", "bp.Phase Vocoder.maxpat", ",", "bp.Samplr.maxpat", ",", "bp.Spectra.maxpat", ",", "bp.Table.maxpat", ",", "bp.Waveshaper.maxpat" ],
+					"items" : [ "bp.Cell.maxpat", ",", "bp.Classroom Samplr.maxpat", ",", "bp.Cloud.maxpat", ",", "bp.Demosnd.maxpat", ",", "bp.FM.maxpat", ",", "bp.Folder.maxpat", ",", "bp.Granular.maxpat", ",", "bp.Karplus.maxpat", ",", "bp.Noise.maxpat", ",", "bp.Oscillator.maxpat", ",", "bp.Phase Vocoder.maxpat", ",", "bp.Quad Harmonic Oscillator.maxpat", ",", "bp.Samplr.maxpat", ",", "bp.Spectra.maxpat", ",", "bp.Table.maxpat", ",", "bp.Waveshaper.maxpat", ",", "bp.Wavetable.maxpat" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "int", "", "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 1291.0, 3265.172363, 207.0, 18.0 ],
+					"patching_rect" : [ 1291.0, 3632.126953, 207.0, 18.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 325.996277, 90.524445, 149.0, 18.0 ],
+					"presentation_rect" : [ 322.996277, 111.659851, 149.0, 18.0 ],
 					"rounded" : 4,
 					"textcolor" : [ 0.278431, 0.839216, 1.0, 1.0 ],
 					"textcolor2" : [ 0.278431, 0.839216, 1.0, 1.0 ]
@@ -3124,7 +3254,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "int" ],
-					"patching_rect" : [ 1291.0, 3226.172363, 276.0, 20.0 ],
+					"patching_rect" : [ 1291.0, 3593.126953, 276.0, 20.0 ],
 					"text" : "folder ./packages/BEAP/clippings/BEAP/Oscillator"
 				}
 
@@ -3617,11 +3747,47 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-138", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-136", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-7", 1 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-137", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-137", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-138", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"color" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"destination" : [ "obj-142", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-140", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-8", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-15", 0 ]
 				}
 
 			}
@@ -3872,6 +4038,15 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-136", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-5", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-52", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
@@ -4020,6 +4195,15 @@
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-68", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-15", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-7", 0 ]
 				}
 
 			}
