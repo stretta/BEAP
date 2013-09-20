@@ -4,8 +4,8 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 1,
-			"revision" : 2,
-			"architecture" : "x64"
+			"revision" : 3,
+			"architecture" : "x86"
 		}
 ,
 		"rect" : [ 0.0, 44.0, 1344.0, 617.0 ],
@@ -40,8 +40,8 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 2,
-							"architecture" : "x64"
+							"revision" : 3,
+							"architecture" : "x86"
 						}
 ,
 						"rect" : [ 0.0, 44.0, 185.0, 116.0 ],
@@ -65,6 +65,34 @@
 						"digest" : "",
 						"tags" : "",
 						"boxes" : [ 							{
+								"box" : 								{
+									"fontname" : "Arial",
+									"fontsize" : 12.0,
+									"id" : "obj-29",
+									"maxclass" : "message",
+									"numinlets" : 2,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 565.0, 140.0, 66.0, 18.0 ],
+									"text" : "controllers"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"fontname" : "Arial",
+									"fontsize" : 12.0,
+									"id" : "obj-7",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 1,
+									"outlettype" : [ "bang" ],
+									"patching_rect" : [ 565.0, 95.0, 60.0, 20.0 ],
+									"text" : "loadbang"
+								}
+
+							}
+, 							{
 								"box" : 								{
 									"fontname" : "Arial",
 									"fontsize" : 12.0,
@@ -154,11 +182,11 @@
 									"presentation_rect" : [ 61.792431, 99.5, 10.77126, 10.472361 ],
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
-											"parameter_type" : 2,
-											"parameter_shortname" : "live.text",
-											"parameter_enum" : [ "val1", "val2" ],
 											"parameter_longname" : "live.text",
-											"parameter_mmax" : 1.0
+											"parameter_shortname" : "live.text",
+											"parameter_type" : 2,
+											"parameter_mmax" : 1.0,
+											"parameter_enum" : [ "val1", "val2" ]
 										}
 
 									}
@@ -310,13 +338,13 @@
 									"presentation_rect" : [ 148.75, 47.0, 29.935823, 15.0 ],
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
-											"parameter_initial" : [ 2 ],
-											"parameter_type" : 1,
-											"parameter_initial_enable" : 1,
-											"parameter_shortname" : "BendRange",
 											"parameter_longname" : "BendRange",
-											"parameter_unitstyle" : 0,
-											"parameter_mmax" : 24.0
+											"parameter_shortname" : "BendRange",
+											"parameter_type" : 1,
+											"parameter_mmax" : 24.0,
+											"parameter_initial_enable" : 1,
+											"parameter_initial" : [ 2 ],
+											"parameter_unitstyle" : 0
 										}
 
 									}
@@ -558,12 +586,12 @@
 									"presentation_rect" : [ 101.25, 99.5, 11.813692, 11.584457 ],
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
-											"parameter_type" : 2,
-											"parameter_invisible" : 2,
-											"parameter_shortname" : "PitchActivityLED",
-											"parameter_enum" : [ "off", "on" ],
 											"parameter_longname" : "PitchActivityLED",
-											"parameter_mmax" : 1.0
+											"parameter_shortname" : "PitchActivityLED",
+											"parameter_type" : 2,
+											"parameter_mmax" : 1.0,
+											"parameter_enum" : [ "off", "on" ],
+											"parameter_invisible" : 2
 										}
 
 									}
@@ -588,12 +616,12 @@
 									"presentation_rect" : [ 136.916656, 96.5, 15.0, 15.0 ],
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
-											"parameter_type" : 2,
-											"parameter_invisible" : 2,
-											"parameter_shortname" : "ModWheelActivityLED",
-											"parameter_enum" : [ "off", "on" ],
 											"parameter_longname" : "ModWheelActivityLED",
-											"parameter_mmax" : 1.0
+											"parameter_shortname" : "ModWheelActivityLED",
+											"parameter_type" : 2,
+											"parameter_mmax" : 1.0,
+											"parameter_enum" : [ "off", "on" ],
+											"parameter_invisible" : 2
 										}
 
 									}
@@ -612,7 +640,7 @@
 									"hint" : "MIDI port",
 									"hltcolor" : [ 0.362819, 0.362819, 0.362819, 1.0 ],
 									"id" : "obj-2",
-									"items" : [ "AU DLS Synth 1", ",", "IAC Driver Bus 1", ",", "IAC Driver My Bus", ",", "IAC Driver IAC Bus 3", ",", "IAC Driver IAC Bus 4", ",", "from Max 1", ",", "from Max 2", ",", "nanoKEY2 CTRL" ],
+									"items" : [ "IAC Driver Bus 1", ",", "IAC Driver IAC Bus 2", ",", "IAC Driver BEAP", ",", "IAC Driver mara's bus", ",", "IAC Driver another bus", ",", "to Max 1", ",", "to Max 2", ",", "nanoKEY2 KEYBOARD" ],
 									"maxclass" : "umenu",
 									"numinlets" : 1,
 									"numoutlets" : 3,
@@ -754,7 +782,7 @@
 									"patching_rect" : [ 279.75, 782.0, 59.5, 20.0 ],
 									"restore" : 									{
 										"BendRange" : [ 2.0 ],
-										"MIDIPort" : [ "AU DLS Synth 1" ],
+										"MIDIPort" : [ "IAC Driver Bus 1" ],
 										"ModWheelActivityLED" : [ 0.0 ],
 										"NotePriority" : [ "Last Note Priority" ],
 										"PitchActivityLED" : [ 0.0 ],
@@ -763,7 +791,7 @@
 									}
 ,
 									"text" : "autopattr",
-									"varname" : "u909001046"
+									"varname" : "u740001937"
 								}
 
 							}
@@ -880,20 +908,6 @@
 								"box" : 								{
 									"fontname" : "Arial",
 									"fontsize" : 12.0,
-									"id" : "obj-41",
-									"maxclass" : "newobj",
-									"numinlets" : 1,
-									"numoutlets" : 1,
-									"outlettype" : [ "" ],
-									"patching_rect" : [ 564.5, 131.5, 76.0, 20.0 ],
-									"text" : "loadmess -1"
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"fontname" : "Arial",
-									"fontsize" : 12.0,
 									"id" : "obj-42",
 									"maxclass" : "newobj",
 									"numinlets" : 2,
@@ -953,56 +967,45 @@
 							}
 , 							{
 								"box" : 								{
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-									"id" : "obj-14",
-									"maxclass" : "panel",
-									"numinlets" : 1,
-									"numoutlets" : 0,
-									"patching_rect" : [ 15.0, 149.470001, 128.0, 128.0 ],
-									"presentation" : 1,
-									"presentation_rect" : [ 0.0, 0.0, 283.268768, 17.0 ],
-									"rounded" : 0
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-									"id" : "obj-15",
-									"maxclass" : "panel",
-									"numinlets" : 1,
-									"numoutlets" : 0,
-									"patching_rect" : [ 175.236206, 15.0, 128.0, 128.0 ],
-									"presentation" : 1,
-									"presentation_rect" : [ 0.0, 97.0, 283.268768, 35.433025 ],
-									"rounded" : 0
-								}
-
-							}
-, 							{
-								"box" : 								{
+									"background" : 1,
 									"bgcolor" : [ 0.137255, 0.145098, 0.160784, 0.65 ],
-									"id" : "obj-18",
+									"id" : "obj-130",
 									"maxclass" : "panel",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 21.736206, 15.0, 128.0, 128.0 ],
+									"patching_rect" : [ 214.173828, 238.529999, 37.0, 5.0 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 0.0, 37.0, 283.268768, 71.584457 ],
+									"presentation_rect" : [ -0.5, 37.040344, 283.0, 60.338158 ],
 									"rounded" : 0
 								}
 
 							}
 , 							{
 								"box" : 								{
+									"background" : 1,
 									"bgcolor" : [ 0.367404, 0.389405, 0.430238, 1.0 ],
-									"id" : "obj-21",
+									"id" : "obj-131",
 									"maxclass" : "panel",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 161.562378, 149.470001, 128.0, 128.0 ],
+									"patching_rect" : [ 274.0, 238.529999, 37.0, 5.0 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 0.0, 17.0, 283.268768, 116.114227 ],
+									"presentation_rect" : [ -0.5, 17.040344, 283.0, 80.338158 ],
+									"rounded" : 0
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"background" : 1,
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+									"id" : "obj-135",
+									"maxclass" : "panel",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 331.673828, 238.529999, 37.0, 5.0 ],
+									"presentation" : 1,
+									"presentation_rect" : [ -0.5, 0.040344, 283.0, 133.0 ],
 									"rounded" : 0
 								}
 
@@ -1164,6 +1167,15 @@
 							}
 , 							{
 								"patchline" : 								{
+									"destination" : [ "obj-42", 0 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-29", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
 									"destination" : [ "obj-50", 0 ],
 									"disabled" : 0,
 									"hidden" : 0,
@@ -1249,15 +1261,6 @@
 									"disabled" : 0,
 									"hidden" : 0,
 									"source" : [ "obj-40", 0 ]
-								}
-
-							}
-, 							{
-								"patchline" : 								{
-									"destination" : [ "obj-42", 0 ],
-									"disabled" : 0,
-									"hidden" : 0,
-									"source" : [ "obj-41", 0 ]
 								}
 
 							}
@@ -1425,6 +1428,15 @@
 							}
 , 							{
 								"patchline" : 								{
+									"destination" : [ "obj-29", 0 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-7", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
 									"destination" : [ "obj-56", 0 ],
 									"disabled" : 0,
 									"hidden" : 0,
@@ -1454,8 +1466,8 @@
 		"parameters" : 		{
 			"obj-41::obj-69" : [ "live.text", "live.text", 0 ],
 			"obj-41::obj-9" : [ "PitchActivityLED", "PitchActivityLED", 0 ],
-			"obj-41::obj-20" : [ "ModWheelActivityLED", "ModWheelActivityLED", 0 ],
-			"obj-41::obj-129" : [ "BendRange", "BendRange", 0 ]
+			"obj-41::obj-129" : [ "BendRange", "BendRange", 0 ],
+			"obj-41::obj-20" : [ "ModWheelActivityLED", "ModWheelActivityLED", 0 ]
 		}
 ,
 		"dependency_cache" : [  ]
