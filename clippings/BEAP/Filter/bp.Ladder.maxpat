@@ -4,11 +4,11 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 1,
-			"revision" : 0,
-			"architecture" : "x64"
+			"revision" : 3,
+			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 0.0, 44.0, 1440.0, 753.0 ],
+		"rect" : [ -160.0, 44.0, 1440.0, 753.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -40,11 +40,11 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 0,
-							"architecture" : "x64"
+							"revision" : 3,
+							"architecture" : "x86"
 						}
 ,
-						"rect" : [ 0.0, 44.0, 295.0, 116.0 ],
+						"rect" : [ -160.0, 44.0, 295.0, 116.0 ],
 						"bgcolor" : [ 1.0, 1.0, 1.0, 0.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 1,
@@ -88,15 +88,15 @@
 									"presentation_rect" : [ 41.5, 43.292229, 33.0, 15.0 ],
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
-											"parameter_enum" : [ "Freq", "Semitone" ],
-											"parameter_longname" : "TimeMode",
-											"parameter_mmax" : 1.0,
-											"parameter_initial" : [ 1 ],
 											"parameter_order" : 1,
-											"parameter_type" : 2,
-											"parameter_initial_enable" : 1,
-											"parameter_speedlim" : 0.0,
+											"parameter_longname" : "TimeMode",
 											"parameter_shortname" : "TimeMode",
+											"parameter_type" : 2,
+											"parameter_mmax" : 1.0,
+											"parameter_enum" : [ "Freq", "Semitone" ],
+											"parameter_initial_enable" : 1,
+											"parameter_initial" : [ 1 ],
+											"parameter_speedlim" : 0.0,
 											"parameter_annotation_name" : "Time Mode"
 										}
 
@@ -118,7 +118,7 @@
 									"numoutlets" : 0,
 									"patching_rect" : [ 55.550323, 67.170105, 5.0, 100.0 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 57.781197, 52.350815, 12.437605, 15.612484 ]
+									"presentation_rect" : [ 57.781197, 58.303574, 7.437605, 9.659724 ]
 								}
 
 							}
@@ -276,10 +276,10 @@
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
 											"parameter_longname" : "ResCV",
-											"parameter_unitstyle" : 5,
-											"parameter_mmax" : 100.0,
+											"parameter_shortname" : "CV",
 											"parameter_type" : 0,
-											"parameter_shortname" : "CV"
+											"parameter_mmax" : 100.0,
+											"parameter_unitstyle" : 5
 										}
 
 									}
@@ -346,14 +346,14 @@
 									"presentation_rect" : [ 198.5, 43.292229, 44.0, 47.0 ],
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
-											"parameter_exponent" : 2.0,
 											"parameter_longname" : "Res",
-											"parameter_unitstyle" : 5,
-											"parameter_mmax" : 100.0,
-											"parameter_initial" : [ 0.0 ],
+											"parameter_shortname" : "Res",
 											"parameter_type" : 0,
+											"parameter_mmax" : 100.0,
 											"parameter_initial_enable" : 1,
-											"parameter_shortname" : "Res"
+											"parameter_initial" : [ 0.0 ],
+											"parameter_unitstyle" : 5,
+											"parameter_exponent" : 2.0
 										}
 
 									}
@@ -441,15 +441,15 @@
 									"prototypename" : "freq",
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
-											"parameter_exponent" : 4.0,
 											"parameter_longname" : "Freq",
-											"parameter_unitstyle" : 3,
-											"parameter_mmax" : 20000.0,
-											"parameter_initial" : [ 0.6 ],
-											"parameter_type" : 0,
-											"parameter_initial_enable" : 1,
-											"parameter_speedlim" : 0.0,
 											"parameter_shortname" : "Freq",
+											"parameter_type" : 0,
+											"parameter_mmax" : 20000.0,
+											"parameter_initial_enable" : 1,
+											"parameter_initial" : [ 0.6 ],
+											"parameter_unitstyle" : 3,
+											"parameter_exponent" : 4.0,
+											"parameter_speedlim" : 0.0,
 											"parameter_annotation_name" : "Freq"
 										}
 
@@ -474,8 +474,8 @@
 										"appversion" : 										{
 											"major" : 6,
 											"minor" : 1,
-											"revision" : 0,
-											"architecture" : "x64"
+											"revision" : 3,
+											"architecture" : "x86"
 										}
 ,
 										"rect" : [ 1560.0, 203.0, 440.0, 307.0 ],
@@ -993,14 +993,14 @@
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
 											"parameter_longname" : "Offset[2]",
-											"parameter_unitstyle" : 1,
-											"parameter_mmax" : 64.0,
-											"parameter_mmin" : -64.0,
-											"parameter_initial" : [ 0 ],
+											"parameter_shortname" : "Offset",
 											"parameter_type" : 0,
+											"parameter_mmin" : -64.0,
+											"parameter_mmax" : 64.0,
 											"parameter_initial_enable" : 1,
-											"parameter_speedlim" : 0.0,
-											"parameter_shortname" : "Offset"
+											"parameter_initial" : [ 0 ],
+											"parameter_unitstyle" : 1,
+											"parameter_speedlim" : 0.0
 										}
 
 									}
@@ -1490,8 +1490,8 @@
 										"appversion" : 										{
 											"major" : 6,
 											"minor" : 1,
-											"revision" : 0,
-											"architecture" : "x64"
+											"revision" : 3,
+											"architecture" : "x86"
 										}
 ,
 										"rect" : [ 50.0, 94.0, 640.0, 685.0 ],
@@ -1514,6 +1514,79 @@
 										"digest" : "",
 										"tags" : "",
 										"boxes" : [ 											{
+												"box" : 												{
+													"fontname" : "Arial Bold",
+													"fontsize" : 12.0,
+													"id" : "obj-6",
+													"maxclass" : "newobj",
+													"numinlets" : 0,
+													"numoutlets" : 0,
+													"patcher" : 													{
+														"fileversion" : 1,
+														"appversion" : 														{
+															"major" : 6,
+															"minor" : 1,
+															"revision" : 3,
+															"architecture" : "x86"
+														}
+,
+														"rect" : [ 50.0, 94.0, 581.0, 474.0 ],
+														"bglocked" : 0,
+														"openinpresentation" : 0,
+														"default_fontsize" : 12.0,
+														"default_fontface" : 0,
+														"default_fontname" : "Arial Bold",
+														"gridonopen" : 0,
+														"gridsize" : [ 15.0, 15.0 ],
+														"gridsnaponopen" : 0,
+														"statusbarvisible" : 2,
+														"toolbarvisible" : 1,
+														"boxanimatetime" : 200,
+														"imprint" : 0,
+														"enablehscroll" : 1,
+														"enablevscroll" : 1,
+														"devicewidth" : 0.0,
+														"description" : "",
+														"digest" : "",
+														"tags" : "",
+														"boxes" : [ 															{
+																"box" : 																{
+																	"fontname" : "Arial Bold",
+																	"fontsize" : 12.0,
+																	"frgb" : 0.0,
+																	"id" : "obj-2",
+																	"linecount" : 30,
+																	"maxclass" : "comment",
+																	"numinlets" : 1,
+																	"numoutlets" : 0,
+																	"patching_rect" : [ 34.0, 13.0, 521.0, 409.0 ],
+																	"text" : "\n\nThis applies to the ICST code inside gen~:\n-----------------------------------------------------------------------------------------------\nCopyright © 2008, 2009, 2010, Zurich University of the Arts, Beat Frei. All rights reserved.\n \nRedistribution and use in source and binary forms, with or without modification, are permitted provided that the following conditions are met:\n \n\t1.\tRedistributions of source code must retain the above copyright notice, this list of conditions and the following disclaimer.\n\t2.\tRedistributions in binary form must reproduce the above copyright notice, this list of conditions and the following disclaimer in the documentation and/or other materials provided with the distribution.\n \nTHIS SOFTWARE IS PROVIDED BY THE ZURICH UNIVERSITY OF THE ARTS ''AS IS'' AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE ZURICH UNIVERSITY OF THE ARTS OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.\n-----------------------------------------------------------------------------------------------\nAll other code is licensed as follows:\nPeter McCulloch, 2012 Creative Commons Attribution-NonCommercial-ShareAlike CC BY-NC-SA"
+																}
+
+															}
+ ],
+														"lines" : [  ]
+													}
+,
+													"patching_rect" : [ 194.0, 493.0, 67.0, 20.0 ],
+													"saved_object_attributes" : 													{
+														"default_fontface" : 0,
+														"default_fontname" : "Arial Bold",
+														"default_fontsize" : 12.0,
+														"description" : "",
+														"digest" : "",
+														"fontface" : 0,
+														"fontname" : "Arial Bold",
+														"fontsize" : 12.0,
+														"globalpatchername" : "",
+														"tags" : ""
+													}
+,
+													"text" : "p License"
+												}
+
+											}
+, 											{
 												"box" : 												{
 													"fontname" : "Arial",
 													"fontsize" : 12.0,
@@ -1654,8 +1727,8 @@
 														"appversion" : 														{
 															"major" : 6,
 															"minor" : 1,
-															"revision" : 0,
-															"architecture" : "x64"
+															"revision" : 3,
+															"architecture" : "x86"
 														}
 ,
 														"rect" : [ 50.0, 94.0, 816.0, 853.0 ],
@@ -2300,8 +2373,8 @@
 														"appversion" : 														{
 															"major" : 6,
 															"minor" : 1,
-															"revision" : 0,
-															"architecture" : "x64"
+															"revision" : 3,
+															"architecture" : "x86"
 														}
 ,
 														"rect" : [ 0.0, 44.0, 1440.0, 826.0 ],
@@ -5953,10 +6026,10 @@
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
 											"parameter_longname" : "CV3[1]",
-											"parameter_unitstyle" : 5,
-											"parameter_mmax" : 100.0,
+											"parameter_shortname" : "CV3",
 											"parameter_type" : 0,
-											"parameter_shortname" : "CV3"
+											"parameter_mmax" : 100.0,
+											"parameter_unitstyle" : 5
 										}
 
 									}
@@ -5982,10 +6055,10 @@
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
 											"parameter_longname" : "CV1[1]",
-											"parameter_unitstyle" : 5,
-											"parameter_mmax" : 100.0,
+											"parameter_shortname" : "CV1",
 											"parameter_type" : 0,
-											"parameter_shortname" : "CV1"
+											"parameter_mmax" : 100.0,
+											"parameter_unitstyle" : 5
 										}
 
 									}
@@ -6046,10 +6119,10 @@
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
 											"parameter_longname" : "CV2[1]",
-											"parameter_unitstyle" : 5,
-											"parameter_mmax" : 100.0,
+											"parameter_shortname" : "CV2",
 											"parameter_type" : 0,
-											"parameter_shortname" : "CV2"
+											"parameter_mmax" : 100.0,
+											"parameter_unitstyle" : 5
 										}
 
 									}
@@ -6145,13 +6218,13 @@
 									"presentation_rect" : [ 236.5, 18.0, 52.0, 17.0 ],
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
-											"parameter_enum" : [ "val1", "val2" ],
 											"parameter_longname" : "power[2]",
-											"parameter_mmax" : 1.0,
-											"parameter_initial" : [ 0.0 ],
-											"parameter_defer" : 1,
+											"parameter_shortname" : "power",
 											"parameter_type" : 2,
-											"parameter_shortname" : "power"
+											"parameter_mmax" : 1.0,
+											"parameter_enum" : [ "val1", "val2" ],
+											"parameter_initial" : [ 0.0 ],
+											"parameter_defer" : 1
 										}
 
 									}
@@ -6198,7 +6271,7 @@
 									}
 ,
 									"text" : "autopattr",
-									"varname" : "u649000557"
+									"varname" : "u316003294"
 								}
 
 							}
@@ -6877,15 +6950,15 @@
  ],
 		"lines" : [  ],
 		"parameters" : 		{
-			"obj-73::obj-54" : [ "CV1[1]", "CV1", 0 ],
-			"obj-73::obj-55" : [ "power[2]", "power", 0 ],
-			"obj-73::obj-20" : [ "Freq", "Freq", 0 ],
-			"obj-73::obj-63" : [ "CV3[1]", "CV3", 0 ],
-			"obj-73::obj-95" : [ "ResCV", "CV", 0 ],
-			"obj-73::obj-23" : [ "CV2[1]", "CV2", 0 ],
 			"obj-73::obj-22" : [ "TimeMode", "TimeMode", 1 ],
+			"obj-73::obj-23" : [ "CV2[1]", "CV2", 0 ],
 			"obj-73::obj-4" : [ "Offset[2]", "Offset", 0 ],
-			"obj-73::obj-28" : [ "Res", "Res", 0 ]
+			"obj-73::obj-63" : [ "CV3[1]", "CV3", 0 ],
+			"obj-73::obj-28" : [ "Res", "Res", 0 ],
+			"obj-73::obj-55" : [ "power[2]", "power", 0 ],
+			"obj-73::obj-95" : [ "ResCV", "CV", 0 ],
+			"obj-73::obj-20" : [ "Freq", "Freq", 0 ],
+			"obj-73::obj-54" : [ "CV1[1]", "CV1", 0 ]
 		}
 ,
 		"dependency_cache" : [  ]
