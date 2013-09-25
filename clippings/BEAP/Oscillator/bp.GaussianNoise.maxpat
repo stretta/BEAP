@@ -44,7 +44,7 @@
 							"architecture" : "x86"
 						}
 ,
-						"rect" : [ 104.0, 43.0, 196.0, 116.0 ],
+						"rect" : [ 101.0, 43.0, 196.0, 116.0 ],
 						"bgcolor" : [ 1.0, 1.0, 1.0, 0.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 1,
@@ -1039,7 +1039,7 @@
 									}
 ,
 									"text" : "autopattr",
-									"varname" : "u917005917"
+									"varname" : "u962000365"
 								}
 
 							}
@@ -1153,14 +1153,14 @@
 									"fontsize" : 9.0,
 									"frgb" : 0.0,
 									"id" : "obj-13",
-									"linecount" : 2,
+									"linecount" : 3,
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 226.215546, 236.407501, 48.0, 27.0 ],
+									"patching_rect" : [ 226.215546, 236.407501, 48.0, 37.0 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 2.0, 19.0, 78.0, 17.0 ],
-									"text" : "Gaussian Noise",
+									"presentation_rect" : [ 2.0, 19.0, 89.0, 17.0 ],
+									"text" : "GAUSSIAN NOISE",
 									"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 								}
 
@@ -1402,11 +1402,11 @@
  ],
 		"lines" : [  ],
 		"parameters" : 		{
-			"obj-56::obj-69" : [ "NoiseType", "NoiseType", 0 ],
-			"obj-56::obj-12" : [ "Mute", "Mute", 0 ],
-			"obj-56::obj-28" : [ "Scale", "Scale", 0 ],
+			"obj-56::obj-45" : [ "Offset", "Offset", 0 ],
 			"obj-56::obj-46" : [ "Skew", "Skew", 0 ],
-			"obj-56::obj-45" : [ "Offset", "Offset", 0 ]
+			"obj-56::obj-12" : [ "Mute", "Mute", 0 ],
+			"obj-56::obj-69" : [ "NoiseType", "NoiseType", 0 ],
+			"obj-56::obj-28" : [ "Scale", "Scale", 0 ]
 		}
 ,
 		"dependency_cache" : [  ]
