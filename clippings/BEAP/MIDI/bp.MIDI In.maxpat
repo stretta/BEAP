@@ -66,6 +66,37 @@
 						"tags" : "",
 						"boxes" : [ 							{
 								"box" : 								{
+									"activebgcolor" : [ 0.421983, 0.45318, 0.486448, 1.0 ],
+									"activebgoncolor" : [ 0.0, 0.870588, 0.101961, 1.0 ],
+									"automation" : "refresh",
+									"id" : "obj-1",
+									"maxclass" : "live.text",
+									"mode" : 0,
+									"numinlets" : 1,
+									"numoutlets" : 2,
+									"outlettype" : [ "", "" ],
+									"parameter_enable" : 1,
+									"patching_rect" : [ 145.0, 130.0, 50.0, 20.0 ],
+									"presentation" : 1,
+									"presentation_rect" : [ 7.366688, 68.0, 50.0, 20.0 ],
+									"saved_attribute_attributes" : 									{
+										"valueof" : 										{
+											"parameter_longname" : "refresh",
+											"parameter_shortname" : "refresh",
+											"parameter_type" : 2,
+											"parameter_mmax" : 1.0,
+											"parameter_enum" : [ "refresh", "val2" ]
+										}
+
+									}
+,
+									"text" : "refresh",
+									"varname" : "refresh"
+								}
+
+							}
+, 							{
+								"box" : 								{
 									"fontname" : "Arial",
 									"fontsize" : 12.0,
 									"id" : "obj-7",
@@ -73,7 +104,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "int" ],
-									"patching_rect" : [ 364.5, 190.0, 42.0, 20.0 ],
+									"patching_rect" : [ 434.0, 181.0, 42.0, 20.0 ],
 									"text" : "midiin"
 								}
 
@@ -103,7 +134,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"parameter_enable" : 1,
-									"patching_rect" : [ 407.0, 252.470001, 15.0, 15.0 ],
+									"patching_rect" : [ 476.5, 243.470001, 15.0, 15.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 27.5, 99.0, 9.733376, 9.733376 ],
 									"saved_attribute_attributes" : 									{
@@ -129,7 +160,7 @@
 									"maxclass" : "outlet",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 364.5, 252.470001, 25.0, 25.0 ]
+									"patching_rect" : [ 434.0, 243.470001, 25.0, 25.0 ]
 								}
 
 							}
@@ -144,12 +175,13 @@
 									"outlettype" : [ "", "", "", "" ],
 									"patching_rect" : [ 164.0, 315.0, 59.5, 20.0 ],
 									"restore" : 									{
-										"MIDIPort" : [ "IAC Driver Bus 1" ],
-										"PitchActivityLED" : [ 0.0 ]
+										"MIDIPort" : [ "nanoKONTROL SLIDER/KNOB" ],
+										"PitchActivityLED" : [ 0.0 ],
+										"refresh" : [ 0.0 ]
 									}
 ,
 									"text" : "autopattr",
-									"varname" : "u516001043"
+									"varname" : "u907000516"
 								}
 
 							}
@@ -163,7 +195,7 @@
 									"hint" : "MIDI port",
 									"hltcolor" : [ 0.362819, 0.362819, 0.362819, 1.0 ],
 									"id" : "obj-2",
-									"items" : [ "IAC Driver Bus 1", ",", "IAC Driver IAC Bus 2", ",", "IAC Driver BEAP", ",", "IAC Driver mara's bus", ",", "IAC Driver another bus", ",", "to Max 1", ",", "to Max 2", ",", "nanoKEY2 KEYBOARD" ],
+									"items" : [ "IAC Driver Bus 1", ",", "IAC Driver IAC Bus 2", ",", "IAC Driver BEAP", ",", "IAC Driver mara's bus", ",", "IAC Driver another bus", ",", "nanoKEY2 KEYBOARD", ",", "to Max 1", ",", "to Max 2", ",", "nanoKONTROL SLIDER/KNOB" ],
 									"maxclass" : "umenu",
 									"numinlets" : 1,
 									"numoutlets" : 3,
@@ -172,7 +204,7 @@
 									"patching_rect" : [ 364.5, 121.0, 158.0, 18.0 ],
 									"pattrmode" : 1,
 									"presentation" : 1,
-									"presentation_rect" : [ 5.5, 57.0, 118.102203, 18.0 ],
+									"presentation_rect" : [ 5.5, 43.0, 118.102203, 18.0 ],
 									"rounded" : 0,
 									"textcolor" : [ 0.0, 0.870117, 0.103208, 1.0 ],
 									"textcolor2" : [ 0.0, 0.870117, 0.103208, 1.0 ],
@@ -290,10 +322,19 @@
  ],
 						"lines" : [ 							{
 								"patchline" : 								{
+									"destination" : [ "obj-3", 0 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-1", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
 									"destination" : [ "obj-7", 0 ],
 									"disabled" : 0,
 									"hidden" : 0,
-									"source" : [ "obj-2", 0 ]
+									"source" : [ "obj-2", 1 ]
 								}
 
 							}
@@ -353,6 +394,7 @@
  ],
 		"lines" : [  ],
 		"parameters" : 		{
+			"obj-1::obj-1" : [ "refresh", "refresh", 0 ],
 			"obj-1::obj-9" : [ "PitchActivityLED", "PitchActivityLED", 0 ]
 		}
 ,
