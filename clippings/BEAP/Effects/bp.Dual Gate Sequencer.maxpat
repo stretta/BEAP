@@ -88,7 +88,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 1017.800537, 1245.0, 50.0, 18.0 ],
-									"text" : "5 2 1"
+									"text" : "8 2 1"
 								}
 
 							}
@@ -2070,7 +2070,7 @@
 									}
 ,
 									"text" : "autopattr",
-									"varname" : "u984000546"
+									"varname" : "u732002959"
 								}
 
 							}
@@ -2574,7 +2574,7 @@
 							}
 , 							{
 								"patchline" : 								{
-									"destination" : [ "obj-16", 1 ],
+									"destination" : [ "obj-76", 1 ],
 									"disabled" : 0,
 									"hidden" : 0,
 									"source" : [ "obj-70", 0 ]
@@ -2583,7 +2583,7 @@
 							}
 , 							{
 								"patchline" : 								{
-									"destination" : [ "obj-76", 1 ],
+									"destination" : [ "obj-16", 1 ],
 									"disabled" : 0,
 									"hidden" : 0,
 									"source" : [ "obj-71", 0 ]
@@ -2736,22 +2736,22 @@
  ],
 		"lines" : [  ],
 		"parameters" : 		{
-			"obj-10::obj-125" : [ "NoteGrid", "NoteGrid", 0 ],
 			"obj-10::obj-139" : [ "ClockSelect", "ClockSelect", 0 ],
 			"obj-10::obj-89" : [ "Reset", "Reset", 0 ],
-			"obj-10::obj-95" : [ "Steps", "Steps", 0 ],
-			"obj-10::obj-157" : [ "Swing enable", "Swing enable", 0 ],
-			"obj-10::obj-96" : [ "Pulse", "Pulse", 0 ],
+			"obj-10::obj-125" : [ "NoteGrid", "NoteGrid", 0 ],
+			"obj-10::obj-155" : [ "Swing amount", "Swing amount", 0 ],
 			"obj-10::obj-28" : [ "Attack", "Attack", 0 ],
 			"obj-10::obj-74" : [ "bypass", "bypass", 0 ],
+			"obj-10::obj-157" : [ "Swing enable", "Swing enable", 0 ],
+			"obj-10::obj-95" : [ "Steps", "Steps", 0 ],
 			"obj-10::obj-120" : [ "Max pulse[1]", "Max pulse", 0 ],
-			"obj-10::obj-155" : [ "Swing amount", "Swing amount", 0 ]
+			"obj-10::obj-96" : [ "Pulse", "Pulse", 0 ]
 		}
 ,
 		"dependency_cache" : [ 			{
 				"name" : "swingCalc.js",
-				"bootpath" : "/Applications/Max 6.1/packages/BEAP/clippings/BEAP/Sequencer",
-				"patcherrelativepath" : "../Sequencer",
+				"bootpath" : "/Applications/Max 6.1/packages/BEAP/misc",
+				"patcherrelativepath" : "../../../misc",
 				"type" : "TEXT",
 				"implicit" : 1
 			}

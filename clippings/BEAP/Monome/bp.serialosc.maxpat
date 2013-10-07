@@ -31,7 +31,7 @@
 				"box" : 				{
 					"args" : [ "/monome" ],
 					"embed" : 1,
-					"id" : "obj-2",
+					"id" : "obj-7",
 					"maxclass" : "bpatcher",
 					"name" : "serialosc.maxpat",
 					"numinlets" : 3,
@@ -68,6 +68,44 @@
 						"digest" : "",
 						"tags" : "",
 						"boxes" : [ 							{
+								"box" : 								{
+									"fontname" : "Helvetica Neue",
+									"fontsize" : 11.0,
+									"id" : "obj-84",
+									"maxclass" : "newobj",
+									"numinlets" : 2,
+									"numoutlets" : 2,
+									"outlettype" : [ "bang", "" ],
+									"patching_rect" : [ 878.0, 156.0, 34.0, 19.0 ],
+									"text" : "sel 0"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-81",
+									"maxclass" : "live.text",
+									"numinlets" : 1,
+									"numoutlets" : 2,
+									"outlettype" : [ "", "" ],
+									"parameter_enable" : 1,
+									"patching_rect" : [ 885.0, 100.0, 40.0, 20.0 ],
+									"saved_attribute_attributes" : 									{
+										"valueof" : 										{
+											"parameter_longname" : "stealtinit",
+											"parameter_shortname" : "stealtinit",
+											"parameter_type" : 2,
+											"parameter_mmax" : 1.0,
+											"parameter_enum" : [ "val1", "val2" ]
+										}
+
+									}
+,
+									"varname" : "stealtinit"
+								}
+
+							}
+, 							{
 								"box" : 								{
 									"fontname" : "Helvetica Neue",
 									"fontsize" : 11.0,
@@ -825,7 +863,7 @@
 									}
 ,
 									"text" : "pattr @bindto deviceid",
-									"varname" : "u034000765"
+									"varname" : "u577000847"
 								}
 
 							}
@@ -1705,8 +1743,12 @@
 									"numoutlets" : 4,
 									"outlettype" : [ "", "", "", "" ],
 									"patching_rect" : [ 34.0, 1000.527161, 59.5, 19.0 ],
+									"restore" : 									{
+										"stealtinit" : [ 0.0 ]
+									}
+,
 									"text" : "autopattr",
-									"varname" : "u019000788"
+									"varname" : "u278000867"
 								}
 
 							}
@@ -3820,6 +3862,15 @@
 							}
 , 							{
 								"patchline" : 								{
+									"destination" : [ "obj-84", 0 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-81", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
 									"destination" : [ "obj-116", 1 ],
 									"disabled" : 0,
 									"hidden" : 0,
@@ -3853,6 +3904,24 @@
 									"disabled" : 0,
 									"hidden" : 0,
 									"source" : [ "obj-83", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-32", 0 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-84", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-36", 0 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-84", 0 ]
 								}
 
 							}
@@ -4030,12 +4099,16 @@
 					}
 ,
 					"patching_rect" : [ 0.0, 0.0, 313.0, 28.0 ],
-					"varname" : "serialosc[1]"
+					"varname" : "serialosc"
 				}
 
 			}
  ],
 		"lines" : [  ],
+		"parameters" : 		{
+			"obj-7::obj-81" : [ "stealtinit", "stealtinit", 0 ]
+		}
+,
 		"dependency_cache" : [ 			{
 				"name" : "serialosc.maxpat",
 				"bootpath" : "/Applications/Max 6.1/patches",
