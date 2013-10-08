@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 1,
-			"revision" : 3,
+			"revision" : 4,
 			"architecture" : "x86"
 		}
 ,
@@ -40,7 +40,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 3,
+							"revision" : 4,
 							"architecture" : "x86"
 						}
 ,
@@ -80,7 +80,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "float" ],
 									"parameter_enable" : 1,
-									"patching_rect" : [ 922.0, 300.0, 38.0, 15.0 ],
+									"patching_rect" : [ 754.0, 258.0, 38.0, 15.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 168.642151, 48.0, 52.0, 15.0 ],
 									"saved_attribute_attributes" : 									{
@@ -97,7 +97,7 @@
 									}
 ,
 									"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
-									"varname" : "live.numbox[1]"
+									"varname" : "swingamt"
 								}
 
 							}
@@ -113,11 +113,13 @@
 									"id" : "obj-477",
 									"maxclass" : "live.tab",
 									"multiline" : 0,
+									"num_lines_patching" : 1,
+									"num_lines_presentation" : 1,
 									"numinlets" : 1,
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "float" ],
 									"parameter_enable" : 1,
-									"patching_rect" : [ 978.639648, 300.0, 134.0, 18.0 ],
+									"patching_rect" : [ 810.639648, 258.0, 134.0, 18.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 109.264206, 67.966904, 111.691216, 22.325319 ],
 									"saved_attribute_attributes" : 									{
@@ -147,7 +149,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 592.0, 383.0, 34.0, 20.0 ],
+									"patching_rect" : [ 540.0, 379.0, 161.0, 20.0 ],
 									"text" : "gate"
 								}
 
@@ -161,7 +163,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 922.0, 237.0, 64.0, 19.0 ],
+									"patching_rect" : [ 754.0, 195.0, 64.0, 19.0 ],
 									"text" : "active $1"
 								}
 
@@ -182,7 +184,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
 									"parameter_enable" : 1,
-									"patching_rect" : [ 850.0, 174.000061, 82.072021, 19.0 ],
+									"patching_rect" : [ 682.0, 132.000061, 82.072021, 19.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 109.264206, 46.0, 56.0, 18.0 ],
 									"saved_attribute_attributes" : 									{
@@ -235,7 +237,7 @@
 										"appversion" : 										{
 											"major" : 6,
 											"minor" : 1,
-											"revision" : 3,
+											"revision" : 4,
 											"architecture" : "x86"
 										}
 ,
@@ -561,7 +563,7 @@
 														"appversion" : 														{
 															"major" : 6,
 															"minor" : 1,
-															"revision" : 3,
+															"revision" : 4,
 															"architecture" : "x86"
 														}
 ,
@@ -1666,7 +1668,7 @@
  ]
 									}
 ,
-									"patching_rect" : [ 850.0, 370.0, 147.639771, 21.0 ],
+									"patching_rect" : [ 682.0, 328.0, 147.639771, 21.0 ],
 									"saved_object_attributes" : 									{
 										"default_fontface" : 0,
 										"default_fontname" : "Arial",
@@ -1892,7 +1894,7 @@
 									"numoutlets" : 3,
 									"outlettype" : [ "int", "", "" ],
 									"parameter_enable" : 1,
-									"patching_rect" : [ 687.0, 259.470001, 71.0, 18.0 ],
+									"patching_rect" : [ 671.0, 258.0, 71.0, 18.0 ],
 									"pattrmode" : 1,
 									"presentation" : 1,
 									"presentation_rect" : [ 25.134384, 46.792229, 68.36142, 18.0 ],
@@ -1927,16 +1929,16 @@
 									"patching_rect" : [ 169.0, 493.0, 59.5, 20.0 ],
 									"restore" : 									{
 										"Pulse" : [ "16n" ],
-										"led" : [ 0.0 ],
-										"live.numbox[1]" : [ 15.0 ],
+										"led" : [ 1.0 ],
 										"live.toggle" : [ 1.0 ],
 										"mute" : [ 0.0 ],
 										"swing_switch[1]" : [ 0.0 ],
-										"swingbase" : [ 0.0 ]
+										"swingamt" : [ 40.039371 ],
+										"swingbase" : [ 1.0 ]
 									}
 ,
 									"text" : "autopattr",
-									"varname" : "u435002029"
+									"varname" : "u049000641"
 								}
 
 							}
@@ -2213,19 +2215,19 @@
  ],
 		"lines" : [  ],
 		"parameters" : 		{
-			"obj-18::obj-27" : [ "led", "led", 0 ],
-			"obj-18::obj-20" : [ "live.toggle", "live.toggle", 0 ],
 			"obj-18::obj-478" : [ "swing_switch[1]", "swing", 0 ],
-			"obj-18::obj-29" : [ "mute", "mute", 0 ],
-			"obj-18::obj-34" : [ "Pulse", "Pulse", 0 ],
+			"obj-18::obj-477" : [ "swing.base", "swing.base", 0 ],
 			"obj-18::obj-476" : [ "swing.amt[1]", "swing.amt", 0 ],
-			"obj-18::obj-477" : [ "swing.base", "swing.base", 0 ]
+			"obj-18::obj-27" : [ "led", "led", 0 ],
+			"obj-18::obj-34" : [ "Pulse", "Pulse", 0 ],
+			"obj-18::obj-20" : [ "live.toggle", "live.toggle", 0 ],
+			"obj-18::obj-29" : [ "mute", "mute", 0 ]
 		}
 ,
 		"dependency_cache" : [ 			{
 				"name" : "swingCalc.js",
-				"bootpath" : "/Applications/Max 6.1/packages/BEAP/clippings/BEAP/Sequencer",
-				"patcherrelativepath" : "../Sequencer",
+				"bootpath" : "/Applications/Max 6.1/packages/BEAP/misc",
+				"patcherrelativepath" : "../../../misc",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
