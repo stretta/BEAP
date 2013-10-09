@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 1,
-			"revision" : 3,
+			"revision" : 4,
 			"architecture" : "x86"
 		}
 ,
@@ -40,7 +40,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 3,
+							"revision" : 4,
 							"architecture" : "x86"
 						}
 ,
@@ -124,19 +124,6 @@
 								"box" : 								{
 									"fontname" : "Arial",
 									"fontsize" : 12.0,
-									"id" : "obj-32",
-									"maxclass" : "message",
-									"numinlets" : 2,
-									"numoutlets" : 1,
-									"outlettype" : [ "" ],
-									"patching_rect" : [ 911.0, 861.0, 50.0, 18.0 ]
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"fontname" : "Arial",
-									"fontsize" : 12.0,
 									"id" : "obj-6",
 									"maxclass" : "newobj",
 									"numinlets" : 2,
@@ -182,18 +169,19 @@
 									"presentation_rect" : [ 61.792431, 99.5, 10.77126, 10.472361 ],
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
-											"parameter_longname" : "live.text",
-											"parameter_shortname" : "live.text",
+											"parameter_longname" : "GateLED",
+											"parameter_shortname" : "GateLED",
 											"parameter_type" : 2,
 											"parameter_mmax" : 1.0,
-											"parameter_enum" : [ "val1", "val2" ]
+											"parameter_enum" : [ "val1", "val2" ],
+											"parameter_invisible" : 2
 										}
 
 									}
 ,
 									"text" : ".",
 									"textcolor" : [ 0.0, 0.019608, 0.078431, 0.0 ],
-									"varname" : "live.text"
+									"varname" : "GateLED"
 								}
 
 							}
@@ -640,7 +628,7 @@
 									"hint" : "MIDI port",
 									"hltcolor" : [ 0.362819, 0.362819, 0.362819, 1.0 ],
 									"id" : "obj-2",
-									"items" : [ "IAC Driver Bus 1", ",", "IAC Driver IAC Bus 2", ",", "IAC Driver BEAP", ",", "IAC Driver mara's bus", ",", "IAC Driver another bus", ",", "to Max 1", ",", "to Max 2", ",", "nanoKEY2 KEYBOARD" ],
+									"items" : [ "IAC Driver Bus 1", ",", "IAC Driver IAC Bus 2", ",", "IAC Driver BEAP", ",", "IAC Driver mara's bus", ",", "IAC Driver another bus", ",", "to Max 1", ",", "to Max 2" ],
 									"maxclass" : "umenu",
 									"numinlets" : 1,
 									"numoutlets" : 3,
@@ -782,16 +770,16 @@
 									"patching_rect" : [ 279.75, 782.0, 59.5, 20.0 ],
 									"restore" : 									{
 										"BendRange" : [ 2.0 ],
+										"GateLED" : [ 0.0 ],
 										"MIDIPort" : [ "IAC Driver Bus 1" ],
 										"ModWheelActivityLED" : [ 0.0 ],
 										"NotePriority" : [ "Last Note Priority" ],
 										"PitchActivityLED" : [ 0.0 ],
-										"Triggering" : [ "Retrigger" ],
-										"live.text" : [ 0.0 ]
+										"Triggering" : [ "Retrigger" ]
 									}
 ,
 									"text" : "autopattr",
-									"varname" : "u740001937"
+									"varname" : "u002006890"
 								}
 
 							}
@@ -1464,8 +1452,8 @@
  ],
 		"lines" : [  ],
 		"parameters" : 		{
-			"obj-41::obj-69" : [ "live.text", "live.text", 0 ],
 			"obj-41::obj-9" : [ "PitchActivityLED", "PitchActivityLED", 0 ],
+			"obj-41::obj-69" : [ "GateLED", "GateLED", 0 ],
 			"obj-41::obj-129" : [ "BendRange", "BendRange", 0 ],
 			"obj-41::obj-20" : [ "ModWheelActivityLED", "ModWheelActivityLED", 0 ]
 		}

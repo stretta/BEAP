@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 1,
-			"revision" : 3,
+			"revision" : 4,
 			"architecture" : "x86"
 		}
 ,
@@ -40,7 +40,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 3,
+							"revision" : 4,
 							"architecture" : "x86"
 						}
 ,
@@ -76,7 +76,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
 									"parameter_enable" : 1,
-									"patching_rect" : [ 145.0, 130.0, 50.0, 20.0 ],
+									"patching_rect" : [ 278.0, 15.0, 50.0, 20.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 7.366688, 68.0, 50.0, 20.0 ],
 									"saved_attribute_attributes" : 									{
@@ -85,7 +85,8 @@
 											"parameter_shortname" : "refresh",
 											"parameter_type" : 2,
 											"parameter_mmax" : 1.0,
-											"parameter_enum" : [ "refresh", "val2" ]
+											"parameter_enum" : [ "refresh", "val2" ],
+											"parameter_invisible" : 2
 										}
 
 									}
@@ -175,13 +176,13 @@
 									"outlettype" : [ "", "", "", "" ],
 									"patching_rect" : [ 164.0, 315.0, 59.5, 20.0 ],
 									"restore" : 									{
-										"MIDIPort" : [ "nanoKONTROL SLIDER/KNOB" ],
+										"MIDIPort" : [ "IAC Driver Bus 1" ],
 										"PitchActivityLED" : [ 0.0 ],
 										"refresh" : [ 0.0 ]
 									}
 ,
 									"text" : "autopattr",
-									"varname" : "u907000516"
+									"varname" : "u774006507"
 								}
 
 							}
@@ -195,7 +196,7 @@
 									"hint" : "MIDI port",
 									"hltcolor" : [ 0.362819, 0.362819, 0.362819, 1.0 ],
 									"id" : "obj-2",
-									"items" : [ "IAC Driver Bus 1", ",", "IAC Driver IAC Bus 2", ",", "IAC Driver BEAP", ",", "IAC Driver mara's bus", ",", "IAC Driver another bus", ",", "nanoKEY2 KEYBOARD", ",", "to Max 1", ",", "to Max 2", ",", "nanoKONTROL SLIDER/KNOB" ],
+									"items" : [ "IAC Driver Bus 1", ",", "IAC Driver IAC Bus 2", ",", "IAC Driver BEAP", ",", "IAC Driver mara's bus", ",", "IAC Driver another bus", ",", "to Max 1", ",", "to Max 2" ],
 									"maxclass" : "umenu",
 									"numinlets" : 1,
 									"numoutlets" : 3,
@@ -394,8 +395,8 @@
  ],
 		"lines" : [  ],
 		"parameters" : 		{
-			"obj-1::obj-1" : [ "refresh", "refresh", 0 ],
-			"obj-1::obj-9" : [ "PitchActivityLED", "PitchActivityLED", 0 ]
+			"obj-1::obj-9" : [ "PitchActivityLED", "PitchActivityLED", 0 ],
+			"obj-1::obj-1" : [ "refresh", "refresh", 0 ]
 		}
 ,
 		"dependency_cache" : [  ]
