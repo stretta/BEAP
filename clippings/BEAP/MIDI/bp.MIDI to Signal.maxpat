@@ -4,11 +4,11 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 1,
-			"revision" : 3,
+			"revision" : 4,
 			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 81.0, 97.0, 1344.0, 617.0 ],
+		"rect" : [ 175.0, 261.0, 1344.0, 617.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -40,11 +40,11 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 3,
+							"revision" : 4,
 							"architecture" : "x86"
 						}
 ,
-						"rect" : [ 81.0, 97.0, 163.0, 116.0 ],
+						"rect" : [ 175.0, 261.0, 163.0, 116.0 ],
 						"bgcolor" : [ 1.0, 1.0, 1.0, 0.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 1,
@@ -263,7 +263,8 @@
 											"parameter_shortname" : "live.text",
 											"parameter_type" : 2,
 											"parameter_mmax" : 1.0,
-											"parameter_enum" : [ "val1", "val2" ]
+											"parameter_enum" : [ "val1", "val2" ],
+											"parameter_invisible" : 2
 										}
 
 									}
@@ -747,11 +748,11 @@
 										"ModWheelActivityLED" : [ 0.0 ],
 										"NotePriority" : [ "Last Note Priority" ],
 										"Triggering" : [ "Retrigger" ],
-										"live.text" : [ 1.0 ]
+										"live.text" : [ 0.0 ]
 									}
 ,
 									"text" : "autopattr",
-									"varname" : "u147004581"
+									"varname" : "u656006995"
 								}
 
 							}
@@ -885,56 +886,45 @@
 							}
 , 							{
 								"box" : 								{
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-									"id" : "obj-14",
-									"maxclass" : "panel",
-									"numinlets" : 1,
-									"numoutlets" : 0,
-									"patching_rect" : [ 15.0, 149.470001, 128.0, 128.0 ],
-									"presentation" : 1,
-									"presentation_rect" : [ 0.0, 0.0, 283.268768, 17.0 ],
-									"rounded" : 0
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-									"id" : "obj-15",
-									"maxclass" : "panel",
-									"numinlets" : 1,
-									"numoutlets" : 0,
-									"patching_rect" : [ 175.236206, 15.0, 128.0, 128.0 ],
-									"presentation" : 1,
-									"presentation_rect" : [ 0.0, 97.0, 283.268768, 35.433025 ],
-									"rounded" : 0
-								}
-
-							}
-, 							{
-								"box" : 								{
+									"background" : 1,
 									"bgcolor" : [ 0.137255, 0.145098, 0.160784, 0.65 ],
-									"id" : "obj-18",
+									"id" : "obj-130",
 									"maxclass" : "panel",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 21.736206, 15.0, 128.0, 128.0 ],
+									"patching_rect" : [ 199.173828, 223.529999, 37.0, 5.0 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 0.0, 37.0, 283.268768, 71.584457 ],
+									"presentation_rect" : [ 0.0, 37.0, 283.0, 60.338158 ],
 									"rounded" : 0
 								}
 
 							}
 , 							{
 								"box" : 								{
+									"background" : 1,
 									"bgcolor" : [ 0.367404, 0.389405, 0.430238, 1.0 ],
-									"id" : "obj-21",
+									"id" : "obj-131",
 									"maxclass" : "panel",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 161.562378, 149.470001, 128.0, 128.0 ],
+									"patching_rect" : [ 259.0, 223.529999, 37.0, 5.0 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 0.0, 17.0, 283.268768, 116.114227 ],
+									"presentation_rect" : [ 0.0, 17.0, 283.0, 80.338158 ],
+									"rounded" : 0
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"background" : 1,
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+									"id" : "obj-135",
+									"maxclass" : "panel",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 316.673828, 223.529999, 37.0, 5.0 ],
+									"presentation" : 1,
+									"presentation_rect" : [ 0.0, 0.0, 283.0, 133.0 ],
 									"rounded" : 0
 								}
 
@@ -1357,9 +1347,9 @@
  ],
 		"lines" : [  ],
 		"parameters" : 		{
-			"obj-41::obj-20" : [ "ModWheelActivityLED", "ModWheelActivityLED", 0 ],
 			"obj-41::obj-69" : [ "live.text", "live.text", 0 ],
-			"obj-41::obj-28" : [ "Bend", "Bend", 0 ]
+			"obj-41::obj-28" : [ "Bend", "Bend", 0 ],
+			"obj-41::obj-20" : [ "ModWheelActivityLED", "ModWheelActivityLED", 0 ]
 		}
 ,
 		"dependency_cache" : [  ]
