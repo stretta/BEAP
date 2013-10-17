@@ -4,11 +4,11 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 1,
-			"revision" : 3,
+			"revision" : 4,
 			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 42.0, 44.0, 1440.0, 753.0 ],
+		"rect" : [ 0.0, 44.0, 1440.0, 753.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -40,11 +40,11 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 3,
+							"revision" : 4,
 							"architecture" : "x86"
 						}
 ,
-						"rect" : [ 42.0, 44.0, 146.0, 116.0 ],
+						"rect" : [ 0.0, 44.0, 146.0, 116.0 ],
 						"bgcolor" : [ 1.0, 1.0, 1.0, 0.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 1,
@@ -110,7 +110,7 @@
 									"presentation_rect" : [ 90.062378, 43.0, 49.121742, 15.0 ],
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
-											"parameter_longname" : "presets[1]",
+											"parameter_longname" : "presets",
 											"parameter_shortname" : "presets",
 											"parameter_type" : 2,
 											"parameter_enum" : [ "default", "bipolar to unipolar +", "bipolar to unipolar -", "unipolar + to bipolar", "unipolar - to bipolar", "inversion" ]
@@ -120,7 +120,7 @@
 ,
 									"textcolor" : [ 0.278431, 0.839216, 1.0, 1.0 ],
 									"tricolor" : [ 0.278431, 0.839216, 1.0, 1.0 ],
-									"varname" : "live.menu"
+									"varname" : "presets"
 								}
 
 							}
@@ -268,7 +268,7 @@
 									"presentation_rect" : [ 45.062378, 43.0, 44.0, 47.0 ],
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
-											"parameter_longname" : "Bias[1]",
+											"parameter_longname" : "Bias",
 											"parameter_shortname" : "Bias",
 											"parameter_type" : 0,
 											"parameter_mmin" : -5.0,
@@ -298,12 +298,12 @@
 									"restore" : 									{
 										"Bias" : [ 0.0 ],
 										"Gain" : [ 100.0 ],
-										"Mute" : [ 0.0 ],
-										"live.menu" : [ 0.0 ]
+										"bypass" : [ 0.0 ],
+										"presets" : [ 0.0 ]
 									}
 ,
 									"text" : "autopattr",
-									"varname" : "u512000976"
+									"varname" : "u272002209"
 								}
 
 							}
@@ -442,7 +442,7 @@
 									"text" : "bypass",
 									"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 									"texton" : "bypass",
-									"varname" : "Mute"
+									"varname" : "bypass"
 								}
 
 							}
@@ -694,9 +694,9 @@
  ],
 		"lines" : [  ],
 		"parameters" : 		{
-			"obj-2::obj-40" : [ "presets[1]", "presets", 0 ],
-			"obj-2::obj-1" : [ "Bias[1]", "Bias", 0 ],
-			"obj-2::obj-10" : [ "Gain", "Gain", 0 ]
+			"obj-2::obj-1" : [ "Bias", "Bias", 0 ],
+			"obj-2::obj-10" : [ "Gain", "Gain", 0 ],
+			"obj-2::obj-40" : [ "presets", "presets", 0 ]
 		}
 ,
 		"dependency_cache" : [  ]
