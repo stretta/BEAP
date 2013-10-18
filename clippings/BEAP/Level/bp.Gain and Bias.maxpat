@@ -303,7 +303,7 @@
 									}
 ,
 									"text" : "autopattr",
-									"varname" : "u272002209"
+									"varname" : "u073001991"
 								}
 
 							}
@@ -687,16 +687,16 @@
 					}
 ,
 					"patching_rect" : [ 0.0, 0.0, 146.0, 116.0 ],
-					"varname" : "GainAndBias[1]"
+					"varname" : "GainAndBias"
 				}
 
 			}
  ],
 		"lines" : [  ],
 		"parameters" : 		{
+			"obj-2::obj-40" : [ "presets", "presets", 0 ],
 			"obj-2::obj-1" : [ "Bias", "Bias", 0 ],
-			"obj-2::obj-10" : [ "Gain", "Gain", 0 ],
-			"obj-2::obj-40" : [ "presets", "presets", 0 ]
+			"obj-2::obj-10" : [ "Gain", "Gain", 0 ]
 		}
 ,
 		"dependency_cache" : [  ]

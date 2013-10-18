@@ -394,7 +394,7 @@
 									}
 ,
 									"text" : "autopattr",
-									"varname" : "u113007311"
+									"varname" : "u911002026"
 								}
 
 							}
@@ -474,7 +474,7 @@
 									"presentation_rect" : [ 55.0, 18.0, 52.0, 17.0 ],
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
-											"parameter_longname" : "Bypass[4]",
+											"parameter_longname" : "Bypass",
 											"parameter_shortname" : "Bypass",
 											"parameter_type" : 2,
 											"parameter_mmax" : 1.0,
@@ -915,7 +915,7 @@
 		"parameters" : 		{
 			"obj-42::obj-33" : [ "Quadrants", "Quadrants", 0 ],
 			"obj-42::obj-80" : [ "Response", "Response", 0 ],
-			"obj-42::obj-55" : [ "Bypass[4]", "Bypass", 0 ]
+			"obj-42::obj-55" : [ "Bypass", "Bypass", 0 ]
 		}
 ,
 		"dependency_cache" : [  ]
