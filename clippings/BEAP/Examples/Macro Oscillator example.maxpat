@@ -8,7 +8,7 @@
 			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 25.0, 69.0, 640.0, 480.0 ],
+		"rect" : [ 0.0, 44.0, 1440.0, 759.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -44,7 +44,7 @@
 							"architecture" : "x86"
 						}
 ,
-						"rect" : [ 514.0, 253.0, 101.0, 116.0 ],
+						"rect" : [ 516.0, 458.0, 101.0, 116.0 ],
 						"bgcolor" : [ 1.0, 1.0, 1.0, 0.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 1,
@@ -155,7 +155,7 @@
 									}
 ,
 									"text" : "autopattr",
-									"varname" : "u041002187"
+									"varname" : "u781000302"
 								}
 
 							}
@@ -444,7 +444,7 @@
 							"architecture" : "x86"
 						}
 ,
-						"rect" : [ 528.0, 45.0, 137.0, 116.0 ],
+						"rect" : [ 530.0, 250.0, 137.0, 116.0 ],
 						"bgcolor" : [ 1.0, 1.0, 1.0, 0.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 1,
@@ -944,12 +944,12 @@
 									"outlettype" : [ "", "", "", "" ],
 									"patching_rect" : [ 583.229248, 89.654099, 59.5, 20.0 ],
 									"restore" : 									{
-										"Frequency" : [ 0.922413 ],
+										"Frequency" : [ 0.021387 ],
 										"Mute" : [ 0.0 ]
 									}
 ,
 									"text" : "autopattr",
-									"varname" : "u936002188"
+									"varname" : "u737000301"
 								}
 
 							}
@@ -1389,7 +1389,7 @@
 							"architecture" : "x86"
 						}
 ,
-						"rect" : [ 357.0, 45.0, 137.0, 116.0 ],
+						"rect" : [ 359.0, 250.0, 137.0, 116.0 ],
 						"bgcolor" : [ 1.0, 1.0, 1.0, 0.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 1,
@@ -1889,12 +1889,12 @@
 									"outlettype" : [ "", "", "", "" ],
 									"patching_rect" : [ 583.229248, 89.654099, 59.5, 20.0 ],
 									"restore" : 									{
-										"Frequency" : [ 1.272901 ],
+										"Frequency" : [ 0.013377 ],
 										"Mute" : [ 0.0 ]
 									}
 ,
 									"text" : "autopattr",
-									"varname" : "u206002189"
+									"varname" : "u936000300"
 								}
 
 							}
@@ -2333,7 +2333,7 @@
 							"architecture" : "x86"
 						}
 ,
-						"rect" : [ 103.0, 433.0, 148.0, 116.0 ],
+						"rect" : [ 105.0, 638.0, 148.0, 116.0 ],
 						"bgcolor" : [ 1.0, 1.0, 1.0, 0.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 1,
@@ -2693,7 +2693,7 @@
 									}
 ,
 									"text" : "autopattr",
-									"varname" : "u577002190"
+									"varname" : "u572000299"
 								}
 
 							}
@@ -3040,7 +3040,7 @@
 							"architecture" : "x86"
 						}
 ,
-						"rect" : [ 103.0, -110.0, 506.0, 116.0 ],
+						"rect" : [ 105.0, 95.0, 506.0, 116.0 ],
 						"bgcolor" : [ 1.0, 1.0, 1.0, 0.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 1,
@@ -3692,7 +3692,7 @@
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "" ],
 									"patching_rect" : [ 878.477783, 536.5, 78.0, 20.0 ],
-									"restore" : [ 1.269763 ],
+									"restore" : [ 0.447641 ],
 									"saved_object_attributes" : 									{
 										"parameter_enable" : 0
 									}
@@ -3914,7 +3914,7 @@
 									}
 ,
 									"text" : "autopattr",
-									"varname" : "u725002194"
+									"varname" : "u959000295"
 								}
 
 							}
@@ -5040,7 +5040,7 @@
 							"architecture" : "x86"
 						}
 ,
-						"rect" : [ 103.0, 253.0, 358.0, 116.0 ],
+						"rect" : [ 105.0, 458.0, 358.0, 116.0 ],
 						"bgcolor" : [ 1.0, 1.0, 1.0, 0.0 ],
 						"bglocked" : 1,
 						"openinpresentation" : 1,
@@ -5061,6 +5061,20 @@
 						"digest" : "",
 						"tags" : "",
 						"boxes" : [ 							{
+								"box" : 								{
+									"fontname" : "Arial",
+									"fontsize" : 12.0,
+									"id" : "obj-31",
+									"maxclass" : "newobj",
+									"numinlets" : 6,
+									"numoutlets" : 1,
+									"outlettype" : [ "signal" ],
+									"patching_rect" : [ 446.539703, 776.200562, 116.0, 20.0 ],
+									"text" : "scale~ 0. 120. -5. 5."
+								}
+
+							}
+, 							{
 								"box" : 								{
 									"fontname" : "Arial",
 									"fontsize" : 12.0,
@@ -5097,7 +5111,7 @@
 									"fontsize" : 9.0,
 									"framecolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"id" : "obj-9",
-									"items" : "dummy.maxpat",
+									"items" : [ "bp.Tuned Delay.maxpat", ",", "dummy.maxpat" ],
 									"maxclass" : "umenu",
 									"numinlets" : 1,
 									"numoutlets" : 3,
@@ -6519,19 +6533,19 @@
 									"restore" : 									{
 										"CV2" : [ 0.0 ],
 										"CV3" : [ 0.0 ],
-										"Color" : [ 0.0 ],
+										"Color" : [ -4.606299 ],
 										"Freq" : [ 261.62558 ],
 										"FreqMode" : [ 1.0 ],
 										"Mute" : [ 0.0 ],
 										"Offset[2]" : [ 0.0 ],
-										"PositionCV" : [ 1.0 ],
-										"PositionCV[1]" : [ 1.0 ],
-										"Timbre" : [ 0.0 ],
+										"PositionCV" : [ 0.0 ],
+										"PositionCV[1]" : [ 0.0 ],
+										"Timbre" : [ 0.866142 ],
 										"stealthinit" : [ 0.0 ]
 									}
 ,
 									"text" : "autopattr",
-									"varname" : "u408002195"
+									"varname" : "u531000294"
 								}
 
 							}
@@ -7325,6 +7339,16 @@
 							}
 , 							{
 								"patchline" : 								{
+									"destination" : [ "obj-14", 0 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"midpoints" : [ 456.039703, 1004.23761, 726.302124, 1004.23761 ],
+									"source" : [ "obj-31", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
 									"destination" : [ "obj-44", 1 ],
 									"disabled" : 0,
 									"hidden" : 0,
@@ -7381,10 +7405,9 @@
 							}
 , 							{
 								"patchline" : 								{
-									"destination" : [ "obj-14", 0 ],
+									"destination" : [ "obj-31", 0 ],
 									"disabled" : 0,
 									"hidden" : 0,
-									"midpoints" : [ 456.039703, 1004.23761, 726.302124, 1004.23761 ],
 									"source" : [ "obj-44", 0 ]
 								}
 
@@ -7709,35 +7732,34 @@
 			}
  ],
 		"parameters" : 		{
-			"obj-38::obj-14.1::obj-80" : [ "Ratio", "Ratio", 0 ],
-			"obj-38::obj-25" : [ "WaveCV", "CV", 0 ],
-			"obj-18::obj-20" : [ "Frequency", "Freq", 0 ],
-			"obj-6::obj-64" : [ "live.text", "live.text", 0 ],
-			"obj-38::obj-106" : [ "CV3", "CV3", 0 ],
+			"obj-3::obj-52" : [ "Level", "Level", 0 ],
+			"obj-2::obj-12" : [ "Mute[3]", "Mute", 0 ],
 			"obj-1::obj-20" : [ "RangeSwitch", "RangeSwitch", 0 ],
-			"obj-3::obj-55" : [ "DSP", "DSP", 0 ],
-			"obj-38::obj-80" : [ "BankCV", "CV", 0 ],
+			"obj-38::obj-46" : [ "Offset", "Offset", 0 ],
+			"obj-38::obj-106" : [ "CV3", "CV3", 0 ],
+			"obj-18::obj-12" : [ "Mute[2]", "Mute", 0 ],
+			"obj-18::obj-20" : [ "Frequency", "Freq", 0 ],
 			"obj-38::obj-51" : [ "Freq", "Freq", 0 ],
 			"obj-38::obj-3" : [ "Timbre", "Timbre", 0 ],
+			"obj-6::obj-64" : [ "live.text", "live.text", 0 ],
 			"obj-38::obj-81" : [ "Color", "Color", 0 ],
-			"obj-3::obj-52" : [ "Level", "Level", 0 ],
-			"obj-6::obj-58" : [ "RepeatInterval[1]", "Repeat", 0 ],
+			"obj-3::obj-22" : [ "Mute[1]", "Mute", 0 ],
+			"obj-38::obj-80" : [ "BankCV", "CV", 0 ],
 			"obj-38::obj-12" : [ "Mute", "Mute", 0 ],
-			"obj-6::obj-5" : [ "Octave[1]", "Octave", 0 ],
-			"obj-2::obj-12" : [ "Mute[3]", "Mute", 0 ],
 			"obj-38::obj-45" : [ "FreqMode", "FreqMode", 0 ],
 			"obj-38::obj-56" : [ "stealthinit", "stealthinit", 0 ],
-			"obj-3::obj-56" : [ "OutputChannel", "OutputChannel", 0 ],
-			"obj-18::obj-12" : [ "Mute[2]", "Mute", 0 ],
-			"obj-38::obj-46" : [ "Offset", "Offset", 0 ],
-			"obj-3::obj-22" : [ "Mute[1]", "Mute", 0 ],
-			"obj-2::obj-20" : [ "Frequency[1]", "Freq", 0 ],
 			"obj-6::obj-12" : [ "KeyboardMode[1]", "KeyboardMode", 0 ],
-			"obj-38::obj-129" : [ "CV2", "CV2", 0 ]
+			"obj-2::obj-20" : [ "Frequency[1]", "Freq", 0 ],
+			"obj-6::obj-58" : [ "RepeatInterval[1]", "Repeat", 0 ],
+			"obj-3::obj-56" : [ "OutputChannel", "OutputChannel", 0 ],
+			"obj-3::obj-55" : [ "DSP", "DSP", 0 ],
+			"obj-6::obj-5" : [ "Octave[1]", "Octave", 0 ],
+			"obj-38::obj-129" : [ "CV2", "CV2", 0 ],
+			"obj-38::obj-25" : [ "WaveCV", "CV", 0 ]
 		}
 ,
 		"dependency_cache" : [ 			{
-				"name" : "dummy.maxpat",
+				"name" : "bp.Tuned Delay.maxpat",
 				"bootpath" : "/Applications/Max 6.1/packages/BEAP/misc/marco_osc",
 				"patcherrelativepath" : "../../../misc/marco_osc",
 				"type" : "JSON",

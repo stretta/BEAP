@@ -68,6 +68,20 @@
 								"box" : 								{
 									"fontname" : "Arial",
 									"fontsize" : 12.0,
+									"id" : "obj-31",
+									"maxclass" : "newobj",
+									"numinlets" : 6,
+									"numoutlets" : 1,
+									"outlettype" : [ "signal" ],
+									"patching_rect" : [ 446.539703, 788.38501, 116.0, 20.0 ],
+									"text" : "scale~ 0. 120. -5. 5."
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"fontname" : "Arial",
+									"fontsize" : 12.0,
 									"id" : "obj-18",
 									"maxclass" : "newobj",
 									"numinlets" : 1,
@@ -101,7 +115,7 @@
 									"fontsize" : 9.0,
 									"framecolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"id" : "obj-9",
-									"items" : "dummy.maxpat",
+									"items" : [ "bp.Tuned Delay.maxpat", ",", "dummy.maxpat" ],
 									"maxclass" : "umenu",
 									"numinlets" : 1,
 									"numoutlets" : 3,
@@ -1535,7 +1549,7 @@
 									}
 ,
 									"text" : "autopattr",
-									"varname" : "u146001960"
+									"varname" : "u791000380"
 								}
 
 							}
@@ -2329,6 +2343,15 @@
 							}
 , 							{
 								"patchline" : 								{
+									"destination" : [ "obj-14", 0 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-31", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
 									"destination" : [ "obj-44", 1 ],
 									"disabled" : 0,
 									"hidden" : 0,
@@ -2385,10 +2408,9 @@
 							}
 , 							{
 								"patchline" : 								{
-									"destination" : [ "obj-14", 0 ],
+									"destination" : [ "obj-31", 0 ],
 									"disabled" : 0,
 									"hidden" : 0,
-									"midpoints" : [ 456.039703, 1004.23761, 726.302124, 1004.23761 ],
 									"source" : [ "obj-44", 0 ]
 								}
 
@@ -2659,18 +2681,18 @@
  ],
 		"lines" : [  ],
 		"parameters" : 		{
-			"obj-38::obj-14.1::obj-80" : [ "Ratio", "Ratio", 0 ],
 			"obj-38::obj-25" : [ "TimbreCV", "CV", 0 ],
+			"obj-38::obj-129" : [ "CV2", "CV2", 0 ],
 			"obj-38::obj-106" : [ "CV3", "CV3", 0 ],
-			"obj-38::obj-51" : [ "Freq", "Freq", 0 ],
-			"obj-38::obj-3" : [ "Timbre", "Timbre", 0 ],
 			"obj-38::obj-81" : [ "Color", "Color", 0 ],
 			"obj-38::obj-12" : [ "Mute", "Mute", 0 ],
+			"obj-38::obj-51" : [ "Freq", "Freq", 0 ],
+			"obj-38::obj-3" : [ "Timbre", "Timbre", 0 ],
+			"obj-38::obj-46" : [ "Offset", "Offset", 0 ],
+			"obj-38::obj-14.1::obj-80" : [ "Ratio", "Ratio", 0 ],
 			"obj-38::obj-45" : [ "FreqMode", "FreqMode", 0 ],
 			"obj-38::obj-56" : [ "stealthinit", "stealthinit", 0 ],
-			"obj-38::obj-46" : [ "Offset", "Offset", 0 ],
-			"obj-38::obj-80" : [ "ColorCV", "CV", 0 ],
-			"obj-38::obj-129" : [ "CV2", "CV2", 0 ]
+			"obj-38::obj-80" : [ "ColorCV", "CV", 0 ]
 		}
 ,
 		"dependency_cache" : [ 			{
