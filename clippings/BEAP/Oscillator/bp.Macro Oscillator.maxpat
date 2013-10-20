@@ -101,8 +101,8 @@
 									"numinlets" : 3,
 									"numoutlets" : 1,
 									"outlettype" : [ "signal" ],
-									"patching_rect" : [ 716.802124, 1029.399658, 1045.717651, 20.0 ],
-									"text" : "poly~ dummy"
+									"patching_rect" : [ 716.802124, 1029.399658, 1045.717529, 20.0 ],
+									"text" : "poly~ FM-OD"
 								}
 
 							}
@@ -115,7 +115,7 @@
 									"fontsize" : 9.0,
 									"framecolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"id" : "obj-9",
-									"items" : [ "bp.Tuned Delay.maxpat", ",", "dummy.maxpat" ],
+									"items" : [ "bp.MIO.maxpat", ",", "bp.Tuned Delay.maxpat", ",", "FM-OD.maxpat" ],
 									"maxclass" : "umenu",
 									"numinlets" : 1,
 									"numoutlets" : 3,
@@ -1549,7 +1549,7 @@
 									}
 ,
 									"text" : "autopattr",
-									"varname" : "u791000380"
+									"varname" : "u612003455"
 								}
 
 							}
@@ -2696,7 +2696,7 @@
 		}
 ,
 		"dependency_cache" : [ 			{
-				"name" : "dummy.maxpat",
+				"name" : "FM-OD.maxpat",
 				"bootpath" : "/Applications/Max 6.1/packages/BEAP/misc/marco_osc",
 				"patcherrelativepath" : "../../../misc/marco_osc",
 				"type" : "JSON",
