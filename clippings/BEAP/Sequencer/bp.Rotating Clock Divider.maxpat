@@ -66,6 +66,62 @@
 						"tags" : "",
 						"boxes" : [ 							{
 								"box" : 								{
+									"bubble" : 1,
+									"fontname" : "Arial",
+									"fontsize" : 12.0,
+									"frgb" : 0.0,
+									"id" : "obj-9",
+									"linecount" : 2,
+									"maxclass" : "comment",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 1002.895508, 142.991943, 244.0, 37.0 ],
+									"text" : "stealth init (loadbang without loadbang for paste from... compatibility)"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"fontname" : "Arial",
+									"fontsize" : 12.0,
+									"id" : "obj-10",
+									"maxclass" : "newobj",
+									"numinlets" : 2,
+									"numoutlets" : 2,
+									"outlettype" : [ "bang", "" ],
+									"patching_rect" : [ 950.895508, 172.0, 36.0, 20.0 ],
+									"text" : "sel 0"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-12",
+									"maxclass" : "live.text",
+									"numinlets" : 1,
+									"numoutlets" : 2,
+									"outlettype" : [ "", "" ],
+									"parameter_enable" : 1,
+									"patching_rect" : [ 950.895508, 142.991943, 40.0, 20.0 ],
+									"saved_attribute_attributes" : 									{
+										"valueof" : 										{
+											"parameter_longname" : "stealthinit",
+											"parameter_shortname" : "stealthinit",
+											"parameter_type" : 2,
+											"parameter_mmax" : 1.0,
+											"parameter_enum" : [ "val1", "val2" ],
+											"parameter_initial_enable" : 1,
+											"parameter_initial" : [ 0.0 ]
+										}
+
+									}
+,
+									"varname" : "stealthinit"
+								}
+
+							}
+, 							{
+								"box" : 								{
 									"fontname" : "Arial",
 									"fontsize" : 10.0,
 									"frgb" : 0.0,
@@ -5282,20 +5338,6 @@
 								"box" : 								{
 									"fontname" : "Arial",
 									"fontsize" : 12.0,
-									"id" : "obj-146",
-									"maxclass" : "newobj",
-									"numinlets" : 1,
-									"numoutlets" : 1,
-									"outlettype" : [ "bang" ],
-									"patching_rect" : [ 950.895508, 176.468018, 60.0, 20.0 ],
-									"text" : "loadbang"
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"fontname" : "Arial",
-									"fontsize" : 12.0,
 									"id" : "obj-145",
 									"linecount" : 4,
 									"maxclass" : "message",
@@ -7033,11 +7075,12 @@
 										"divisors" : [ 3, 16, 4, 0, 8, 3, 2003, 4003, 6003, 8003, 10003, 12003, 14003, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2 ],
 										"live.grid[2]" : [ 3, 16, 4, 0, 8, 1003, 3003, 5003, 7003, 9003, 11003, 13003, 15003, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2 ],
 										"mute" : [ 0.0 ],
-										"reset" : [ 0.0 ]
+										"reset" : [ 0.0 ],
+										"stealthinit" : [ 0.0 ]
 									}
 ,
 									"text" : "autopattr",
-									"varname" : "u288001166"
+									"varname" : "u326001810"
 								}
 
 							}
@@ -7179,6 +7222,15 @@
  ],
 						"lines" : [ 							{
 								"patchline" : 								{
+									"destination" : [ "obj-145", 0 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-10", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
 									"destination" : [ "obj-185", 0 ],
 									"disabled" : 0,
 									"hidden" : 0,
@@ -7264,6 +7316,15 @@
 									"disabled" : 0,
 									"hidden" : 0,
 									"source" : [ "obj-111", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-10", 0 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-12", 0 ]
 								}
 
 							}
@@ -7390,15 +7451,6 @@
 									"disabled" : 0,
 									"hidden" : 0,
 									"source" : [ "obj-145", 0 ]
-								}
-
-							}
-, 							{
-								"patchline" : 								{
-									"destination" : [ "obj-145", 0 ],
-									"disabled" : 0,
-									"hidden" : 0,
-									"source" : [ "obj-146", 0 ]
 								}
 
 							}
@@ -8540,50 +8592,51 @@
  ],
 		"lines" : [  ],
 		"parameters" : 		{
-			"obj-12::obj-234" : [ "Offset[7]", "Offset[1]", 0 ],
-			"obj-12::obj-152" : [ "On[4]", "On", 0 ],
-			"obj-12::obj-33" : [ "PresetSubdivisions", "PresetSubdiv", 0 ],
-			"obj-12::obj-20" : [ "mute[2]", "mute", 0 ],
+			"obj-12::obj-52" : [ "Steps[8]", "Div", 0 ],
+			"obj-12::obj-193" : [ "Subdiv[5]", "Sub[1]", 0 ],
+			"obj-12::obj-3" : [ "divisors", "divisors", 0 ],
+			"obj-12::obj-12" : [ "stealthinit", "stealthinit", 0 ],
+			"obj-12::obj-228" : [ "Offset[1]", "Offset[1]", 0 ],
+			"obj-12::obj-233" : [ "Offset[6]", "Offset[1]", 0 ],
+			"obj-12::obj-144" : [ "On[3]", "On", 0 ],
+			"obj-12::obj-24" : [ "reset", "reset", 0 ],
+			"obj-12::obj-157" : [ "On[8]", "On", 0 ],
 			"obj-12::obj-48" : [ "Steps[4]", "Div", 0 ],
 			"obj-12::obj-189" : [ "Subdiv[1]", "Sub[1]", 0 ],
 			"obj-12::obj-194" : [ "Subdiv[6]", "Sub[1]", 0 ],
-			"obj-12::obj-24" : [ "reset", "reset", 0 ],
-			"obj-12::obj-226" : [ "AutoReset", "AutoReset", 0 ],
-			"obj-12::obj-230" : [ "Offset[3]", "Offset[1]", 0 ],
-			"obj-12::obj-235" : [ "Offset[8]", "Offset[1]", 0 ],
-			"obj-12::obj-225" : [ "Step", "Step", 0 ],
-			"obj-12::obj-153" : [ "On[5]", "On", 0 ],
-			"obj-12::obj-227" : [ "ResetInterval", "ResetInterval", 0 ],
+			"obj-12::obj-229" : [ "Offset[2]", "Offset[1]", 0 ],
+			"obj-12::obj-20" : [ "mute[2]", "mute", 0 ],
+			"obj-12::obj-234" : [ "Offset[7]", "Offset[1]", 0 ],
+			"obj-12::obj-29" : [ "Steps[1]", "Div", 0 ],
+			"obj-12::obj-152" : [ "On[4]", "On", 0 ],
+			"obj-12::obj-33" : [ "PresetSubdivisions", "PresetSubdiv", 0 ],
+			"obj-12::obj-91" : [ "NoteGrid[2]", "NoteGrid", 0 ],
 			"obj-12::obj-49" : [ "Steps[5]", "Div", 0 ],
 			"obj-12::obj-190" : [ "Subdiv[2]", "Sub[1]", 0 ],
 			"obj-12::obj-195" : [ "Subdiv[7]", "Sub[1]", 0 ],
+			"obj-12::obj-226" : [ "AutoReset", "AutoReset", 0 ],
+			"obj-12::obj-230" : [ "Offset[3]", "Offset[1]", 0 ],
+			"obj-12::obj-235" : [ "Offset[8]", "Offset[1]", 0 ],
+			"obj-12::obj-153" : [ "On[5]", "On", 0 ],
+			"obj-12::obj-227" : [ "ResetInterval", "ResetInterval", 0 ],
+			"obj-12::obj-50" : [ "Steps[6]", "Div", 0 ],
+			"obj-12::obj-191" : [ "Subdiv[3]", "Sub[1]", 0 ],
+			"obj-12::obj-196" : [ "Subdiv[8]", "Sub[1]", 0 ],
 			"obj-12::obj-205" : [ "CV", "CV", 0 ],
 			"obj-12::obj-231" : [ "Offset[4]", "Offset[1]", 0 ],
 			"obj-12::obj-139" : [ "On[1]", "On", 0 ],
 			"obj-12::obj-155" : [ "On[6]", "On", 0 ],
-			"obj-12::obj-29" : [ "Steps[1]", "Div", 0 ],
-			"obj-12::obj-50" : [ "Steps[6]", "Div", 0 ],
-			"obj-12::obj-191" : [ "Subdiv[3]", "Sub[1]", 0 ],
-			"obj-12::obj-196" : [ "Subdiv[8]", "Sub[1]", 0 ],
-			"obj-12::obj-90" : [ "OffsetEndpointsBehavior", "OffsetEndpoints", 0 ],
-			"obj-12::obj-232" : [ "Offset[5]", "Offset[1]", 0 ],
-			"obj-12::obj-140" : [ "On[2]", "On", 0 ],
-			"obj-12::obj-156" : [ "On[7]", "On", 0 ],
 			"obj-12::obj-6" : [ "Steps[2]", "Div", 0 ],
 			"obj-12::obj-51" : [ "Steps[7]", "Div", 0 ],
 			"obj-12::obj-192" : [ "Subdiv[4]", "Sub[1]", 0 ],
 			"obj-12::obj-184" : [ "TriggerOrGate", "TriggerOrGate", 1 ],
-			"obj-12::obj-228" : [ "Offset[1]", "Offset[1]", 0 ],
-			"obj-12::obj-233" : [ "Offset[6]", "Offset[1]", 0 ],
-			"obj-12::obj-144" : [ "On[3]", "On", 0 ],
-			"obj-12::obj-157" : [ "On[8]", "On", 0 ],
-			"obj-12::obj-7" : [ "Steps[3]", "Div", 0 ],
-			"obj-12::obj-52" : [ "Steps[8]", "Div", 0 ],
-			"obj-12::obj-193" : [ "Subdiv[5]", "Sub[1]", 0 ],
+			"obj-12::obj-225" : [ "Step", "Step", 0 ],
 			"obj-12::obj-11" : [ "clear", "clear", 0 ],
-			"obj-12::obj-3" : [ "divisors", "divisors", 0 ],
-			"obj-12::obj-91" : [ "NoteGrid[2]", "NoteGrid", 0 ],
-			"obj-12::obj-229" : [ "Offset[2]", "Offset[1]", 0 ]
+			"obj-12::obj-90" : [ "OffsetEndpointsBehavior", "OffsetEndpoints", 0 ],
+			"obj-12::obj-232" : [ "Offset[5]", "Offset[1]", 0 ],
+			"obj-12::obj-140" : [ "On[2]", "On", 0 ],
+			"obj-12::obj-156" : [ "On[7]", "On", 0 ],
+			"obj-12::obj-7" : [ "Steps[3]", "Div", 0 ]
 		}
 ,
 		"dependency_cache" : [  ]
