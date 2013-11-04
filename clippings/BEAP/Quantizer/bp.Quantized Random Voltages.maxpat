@@ -99,8 +99,7 @@
 									"numinlets" : 0,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 721.0, 118.0, 25.0, 25.0 ],
-									"presentation_rect" : [ 723.0, 121.0, 0.0, 0.0 ]
+									"patching_rect" : [ 721.0, 118.0, 25.0, 25.0 ]
 								}
 
 							}
@@ -310,8 +309,7 @@
 									"numinlets" : 0,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 585.0, 204.0, 25.0, 25.0 ],
-									"presentation_rect" : [ 532.333374, 333.0, 0.0, 0.0 ]
+									"patching_rect" : [ 585.0, 204.0, 25.0, 25.0 ]
 								}
 
 							}
@@ -505,7 +503,6 @@
 									}
 ,
 									"patching_rect" : [ 339.0, 283.407501, 52.0, 20.0 ],
-									"presentation_rect" : [ 335.0, 287.529999, 0.0, 0.0 ],
 									"saved_object_attributes" : 									{
 										"default_fontface" : 0,
 										"default_fontname" : "Arial Bold",
@@ -533,7 +530,6 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "float" ],
 									"patching_rect" : [ 845.0, 219.0, 42.0, 20.0 ],
-									"presentation_rect" : [ 691.0, 232.0, 0.0, 0.0 ],
 									"text" : "* 0.01"
 								}
 
@@ -612,7 +608,6 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "signal" ],
 									"patching_rect" : [ 339.0, 756.383911, 117.431091, 20.0 ],
-									"presentation_rect" : [ 344.0, 756.383911, 0.0, 0.0 ],
 									"text" : "gate~ 1 1"
 								}
 
@@ -624,8 +619,7 @@
 									"maxclass" : "outlet",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 339.0, 810.383911, 25.0, 25.0 ],
-									"presentation_rect" : [ 337.0, 808.383911, 0.0, 0.0 ]
+									"patching_rect" : [ 339.0, 810.383911, 25.0, 25.0 ]
 								}
 
 							}
@@ -1466,13 +1460,13 @@
 										"CV_N" : [ 0.0 ],
 										"Mute" : [ 0.0 ],
 										"N" : [ 6.0 ],
-										"Skew" : [ -35.433071 ],
-										"SkewCV" : [ 59.055119 ],
-										"TimeCorrelation" : [ 0.0 ]
+										"Skew" : [ 0.0 ],
+										"SkewCV" : [ 0.0 ],
+										"TimeCorrelation" : [ 100.0 ]
 									}
 ,
 									"text" : "autopattr",
-									"varname" : "u414000136"
+									"varname" : "u821002286"
 								}
 
 							}
