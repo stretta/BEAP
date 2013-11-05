@@ -1753,7 +1753,7 @@
 										"Learn" : [ 0.0 ],
 										"MIDIPort" : [ "QUNEO" ],
 										"Mute" : [ 0.0 ],
-										"Pad" : [ 2.0 ],
+										"Pad" : [ 1.0 ],
 										"Smooth" : [ 50.0 ],
 										"pressure" : [ 0 ],
 										"x" : [ 47 ],
@@ -1761,7 +1761,7 @@
 									}
 ,
 									"text" : "autopattr",
-									"varname" : "u162003936"
+									"varname" : "u487004461"
 								}
 
 							}
