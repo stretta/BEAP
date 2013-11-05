@@ -66,62 +66,6 @@
 						"tags" : "",
 						"boxes" : [ 							{
 								"box" : 								{
-									"bubble" : 1,
-									"fontname" : "Arial",
-									"fontsize" : 12.0,
-									"frgb" : 0.0,
-									"id" : "obj-1",
-									"linecount" : 2,
-									"maxclass" : "comment",
-									"numinlets" : 1,
-									"numoutlets" : 0,
-									"patching_rect" : [ 1023.0, -182.008057, 244.0, 37.0 ],
-									"text" : "stealth init (loadbang without loadbang for paste from... compatibility)"
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"fontname" : "Arial",
-									"fontsize" : 12.0,
-									"id" : "obj-10",
-									"maxclass" : "newobj",
-									"numinlets" : 2,
-									"numoutlets" : 2,
-									"outlettype" : [ "bang", "" ],
-									"patching_rect" : [ 971.0, -153.0, 36.0, 20.0 ],
-									"text" : "sel 0"
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"id" : "obj-2",
-									"maxclass" : "live.text",
-									"numinlets" : 1,
-									"numoutlets" : 2,
-									"outlettype" : [ "", "" ],
-									"parameter_enable" : 1,
-									"patching_rect" : [ 971.0, -182.008057, 40.0, 20.0 ],
-									"saved_attribute_attributes" : 									{
-										"valueof" : 										{
-											"parameter_longname" : "stealthinit",
-											"parameter_shortname" : "stealthinit",
-											"parameter_type" : 2,
-											"parameter_mmax" : 1.0,
-											"parameter_enum" : [ "val1", "val2" ],
-											"parameter_initial_enable" : 1,
-											"parameter_initial" : [ 0.0 ]
-										}
-
-									}
-,
-									"varname" : "stealthinit"
-								}
-
-							}
-, 							{
-								"box" : 								{
 									"fontname" : "Arial Bold",
 									"fontsize" : 10.0,
 									"id" : "obj-91",
@@ -138,7 +82,7 @@
 											"architecture" : "x86"
 										}
 ,
-										"rect" : [ 50.0, 94.0, 640.0, 480.0 ],
+										"rect" : [ 0.0, 0.0, 640.0, 480.0 ],
 										"bglocked" : 0,
 										"openinpresentation" : 0,
 										"default_fontsize" : 10.0,
@@ -570,6 +514,20 @@
 							}
 , 							{
 								"box" : 								{
+									"fontname" : "Arial",
+									"fontsize" : 12.0,
+									"id" : "obj-78",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 1,
+									"outlettype" : [ "bang" ],
+									"patching_rect" : [ 971.0, -154.0, 60.0, 20.0 ],
+									"text" : "loadbang"
+								}
+
+							}
+, 							{
+								"box" : 								{
 									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"bgcolor2" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontname" : "Arial",
@@ -578,7 +536,7 @@
 									"hint" : "MIDI port",
 									"hltcolor" : [ 0.362819, 0.362819, 0.362819, 1.0 ],
 									"id" : "obj-79",
-									"items" : [ "to Max 1", ",", "to Max 2", ",", "QUNEO" ],
+									"items" : [ "BCF2000 Port 1", ",", "BCF2000 Port 2", ",", "Traveler MIDI Port", ",", "Traveler Sync Port", ",", "to Max 1", ",", "to Max 2", ",", "QUNEO" ],
 									"maxclass" : "umenu",
 									"numinlets" : 1,
 									"numoutlets" : 3,
@@ -1795,16 +1753,15 @@
 										"Learn" : [ 0.0 ],
 										"MIDIPort" : [ "QUNEO" ],
 										"Mute" : [ 0.0 ],
-										"Pad" : [ 1.0 ],
+										"Pad" : [ 2.0 ],
 										"Smooth" : [ 50.0 ],
 										"pressure" : [ 0 ],
-										"stealthinit" : [ 0.0 ],
-										"x" : [ 63 ],
-										"y" : [ 63 ]
+										"x" : [ 47 ],
+										"y" : [ 10 ]
 									}
 ,
 									"text" : "autopattr",
-									"varname" : "u175000250"
+									"varname" : "u162003936"
 								}
 
 							}
@@ -1928,15 +1885,6 @@
  ],
 						"lines" : [ 							{
 								"patchline" : 								{
-									"destination" : [ "obj-19", 0 ],
-									"disabled" : 0,
-									"hidden" : 0,
-									"source" : [ "obj-10", 0 ]
-								}
-
-							}
-, 							{
-								"patchline" : 								{
 									"destination" : [ "obj-25", 0 ],
 									"disabled" : 0,
 									"hidden" : 0,
@@ -2031,15 +1979,6 @@
 									"disabled" : 0,
 									"hidden" : 0,
 									"source" : [ "obj-19", 1 ]
-								}
-
-							}
-, 							{
-								"patchline" : 								{
-									"destination" : [ "obj-10", 0 ],
-									"disabled" : 0,
-									"hidden" : 0,
-									"source" : [ "obj-2", 0 ]
 								}
 
 							}
@@ -2415,6 +2354,15 @@
 							}
 , 							{
 								"patchline" : 								{
+									"destination" : [ "obj-19", 0 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-78", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
 									"destination" : [ "obj-87", 0 ],
 									"disabled" : 0,
 									"hidden" : 0,
@@ -2537,21 +2485,20 @@
 					}
 ,
 					"patching_rect" : [ 0.0, 0.0, 225.0, 118.0 ],
-					"varname" : "patcher[1]"
+					"varname" : "Drumpad"
 				}
 
 			}
  ],
 		"lines" : [  ],
 		"parameters" : 		{
-			"obj-104::obj-20" : [ "Learn", "Learn", 0 ],
-			"obj-104::obj-11" : [ "pressure", "pressure", 0 ],
-			"obj-104::obj-2" : [ "stealthinit", "stealthinit", 0 ],
-			"obj-104::obj-97" : [ "x", "x", 0 ],
-			"obj-104::obj-12" : [ "Mute", "Mute", 0 ],
-			"obj-104::obj-98" : [ "y", "y", 0 ],
 			"obj-104::obj-25" : [ "Pad", "Pad", 0 ],
-			"obj-104::obj-129" : [ "Smooth", "Smooth", 0 ]
+			"obj-104::obj-129" : [ "Smooth", "Smooth", 0 ],
+			"obj-104::obj-97" : [ "x", "x", 0 ],
+			"obj-104::obj-11" : [ "pressure", "pressure", 0 ],
+			"obj-104::obj-98" : [ "y", "y", 0 ],
+			"obj-104::obj-12" : [ "Mute", "Mute", 0 ],
+			"obj-104::obj-20" : [ "Learn", "Learn", 0 ]
 		}
 ,
 		"dependency_cache" : [  ]
