@@ -1,0 +1,18 @@
+{
+	"name": "BEAP",
+	"type": "package",
+	"author": "Peter McCulloch",
+	"description": "BEAP (Berklee Electro Acoustic Pedagogy) Modular is a synthesis pedagogical tool.",
+	"version": "1",
+	"major_version": "1",
+	"minor_version": "0",
+	"min_max_version": "612",
+	"min_osx_version": "None",
+	"min_win_version": "None",
+	"website": "https://github.com/stretta/BEAP/wiki",
+	"link_mac32": "https://github.com/stretta/BEAP/archive/master.zip",
+	"link_mac64": "https://github.com/stretta/BEAP/archive/master.zip",
+	"link_win32": "https://github.com/stretta/BEAP/archive/master.zip",
+	"link_win64": "https://github.com/stretta/BEAP/archive/master.zip",
+	"relative_path": "None"
+}
