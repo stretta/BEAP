@@ -2196,7 +2196,7 @@
 									}
 ,
 									"text" : "autopattr",
-									"varname" : "u533006036"
+									"varname" : "u118007327"
 								}
 
 							}
@@ -2242,29 +2242,14 @@
 , 							{
 								"box" : 								{
 									"background" : 1,
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-									"id" : "obj-15",
-									"maxclass" : "panel",
-									"numinlets" : 1,
-									"numoutlets" : 0,
-									"patching_rect" : [ 198.620804, 223.512711, 128.0, 128.0 ],
-									"presentation" : 1,
-									"presentation_rect" : [ 0.0, 97.0, 437.268768, 35.433025 ],
-									"rounded" : 0
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"background" : 1,
 									"bgcolor" : [ 0.137255, 0.145098, 0.160784, 0.65 ],
-									"id" : "obj-18",
+									"id" : "obj-130",
 									"maxclass" : "panel",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 45.120808, 223.512711, 128.0, 128.0 ],
+									"patching_rect" : [ 229.173828, 253.529999, 37.0, 5.0 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 0.0, 37.0, 437.268768, 71.584457 ],
+									"presentation_rect" : [ 0.0, 37.0, 425.0, 60.338158 ],
 									"rounded" : 0
 								}
 
@@ -2273,13 +2258,13 @@
 								"box" : 								{
 									"background" : 1,
 									"bgcolor" : [ 0.367404, 0.389405, 0.430238, 1.0 ],
-									"id" : "obj-21",
+									"id" : "obj-131",
 									"maxclass" : "panel",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 184.946976, 357.982697, 128.0, 128.0 ],
+									"patching_rect" : [ 289.0, 253.529999, 37.0, 5.0 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 0.0, 17.0, 437.268768, 116.114227 ],
+									"presentation_rect" : [ 0.0, 17.0, 425.0, 80.338158 ],
 									"rounded" : 0
 								}
 
@@ -2288,13 +2273,13 @@
 								"box" : 								{
 									"background" : 1,
 									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-									"id" : "obj-14",
+									"id" : "obj-135",
 									"maxclass" : "panel",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 661.609558, 457.485474, 183.0, 128.0 ],
+									"patching_rect" : [ 346.673828, 253.529999, 37.0, 5.0 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 0.0, 0.0, 437.268768, 17.0 ],
+									"presentation_rect" : [ 0.0, 0.0, 425.0, 133.0 ],
 									"rounded" : 0
 								}
 
@@ -2862,8 +2847,8 @@
 			"obj-17::obj-12" : [ "KeyboardMode[2]", "KeyboardMode", 0 ],
 			"obj-17::obj-106" : [ "CV3", "CV3", 0 ],
 			"obj-17::obj-16" : [ "root_note", "root_note", 0 ],
-			"obj-17::obj-129" : [ "CV2", "CV2", 0 ],
 			"obj-17::obj-64" : [ "octaves", "octaves", 0 ],
+			"obj-17::obj-129" : [ "CV2", "CV2", 0 ],
 			"obj-17::obj-45" : [ "FreqMode", "FreqMode", 0 ],
 			"obj-17::obj-46" : [ "Offset", "Offset", 0 ]
 		}
