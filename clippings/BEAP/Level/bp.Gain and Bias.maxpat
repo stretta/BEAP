@@ -4,8 +4,8 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 1,
-			"revision" : 4,
-			"architecture" : "x86"
+			"revision" : 5,
+			"architecture" : "x64"
 		}
 ,
 		"rect" : [ 0.0, 44.0, 1440.0, 753.0 ],
@@ -40,8 +40,8 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 4,
-							"architecture" : "x86"
+							"revision" : 5,
+							"architecture" : "x64"
 						}
 ,
 						"rect" : [ 0.0, 44.0, 146.0, 116.0 ],
@@ -65,6 +65,43 @@
 						"digest" : "",
 						"tags" : "",
 						"boxes" : [ 							{
+								"box" : 								{
+									"activebgcolor" : [ 0.572549, 0.615686, 0.658824, 0.0 ],
+									"activebgoncolor" : [ 0.278431, 0.839216, 1.0, 1.0 ],
+									"activetextcolor" : [ 1.0, 1.0, 1.0, 0.57 ],
+									"activetextoncolor" : [ 0.0, 0.019608, 0.078431, 1.0 ],
+									"bgcolor" : [ 0.101961, 0.101961, 0.101961, 0.78 ],
+									"bordercolor" : [ 0.0, 0.019608, 0.078431, 0.37 ],
+									"id" : "obj-55",
+									"maxclass" : "live.text",
+									"numinlets" : 1,
+									"numoutlets" : 2,
+									"outlettype" : [ "", "" ],
+									"parameter_enable" : 1,
+									"patching_rect" : [ 189.236206, 413.617981, 43.0, 19.0 ],
+									"presentation" : 1,
+									"presentation_rect" : [ 88.0, 18.0, 52.0, 17.0 ],
+									"saved_attribute_attributes" : 									{
+										"valueof" : 										{
+											"parameter_longname" : "Bypass",
+											"parameter_shortname" : "Bypass",
+											"parameter_type" : 2,
+											"parameter_mmax" : 1.0,
+											"parameter_enum" : [ "val1", "val2" ],
+											"parameter_initial" : [ 0.0 ],
+											"parameter_defer" : 1
+										}
+
+									}
+,
+									"text" : "bypass",
+									"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+									"texton" : "bypass",
+									"varname" : "Bypass"
+								}
+
+							}
+, 							{
 								"box" : 								{
 									"activedialcolor" : [ 0.278431, 0.839216, 1.0, 1.0 ],
 									"activeneedlecolor" : [ 1.0, 1.0, 1.0, 0.7 ],
@@ -297,13 +334,13 @@
 									"patching_rect" : [ 510.0, 518.0, 59.5, 20.0 ],
 									"restore" : 									{
 										"Bias" : [ 0.0 ],
+										"Bypass" : [ 0.0 ],
 										"Gain" : [ 100.0 ],
-										"bypass" : [ 0.0 ],
 										"presets" : [ 0.0 ]
 									}
 ,
 									"text" : "autopattr",
-									"varname" : "u073001991"
+									"varname" : "u688011774"
 								}
 
 							}
@@ -424,30 +461,6 @@
 							}
 , 							{
 								"box" : 								{
-									"activebgcolor" : [ 0.572549, 0.615686, 0.658824, 0.0 ],
-									"activebgoncolor" : [ 0.278431, 0.839216, 1.0, 1.0 ],
-									"activetextcolor" : [ 1.0, 1.0, 1.0, 0.57 ],
-									"activetextoncolor" : [ 0.0, 0.019608, 0.078431, 1.0 ],
-									"bgcolor" : [ 0.101961, 0.101961, 0.101961, 0.78 ],
-									"bordercolor" : [ 0.0, 0.019608, 0.078431, 0.37 ],
-									"id" : "obj-12",
-									"maxclass" : "live.text",
-									"numinlets" : 1,
-									"numoutlets" : 2,
-									"outlettype" : [ "", "" ],
-									"parameter_enable" : 0,
-									"patching_rect" : [ 189.236206, 387.0, 40.0, 20.0 ],
-									"presentation" : 1,
-									"presentation_rect" : [ 94.0, 19.0, 47.0, 14.764645 ],
-									"text" : "bypass",
-									"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
-									"texton" : "bypass",
-									"varname" : "bypass"
-								}
-
-							}
-, 							{
-								"box" : 								{
 									"fontname" : "Arial Bold",
 									"fontsize" : 9.0,
 									"frgb" : 0.0,
@@ -545,15 +558,6 @@
 									"disabled" : 0,
 									"hidden" : 0,
 									"source" : [ "obj-11", 0 ]
-								}
-
-							}
-, 							{
-								"patchline" : 								{
-									"destination" : [ "obj-6", 0 ],
-									"disabled" : 0,
-									"hidden" : 0,
-									"source" : [ "obj-12", 0 ]
 								}
 
 							}
@@ -658,6 +662,15 @@
 							}
 , 							{
 								"patchline" : 								{
+									"destination" : [ "obj-6", 0 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-55", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
 									"destination" : [ "obj-4", 0 ],
 									"disabled" : 0,
 									"hidden" : 0,
@@ -694,9 +707,10 @@
  ],
 		"lines" : [  ],
 		"parameters" : 		{
+			"obj-2::obj-55" : [ "Bypass", "Bypass", 0 ],
+			"obj-2::obj-10" : [ "Gain", "Gain", 0 ],
 			"obj-2::obj-40" : [ "presets", "presets", 0 ],
-			"obj-2::obj-1" : [ "Bias", "Bias", 0 ],
-			"obj-2::obj-10" : [ "Gain", "Gain", 0 ]
+			"obj-2::obj-1" : [ "Bias", "Bias", 0 ]
 		}
 ,
 		"dependency_cache" : [  ]
