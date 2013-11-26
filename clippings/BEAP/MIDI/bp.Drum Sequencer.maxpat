@@ -4,8 +4,8 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 1,
-			"revision" : 3,
-			"architecture" : "x86"
+			"revision" : 5,
+			"architecture" : "x64"
 		}
 ,
 		"rect" : [ 56.0, 44.0, 1068.0, 761.0 ],
@@ -40,8 +40,8 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 3,
-							"architecture" : "x86"
+							"revision" : 5,
+							"architecture" : "x64"
 						}
 ,
 						"rect" : [ 56.0, 44.0, 618.0, 328.0 ],
@@ -106,8 +106,8 @@
 										"appversion" : 										{
 											"major" : 6,
 											"minor" : 1,
-											"revision" : 3,
-											"architecture" : "x86"
+											"revision" : 5,
+											"architecture" : "x64"
 										}
 ,
 										"rect" : [ 50.0, 94.0, 640.0, 480.0 ],
@@ -304,7 +304,8 @@
 											"parameter_shortname" : "reset",
 											"parameter_type" : 2,
 											"parameter_mmax" : 1.0,
-											"parameter_enum" : [ "val1", "val2" ]
+											"parameter_enum" : [ "val1", "val2" ],
+											"parameter_invisible" : 2
 										}
 
 									}
@@ -426,8 +427,8 @@
 										"appversion" : 										{
 											"major" : 6,
 											"minor" : 1,
-											"revision" : 3,
-											"architecture" : "x86"
+											"revision" : 5,
+											"architecture" : "x64"
 										}
 ,
 										"rect" : [ 50.0, 94.0, 640.0, 480.0 ],
@@ -686,8 +687,8 @@
 										"appversion" : 										{
 											"major" : 6,
 											"minor" : 1,
-											"revision" : 3,
-											"architecture" : "x86"
+											"revision" : 5,
+											"architecture" : "x64"
 										}
 ,
 										"rect" : [ 50.0, 94.0, 640.0, 480.0 ],
@@ -878,8 +879,8 @@
 										"appversion" : 										{
 											"major" : 6,
 											"minor" : 1,
-											"revision" : 3,
-											"architecture" : "x86"
+											"revision" : 5,
+											"architecture" : "x64"
 										}
 ,
 										"rect" : [ 50.0, 94.0, 640.0, 480.0 ],
@@ -1070,8 +1071,8 @@
 										"appversion" : 										{
 											"major" : 6,
 											"minor" : 1,
-											"revision" : 3,
-											"architecture" : "x86"
+											"revision" : 5,
+											"architecture" : "x64"
 										}
 ,
 										"rect" : [ 50.0, 94.0, 640.0, 480.0 ],
@@ -1268,7 +1269,8 @@
 											"parameter_shortname" : "advance",
 											"parameter_type" : 2,
 											"parameter_mmax" : 1.0,
-											"parameter_enum" : [ "val1", "val2" ]
+											"parameter_enum" : [ "val1", "val2" ],
+											"parameter_invisible" : 2
 										}
 
 									}
@@ -1298,7 +1300,8 @@
 											"parameter_shortname" : "refresh",
 											"parameter_type" : 2,
 											"parameter_mmax" : 1.0,
-											"parameter_enum" : [ "val1", "val2" ]
+											"parameter_enum" : [ "val1", "val2" ],
+											"parameter_invisible" : 2
 										}
 
 									}
@@ -1328,7 +1331,8 @@
 											"parameter_shortname" : "clear",
 											"parameter_type" : 2,
 											"parameter_mmax" : 1.0,
-											"parameter_enum" : [ "val1", "val2" ]
+											"parameter_enum" : [ "val1", "val2" ],
+											"parameter_invisible" : 2
 										}
 
 									}
@@ -2346,8 +2350,8 @@
 										"appversion" : 										{
 											"major" : 6,
 											"minor" : 1,
-											"revision" : 3,
-											"architecture" : "x86"
+											"revision" : 5,
+											"architecture" : "x64"
 										}
 ,
 										"rect" : [ 675.0, 175.0, 504.0, 350.0 ],
@@ -2719,8 +2723,8 @@
 										"appversion" : 										{
 											"major" : 6,
 											"minor" : 1,
-											"revision" : 3,
-											"architecture" : "x86"
+											"revision" : 5,
+											"architecture" : "x64"
 										}
 ,
 										"rect" : [ 675.0, 175.0, 504.0, 350.0 ],
@@ -3606,8 +3610,8 @@
 										"appversion" : 										{
 											"major" : 6,
 											"minor" : 1,
-											"revision" : 3,
-											"architecture" : "x86"
+											"revision" : 5,
+											"architecture" : "x64"
 										}
 ,
 										"rect" : [ 675.0, 175.0, 504.0, 350.0 ],
@@ -3993,8 +3997,8 @@
 										"appversion" : 										{
 											"major" : 6,
 											"minor" : 1,
-											"revision" : 3,
-											"architecture" : "x86"
+											"revision" : 5,
+											"architecture" : "x64"
 										}
 ,
 										"rect" : [ 675.0, 175.0, 504.0, 350.0 ],
@@ -4830,8 +4834,8 @@
 									"rounded" : 0.0,
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
-											"parameter_longname" : "live.grid",
-											"parameter_shortname" : "live.grid",
+											"parameter_longname" : "drums",
+											"parameter_shortname" : "drums",
 											"parameter_type" : 3,
 											"parameter_invisible" : 1
 										}
@@ -4839,7 +4843,7 @@
 									}
 ,
 									"stepcolor" : [ 0.0, 0.870588, 0.101961, 1.0 ],
-									"varname" : "live.grid"
+									"varname" : "drums"
 								}
 
 							}
@@ -4856,7 +4860,7 @@
 									"restore" : 									{
 										"Mute" : [ 0.0 ],
 										"advance" : [ 0.0 ],
-										"clear" : [ 1.0 ],
+										"clear" : [ 0.0 ],
 										"drummapnote" : [ 36.0 ],
 										"drummapnote[10]" : [ 45.0 ],
 										"drummapnote[11]" : [ 44.0 ],
@@ -4873,15 +4877,15 @@
 										"drummapnote[7]" : [ 40.0 ],
 										"drummapnote[8]" : [ 47.0 ],
 										"drummapnote[9]" : [ 46.0 ],
+										"drums" : [ 3, 32, 16, 0, 0, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2 ],
 										"end" : [ 32.0 ],
-										"live.grid" : [ 3, 32, 16, 0, 13, 6007, 7006, 7007, 8006, 9006, 10006, 11006, 12007, 13007, 14007, 14008, 15007, 15008, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2 ],
 										"refresh" : [ 0.0 ],
 										"reset" : [ 0.0 ],
 										"start" : [ 1.0 ]
 									}
 ,
 									"text" : "autopattr",
-									"varname" : "u097006167"
+									"varname" : "u297008773"
 								}
 
 							}
@@ -6349,30 +6353,30 @@
  ],
 		"lines" : [  ],
 		"parameters" : 		{
-			"obj-15::obj-233" : [ "drummapnote[12]", "note", 0 ],
-			"obj-15::obj-223" : [ "drummapnote[2]", "note", 0 ],
-			"obj-15::obj-228" : [ "drummapnote[7]", "note", 0 ],
 			"obj-15::obj-22" : [ "clear", "clear", 0 ],
-			"obj-15::obj-37" : [ "refresh", "refresh", 0 ],
-			"obj-15::obj-50" : [ "advance", "advance", 0 ],
-			"obj-15::obj-234" : [ "drummapnote[13]", "note", 0 ],
-			"obj-15::obj-224" : [ "drummapnote[3]", "note", 0 ],
-			"obj-15::obj-229" : [ "drummapnote[8]", "note", 0 ],
+			"obj-15::obj-84" : [ "end", "end", 0 ],
+			"obj-15::obj-232" : [ "drummapnote[11]", "note", 0 ],
+			"obj-15::obj-222" : [ "drummapnote[1]", "note", 0 ],
+			"obj-15::obj-227" : [ "drummapnote[6]", "note", 0 ],
+			"obj-15::obj-12" : [ "Mute", "Mute", 0 ],
+			"obj-15::obj-73" : [ "start", "start", 0 ],
 			"obj-15::obj-221" : [ "drummapnote", "note", 0 ],
 			"obj-15::obj-235" : [ "drummapnote[14]", "note", 0 ],
-			"obj-15::obj-101" : [ "reset", "reset", 0 ],
 			"obj-15::obj-225" : [ "drummapnote[4]", "note", 0 ],
 			"obj-15::obj-230" : [ "drummapnote[9]", "note", 0 ],
-			"obj-15::obj-5" : [ "live.grid", "live.grid", 0 ],
-			"obj-15::obj-12" : [ "Mute", "Mute", 0 ],
+			"obj-15::obj-5" : [ "drums", "drums", 0 ],
+			"obj-15::obj-233" : [ "drummapnote[12]", "note", 0 ],
+			"obj-15::obj-223" : [ "drummapnote[2]", "note", 0 ],
+			"obj-15::obj-101" : [ "reset", "reset", 0 ],
+			"obj-15::obj-228" : [ "drummapnote[7]", "note", 0 ],
+			"obj-15::obj-37" : [ "refresh", "refresh", 0 ],
 			"obj-15::obj-231" : [ "drummapnote[10]", "note", 0 ],
 			"obj-15::obj-236" : [ "drummapnote[15]", "note", 0 ],
 			"obj-15::obj-226" : [ "drummapnote[5]", "note", 0 ],
-			"obj-15::obj-84" : [ "end", "end", 0 ],
-			"obj-15::obj-73" : [ "start", "start", 0 ],
-			"obj-15::obj-232" : [ "drummapnote[11]", "note", 0 ],
-			"obj-15::obj-222" : [ "drummapnote[1]", "note", 0 ],
-			"obj-15::obj-227" : [ "drummapnote[6]", "note", 0 ]
+			"obj-15::obj-50" : [ "advance", "advance", 0 ],
+			"obj-15::obj-234" : [ "drummapnote[13]", "note", 0 ],
+			"obj-15::obj-224" : [ "drummapnote[3]", "note", 0 ],
+			"obj-15::obj-229" : [ "drummapnote[8]", "note", 0 ]
 		}
 ,
 		"dependency_cache" : [  ]
