@@ -9,7 +9,7 @@
 	"major-pentatonic" : [ 0, 2, 4, 7, 9 ],
 	"minor-pentatonic" : [ 0, 2, 3, 7, 8 ],
 	"major-triad" : [ 0, 4, 7 ],
-	"minor-triad" : [ 0, 3, 7, ],
+	"minor-triad" : [ 0, 3, 7 ],
 	"augmented-triad" : [ 0, 4, 8 ],
 	"diminished triad" : [ 0, 3, 6 ],
 	"major-major-seventh" : [ 0, 4, 7, 11 ],
