@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 1,
-			"revision" : 5,
+			"revision" : 4,
 			"architecture" : "x64"
 		}
 ,
@@ -40,7 +40,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 5,
+							"revision" : 4,
 							"architecture" : "x64"
 						}
 ,
@@ -191,7 +191,7 @@
 										"appversion" : 										{
 											"major" : 6,
 											"minor" : 1,
-											"revision" : 5,
+											"revision" : 4,
 											"architecture" : "x64"
 										}
 ,
@@ -2003,7 +2003,7 @@
 									}
 ,
 									"text" : "autopattr",
-									"varname" : "u843007966"
+									"varname" : "u764002727"
 								}
 
 							}
@@ -2407,6 +2407,16 @@
 									"disabled" : 0,
 									"hidden" : 0,
 									"midpoints" : [ 2349.213867, 1099.736084, 928.422058, 1099.736084 ],
+									"source" : [ "obj-13", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-27", 1 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"midpoints" : [ 2349.213867, 1119.282715, 644.484558, 1119.282715 ],
 									"source" : [ "obj-13", 0 ]
 								}
 
@@ -3122,43 +3132,43 @@
  ],
 		"lines" : [  ],
 		"parameters" : 		{
-			"obj-17::obj-4" : [ "Waveform", "Waveform", 0 ],
-			"obj-17::obj-53" : [ "Mute", "Mute", 0 ],
-			"obj-17::obj-51" : [ "Freq", "Freq", 0 ],
-			"obj-17::obj-36" : [ "PW", "PW", 0 ],
-			"obj-17::obj-106" : [ "CV3", "CV3", 0 ],
 			"obj-17::obj-129" : [ "CV2", "CV2", 0 ],
 			"obj-17::obj-45" : [ "FreqMode", "FreqMode", 0 ],
-			"obj-17::obj-11" : [ "PWM", "PWM", 0 ],
+			"obj-17::obj-4" : [ "Waveform", "Waveform", 0 ],
+			"obj-17::obj-106" : [ "CV3", "CV3", 0 ],
+			"obj-17::obj-36" : [ "PW", "PW", 0 ],
+			"obj-17::obj-53" : [ "Mute", "Mute", 0 ],
+			"obj-17::obj-107" : [ "Linear", "Linear", 0 ],
+			"obj-17::obj-51" : [ "Freq", "Freq", 0 ],
 			"obj-17::obj-46" : [ "Offset", "Offset", 0 ],
-			"obj-17::obj-107" : [ "Linear", "Linear", 0 ]
+			"obj-17::obj-11" : [ "PWM", "PWM", 0 ]
 		}
 ,
 		"dependency_cache" : [ 			{
 				"name" : "sine.svg",
 				"bootpath" : "/Applications/Max 6.1/patches/picts/m4l-picts",
-				"patcherrelativepath" : "../../../../../patches/picts/m4l-picts",
+				"patcherrelativepath" : "../../../../../../../../../../Applications/Max 6.1/patches/picts/m4l-picts",
 				"type" : "svg ",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "updown.svg",
 				"bootpath" : "/Applications/Max 6.1/patches/picts/m4l-picts",
-				"patcherrelativepath" : "../../../../../patches/picts/m4l-picts",
+				"patcherrelativepath" : "../../../../../../../../../../Applications/Max 6.1/patches/picts/m4l-picts",
 				"type" : "svg ",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "up.svg",
 				"bootpath" : "/Applications/Max 6.1/patches/picts/m4l-picts",
-				"patcherrelativepath" : "../../../../../patches/picts/m4l-picts",
+				"patcherrelativepath" : "../../../../../../../../../../Applications/Max 6.1/patches/picts/m4l-picts",
 				"type" : "svg ",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "square.svg",
 				"bootpath" : "/Applications/Max 6.1/patches/picts/m4l-picts",
-				"patcherrelativepath" : "../../../../../patches/picts/m4l-picts",
+				"patcherrelativepath" : "../../../../../../../../../../Applications/Max 6.1/patches/picts/m4l-picts",
 				"type" : "svg ",
 				"implicit" : 1
 			}
