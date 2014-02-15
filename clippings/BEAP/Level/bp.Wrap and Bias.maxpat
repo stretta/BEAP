@@ -4,8 +4,8 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 1,
-			"revision" : 0,
-			"architecture" : "x86"
+			"revision" : 4,
+			"architecture" : "x64"
 		}
 ,
 		"rect" : [ 163.0, 196.0, 640.0, 480.0 ],
@@ -40,8 +40,8 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 0,
-							"architecture" : "x86"
+							"revision" : 4,
+							"architecture" : "x64"
 						}
 ,
 						"rect" : [ 163.0, 196.0, 99.0, 116.0 ],
@@ -80,17 +80,17 @@
 									"parameter_enable" : 1,
 									"patching_rect" : [ 301.25, 467.691772, 40.0, 20.0 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 217.977173, 111.238113, 52.0, 14.764645 ],
+									"presentation_rect" : [ 34.0, 19.0, 52.0, 14.764645 ],
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
-											"parameter_enum" : [ "val1", "val2" ],
-											"parameter_unitstyle" : 1,
-											"parameter_mmax" : 1.0,
-											"parameter_initial" : [ 0.0 ],
-											"parameter_type" : 0,
-											"parameter_initial_enable" : 1,
+											"parameter_longname" : "Bypass",
 											"parameter_shortname" : "Bypass",
-											"parameter_longname" : "Bypass"
+											"parameter_type" : 0,
+											"parameter_mmax" : 1.0,
+											"parameter_enum" : [ "val1", "val2" ],
+											"parameter_initial_enable" : 1,
+											"parameter_initial" : [ 0.0 ],
+											"parameter_unitstyle" : 1
 										}
 
 									}
@@ -256,12 +256,12 @@
 									"presentation_rect" : [ 2.0, 43.292229, 44.0, 47.0 ],
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
-											"parameter_unitstyle" : 1,
-											"parameter_initial" : [ 12 ],
+											"parameter_longname" : "Wrap",
+											"parameter_shortname" : "Wrap",
 											"parameter_type" : 0,
 											"parameter_initial_enable" : 1,
-											"parameter_shortname" : "Wrap",
-											"parameter_longname" : "Wrap"
+											"parameter_initial" : [ 12 ],
+											"parameter_unitstyle" : 1
 										}
 
 									}
@@ -286,14 +286,14 @@
 									"presentation_rect" : [ 48.0, 43.292229, 44.0, 47.0 ],
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
-											"parameter_unitstyle" : 1,
-											"parameter_mmax" : 96.0,
-											"parameter_mmin" : -96.0,
-											"parameter_initial" : [ 0.0 ],
-											"parameter_type" : 0,
-											"parameter_initial_enable" : 1,
+											"parameter_longname" : "Bias",
 											"parameter_shortname" : "Bias",
-											"parameter_longname" : "Bias"
+											"parameter_type" : 0,
+											"parameter_mmin" : -96.0,
+											"parameter_mmax" : 96.0,
+											"parameter_initial_enable" : 1,
+											"parameter_initial" : [ 0.0 ],
+											"parameter_unitstyle" : 1
 										}
 
 									}
