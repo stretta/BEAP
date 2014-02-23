@@ -4,8 +4,8 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 1,
-			"revision" : 3,
-			"architecture" : "x86"
+			"revision" : 4,
+			"architecture" : "x64"
 		}
 ,
 		"rect" : [ 0.0, 44.0, 1397.0, 759.0 ],
@@ -40,8 +40,8 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 3,
-							"architecture" : "x86"
+							"revision" : 4,
+							"architecture" : "x64"
 						}
 ,
 						"rect" : [ 0.0, 44.0, 290.0, 214.0 ],
@@ -315,8 +315,8 @@
 										"appversion" : 										{
 											"major" : 6,
 											"minor" : 1,
-											"revision" : 3,
-											"architecture" : "x86"
+											"revision" : 4,
+											"architecture" : "x64"
 										}
 ,
 										"rect" : [ 0.0, 44.0, 1440.0, 759.0 ],
@@ -1715,8 +1715,8 @@
 										"appversion" : 										{
 											"major" : 6,
 											"minor" : 1,
-											"revision" : 3,
-											"architecture" : "x86"
+											"revision" : 4,
+											"architecture" : "x64"
 										}
 ,
 										"rect" : [ 0.0, 44.0, 1440.0, 759.0 ],
@@ -3082,8 +3082,8 @@
 										"appversion" : 										{
 											"major" : 6,
 											"minor" : 1,
-											"revision" : 3,
-											"architecture" : "x86"
+											"revision" : 4,
+											"architecture" : "x64"
 										}
 ,
 										"rect" : [ 75.0, 119.0, 819.0, 686.0 ],
@@ -4139,8 +4139,8 @@
 										"appversion" : 										{
 											"major" : 6,
 											"minor" : 1,
-											"revision" : 3,
-											"architecture" : "x86"
+											"revision" : 4,
+											"architecture" : "x64"
 										}
 ,
 										"rect" : [ 0.0, 44.0, 1440.0, 759.0 ],
@@ -5539,8 +5539,8 @@
 										"appversion" : 										{
 											"major" : 6,
 											"minor" : 1,
-											"revision" : 3,
-											"architecture" : "x86"
+											"revision" : 4,
+											"architecture" : "x64"
 										}
 ,
 										"rect" : [ 0.0, 44.0, 1440.0, 759.0 ],
@@ -6997,7 +6997,7 @@
 									}
 ,
 									"text" : "autopattr",
-									"varname" : "u916002032"
+									"varname" : "u480005620"
 								}
 
 							}
@@ -7041,8 +7041,9 @@
 									"numoutlets" : 0,
 									"patching_rect" : [ 1309.096191, 780.326721, 44.0, 9.0 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 0.0, -0.389694, 349.268768, 232.433029 ],
-									"rounded" : 0
+									"presentation_rect" : [ 0.0, -0.389694, 349.268768, 214.433029 ],
+									"rounded" : 0,
+									"varname" : "backpanel"
 								}
 
 							}
@@ -7601,23 +7602,23 @@
  ],
 		"lines" : [  ],
 		"parameters" : 		{
-			"obj-10::obj-45" : [ "FreqMode[1]", "FreqMode", 0 ],
-			"obj-10::obj-179" : [ "Waveform[1]", "Waveform", 0 ],
-			"obj-10::obj-178" : [ "Attenuation[2]", "Attenuation", 0 ],
-			"obj-10::obj-177" : [ "HarmonicOffset[1]", "HarmonicOffset", 0 ],
-			"obj-10::obj-198" : [ "Attenuation[3]", "Attenuation", 0 ],
-			"obj-10::obj-199" : [ "HarmonicOffset", "HarmonicOffset", 0 ],
-			"obj-10::obj-228" : [ "Attenuation", "Attenuation", 0 ],
-			"obj-10::obj-229" : [ "HarmonicOffset[3]", "HarmonicOffset", 0 ],
-			"obj-10::obj-46" : [ "Offset[1]", "Offset", 0 ],
-			"obj-10::obj-197" : [ "Waveform", "Waveform", 0 ],
-			"obj-10::obj-224" : [ "Attenuation[1]", "Attenuation", 0 ],
-			"obj-10::obj-225" : [ "HarmonicOffset[2]", "HarmonicOffset", 0 ],
 			"obj-10::obj-227" : [ "Waveform[3]", "Waveform", 0 ],
+			"obj-10::obj-197" : [ "Waveform", "Waveform", 0 ],
+			"obj-10::obj-46" : [ "Offset[1]", "Offset", 0 ],
+			"obj-10::obj-228" : [ "Attenuation", "Attenuation", 0 ],
 			"obj-10::obj-51" : [ "Freq[1]", "Freq", 0 ],
-			"obj-10::obj-28" : [ "CV2", "CV2", 0 ],
+			"obj-10::obj-177" : [ "HarmonicOffset[1]", "HarmonicOffset", 0 ],
 			"obj-10::obj-223" : [ "Waveform[2]", "Waveform", 0 ],
-			"obj-10::obj-2" : [ "mute", "mute", 0 ]
+			"obj-10::obj-229" : [ "HarmonicOffset[3]", "HarmonicOffset", 0 ],
+			"obj-10::obj-2" : [ "mute", "mute", 0 ],
+			"obj-10::obj-198" : [ "Attenuation[3]", "Attenuation", 0 ],
+			"obj-10::obj-178" : [ "Attenuation[2]", "Attenuation", 0 ],
+			"obj-10::obj-45" : [ "FreqMode[1]", "FreqMode", 0 ],
+			"obj-10::obj-28" : [ "CV2", "CV2", 0 ],
+			"obj-10::obj-199" : [ "HarmonicOffset", "HarmonicOffset", 0 ],
+			"obj-10::obj-179" : [ "Waveform[1]", "Waveform", 0 ],
+			"obj-10::obj-224" : [ "Attenuation[1]", "Attenuation", 0 ],
+			"obj-10::obj-225" : [ "HarmonicOffset[2]", "HarmonicOffset", 0 ]
 		}
 ,
 		"dependency_cache" : [  ]

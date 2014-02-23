@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 1,
-			"revision" : 5,
+			"revision" : 4,
 			"architecture" : "x64"
 		}
 ,
@@ -40,7 +40,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 5,
+							"revision" : 4,
 							"architecture" : "x64"
 						}
 ,
@@ -353,7 +353,7 @@
 										"appversion" : 										{
 											"major" : 6,
 											"minor" : 1,
-											"revision" : 5,
+											"revision" : 4,
 											"architecture" : "x64"
 										}
 ,
@@ -714,7 +714,7 @@
 										"appversion" : 										{
 											"major" : 6,
 											"minor" : 1,
-											"revision" : 5,
+											"revision" : 4,
 											"architecture" : "x64"
 										}
 ,
@@ -2196,7 +2196,7 @@
 									}
 ,
 									"text" : "autopattr",
-									"varname" : "u118007327"
+									"varname" : "u692005320"
 								}
 
 							}
@@ -2279,8 +2279,9 @@
 									"numoutlets" : 0,
 									"patching_rect" : [ 346.673828, 253.529999, 37.0, 5.0 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 0.0, 0.0, 425.0, 133.0 ],
-									"rounded" : 0
+									"presentation_rect" : [ 0.0, 0.0, 425.0, 116.0 ],
+									"rounded" : 0,
+									"varname" : "backpanel"
 								}
 
 							}
@@ -2842,20 +2843,20 @@
  ],
 		"lines" : [  ],
 		"parameters" : 		{
+			"obj-17::obj-12" : [ "KeyboardMode[2]", "KeyboardMode", 0 ],
+			"obj-17::obj-45" : [ "FreqMode", "FreqMode", 0 ],
+			"obj-17::obj-46" : [ "Offset", "Offset", 0 ],
+			"obj-17::obj-106" : [ "CV3", "CV3", 0 ],
+			"obj-17::obj-64" : [ "octaves", "octaves", 0 ],
 			"obj-17::obj-53" : [ "Mute", "Mute", 0 ],
 			"obj-17::obj-51" : [ "Freq", "Freq", 0 ],
-			"obj-17::obj-12" : [ "KeyboardMode[2]", "KeyboardMode", 0 ],
-			"obj-17::obj-106" : [ "CV3", "CV3", 0 ],
 			"obj-17::obj-16" : [ "root_note", "root_note", 0 ],
-			"obj-17::obj-64" : [ "octaves", "octaves", 0 ],
-			"obj-17::obj-129" : [ "CV2", "CV2", 0 ],
-			"obj-17::obj-45" : [ "FreqMode", "FreqMode", 0 ],
-			"obj-17::obj-46" : [ "Offset", "Offset", 0 ]
+			"obj-17::obj-129" : [ "CV2", "CV2", 0 ]
 		}
 ,
 		"dependency_cache" : [ 			{
 				"name" : "mro_sin.maxpat",
-				"bootpath" : "/Applications/Max 6.1/packages/BEAP/misc/mro_osc",
+				"bootpath" : "/Users/baptistemanson/Music/Max/M4L/baptistemanson/BEAP/misc/mro_osc",
 				"patcherrelativepath" : "../../../misc/mro_osc",
 				"type" : "JSON",
 				"implicit" : 1

@@ -4,8 +4,8 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 1,
-			"revision" : 3,
-			"architecture" : "x86"
+			"revision" : 4,
+			"architecture" : "x64"
 		}
 ,
 		"rect" : [ 13.0, 78.0, 1213.0, 709.0 ],
@@ -40,8 +40,8 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 3,
-							"architecture" : "x86"
+							"revision" : 4,
+							"architecture" : "x64"
 						}
 ,
 						"rect" : [ 13.0, 78.0, 381.0, 116.0 ],
@@ -275,6 +275,8 @@
 									"id" : "obj-110",
 									"maxclass" : "live.tab",
 									"mode" : 1,
+									"num_lines_patching" : 0,
+									"num_lines_presentation" : 4,
 									"numinlets" : 1,
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "float" ],
@@ -1898,7 +1900,7 @@
 									}
 ,
 									"text" : "autopattr",
-									"varname" : "u203010629"
+									"varname" : "u551005977"
 								}
 
 							}
@@ -2019,8 +2021,9 @@
 									"numoutlets" : 0,
 									"patching_rect" : [ 1484.089233, 1383.562378, 44.0, 9.0 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 0.0, 0.0, 426.268768, 131.0 ],
-									"rounded" : 0
+									"presentation_rect" : [ 0.0, 0.0, 426.268768, 116.0 ],
+									"rounded" : 0,
+									"varname" : "backpanel"
 								}
 
 							}
@@ -3156,14 +3159,14 @@
  ],
 		"lines" : [  ],
 		"parameters" : 		{
-			"obj-38::obj-25" : [ "WaveCV", "CV", 0 ],
-			"obj-38::obj-81" : [ "Bank", "Bank", 0 ],
-			"obj-38::obj-80" : [ "BankCV", "CV", 0 ],
 			"obj-38::obj-100" : [ "Offset", "Offset", 0 ],
+			"obj-38::obj-80" : [ "BankCV", "CV", 0 ],
 			"obj-38::obj-3" : [ "Wave", "Wave", 0 ],
+			"obj-38::obj-12" : [ "Mute", "Mute", 0 ],
+			"obj-38::obj-81" : [ "Bank", "Bank", 0 ],
+			"obj-38::obj-25" : [ "WaveCV", "CV", 0 ],
 			"obj-38::obj-110" : [ "Wavetable", "Wavetable", 0 ],
-			"obj-38::obj-154" : [ "CV2", "CV2", 0 ],
-			"obj-38::obj-12" : [ "Mute", "Mute", 0 ]
+			"obj-38::obj-154" : [ "CV2", "CV2", 0 ]
 		}
 ,
 		"dependency_cache" : [  ]

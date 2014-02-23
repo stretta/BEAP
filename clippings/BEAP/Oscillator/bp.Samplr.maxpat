@@ -4,8 +4,8 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 1,
-			"revision" : 3,
-			"architecture" : "x86"
+			"revision" : 4,
+			"architecture" : "x64"
 		}
 ,
 		"rect" : [ 0.0, 45.0, 1440.0, 761.0 ],
@@ -40,8 +40,8 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 3,
-							"architecture" : "x86"
+							"revision" : 4,
+							"architecture" : "x64"
 						}
 ,
 						"rect" : [ 0.0, 45.0, 366.0, 214.0 ],
@@ -253,7 +253,7 @@
 									"framecolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"hltcolor" : [ 0.278431, 0.839216, 1.0, 1.0 ],
 									"id" : "obj-114",
-									"items" : [ "send to...", ",", 2554, ",", 2555, ",", 2556, ",", 2557, ",", 2558 ],
+									"items" : [ "send to...", ",", 1332, ",", 1655 ],
 									"maxclass" : "umenu",
 									"numinlets" : 1,
 									"numoutlets" : 3,
@@ -1994,7 +1994,7 @@
 									}
 ,
 									"text" : "autopattr",
-									"varname" : "u361001156"
+									"varname" : "u872005712"
 								}
 
 							}
@@ -2038,8 +2038,9 @@
 									"numoutlets" : 0,
 									"patching_rect" : [ 479.397644, 627.135132, 44.0, 9.0 ],
 									"presentation" : 1,
-									"presentation_rect" : [ -0.493507, -0.111649, 409.268768, 232.433029 ],
-									"rounded" : 0
+									"presentation_rect" : [ -0.493507, -0.111649, 409.268768, 212.433029 ],
+									"rounded" : 0,
+									"varname" : "backpanel"
 								}
 
 							}
@@ -2301,7 +2302,7 @@
 									"destination" : [ "obj-45", 1 ],
 									"disabled" : 0,
 									"hidden" : 0,
-									"midpoints" : [ 628.448975, 304.13916, 290.346375, 304.13916 ],
+									"midpoints" : [ 628.448975, 304.13916, 290.34639, 304.13916 ],
 									"source" : [ "obj-151", 0 ]
 								}
 
@@ -2969,18 +2970,18 @@
  ],
 		"lines" : [  ],
 		"parameters" : 		{
-			"obj-2::obj-151" : [ "LoopStart[1]", "LoopStart", 0 ],
-			"obj-2::obj-152" : [ "LoopEnd[1]", "LoopEnd", 0 ],
-			"obj-2::obj-129" : [ "SampleStart[1]", "SampleStart", 0 ],
-			"obj-2::obj-32" : [ "getsamplelength[1]", "getsamplelength", 0 ],
-			"obj-2::obj-8" : [ "write[1]", "write", 0 ],
-			"obj-2::obj-20" : [ "power[1]", "power", 0 ],
-			"obj-2::obj-15" : [ "live.text", "live.text", 0 ],
-			"obj-2::obj-19" : [ "import[1]", "import", 0 ],
-			"obj-2::obj-49" : [ "RecordGate[1]", "RecordGate", 0 ],
-			"obj-2::obj-61" : [ "Loop[1]", "Loop", 0 ],
 			"obj-2::obj-57" : [ "Select all", "Select all", 0 ],
-			"obj-2::obj-63" : [ "Root[1]", "Root", 0 ]
+			"obj-2::obj-20" : [ "power[1]", "power", 0 ],
+			"obj-2::obj-61" : [ "Loop[1]", "Loop", 0 ],
+			"obj-2::obj-49" : [ "RecordGate[1]", "RecordGate", 0 ],
+			"obj-2::obj-8" : [ "write[1]", "write", 0 ],
+			"obj-2::obj-32" : [ "getsamplelength[1]", "getsamplelength", 0 ],
+			"obj-2::obj-63" : [ "Root[1]", "Root", 0 ],
+			"obj-2::obj-15" : [ "live.text", "live.text", 0 ],
+			"obj-2::obj-129" : [ "SampleStart[1]", "SampleStart", 0 ],
+			"obj-2::obj-19" : [ "import[1]", "import", 0 ],
+			"obj-2::obj-151" : [ "LoopStart[1]", "LoopStart", 0 ],
+			"obj-2::obj-152" : [ "LoopEnd[1]", "LoopEnd", 0 ]
 		}
 ,
 		"dependency_cache" : [  ]
