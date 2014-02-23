@@ -4,11 +4,11 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 1,
-			"revision" : 3,
+			"revision" : 4,
 			"architecture" : "x64"
 		}
 ,
-		"rect" : [ 362.0, 44.0, 1440.0, 759.0 ],
+		"rect" : [ 0.0, 44.0, 1440.0, 759.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -40,13 +40,13 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 3,
+							"revision" : 4,
 							"architecture" : "x64"
 						}
 ,
-						"rect" : [ 362.0, 44.0, 108.0, 119.0 ],
+						"rect" : [ 0.0, 44.0, 104.0, 114.0 ],
 						"bgcolor" : [ 1.0, 1.0, 1.0, 0.0 ],
-						"bglocked" : 0,
+						"bglocked" : 1,
 						"openinpresentation" : 1,
 						"default_fontsize" : 12.0,
 						"default_fontface" : 0,
@@ -162,7 +162,7 @@
 									"framecolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"hltcolor" : [ 0.0, 0.870117, 0.103208, 1.0 ],
 									"id" : "obj-30",
-									"items" : [ "no plug-in", ",", "Absynth 5 FX Surround.vst", ",", "Absynth 5 FX.vst", ",", "Absynth 5 Stereo.vst", ",", "Absynth 5.vst", ",", "Battery 3.vst", ",", "FM8 FX.vst", ",", "FM8.vst", ",", "Guitar Rig 5.vst", ",", "iZotope Ozone 4.vst", ",", "Kontakt 5 16out.vst", ",", "Kontakt 5 8out.vst", ",", "Kontakt 5.vst", ",", "Massive.vst", ",", "Modular V Efx.vst", ",", "Modular V.vst", ",", "Reaktor5 FX 2x8.vst", ",", "Reaktor5 FX.vst", ",", "Reaktor5 Surround.vst", ",", "Reaktor5.vst", ",", "914.vst", ",", "ADverb.vst", ",", "Automaton.vst", ",", "Axon.vst", ",", "BigSeq.vst", ",", "BigSeq2.vst", ",", "Bitcom.vst", ",", "Discord2.vst", ",", "Discord3.vst", ",", "DrDevice.vst", ",", "DubStation_15.vst", ",", "Eos.vst", ",", "Filterstation.vst", ",", "Fluid.vst", ",", "Kombinat.vst", ",", "Kombinat_Dva.vst", ",", "Liquid.vst", ",", "Panstation.vst", ",", "PhaseTwo.vst", ",", "Phosphor.vst", ",", "Replicant.vst", ",", "Ricochet.vst", ",", "RoughRiderPro.vst", ",", "Tattoo.vst", ",", "Vapor.vst", ",", "914.auinfo", ",", "Absynth 5 FX.auinfo", ",", "Absynth 5.auinfo", ",", "ADverb.auinfo", ",", "AUAudioFilePlayer.auinfo", ",", "AUBandpass.auinfo", ",", "AUDelay.auinfo", ",", "AUDistortion.auinfo", ",", "AUDynamicsProcessor.auinfo", ",", "AUFilter.auinfo", ",", "AUGraphicEQ.auinfo", ",", "AUHighShelfFilter.auinfo", ",", "AUHipass.auinfo", ",", "AULowpass.auinfo", ",", "AULowShelfFilter.auinfo", ",", "AUMatrixMixer.auinfo", ",", "AUMatrixReverb.auinfo", ",", "AUMixer.auinfo", ",", "AUMixer3D.auinfo", ",", "AUMultibandCompressor.auinfo", ",", "AUMultiChannelMixer.auinfo", ",", "AUNetReceive.auinfo", ",", "AUNetSend.auinfo", ",", "AUParametricEQ.auinfo", ",", "AUPeakLimiter.auinfo", ",", "AUPitch.auinfo", ",", "AURogerBeep.auinfo", ",", "AUSampleDelay.auinfo", ",", "AUSampler.auinfo", ",", "AUScheduledSoundPlayer.auinfo", ",", "AUSoundFieldPanner.auinfo", ",", "AUSphericalHeadPanner.auinfo", ",", "Automaton.auinfo", ",", "AUVectorPanner.auinfo", ",", "Axon.auinfo", ",", "Battery 3.auinfo", ",", "BigSeq2.auinfo", ",", "Bitcom.auinfo", ",", "Discord3.auinfo", ",", "DLSMusicDevice.auinfo", ",", "Dr. Device.auinfo", ",", "DubStation 1.5.auinfo", ",", "Eos.auinfo", ",", "Filterstation.auinfo", ",", "Fluid.auinfo", ",", "FM8 FX.auinfo", ",", "FM8.auinfo", ",", "Guitar Rig 5 FX.auinfo", ",", "Guitar Rig 5 MFX.auinfo", ",", "HRTFPanner.auinfo", ",", "Kombinat_Dva.auinfo", ",", "Kontakt 5.auinfo", ",", "Liquid.auinfo", ",", "Massive.auinfo", ",", "Modular V effect.auinfo", ",", "Modular V.auinfo", ",", "Ozone 4.auinfo", ",", "Panstation.auinfo", ",", "PhaseTwo.auinfo", ",", "Phosphor.auinfo", ",", "Reaktor5 FX.auinfo", ",", "Reaktor5.auinfo", ",", "Replicant.auinfo", ",", "Ricochet.auinfo", ",", "RoughRiderPro.auinfo", ",", "RoundTripAAC.auinfo", ",", "Tattoo.auinfo", ",", "Vapor.auinfo", ",", "MachFive3.vst", ",", "MachFive3.auinfo" ],
+									"items" : [ "no plug-in", ",", "iZotope Alloy 2.vst", ",", "iZotope Ozone 4.vst", ",", "Runciter.vst", ",", "Uhbik-A.vst", ",", "Uhbik-D.vst", ",", "Uhbik-F.vst", ",", "Uhbik-G.vst", ",", "Uhbik-P.vst", ",", "Uhbik-Q.vst", ",", "Uhbik-S.vst", ",", "Uhbik-T.vst", ",", "Alloy 2.auinfo", ",", "AUAudioFilePlayer.auinfo", ",", "AUBandpass.auinfo", ",", "AUDelay.auinfo", ",", "AUDistortion.auinfo", ",", "AUDynamicsProcessor.auinfo", ",", "AUFilter.auinfo", ",", "AUGraphicEQ.auinfo", ",", "AUHighShelfFilter.auinfo", ",", "AUHipass.auinfo", ",", "AULowpass.auinfo", ",", "AULowShelfFilter.auinfo", ",", "AUMatrixMixer.auinfo", ",", "AUMatrixReverb.auinfo", ",", "AUMixer.auinfo", ",", "AUMixer3D.auinfo", ",", "AUMultibandCompressor.auinfo", ",", "AUMultiChannelMixer.auinfo", ",", "AUNetReceive.auinfo", ",", "AUNetSend.auinfo", ",", "AUParametricEQ.auinfo", ",", "AUPeakLimiter.auinfo", ",", "AUPitch.auinfo", ",", "AURogerBeep.auinfo", ",", "AUSampleDelay.auinfo", ",", "AUSampler.auinfo", ",", "AUScheduledSoundPlayer.auinfo", ",", "AUSoundFieldPanner.auinfo", ",", "AUSpeechSynthesis.auinfo", ",", "AUSphericalHeadPanner.auinfo", ",", "AUVectorPanner.auinfo", ",", "Chorus.auinfo", ",", "Comb Filter Bank.auinfo", ",", "DLSMusicDevice.auinfo", ",", "Grain Streamer.auinfo", ",", "HRTFPanner.auinfo", ",", "Mr Filterbank.auinfo", ",", "Ozone 4.auinfo", ",", "Runciter.auinfo", ",", "Spectral Averaging.auinfo", ",", "Spectral Bin Shift.auinfo", ",", "Spectral Blurring.auinfo", ",", "Spectral DroneMaker.auinfo", ",", "Spectral Emergence.auinfo", ",", "Spectral Filterbank.auinfo", ",", "Spectral Freezing.auinfo", ",", "Spectral Gate & Hold.auinfo", ",", "Spectral Gliding Filters.auinfo", ",", "Spectral Granulation.auinfo", ",", "Spectral Harmonizer.auinfo", ",", "Spectral Partial Glide.auinfo", ",", "Spectral Pitch Shift.auinfo", ",", "Spectral Pulsing.auinfo", ",", "Spectral Shimmer.auinfo", ",", "Spectral Shuffle.auinfo", ",", "Spectral Stretch.auinfo", ",", "Spectral Tracing.auinfo", ",", "Spectral Weave.auinfo", ",", "Uhbik-A.auinfo", ",", "Uhbik-D.auinfo", ",", "Uhbik-F.auinfo", ",", "Uhbik-G.auinfo", ",", "Uhbik-P.auinfo", ",", "Uhbik-Q.auinfo", ",", "Uhbik-S.auinfo", ",", "Uhbik-T.auinfo", ",", "WaveWindow.auinfo", ",", "Op1DrumUtil.vst", ",", "Analog Lab.vst", ",", "SPAN.vst", ",", "Synplant.vst", ",", "The Drop.vst", ",", "Virus TI.vst", ",", "Diva.vst", ",", "Zebra2.vst", ",", "Zebralette.vst", ",", "Zebrify.vst", ",", "ZRev.vst", ",", "Analog Lab.auinfo", ",", "BassStation.auinfo", ",", "BassStationStereo.auinfo", ",", "Diva.auinfo", ",", "Virus TI Snow.auinfo", ",", "Virus TI.auinfo", ",", "WOW2.auinfo", ",", "Zebra2.auinfo", ",", "Zebralette.auinfo", ",", "Zebrify.auinfo", ",", "ZRev.auinfo", ",", "Ohmicide_VST2MachO.vst", ",", "Etch.vst", ",", "ACE.vst", ",", "Aalto.vst", ",", "Aalto.auinfo", ",", "ACE.auinfo", ",", "Etch.auinfo", ",", "ValhallaRoom.vst", ",", "ValhallaRoom_x64.vst", ",", "Ohmicide.auinfo", ",", "ValhallaRoom.auinfo", ",", "Virus TI Snow.vst" ],
 									"maxclass" : "umenu",
 									"numinlets" : 1,
 									"numoutlets" : 3,
@@ -213,7 +213,7 @@
 									}
 ,
 									"text" : "autopattr",
-									"varname" : "u410000867"
+									"varname" : "u970000694"
 								}
 
 							}
@@ -537,42 +537,14 @@
 							}
 , 							{
 								"box" : 								{
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-									"id" : "obj-14",
-									"maxclass" : "panel",
-									"numinlets" : 1,
-									"numoutlets" : 0,
-									"patching_rect" : [ 13.672363, 149.470001, 128.0, 128.0 ],
-									"presentation" : 1,
-									"presentation_rect" : [ 0.0, 0.0, 283.268768, 17.0 ],
-									"rounded" : 0
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-									"id" : "obj-15",
-									"maxclass" : "panel",
-									"numinlets" : 1,
-									"numoutlets" : 0,
-									"patching_rect" : [ 175.599976, 15.0, 128.0, 128.0 ],
-									"presentation" : 1,
-									"presentation_rect" : [ 0.0, 97.0, 283.268768, 35.433025 ],
-									"rounded" : 0
-								}
-
-							}
-, 							{
-								"box" : 								{
 									"bgcolor" : [ 0.137255, 0.145098, 0.160784, 0.65 ],
 									"id" : "obj-18",
 									"maxclass" : "panel",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 29.672363, 15.0, 128.0, 128.0 ],
+									"patching_rect" : [ 36.736206, 30.0, 128.0, 128.0 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 0.0, 37.0, 283.268768, 71.584457 ],
+									"presentation_rect" : [ 0.0, 37.0, 109.375, 58.800972 ],
 									"rounded" : 0
 								}
 
@@ -584,10 +556,26 @@
 									"maxclass" : "panel",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 157.672363, 149.470001, 128.0, 128.0 ],
+									"patching_rect" : [ 176.562378, 164.470001, 128.0, 128.0 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 0.0, 17.0, 283.268768, 116.114227 ],
+									"presentation_rect" : [ 0.0, 17.0, 109.375, 78.800972 ],
 									"rounded" : 0
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"background" : 1,
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+									"id" : "obj-15",
+									"maxclass" : "panel",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 190.236206, 30.0, 128.0, 128.0 ],
+									"presentation" : 1,
+									"presentation_rect" : [ 0.0, 0.0, 109.375, 113.216515 ],
+									"rounded" : 0,
+									"varname" : "backpanel"
 								}
 
 							}
@@ -823,7 +811,7 @@
  ]
 					}
 ,
-					"patching_rect" : [ 0.0, 0.0, 108.0, 119.0 ],
+					"patching_rect" : [ 0.0, 0.0, 104.0, 114.0 ],
 					"varname" : "VST"
 				}
 
@@ -838,7 +826,7 @@
 		"dependency_cache" : [ 			{
 				"name" : "get_plugs.js",
 				"bootpath" : "/Applications/Max 6.1/Cycling '74/msp-help",
-				"patcherrelativepath" : "../../../../../Cycling '74/msp-help",
+				"patcherrelativepath" : "../../../../../../../../../../Applications/Max 6.1/Cycling '74/msp-help",
 				"type" : "TEXT",
 				"implicit" : 1
 			}

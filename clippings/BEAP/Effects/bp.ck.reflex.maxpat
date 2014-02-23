@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 1,
-			"revision" : 3,
+			"revision" : 4,
 			"architecture" : "x64"
 		}
 ,
@@ -40,11 +40,11 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 3,
+							"revision" : 4,
 							"architecture" : "x64"
 						}
 ,
-						"rect" : [ 126.0, 114.0, 390.0, 116.0 ],
+						"rect" : [ 126.0, 114.0, 349.0, 116.0 ],
 						"bgcolor" : [ 1.0, 1.0, 1.0, 0.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 1,
@@ -83,7 +83,7 @@
 									}
 ,
 									"text" : "autopattr",
-									"varname" : "u711004664"
+									"varname" : "u702010125"
 								}
 
 							}
@@ -245,7 +245,7 @@
 										"appversion" : 										{
 											"major" : 6,
 											"minor" : 1,
-											"revision" : 3,
+											"revision" : 4,
 											"architecture" : "x64"
 										}
 ,
@@ -494,7 +494,8 @@
 													"hbwidthcolor" : [ 0.478431, 0.290196, 0.290196, 1.0 ],
 													"hcurvecolor" : [ 1.0, 0.086275, 0.086275, 1.0 ],
 													"id" : "obj-15",
-													"logmarkers" : [ 50.0, 500.0, 5000.0 ],
+													"linmarkers" : [ 0.0, 11025.0, 16537.5 ],
+													"logmarkers" : [ 0.0, 500.0, 5000.0 ],
 													"markercolor" : [ 0.509804, 0.509804, 0.509804, 1.0 ],
 													"maxclass" : "filtergraph~",
 													"nfilters" : 1,
@@ -2500,7 +2501,7 @@
 									"numoutlets" : 0,
 									"patching_rect" : [ 365.25, 271.0, 37.0, 17.0 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 351.788971, 97.0, 38.0, 17.0 ],
+									"presentation_rect" : [ 315.788971, 97.0, 38.0, 17.0 ],
 									"text" : "R",
 									"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 								}
@@ -2517,7 +2518,7 @@
 									"numoutlets" : 0,
 									"patching_rect" : [ 365.25, 346.0, 37.0, 17.0 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 351.788971, 0.0, 38.0, 17.0 ],
+									"presentation_rect" : [ 315.788971, 0.0, 38.0, 17.0 ],
 									"text" : "R",
 									"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 								}
@@ -2716,7 +2717,7 @@
 									"parameter_enable" : 1,
 									"patching_rect" : [ 307.5, 521.9375, 40.0, 20.0 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 336.788971, 19.0, 52.0, 14.764645 ],
+									"presentation_rect" : [ 285.788971, 17.0, 52.0, 14.764645 ],
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
 											"parameter_longname" : "bypass",
@@ -2756,34 +2757,6 @@
 							}
 , 							{
 								"box" : 								{
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-									"id" : "obj-14",
-									"maxclass" : "panel",
-									"numinlets" : 1,
-									"numoutlets" : 0,
-									"patching_rect" : [ 21.736206, 143.0, 128.0, 128.0 ],
-									"presentation" : 1,
-									"presentation_rect" : [ 0.0, 0.0, 389.788971, 17.0 ],
-									"rounded" : 0
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-									"id" : "obj-15",
-									"maxclass" : "panel",
-									"numinlets" : 1,
-									"numoutlets" : 0,
-									"patching_rect" : [ 149.378326, 15.0, 128.0, 128.0 ],
-									"presentation" : 1,
-									"presentation_rect" : [ 0.0, 97.0, 389.788971, 35.433025 ],
-									"rounded" : 0
-								}
-
-							}
-, 							{
-								"box" : 								{
 									"bgcolor" : [ 0.137255, 0.145098, 0.160784, 0.65 ],
 									"id" : "obj-18",
 									"maxclass" : "panel",
@@ -2791,7 +2764,7 @@
 									"numoutlets" : 0,
 									"patching_rect" : [ 21.736206, 15.0, 128.0, 128.0 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 0.0, 37.0, 389.788971, 71.584457 ],
+									"presentation_rect" : [ 0.0, 37.0, 353.788971, 71.584457 ],
 									"rounded" : 0
 								}
 
@@ -2805,7 +2778,7 @@
 									"numoutlets" : 0,
 									"patching_rect" : [ 149.378326, 143.0, 128.0, 128.0 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 0.0, 17.0, 389.788971, 116.114227 ],
+									"presentation_rect" : [ 0.0, 17.0, 353.788971, 80.0 ],
 									"rounded" : 0
 								}
 
@@ -2819,6 +2792,22 @@
 									"numoutlets" : 0,
 									"patching_rect" : [ 277.378326, 251.5, 485.0, 395.0 ],
 									"rounded" : 0
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"background" : 1,
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+									"id" : "obj-15",
+									"maxclass" : "panel",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 149.378326, 15.0, 128.0, 128.0 ],
+									"presentation" : 1,
+									"presentation_rect" : [ 0.0, -13.0, 353.788971, 127.0 ],
+									"rounded" : 0,
+									"varname" : "backpanel"
 								}
 
 							}
@@ -3078,7 +3067,7 @@
  ]
 					}
 ,
-					"patching_rect" : [ 0.0, 0.0, 390.0, 116.0 ],
+					"patching_rect" : [ 0.0, 0.0, 349.0, 116.0 ],
 					"varname" : "CKReflex"
 				}
 
@@ -3086,17 +3075,17 @@
  ],
 		"lines" : [  ],
 		"parameters" : 		{
-			"obj-4::obj-32" : [ "depth", "depth", 0 ],
-			"obj-4::obj-33" : [ "size", "size", 0 ],
 			"obj-4::obj-26" : [ "dry/wet", "dry/wet", 0 ],
+			"obj-4::obj-28" : [ "bypass", "bypass", 0 ],
 			"obj-4::obj-5" : [ "filter", "filter", 0 ],
-			"obj-4::obj-28" : [ "bypass", "bypass", 0 ]
+			"obj-4::obj-32" : [ "depth", "depth", 0 ],
+			"obj-4::obj-33" : [ "size", "size", 0 ]
 		}
 ,
 		"dependency_cache" : [ 			{
 				"name" : "pluggo.dryWet~.maxpat",
-				"bootpath" : "/Program Files/Cycling '74/Max 6.1/patches/m4l-patches/Pluggo for Live resources/patches",
-				"patcherrelativepath" : "../../../../../../../../../Program Files/Cycling '74/Max 6.1/patches/m4l-patches/Pluggo for Live resources/patches",
+				"bootpath" : "/Applications/Max 6.1/patches/m4l-patches/Pluggo for Live resources/patches",
+				"patcherrelativepath" : "../../../../../../../../../../Applications/Max 6.1/patches/m4l-patches/Pluggo for Live resources/patches",
 				"type" : "JSON",
 				"implicit" : 1
 			}
