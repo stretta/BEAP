@@ -2,13 +2,13 @@
 	"patcher" : 	{
 		"fileversion" : 1,
 		"appversion" : 		{
-			"major" : 6,
-			"minor" : 1,
-			"revision" : 3,
-			"architecture" : "x86"
+			"major" : 7,
+			"minor" : 0,
+			"revision" : 0,
+			"architecture" : "x64"
 		}
 ,
-		"rect" : [ 0.0, 44.0, 1440.0, 753.0 ],
+		"rect" : [ 0.0, 44.0, 1280.0, 663.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -29,19 +29,26 @@
 		"tags" : "",
 		"boxes" : [ 			{
 				"box" : 				{
+					"bgmode" : 0,
+					"border" : 0,
+					"clickthrough" : 0,
 					"embed" : 1,
+					"enablehscroll" : 0,
+					"enablevscroll" : 0,
 					"id" : "obj-1",
+					"lockeddragscroll" : 0,
 					"maxclass" : "bpatcher",
 					"numinlets" : 1,
 					"numoutlets" : 1,
+					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "int" ],
 					"patcher" : 					{
 						"fileversion" : 1,
 						"appversion" : 						{
-							"major" : 6,
-							"minor" : 1,
-							"revision" : 3,
-							"architecture" : "x86"
+							"major" : 7,
+							"minor" : 0,
+							"revision" : 0,
+							"architecture" : "x64"
 						}
 ,
 						"rect" : [ 0.0, 44.0, 169.0, 117.0 ],
@@ -272,8 +279,8 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 947.320679, -606.171021, 157.0, 18.0 ],
-									"text" : "read bp.scales.maxpat.json"
+									"patching_rect" : [ 947.320679, -606.171021, 114.0, 18.0 ],
+									"text" : "read bp.scales.json"
 								}
 
 							}
@@ -1161,7 +1168,7 @@
 									}
 ,
 									"text" : "autopattr",
-									"varname" : "u325005796"
+									"varname" : "u600000164"
 								}
 
 							}
@@ -2071,18 +2078,19 @@
 					}
 ,
 					"patching_rect" : [ 0.0, 0.0, 169.0, 117.0 ],
-					"varname" : "Quantizer-MIDI"
+					"varname" : "Quantizer-MIDI",
+					"viewvisibility" : 1
 				}
 
 			}
  ],
 		"lines" : [  ],
 		"parameters" : 		{
-			"obj-1::obj-48" : [ "PitchActivityLED[3]", "PitchActivityLED", 0 ],
+			"obj-1::obj-92" : [ "kslider[1]", "kslider", 0 ],
+			"obj-1::obj-39" : [ "stealth_init", "stealth_init", 0 ],
 			"obj-1::obj-12" : [ "bypass[1]", "bypass", 0 ],
 			"obj-1::obj-29" : [ "PitchActivityLED[2]", "PitchActivityLED", 0 ],
-			"obj-1::obj-92" : [ "kslider[1]", "kslider", 0 ],
-			"obj-1::obj-39" : [ "stealth_init", "stealth_init", 0 ]
+			"obj-1::obj-48" : [ "PitchActivityLED[3]", "PitchActivityLED", 0 ]
 		}
 ,
 		"dependency_cache" : [  ]
