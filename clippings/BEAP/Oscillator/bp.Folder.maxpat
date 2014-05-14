@@ -5,7 +5,7 @@
 			"major" : 6,
 			"minor" : 1,
 			"revision" : 4,
-			"architecture" : "x86"
+			"architecture" : "x64"
 		}
 ,
 		"rect" : [ 75.0, 119.0, 640.0, 480.0 ],
@@ -41,7 +41,7 @@
 							"major" : 6,
 							"minor" : 1,
 							"revision" : 4,
-							"architecture" : "x86"
+							"architecture" : "x64"
 						}
 ,
 						"rect" : [ 75.0, 119.0, 254.0, 116.0 ],
@@ -611,7 +611,7 @@
 									}
 ,
 									"text" : "autopattr",
-									"varname" : "u707002526"
+									"varname" : "u338001240"
 								}
 
 							}
@@ -706,8 +706,9 @@
 									"numoutlets" : 0,
 									"patching_rect" : [ 316.673828, 223.529999, 37.0, 5.0 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 0.0, 0.0, 283.0, 133.0 ],
-									"rounded" : 0
+									"presentation_rect" : [ 0.0, 0.0, 283.0, 114.0 ],
+									"rounded" : 0,
+									"varname" : "backpanel"
 								}
 
 							}
@@ -975,11 +976,11 @@
  ],
 		"lines" : [  ],
 		"parameters" : 		{
-			"obj-10::obj-45" : [ "mode", "mode", 0 ],
 			"obj-10::obj-40" : [ "LoValue", "Low", 0 ],
 			"obj-10::obj-4" : [ "bypass", "bypass", 0 ],
-			"obj-10::obj-38" : [ "LoValueCV", "CV", 0 ],
 			"obj-10::obj-52" : [ "HiValue", "High", 0 ],
+			"obj-10::obj-38" : [ "LoValueCV", "CV", 0 ],
+			"obj-10::obj-45" : [ "mode", "mode", 0 ],
 			"obj-10::obj-50" : [ "HiValueCV", "CV", 0 ]
 		}
 ,

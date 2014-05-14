@@ -5,7 +5,7 @@
 			"major" : 6,
 			"minor" : 1,
 			"revision" : 4,
-			"architecture" : "x86"
+			"architecture" : "x64"
 		}
 ,
 		"rect" : [ 136.0, 76.0, 1213.0, 709.0 ],
@@ -41,12 +41,12 @@
 							"major" : 6,
 							"minor" : 1,
 							"revision" : 4,
-							"architecture" : "x86"
+							"architecture" : "x64"
 						}
 ,
 						"rect" : [ 136.0, 76.0, 358.0, 116.0 ],
 						"bgcolor" : [ 1.0, 1.0, 1.0, 0.0 ],
-						"bglocked" : 1,
+						"bglocked" : 0,
 						"openinpresentation" : 1,
 						"default_fontsize" : 12.0,
 						"default_fontface" : 0,
@@ -275,7 +275,7 @@
 											"major" : 6,
 											"minor" : 1,
 											"revision" : 4,
-											"architecture" : "x86"
+											"architecture" : "x64"
 										}
 ,
 										"rect" : [ 75.0, 119.0, 819.0, 686.0 ],
@@ -1549,7 +1549,7 @@
 									}
 ,
 									"text" : "autopattr",
-									"varname" : "u612004049"
+									"varname" : "u144005203"
 								}
 
 							}
@@ -2109,8 +2109,9 @@
 									"numoutlets" : 0,
 									"patching_rect" : [ 331.673828, 238.529999, 37.0, 5.0 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 0.0, 0.0, 425.0, 133.0 ],
-									"rounded" : 0
+									"presentation_rect" : [ 0.0, 0.0, 425.0, 116.0 ],
+									"rounded" : 0,
+									"varname" : "backpanel"
 								}
 
 							}
@@ -2374,7 +2375,7 @@
 									"destination" : [ "obj-51", 0 ],
 									"disabled" : 0,
 									"hidden" : 0,
-									"midpoints" : [ 537.820923, 661.686401, 571.591553, 661.686401, 571.591553, 455.475433, 611.582031, 455.475433 ],
+									"midpoints" : [ 537.820953, 661.686401, 571.591553, 661.686401, 571.591553, 455.475433, 611.582031, 455.475433 ],
 									"source" : [ "obj-32", 1 ]
 								}
 
@@ -2439,7 +2440,7 @@
 									"destination" : [ "obj-32", 1 ],
 									"disabled" : 0,
 									"hidden" : 0,
-									"midpoints" : [ 611.582031, 549.936401, 537.820923, 549.936401 ],
+									"midpoints" : [ 611.582031, 549.936401, 537.820953, 549.936401 ],
 									"source" : [ "obj-51", 0 ]
 								}
 
@@ -2682,22 +2683,22 @@
 		"lines" : [  ],
 		"parameters" : 		{
 			"obj-38::obj-25" : [ "TimbreCV", "CV", 0 ],
-			"obj-38::obj-129" : [ "CV2", "CV2", 0 ],
-			"obj-38::obj-106" : [ "CV3", "CV3", 0 ],
 			"obj-38::obj-81" : [ "Color", "Color", 0 ],
-			"obj-38::obj-12" : [ "Mute", "Mute", 0 ],
-			"obj-38::obj-51" : [ "Freq", "Freq", 0 ],
-			"obj-38::obj-3" : [ "Timbre", "Timbre", 0 ],
-			"obj-38::obj-46" : [ "Offset", "Offset", 0 ],
-			"obj-38::obj-14.1::obj-80" : [ "Ratio", "Ratio", 0 ],
 			"obj-38::obj-45" : [ "FreqMode", "FreqMode", 0 ],
+			"obj-38::obj-80" : [ "ColorCV", "CV", 0 ],
+			"obj-38::obj-106" : [ "CV3", "CV3", 0 ],
+			"obj-38::obj-46" : [ "Offset", "Offset", 0 ],
+			"obj-38::obj-12" : [ "Mute", "Mute", 0 ],
 			"obj-38::obj-56" : [ "stealthinit", "stealthinit", 0 ],
-			"obj-38::obj-80" : [ "ColorCV", "CV", 0 ]
+			"obj-38::obj-3" : [ "Timbre", "Timbre", 0 ],
+			"obj-38::obj-51" : [ "Freq", "Freq", 0 ],
+			"obj-38::obj-14.1::obj-80" : [ "Ratio", "Ratio", 0 ],
+			"obj-38::obj-129" : [ "CV2", "CV2", 0 ]
 		}
 ,
 		"dependency_cache" : [ 			{
 				"name" : "bp.FM-OD.maxpat",
-				"bootpath" : "/Applications/Max 6.1/packages/BEAP/misc/marco_osc",
+				"bootpath" : "/Users/baptistemanson/Music/Max/M4L/baptistemanson/BEAP/misc/marco_osc",
 				"patcherrelativepath" : "../../../misc/marco_osc",
 				"type" : "JSON",
 				"implicit" : 1

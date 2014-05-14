@@ -4,8 +4,8 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 1,
-			"revision" : 3,
-			"architecture" : "x86"
+			"revision" : 4,
+			"architecture" : "x64"
 		}
 ,
 		"rect" : [ 94.0, 115.0, 845.0, 674.0 ],
@@ -40,8 +40,8 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 3,
-							"architecture" : "x86"
+							"revision" : 4,
+							"architecture" : "x64"
 						}
 ,
 						"rect" : [ 94.0, 115.0, 540.0, 214.0 ],
@@ -1302,7 +1302,7 @@
 									}
 ,
 									"text" : "autopattr",
-									"varname" : "u836003468"
+									"varname" : "u003002005"
 								}
 
 							}
@@ -1418,8 +1418,8 @@
 										"appversion" : 										{
 											"major" : 6,
 											"minor" : 1,
-											"revision" : 3,
-											"architecture" : "x86"
+											"revision" : 4,
+											"architecture" : "x64"
 										}
 ,
 										"rect" : [ 97.0, 71.0, 624.0, 662.0 ],
@@ -2797,8 +2797,9 @@
 									"numoutlets" : 0,
 									"patching_rect" : [ 488.154785, 1130.174927, 44.0, 9.0 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 0.0, 0.0, 541.387268, 232.433029 ],
-									"rounded" : 0
+									"presentation_rect" : [ 0.0, 0.0, 541.387268, 214.211548 ],
+									"rounded" : 0,
+									"varname" : "backpanel"
 								}
 
 							}
@@ -3457,7 +3458,7 @@
 									"destination" : [ "obj-7", 0 ],
 									"disabled" : 0,
 									"hidden" : 0,
-									"midpoints" : [ 516.902832, 206.706421, 426.80423, 206.706421 ],
+									"midpoints" : [ 516.902863, 206.706421, 426.80423, 206.706421 ],
 									"source" : [ "obj-51", 0 ]
 								}
 
@@ -3467,7 +3468,7 @@
 									"destination" : [ "obj-99", 0 ],
 									"disabled" : 0,
 									"hidden" : 0,
-									"midpoints" : [ 516.902832, 180.196777, 725.214355, 180.196777 ],
+									"midpoints" : [ 516.902863, 180.196777, 725.214355, 180.196777 ],
 									"source" : [ "obj-51", 0 ]
 								}
 
@@ -3649,7 +3650,7 @@
 									"destination" : [ "obj-50", 0 ],
 									"disabled" : 0,
 									"hidden" : 0,
-									"midpoints" : [ 426.80423, 260.205566, 516.902832, 260.205566 ],
+									"midpoints" : [ 426.80423, 260.205566, 516.902863, 260.205566 ],
 									"source" : [ "obj-7", 0 ]
 								}
 
@@ -3917,25 +3918,25 @@
  ],
 		"lines" : [  ],
 		"parameters" : 		{
-			"obj-38::obj-58" : [ "PanRandomAmt", "Random", 0 ],
-			"obj-38::obj-71" : [ "Pan", "Pan", 0 ],
+			"obj-38::obj-45" : [ "DurationRandomAmt", "Random", 0 ],
 			"obj-38::obj-3" : [ "Position", "Position", 0 ],
+			"obj-38::obj-28" : [ "Offset", "Offset", 0 ],
 			"obj-38::obj-11" : [ "live.text[1]", "live.text[1]", 0 ],
+			"obj-38::obj-58" : [ "PanRandomAmt", "Random", 0 ],
+			"obj-38::obj-12" : [ "Mute", "Mute", 0 ],
+			"obj-38::obj-114" : [ "MaxGrains", "MaxGrains", 0 ],
 			"obj-38::obj-47" : [ "Duration", "Duration", 0 ],
 			"obj-38::obj-94" : [ "PitchRandomAmt", "Random", 0 ],
-			"obj-38::obj-45" : [ "DurationRandomAmt", "Random", 0 ],
-			"obj-38::obj-101" : [ "Width", "Width", 0 ],
-			"obj-38::obj-28" : [ "Offset", "Offset", 0 ],
-			"obj-38::obj-114" : [ "MaxGrains", "MaxGrains", 0 ],
 			"obj-38::obj-25" : [ "CV", "CV", 0 ],
 			"obj-38::obj-19" : [ "CV2", "CV2", 0 ],
 			"obj-38::obj-115" : [ "NewGrainEvery", "NewGrainEvery", 0 ],
-			"obj-38::obj-12" : [ "Mute", "Mute", 0 ]
+			"obj-38::obj-101" : [ "Width", "Width", 0 ],
+			"obj-38::obj-71" : [ "Pan", "Pan", 0 ]
 		}
 ,
 		"dependency_cache" : [ 			{
 				"name" : "bp.rgrain.maxpat",
-				"bootpath" : "/Applications/Max 6.1/packages/BEAP/misc",
+				"bootpath" : "/Users/baptistemanson/Music/Max/M4L/baptistemanson/BEAP/misc",
 				"patcherrelativepath" : "../../../misc",
 				"type" : "JSON",
 				"implicit" : 1
@@ -3943,14 +3944,14 @@
 , 			{
 				"name" : "rchoose.maxpat",
 				"bootpath" : "/Applications/Max 6.1/examples/sampling/granular/lib",
-				"patcherrelativepath" : "../../../../../examples/sampling/granular/lib",
+				"patcherrelativepath" : "../../../../../../../../../../Applications/Max 6.1/examples/sampling/granular/lib",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "transratio.maxpat",
 				"bootpath" : "/Applications/Max 6.1/examples/max-tricks/notes-and-pitch/pitch-to-freq-ratio",
-				"patcherrelativepath" : "../../../../../examples/max-tricks/notes-and-pitch/pitch-to-freq-ratio",
+				"patcherrelativepath" : "../../../../../../../../../../Applications/Max 6.1/examples/max-tricks/notes-and-pitch/pitch-to-freq-ratio",
 				"type" : "JSON",
 				"implicit" : 1
 			}

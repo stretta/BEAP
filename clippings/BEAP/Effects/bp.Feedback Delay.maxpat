@@ -5,7 +5,7 @@
 			"major" : 6,
 			"minor" : 1,
 			"revision" : 4,
-			"architecture" : "x86"
+			"architecture" : "x64"
 		}
 ,
 		"rect" : [ 25.0, 69.0, 640.0, 480.0 ],
@@ -41,7 +41,7 @@
 							"major" : 6,
 							"minor" : 1,
 							"revision" : 4,
-							"architecture" : "x86"
+							"architecture" : "x64"
 						}
 ,
 						"rect" : [ 25.0, 69.0, 279.0, 116.0 ],
@@ -119,7 +119,7 @@
 									}
 ,
 									"text" : "autopattr",
-									"varname" : "u734005843"
+									"varname" : "u898010402"
 								}
 
 							}
@@ -441,7 +441,7 @@
 											"major" : 6,
 											"minor" : 1,
 											"revision" : 4,
-											"architecture" : "x86"
+											"architecture" : "x64"
 										}
 ,
 										"rect" : [ 777.0, 480.0, 564.0, 796.0 ],
@@ -508,6 +508,8 @@
 , 											{
 												"box" : 												{
 													"id" : "obj-27",
+													"linmarkers" : [ 0.0, 11025.0, 16537.5 ],
+													"logmarkers" : [ 0.0, 100.0, 1000.0, 10000.0 ],
 													"maxclass" : "filtergraph~",
 													"nfilters" : 1,
 													"numinlets" : 8,
@@ -597,6 +599,8 @@
 , 											{
 												"box" : 												{
 													"id" : "obj-34",
+													"linmarkers" : [ 0.0, 11025.0, 16537.5 ],
+													"logmarkers" : [ 0.0, 100.0, 1000.0, 10000.0 ],
 													"maxclass" : "filtergraph~",
 													"nfilters" : 2,
 													"numinlets" : 8,
@@ -678,6 +682,8 @@
 , 											{
 												"box" : 												{
 													"id" : "obj-21",
+													"linmarkers" : [ 0.0, 11025.0, 16537.5 ],
+													"logmarkers" : [ 0.0, 100.0, 1000.0, 10000.0 ],
 													"maxclass" : "filtergraph~",
 													"nfilters" : 1,
 													"numinlets" : 8,
@@ -993,8 +999,9 @@
 									"numoutlets" : 0,
 									"patching_rect" : [ 316.673828, 223.529999, 37.0, 5.0 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 0.0, 0.0, 283.0, 133.0 ],
-									"rounded" : 0
+									"presentation_rect" : [ 0.0, 0.0, 283.0, 114.0 ],
+									"rounded" : 0,
+									"varname" : "backpanel"
 								}
 
 							}
@@ -1032,7 +1039,7 @@
 									"destination" : [ "obj-5", 2 ],
 									"disabled" : 0,
 									"hidden" : 0,
-									"midpoints" : [ 543.380127, 1125.254272, 560.380127, 1125.254272 ],
+									"midpoints" : [ 543.380127, 1125.254272, 560.380157, 1125.254272 ],
 									"source" : [ "obj-24", 0 ]
 								}
 
@@ -1196,18 +1203,18 @@
  ],
 		"lines" : [  ],
 		"parameters" : 		{
-			"obj-10::obj-7" : [ "bypass", "bypass", 0 ],
-			"obj-10::obj-27" : [ "Feedback", "Feedback", 0 ],
-			"obj-10::obj-49" : [ "HPF", "HPF", 0 ],
-			"obj-10::obj-50" : [ "LPF", "LPF", 0 ],
 			"obj-10::obj-118" : [ "Mix", "Mix", 0 ],
-			"obj-10::obj-9" : [ "time", "Time", 0 ]
+			"obj-10::obj-9" : [ "time", "Time", 0 ],
+			"obj-10::obj-49" : [ "HPF", "HPF", 0 ],
+			"obj-10::obj-7" : [ "bypass", "bypass", 0 ],
+			"obj-10::obj-50" : [ "LPF", "LPF", 0 ],
+			"obj-10::obj-27" : [ "Feedback", "Feedback", 0 ]
 		}
 ,
 		"dependency_cache" : [ 			{
 				"name" : "M4L.bal2~.maxpat",
 				"bootpath" : "/Applications/Max 6.1/patches/m4l-patches/Tools resources",
-				"patcherrelativepath" : "../../../../../patches/m4l-patches/Tools resources",
+				"patcherrelativepath" : "../../../../../../../../../../Applications/Max 6.1/patches/m4l-patches/Tools resources",
 				"type" : "JSON",
 				"implicit" : 1
 			}

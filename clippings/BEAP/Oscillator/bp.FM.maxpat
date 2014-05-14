@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 1,
-			"revision" : 0,
+			"revision" : 4,
 			"architecture" : "x64"
 		}
 ,
@@ -40,7 +40,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 0,
+							"revision" : 4,
 							"architecture" : "x64"
 						}
 ,
@@ -140,7 +140,7 @@
 									}
 ,
 									"text" : "autopattr",
-									"varname" : "u100000169"
+									"varname" : "u475001180"
 								}
 
 							}
@@ -174,13 +174,13 @@
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
 											"parameter_longname" : "Offset",
-											"parameter_unitstyle" : 1,
-											"parameter_mmax" : 64.0,
-											"parameter_mmin" : -64.0,
-											"parameter_initial" : [ 0 ],
+											"parameter_shortname" : "Offset",
 											"parameter_type" : 0,
+											"parameter_mmin" : -64.0,
+											"parameter_mmax" : 64.0,
 											"parameter_initial_enable" : 1,
-											"parameter_shortname" : "Offset"
+											"parameter_initial" : [ 0 ],
+											"parameter_unitstyle" : 1
 										}
 
 									}
@@ -278,10 +278,10 @@
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
 											"parameter_longname" : "Amt",
-											"parameter_unitstyle" : 5,
-											"parameter_mmax" : 100.0,
+											"parameter_shortname" : "Amt",
 											"parameter_type" : 0,
-											"parameter_shortname" : "Amt"
+											"parameter_mmax" : 100.0,
+											"parameter_unitstyle" : 5
 										}
 
 									}
@@ -335,12 +335,12 @@
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
 											"parameter_longname" : "Ratio",
-											"parameter_unitstyle" : 1,
-											"parameter_mmax" : 100.0,
-											"parameter_initial" : [ 1.23 ],
-											"parameter_type" : 0,
-											"parameter_initial_enable" : 1,
 											"parameter_shortname" : "Ratio",
+											"parameter_type" : 0,
+											"parameter_mmax" : 100.0,
+											"parameter_initial_enable" : 1,
+											"parameter_initial" : [ 1.23 ],
+											"parameter_unitstyle" : 1,
 											"parameter_exponent" : 4.0
 										}
 
@@ -409,12 +409,12 @@
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
 											"parameter_longname" : "Depth",
-											"parameter_unitstyle" : 5,
-											"parameter_mmax" : 100.0,
-											"parameter_initial" : [ 2.0 ],
-											"parameter_type" : 0,
-											"parameter_initial_enable" : 1,
 											"parameter_shortname" : "Depth",
+											"parameter_type" : 0,
+											"parameter_mmax" : 100.0,
+											"parameter_initial_enable" : 1,
+											"parameter_initial" : [ 2.0 ],
+											"parameter_unitstyle" : 5,
 											"parameter_exponent" : 4.0
 										}
 
@@ -515,13 +515,13 @@
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
 											"parameter_longname" : "mute",
-											"parameter_mmax" : 1.0,
-											"parameter_initial" : [ 0.0 ],
-											"parameter_defer" : 1,
-											"parameter_type" : 2,
-											"parameter_initial_enable" : 1,
 											"parameter_shortname" : "mute",
-											"parameter_enum" : [ "val1", "val2" ]
+											"parameter_type" : 2,
+											"parameter_mmax" : 1.0,
+											"parameter_enum" : [ "val1", "val2" ],
+											"parameter_initial_enable" : 1,
+											"parameter_initial" : [ 0.0 ],
+											"parameter_defer" : 1
 										}
 
 									}
@@ -602,7 +602,7 @@
 										"appversion" : 										{
 											"major" : 6,
 											"minor" : 1,
-											"revision" : 0,
+											"revision" : 4,
 											"architecture" : "x64"
 										}
 ,
@@ -1045,34 +1045,6 @@
 							}
 , 							{
 								"box" : 								{
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-									"id" : "obj-14",
-									"maxclass" : "panel",
-									"numinlets" : 1,
-									"numoutlets" : 0,
-									"patching_rect" : [ 15.0, 149.470001, 128.0, 128.0 ],
-									"presentation" : 1,
-									"presentation_rect" : [ 0.0, 0.0, 283.268768, 17.0 ],
-									"rounded" : 0
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-									"id" : "obj-15",
-									"maxclass" : "panel",
-									"numinlets" : 1,
-									"numoutlets" : 0,
-									"patching_rect" : [ 175.236206, 15.0, 128.0, 128.0 ],
-									"presentation" : 1,
-									"presentation_rect" : [ 0.0, 97.0, 283.268768, 35.433025 ],
-									"rounded" : 0
-								}
-
-							}
-, 							{
-								"box" : 								{
 									"bgcolor" : [ 0.137255, 0.145098, 0.160784, 0.65 ],
 									"id" : "obj-18",
 									"maxclass" : "panel",
@@ -1080,7 +1052,7 @@
 									"numoutlets" : 0,
 									"patching_rect" : [ 21.736206, 15.0, 128.0, 128.0 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 0.0, 37.0, 283.268768, 71.584457 ],
+									"presentation_rect" : [ 0.0, 37.0, 283.268768, 61.584457 ],
 									"rounded" : 0
 								}
 
@@ -1094,8 +1066,23 @@
 									"numoutlets" : 0,
 									"patching_rect" : [ 604.0, 440.254272, 128.0, 128.0 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 0.0, 17.0, 283.268768, 116.114227 ],
+									"presentation_rect" : [ 0.0, 17.0, 283.268768, 81.584457 ],
 									"rounded" : 0
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+									"id" : "obj-15",
+									"maxclass" : "panel",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 175.236206, 15.0, 128.0, 128.0 ],
+									"presentation" : 1,
+									"presentation_rect" : [ 0.0, 0.0, 283.268768, 114.0 ],
+									"rounded" : 0,
+									"varname" : "backpanel"
 								}
 
 							}
@@ -1345,11 +1332,11 @@
  ],
 		"lines" : [  ],
 		"parameters" : 		{
-			"obj-10::obj-86" : [ "Amt", "Amt", 0 ],
-			"obj-10::obj-20" : [ "mute", "mute", 0 ],
 			"obj-10::obj-91" : [ "Offset", "Offset", 0 ],
-			"obj-10::obj-80" : [ "Ratio", "Ratio", 0 ],
-			"obj-10::obj-56" : [ "Depth", "Depth", 0 ]
+			"obj-10::obj-56" : [ "Depth", "Depth", 0 ],
+			"obj-10::obj-20" : [ "mute", "mute", 0 ],
+			"obj-10::obj-86" : [ "Amt", "Amt", 0 ],
+			"obj-10::obj-80" : [ "Ratio", "Ratio", 0 ]
 		}
 ,
 		"dependency_cache" : [  ]

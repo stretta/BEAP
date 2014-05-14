@@ -4,8 +4,8 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 1,
-			"revision" : 3,
-			"architecture" : "x86"
+			"revision" : 4,
+			"architecture" : "x64"
 		}
 ,
 		"rect" : [ 23.0, 52.0, 640.0, 480.0 ],
@@ -40,13 +40,13 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 3,
-							"architecture" : "x86"
+							"revision" : 4,
+							"architecture" : "x64"
 						}
 ,
 						"rect" : [ 23.0, 52.0, 279.0, 214.0 ],
 						"bgcolor" : [ 1.0, 1.0, 1.0, 0.0 ],
-						"bglocked" : 0,
+						"bglocked" : 1,
 						"openinpresentation" : 1,
 						"default_fontsize" : 12.0,
 						"default_fontface" : 0,
@@ -209,8 +209,8 @@
 										"appversion" : 										{
 											"major" : 6,
 											"minor" : 1,
-											"revision" : 3,
-											"architecture" : "x86"
+											"revision" : 4,
+											"architecture" : "x64"
 										}
 ,
 										"rect" : [ 25.0, 69.0, 640.0, 480.0 ],
@@ -390,8 +390,8 @@
 										"appversion" : 										{
 											"major" : 6,
 											"minor" : 1,
-											"revision" : 3,
-											"architecture" : "x86"
+											"revision" : 4,
+											"architecture" : "x64"
 										}
 ,
 										"rect" : [ 0.0, 0.0, 640.0, 480.0 ],
@@ -2027,7 +2027,7 @@
 									}
 ,
 									"text" : "autopattr",
-									"varname" : "u321010606"
+									"varname" : "u853005477"
 								}
 
 							}
@@ -2134,8 +2134,9 @@
 									"numoutlets" : 0,
 									"patching_rect" : [ 2118.0, 1062.621338, 44.0, 9.0 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 0.0, 0.0, 283.268768, 232.433029 ],
-									"rounded" : 0
+									"presentation_rect" : [ 0.0, 0.0, 283.268768, 214.211548 ],
+									"rounded" : 0,
+									"varname" : "backpanel"
 								}
 
 							}
@@ -3063,25 +3064,25 @@
  ],
 		"lines" : [  ],
 		"parameters" : 		{
-			"obj-38::obj-19" : [ "CV2", "CV2", 0 ],
-			"obj-38::obj-28" : [ "Offset", "Offset", 0 ],
-			"obj-38::obj-12" : [ "Mute", "Mute", 0 ],
-			"obj-38::obj-73" : [ "analyzing", "analyzing", 0 ],
 			"obj-38::obj-3" : [ "Position", "Position", 0 ],
+			"obj-38::obj-73" : [ "analyzing", "analyzing", 0 ],
+			"obj-38::obj-28" : [ "Offset", "Offset", 0 ],
 			"obj-38::obj-11" : [ "live.text[1]", "live.text[1]", 0 ],
-			"obj-38::obj-25" : [ "CV", "CV", 0 ]
+			"obj-38::obj-12" : [ "Mute", "Mute", 0 ],
+			"obj-38::obj-25" : [ "CV", "CV", 0 ],
+			"obj-38::obj-19" : [ "CV2", "CV2", 0 ]
 		}
 ,
 		"dependency_cache" : [ 			{
 				"name" : "bp.pvoc.pfft.maxpat",
-				"bootpath" : "/Applications/Max 6.1/packages/BEAP/misc",
+				"bootpath" : "/Users/baptistemanson/Music/Max/M4L/baptistemanson/BEAP/misc",
 				"patcherrelativepath" : "../../../misc",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "bp.pvoc.rec.pfft.maxpat",
-				"bootpath" : "/Applications/Max 6.1/packages/BEAP/misc",
+				"bootpath" : "/Users/baptistemanson/Music/Max/M4L/baptistemanson/BEAP/misc",
 				"patcherrelativepath" : "../../../misc",
 				"type" : "JSON",
 				"implicit" : 1
