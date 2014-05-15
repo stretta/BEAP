@@ -8,7 +8,7 @@
 			"architecture" : "x64"
 		}
 ,
-		"rect" : [ 0.0, 44.0, 1280.0, 663.0 ],
+		"rect" : [ 40.0, 44.0, 1280.0, 663.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -51,7 +51,7 @@
 							"architecture" : "x64"
 						}
 ,
-						"rect" : [ 0.0, 44.0, 169.0, 117.0 ],
+						"rect" : [ 40.0, 44.0, 169.0, 117.0 ],
 						"bgcolor" : [ 1.0, 1.0, 1.0, 0.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 1,
@@ -1168,7 +1168,7 @@
 									}
 ,
 									"text" : "autopattr",
-									"varname" : "u600000164"
+									"varname" : "u032000319"
 								}
 
 							}
@@ -2086,11 +2086,11 @@
  ],
 		"lines" : [  ],
 		"parameters" : 		{
-			"obj-1::obj-92" : [ "kslider[1]", "kslider", 0 ],
-			"obj-1::obj-39" : [ "stealth_init", "stealth_init", 0 ],
-			"obj-1::obj-12" : [ "bypass[1]", "bypass", 0 ],
 			"obj-1::obj-29" : [ "PitchActivityLED[2]", "PitchActivityLED", 0 ],
-			"obj-1::obj-48" : [ "PitchActivityLED[3]", "PitchActivityLED", 0 ]
+			"obj-1::obj-92" : [ "kslider[1]", "kslider", 0 ],
+			"obj-1::obj-48" : [ "PitchActivityLED[3]", "PitchActivityLED", 0 ],
+			"obj-1::obj-12" : [ "bypass[1]", "bypass", 0 ],
+			"obj-1::obj-39" : [ "stealth_init", "stealth_init", 0 ]
 		}
 ,
 		"dependency_cache" : [  ]
