@@ -2,13 +2,13 @@
 	"patcher" : 	{
 		"fileversion" : 1,
 		"appversion" : 		{
-			"major" : 6,
-			"minor" : 1,
-			"revision" : 3,
-			"architecture" : "x86"
+			"major" : 7,
+			"minor" : 0,
+			"revision" : 0,
+			"architecture" : "x64"
 		}
 ,
-		"rect" : [ 0.0, 70.0, 1440.0, 729.0 ],
+		"rect" : [ 0.0, 44.0, 1280.0, 663.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -29,22 +29,29 @@
 		"tags" : "",
 		"boxes" : [ 			{
 				"box" : 				{
+					"bgmode" : 0,
+					"border" : 0,
+					"clickthrough" : 0,
 					"embed" : 1,
+					"enablehscroll" : 0,
+					"enablevscroll" : 0,
 					"id" : "obj-10",
+					"lockeddragscroll" : 0,
 					"maxclass" : "bpatcher",
 					"numinlets" : 2,
 					"numoutlets" : 2,
+					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "signal", "signal" ],
 					"patcher" : 					{
 						"fileversion" : 1,
 						"appversion" : 						{
-							"major" : 6,
-							"minor" : 1,
-							"revision" : 3,
-							"architecture" : "x86"
+							"major" : 7,
+							"minor" : 0,
+							"revision" : 0,
+							"architecture" : "x64"
 						}
 ,
-						"rect" : [ 0.0, 70.0, 265.0, 116.0 ],
+						"rect" : [ 0.0, 44.0, 265.0, 116.0 ],
 						"bgcolor" : [ 1.0, 1.0, 1.0, 0.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 1,
@@ -87,7 +94,7 @@
 									}
 ,
 									"text" : "autopattr",
-									"varname" : "u927003488"
+									"varname" : "u873000105"
 								}
 
 							}
@@ -336,7 +343,7 @@
 											"parameter_initial_enable" : 1,
 											"parameter_initial" : [ 20000 ],
 											"parameter_unitstyle" : 3,
-											"parameter_exponent" : 1.06
+											"parameter_exponent" : 4.0
 										}
 
 									}
@@ -375,7 +382,7 @@
 											"parameter_initial_enable" : 1,
 											"parameter_initial" : [ 20 ],
 											"parameter_unitstyle" : 3,
-											"parameter_exponent" : 1.06
+											"parameter_exponent" : 4.0
 										}
 
 									}
@@ -547,15 +554,23 @@
 							}
 , 							{
 								"box" : 								{
+									"bgmode" : 0,
+									"border" : 0,
+									"clickthrough" : 0,
+									"enablehscroll" : 0,
+									"enablevscroll" : 0,
 									"fontname" : "Arial Bold",
 									"fontsize" : 10.0,
 									"id" : "obj-11",
+									"lockeddragscroll" : 0,
 									"maxclass" : "newobj",
 									"numinlets" : 5,
 									"numoutlets" : 2,
+									"offset" : [ 0.0, 0.0 ],
 									"outlettype" : [ "signal", "signal" ],
 									"patching_rect" : [ 1099.828979, 1467.297852, 127.0, 18.0 ],
-									"text" : "M4L.bal2~"
+									"text" : "M4L.bal2~",
+									"viewvisibility" : 0
 								}
 
 							}
@@ -863,21 +878,28 @@
 							}
 , 							{
 								"box" : 								{
+									"bgmode" : 0,
+									"border" : 0,
+									"clickthrough" : 0,
+									"enablehscroll" : 0,
+									"enablevscroll" : 0,
 									"fontface" : 1,
 									"fontname" : "Arial",
 									"fontsize" : 10.0,
 									"id" : "obj-176",
+									"lockeddragscroll" : 0,
 									"maxclass" : "newobj",
 									"numinlets" : 3,
 									"numoutlets" : 2,
+									"offset" : [ 0.0, 0.0 ],
 									"outlettype" : [ "signal", "" ],
 									"patcher" : 									{
 										"fileversion" : 1,
 										"appversion" : 										{
-											"major" : 6,
-											"minor" : 1,
-											"revision" : 3,
-											"architecture" : "x86"
+											"major" : 7,
+											"minor" : 0,
+											"revision" : 0,
+											"architecture" : "x64"
 										}
 ,
 										"rect" : [ 777.0, 480.0, 1118.0, 798.0 ],
@@ -944,6 +966,8 @@
 , 											{
 												"box" : 												{
 													"id" : "obj-27",
+													"linmarkers" : [ 0.0, 11025.0, 16537.5 ],
+													"logmarkers" : [ 0.0, 100.0, 1000.0, 10000.0 ],
 													"maxclass" : "filtergraph~",
 													"nfilters" : 1,
 													"numinlets" : 8,
@@ -1033,6 +1057,8 @@
 , 											{
 												"box" : 												{
 													"id" : "obj-34",
+													"linmarkers" : [ 0.0, 11025.0, 16537.5 ],
+													"logmarkers" : [ 0.0, 100.0, 1000.0, 10000.0 ],
 													"maxclass" : "filtergraph~",
 													"nfilters" : 2,
 													"numinlets" : 8,
@@ -1114,6 +1140,8 @@
 , 											{
 												"box" : 												{
 													"id" : "obj-21",
+													"linmarkers" : [ 0.0, 11025.0, 16537.5 ],
+													"logmarkers" : [ 0.0, 100.0, 1000.0, 10000.0 ],
 													"maxclass" : "filtergraph~",
 													"nfilters" : 1,
 													"numinlets" : 8,
@@ -1288,7 +1316,8 @@
 										"tags" : ""
 									}
 ,
-									"text" : "p filter"
+									"text" : "p filter",
+									"viewvisibility" : 0
 								}
 
 							}
@@ -1354,21 +1383,28 @@
 							}
 , 							{
 								"box" : 								{
+									"bgmode" : 0,
+									"border" : 0,
+									"clickthrough" : 0,
+									"enablehscroll" : 0,
+									"enablevscroll" : 0,
 									"fontface" : 1,
 									"fontname" : "Arial",
 									"fontsize" : 10.0,
 									"id" : "obj-958",
+									"lockeddragscroll" : 0,
 									"maxclass" : "newobj",
 									"numinlets" : 3,
 									"numoutlets" : 2,
+									"offset" : [ 0.0, 0.0 ],
 									"outlettype" : [ "signal", "" ],
 									"patcher" : 									{
 										"fileversion" : 1,
 										"appversion" : 										{
-											"major" : 6,
-											"minor" : 1,
-											"revision" : 3,
-											"architecture" : "x86"
+											"major" : 7,
+											"minor" : 0,
+											"revision" : 0,
+											"architecture" : "x64"
 										}
 ,
 										"rect" : [ 777.0, 480.0, 564.0, 796.0 ],
@@ -1435,6 +1471,8 @@
 , 											{
 												"box" : 												{
 													"id" : "obj-27",
+													"linmarkers" : [ 0.0, 11025.0, 16537.5 ],
+													"logmarkers" : [ 0.0, 100.0, 1000.0, 10000.0 ],
 													"maxclass" : "filtergraph~",
 													"nfilters" : 1,
 													"numinlets" : 8,
@@ -1524,6 +1562,8 @@
 , 											{
 												"box" : 												{
 													"id" : "obj-34",
+													"linmarkers" : [ 0.0, 11025.0, 16537.5 ],
+													"logmarkers" : [ 0.0, 100.0, 1000.0, 10000.0 ],
 													"maxclass" : "filtergraph~",
 													"nfilters" : 2,
 													"numinlets" : 8,
@@ -1605,6 +1645,8 @@
 , 											{
 												"box" : 												{
 													"id" : "obj-21",
+													"linmarkers" : [ 0.0, 11025.0, 16537.5 ],
+													"logmarkers" : [ 0.0, 100.0, 1000.0, 10000.0 ],
 													"maxclass" : "filtergraph~",
 													"nfilters" : 1,
 													"numinlets" : 8,
@@ -1779,7 +1821,8 @@
 										"tags" : ""
 									}
 ,
-									"text" : "p filter"
+									"text" : "p filter",
+									"viewvisibility" : 0
 								}
 
 							}
@@ -2115,7 +2158,7 @@
 									"destination" : [ "obj-5", 2 ],
 									"disabled" : 0,
 									"hidden" : 0,
-									"midpoints" : [ 543.380127, 1125.254272, 560.380127, 1125.254272 ],
+									"midpoints" : [ 543.380127, 1125.254272, 560.380157, 1125.254272 ],
 									"source" : [ "obj-24", 0 ]
 								}
 
@@ -2394,27 +2437,28 @@
 					}
 ,
 					"patching_rect" : [ 0.0, 0.0, 265.0, 116.0 ],
-					"varname" : "SyncDelay"
+					"varname" : "SyncDelay",
+					"viewvisibility" : 1
 				}
 
 			}
  ],
 		"lines" : [  ],
 		"parameters" : 		{
-			"obj-10::obj-96" : [ "delay_left", "delay_left", 0 ],
+			"obj-10::obj-50" : [ "LPF", "LPF", 0 ],
+			"obj-10::obj-7" : [ "bypass", "bypass", 0 ],
+			"obj-10::obj-27" : [ "Feedback", "Feedback", 0 ],
 			"obj-10::obj-9" : [ "delay_right", "delay_right", 0 ],
-			"obj-10::obj-708" : [ "step.duration[9]", "step.duration", 0 ],
+			"obj-10::obj-118" : [ "Mix", "Mix", 0 ],
 			"obj-10::obj-957" : [ "step.duration[6]", "step.duration", 0 ],
 			"obj-10::obj-49" : [ "HPF", "HPF", 0 ],
-			"obj-10::obj-27" : [ "Feedback", "Feedback", 0 ],
-			"obj-10::obj-7" : [ "bypass", "bypass", 0 ],
-			"obj-10::obj-118" : [ "Mix", "Mix", 0 ],
-			"obj-10::obj-50" : [ "LPF", "LPF", 0 ]
+			"obj-10::obj-708" : [ "step.duration[9]", "step.duration", 0 ],
+			"obj-10::obj-96" : [ "delay_left", "delay_left", 0 ]
 		}
 ,
 		"dependency_cache" : [ 			{
 				"name" : "M4L.bal2~.maxpat",
-				"bootpath" : "/Applications/Max 6.1/patches/m4l-patches/Tools resources",
+				"bootpath" : "/Applications/Max 7/patches/m4l-patches/Tools resources",
 				"patcherrelativepath" : "../../../../../patches/m4l-patches/Tools resources",
 				"type" : "JSON",
 				"implicit" : 1

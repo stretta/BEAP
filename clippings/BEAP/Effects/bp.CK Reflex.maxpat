@@ -8,7 +8,7 @@
 			"architecture" : "x64"
 		}
 ,
-		"rect" : [ 228.0, 44.0, 1280.0, 663.0 ],
+		"rect" : [ 0.0, 44.0, 1280.0, 663.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -51,7 +51,7 @@
 							"architecture" : "x64"
 						}
 ,
-						"rect" : [ 228.0, 44.0, 390.0, 116.0 ],
+						"rect" : [ 0.0, 44.0, 344.0, 116.0 ],
 						"bgcolor" : [ 1.0, 1.0, 1.0, 0.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 1,
@@ -83,14 +83,14 @@
 									"patching_rect" : [ 190.236206, 389.0, 59.5, 20.0 ],
 									"restore" : 									{
 										"bypass" : [ 0.0 ],
-										"depth" : [ 115.0 ],
-										"drywet" : [ 115.0 ],
-										"filter" : [ 87.0 ],
-										"size" : [ 50.0 ]
+										"depth" : [ 0.0 ],
+										"drywet" : [ 0.0 ],
+										"filter" : [ 0.0 ],
+										"size" : [ 0.0 ]
 									}
 ,
 									"text" : "autopattr",
-									"varname" : "u563003885"
+									"varname" : "u155004569"
 								}
 
 							}
@@ -526,7 +526,7 @@
 													"outlettype" : [ "list", "float", "float", "float", "float", "list", "int" ],
 													"parameter_enable" : 0,
 													"patching_rect" : [ 464.0, 172.0, 120.0, 90.0 ],
-													"setfilter" : [ 0, 1, 0, 0, 0, 4059.856689, 1.0, 0.5, 30.0, 19845.0, 0.0625, 16.0, 0.5, 25.0 ]
+													"setfilter" : [ 0, 1, 0, 0, 0, 125.0, 1.0, 0.5, 30.0, 19845.0, 0.0625, 16.0, 0.5, 25.0 ]
 												}
 
 											}
@@ -2522,9 +2522,9 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 365.25, 271.0, 37.0, 17.0 ],
+									"patching_rect" : [ 365.25, 271.0, 19.0, 17.0 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 351.788971, 97.0, 38.0, 17.0 ],
+									"presentation_rect" : [ 325.788971, 97.0, 19.0, 17.0 ],
 									"text" : "R",
 									"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 								}
@@ -2539,9 +2539,9 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 365.25, 346.0, 37.0, 17.0 ],
+									"patching_rect" : [ 365.25, 346.0, 19.0, 17.0 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 351.788971, 0.0, 38.0, 17.0 ],
+									"presentation_rect" : [ 325.788971, 0.0, 19.0, 17.0 ],
 									"text" : "R",
 									"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 								}
@@ -2592,7 +2592,7 @@
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 590.0, 504.0, 154.0, 60.0 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 179.788971, 37.0, 158.0, 60.0 ],
+									"presentation_rect" : [ 180.788971, 44.0, 158.0, 47.0 ],
 									"sono" : 1
 								}
 
@@ -2699,9 +2699,9 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 305.25, 271.0, 37.0, 17.0 ],
+									"patching_rect" : [ 305.25, 271.0, 19.0, 17.0 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 0.0, 97.0, 38.0, 17.0 ],
+									"presentation_rect" : [ 0.0, 97.0, 19.0, 17.0 ],
 									"text" : "L",
 									"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 								}
@@ -2716,9 +2716,9 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 305.25, 346.0, 37.0, 17.0 ],
+									"patching_rect" : [ 305.25, 346.0, 19.0, 17.0 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 0.0, 0.0, 38.0, 17.0 ],
+									"presentation_rect" : [ 0.0, 0.0, 19.0, 17.0 ],
 									"text" : "L",
 									"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 								}
@@ -2740,7 +2740,7 @@
 									"parameter_enable" : 1,
 									"patching_rect" : [ 307.5, 521.9375, 40.0, 20.0 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 336.788971, 19.0, 52.0, 14.764645 ],
+									"presentation_rect" : [ 286.788971, 19.0, 52.0, 14.764645 ],
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
 											"parameter_longname" : "bypass",
@@ -3102,7 +3102,7 @@
  ]
 					}
 ,
-					"patching_rect" : [ 0.0, 0.0, 390.0, 116.0 ],
+					"patching_rect" : [ 0.0, 0.0, 344.0, 116.0 ],
 					"varname" : "CKReflex",
 					"viewvisibility" : 1
 				}
@@ -3111,11 +3111,11 @@
  ],
 		"lines" : [  ],
 		"parameters" : 		{
-			"obj-4::obj-26" : [ "dry/wet", "dry/wet", 0 ],
-			"obj-4::obj-5" : [ "filter", "filter", 0 ],
 			"obj-4::obj-28" : [ "bypass", "bypass", 0 ],
+			"obj-4::obj-26" : [ "dry/wet", "dry/wet", 0 ],
 			"obj-4::obj-33" : [ "size", "size", 0 ],
-			"obj-4::obj-32" : [ "depth", "depth", 0 ]
+			"obj-4::obj-32" : [ "depth", "depth", 0 ],
+			"obj-4::obj-5" : [ "filter", "filter", 0 ]
 		}
 ,
 		"dependency_cache" : [ 			{
