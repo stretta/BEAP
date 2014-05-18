@@ -8,7 +8,7 @@
 			"architecture" : "x64"
 		}
 ,
-		"rect" : [ 284.0, 44.0, 887.0, 637.0 ],
+		"rect" : [ 0.0, 70.0, 887.0, 611.0 ],
 		"bgcolor" : [ 1.0, 1.0, 1.0, 0.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
@@ -29,6 +29,29 @@
 		"digest" : "",
 		"tags" : "",
 		"boxes" : [ 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"id" : "obj-29",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 4,
+					"outlettype" : [ "", "", "", "" ],
+					"patching_rect" : [ 634.0, 230.0, 59.5, 20.0 ],
+					"restore" : 					{
+						"duration" : [ 120.0 ],
+						"offset" : [ 0.0 ],
+						"range" : [ 8.0 ],
+						"rowmute" : [ 0.0 ],
+						"rowtrig" : [ 0.0 ]
+					}
+,
+					"text" : "autopattr",
+					"varname" : "u643002279"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
@@ -454,12 +477,12 @@
 					"presentation_rect" : [ 164.900162, 2.671011, 62.0, 15.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_longname" : "duration[13]",
+							"parameter_longname" : "duration",
 							"parameter_shortname" : "duration",
 							"parameter_type" : 0,
 							"parameter_mmax" : 1000.0,
 							"parameter_initial_enable" : 1,
-							"parameter_initial" : [ 120 ],
+							"parameter_initial" : [ 120.0 ],
 							"parameter_unitstyle" : 2,
 							"parameter_units" : "pulses"
 						}
@@ -561,16 +584,19 @@
 					"presentation_rect" : [ 68.206566, 2.671011, 15.0, 15.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_longname" : "live.button[11]",
-							"parameter_shortname" : "live.button",
+							"parameter_longname" : "rowtrig",
+							"parameter_shortname" : "rowtrig",
 							"parameter_type" : 2,
 							"parameter_mmax" : 1.0,
-							"parameter_enum" : [ "off", "on" ]
+							"parameter_enum" : [ "off", "on" ],
+							"parameter_initial_enable" : 1,
+							"parameter_initial" : [ 0.0 ],
+							"parameter_invisible" : 2
 						}
 
 					}
 ,
-					"varname" : "live.button"
+					"varname" : "rowtrig"
 				}
 
 			}
@@ -630,9 +656,11 @@
 					"presentation_rect" : [ 124.900162, 2.671011, 38.0, 15.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_longname" : "live.numbox[22]",
-							"parameter_shortname" : "live.numbox",
+							"parameter_longname" : "offset",
+							"parameter_shortname" : "offset",
 							"parameter_type" : 1,
+							"parameter_initial_enable" : 1,
+							"parameter_initial" : [ 0.0 ],
 							"parameter_unitstyle" : 0,
 							"parameter_units" : "pulses"
 						}
@@ -640,7 +668,7 @@
 					}
 ,
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"varname" : "live.numbox[1]"
+					"varname" : "offset"
 				}
 
 			}
@@ -658,12 +686,12 @@
 					"presentation_rect" : [ 84.89167, 2.671011, 38.0, 15.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_longname" : "live.numbox[23]",
-							"parameter_shortname" : "live.numbox",
+							"parameter_longname" : "range",
+							"parameter_shortname" : "range",
 							"parameter_type" : 1,
 							"parameter_mmin" : 1.0,
 							"parameter_initial_enable" : 1,
-							"parameter_initial" : [ 8 ],
+							"parameter_initial" : [ 8.0 ],
 							"parameter_unitstyle" : 0,
 							"parameter_units" : "pulses"
 						}
@@ -671,7 +699,7 @@
 					}
 ,
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"varname" : "live.numbox"
+					"varname" : "range"
 				}
 
 			}
@@ -689,20 +717,20 @@
 					"presentation_rect" : [ 23.206566, 2.671011, 44.0, 15.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_longname" : "live.text[31]",
-							"parameter_shortname" : "live.text",
+							"parameter_longname" : "rowmute",
+							"parameter_shortname" : "rowmute",
 							"parameter_type" : 2,
 							"parameter_mmax" : 1.0,
 							"parameter_enum" : [ "val1", "val2" ],
 							"parameter_initial_enable" : 1,
-							"parameter_initial" : [ 1 ]
+							"parameter_initial" : [ 0.0 ]
 						}
 
 					}
 ,
 					"text" : "mute",
 					"texton" : "mute",
-					"varname" : "live.text[3]"
+					"varname" : "rowmute"
 				}
 
 			}
@@ -2619,11 +2647,11 @@
 			}
  ],
 		"parameters" : 		{
-			"obj-146" : [ "live.text[31]", "live.text", 0 ],
-			"obj-26" : [ "duration[13]", "duration", 0 ],
-			"obj-21" : [ "live.button[11]", "live.button", 0 ],
-			"obj-9" : [ "live.numbox[22]", "live.numbox", 0 ],
-			"obj-8" : [ "live.numbox[23]", "live.numbox", 0 ]
+			"obj-26" : [ "duration", "duration", 0 ],
+			"obj-146" : [ "rowmute", "rowmute", 0 ],
+			"obj-9" : [ "offset", "offset", 0 ],
+			"obj-8" : [ "range", "range", 0 ],
+			"obj-21" : [ "rowtrig", "rowtrig", 0 ]
 		}
 ,
 		"dependency_cache" : [  ]
