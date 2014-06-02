@@ -74,6 +74,30 @@
 						"tags" : "",
 						"boxes" : [ 							{
 								"box" : 								{
+									"fontname" : "Arial",
+									"fontsize" : 12.0,
+									"id" : "obj-4",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 4,
+									"outlettype" : [ "", "", "", "" ],
+									"patching_rect" : [ 909.0, 476.0, 59.5, 20.0 ],
+									"restore" : 									{
+										"Pulse" : [ "16n" ],
+										"curve" : [ 1.0 ],
+										"live.button" : [ 0.0 ],
+										"live.numbox" : [ 1.0 ],
+										"live.numbox[1]" : [ 0.0 ],
+										"live.numbox[2]" : [ 100.0 ]
+									}
+,
+									"text" : "autopattr",
+									"varname" : "u213003614"
+								}
+
+							}
+, 							{
+								"box" : 								{
 									"bgcolor" : [ 0.0, 0.0, 0.0, 0.27 ],
 									"id" : "obj-31",
 									"maxclass" : "panel",
@@ -357,7 +381,7 @@
 									"pic" : "curvetypes.svg",
 									"presentation" : 1,
 									"presentation_rect" : [ 118.418915, 58.603088, 30.5, 32.0 ],
-									"xoffset" : -383.56,
+									"xoffset" : -34.12,
 									"yoffset" : -62.0
 								}
 
@@ -3445,8 +3469,8 @@
 			"obj-11::obj-9" : [ "live.button", "live.button", 0 ],
 			"obj-11::obj-3" : [ "live.numbox[1]", "live.numbox", 0 ],
 			"obj-11::obj-7" : [ "curve", "curve", 0 ],
-			"obj-11::obj-452" : [ "Pulse[2]", "Pulse", 0 ],
 			"obj-11::obj-1" : [ "live.numbox", "live.numbox", 0 ],
+			"obj-11::obj-452" : [ "Pulse[2]", "Pulse", 0 ],
 			"obj-11::obj-11" : [ "live.numbox[2]", "live.numbox[2]", 0 ]
 		}
 ,

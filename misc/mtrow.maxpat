@@ -47,7 +47,7 @@
 					}
 ,
 					"text" : "autopattr",
-					"varname" : "u643002279"
+					"varname" : "u269002041"
 				}
 
 			}
@@ -2647,11 +2647,11 @@
 			}
  ],
 		"parameters" : 		{
-			"obj-26" : [ "duration", "duration", 0 ],
-			"obj-146" : [ "rowmute", "rowmute", 0 ],
-			"obj-9" : [ "offset", "offset", 0 ],
+			"obj-21" : [ "rowtrig", "rowtrig", 0 ],
 			"obj-8" : [ "range", "range", 0 ],
-			"obj-21" : [ "rowtrig", "rowtrig", 0 ]
+			"obj-9" : [ "offset", "offset", 0 ],
+			"obj-146" : [ "rowmute", "rowmute", 0 ],
+			"obj-26" : [ "duration", "duration", 0 ]
 		}
 ,
 		"dependency_cache" : [  ]
