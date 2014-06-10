@@ -2,10 +2,10 @@
 	"patcher" : 	{
 		"fileversion" : 1,
 		"appversion" : 		{
-			"major" : 6,
-			"minor" : 1,
+			"major" : 7,
+			"minor" : 0,
 			"revision" : 0,
-			"architecture" : "x86"
+			"architecture" : "x64"
 		}
 ,
 		"rect" : [ 25.0, 69.0, 807.0, 544.0 ],
@@ -29,22 +29,29 @@
 		"tags" : "",
 		"boxes" : [ 			{
 				"box" : 				{
+					"bgmode" : 0,
+					"border" : 0,
+					"clickthrough" : 0,
 					"embed" : 1,
+					"enablehscroll" : 0,
+					"enablevscroll" : 0,
 					"id" : "obj-37",
+					"lockeddragscroll" : 0,
 					"maxclass" : "bpatcher",
 					"numinlets" : 1,
 					"numoutlets" : 2,
+					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "", "" ],
 					"patcher" : 					{
 						"fileversion" : 1,
 						"appversion" : 						{
-							"major" : 6,
-							"minor" : 1,
+							"major" : 7,
+							"minor" : 0,
 							"revision" : 0,
-							"architecture" : "x86"
+							"architecture" : "x64"
 						}
 ,
-						"rect" : [ 25.0, 69.0, 110.0, 116.0 ],
+						"rect" : [ 25.0, 69.0, 115.0, 116.0 ],
 						"bgcolor" : [ 1.0, 1.0, 1.0, 0.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 1,
@@ -70,14 +77,13 @@
 									"fontsize" : 9.0,
 									"frgb" : 0.0,
 									"id" : "obj-160",
-									"linecount" : 2,
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 58.0, 97.0, 48.0, 27.0 ],
+									"patching_rect" : [ 58.0, 97.0, 60.0, 17.0 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 56.0, 97.0, 56.0, 17.0 ],
-									"text" : "Monome B",
+									"presentation_rect" : [ 56.0, 97.0, 60.0, 17.0 ],
+									"text" : "Serialosc B",
 									"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 								}
 
@@ -89,6 +95,8 @@
 									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"id" : "obj-159",
 									"maxclass" : "live.tab",
+									"num_lines_patching" : 0,
+									"num_lines_presentation" : 1,
 									"numinlets" : 1,
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "float" ],
@@ -98,9 +106,9 @@
 									"presentation_rect" : [ 5.0, 69.0, 99.5, 20.0 ],
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
-											"parameter_type" : 2,
-											"parameter_shortname" : "live.tab",
 											"parameter_longname" : "live.tab",
+											"parameter_shortname" : "live.tab",
+											"parameter_type" : 2,
 											"parameter_enum" : [ "bipolar", "unipolar" ],
 											"parameter_unitstyle" : 0
 										}
@@ -143,13 +151,13 @@
 									"presentation_rect" : [ 38.5, 47.0, 66.0, 15.0 ],
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
-											"parameter_type" : 0,
-											"parameter_initial_enable" : 1,
-											"parameter_shortname" : "Resolution",
 											"parameter_longname" : "Resolution",
-											"parameter_unitstyle" : 2,
+											"parameter_shortname" : "Resolution",
+											"parameter_type" : 0,
 											"parameter_mmax" : 1000.0,
-											"parameter_initial" : [ 50 ]
+											"parameter_initial_enable" : 1,
+											"parameter_initial" : [ 50 ],
+											"parameter_unitstyle" : 2
 										}
 
 									}
@@ -3539,7 +3547,7 @@
 									}
 ,
 									"text" : "autopattr",
-									"varname" : "u455001778"
+									"varname" : "u680002827"
 								}
 
 							}
@@ -3549,14 +3557,13 @@
 									"fontsize" : 9.0,
 									"frgb" : 0.0,
 									"id" : "obj-8",
-									"linecount" : 2,
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 105.52005, 97.0, 48.0, 27.0 ],
+									"patching_rect" : [ 105.52005, 97.0, 59.0, 17.0 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 2.0, 97.0, 56.0, 17.0 ],
-									"text" : "Monome A",
+									"presentation_rect" : [ 2.0, 97.0, 59.0, 17.0 ],
+									"text" : "Serialosc A",
 									"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 								}
 
@@ -4609,16 +4616,17 @@
  ]
 					}
 ,
-					"patching_rect" : [ 0.0, 0.0, 110.0, 116.0 ],
-					"varname" : "GridScope"
+					"patching_rect" : [ 0.0, 0.0, 115.0, 116.0 ],
+					"varname" : "GridScope",
+					"viewvisibility" : 1
 				}
 
 			}
  ],
 		"lines" : [  ],
 		"parameters" : 		{
-			"obj-37::obj-159" : [ "live.tab", "live.tab", 0 ],
-			"obj-37::obj-158" : [ "Resolution", "Resolution", 0 ]
+			"obj-37::obj-158" : [ "Resolution", "Resolution", 0 ],
+			"obj-37::obj-159" : [ "live.tab", "live.tab", 0 ]
 		}
 ,
 		"dependency_cache" : [  ]

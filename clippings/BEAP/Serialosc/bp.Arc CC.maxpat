@@ -144,7 +144,7 @@
 									}
 ,
 									"text" : "autopattr",
-									"varname" : "u043010524"
+									"varname" : "u813002600"
 								}
 
 							}
@@ -485,10 +485,10 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 179.642456, 211.883911, 47.0, 17.0 ],
+									"patching_rect" : [ 179.642456, 211.883911, 51.0, 17.0 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 2.0, 0.0, 48.0, 17.0 ],
-									"text" : "Monome",
+									"presentation_rect" : [ 2.0, 0.0, 51.0, 17.0 ],
+									"text" : "Serialosc",
 									"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 								}
 
@@ -880,9 +880,9 @@
  ],
 		"lines" : [  ],
 		"parameters" : 		{
+			"obj-74::obj-129" : [ "MIDICC[2]", "MIDICC", 0 ],
 			"obj-74::obj-32" : [ "live.tab[6]", "live.tab", 0 ],
-			"obj-74::obj-12" : [ "Mute[9]", "Mute", 0 ],
-			"obj-74::obj-129" : [ "MIDICC[2]", "MIDICC", 0 ]
+			"obj-74::obj-12" : [ "Mute[9]", "Mute", 0 ]
 		}
 ,
 		"dependency_cache" : [  ]

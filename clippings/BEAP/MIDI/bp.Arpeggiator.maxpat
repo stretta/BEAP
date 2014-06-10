@@ -2,13 +2,13 @@
 	"patcher" : 	{
 		"fileversion" : 1,
 		"appversion" : 		{
-			"major" : 6,
-			"minor" : 1,
-			"revision" : 3,
-			"architecture" : "x86"
+			"major" : 7,
+			"minor" : 0,
+			"revision" : 0,
+			"architecture" : "x64"
 		}
 ,
-		"rect" : [ 0.0, 44.0, 1440.0, 759.0 ],
+		"rect" : [ 32.0, 44.0, 1440.0, 759.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -29,22 +29,29 @@
 		"tags" : "",
 		"boxes" : [ 			{
 				"box" : 				{
+					"bgmode" : 0,
+					"border" : 0,
+					"clickthrough" : 0,
 					"embed" : 1,
+					"enablehscroll" : 0,
+					"enablevscroll" : 0,
 					"id" : "obj-10",
+					"lockeddragscroll" : 0,
 					"maxclass" : "bpatcher",
 					"numinlets" : 2,
 					"numoutlets" : 1,
+					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "int" ],
 					"patcher" : 					{
 						"fileversion" : 1,
 						"appversion" : 						{
-							"major" : 6,
-							"minor" : 1,
-							"revision" : 3,
-							"architecture" : "x86"
+							"major" : 7,
+							"minor" : 0,
+							"revision" : 0,
+							"architecture" : "x64"
 						}
 ,
-						"rect" : [ 0.0, 44.0, 439.0, 116.0 ],
+						"rect" : [ 32.0, 44.0, 439.0, 116.0 ],
 						"bgcolor" : [ 1.0, 1.0, 1.0, 0.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 1,
@@ -552,14 +559,14 @@
 										"live.menu[6]" : [ 5.0 ],
 										"live.text" : [ 0.0 ],
 										"live.text[1]" : [ 1.0 ],
-										"max pulse[1]" : [ 0.0 ],
+										"max pulse[1]" : [ 13.0 ],
 										"swing amount" : [ 50.0 ],
 										"swing switch" : [ 0.0 ],
 										"textedit" : [ 0, 0, -2, -2 ]
 									}
 ,
 									"text" : "autopattr",
-									"varname" : "u070001850"
+									"varname" : "u947005323"
 								}
 
 							}
@@ -839,20 +846,27 @@
 							}
 , 							{
 								"box" : 								{
+									"bgmode" : 0,
+									"border" : 0,
+									"clickthrough" : 0,
+									"enablehscroll" : 0,
+									"enablevscroll" : 0,
 									"fontname" : "Arial",
 									"fontsize" : 12.0,
 									"id" : "obj-262",
+									"lockeddragscroll" : 0,
 									"maxclass" : "newobj",
 									"numinlets" : 1,
 									"numoutlets" : 1,
+									"offset" : [ 0.0, 0.0 ],
 									"outlettype" : [ "bang" ],
 									"patcher" : 									{
 										"fileversion" : 1,
 										"appversion" : 										{
-											"major" : 6,
-											"minor" : 1,
-											"revision" : 3,
-											"architecture" : "x86"
+											"major" : 7,
+											"minor" : 0,
+											"revision" : 0,
+											"architecture" : "x64"
 										}
 ,
 										"rect" : [ 25.0, 95.0, 1058.0, 771.0 ],
@@ -1412,7 +1426,7 @@
 													"destination" : [ "obj-10", 0 ],
 													"disabled" : 0,
 													"hidden" : 0,
-													"midpoints" : [ 93.354172, 250.0, 404.125, 250.0 ],
+													"midpoints" : [ 93.354168, 250.0, 404.125, 250.0 ],
 													"source" : [ "obj-222", 2 ]
 												}
 
@@ -1422,7 +1436,7 @@
 													"destination" : [ "obj-11", 0 ],
 													"disabled" : 0,
 													"hidden" : 0,
-													"midpoints" : [ 93.354172, 250.0, 548.125, 250.0 ],
+													"midpoints" : [ 93.354168, 250.0, 548.125, 250.0 ],
 													"source" : [ "obj-222", 2 ]
 												}
 
@@ -1432,7 +1446,7 @@
 													"destination" : [ "obj-12", 0 ],
 													"disabled" : 0,
 													"hidden" : 0,
-													"midpoints" : [ 93.354172, 250.0, 500.125, 250.0 ],
+													"midpoints" : [ 93.354168, 250.0, 500.125, 250.0 ],
 													"source" : [ "obj-222", 2 ]
 												}
 
@@ -1442,7 +1456,7 @@
 													"destination" : [ "obj-19", 0 ],
 													"disabled" : 0,
 													"hidden" : 0,
-													"midpoints" : [ 76.427086, 274.0, 100.125, 274.0 ],
+													"midpoints" : [ 76.427084, 274.0, 100.125, 274.0 ],
 													"source" : [ "obj-222", 1 ]
 												}
 
@@ -1497,7 +1511,7 @@
 													"destination" : [ "obj-4", 0 ],
 													"disabled" : 0,
 													"hidden" : 0,
-													"midpoints" : [ 93.354172, 250.0, 212.125, 250.0 ],
+													"midpoints" : [ 93.354168, 250.0, 212.125, 250.0 ],
 													"source" : [ "obj-222", 2 ]
 												}
 
@@ -1507,7 +1521,7 @@
 													"destination" : [ "obj-5", 0 ],
 													"disabled" : 0,
 													"hidden" : 0,
-													"midpoints" : [ 93.354172, 250.0, 260.125, 250.0 ],
+													"midpoints" : [ 93.354168, 250.0, 260.125, 250.0 ],
 													"source" : [ "obj-222", 2 ]
 												}
 
@@ -1517,7 +1531,7 @@
 													"destination" : [ "obj-6", 0 ],
 													"disabled" : 0,
 													"hidden" : 0,
-													"midpoints" : [ 93.354172, 250.0, 308.125, 250.0 ],
+													"midpoints" : [ 93.354168, 250.0, 308.125, 250.0 ],
 													"source" : [ "obj-222", 2 ]
 												}
 
@@ -1527,7 +1541,7 @@
 													"destination" : [ "obj-8", 0 ],
 													"disabled" : 0,
 													"hidden" : 0,
-													"midpoints" : [ 93.354172, 250.0, 356.125, 250.0 ],
+													"midpoints" : [ 93.354168, 250.0, 356.125, 250.0 ],
 													"source" : [ "obj-222", 2 ]
 												}
 
@@ -1537,7 +1551,7 @@
 													"destination" : [ "obj-9", 0 ],
 													"disabled" : 0,
 													"hidden" : 0,
-													"midpoints" : [ 93.354172, 250.0, 452.125, 250.0 ],
+													"midpoints" : [ 93.354168, 250.0, 452.125, 250.0 ],
 													"source" : [ "obj-222", 2 ]
 												}
 
@@ -1685,7 +1699,8 @@
 										"tags" : ""
 									}
 ,
-									"text" : "p swingamajig"
+									"text" : "p swingamajig",
+									"viewvisibility" : 0
 								}
 
 							}
@@ -1997,20 +2012,27 @@
 							}
 , 							{
 								"box" : 								{
+									"bgmode" : 0,
+									"border" : 0,
+									"clickthrough" : 0,
+									"enablehscroll" : 0,
+									"enablevscroll" : 0,
 									"fontname" : "Arial",
 									"fontsize" : 12.0,
 									"id" : "obj-116",
+									"lockeddragscroll" : 0,
 									"maxclass" : "newobj",
 									"numinlets" : 2,
 									"numoutlets" : 1,
+									"offset" : [ 0.0, 0.0 ],
 									"outlettype" : [ "" ],
 									"patcher" : 									{
 										"fileversion" : 1,
 										"appversion" : 										{
-											"major" : 6,
-											"minor" : 1,
-											"revision" : 3,
-											"architecture" : "x86"
+											"major" : 7,
+											"minor" : 0,
+											"revision" : 0,
+											"architecture" : "x64"
 										}
 ,
 										"rect" : [ 50.0, 94.0, 640.0, 480.0 ],
@@ -2268,26 +2290,34 @@
 										"tags" : ""
 									}
 ,
-									"text" : "p direction"
+									"text" : "p direction",
+									"viewvisibility" : 0
 								}
 
 							}
 , 							{
 								"box" : 								{
+									"bgmode" : 0,
+									"border" : 0,
+									"clickthrough" : 0,
+									"enablehscroll" : 0,
+									"enablevscroll" : 0,
 									"fontname" : "Arial",
 									"fontsize" : 12.0,
 									"id" : "obj-118",
+									"lockeddragscroll" : 0,
 									"maxclass" : "newobj",
 									"numinlets" : 2,
 									"numoutlets" : 1,
+									"offset" : [ 0.0, 0.0 ],
 									"outlettype" : [ "" ],
 									"patcher" : 									{
 										"fileversion" : 1,
 										"appversion" : 										{
-											"major" : 6,
-											"minor" : 1,
-											"revision" : 3,
-											"architecture" : "x86"
+											"major" : 7,
+											"minor" : 0,
+											"revision" : 0,
+											"architecture" : "x64"
 										}
 ,
 										"rect" : [ 800.0, 250.0, 640.0, 480.0 ],
@@ -2527,26 +2557,34 @@
 										"tags" : ""
 									}
 ,
-									"text" : "p sort"
+									"text" : "p sort",
+									"viewvisibility" : 0
 								}
 
 							}
 , 							{
 								"box" : 								{
+									"bgmode" : 0,
+									"border" : 0,
+									"clickthrough" : 0,
+									"enablehscroll" : 0,
+									"enablevscroll" : 0,
 									"fontname" : "Arial",
 									"fontsize" : 12.0,
 									"id" : "obj-119",
+									"lockeddragscroll" : 0,
 									"maxclass" : "newobj",
 									"numinlets" : 2,
 									"numoutlets" : 2,
+									"offset" : [ 0.0, 0.0 ],
 									"outlettype" : [ "", "" ],
 									"patcher" : 									{
 										"fileversion" : 1,
 										"appversion" : 										{
-											"major" : 6,
-											"minor" : 1,
-											"revision" : 3,
-											"architecture" : "x86"
+											"major" : 7,
+											"minor" : 0,
+											"revision" : 0,
+											"architecture" : "x64"
 										}
 ,
 										"rect" : [ 966.0, 293.0, 640.0, 480.0 ],
@@ -2949,7 +2987,8 @@
 										"tags" : ""
 									}
 ,
-									"text" : "p BuildList"
+									"text" : "p BuildList",
+									"viewvisibility" : 0
 								}
 
 							}
@@ -3353,7 +3392,7 @@
 									"destination" : [ "obj-44", 0 ],
 									"disabled" : 0,
 									"hidden" : 0,
-									"midpoints" : [ 548.755615, 349.754333, 805.755615, 349.754333 ],
+									"midpoints" : [ 548.755646, 349.754333, 805.755615, 349.754333 ],
 									"source" : [ "obj-112", 1 ]
 								}
 
@@ -3517,7 +3556,7 @@
 									"destination" : [ "obj-132", 0 ],
 									"disabled" : 0,
 									"hidden" : 0,
-									"midpoints" : [ 540.255615, 1020.072144, 590.505676, 1020.072144 ],
+									"midpoints" : [ 540.255646, 1020.072144, 590.505676, 1020.072144 ],
 									"source" : [ "obj-136", 1 ]
 								}
 
@@ -3527,7 +3566,7 @@
 									"destination" : [ "obj-134", 1 ],
 									"disabled" : 0,
 									"hidden" : 0,
-									"midpoints" : [ 566.755615, 1111.168335, 744.505676, 1111.168335 ],
+									"midpoints" : [ 566.755646, 1111.168335, 744.505676, 1111.168335 ],
 									"source" : [ "obj-136", 2 ]
 								}
 
@@ -3537,7 +3576,7 @@
 									"destination" : [ "obj-135", 0 ],
 									"disabled" : 0,
 									"hidden" : 0,
-									"midpoints" : [ 513.755615, 1148.067993, 590.505676, 1148.067993 ],
+									"midpoints" : [ 513.755646, 1148.067993, 590.505676, 1148.067993 ],
 									"source" : [ "obj-136", 0 ]
 								}
 
@@ -3583,7 +3622,7 @@
 									"destination" : [ "obj-119", 1 ],
 									"disabled" : 0,
 									"hidden" : 0,
-									"midpoints" : [ 805.755615, 497.814453, 595.755615, 497.814453 ],
+									"midpoints" : [ 805.755646, 497.814453, 595.755615, 497.814453 ],
 									"source" : [ "obj-142", 1 ]
 								}
 
@@ -3684,7 +3723,7 @@
 									"destination" : [ "obj-118", 0 ],
 									"disabled" : 0,
 									"hidden" : 0,
-									"midpoints" : [ 418.005646, 924.277344, 513.755615, 924.277344 ],
+									"midpoints" : [ 418.005646, 924.277344, 513.755646, 924.277344 ],
 									"source" : [ "obj-152", 0 ]
 								}
 
@@ -3884,7 +3923,7 @@
 									"destination" : [ "obj-105", 0 ],
 									"disabled" : 0,
 									"hidden" : 0,
-									"midpoints" : [ 1204.212524, 346.938416, 1024.533447, 346.938416 ],
+									"midpoints" : [ 1204.212524, 346.938416, 1024.533508, 346.938416 ],
 									"source" : [ "obj-3", 0 ]
 								}
 
@@ -4011,31 +4050,32 @@
 					}
 ,
 					"patching_rect" : [ 0.0, 0.0, 439.0, 116.0 ],
-					"varname" : "Arpeggiator"
+					"varname" : "Arpeggiator",
+					"viewvisibility" : 1
 				}
 
 			}
  ],
 		"lines" : [  ],
 		"parameters" : 		{
-			"obj-10::obj-47" : [ "PitchActivityLED[7]", "PitchActivityLED", 0 ],
-			"obj-10::obj-96" : [ "Pulse", "Pulse", 0 ],
 			"obj-10::obj-54" : [ "live.text", "live.text", 0 ],
-			"obj-10::obj-120" : [ "Max pulse[1]", "Max pulse", 0 ],
-			"obj-10::obj-48" : [ "PitchActivityLED[8]", "PitchActivityLED", 0 ],
-			"obj-10::obj-139" : [ "ClockSelect", "ClockSelect", 0 ],
 			"obj-10::obj-152" : [ "live.menu[4]", "live.menu[4]", 0 ],
-			"obj-10::obj-155" : [ "Swing amount", "Swing amount", 0 ],
-			"obj-10::obj-28" : [ "Duration", "Duration", 0 ],
+			"obj-10::obj-47" : [ "PitchActivityLED[7]", "PitchActivityLED", 0 ],
+			"obj-10::obj-120" : [ "Max pulse[1]", "Max pulse", 0 ],
+			"obj-10::obj-151" : [ "live.menu", "live.menu", 0 ],
+			"obj-10::obj-139" : [ "ClockSelect", "ClockSelect", 0 ],
 			"obj-10::obj-180" : [ "live.menu[6]", "live.menu[6]", 0 ],
-			"obj-10::obj-44" : [ "live.text[1]", "live.text[1]", 0 ],
+			"obj-10::obj-48" : [ "PitchActivityLED[8]", "PitchActivityLED", 0 ],
+			"obj-10::obj-28" : [ "Duration", "Duration", 0 ],
+			"obj-10::obj-96" : [ "Pulse", "Pulse", 0 ],
 			"obj-10::obj-3" : [ "live.tab[1]", "live.tab", 0 ],
-			"obj-10::obj-151" : [ "live.menu", "live.menu", 0 ]
+			"obj-10::obj-44" : [ "live.text[1]", "live.text[1]", 0 ],
+			"obj-10::obj-155" : [ "Swing amount", "Swing amount", 0 ]
 		}
 ,
 		"dependency_cache" : [ 			{
 				"name" : "swingCalc.js",
-				"bootpath" : "/Applications/Max 6.1/packages/BEAP/misc",
+				"bootpath" : "/Applications/Max 7/packages/Beap/misc",
 				"patcherrelativepath" : "../../../misc",
 				"type" : "TEXT",
 				"implicit" : 1

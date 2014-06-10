@@ -1257,7 +1257,7 @@
 									}
 ,
 									"text" : "autopattr",
-									"varname" : "u480009648"
+									"varname" : "u497005711"
 								}
 
 							}
@@ -1270,10 +1270,10 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 215.642456, 233.35321, 47.0, 17.0 ],
+									"patching_rect" : [ 215.642456, 233.35321, 51.0, 17.0 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 0.0, 0.0, 47.0, 17.0 ],
-									"text" : "Monome",
+									"presentation_rect" : [ 0.0, 0.0, 51.0, 17.0 ],
+									"text" : "Serialosc",
 									"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 								}
 
@@ -1338,10 +1338,10 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 215.642456, 157.53479, 47.0, 17.0 ],
+									"patching_rect" : [ 215.642456, 157.53479, 51.0, 17.0 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 2.0, 97.0, 47.0, 17.0 ],
-									"text" : "Monome",
+									"presentation_rect" : [ 2.0, 97.0, 51.0, 17.0 ],
+									"text" : "Serialosc",
 									"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 								}
 

@@ -2,13 +2,13 @@
 	"patcher" : 	{
 		"fileversion" : 1,
 		"appversion" : 		{
-			"major" : 6,
-			"minor" : 1,
+			"major" : 7,
+			"minor" : 0,
 			"revision" : 0,
-			"architecture" : "x86"
+			"architecture" : "x64"
 		}
 ,
-		"rect" : [ 0.0, 44.0, 2506.0, 1350.0 ],
+		"rect" : [ 0.0, 44.0, 1280.0, 663.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -29,19 +29,26 @@
 		"tags" : "",
 		"boxes" : [ 			{
 				"box" : 				{
+					"bgmode" : 0,
+					"border" : 0,
+					"clickthrough" : 0,
 					"embed" : 1,
+					"enablehscroll" : 0,
+					"enablevscroll" : 0,
 					"id" : "obj-12",
+					"lockeddragscroll" : 0,
 					"maxclass" : "bpatcher",
 					"numinlets" : 1,
 					"numoutlets" : 4,
+					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "int", "int", "int", "int" ],
 					"patcher" : 					{
 						"fileversion" : 1,
 						"appversion" : 						{
-							"major" : 6,
-							"minor" : 1,
+							"major" : 7,
+							"minor" : 0,
 							"revision" : 0,
-							"architecture" : "x86"
+							"architecture" : "x64"
 						}
 ,
 						"rect" : [ 0.0, 44.0, 108.0, 116.0 ],
@@ -131,12 +138,12 @@
 									"presentation_rect" : [ 93.222778, 100.0, 9.277222, 9.795346 ],
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
-											"parameter_enum" : [ "off", "on" ],
-											"parameter_mmax" : 1.0,
-											"parameter_type" : 2,
-											"parameter_invisible" : 2,
+											"parameter_longname" : "PitchActivityLED[4]",
 											"parameter_shortname" : "PitchActivityLED",
-											"parameter_longname" : "PitchActivityLED[4]"
+											"parameter_type" : 2,
+											"parameter_mmax" : 1.0,
+											"parameter_enum" : [ "off", "on" ],
+											"parameter_invisible" : 2
 										}
 
 									}
@@ -161,12 +168,12 @@
 									"presentation_rect" : [ 67.376808, 100.0, 9.277222, 9.795346 ],
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
-											"parameter_enum" : [ "off", "on" ],
-											"parameter_mmax" : 1.0,
-											"parameter_type" : 2,
-											"parameter_invisible" : 2,
+											"parameter_longname" : "PitchActivityLED[3]",
 											"parameter_shortname" : "PitchActivityLED",
-											"parameter_longname" : "PitchActivityLED[3]"
+											"parameter_type" : 2,
+											"parameter_mmax" : 1.0,
+											"parameter_enum" : [ "off", "on" ],
+											"parameter_invisible" : 2
 										}
 
 									}
@@ -191,12 +198,12 @@
 									"presentation_rect" : [ 38.889442, 100.0, 9.277222, 9.795346 ],
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
-											"parameter_enum" : [ "off", "on" ],
-											"parameter_mmax" : 1.0,
-											"parameter_type" : 2,
-											"parameter_invisible" : 2,
+											"parameter_longname" : "PitchActivityLED[2]",
 											"parameter_shortname" : "PitchActivityLED",
-											"parameter_longname" : "PitchActivityLED[2]"
+											"parameter_type" : 2,
+											"parameter_mmax" : 1.0,
+											"parameter_enum" : [ "off", "on" ],
+											"parameter_invisible" : 2
 										}
 
 									}
@@ -212,8 +219,7 @@
 									"maxclass" : "outlet",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 662.25, 784.0, 25.0, 25.0 ],
-									"presentation_rect" : [ 704.0, 956.0, 0.0, 0.0 ]
+									"patching_rect" : [ 662.25, 784.0, 25.0, 25.0 ]
 								}
 
 							}
@@ -224,8 +230,7 @@
 									"maxclass" : "outlet",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 516.0, 779.0, 25.0, 25.0 ],
-									"presentation_rect" : [ 521.75, 958.0, 0.0, 0.0 ]
+									"patching_rect" : [ 516.0, 779.0, 25.0, 25.0 ]
 								}
 
 							}
@@ -236,8 +241,7 @@
 									"maxclass" : "outlet",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 375.75, 779.0, 25.0, 25.0 ],
-									"presentation_rect" : [ 382.0, 954.0, 0.0, 0.0 ]
+									"patching_rect" : [ 375.75, 779.0, 25.0, 25.0 ]
 								}
 
 							}
@@ -251,7 +255,6 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "int" ],
 									"patching_rect" : [ 670.25, 669.0, 100.0, 20.0 ],
-									"presentation_rect" : [ 992.75, 496.0, 0.0, 0.0 ],
 									"text" : "midiformat"
 								}
 
@@ -266,7 +269,6 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "int" ],
 									"patching_rect" : [ 527.0, 669.0, 100.0, 20.0 ],
-									"presentation_rect" : [ 849.5, 496.0, 0.0, 0.0 ],
 									"text" : "midiformat"
 								}
 
@@ -281,7 +283,6 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "int" ],
 									"patching_rect" : [ 383.75, 669.0, 100.0, 20.0 ],
-									"presentation_rect" : [ 710.5, 518.0, 0.0, 0.0 ],
 									"text" : "midiformat"
 								}
 
@@ -296,7 +297,6 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "int" ],
 									"patching_rect" : [ 240.5, 669.0, 100.0, 20.0 ],
-									"presentation_rect" : [ 801.5, 521.0, 0.0, 0.0 ],
 									"text" : "midiformat"
 								}
 
@@ -418,13 +418,13 @@
 									"presentation_rect" : [ 55.530842, 19.0, 44.969158, 14.764645 ],
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
-											"parameter_enum" : [ "val1", "val2" ],
-											"parameter_mmax" : 1.0,
-											"parameter_initial" : [ 0.0 ],
-											"parameter_type" : 2,
-											"parameter_initial_enable" : 1,
-											"parameter_shortname" : "bypass",
 											"parameter_longname" : "bypass",
+											"parameter_shortname" : "bypass",
+											"parameter_type" : 2,
+											"parameter_mmax" : 1.0,
+											"parameter_enum" : [ "val1", "val2" ],
+											"parameter_initial_enable" : 1,
+											"parameter_initial" : [ 0.0 ],
 											"parameter_defer" : 1
 										}
 
@@ -453,12 +453,12 @@
 									"presentation_rect" : [ 11.0, 100.0, 9.277222, 9.795346 ],
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
-											"parameter_enum" : [ "off", "on" ],
-											"parameter_mmax" : 1.0,
-											"parameter_type" : 2,
-											"parameter_invisible" : 2,
+											"parameter_longname" : "PitchActivityLED[1]",
 											"parameter_shortname" : "PitchActivityLED",
-											"parameter_longname" : "PitchActivityLED[1]"
+											"parameter_type" : 2,
+											"parameter_mmax" : 1.0,
+											"parameter_enum" : [ "off", "on" ],
+											"parameter_invisible" : 2
 										}
 
 									}
@@ -494,12 +494,12 @@
 									"presentation_rect" : [ 25.0, 3.0, 9.277222, 9.795346 ],
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
-											"parameter_enum" : [ "off", "on" ],
-											"parameter_mmax" : 1.0,
-											"parameter_type" : 2,
-											"parameter_invisible" : 2,
+											"parameter_longname" : "PitchActivityLED[6]",
 											"parameter_shortname" : "PitchActivityLED",
-											"parameter_longname" : "PitchActivityLED[6]"
+											"parameter_type" : 2,
+											"parameter_mmax" : 1.0,
+											"parameter_enum" : [ "off", "on" ],
+											"parameter_invisible" : 2
 										}
 
 									}
@@ -605,7 +605,7 @@
 									}
 ,
 									"text" : "autopattr",
-									"varname" : "u194001611"
+									"varname" : "u948005794"
 								}
 
 							}
@@ -904,7 +904,8 @@
 					}
 ,
 					"patching_rect" : [ 0.0, 0.0, 108.0, 116.0 ],
-					"varname" : "Transpose"
+					"varname" : "Transpose",
+					"viewvisibility" : 1
 				}
 
 			}
@@ -912,10 +913,10 @@
 		"lines" : [  ],
 		"parameters" : 		{
 			"obj-12::obj-35" : [ "PitchActivityLED[4]", "PitchActivityLED", 0 ],
-			"obj-12::obj-33" : [ "PitchActivityLED[2]", "PitchActivityLED", 0 ],
 			"obj-12::obj-3" : [ "PitchActivityLED[6]", "PitchActivityLED", 0 ],
-			"obj-12::obj-29" : [ "bypass", "bypass", 0 ],
 			"obj-12::obj-22" : [ "PitchActivityLED[1]", "PitchActivityLED", 0 ],
+			"obj-12::obj-33" : [ "PitchActivityLED[2]", "PitchActivityLED", 0 ],
+			"obj-12::obj-29" : [ "bypass", "bypass", 0 ],
 			"obj-12::obj-34" : [ "PitchActivityLED[3]", "PitchActivityLED", 0 ]
 		}
 ,

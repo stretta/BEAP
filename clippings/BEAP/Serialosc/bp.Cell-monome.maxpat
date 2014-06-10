@@ -2,10 +2,10 @@
 	"patcher" : 	{
 		"fileversion" : 1,
 		"appversion" : 		{
-			"major" : 6,
-			"minor" : 1,
-			"revision" : 3,
-			"architecture" : "x86"
+			"major" : 7,
+			"minor" : 0,
+			"revision" : 0,
+			"architecture" : "x64"
 		}
 ,
 		"rect" : [ 316.0, 91.0, 769.0, 597.0 ],
@@ -29,19 +29,26 @@
 		"tags" : "",
 		"boxes" : [ 			{
 				"box" : 				{
+					"bgmode" : 0,
+					"border" : 0,
+					"clickthrough" : 0,
 					"embed" : 1,
+					"enablehscroll" : 0,
+					"enablevscroll" : 0,
 					"id" : "obj-42",
+					"lockeddragscroll" : 0,
 					"maxclass" : "bpatcher",
 					"numinlets" : 1,
 					"numoutlets" : 2,
+					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "", "signal" ],
 					"patcher" : 					{
 						"fileversion" : 1,
 						"appversion" : 						{
-							"major" : 6,
-							"minor" : 1,
-							"revision" : 3,
-							"architecture" : "x86"
+							"major" : 7,
+							"minor" : 0,
+							"revision" : 0,
+							"architecture" : "x64"
 						}
 ,
 						"rect" : [ 316.0, 91.0, 241.0, 116.0 ],
@@ -415,6 +422,8 @@
 									"activebgoncolor" : [ 1.0, 0.548455, 0.000076, 1.0 ],
 									"id" : "obj-48",
 									"maxclass" : "live.tab",
+									"num_lines_patching" : 0,
+									"num_lines_presentation" : 2,
 									"numinlets" : 1,
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "float" ],
@@ -679,7 +688,7 @@
 									"patching_rect" : [ 1431.967651, 509.589081, 40.0, 27.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 3.079245, 97.0, 49.0, 17.0 ],
-									"text" : "Monome",
+									"text" : "Serialosc",
 									"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 								}
 
@@ -795,7 +804,7 @@
 									"patching_rect" : [ 1431.967651, 470.646332, 37.0, 27.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 1.263977, -0.030966, 49.0, 17.0 ],
-									"text" : "Monome",
+									"text" : "Serialosc",
 									"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 								}
 
@@ -847,7 +856,7 @@
 									}
 ,
 									"text" : "autopattr",
-									"varname" : "u878001937"
+									"varname" : "u966002780"
 								}
 
 							}
@@ -1261,18 +1270,19 @@
 					}
 ,
 					"patching_rect" : [ 0.0, 0.0, 241.0, 116.0 ],
-					"varname" : "Cell"
+					"varname" : "Cell",
+					"viewvisibility" : 1
 				}
 
 			}
  ],
 		"lines" : [  ],
 		"parameters" : 		{
-			"obj-42::obj-20" : [ "power[1]", "power", 0 ],
 			"obj-42::obj-3" : [ "live.text", "live.text", 0 ],
-			"obj-42::obj-46" : [ "Row", "Row", 0 ],
 			"obj-42::obj-48" : [ "Mype", "Mype", 0 ],
-			"obj-42::obj-171" : [ "Col", "Col", 0 ]
+			"obj-42::obj-46" : [ "Row", "Row", 0 ],
+			"obj-42::obj-171" : [ "Col", "Col", 0 ],
+			"obj-42::obj-20" : [ "power[1]", "power", 0 ]
 		}
 ,
 		"dependency_cache" : [  ]

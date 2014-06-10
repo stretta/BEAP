@@ -2,10 +2,10 @@
 	"patcher" : 	{
 		"fileversion" : 1,
 		"appversion" : 		{
-			"major" : 6,
-			"minor" : 1,
-			"revision" : 3,
-			"architecture" : "x86"
+			"major" : 7,
+			"minor" : 0,
+			"revision" : 0,
+			"architecture" : "x64"
 		}
 ,
 		"rect" : [ 25.0, 69.0, 640.0, 480.0 ],
@@ -29,19 +29,26 @@
 		"tags" : "",
 		"boxes" : [ 			{
 				"box" : 				{
+					"bgmode" : 0,
+					"border" : 0,
+					"clickthrough" : 0,
 					"embed" : 1,
+					"enablehscroll" : 0,
+					"enablevscroll" : 0,
 					"id" : "obj-79",
+					"lockeddragscroll" : 0,
 					"maxclass" : "bpatcher",
 					"numinlets" : 1,
 					"numoutlets" : 1,
+					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "signal" ],
 					"patcher" : 					{
 						"fileversion" : 1,
 						"appversion" : 						{
-							"major" : 6,
-							"minor" : 1,
-							"revision" : 3,
-							"architecture" : "x86"
+							"major" : 7,
+							"minor" : 0,
+							"revision" : 0,
+							"architecture" : "x64"
 						}
 ,
 						"rect" : [ 25.0, 69.0, 94.0, 116.0 ],
@@ -242,10 +249,10 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 215.101822, 209.319611, 48.0, 17.0 ],
+									"patching_rect" : [ 215.101822, 209.319611, 51.0, 17.0 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 0.0, 0.0, 47.0, 17.0 ],
-									"text" : "Monome",
+									"presentation_rect" : [ 0.0, 0.0, 51.0, 17.0 ],
+									"text" : "Serialosc",
 									"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 								}
 
@@ -666,15 +673,16 @@
 					}
 ,
 					"patching_rect" : [ 0.0, 0.0, 94.0, 116.0 ],
-					"varname" : "64P"
+					"varname" : "64P",
+					"viewvisibility" : 1
 				}
 
 			}
  ],
 		"lines" : [  ],
 		"parameters" : 		{
-			"obj-79::obj-70" : [ "Mute[21]", "Mute", 0 ],
-			"obj-79::obj-12" : [ "Mute[22]", "Mute", 0 ]
+			"obj-79::obj-12" : [ "Mute[22]", "Mute", 0 ],
+			"obj-79::obj-70" : [ "Mute[21]", "Mute", 0 ]
 		}
 ,
 		"dependency_cache" : [  ]

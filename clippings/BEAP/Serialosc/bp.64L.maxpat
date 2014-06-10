@@ -2,10 +2,10 @@
 	"patcher" : 	{
 		"fileversion" : 1,
 		"appversion" : 		{
-			"major" : 6,
-			"minor" : 1,
+			"major" : 7,
+			"minor" : 0,
 			"revision" : 0,
-			"architecture" : "x86"
+			"architecture" : "x64"
 		}
 ,
 		"rect" : [ 25.0, 69.0, 640.0, 480.0 ],
@@ -29,19 +29,26 @@
 		"tags" : "",
 		"boxes" : [ 			{
 				"box" : 				{
+					"bgmode" : 0,
+					"border" : 0,
+					"clickthrough" : 0,
 					"embed" : 1,
+					"enablehscroll" : 0,
+					"enablevscroll" : 0,
 					"id" : "obj-78",
+					"lockeddragscroll" : 0,
 					"maxclass" : "bpatcher",
 					"numinlets" : 1,
 					"numoutlets" : 1,
+					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "" ],
 					"patcher" : 					{
 						"fileversion" : 1,
 						"appversion" : 						{
-							"major" : 6,
-							"minor" : 1,
+							"major" : 7,
+							"minor" : 0,
 							"revision" : 0,
-							"architecture" : "x86"
+							"architecture" : "x64"
 						}
 ,
 						"rect" : [ 25.0, 69.0, 94.0, 116.0 ],
@@ -320,14 +327,14 @@
 									"presentation_rect" : [ 45.432007, 49.0, 43.0401, 15.0 ],
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
-											"parameter_mmin" : 1.0,
-											"parameter_initial" : [ 10 ],
-											"parameter_type" : 0,
-											"parameter_initial_enable" : 1,
-											"parameter_shortname" : "SampleRate",
 											"parameter_longname" : "SampleRate[4]",
-											"parameter_unitstyle" : 0,
-											"parameter_mmax" : 1000.0
+											"parameter_shortname" : "SampleRate",
+											"parameter_type" : 0,
+											"parameter_mmin" : 1.0,
+											"parameter_mmax" : 1000.0,
+											"parameter_initial_enable" : 1,
+											"parameter_initial" : [ 10 ],
+											"parameter_unitstyle" : 0
 										}
 
 									}
@@ -384,13 +391,13 @@
 									"presentation_rect" : [ 7.911957, 73.0, 80.56015, 14.764645 ],
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
-											"parameter_initial" : [ 0.0 ],
-											"parameter_type" : 2,
-											"parameter_shortname" : "Mute",
 											"parameter_longname" : "Mute[19]",
-											"parameter_defer" : 1,
+											"parameter_shortname" : "Mute",
+											"parameter_type" : 2,
+											"parameter_mmax" : 1.0,
 											"parameter_enum" : [ "val1", "val2" ],
-											"parameter_mmax" : 1.0
+											"parameter_initial" : [ 0.0 ],
+											"parameter_defer" : 1
 										}
 
 									}
@@ -447,14 +454,13 @@
 									"fontsize" : 9.0,
 									"frgb" : 0.0,
 									"id" : "obj-8",
-									"linecount" : 2,
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 217.642456, 264.0, 37.0, 27.0 ],
+									"patching_rect" : [ 217.642456, 264.0, 51.0, 17.0 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 2.0, 97.0, 47.0, 17.0 ],
-									"text" : "Monome",
+									"presentation_rect" : [ 2.0, 97.0, 51.0, 17.0 ],
+									"text" : "Serialosc",
 									"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 								}
 
@@ -478,13 +484,13 @@
 									"presentation_rect" : [ 44.212082, 19.0, 45.47995, 14.764645 ],
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
-											"parameter_initial" : [ 0.0 ],
-											"parameter_type" : 2,
-											"parameter_shortname" : "Mute",
 											"parameter_longname" : "Mute[20]",
-											"parameter_defer" : 1,
+											"parameter_shortname" : "Mute",
+											"parameter_type" : 2,
+											"parameter_mmax" : 1.0,
 											"parameter_enum" : [ "val1", "val2" ],
-											"parameter_mmax" : 1.0
+											"parameter_initial" : [ 0.0 ],
+											"parameter_defer" : 1
 										}
 
 									}
@@ -808,16 +814,17 @@
 					}
 ,
 					"patching_rect" : [ 0.0, 0.0, 94.0, 116.0 ],
-					"varname" : "64L"
+					"varname" : "64L",
+					"viewvisibility" : 1
 				}
 
 			}
  ],
 		"lines" : [  ],
 		"parameters" : 		{
-			"obj-78::obj-12" : [ "Mute[20]", "Mute", 0 ],
 			"obj-78::obj-75" : [ "SampleRate[4]", "SampleRate", 0 ],
-			"obj-78::obj-70" : [ "Mute[19]", "Mute", 0 ]
+			"obj-78::obj-70" : [ "Mute[19]", "Mute", 0 ],
+			"obj-78::obj-12" : [ "Mute[20]", "Mute", 0 ]
 		}
 ,
 		"dependency_cache" : [  ]
