@@ -91,9 +91,9 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 33.0, 67.0, 334.0, 20.0 ],
+									"patching_rect" : [ 33.0, 67.0, 285.0, 20.0 ],
 									"style" : "",
-									"text" : "## Snapshotter converts a Beap signal into a Max message. "
+									"text" : "## Converts a Beap signal into a Max message. ## "
 								}
 
 							}
