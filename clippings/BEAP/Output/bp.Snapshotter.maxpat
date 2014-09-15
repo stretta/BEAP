@@ -93,7 +93,7 @@
 									"numoutlets" : 0,
 									"patching_rect" : [ 33.0, 67.0, 285.0, 20.0 ],
 									"style" : "",
-									"text" : "## Converts a Beap signal into a Max message. ## "
+									"text" : "## Convert a Beap signal into a Max message. ## "
 								}
 
 							}
@@ -621,7 +621,7 @@
 									"numoutlets" : 0,
 									"patching_rect" : [ 111.0, 284.089142, 43.0, 17.0 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 163.0, 46.08913, 43.0, 17.0 ],
+									"presentation_rect" : [ 156.0, 46.08913, 43.0, 17.0 ],
 									"style" : "",
 									"text" : "Interval",
 									"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
@@ -638,7 +638,7 @@
 									"numoutlets" : 0,
 									"patching_rect" : [ 73.0, 417.0, 49.0, 17.0 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 9.0, 97.338158, 49.0, 17.0 ],
+									"presentation_rect" : [ 2.0, 97.338158, 49.0, 17.0 ],
 									"style" : "",
 									"text" : "Message",
 									"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
@@ -656,7 +656,7 @@
 									"parameter_enable" : 1,
 									"patching_rect" : [ 111.0, 312.0, 64.0, 15.0 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 163.0, 72.662163, 63.688538, 15.0 ],
+									"presentation_rect" : [ 156.0, 72.662163, 63.688538, 15.0 ],
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
 											"parameter_longname" : "Interval",
@@ -697,7 +697,7 @@
 									"numoutlets" : 0,
 									"patching_rect" : [ 177.0, 123.984009, 40.0, 17.0 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 8.5, 69.082214, 40.0, 17.0 ],
+									"presentation_rect" : [ 2.0, 69.082214, 40.0, 17.0 ],
 									"style" : "",
 									"text" : "Output",
 									"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
@@ -727,7 +727,7 @@
 									"numoutlets" : 0,
 									"patching_rect" : [ 105.0, 123.984009, 32.0, 17.0 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 8.5, 44.08913, 32.0, 17.0 ],
+									"presentation_rect" : [ 2.0, 44.08913, 32.0, 17.0 ],
 									"style" : "",
 									"text" : "Input",
 									"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
@@ -750,7 +750,7 @@
 									"parameter_enable" : 1,
 									"patching_rect" : [ 177.0, 148.0625, 57.0, 65.663452 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 47.834976, 69.082214, 102.165024, 22.159897 ],
+									"presentation_rect" : [ 43.834976, 69.082214, 102.165024, 22.159897 ],
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
 											"parameter_longname" : "OutputRange",
@@ -785,7 +785,7 @@
 									"parameter_enable" : 1,
 									"patching_rect" : [ 105.0, 148.0625, 57.0, 65.663452 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 47.834976, 44.08913, 102.165024, 22.159897 ],
+									"presentation_rect" : [ 43.834976, 44.08913, 102.165024, 22.159897 ],
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
 											"parameter_longname" : "InputRange",
@@ -1001,9 +1001,9 @@
  ],
 		"lines" : [  ],
 		"parameters" : 		{
+			"obj-3::obj-33" : [ "InputRange", "InputRange", 0 ],
 			"obj-3::obj-129" : [ "Interval", "Interval", 0 ],
-			"obj-3::obj-7" : [ "OutputRange", "OutputRange", 0 ],
-			"obj-3::obj-33" : [ "InputRange", "InputRange", 0 ]
+			"obj-3::obj-7" : [ "OutputRange", "OutputRange", 0 ]
 		}
 ,
 		"dependency_cache" : [  ],

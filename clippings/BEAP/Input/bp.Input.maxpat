@@ -123,7 +123,7 @@
 											"parameter_mmin" : 1.0,
 											"parameter_mmax" : 32.0,
 											"parameter_initial_enable" : 1,
-											"parameter_initial" : [ 50 ],
+											"parameter_initial" : [ 1 ],
 											"parameter_unitstyle" : 0
 										}
 
@@ -178,7 +178,7 @@
 ,
 									"style" : "",
 									"text" : "autopattr",
-									"varname" : "u678004909"
+									"varname" : "u931002543"
 								}
 
 							}
@@ -594,8 +594,8 @@
  ],
 		"lines" : [  ],
 		"parameters" : 		{
-			"obj-18::obj-20" : [ "mute", "mute", 0 ],
-			"obj-18::obj-46" : [ "Channel", "Channel", 0 ]
+			"obj-18::obj-46" : [ "Channel", "Channel", 0 ],
+			"obj-18::obj-20" : [ "mute", "mute", 0 ]
 		}
 ,
 		"dependency_cache" : [  ],
