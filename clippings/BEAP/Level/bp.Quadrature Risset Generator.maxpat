@@ -910,20 +910,6 @@
 								"box" : 								{
 									"fontname" : "Arial",
 									"fontsize" : 12.0,
-									"id" : "obj-111",
-									"maxclass" : "comment",
-									"numinlets" : 1,
-									"numoutlets" : 0,
-									"patching_rect" : [ 1239.107178, 694.69342, 71.0, 20.0 ],
-									"style" : "",
-									"text" : "risset voice"
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"fontname" : "Arial",
-									"fontsize" : 12.0,
 									"id" : "obj-124",
 									"maxclass" : "newobj",
 									"numinlets" : 6,
@@ -1118,7 +1104,7 @@
 ,
 									"style" : "",
 									"text" : "autopattr",
-									"varname" : "u337011565"
+									"varname" : "u203002500"
 								}
 
 							}
