@@ -93,7 +93,7 @@
 									"numoutlets" : 0,
 									"patching_rect" : [ 48.0, 89.0, 315.0, 20.0 ],
 									"style" : "",
-									"text" : "## Attack decay sustain release envelope generator. ## "
+									"text" : "## Attack decay sustain release envelope generator ## "
 								}
 
 							}
@@ -632,7 +632,7 @@
 ,
 									"style" : "",
 									"text" : "autopattr",
-									"varname" : "u110004897"
+									"varname" : "u823002324"
 								}
 
 							}
@@ -1125,12 +1125,12 @@
  ],
 		"lines" : [  ],
 		"parameters" : 		{
-			"obj-4::obj-31" : [ "Release", "Release", 0 ],
-			"obj-4::obj-32" : [ "Sustain", "Sustain", 0 ],
 			"obj-4::obj-1" : [ "Attack", "Attack", 0 ],
-			"obj-4::obj-30" : [ "Legato", "Legato", 0 ],
 			"obj-4::obj-20" : [ "Mute[4]", "Mute", 0 ],
-			"obj-4::obj-29" : [ "Decay", "Decay", 0 ]
+			"obj-4::obj-30" : [ "Legato", "Legato", 0 ],
+			"obj-4::obj-29" : [ "Decay", "Decay", 0 ],
+			"obj-4::obj-31" : [ "Release", "Release", 0 ],
+			"obj-4::obj-32" : [ "Sustain", "Sustain", 0 ]
 		}
 ,
 		"dependency_cache" : [  ],

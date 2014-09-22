@@ -94,7 +94,7 @@
 									"numoutlets" : 0,
 									"patching_rect" : [ 21.642456, 70.0, 304.0, 33.0 ],
 									"style" : "",
-									"text" : "## Attack sustain release envelope. Like the AR envelope, but with adjustable level. ## "
+									"text" : "## Attack sustain release envelope. Like the AR envelope, but with adjustable level ## "
 								}
 
 							}
@@ -518,7 +518,7 @@
 ,
 									"style" : "",
 									"text" : "autopattr",
-									"varname" : "u815006427"
+									"varname" : "u038002686"
 								}
 
 							}
@@ -886,9 +886,9 @@
  ],
 		"lines" : [  ],
 		"parameters" : 		{
+			"obj-10::obj-20" : [ "mute", "mute", 0 ],
 			"obj-10::obj-6" : [ "Sustain[1]", "Sustain", 0 ],
 			"obj-10::obj-32" : [ "Release[1]", "Release", 0 ],
-			"obj-10::obj-20" : [ "mute", "mute", 0 ],
 			"obj-10::obj-45" : [ "Attack[1]", "Attack", 0 ]
 		}
 ,

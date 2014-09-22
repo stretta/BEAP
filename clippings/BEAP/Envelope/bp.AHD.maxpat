@@ -94,7 +94,7 @@
 									"numoutlets" : 0,
 									"patching_rect" : [ 26.173828, 79.5, 383.0, 20.0 ],
 									"style" : "",
-									"text" : "## Attack hold decay envelope with voltage controlled parameters. ## "
+									"text" : "## Attack hold decay envelope with voltage controlled parameters ## "
 								}
 
 							}
@@ -570,11 +570,29 @@
 												}
 
 											}
- ]
+ ],
+										"bgfillcolor" : 										{
+											"type" : "gradient",
+											"color1" : [ 0.435294, 0.462745, 0.498039, 1.0 ],
+											"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
+											"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
+											"angle" : 270.0,
+											"proportion" : 0.39
+										}
+
 									}
 ,
 									"patching_rect" : [ 458.673828, 495.910736, 82.0, 22.0 ],
 									"saved_object_attributes" : 									{
+										"bgfillcolor" : [ 											{
+												"type" : "gradient",
+												"color1" : [ 0.435294, 0.462745, 0.498039, 1.0 ],
+												"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
+												"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
+												"angle" : 270.0,
+												"proportion" : 0.39
+											}
+ ],
 										"bgfillcolor_dictionary" : 										{
 											"type" : "gradient",
 											"color1" : [ 0.435294, 0.462745, 0.498039, 1.0 ],
@@ -1518,7 +1536,7 @@
 ,
 									"style" : "",
 									"text" : "autopattr",
-									"varname" : "u151005850"
+									"varname" : "u599002464"
 								}
 
 							}
@@ -1950,10 +1968,10 @@
  ],
 		"lines" : [  ],
 		"parameters" : 		{
+			"obj-10::obj-45" : [ "Attack", "Attack", 0 ],
 			"obj-10::obj-20" : [ "mute", "mute", 0 ],
-			"obj-10::obj-18" : [ "Decay[1]", "Decay", 0 ],
 			"obj-10::obj-32" : [ "Hold", "Hold", 0 ],
-			"obj-10::obj-45" : [ "Attack", "Attack", 0 ]
+			"obj-10::obj-18" : [ "Decay[1]", "Decay", 0 ]
 		}
 ,
 		"dependency_cache" : [  ],

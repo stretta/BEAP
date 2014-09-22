@@ -181,9 +181,9 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 73.0, 81.354607, 285.0, 20.0 ],
+									"patching_rect" : [ 73.0, 81.354607, 138.0, 20.0 ],
 									"style" : "",
-									"text" : "## Comb filter effect. ## "
+									"text" : "## Comb filter effect ## "
 								}
 
 							}
@@ -1156,11 +1156,29 @@
 												}
 
 											}
- ]
+ ],
+										"bgfillcolor" : 										{
+											"type" : "gradient",
+											"color1" : [ 0.435294, 0.462745, 0.498039, 1.0 ],
+											"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
+											"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
+											"angle" : 270.0,
+											"proportion" : 0.39
+										}
+
 									}
 ,
 									"patching_rect" : [ 218.828979, 371.459961, 160.0, 22.0 ],
 									"saved_object_attributes" : 									{
+										"bgfillcolor" : [ 											{
+												"type" : "gradient",
+												"color1" : [ 0.435294, 0.462745, 0.498039, 1.0 ],
+												"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
+												"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
+												"angle" : 270.0,
+												"proportion" : 0.39
+											}
+ ],
 										"bgfillcolor_dictionary" : 										{
 											"type" : "gradient",
 											"color1" : [ 0.435294, 0.462745, 0.498039, 1.0 ],
@@ -2491,7 +2509,7 @@
 ,
 									"style" : "",
 									"text" : "autopattr",
-									"varname" : "u331000957"
+									"varname" : "u141003122"
 								}
 
 							}
@@ -3198,20 +3216,20 @@
  ],
 		"lines" : [  ],
 		"parameters" : 		{
+			"obj-10::obj-55" : [ "FreqMode", "FreqMode", 0 ],
 			"obj-10::obj-137" : [ "Feedback", "Feedback", 0 ],
-			"obj-10::obj-42" : [ "Invert", "Invert", 0 ],
-			"obj-10::obj-7" : [ "Bypass", "Bypass", 0 ],
-			"obj-10::obj-51" : [ "Freq", "Freq", 0 ],
-			"obj-10::obj-56" : [ "Offset", "Offset", 0 ],
-			"obj-10::obj-118" : [ "Mix", "Mix", 0 ],
 			"obj-10::obj-14" : [ "CV2", "CV2", 0 ],
-			"obj-10::obj-55" : [ "FreqMode", "FreqMode", 0 ]
+			"obj-10::obj-51" : [ "Freq", "Freq", 0 ],
+			"obj-10::obj-118" : [ "Mix", "Mix", 0 ],
+			"obj-10::obj-7" : [ "Bypass", "Bypass", 0 ],
+			"obj-10::obj-42" : [ "Invert", "Invert", 0 ],
+			"obj-10::obj-56" : [ "Offset", "Offset", 0 ]
 		}
 ,
 		"dependency_cache" : [ 			{
 				"name" : "M4L.bal1~.maxpat",
-				"bootpath" : "/Applications/Max 7/resources/patchers/m4l/Tools resources",
-				"patcherrelativepath" : "../../../../../patchers/m4l/Tools resources",
+				"bootpath" : "/Applications/Max 7/Max.app/Contents/Resources/C74/patchers/m4l/Tools resources",
+				"patcherrelativepath" : "../../../../../../../Applications/Max 7/Max.app/Contents/Resources/C74/patchers/m4l/Tools resources",
 				"type" : "JSON",
 				"implicit" : 1
 			}

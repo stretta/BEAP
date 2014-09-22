@@ -87,6 +87,19 @@
 						"style" : "",
 						"boxes" : [ 							{
 								"box" : 								{
+									"id" : "obj-53",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 2,
+									"outlettype" : [ "bang", "types" ],
+									"patching_rect" : [ 853.302124, 469.113403, 56.0, 22.0 ],
+									"style" : "",
+									"text" : "t b types"
+								}
+
+							}
+, 							{
+								"box" : 								{
 									"fontname" : "Arial Bold",
 									"fontsize" : 9.0,
 									"id" : "obj-57",
@@ -218,7 +231,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "bang" ],
-									"patching_rect" : [ 853.302124, 456.38501, 20.0, 20.0 ],
+									"patching_rect" : [ 853.302124, 433.784912, 20.0, 20.0 ],
 									"style" : ""
 								}
 
@@ -249,7 +262,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 905.302124, 351.263306, 244.0, 37.0 ],
+									"patching_rect" : [ 905.302124, 328.663208, 244.0, 37.0 ],
 									"style" : "",
 									"text" : "stealth init (loadbang without loadbang for paste from... compatibility)"
 								}
@@ -264,7 +277,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 2,
 									"outlettype" : [ "bang", "" ],
-									"patching_rect" : [ 853.302124, 415.763306, 36.0, 22.0 ],
+									"patching_rect" : [ 853.302124, 393.163208, 36.0, 22.0 ],
 									"style" : "",
 									"text" : "sel 0"
 								}
@@ -278,7 +291,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
 									"parameter_enable" : 1,
-									"patching_rect" : [ 853.302124, 359.763306, 40.0, 20.0 ],
+									"patching_rect" : [ 853.302124, 337.163208, 40.0, 20.0 ],
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
 											"parameter_longname" : "stealthinit",
@@ -2008,9 +2021,9 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 23.236023, 225.41748, 243.0, 20.0 ],
+									"patching_rect" : [ 23.236023, 225.41748, 224.0, 20.0 ],
 									"style" : "",
-									"text" : "## Image-controlled FFT-based filtering. ## "
+									"text" : "## Image-controlled FFT-based filter ## "
 								}
 
 							}
@@ -2318,7 +2331,7 @@
 ,
 									"style" : "",
 									"text" : "autopattr",
-									"varname" : "u873000463"
+									"varname" : "u331004120"
 								}
 
 							}
@@ -2830,6 +2843,24 @@
 							}
 , 							{
 								"patchline" : 								{
+									"destination" : [ "obj-61", 0 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-53", 1 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-61", 0 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-53", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
 									"destination" : [ "obj-47", 0 ],
 									"disabled" : 0,
 									"hidden" : 0,
@@ -2839,7 +2870,7 @@
 							}
 , 							{
 								"patchline" : 								{
-									"destination" : [ "obj-61", 0 ],
+									"destination" : [ "obj-53", 0 ],
 									"disabled" : 0,
 									"hidden" : 0,
 									"source" : [ "obj-60", 0 ]
@@ -2922,12 +2953,12 @@
 		"lines" : [  ],
 		"parameters" : 		{
 			"obj-6::obj-50" : [ "number", "number", 0 ],
+			"obj-6::obj-44" : [ "number[1]", "number[1]", 0 ],
+			"obj-6::obj-80" : [ "Response", "Response", 0 ],
 			"obj-6::obj-25" : [ "CV", "CV", 0 ],
 			"obj-6::obj-3" : [ "Position", "Position", 0 ],
 			"obj-6::obj-56" : [ "stealthinit", "stealthinit", 0 ],
 			"obj-6::obj-7" : [ "bypass", "bypass", 0 ],
-			"obj-6::obj-44" : [ "number[1]", "number[1]", 0 ],
-			"obj-6::obj-80" : [ "Response", "Response", 0 ],
 			"obj-6::obj-63::obj-8" : [ "StealthInit", "StealthInit", 0 ]
 		}
 ,

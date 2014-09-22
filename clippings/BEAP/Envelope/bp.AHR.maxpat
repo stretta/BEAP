@@ -93,7 +93,7 @@
 									"numoutlets" : 0,
 									"patching_rect" : [ 21.642456, 70.0, 308.0, 20.0 ],
 									"style" : "",
-									"text" : "## Attack hold release envelope. Gate off is ignored. ## "
+									"text" : "## Attack hold release envelope. Gate off is ignored ## "
 								}
 
 							}
@@ -518,7 +518,7 @@
 ,
 									"style" : "",
 									"text" : "autopattr",
-									"varname" : "u313006049"
+									"varname" : "u354002518"
 								}
 
 							}
@@ -886,10 +886,10 @@
  ],
 		"lines" : [  ],
 		"parameters" : 		{
+			"obj-10::obj-45" : [ "Attack", "Attack", 0 ],
 			"obj-10::obj-20" : [ "mute", "mute", 0 ],
 			"obj-10::obj-32" : [ "Release", "Release", 0 ],
-			"obj-10::obj-29" : [ "Hold", "Hold", 0 ],
-			"obj-10::obj-45" : [ "Attack", "Attack", 0 ]
+			"obj-10::obj-29" : [ "Hold", "Hold", 0 ]
 		}
 ,
 		"dependency_cache" : [  ],

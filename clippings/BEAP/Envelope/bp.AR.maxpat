@@ -93,7 +93,7 @@
 									"numoutlets" : 0,
 									"patching_rect" : [ 25.173828, 77.0, 178.0, 20.0 ],
 									"style" : "",
-									"text" : "## Attack release envelope. ## "
+									"text" : "## Attack release envelope ## "
 								}
 
 							}
@@ -439,7 +439,7 @@
 ,
 									"style" : "",
 									"text" : "autopattr",
-									"varname" : "u589006219"
+									"varname" : "u439002569"
 								}
 
 							}
@@ -762,9 +762,9 @@
  ],
 		"lines" : [  ],
 		"parameters" : 		{
+			"obj-10::obj-45" : [ "Attack", "Attack", 0 ],
 			"obj-10::obj-20" : [ "mute", "mute", 0 ],
-			"obj-10::obj-32" : [ "Release", "Release", 0 ],
-			"obj-10::obj-45" : [ "Attack", "Attack", 0 ]
+			"obj-10::obj-32" : [ "Release", "Release", 0 ]
 		}
 ,
 		"dependency_cache" : [  ],

@@ -93,7 +93,7 @@
 									"numoutlets" : 0,
 									"patching_rect" : [ 48.0, 89.0, 295.0, 20.0 ],
 									"style" : "",
-									"text" : "## Two pole multi-mode filter with graphic display. ## "
+									"text" : "## Two pole multi-mode filter with graphic display ## "
 								}
 
 							}
@@ -886,11 +886,29 @@
 												}
 
 											}
- ]
+ ],
+										"bgfillcolor" : 										{
+											"type" : "gradient",
+											"color1" : [ 0.435294, 0.462745, 0.498039, 1.0 ],
+											"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
+											"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
+											"angle" : 270.0,
+											"proportion" : 0.39
+										}
+
 									}
 ,
 									"patching_rect" : [ 433.439941, 122.822601, 76.541275, 20.0 ],
 									"saved_object_attributes" : 									{
+										"bgfillcolor" : [ 											{
+												"type" : "gradient",
+												"color1" : [ 0.435294, 0.462745, 0.498039, 1.0 ],
+												"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
+												"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
+												"angle" : 270.0,
+												"proportion" : 0.39
+											}
+ ],
 										"bgfillcolor_dictionary" : 										{
 											"type" : "gradient",
 											"color1" : [ 0.435294, 0.462745, 0.498039, 1.0 ],
@@ -2091,7 +2109,7 @@
 ,
 									"style" : "",
 									"text" : "autopattr",
-									"varname" : "u066003593"
+									"varname" : "u548003633"
 								}
 
 							}
@@ -2995,16 +3013,16 @@
  ],
 		"lines" : [  ],
 		"parameters" : 		{
-			"obj-38::obj-63" : [ "CV3", "CV3", 0 ],
+			"obj-38::obj-11" : [ "Res", "Res", 0 ],
 			"obj-38::obj-22" : [ "TimeMode", "TimeMode", 1 ],
 			"obj-38::obj-38" : [ "FilterType", "FilterType", 0 ],
-			"obj-38::obj-11" : [ "Res", "Res", 0 ],
-			"obj-38::obj-20" : [ "Freq", "Freq", 0 ],
-			"obj-38::obj-23" : [ "Offset", "Offset", 0 ],
 			"obj-38::obj-51" : [ "CV2", "CV2", 0 ],
 			"obj-38::obj-95" : [ "ResCV", "CV", 0 ],
 			"obj-38::obj-55" : [ "power", "power", 0 ],
-			"obj-38::obj-54" : [ "CV1", "CV1", 0 ]
+			"obj-38::obj-20" : [ "Freq", "Freq", 0 ],
+			"obj-38::obj-54" : [ "CV1", "CV1", 0 ],
+			"obj-38::obj-63" : [ "CV3", "CV3", 0 ],
+			"obj-38::obj-23" : [ "Offset", "Offset", 0 ]
 		}
 ,
 		"dependency_cache" : [  ],

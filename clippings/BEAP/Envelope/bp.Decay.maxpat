@@ -59,7 +59,7 @@
 							"modernui" : 1
 						}
 ,
-						"rect" : [ 34.0, 78.0, 91.0, 116.0 ],
+						"rect" : [ 33.0, 76.0, 91.0, 116.0 ],
 						"bgcolor" : [ 1.0, 1.0, 1.0, 0.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 1,
@@ -91,9 +91,9 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 18.0, 62.0, 285.0, 20.0 ],
+									"patching_rect" : [ 18.0, 62.0, 223.0, 20.0 ],
 									"style" : "",
-									"text" : "## Decay envelope. Ignores gate off.  ## "
+									"text" : "## Decay envelope. Ignores gate off ## "
 								}
 
 							}
@@ -361,7 +361,7 @@
 ,
 									"style" : "",
 									"text" : "autopattr",
-									"varname" : "u619006888"
+									"varname" : "u382002734"
 								}
 
 							}

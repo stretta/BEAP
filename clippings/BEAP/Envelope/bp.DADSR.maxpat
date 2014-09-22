@@ -94,7 +94,7 @@
 									"numoutlets" : 0,
 									"patching_rect" : [ 15.0, 65.0, 305.0, 33.0 ],
 									"style" : "",
-									"text" : "## Decay attack decay sustain release envelope. Like an ADSR, but with an inital delay segment. ## "
+									"text" : "## Decay attack decay sustain release envelope. Like an ADSR, but with an inital delay segment ## "
 								}
 
 							}
@@ -573,7 +573,7 @@
 ,
 									"style" : "",
 									"text" : "autopattr",
-									"varname" : "u142006633"
+									"varname" : "u678002632"
 								}
 
 							}
@@ -1030,13 +1030,13 @@
  ],
 		"lines" : [  ],
 		"parameters" : 		{
-			"obj-4::obj-31" : [ "Release", "Release", 0 ],
-			"obj-4::obj-32" : [ "Sustain", "Sustain", 0 ],
 			"obj-4::obj-1" : [ "Attack", "Attack", 0 ],
-			"obj-4::obj-30" : [ "Legato", "Legato", 0 ],
-			"obj-4::obj-10" : [ "Delay", "Delay", 0 ],
 			"obj-4::obj-20" : [ "Mute[4]", "Mute", 0 ],
-			"obj-4::obj-29" : [ "Decay", "Decay", 0 ]
+			"obj-4::obj-30" : [ "Legato", "Legato", 0 ],
+			"obj-4::obj-29" : [ "Decay", "Decay", 0 ],
+			"obj-4::obj-31" : [ "Release", "Release", 0 ],
+			"obj-4::obj-10" : [ "Delay", "Delay", 0 ],
+			"obj-4::obj-32" : [ "Sustain", "Sustain", 0 ]
 		}
 ,
 		"dependency_cache" : [  ],

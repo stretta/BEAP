@@ -165,7 +165,7 @@
 									"numoutlets" : 0,
 									"patching_rect" : [ 21.439941, 60.4487, 321.0, 33.0 ],
 									"style" : "",
-									"text" : "## Two-pole multimode filter with large graphical interface and spectral display. ## "
+									"text" : "## Two-pole multimode filter with large graphical interface and spectral display ## "
 								}
 
 							}
@@ -1349,7 +1349,7 @@
 ,
 									"style" : "",
 									"text" : "autopattr",
-									"varname" : "u478008162"
+									"varname" : "u119003021"
 								}
 
 							}
@@ -2161,15 +2161,15 @@
  ],
 		"lines" : [  ],
 		"parameters" : 		{
-			"obj-38::obj-95" : [ "Frequency", "Freq", 0 ],
 			"obj-38::obj-54" : [ "CV1[1]", "CV1", 0 ],
-			"obj-38::obj-55" : [ "power[3]", "power", 0 ],
+			"obj-38::obj-95" : [ "Frequency", "Freq", 0 ],
+			"obj-38::obj-51" : [ "CV2[1]", "CV2", 0 ],
 			"obj-38::obj-11" : [ "Res", "Res", 0 ],
 			"obj-38::obj-63" : [ "CV3[1]", "CV3", 0 ],
-			"obj-38::obj-51" : [ "CV2[1]", "CV2", 0 ],
-			"obj-38::obj-26" : [ "spectral", "spectral", 0 ],
 			"obj-38::obj-98" : [ "Gain", "Gain", 0 ],
-			"obj-38::obj-59" : [ "live.tab[1]", "live.tab", 0 ]
+			"obj-38::obj-26" : [ "spectral", "spectral", 0 ],
+			"obj-38::obj-59" : [ "live.tab[1]", "live.tab", 0 ],
+			"obj-38::obj-55" : [ "power[3]", "power", 0 ]
 		}
 ,
 		"dependency_cache" : [  ],

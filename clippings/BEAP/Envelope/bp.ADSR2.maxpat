@@ -227,7 +227,7 @@
 									"numoutlets" : 0,
 									"patching_rect" : [ 63.0, 91.0, 332.0, 20.0 ],
 									"style" : "",
-									"text" : "## ADSR envelope with adjustable curve time segments. ## "
+									"text" : "## ADSR envelope with adjustable curve time segments ## "
 								}
 
 							}
@@ -381,7 +381,7 @@
 ,
 									"style" : "",
 									"text" : "autopattr",
-									"varname" : "u799000645"
+									"varname" : "u960002392"
 								}
 
 							}
@@ -2631,13 +2631,13 @@
 		"lines" : [  ],
 		"parameters" : 		{
 			"obj-10::obj-2" : [ "Attack", "Attack", 0 ],
-			"obj-10::obj-45" : [ "release curve", "release curve", 0 ],
-			"obj-10::obj-26" : [ "mute", "mute", 0 ],
-			"obj-10::obj-47" : [ "attack curve", "attack curve", 0 ],
-			"obj-10::obj-31" : [ "Release", "Release", 0 ],
 			"obj-10::obj-46" : [ "decay curve", "decay curve", 0 ],
+			"obj-10::obj-26" : [ "mute", "mute", 0 ],
 			"obj-10::obj-29" : [ "Decay", "Decay", 0 ],
-			"obj-10::obj-32" : [ "Sustain", "Sustain", 0 ]
+			"obj-10::obj-31" : [ "Release", "Release", 0 ],
+			"obj-10::obj-45" : [ "release curve", "release curve", 0 ],
+			"obj-10::obj-32" : [ "Sustain", "Sustain", 0 ],
+			"obj-10::obj-47" : [ "attack curve", "attack curve", 0 ]
 		}
 ,
 		"dependency_cache" : [  ],

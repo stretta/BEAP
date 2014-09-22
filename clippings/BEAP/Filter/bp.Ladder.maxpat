@@ -93,7 +93,7 @@
 									"numoutlets" : 0,
 									"patching_rect" : [ 56.219177, 94.920502, 334.0, 20.0 ],
 									"style" : "",
-									"text" : "## Emulation of the 24dB/oct Moog transistor ladder filter. ## "
+									"text" : "## Emulation of the 24dB/oct Moog transistor ladder filter ## "
 								}
 
 							}
@@ -1018,7 +1018,16 @@
 												}
 
 											}
- ]
+ ],
+										"bgfillcolor" : 										{
+											"type" : "gradient",
+											"color1" : [ 0.435294, 0.462745, 0.498039, 1.0 ],
+											"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
+											"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
+											"angle" : 270.0,
+											"proportion" : 0.39
+										}
+
 									}
 ,
 									"patching_rect" : [ 480.535675, 115.85881, 76.541275, 20.0 ],
@@ -1689,7 +1698,16 @@
 
 															}
  ],
-														"lines" : [  ]
+														"lines" : [  ],
+														"bgfillcolor" : 														{
+															"type" : "gradient",
+															"color1" : [ 0.435294, 0.462745, 0.498039, 1.0 ],
+															"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
+															"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
+															"angle" : 270.0,
+															"proportion" : 0.39
+														}
+
 													}
 ,
 													"patching_rect" : [ 194.0, 493.0, 67.0, 22.0 ],
@@ -2407,7 +2425,16 @@
 																}
 
 															}
- ]
+ ],
+														"bgfillcolor" : 														{
+															"type" : "gradient",
+															"color1" : [ 0.435294, 0.462745, 0.498039, 1.0 ],
+															"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
+															"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
+															"angle" : 270.0,
+															"proportion" : 0.39
+														}
+
 													}
 ,
 													"patching_rect" : [ 168.0, 165.5, 78.0, 22.0 ],
@@ -6257,7 +6284,16 @@
 												}
 
 											}
- ]
+ ],
+										"bgfillcolor" : 										{
+											"type" : "gradient",
+											"color1" : [ 0.435294, 0.462745, 0.498039, 1.0 ],
+											"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
+											"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
+											"angle" : 270.0,
+											"proportion" : 0.39
+										}
+
 									}
 ,
 									"patching_rect" : [ 286.941925, 973.353149, 406.1875, 20.0 ],
@@ -6574,7 +6610,7 @@
 ,
 									"style" : "",
 									"text" : "autopattr",
-									"varname" : "u371002809"
+									"varname" : "u843003395"
 								}
 
 							}
@@ -7281,14 +7317,14 @@
 		"lines" : [  ],
 		"parameters" : 		{
 			"obj-73::obj-54" : [ "CV1[1]", "CV1", 0 ],
-			"obj-73::obj-22" : [ "TimeMode", "TimeMode", 1 ],
-			"obj-73::obj-28" : [ "Res", "Res", 0 ],
-			"obj-73::obj-20" : [ "Freq", "Freq", 0 ],
-			"obj-73::obj-63" : [ "CV3[1]", "CV3", 0 ],
+			"obj-73::obj-55" : [ "power[2]", "power", 0 ],
 			"obj-73::obj-23" : [ "CV2[1]", "CV2", 0 ],
-			"obj-73::obj-4" : [ "Offset[2]", "Offset", 0 ],
+			"obj-73::obj-28" : [ "Res", "Res", 0 ],
+			"obj-73::obj-22" : [ "TimeMode", "TimeMode", 1 ],
+			"obj-73::obj-63" : [ "CV3[1]", "CV3", 0 ],
 			"obj-73::obj-95" : [ "ResCV", "CV", 0 ],
-			"obj-73::obj-55" : [ "power[2]", "power", 0 ]
+			"obj-73::obj-20" : [ "Freq", "Freq", 0 ],
+			"obj-73::obj-4" : [ "Offset[2]", "Offset", 0 ]
 		}
 ,
 		"dependency_cache" : [  ],

@@ -94,7 +94,7 @@
 									"numoutlets" : 0,
 									"patching_rect" : [ 15.0, 61.0, 251.0, 33.0 ],
 									"style" : "",
-									"text" : "## Bipolar arbitrary break point function generator. Can also be used as an LFO. ## "
+									"text" : "## Bipolar arbitrary break point function generator. Can also be used as an LFO ## "
 								}
 
 							}
@@ -751,7 +751,7 @@
 									"numoutlets" : 4,
 									"outlettype" : [ "", "int", "", "" ],
 									"parameter_enable" : 0,
-									"patching_rect" : [ 521.0, 262.0, 61.0, 18.0 ],
+									"patching_rect" : [ 521.0, 262.0, 62.0, 18.0 ],
 									"presentation" : 1,
 									"presentation_linecount" : 6,
 									"presentation_rect" : [ 205.500061, 57.000088, 70.0, 18.0 ],
@@ -839,7 +839,6 @@
 									}
 ,
 									"style" : "",
-									"sustaincolor" : [ 0.5, 0.5, 0.5, 0.5 ],
 									"varname" : "function"
 								}
 
@@ -866,7 +865,7 @@
 ,
 									"style" : "",
 									"text" : "autopattr",
-									"varname" : "u392007087"
+									"varname" : "u809002805"
 								}
 
 							}
@@ -1376,12 +1375,12 @@
  ],
 		"lines" : [  ],
 		"parameters" : 		{
-			"obj-10::obj-129" : [ "domain", "domain", 0 ],
 			"obj-10::obj-65" : [ "mute", "mute", 0 ],
+			"obj-10::obj-129" : [ "domain", "domain", 0 ],
 			"obj-10::obj-70" : [ "ZoomLo", "ZoomLo", 0 ],
+			"obj-10::obj-15" : [ "loop", "loop", 0 ],
 			"obj-10::obj-20" : [ "function", "function", 0 ],
 			"obj-10::obj-9" : [ "stealth.init", "stealth.init", 0 ],
-			"obj-10::obj-15" : [ "loop", "loop", 0 ],
 			"obj-10::obj-73" : [ "ZoomHi", "ZoomHi", 0 ]
 		}
 ,

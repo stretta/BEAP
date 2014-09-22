@@ -92,9 +92,9 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 79.487244, 81.993256, 285.0, 20.0 ],
+									"patching_rect" : [ 79.487244, 81.993256, 211.0, 20.0 ],
 									"style" : "",
-									"text" : "## Low pass filter with resonance. ## "
+									"text" : "## Low pass filter with resonance ## "
 								}
 
 							}
@@ -943,11 +943,29 @@
 												}
 
 											}
- ]
+ ],
+										"bgfillcolor" : 										{
+											"type" : "gradient",
+											"color1" : [ 0.435294, 0.462745, 0.498039, 1.0 ],
+											"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
+											"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
+											"angle" : 270.0,
+											"proportion" : 0.39
+										}
+
 									}
 ,
 									"patching_rect" : [ 442.080994, 69.993256, 76.541275, 20.0 ],
 									"saved_object_attributes" : 									{
+										"bgfillcolor" : [ 											{
+												"type" : "gradient",
+												"color1" : [ 0.435294, 0.462745, 0.498039, 1.0 ],
+												"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
+												"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
+												"angle" : 270.0,
+												"proportion" : 0.39
+											}
+ ],
 										"bgfillcolor_dictionary" : 										{
 											"type" : "gradient",
 											"color1" : [ 0.435294, 0.462745, 0.498039, 1.0 ],
@@ -1900,7 +1918,7 @@
 ,
 									"style" : "",
 									"text" : "autopattr",
-									"varname" : "u126003264"
+									"varname" : "u135003481"
 								}
 
 							}
@@ -2624,15 +2642,15 @@
  ],
 		"lines" : [  ],
 		"parameters" : 		{
-			"obj-67::obj-63" : [ "CV3", "CV3", 0 ],
-			"obj-67::obj-55" : [ "power[3]", "power", 0 ],
-			"obj-67::obj-22" : [ "TimeMode", "TimeMode", 1 ],
 			"obj-67::obj-68" : [ "Res", "Res", 0 ],
-			"obj-67::obj-20" : [ "Freq", "Freq", 0 ],
-			"obj-67::obj-23" : [ "Offset", "Offset", 0 ],
+			"obj-67::obj-22" : [ "TimeMode", "TimeMode", 1 ],
 			"obj-67::obj-51" : [ "CV2", "CV2", 0 ],
 			"obj-67::obj-95" : [ "ResCV", "CV", 0 ],
-			"obj-67::obj-54" : [ "CV1", "CV1", 0 ]
+			"obj-67::obj-20" : [ "Freq", "Freq", 0 ],
+			"obj-67::obj-54" : [ "CV1", "CV1", 0 ],
+			"obj-67::obj-63" : [ "CV3", "CV3", 0 ],
+			"obj-67::obj-55" : [ "power[3]", "power", 0 ],
+			"obj-67::obj-23" : [ "Offset", "Offset", 0 ]
 		}
 ,
 		"dependency_cache" : [  ],

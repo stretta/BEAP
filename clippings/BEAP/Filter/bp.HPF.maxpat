@@ -93,7 +93,7 @@
 									"numoutlets" : 0,
 									"patching_rect" : [ 48.0, 83.336548, 129.0, 20.0 ],
 									"style" : "",
-									"text" : "## High pass filter. ## "
+									"text" : "## High pass filter ## "
 								}
 
 							}
@@ -716,11 +716,29 @@
 												}
 
 											}
- ]
+ ],
+										"bgfillcolor" : 										{
+											"type" : "gradient",
+											"color1" : [ 0.435294, 0.462745, 0.498039, 1.0 ],
+											"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
+											"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
+											"angle" : 270.0,
+											"proportion" : 0.39
+										}
+
 									}
 ,
 									"patching_rect" : [ 255.453125, 116.788696, 76.541275, 20.0 ],
 									"saved_object_attributes" : 									{
+										"bgfillcolor" : [ 											{
+												"type" : "gradient",
+												"color1" : [ 0.435294, 0.462745, 0.498039, 1.0 ],
+												"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
+												"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
+												"angle" : 270.0,
+												"proportion" : 0.39
+											}
+ ],
 										"bgfillcolor_dictionary" : 										{
 											"type" : "gradient",
 											"color1" : [ 0.435294, 0.462745, 0.498039, 1.0 ],
@@ -1680,7 +1698,7 @@
 ,
 									"style" : "",
 									"text" : "autopattr",
-									"varname" : "u046002480"
+									"varname" : "u198003295"
 								}
 
 							}
@@ -2312,13 +2330,13 @@
  ],
 		"lines" : [  ],
 		"parameters" : 		{
-			"obj-38::obj-55" : [ "power[3]", "power", 0 ],
 			"obj-38::obj-102" : [ "CV1[2]", "CV1", 0 ],
-			"obj-38::obj-103" : [ "CV2[2]", "CV2", 0 ],
+			"obj-38::obj-80" : [ "FreqMode", "FreqMode", 0 ],
 			"obj-38::obj-11" : [ "Res", "Res", 0 ],
 			"obj-38::obj-2" : [ "Freq", "Freq", 0 ],
+			"obj-38::obj-103" : [ "CV2[2]", "CV2", 0 ],
 			"obj-38::obj-7" : [ "Offset[2]", "Offset", 0 ],
-			"obj-38::obj-80" : [ "FreqMode", "FreqMode", 0 ],
+			"obj-38::obj-55" : [ "power[3]", "power", 0 ],
 			"obj-38::obj-68" : [ "CV3[2]", "CV3", 0 ]
 		}
 ,

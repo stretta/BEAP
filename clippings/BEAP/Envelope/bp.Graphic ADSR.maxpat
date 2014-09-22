@@ -93,7 +93,7 @@
 									"numoutlets" : 0,
 									"patching_rect" : [ 21.0, 71.288361, 219.0, 20.0 ],
 									"style" : "",
-									"text" : "## ADSR with a graphical interface. ## "
+									"text" : "## ADSR with a graphical interface ## "
 								}
 
 							}
@@ -642,8 +642,7 @@
 									"patching_rect" : [ 445.333374, 651.28833, 200.0, 100.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 3.333374, 37.0, 166.674255, 59.0 ],
-									"style" : "",
-									"sustaincolor" : [ 0.5, 0.5, 0.5, 0.5 ]
+									"style" : ""
 								}
 
 							}
@@ -768,7 +767,7 @@
 ,
 									"style" : "",
 									"text" : "autopattr",
-									"varname" : "u816007468"
+									"varname" : "u049002860"
 								}
 
 							}
@@ -1324,8 +1323,8 @@
 		"lines" : [  ],
 		"parameters" : 		{
 			"obj-10::obj-20" : [ "mute", "mute", 0 ],
-			"obj-10::obj-129" : [ "Domain", "Domain", 0 ],
-			"obj-10::obj-106" : [ "DomainCV_Amt", "DomainCV_Amt", 0 ]
+			"obj-10::obj-106" : [ "DomainCV_Amt", "DomainCV_Amt", 0 ],
+			"obj-10::obj-129" : [ "Domain", "Domain", 0 ]
 		}
 ,
 		"dependency_cache" : [  ],

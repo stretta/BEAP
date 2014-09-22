@@ -93,7 +93,7 @@
 									"numoutlets" : 0,
 									"patching_rect" : [ 40.439606, 85.0, 377.0, 20.0 ],
 									"style" : "",
-									"text" : "## Variable band width, variable slope band pass/band reject filter ##"
+									"text" : "## Variable bandwidth, variable-slope band pass/band reject filter ##"
 								}
 
 							}
@@ -1845,12 +1845,12 @@
  ],
 		"lines" : [  ],
 		"parameters" : 		{
-			"obj-38::obj-65" : [ "live.tab", "live.tab", 0 ],
-			"obj-38::obj-58" : [ "BandwidthCV", "CV", 0 ],
-			"obj-38::obj-12" : [ "Bypass", "Bypass", 0 ],
-			"obj-38::obj-45" : [ "CV_center_freq", "CV", 0 ],
 			"obj-38::obj-71" : [ "Bandwidth", "Bandwidth", 0 ],
+			"obj-38::obj-45" : [ "CV_center_freq", "CV", 0 ],
+			"obj-38::obj-58" : [ "BandwidthCV", "CV", 0 ],
+			"obj-38::obj-65" : [ "live.tab", "live.tab", 0 ],
 			"obj-38::obj-22" : [ "Poles", "Poles", 0 ],
+			"obj-38::obj-12" : [ "Bypass", "Bypass", 0 ],
 			"obj-38::obj-47" : [ "Center Freq", "Center Freq", 0 ]
 		}
 ,

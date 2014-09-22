@@ -93,7 +93,7 @@
 									"numoutlets" : 0,
 									"patching_rect" : [ 29.173828, 80.0, 228.0, 20.0 ],
 									"style" : "",
-									"text" : "## Attack, decay envelope generator. ## "
+									"text" : "## Attack, decay envelope generator ## "
 								}
 
 							}
@@ -454,7 +454,7 @@
 ,
 									"style" : "",
 									"text" : "autopattr",
-									"varname" : "u098004463"
+									"varname" : "u095002244"
 								}
 
 							}
@@ -796,8 +796,8 @@
  ],
 		"lines" : [  ],
 		"parameters" : 		{
-			"obj-10::obj-20" : [ "mute", "mute", 0 ],
 			"obj-10::obj-45" : [ "Attack", "Attack", 0 ],
+			"obj-10::obj-20" : [ "mute", "mute", 0 ],
 			"obj-10::obj-32" : [ "Decay", "Decay", 0 ]
 		}
 ,

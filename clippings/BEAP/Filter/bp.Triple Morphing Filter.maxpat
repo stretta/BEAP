@@ -93,9 +93,9 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 51.0, 101.69458, 303.0, 33.0 ],
+									"patching_rect" : [ 51.0, 101.69458, 327.0, 33.0 ],
 									"style" : "",
-									"text" : "## Three band pass filters whose configuration can be morphed with a single control signal. ## "
+									"text" : "## Three band pass filters with a single CV 'macro' control. Great for vowel sounds. Inspired by the Buchla 291e ##"
 								}
 
 							}
@@ -1430,11 +1430,29 @@
 												}
 
 											}
- ]
+ ],
+										"bgfillcolor" : 										{
+											"type" : "gradient",
+											"color1" : [ 0.435294, 0.462745, 0.498039, 1.0 ],
+											"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
+											"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
+											"angle" : 270.0,
+											"proportion" : 0.39
+										}
+
 									}
 ,
 									"patching_rect" : [ 823.847168, 784.280884, 153.0, 22.0 ],
 									"saved_object_attributes" : 									{
+										"bgfillcolor" : [ 											{
+												"type" : "gradient",
+												"color1" : [ 0.435294, 0.462745, 0.498039, 1.0 ],
+												"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
+												"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
+												"angle" : 270.0,
+												"proportion" : 0.39
+											}
+ ],
 										"bgfillcolor_dictionary" : 										{
 											"type" : "gradient",
 											"color1" : [ 0.435294, 0.462745, 0.498039, 1.0 ],
@@ -1777,11 +1795,29 @@
 												}
 
 											}
- ]
+ ],
+										"bgfillcolor" : 										{
+											"type" : "gradient",
+											"color1" : [ 0.435294, 0.462745, 0.498039, 1.0 ],
+											"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
+											"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
+											"angle" : 270.0,
+											"proportion" : 0.39
+										}
+
 									}
 ,
 									"patching_rect" : [ 575.847168, 784.280884, 153.0, 22.0 ],
 									"saved_object_attributes" : 									{
+										"bgfillcolor" : [ 											{
+												"type" : "gradient",
+												"color1" : [ 0.435294, 0.462745, 0.498039, 1.0 ],
+												"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
+												"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
+												"angle" : 270.0,
+												"proportion" : 0.39
+											}
+ ],
 										"bgfillcolor_dictionary" : 										{
 											"type" : "gradient",
 											"color1" : [ 0.435294, 0.462745, 0.498039, 1.0 ],
@@ -2124,11 +2160,29 @@
 												}
 
 											}
- ]
+ ],
+										"bgfillcolor" : 										{
+											"type" : "gradient",
+											"color1" : [ 0.435294, 0.462745, 0.498039, 1.0 ],
+											"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
+											"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
+											"angle" : 270.0,
+											"proportion" : 0.39
+										}
+
 									}
 ,
 									"patching_rect" : [ 341.847107, 784.280884, 153.0, 22.0 ],
 									"saved_object_attributes" : 									{
+										"bgfillcolor" : [ 											{
+												"type" : "gradient",
+												"color1" : [ 0.435294, 0.462745, 0.498039, 1.0 ],
+												"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
+												"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
+												"angle" : 270.0,
+												"proportion" : 0.39
+											}
+ ],
 										"bgfillcolor_dictionary" : 										{
 											"type" : "gradient",
 											"color1" : [ 0.435294, 0.462745, 0.498039, 1.0 ],
@@ -2239,7 +2293,7 @@
 ,
 									"style" : "",
 									"text" : "autopattr",
-									"varname" : "u064003897"
+									"varname" : "u912004248"
 								}
 
 							}
@@ -3257,20 +3311,20 @@
  ],
 		"lines" : [  ],
 		"parameters" : 		{
-			"obj-1::obj-155" : [ "f3b", "f3b", 0 ],
-			"obj-1::obj-73" : [ "manCVb", "manCVb", 0 ],
-			"obj-1::obj-152" : [ "FreqBpreset", "FreqBpreset", 0 ],
-			"obj-1::obj-156" : [ "f2b", "f2b", 0 ],
 			"obj-1::obj-132" : [ "CV_amt", "CV", 0 ],
 			"obj-1::obj-157" : [ "f1b", "f1b", 0 ],
-			"obj-1::obj-110" : [ "bypass", "bypass", 0 ],
+			"obj-1::obj-69" : [ "manCVa", "manCVa", 0 ],
+			"obj-1::obj-73" : [ "manCVb", "manCVb", 0 ],
 			"obj-1::obj-28" : [ "Morph", "Morph", 0 ],
 			"obj-1::obj-2" : [ "f3a", "f3a", 0 ],
 			"obj-1::obj-40" : [ "FreqApreset", "FreqApreset", 0 ],
 			"obj-1::obj-1" : [ "f2a", "f2a", 0 ],
-			"obj-1::obj-69" : [ "manCVa", "manCVa", 0 ],
 			"obj-1::obj-158" : [ "Q", "Q", 0 ],
-			"obj-1::obj-129" : [ "f1a", "f1a", 0 ]
+			"obj-1::obj-129" : [ "f1a", "f1a", 0 ],
+			"obj-1::obj-155" : [ "f3b", "f3b", 0 ],
+			"obj-1::obj-152" : [ "FreqBpreset", "FreqBpreset", 0 ],
+			"obj-1::obj-110" : [ "bypass", "bypass", 0 ],
+			"obj-1::obj-156" : [ "f2b", "f2b", 0 ]
 		}
 ,
 		"dependency_cache" : [  ],

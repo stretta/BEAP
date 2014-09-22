@@ -94,7 +94,7 @@
 									"numoutlets" : 0,
 									"patching_rect" : [ 18.0, 67.0, 296.0, 33.0 ],
 									"style" : "",
-									"text" : "## ADSR with voltage controllable parameters and adjustable segment curves. ## "
+									"text" : "## ADSR with voltage controllable parameters and adjustable segment curves ## "
 								}
 
 							}
@@ -3163,7 +3163,7 @@
 ,
 									"style" : "",
 									"text" : "autopattr",
-									"varname" : "u430007969"
+									"varname" : "u490002947"
 								}
 
 							}
@@ -4069,18 +4069,18 @@
  ],
 		"lines" : [  ],
 		"parameters" : 		{
-			"obj-2::obj-12" : [ "Mute[3]", "Mute", 0 ],
-			"obj-2::obj-122" : [ "DecayCV[1]", "DecayCV", 0 ],
-			"obj-2::obj-45" : [ "filter envelope release curve[1]", "filter envelope release curve", 0 ],
-			"obj-2::obj-137" : [ "ReleaseCV[1]", "ReleaseCV", 0 ],
-			"obj-2::obj-151" : [ "Release", "Release", 0 ],
-			"obj-2::obj-144" : [ "SustainCV[1]", "SustainCV", 0 ],
-			"obj-2::obj-47" : [ "filter envelope attack curve[1]", "filter envelope attack curve", 0 ],
-			"obj-2::obj-152" : [ "Sustain", "Sustain", 0 ],
-			"obj-2::obj-90" : [ "AttackCV[1]", "AttackCV", 0 ],
 			"obj-2::obj-46" : [ "filter envelope decay curve[1]", "filter envelope decay curve", 0 ],
 			"obj-2::obj-174" : [ "Attack", "Attack", 0 ],
-			"obj-2::obj-150" : [ "Decay", "Decay", 0 ]
+			"obj-2::obj-144" : [ "SustainCV[1]", "SustainCV", 0 ],
+			"obj-2::obj-150" : [ "Decay", "Decay", 0 ],
+			"obj-2::obj-151" : [ "Release", "Release", 0 ],
+			"obj-2::obj-45" : [ "filter envelope release curve[1]", "filter envelope release curve", 0 ],
+			"obj-2::obj-152" : [ "Sustain", "Sustain", 0 ],
+			"obj-2::obj-47" : [ "filter envelope attack curve[1]", "filter envelope attack curve", 0 ],
+			"obj-2::obj-137" : [ "ReleaseCV[1]", "ReleaseCV", 0 ],
+			"obj-2::obj-122" : [ "DecayCV[1]", "DecayCV", 0 ],
+			"obj-2::obj-12" : [ "Mute[3]", "Mute", 0 ],
+			"obj-2::obj-90" : [ "AttackCV[1]", "AttackCV", 0 ]
 		}
 ,
 		"dependency_cache" : [  ],
