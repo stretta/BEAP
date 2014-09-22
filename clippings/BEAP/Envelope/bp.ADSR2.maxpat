@@ -131,7 +131,7 @@
 									"parameter_enable" : 1,
 									"patching_rect" : [ 576.382935, 145.302612, 80.0, 36.0 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 248.977173, 46.169079, 59.0, 36.0 ],
+									"presentation_rect" : [ 248.977173, 46.169079, 54.0, 36.0 ],
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
 											"parameter_longname" : "Release",
@@ -165,7 +165,7 @@
 									"parameter_enable" : 1,
 									"patching_rect" : [ 319.852783, 145.302612, 80.0, 36.0 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 105.992371, 46.169079, 59.0, 36.0 ],
+									"presentation_rect" : [ 105.992371, 46.169079, 53.0, 36.0 ],
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
 											"parameter_longname" : "Decay",
@@ -199,7 +199,7 @@
 									"parameter_enable" : 1,
 									"patching_rect" : [ 199.32251, 145.302612, 80.0, 36.0 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 10.5, 46.169079, 66.0, 36.0 ],
+									"presentation_rect" : [ 10.5, 46.169079, 53.0, 36.0 ],
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
 											"parameter_longname" : "Attack",
@@ -381,7 +381,7 @@
 ,
 									"style" : "",
 									"text" : "autopattr",
-									"varname" : "u330005213"
+									"varname" : "u799000645"
 								}
 
 							}
@@ -2630,14 +2630,14 @@
  ],
 		"lines" : [  ],
 		"parameters" : 		{
-			"obj-10::obj-47" : [ "attack curve", "attack curve", 0 ],
-			"obj-10::obj-26" : [ "mute", "mute", 0 ],
-			"obj-10::obj-46" : [ "decay curve", "decay curve", 0 ],
-			"obj-10::obj-31" : [ "Release", "Release", 0 ],
-			"obj-10::obj-45" : [ "release curve", "release curve", 0 ],
-			"obj-10::obj-32" : [ "Sustain", "Sustain", 0 ],
 			"obj-10::obj-2" : [ "Attack", "Attack", 0 ],
-			"obj-10::obj-29" : [ "Decay", "Decay", 0 ]
+			"obj-10::obj-45" : [ "release curve", "release curve", 0 ],
+			"obj-10::obj-26" : [ "mute", "mute", 0 ],
+			"obj-10::obj-47" : [ "attack curve", "attack curve", 0 ],
+			"obj-10::obj-31" : [ "Release", "Release", 0 ],
+			"obj-10::obj-46" : [ "decay curve", "decay curve", 0 ],
+			"obj-10::obj-29" : [ "Decay", "Decay", 0 ],
+			"obj-10::obj-32" : [ "Sustain", "Sustain", 0 ]
 		}
 ,
 		"dependency_cache" : [  ],
