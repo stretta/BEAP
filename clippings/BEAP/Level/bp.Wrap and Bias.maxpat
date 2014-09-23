@@ -101,20 +101,19 @@
 ,
 									"style" : "",
 									"text" : "autopattr",
-									"varname" : "u964001629"
+									"varname" : "u074006526"
 								}
 
 							}
 , 							{
 								"box" : 								{
 									"id" : "obj-3",
-									"linecount" : 2,
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 25.0, 69.0, 308.75, 33.0 ],
+									"patching_rect" : [ 25.0, 69.0, 308.75, 20.0 ],
 									"style" : "",
-									"text" : "## Wrap and bias a signal in terms of semitones. Useful for transposing and constraining pitch signals. ## "
+									"text" : "## Wrap and bias a signal in terms of semitones ## "
 								}
 
 							}
@@ -738,8 +737,8 @@
 		"lines" : [  ],
 		"parameters" : 		{
 			"obj-3::obj-1" : [ "Bypass", "Bypass", 0 ],
-			"obj-3::obj-28" : [ "Bias", "Bias", 0 ],
-			"obj-3::obj-29" : [ "Wrap", "Wrap", 0 ]
+			"obj-3::obj-29" : [ "Wrap", "Wrap", 0 ],
+			"obj-3::obj-28" : [ "Bias", "Bias", 0 ]
 		}
 ,
 		"dependency_cache" : [  ],

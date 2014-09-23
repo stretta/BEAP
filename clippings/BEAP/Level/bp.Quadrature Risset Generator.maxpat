@@ -88,13 +88,13 @@
 						"boxes" : [ 							{
 								"box" : 								{
 									"id" : "obj-16",
-									"linecount" : 3,
+									"linecount" : 2,
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 17.455986, 73.812126, 316.0, 47.0 ],
+									"patching_rect" : [ 17.455986, 73.812126, 279.0, 33.0 ],
 									"style" : "",
-									"text" : "## Generates four 90-degree phase-offset 1v/oct and amplitude control signal pairs used to generates a Risset glissando from a 0-5v ramp input signal. ## "
+									"text" : "## Generate four 1v/oct and amplitude control signal pairs used for a Risset glissando ## "
 								}
 
 							}
@@ -1104,7 +1104,7 @@
 ,
 									"style" : "",
 									"text" : "autopattr",
-									"varname" : "u203002500"
+									"varname" : "u885006135"
 								}
 
 							}
@@ -2442,9 +2442,9 @@
  ],
 		"lines" : [  ],
 		"parameters" : 		{
-			"obj-10::obj-151" : [ "root_note", "root_note", 0 ],
+			"obj-10::obj-152" : [ "octaves", "octaves", 0 ],
 			"obj-10::obj-25" : [ "mute", "mute", 0 ],
-			"obj-10::obj-152" : [ "octaves", "octaves", 0 ]
+			"obj-10::obj-151" : [ "root_note", "root_note", 0 ]
 		}
 ,
 		"dependency_cache" : [  ],

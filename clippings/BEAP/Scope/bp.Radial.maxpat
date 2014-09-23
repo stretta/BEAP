@@ -91,9 +91,9 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 39.0, 88.0, 169.0, 20.0 ],
+									"patching_rect" : [ 39.0, 88.0, 157.0, 20.0 ],
 									"style" : "",
-									"text" : "## Radial signal display. ## "
+									"text" : "## Radial signal display ## "
 								}
 
 							}

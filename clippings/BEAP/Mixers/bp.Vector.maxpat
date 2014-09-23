@@ -92,9 +92,9 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 44.173828, 102.5, 239.826172, 33.0 ],
+									"patching_rect" : [ 44.173828, 102.5, 243.0, 33.0 ],
 									"style" : "",
-									"text" : "## Mix four inputs into one output with a 2D panner or two control signals. ## "
+									"text" : "## Mix four inputs into one output with a 2D panner or two control signals ## "
 								}
 
 							}
@@ -752,7 +752,7 @@
 ,
 									"style" : "",
 									"text" : "autopattr",
-									"varname" : "u234000928"
+									"varname" : "u509009551"
 								}
 
 							}
@@ -1354,29 +1354,29 @@
  ],
 		"lines" : [  ],
 		"parameters" : 		{
-			"obj-9::obj-39" : [ "YCV", "Y CV", 0 ],
+			"obj-9::obj-56" : [ "source", "source", 0 ],
 			"obj-9::obj-22" : [ "XCV", "X CV", 0 ],
-			"obj-9::obj-56" : [ "source", "source", 0 ]
+			"obj-9::obj-39" : [ "YCV", "Y CV", 0 ]
 		}
 ,
 		"dependency_cache" : [ 			{
 				"name" : "M4L.cross1~.maxpat",
-				"bootpath" : "/Applications/Max 7/resources/patchers/m4l/Tools resources",
-				"patcherrelativepath" : "../../../../../patchers/m4l/Tools resources",
+				"bootpath" : "/Applications/Max 7/Max.app/Contents/Resources/C74/patchers/m4l/Tools resources",
+				"patcherrelativepath" : "../../../../../../../Applications/Max 7/Max.app/Contents/Resources/C74/patchers/m4l/Tools resources",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "M4L.pictslider.back.png",
-				"bootpath" : "/Applications/Max 7/resources/media/max/picts/m4l-picts",
-				"patcherrelativepath" : "../../../../../media/max/picts/m4l-picts",
+				"bootpath" : "/Applications/Max 7/Max.app/Contents/Resources/C74/media/max/picts/m4l-picts",
+				"patcherrelativepath" : "../../../../../../../Applications/Max 7/Max.app/Contents/Resources/C74/media/max/picts/m4l-picts",
 				"type" : "PNG ",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "M4L.pictslider.knob.png",
-				"bootpath" : "/Applications/Max 7/resources/media/max/picts/m4l-picts",
-				"patcherrelativepath" : "../../../../../media/max/picts/m4l-picts",
+				"bootpath" : "/Applications/Max 7/Max.app/Contents/Resources/C74/media/max/picts/m4l-picts",
+				"patcherrelativepath" : "../../../../../../../Applications/Max 7/Max.app/Contents/Resources/C74/media/max/picts/m4l-picts",
 				"type" : "PNG ",
 				"implicit" : 1
 			}

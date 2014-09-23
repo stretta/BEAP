@@ -91,9 +91,9 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 48.0, 82.0, 187.0, 20.0 ],
+									"patching_rect" : [ 48.0, 82.0, 185.0, 20.0 ],
 									"style" : "",
-									"text" : "## Constant signal generator. ## "
+									"text" : "## Constant signal generator ## "
 								}
 
 							}
@@ -378,11 +378,29 @@
 												}
 
 											}
- ]
+ ],
+										"bgfillcolor" : 										{
+											"type" : "gradient",
+											"color1" : [ 0.435294, 0.462745, 0.498039, 1.0 ],
+											"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
+											"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
+											"angle" : 270.0,
+											"proportion" : 0.39
+										}
+
 									}
 ,
 									"patching_rect" : [ 655.236206, 346.675995, 105.0, 22.0 ],
 									"saved_object_attributes" : 									{
+										"bgfillcolor" : [ 											{
+												"type" : "gradient",
+												"color1" : [ 0.435294, 0.462745, 0.498039, 1.0 ],
+												"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
+												"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
+												"angle" : 270.0,
+												"proportion" : 0.39
+											}
+ ],
 										"bgfillcolor_dictionary" : 										{
 											"type" : "gradient",
 											"color1" : [ 0.435294, 0.462745, 0.498039, 1.0 ],
@@ -1280,11 +1298,29 @@
 												}
 
 											}
- ]
+ ],
+										"bgfillcolor" : 										{
+											"type" : "gradient",
+											"color1" : [ 0.435294, 0.462745, 0.498039, 1.0 ],
+											"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
+											"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
+											"angle" : 270.0,
+											"proportion" : 0.39
+										}
+
 									}
 ,
 									"patching_rect" : [ 321.75, 138.211639, 253.486206, 22.0 ],
 									"saved_object_attributes" : 									{
+										"bgfillcolor" : [ 											{
+												"type" : "gradient",
+												"color1" : [ 0.435294, 0.462745, 0.498039, 1.0 ],
+												"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
+												"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
+												"angle" : 270.0,
+												"proportion" : 0.39
+											}
+ ],
 										"bgfillcolor_dictionary" : 										{
 											"type" : "gradient",
 											"color1" : [ 0.435294, 0.462745, 0.498039, 1.0 ],
@@ -1596,11 +1632,29 @@
 												}
 
 											}
- ]
+ ],
+										"bgfillcolor" : 										{
+											"type" : "gradient",
+											"color1" : [ 0.435294, 0.462745, 0.498039, 1.0 ],
+											"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
+											"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
+											"angle" : 270.0,
+											"proportion" : 0.39
+										}
+
 									}
 ,
 									"patching_rect" : [ 438.993103, 346.675995, 74.0, 22.0 ],
 									"saved_object_attributes" : 									{
+										"bgfillcolor" : [ 											{
+												"type" : "gradient",
+												"color1" : [ 0.435294, 0.462745, 0.498039, 1.0 ],
+												"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
+												"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
+												"angle" : 270.0,
+												"proportion" : 0.39
+											}
+ ],
 										"bgfillcolor_dictionary" : 										{
 											"type" : "gradient",
 											"color1" : [ 0.435294, 0.462745, 0.498039, 1.0 ],
@@ -1903,11 +1957,29 @@
 												}
 
 											}
- ]
+ ],
+										"bgfillcolor" : 										{
+											"type" : "gradient",
+											"color1" : [ 0.435294, 0.462745, 0.498039, 1.0 ],
+											"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
+											"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
+											"angle" : 270.0,
+											"proportion" : 0.39
+										}
+
 									}
 ,
 									"patching_rect" : [ 556.236206, 346.675995, 74.0, 22.0 ],
 									"saved_object_attributes" : 									{
+										"bgfillcolor" : [ 											{
+												"type" : "gradient",
+												"color1" : [ 0.435294, 0.462745, 0.498039, 1.0 ],
+												"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
+												"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
+												"angle" : 270.0,
+												"proportion" : 0.39
+											}
+ ],
 										"bgfillcolor_dictionary" : 										{
 											"type" : "gradient",
 											"color1" : [ 0.435294, 0.462745, 0.498039, 1.0 ],
@@ -2168,11 +2240,29 @@
 												}
 
 											}
- ]
+ ],
+										"bgfillcolor" : 										{
+											"type" : "gradient",
+											"color1" : [ 0.435294, 0.462745, 0.498039, 1.0 ],
+											"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
+											"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
+											"angle" : 270.0,
+											"proportion" : 0.39
+										}
+
 									}
 ,
 									"patching_rect" : [ 321.75, 346.675995, 81.0, 22.0 ],
 									"saved_object_attributes" : 									{
+										"bgfillcolor" : [ 											{
+												"type" : "gradient",
+												"color1" : [ 0.435294, 0.462745, 0.498039, 1.0 ],
+												"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
+												"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
+												"angle" : 270.0,
+												"proportion" : 0.39
+											}
+ ],
 										"bgfillcolor_dictionary" : 										{
 											"type" : "gradient",
 											"color1" : [ 0.435294, 0.462745, 0.498039, 1.0 ],
@@ -2387,7 +2477,7 @@
 ,
 									"style" : "",
 									"text" : "autopattr",
-									"varname" : "u393007995"
+									"varname" : "u448005578"
 								}
 
 							}
@@ -2799,12 +2889,12 @@
  ],
 		"lines" : [  ],
 		"parameters" : 		{
-			"obj-1::obj-46" : [ "Semi", "Semi", 0 ],
-			"obj-1::obj-20" : [ "mute", "mute", 0 ],
 			"obj-1::obj-51" : [ "Freq", "Freq", 0 ],
+			"obj-1::obj-46" : [ "Semi", "Semi", 0 ],
 			"obj-1::obj-43" : [ "Type", "Type", 0 ],
-			"obj-1::obj-28" : [ "Volts", "Volts", 0 ],
-			"obj-1::obj-72" : [ "MIDI", "MIDI", 0 ]
+			"obj-1::obj-20" : [ "mute", "mute", 0 ],
+			"obj-1::obj-72" : [ "MIDI", "MIDI", 0 ],
+			"obj-1::obj-28" : [ "Volts", "Volts", 0 ]
 		}
 ,
 		"dependency_cache" : [  ],

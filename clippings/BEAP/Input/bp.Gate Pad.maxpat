@@ -91,9 +91,9 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 48.0, 82.0, 285.0, 20.0 ],
+									"patching_rect" : [ 48.0, 82.0, 245.0, 20.0 ],
 									"style" : "",
-									"text" : "## Turns a mouse click into a gate signal. ## "
+									"text" : "## Turn a mouse click into a gate signal ## "
 								}
 
 							}
@@ -195,7 +195,7 @@
 									"patching_rect" : [ 48.0, 118.0, 59.5, 22.0 ],
 									"style" : "",
 									"text" : "autopattr",
-									"varname" : "u888004191"
+									"varname" : "u075002063"
 								}
 
 							}

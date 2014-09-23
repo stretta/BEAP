@@ -93,7 +93,7 @@
 									"numoutlets" : 0,
 									"patching_rect" : [ 48.0, 78.0, 309.0, 20.0 ],
 									"style" : "",
-									"text" : "## Linear scale mixer appropriate for control signals. ## "
+									"text" : "## Linear scale mixer appropriate for control signals ## "
 								}
 
 							}
@@ -550,7 +550,7 @@
 ,
 									"style" : "",
 									"text" : "autopattr",
-									"varname" : "u350005797"
+									"varname" : "u455009415"
 								}
 
 							}

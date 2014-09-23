@@ -92,9 +92,9 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 48.0, 82.0, 334.0, 47.0 ],
+									"patching_rect" : [ 48.0, 82.0, 344.0, 47.0 ],
 									"style" : "",
-									"text" : "## Holds the value of an input signal at the moment the gate input goes high. When gate goes low, original output passes thru. ## "
+									"text" : "## Hold the value of an input signal at the moment the gate input goes high. When the gate goes low, the original output passes thru ## "
 								}
 
 							}
@@ -204,7 +204,7 @@
 ,
 									"style" : "",
 									"text" : "autopattr",
-									"varname" : "u912000385"
+									"varname" : "u517006231"
 								}
 
 							}

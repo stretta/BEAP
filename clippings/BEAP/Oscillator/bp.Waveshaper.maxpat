@@ -93,7 +93,7 @@
 									"numoutlets" : 0,
 									"patching_rect" : [ 47.0, 70.970001, 117.0, 20.0 ],
 									"style" : "",
-									"text" : "## Waveshaper. ## "
+									"text" : "## Waveshaper ## "
 								}
 
 							}
@@ -582,7 +582,7 @@
 ,
 									"style" : "",
 									"text" : "autopattr",
-									"varname" : "u401001101"
+									"varname" : "u285002025"
 								}
 
 							}
@@ -979,9 +979,9 @@
  ],
 		"lines" : [  ],
 		"parameters" : 		{
-			"obj-13::obj-44" : [ "bypass[1]", "bypass", 0 ],
 			"obj-13::obj-53" : [ "Amount[1]", "Amount", 0 ],
-			"obj-13::obj-22" : [ "CV", "CV", 0 ]
+			"obj-13::obj-22" : [ "CV", "CV", 0 ],
+			"obj-13::obj-44" : [ "bypass[1]", "bypass", 0 ]
 		}
 ,
 		"dependency_cache" : [  ],

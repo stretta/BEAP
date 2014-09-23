@@ -122,7 +122,7 @@
 									"numoutlets" : 0,
 									"patching_rect" : [ 48.0, 84.5, 155.0, 20.0 ],
 									"style" : "",
-									"text" : "## Hand clap oscillator. ## "
+									"text" : "## Hand clap oscillator ## "
 								}
 
 							}
@@ -932,11 +932,29 @@
 																}
 
 															}
- ]
+ ],
+														"bgfillcolor" : 														{
+															"type" : "gradient",
+															"color1" : [ 0.435294, 0.462745, 0.498039, 1.0 ],
+															"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
+															"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
+															"angle" : 270.0,
+															"proportion" : 0.39
+														}
+
 													}
 ,
 													"patching_rect" : [ 252.0, 241.0, 115.0, 18.0 ],
 													"saved_object_attributes" : 													{
+														"bgfillcolor" : [ 															{
+																"type" : "gradient",
+																"color1" : [ 0.435294, 0.462745, 0.498039, 1.0 ],
+																"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
+																"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
+																"angle" : 270.0,
+																"proportion" : 0.39
+															}
+ ],
 														"bgfillcolor_dictionary" : 														{
 															"type" : "gradient",
 															"color1" : [ 0.435294, 0.462745, 0.498039, 1.0 ],
@@ -1974,11 +1992,29 @@
 												}
 
 											}
- ]
+ ],
+										"bgfillcolor" : 										{
+											"type" : "gradient",
+											"color1" : [ 0.435294, 0.462745, 0.498039, 1.0 ],
+											"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
+											"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
+											"angle" : 270.0,
+											"proportion" : 0.39
+										}
+
 									}
 ,
 									"patching_rect" : [ 463.0, 163.0, 123.0, 22.0 ],
 									"saved_object_attributes" : 									{
+										"bgfillcolor" : [ 											{
+												"type" : "gradient",
+												"color1" : [ 0.435294, 0.462745, 0.498039, 1.0 ],
+												"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
+												"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
+												"angle" : 270.0,
+												"proportion" : 0.39
+											}
+ ],
 										"bgfillcolor_dictionary" : 										{
 											"type" : "gradient",
 											"color1" : [ 0.435294, 0.462745, 0.498039, 1.0 ],
@@ -2163,11 +2199,29 @@
 												}
 
 											}
- ]
+ ],
+										"bgfillcolor" : 										{
+											"type" : "gradient",
+											"color1" : [ 0.435294, 0.462745, 0.498039, 1.0 ],
+											"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
+											"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
+											"angle" : 270.0,
+											"proportion" : 0.39
+										}
+
 									}
 ,
 									"patching_rect" : [ 463.0, 96.0, 82.0, 22.0 ],
 									"saved_object_attributes" : 									{
+										"bgfillcolor" : [ 											{
+												"type" : "gradient",
+												"color1" : [ 0.435294, 0.462745, 0.498039, 1.0 ],
+												"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
+												"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
+												"angle" : 270.0,
+												"proportion" : 0.39
+											}
+ ],
 										"bgfillcolor_dictionary" : 										{
 											"type" : "gradient",
 											"color1" : [ 0.435294, 0.462745, 0.498039, 1.0 ],
@@ -2547,11 +2601,29 @@
 												}
 
 											}
- ]
+ ],
+										"bgfillcolor" : 										{
+											"type" : "gradient",
+											"color1" : [ 0.435294, 0.462745, 0.498039, 1.0 ],
+											"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
+											"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
+											"angle" : 270.0,
+											"proportion" : 0.39
+										}
+
 									}
 ,
 									"patching_rect" : [ 630.007629, 57.057114, 57.0, 22.0 ],
 									"saved_object_attributes" : 									{
+										"bgfillcolor" : [ 											{
+												"type" : "gradient",
+												"color1" : [ 0.435294, 0.462745, 0.498039, 1.0 ],
+												"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
+												"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
+												"angle" : 270.0,
+												"proportion" : 0.39
+											}
+ ],
 										"bgfillcolor_dictionary" : 										{
 											"type" : "gradient",
 											"color1" : [ 0.435294, 0.462745, 0.498039, 1.0 ],
@@ -2952,7 +3024,7 @@
 ,
 									"style" : "",
 									"text" : "autopattr",
-									"varname" : "u855001430"
+									"varname" : "u412000321"
 								}
 
 							}
@@ -3267,12 +3339,12 @@
  ],
 		"lines" : [  ],
 		"parameters" : 		{
-			"obj-11::obj-37" : [ "Claps[1]", "Claps", 0 ],
 			"obj-11::obj-12" : [ "Mute[1]", "Mute", 0 ],
-			"obj-11::obj-28" : [ "Decay[1]", "Decay", 0 ],
 			"obj-11::obj-33" : [ "MaxFreq", "MaxFreq", 0 ],
+			"obj-11::obj-28" : [ "Decay[1]", "Decay", 0 ],
+			"obj-11::obj-29" : [ "Q", "SampleStart", 0 ],
 			"obj-11::obj-36" : [ "MinFreq", "MinFreq", 0 ],
-			"obj-11::obj-29" : [ "Q", "SampleStart", 0 ]
+			"obj-11::obj-37" : [ "Claps[1]", "Claps", 0 ]
 		}
 ,
 		"dependency_cache" : [  ],

@@ -91,9 +91,9 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 48.0, 80.0, 372.0, 20.0 ],
+									"patching_rect" : [ 48.0, 80.0, 305.0, 20.0 ],
 									"style" : "",
-									"text" : "## MaxForLive input. Converts audio from Live to a Beap signal. ## "
+									"text" : "## Convert audio from MaxForLive to a Beap signal ## "
 								}
 
 							}
@@ -312,7 +312,7 @@
 ,
 									"style" : "",
 									"text" : "autopattr",
-									"varname" : "u997005349"
+									"varname" : "u809002222"
 								}
 
 							}

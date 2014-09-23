@@ -91,9 +91,9 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 48.0, 82.0, 301.0, 20.0 ],
+									"patching_rect" : [ 48.0, 82.0, 294.0, 20.0 ],
 									"style" : "",
-									"text" : "## Sqaure wave LFO with pulse width modulation . ## "
+									"text" : "## Sqaure wave LFO with pulse width modulation ## "
 								}
 
 							}
@@ -1092,11 +1092,29 @@
 												}
 
 											}
- ]
+ ],
+										"bgfillcolor" : 										{
+											"type" : "gradient",
+											"color1" : [ 0.435294, 0.462745, 0.498039, 1.0 ],
+											"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
+											"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
+											"angle" : 270.0,
+											"proportion" : 0.39
+										}
+
 									}
 ,
 									"patching_rect" : [ 427.405701, 111.5, 167.0, 20.0 ],
 									"saved_object_attributes" : 									{
+										"bgfillcolor" : [ 											{
+												"type" : "gradient",
+												"color1" : [ 0.435294, 0.462745, 0.498039, 1.0 ],
+												"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
+												"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
+												"angle" : 270.0,
+												"proportion" : 0.39
+											}
+ ],
 										"bgfillcolor_dictionary" : 										{
 											"type" : "gradient",
 											"color1" : [ 0.435294, 0.462745, 0.498039, 1.0 ],
@@ -1941,11 +1959,29 @@
 																				}
 
 																			}
- ]
+ ],
+																		"bgfillcolor" : 																		{
+																			"type" : "gradient",
+																			"color1" : [ 0.435294, 0.462745, 0.498039, 1.0 ],
+																			"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
+																			"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
+																			"angle" : 270.0,
+																			"proportion" : 0.39
+																		}
+
 																	}
 ,
 																	"patching_rect" : [ 175.0, 45.0, 71.0, 18.0 ],
 																	"saved_object_attributes" : 																	{
+																		"bgfillcolor" : [ 																			{
+																				"type" : "gradient",
+																				"color1" : [ 0.435294, 0.462745, 0.498039, 1.0 ],
+																				"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
+																				"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
+																				"angle" : 270.0,
+																				"proportion" : 0.39
+																			}
+ ],
 																		"bgfillcolor_dictionary" : 																		{
 																			"type" : "gradient",
 																			"color1" : [ 0.435294, 0.462745, 0.498039, 1.0 ],
@@ -2275,11 +2311,29 @@
 																}
 
 															}
- ]
+ ],
+														"bgfillcolor" : 														{
+															"type" : "gradient",
+															"color1" : [ 0.435294, 0.462745, 0.498039, 1.0 ],
+															"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
+															"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
+															"angle" : 270.0,
+															"proportion" : 0.39
+														}
+
 													}
 ,
 													"patching_rect" : [ 168.0, 72.0, 119.0, 18.0 ],
 													"saved_object_attributes" : 													{
+														"bgfillcolor" : [ 															{
+																"type" : "gradient",
+																"color1" : [ 0.435294, 0.462745, 0.498039, 1.0 ],
+																"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
+																"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
+																"angle" : 270.0,
+																"proportion" : 0.39
+															}
+ ],
 														"bgfillcolor_dictionary" : 														{
 															"type" : "gradient",
 															"color1" : [ 0.435294, 0.462745, 0.498039, 1.0 ],
@@ -2934,11 +2988,29 @@
 												}
 
 											}
- ]
+ ],
+										"bgfillcolor" : 										{
+											"type" : "gradient",
+											"color1" : [ 0.435294, 0.462745, 0.498039, 1.0 ],
+											"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
+											"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
+											"angle" : 270.0,
+											"proportion" : 0.39
+										}
+
 									}
 ,
 									"patching_rect" : [ 427.405701, 333.500031, 167.0, 20.0 ],
 									"saved_object_attributes" : 									{
+										"bgfillcolor" : [ 											{
+												"type" : "gradient",
+												"color1" : [ 0.435294, 0.462745, 0.498039, 1.0 ],
+												"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
+												"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
+												"angle" : 270.0,
+												"proportion" : 0.39
+											}
+ ],
 										"bgfillcolor_dictionary" : 										{
 											"type" : "gradient",
 											"color1" : [ 0.435294, 0.462745, 0.498039, 1.0 ],
@@ -3031,7 +3103,7 @@
 ,
 									"style" : "",
 									"text" : "autopattr",
-									"varname" : "u963007720"
+									"varname" : "u572007183"
 								}
 
 							}
@@ -3416,7 +3488,7 @@
 									"destination" : [ "obj-85", 0 ],
 									"disabled" : 0,
 									"hidden" : 0,
-									"midpoints" : [ 535.572367, 287.0, 584.905701, 287.0 ],
+									"midpoints" : [ 535.572368, 287.0, 584.905701, 287.0 ],
 									"source" : [ "obj-86", 2 ]
 								}
 
@@ -3487,13 +3559,13 @@
  ],
 		"lines" : [  ],
 		"parameters" : 		{
+			"obj-74::obj-12" : [ "Mute[6]", "Mute", 0 ],
 			"obj-74::obj-36" : [ "PW", "PW", 0 ],
-			"obj-74::obj-94" : [ "ReTriggerA[1]", "Re-Trigger", 0 ],
-			"obj-74::obj-11" : [ "PWM", "PWM", 0 ],
 			"obj-74::obj-88" : [ "SpectraLFOTimeMode[1]", "Time Mode", 1 ],
 			"obj-74::obj-89" : [ "SpectraLFORate[1]", "Rate", 0 ],
-			"obj-74::obj-12" : [ "Mute[6]", "Mute", 0 ],
-			"obj-74::obj-74" : [ "SpectraLFORateSync[1]", "Rate", 0 ]
+			"obj-74::obj-74" : [ "SpectraLFORateSync[1]", "Rate", 0 ],
+			"obj-74::obj-94" : [ "ReTriggerA[1]", "Re-Trigger", 0 ],
+			"obj-74::obj-11" : [ "PWM", "PWM", 0 ]
 		}
 ,
 		"dependency_cache" : [  ],

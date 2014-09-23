@@ -93,7 +93,7 @@
 									"numoutlets" : 0,
 									"patching_rect" : [ 22.0, 68.0, 303.0, 20.0 ],
 									"style" : "",
-									"text" : "## Morphable additive oscillator with 32 harmonics. ## "
+									"text" : "## Morphable additive oscillator with 32 harmonics ## "
 								}
 
 							}
@@ -1426,7 +1426,16 @@
 												}
 
 											}
- ]
+ ],
+										"bgfillcolor" : 										{
+											"type" : "gradient",
+											"color1" : [ 0.435294, 0.462745, 0.498039, 1.0 ],
+											"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
+											"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
+											"angle" : 270.0,
+											"proportion" : 0.39
+										}
+
 									}
 ,
 									"patching_rect" : [ 833.007568, 273.71167, 143.796143, 20.0 ],
@@ -1932,7 +1941,7 @@
 ,
 									"style" : "",
 									"text" : "autopattr",
-									"varname" : "u677000680"
+									"varname" : "u029001816"
 								}
 
 							}
@@ -2979,11 +2988,11 @@
  ],
 		"lines" : [  ],
 		"parameters" : 		{
-			"obj-6::obj-23" : [ "CV[1]", "CV", 0 ],
-			"obj-6::obj-8" : [ "dict[1]", "dict", -1 ],
 			"obj-6::obj-53" : [ "Mute[6]", "Mute", 0 ],
+			"obj-6::obj-80" : [ "EditMode[1]", "EditMode", 0 ],
 			"obj-6::obj-33" : [ "Offset[3]", "Offset", 0 ],
-			"obj-6::obj-80" : [ "EditMode[1]", "EditMode", 0 ]
+			"obj-6::obj-8" : [ "dict[1]", "dict", -1 ],
+			"obj-6::obj-23" : [ "CV[1]", "CV", 0 ]
 		}
 ,
 		"dependency_cache" : [  ],

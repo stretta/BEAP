@@ -92,9 +92,9 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 41.173828, 61.996155, 285.0, 20.0 ],
+									"patching_rect" : [ 41.173828, 61.996155, 233.0, 20.0 ],
 									"style" : "",
-									"text" : "## Probability-based trigger processor. ## "
+									"text" : "## Probability-based trigger processor ## "
 								}
 
 							}
@@ -625,11 +625,29 @@
 												}
 
 											}
- ]
+ ],
+										"bgfillcolor" : 										{
+											"type" : "gradient",
+											"color1" : [ 0.435294, 0.462745, 0.498039, 1.0 ],
+											"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
+											"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
+											"angle" : 270.0,
+											"proportion" : 0.39
+										}
+
 									}
 ,
 									"patching_rect" : [ 363.2453, 333.295074, 62.0, 22.0 ],
 									"saved_object_attributes" : 									{
+										"bgfillcolor" : [ 											{
+												"type" : "gradient",
+												"color1" : [ 0.435294, 0.462745, 0.498039, 1.0 ],
+												"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
+												"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
+												"angle" : 270.0,
+												"proportion" : 0.39
+											}
+ ],
 										"bgfillcolor_dictionary" : 										{
 											"type" : "gradient",
 											"color1" : [ 0.435294, 0.462745, 0.498039, 1.0 ],
@@ -811,11 +829,29 @@
 												}
 
 											}
- ]
+ ],
+										"bgfillcolor" : 										{
+											"type" : "gradient",
+											"color1" : [ 0.435294, 0.462745, 0.498039, 1.0 ],
+											"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
+											"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
+											"angle" : 270.0,
+											"proportion" : 0.39
+										}
+
 									}
 ,
 									"patching_rect" : [ 432.7453, 61.996155, 92.0, 22.0 ],
 									"saved_object_attributes" : 									{
+										"bgfillcolor" : [ 											{
+												"type" : "gradient",
+												"color1" : [ 0.435294, 0.462745, 0.498039, 1.0 ],
+												"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
+												"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
+												"angle" : 270.0,
+												"proportion" : 0.39
+											}
+ ],
 										"bgfillcolor_dictionary" : 										{
 											"type" : "gradient",
 											"color1" : [ 0.435294, 0.462745, 0.498039, 1.0 ],
@@ -968,11 +1004,29 @@
 												}
 
 											}
- ]
+ ],
+										"bgfillcolor" : 										{
+											"type" : "gradient",
+											"color1" : [ 0.435294, 0.462745, 0.498039, 1.0 ],
+											"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
+											"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
+											"angle" : 270.0,
+											"proportion" : 0.39
+										}
+
 									}
 ,
 									"patching_rect" : [ 622.578613, 286.702576, 92.0, 22.0 ],
 									"saved_object_attributes" : 									{
+										"bgfillcolor" : [ 											{
+												"type" : "gradient",
+												"color1" : [ 0.435294, 0.462745, 0.498039, 1.0 ],
+												"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
+												"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
+												"angle" : 270.0,
+												"proportion" : 0.39
+											}
+ ],
 										"bgfillcolor_dictionary" : 										{
 											"type" : "gradient",
 											"color1" : [ 0.435294, 0.462745, 0.498039, 1.0 ],
@@ -1440,7 +1494,7 @@
 ,
 									"style" : "",
 									"text" : "autopattr",
-									"varname" : "u705010435"
+									"varname" : "u442002287"
 								}
 
 							}
@@ -1865,12 +1919,12 @@
  ],
 		"lines" : [  ],
 		"parameters" : 		{
-			"obj-19::obj-45" : [ "Percent", "Percent B", 0 ],
+			"obj-19::obj-86" : [ "CV Amt", "Amt", 0 ],
 			"obj-19::obj-23" : [ "Subdiv[4]", "Sub[1]", 0 ],
-			"obj-19::obj-189" : [ "Subdiv[1]", "Sub[1]", 0 ],
 			"obj-19::obj-20" : [ "bypass", "bypass", 0 ],
-			"obj-19::obj-29" : [ "Subdiv[2]", "Sub[1]", 0 ],
-			"obj-19::obj-86" : [ "CV Amt", "Amt", 0 ]
+			"obj-19::obj-45" : [ "Percent", "Percent B", 0 ],
+			"obj-19::obj-189" : [ "Subdiv[1]", "Sub[1]", 0 ],
+			"obj-19::obj-29" : [ "Subdiv[2]", "Sub[1]", 0 ]
 		}
 ,
 		"dependency_cache" : [  ],

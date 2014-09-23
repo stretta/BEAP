@@ -91,9 +91,9 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 19.0, 82.0, 201.0, 20.0 ],
+									"patching_rect" : [ 19.0, 82.0, 213.0, 20.0 ],
 									"style" : "",
-									"text" : "## White and pink noise source. ## "
+									"text" : "## White and pink noise generator ## "
 								}
 
 							}
@@ -218,7 +218,7 @@
 ,
 									"style" : "",
 									"text" : "autopattr",
-									"varname" : "u779002298"
+									"varname" : "u303002246"
 								}
 
 							}
@@ -512,8 +512,8 @@
  ],
 		"lines" : [  ],
 		"parameters" : 		{
-			"obj-18::obj-69" : [ "NoiseType", "NoiseType", 0 ],
-			"obj-18::obj-55" : [ "Mute", "Mute", 0 ]
+			"obj-18::obj-55" : [ "Mute", "Mute", 0 ],
+			"obj-18::obj-69" : [ "NoiseType", "NoiseType", 0 ]
 		}
 ,
 		"dependency_cache" : [  ],

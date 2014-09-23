@@ -93,7 +93,7 @@
 									"numoutlets" : 0,
 									"patching_rect" : [ 67.173828, 106.211639, 285.0, 20.0 ],
 									"style" : "",
-									"text" : "## Endlessly rising or falling Risset oscillator. ## "
+									"text" : "## Endlessly rising or falling Risset oscillator ## "
 								}
 
 							}
@@ -646,11 +646,29 @@
 												}
 
 											}
- ]
+ ],
+										"bgfillcolor" : 										{
+											"type" : "gradient",
+											"color1" : [ 0.435294, 0.462745, 0.498039, 1.0 ],
+											"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
+											"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
+											"angle" : 270.0,
+											"proportion" : 0.39
+										}
+
 									}
 ,
 									"patching_rect" : [ 872.000061, 965.678467, 71.0, 22.0 ],
 									"saved_object_attributes" : 									{
+										"bgfillcolor" : [ 											{
+												"type" : "gradient",
+												"color1" : [ 0.435294, 0.462745, 0.498039, 1.0 ],
+												"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
+												"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
+												"angle" : 270.0,
+												"proportion" : 0.39
+											}
+ ],
 										"bgfillcolor_dictionary" : 										{
 											"type" : "gradient",
 											"color1" : [ 0.435294, 0.462745, 0.498039, 1.0 ],
@@ -1500,11 +1518,29 @@
 												}
 
 											}
- ]
+ ],
+										"bgfillcolor" : 										{
+											"type" : "gradient",
+											"color1" : [ 0.435294, 0.462745, 0.498039, 1.0 ],
+											"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
+											"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
+											"angle" : 270.0,
+											"proportion" : 0.39
+										}
+
 									}
 ,
 									"patching_rect" : [ 617.03125, 664.485474, 71.0, 22.0 ],
 									"saved_object_attributes" : 									{
+										"bgfillcolor" : [ 											{
+												"type" : "gradient",
+												"color1" : [ 0.435294, 0.462745, 0.498039, 1.0 ],
+												"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
+												"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
+												"angle" : 270.0,
+												"proportion" : 0.39
+											}
+ ],
 										"bgfillcolor_dictionary" : 										{
 											"type" : "gradient",
 											"color1" : [ 0.435294, 0.462745, 0.498039, 1.0 ],
@@ -2318,7 +2354,7 @@
 ,
 									"style" : "",
 									"text" : "autopattr",
-									"varname" : "u985002005"
+									"varname" : "u704000617"
 								}
 
 							}
@@ -3018,21 +3054,21 @@
  ],
 		"lines" : [  ],
 		"parameters" : 		{
-			"obj-17::obj-64" : [ "octaves", "octaves", 0 ],
 			"obj-17::obj-51" : [ "Freq", "Freq", 0 ],
 			"obj-17::obj-12" : [ "KeyboardMode[2]", "KeyboardMode", 0 ],
-			"obj-17::obj-46" : [ "Offset", "Offset", 0 ],
-			"obj-17::obj-16" : [ "root_note", "root_note", 0 ],
 			"obj-17::obj-45" : [ "FreqMode", "FreqMode", 0 ],
+			"obj-17::obj-46" : [ "Offset", "Offset", 0 ],
+			"obj-17::obj-64" : [ "octaves", "octaves", 0 ],
+			"obj-17::obj-129" : [ "CV2", "CV2", 0 ],
 			"obj-17::obj-53" : [ "Mute", "Mute", 0 ],
-			"obj-17::obj-106" : [ "CV3", "CV3", 0 ],
-			"obj-17::obj-129" : [ "CV2", "CV2", 0 ]
+			"obj-17::obj-16" : [ "root_note", "root_note", 0 ],
+			"obj-17::obj-106" : [ "CV3", "CV3", 0 ]
 		}
 ,
 		"dependency_cache" : [ 			{
 				"name" : "mro_sin.maxpat",
-				"bootpath" : "/Applications/Max 7/resources/packages/Beap/misc/mro_osc",
-				"patcherrelativepath" : "../../../misc/mro_osc",
+				"bootpath" : "/Applications/Max 7/Max.app/Contents/Resources/C74/packages/Beap/misc/mro_osc",
+				"patcherrelativepath" : "../../../../../../../Applications/Max 7/Max.app/Contents/Resources/C74/packages/Beap/misc/mro_osc",
 				"type" : "JSON",
 				"implicit" : 1
 			}

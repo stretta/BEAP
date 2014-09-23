@@ -93,7 +93,7 @@
 									"numoutlets" : 0,
 									"patching_rect" : [ 48.0, 82.0, 178.0, 20.0 ],
 									"style" : "",
-									"text" : "## Mixes four stereo inputs. ## "
+									"text" : "## Mixes four stereo inputs ## "
 								}
 
 							}
@@ -946,7 +946,7 @@
 ,
 									"style" : "",
 									"text" : "autopattr",
-									"varname" : "u151006031"
+									"varname" : "u691009479"
 								}
 
 							}
@@ -1428,11 +1428,11 @@
  ],
 		"lines" : [  ],
 		"parameters" : 		{
-			"obj-15::obj-36" : [ "live.slider[3]", "live.slider", 0 ],
 			"obj-15::obj-23" : [ "live.slider[1]", "live.slider", 0 ],
-			"obj-15::obj-37" : [ "Mute", "Mute", 0 ],
+			"obj-15::obj-8" : [ "live.slider", "live.slider", 0 ],
 			"obj-15::obj-30" : [ "live.slider[2]", "live.slider", 0 ],
-			"obj-15::obj-8" : [ "live.slider", "live.slider", 0 ]
+			"obj-15::obj-37" : [ "Mute", "Mute", 0 ],
+			"obj-15::obj-36" : [ "live.slider[3]", "live.slider", 0 ]
 		}
 ,
 		"dependency_cache" : [  ],

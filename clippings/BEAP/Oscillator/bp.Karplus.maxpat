@@ -93,7 +93,7 @@
 									"numoutlets" : 0,
 									"patching_rect" : [ 17.0, 61.524406, 269.0, 20.0 ],
 									"style" : "",
-									"text" : "## Signal-controlled karplus-strong oscillator. ## "
+									"text" : "## Signal-controlled karplus-strong oscillator ## "
 								}
 
 							}
@@ -1265,11 +1265,29 @@
 												}
 
 											}
- ]
+ ],
+										"bgfillcolor" : 										{
+											"type" : "gradient",
+											"color1" : [ 0.435294, 0.462745, 0.498039, 1.0 ],
+											"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
+											"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
+											"angle" : 270.0,
+											"proportion" : 0.39
+										}
+
 									}
 ,
 									"patching_rect" : [ 741.503296, 66.490196, 76.541275, 20.0 ],
 									"saved_object_attributes" : 									{
+										"bgfillcolor" : [ 											{
+												"type" : "gradient",
+												"color1" : [ 0.435294, 0.462745, 0.498039, 1.0 ],
+												"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
+												"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
+												"angle" : 270.0,
+												"proportion" : 0.39
+											}
+ ],
 										"bgfillcolor_dictionary" : 										{
 											"type" : "gradient",
 											"color1" : [ 0.435294, 0.462745, 0.498039, 1.0 ],
@@ -2017,7 +2035,7 @@
 ,
 									"style" : "",
 									"text" : "autopattr",
-									"varname" : "u826000440"
+									"varname" : "u472000249"
 								}
 
 							}
@@ -2681,14 +2699,14 @@
 		"lines" : [  ],
 		"parameters" : 		{
 			"obj-2::obj-12" : [ "Mute[1]", "Mute", 0 ],
-			"obj-2::obj-51" : [ "Freq[1]", "Freq", 0 ],
-			"obj-2::obj-57" : [ "Decay[1]", "Decay", 0 ],
-			"obj-2::obj-66" : [ "Offset[3]", "Offset", 0 ],
-			"obj-2::obj-28" : [ "Dampen[1]", "Dampen", 0 ],
-			"obj-2::obj-92" : [ "CV[2]", "CV", 0 ],
-			"obj-2::obj-42" : [ "Impulse", "Impulse", 0 ],
 			"obj-2::obj-22" : [ "CV[3]", "CV", 0 ],
-			"obj-2::obj-65" : [ "FreqMode[1]", "FreqMode", 1 ]
+			"obj-2::obj-28" : [ "Dampen[1]", "Dampen", 0 ],
+			"obj-2::obj-42" : [ "Impulse", "Impulse", 0 ],
+			"obj-2::obj-51" : [ "Freq[1]", "Freq", 0 ],
+			"obj-2::obj-65" : [ "FreqMode[1]", "FreqMode", 1 ],
+			"obj-2::obj-57" : [ "Decay[1]", "Decay", 0 ],
+			"obj-2::obj-92" : [ "CV[2]", "CV", 0 ],
+			"obj-2::obj-66" : [ "Offset[3]", "Offset", 0 ]
 		}
 ,
 		"dependency_cache" : [  ],

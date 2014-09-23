@@ -88,13 +88,12 @@
 						"boxes" : [ 							{
 								"box" : 								{
 									"id" : "obj-12",
-									"linecount" : 2,
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 21.0, 72.711639, 308.0, 33.0 ],
+									"patching_rect" : [ 21.0, 72.711639, 207.0, 20.0 ],
 									"style" : "",
-									"text" : "## Scale, bias and invert a signal. Can also be used for bi/uni-polar conversion. ## "
+									"text" : "## Scale, bias and invert a signal ## "
 								}
 
 							}
@@ -381,7 +380,7 @@
 ,
 									"style" : "",
 									"text" : "autopattr",
-									"varname" : "u636008474"
+									"varname" : "u619005740"
 								}
 
 							}
@@ -782,8 +781,8 @@
 		"lines" : [  ],
 		"parameters" : 		{
 			"obj-2::obj-55" : [ "Bypass", "Bypass", 0 ],
-			"obj-2::obj-40" : [ "presets", "presets", 0 ],
 			"obj-2::obj-10" : [ "Gain", "Gain", 0 ],
+			"obj-2::obj-40" : [ "presets", "presets", 0 ],
 			"obj-2::obj-1" : [ "Bias", "Bias", 0 ]
 		}
 ,

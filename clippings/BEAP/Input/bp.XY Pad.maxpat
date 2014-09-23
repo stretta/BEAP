@@ -91,9 +91,9 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 48.0, 80.0, 321.0, 20.0 ],
+									"patching_rect" : [ 48.0, 80.0, 296.0, 20.0 ],
 									"style" : "",
-									"text" : "## Converts XY mouse movements into a Beap signal. ## "
+									"text" : "## Convert XY mouse movement to a Beap signal ## "
 								}
 
 							}

@@ -93,7 +93,7 @@
 									"numoutlets" : 0,
 									"patching_rect" : [ 33.0, 67.0, 285.0, 20.0 ],
 									"style" : "",
-									"text" : "## Convert a Beap signal into a Max message. ## "
+									"text" : "## Convert a Beap signal into a Max message ## "
 								}
 
 							}
@@ -576,7 +576,16 @@
 												}
 
 											}
- ]
+ ],
+										"bgfillcolor" : 										{
+											"type" : "gradient",
+											"color1" : [ 0.435294, 0.462745, 0.498039, 1.0 ],
+											"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
+											"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
+											"angle" : 270.0,
+											"proportion" : 0.39
+										}
+
 									}
 ,
 									"patching_rect" : [ 33.0, 247.9375, 163.0, 22.0 ],
@@ -1001,9 +1010,9 @@
  ],
 		"lines" : [  ],
 		"parameters" : 		{
+			"obj-3::obj-7" : [ "OutputRange", "OutputRange", 0 ],
 			"obj-3::obj-33" : [ "InputRange", "InputRange", 0 ],
-			"obj-3::obj-129" : [ "Interval", "Interval", 0 ],
-			"obj-3::obj-7" : [ "OutputRange", "OutputRange", 0 ]
+			"obj-3::obj-129" : [ "Interval", "Interval", 0 ]
 		}
 ,
 		"dependency_cache" : [  ],

@@ -93,9 +93,9 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 15.0, 72.0, 324.0, 33.0 ],
+									"patching_rect" : [ 15.0, 72.0, 253.0, 33.0 ],
 									"style" : "",
-									"text" : "## Sample and hold the value of an input signal when a trigger signal is received. ## "
+									"text" : "## Sample and hold the value of an input signal when a trigger signal is received ## "
 								}
 
 							}
@@ -131,7 +131,7 @@
 ,
 									"style" : "",
 									"text" : "autopattr",
-									"varname" : "u825010960"
+									"varname" : "u209006186"
 								}
 
 							}

@@ -91,9 +91,9 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 29.25, 67.288361, 346.0, 20.0 ],
+									"patching_rect" : [ 29.25, 67.288361, 343.0, 20.0 ],
 									"style" : "",
-									"text" : "## Use a signal to control the output level of another signal. ## "
+									"text" : "## Use a signal to control the output level of another signal ## "
 								}
 
 							}
@@ -434,7 +434,7 @@
 ,
 									"style" : "",
 									"text" : "autopattr",
-									"varname" : "u151000755"
+									"varname" : "u784006389"
 								}
 
 							}
@@ -997,8 +997,8 @@
 		"lines" : [  ],
 		"parameters" : 		{
 			"obj-42::obj-55" : [ "Bypass", "Bypass", 0 ],
-			"obj-42::obj-33" : [ "Quadrants", "Quadrants", 0 ],
-			"obj-42::obj-80" : [ "Response", "Response", 0 ]
+			"obj-42::obj-80" : [ "Response", "Response", 0 ],
+			"obj-42::obj-33" : [ "Quadrants", "Quadrants", 0 ]
 		}
 ,
 		"dependency_cache" : [  ],

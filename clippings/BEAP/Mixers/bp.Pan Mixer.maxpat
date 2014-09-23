@@ -93,7 +93,6 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "int" ],
 									"patching_rect" : [ 2218.75, 48.21875, 31.0, 22.0 ],
-									"presentation_rect" : [ 2216.75, 49.21875, 0.0, 0.0 ],
 									"style" : "",
 									"text" : "!= 1"
 								}
@@ -107,7 +106,6 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "int" ],
 									"patching_rect" : [ 1982.75, 48.21875, 31.0, 22.0 ],
-									"presentation_rect" : [ 1987.75, 51.21875, 0.0, 0.0 ],
 									"style" : "",
 									"text" : "!= 1"
 								}
@@ -121,7 +119,6 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "int" ],
 									"patching_rect" : [ 1748.75, 48.21875, 31.0, 22.0 ],
-									"presentation_rect" : [ 1748.75, 45.21875, 0.0, 0.0 ],
 									"style" : "",
 									"text" : "!= 1"
 								}
@@ -135,7 +132,6 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "int" ],
 									"patching_rect" : [ 1512.75, 48.21875, 31.0, 22.0 ],
-									"presentation_rect" : [ 1516.75, 49.21875, 0.0, 0.0 ],
 									"style" : "",
 									"text" : "!= 1"
 								}
@@ -149,7 +145,6 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "int" ],
 									"patching_rect" : [ 1272.75, 48.21875, 31.0, 22.0 ],
-									"presentation_rect" : [ 1273.75, 49.21875, 0.0, 0.0 ],
 									"style" : "",
 									"text" : "!= 1"
 								}
@@ -163,7 +158,6 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "int" ],
 									"patching_rect" : [ 1031.75, 48.21875, 31.0, 22.0 ],
-									"presentation_rect" : [ 1035.25, 46.21875, 0.0, 0.0 ],
 									"style" : "",
 									"text" : "!= 1"
 								}
@@ -177,7 +171,6 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "int" ],
 									"patching_rect" : [ 800.25, 48.21875, 31.0, 22.0 ],
-									"presentation_rect" : [ 803.75, 48.21875, 0.0, 0.0 ],
 									"style" : "",
 									"text" : "!= 1"
 								}
@@ -1962,7 +1955,7 @@
 									"numoutlets" : 0,
 									"patching_rect" : [ 15.0, 63.9375, 257.0, 20.0 ],
 									"style" : "",
-									"text" : "## Eight channel mixer with pan and mute. ## "
+									"text" : "## Eight channel mixer with pan and mute ## "
 								}
 
 							}
@@ -2352,7 +2345,7 @@
 ,
 									"style" : "",
 									"text" : "autopattr",
-									"varname" : "u213004834"
+									"varname" : "u469009357"
 								}
 
 							}
@@ -3362,37 +3355,37 @@
  ],
 		"lines" : [  ],
 		"parameters" : 		{
-			"obj-15::obj-63" : [ "ch4_mute", "Mute", 0 ],
-			"obj-15::obj-23" : [ "ch1_level", "1", 0 ],
-			"obj-15::obj-42" : [ "ch2_level", "2", 0 ],
-			"obj-15::obj-75" : [ "ch8_pan", "Pan", 0 ],
-			"obj-15::obj-55" : [ "ch4_pan", "Pan", 0 ],
-			"obj-15::obj-73" : [ "ch5_mute", "Mute", 0 ],
-			"obj-15::obj-22" : [ "ch1_pan", "Pan", 0 ],
-			"obj-15::obj-64" : [ "ch3_level", "3", 0 ],
-			"obj-15::obj-86" : [ "ch7_pan", "Pan", 0 ],
-			"obj-15::obj-54" : [ "ch4_level", "4", 0 ],
-			"obj-15::obj-84" : [ "ch6_mute", "Mute", 0 ],
-			"obj-15::obj-106" : [ "ch5_pan", "Pan", 0 ],
-			"obj-15::obj-96" : [ "ch6_pan", "Pan", 0 ],
-			"obj-15::obj-43" : [ "ch2_pan", "Pan", 0 ],
-			"obj-15::obj-37" : [ "Mute", "Mute", 0 ],
-			"obj-15::obj-28" : [ "ch1_mute", "Mute", 0 ],
-			"obj-15::obj-41" : [ "ch2_mute", "Mute", 0 ],
-			"obj-15::obj-85" : [ "ch7_level", "7", 0 ],
-			"obj-15::obj-105" : [ "ch5_level", "5", 0 ],
 			"obj-15::obj-94" : [ "ch7_mute", "Mute", 0 ],
+			"obj-15::obj-106" : [ "ch5_pan", "Pan", 0 ],
+			"obj-15::obj-64" : [ "ch3_level", "3", 0 ],
+			"obj-15::obj-41" : [ "ch2_mute", "Mute", 0 ],
+			"obj-15::obj-104" : [ "ch8_mute", "Mute", 0 ],
 			"obj-15::obj-65" : [ "ch3_pan", "Pan", 0 ],
-			"obj-15::obj-95" : [ "ch6_level", "6", 0 ],
+			"obj-15::obj-28" : [ "ch1_mute", "Mute", 0 ],
+			"obj-15::obj-75" : [ "ch8_pan", "Pan", 0 ],
 			"obj-15::obj-53" : [ "ch3_mute", "Mute", 0 ],
+			"obj-15::obj-22" : [ "ch1_pan", "Pan", 0 ],
 			"obj-15::obj-74" : [ "ch8_level", "8", 0 ],
-			"obj-15::obj-104" : [ "ch8_mute", "Mute", 0 ]
+			"obj-15::obj-63" : [ "ch4_mute", "Mute", 0 ],
+			"obj-15::obj-96" : [ "ch6_pan", "Pan", 0 ],
+			"obj-15::obj-85" : [ "ch7_level", "7", 0 ],
+			"obj-15::obj-37" : [ "Mute", "Mute", 0 ],
+			"obj-15::obj-55" : [ "ch4_pan", "Pan", 0 ],
+			"obj-15::obj-95" : [ "ch6_level", "6", 0 ],
+			"obj-15::obj-42" : [ "ch2_level", "2", 0 ],
+			"obj-15::obj-73" : [ "ch5_mute", "Mute", 0 ],
+			"obj-15::obj-105" : [ "ch5_level", "5", 0 ],
+			"obj-15::obj-43" : [ "ch2_pan", "Pan", 0 ],
+			"obj-15::obj-86" : [ "ch7_pan", "Pan", 0 ],
+			"obj-15::obj-23" : [ "ch1_level", "1", 0 ],
+			"obj-15::obj-84" : [ "ch6_mute", "Mute", 0 ],
+			"obj-15::obj-54" : [ "ch4_level", "4", 0 ]
 		}
 ,
 		"dependency_cache" : [ 			{
 				"name" : "M4L.pan1~.maxpat",
-				"bootpath" : "/Applications/Max 7/resources/patchers/m4l/Tools resources",
-				"patcherrelativepath" : "../../../../../patchers/m4l/Tools resources",
+				"bootpath" : "/Applications/Max 7/Max.app/Contents/Resources/C74/patchers/m4l/Tools resources",
+				"patcherrelativepath" : "../../../../../../../Applications/Max 7/Max.app/Contents/Resources/C74/patchers/m4l/Tools resources",
 				"type" : "JSON",
 				"implicit" : 1
 			}

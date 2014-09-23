@@ -87,13 +87,14 @@
 						"style" : "",
 						"boxes" : [ 							{
 								"box" : 								{
+									"fontname" : "Arial",
 									"id" : "obj-1",
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 86.0, 64.5, 285.0, 18.0 ],
+									"patching_rect" : [ 86.0, 64.5, 254.0, 18.0 ],
 									"style" : "",
-									"text" : "## Converts Quneo messages into a Beap signal. ## "
+									"text" : "## Convert Quneo messages to a Beap signal ## "
 								}
 
 							}
@@ -452,11 +453,29 @@
 												}
 
 											}
- ]
+ ],
+										"bgfillcolor" : 										{
+											"type" : "gradient",
+											"color1" : [ 0.435294, 0.462745, 0.498039, 1.0 ],
+											"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
+											"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
+											"angle" : 270.0,
+											"proportion" : 0.39
+										}
+
 									}
 ,
 									"patching_rect" : [ 572.0, 349.0, 192.0, 20.0 ],
 									"saved_object_attributes" : 									{
+										"bgfillcolor" : [ 											{
+												"type" : "gradient",
+												"color1" : [ 0.435294, 0.462745, 0.498039, 1.0 ],
+												"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
+												"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
+												"angle" : 270.0,
+												"proportion" : 0.39
+											}
+ ],
 										"bgfillcolor_dictionary" : 										{
 											"type" : "gradient",
 											"color1" : [ 0.435294, 0.462745, 0.498039, 1.0 ],
@@ -489,7 +508,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 366.0, 116.0, 85.0, 20.0 ],
+									"patching_rect" : [ 365.5, 112.0, 85.0, 20.0 ],
 									"style" : "",
 									"text" : "symbol QUNEO"
 								}
@@ -504,7 +523,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 2,
 									"outlettype" : [ "bang", "bang" ],
-									"patching_rect" : [ 450.0, 86.0, 32.5, 20.0 ],
+									"patching_rect" : [ 365.5, 60.5, 116.5, 20.0 ],
 									"style" : "",
 									"text" : "t b b"
 								}
@@ -566,7 +585,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 463.5, 116.0, 66.0, 22.0 ],
+									"patching_rect" : [ 463.0, 112.0, 66.0, 22.0 ],
 									"style" : "",
 									"text" : "controllers"
 								}
@@ -581,7 +600,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "bang" ],
-									"patching_rect" : [ 450.0, 55.0, 60.0, 22.0 ],
+									"patching_rect" : [ 365.5, 22.5, 60.0, 22.0 ],
 									"style" : "",
 									"text" : "loadbang"
 								}
@@ -629,7 +648,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 463.0, 145.5, 52.0, 22.0 ],
+									"patching_rect" : [ 463.0, 144.5, 52.0, 22.0 ],
 									"style" : "",
 									"text" : "midiinfo"
 								}
@@ -1211,11 +1230,29 @@
 												}
 
 											}
- ]
+ ],
+										"bgfillcolor" : 										{
+											"type" : "gradient",
+											"color1" : [ 0.435294, 0.462745, 0.498039, 1.0 ],
+											"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
+											"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
+											"angle" : 270.0,
+											"proportion" : 0.39
+										}
+
 									}
 ,
 									"patching_rect" : [ 324.299988, 330.470001, 47.0, 20.0 ],
 									"saved_object_attributes" : 									{
+										"bgfillcolor" : [ 											{
+												"type" : "gradient",
+												"color1" : [ 0.435294, 0.462745, 0.498039, 1.0 ],
+												"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
+												"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
+												"angle" : 270.0,
+												"proportion" : 0.39
+											}
+ ],
 										"bgfillcolor_dictionary" : 										{
 											"type" : "gradient",
 											"color1" : [ 0.435294, 0.462745, 0.498039, 1.0 ],
@@ -1773,7 +1810,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 255.0, 308.470001, 50.0, 20.0 ],
+									"patching_rect" : [ 255.0, 287.470001, 50.0, 20.0 ],
 									"style" : "",
 									"text" : "pack i i"
 								}
@@ -1788,7 +1825,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 3,
 									"outlettype" : [ "int", "int", "int" ],
-									"patching_rect" : [ 255.0, 270.470001, 81.0, 20.0 ],
+									"patching_rect" : [ 255.0, 249.470001, 81.0, 20.0 ],
 									"style" : "",
 									"text" : "notein QUNEO"
 								}
@@ -1888,7 +1925,7 @@
 ,
 									"style" : "",
 									"text" : "autopattr",
-									"varname" : "u865005889"
+									"varname" : "u703005388"
 								}
 
 							}
@@ -2658,13 +2695,13 @@
  ],
 		"lines" : [  ],
 		"parameters" : 		{
-			"obj-104::obj-98" : [ "y", "y", 0 ],
-			"obj-104::obj-12" : [ "Mute", "Mute", 0 ],
 			"obj-104::obj-25" : [ "Pad", "Pad", 0 ],
 			"obj-104::obj-129" : [ "Smooth", "Smooth", 0 ],
-			"obj-104::obj-11" : [ "pressure", "pressure", 0 ],
+			"obj-104::obj-20" : [ "Learn", "Learn", 0 ],
 			"obj-104::obj-97" : [ "x", "x", 0 ],
-			"obj-104::obj-20" : [ "Learn", "Learn", 0 ]
+			"obj-104::obj-11" : [ "pressure", "pressure", 0 ],
+			"obj-104::obj-12" : [ "Mute", "Mute", 0 ],
+			"obj-104::obj-98" : [ "y", "y", 0 ]
 		}
 ,
 		"dependency_cache" : [  ],

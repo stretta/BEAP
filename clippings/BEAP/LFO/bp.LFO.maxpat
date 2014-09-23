@@ -59,7 +59,7 @@
 							"modernui" : 1
 						}
 ,
-						"rect" : [ 34.0, 78.0, 137.0, 116.0 ],
+						"rect" : [ 35.0, 78.0, 137.0, 116.0 ],
 						"bgcolor" : [ 1.0, 1.0, 1.0, 0.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 1,
@@ -92,9 +92,9 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 48.0, 82.0, 304.0, 33.0 ],
+									"patching_rect" : [ 48.0, 82.0, 230.0, 33.0 ],
 									"style" : "",
-									"text" : "## Simple low frequency oscillator with individual outputs for each shape. ## "
+									"text" : "## Simple low frequency oscillator with individual outputs for each shape ## "
 								}
 
 							}
@@ -606,7 +606,7 @@
 ,
 									"style" : "",
 									"text" : "autopattr",
-									"varname" : "u522006657"
+									"varname" : "u030006926"
 								}
 
 							}
@@ -1057,7 +1057,7 @@
  ]
 					}
 ,
-					"patching_rect" : [ 0.0, 0.0, 137.0, 116.0 ],
+					"patching_rect" : [ 1.0, 0.0, 137.0, 116.0 ],
 					"varname" : "LFO",
 					"viewvisibility" : 1
 				}

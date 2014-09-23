@@ -12,7 +12,7 @@
 		"rect" : [ 34.0, 78.0, 1212.0, 641.0 ],
 		"bgcolor" : [ 1.0, 1.0, 1.0, 0.0 ],
 		"bglocked" : 0,
-		"openinpresentation" : 1,
+		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
 		"default_fontface" : 0,
 		"default_fontname" : "Arial",
@@ -1453,7 +1453,7 @@
 ,
 									"style" : "",
 									"text" : "autopattr",
-									"varname" : "u914009525"
+									"varname" : "u044010719"
 								}
 
 							}
@@ -2007,7 +2007,16 @@
 												}
 
 											}
- ]
+ ],
+										"bgfillcolor" : 										{
+											"type" : "gradient",
+											"color1" : [ 0.435294, 0.462745, 0.498039, 1.0 ],
+											"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
+											"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
+											"angle" : 270.0,
+											"proportion" : 0.39
+										}
+
 									}
 ,
 									"patching_rect" : [ 1078.177856, 951.096436, 100.0, 22.0 ],
@@ -4216,40 +4225,40 @@
  ],
 		"lines" : [  ],
 		"parameters" : 		{
-			"obj-1::obj-25" : [ "CV", "CV", 0 ],
-			"obj-1::obj-114" : [ "MaxGrains", "MaxGrains", 0 ],
-			"obj-1::obj-28" : [ "Offset", "Offset", 0 ],
-			"obj-1::obj-47" : [ "Duration", "Duration", 0 ],
-			"obj-1::obj-94" : [ "PitchRandomAmt", "Random", 0 ],
-			"obj-1::obj-115" : [ "NewGrainEvery", "NewGrainEvery", 0 ],
-			"obj-1::obj-71" : [ "Pan", "Pan", 0 ],
-			"obj-1::obj-101" : [ "Width", "Width", 0 ],
-			"obj-1::obj-45" : [ "DurationRandomAmt", "Random", 0 ],
 			"obj-1::obj-3" : [ "Position", "Position", 0 ],
-			"obj-1::obj-12" : [ "Mute", "Mute", 0 ],
-			"obj-1::obj-19" : [ "CV2", "CV2", 0 ],
 			"obj-1::obj-58" : [ "PanRandomAmt", "Random", 0 ],
-			"obj-1::obj-11" : [ "live.text[1]", "live.text[1]", 0 ]
+			"obj-1::obj-114" : [ "MaxGrains", "MaxGrains", 0 ],
+			"obj-1::obj-25" : [ "CV", "CV", 0 ],
+			"obj-1::obj-11" : [ "live.text[1]", "live.text[1]", 0 ],
+			"obj-1::obj-28" : [ "Offset", "Offset", 0 ],
+			"obj-1::obj-94" : [ "PitchRandomAmt", "Random", 0 ],
+			"obj-1::obj-19" : [ "CV2", "CV2", 0 ],
+			"obj-1::obj-12" : [ "Mute", "Mute", 0 ],
+			"obj-1::obj-115" : [ "NewGrainEvery", "NewGrainEvery", 0 ],
+			"obj-1::obj-47" : [ "Duration", "Duration", 0 ],
+			"obj-1::obj-71" : [ "Pan", "Pan", 0 ],
+			"obj-1::obj-45" : [ "DurationRandomAmt", "Random", 0 ],
+			"obj-1::obj-101" : [ "Width", "Width", 0 ]
 		}
 ,
 		"dependency_cache" : [ 			{
 				"name" : "bp.rgrain.maxpat",
-				"bootpath" : "/Applications/Max 7/resources/packages/Beap/misc",
-				"patcherrelativepath" : "../../../misc",
+				"bootpath" : "/Applications/Max 7/Max.app/Contents/Resources/C74/packages/Beap/misc",
+				"patcherrelativepath" : "../../../../../../../Applications/Max 7/Max.app/Contents/Resources/C74/packages/Beap/misc",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "rchoose.maxpat",
-				"bootpath" : "/Applications/Max 7/examples/sampling/granular/lib",
-				"patcherrelativepath" : "../../../../../../examples/sampling/granular/lib",
+				"bootpath" : "/Users/Shared/Max 7/Examples/sampling/granular/lib",
+				"patcherrelativepath" : "../../../../../../Shared/Max 7/Examples/sampling/granular/lib",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "transratio.maxpat",
-				"bootpath" : "/Applications/Max 7/examples/max-tricks/notes-and-pitch/pitch-to-freq-ratio",
-				"patcherrelativepath" : "../../../../../../examples/max-tricks/notes-and-pitch/pitch-to-freq-ratio",
+				"bootpath" : "/Users/Shared/Max 7/Examples/max-tricks/notes-and-pitch/pitch-to-freq-ratio",
+				"patcherrelativepath" : "../../../../../../Shared/Max 7/Examples/max-tricks/notes-and-pitch/pitch-to-freq-ratio",
 				"type" : "JSON",
 				"implicit" : 1
 			}

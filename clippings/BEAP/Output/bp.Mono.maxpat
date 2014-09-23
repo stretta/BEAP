@@ -141,7 +141,7 @@
 									"numoutlets" : 0,
 									"patching_rect" : [ 34.0, 83.0, 299.0, 20.0 ],
 									"style" : "",
-									"text" : "## Route a signal from Beap to a hardware output. ## "
+									"text" : "## Route a signal from Beap to a hardware output ## "
 								}
 
 							}
@@ -312,7 +312,7 @@
 ,
 									"style" : "",
 									"text" : "autopattr",
-									"varname" : "u949002770"
+									"varname" : "u651001202"
 								}
 
 							}

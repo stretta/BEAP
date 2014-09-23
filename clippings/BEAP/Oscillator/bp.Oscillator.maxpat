@@ -94,7 +94,7 @@
 									"numoutlets" : 0,
 									"patching_rect" : [ 69.455986, 166.662552, 310.0, 47.0 ],
 									"style" : "",
-									"text" : "## Classic oscillator with the standard four geometric wavforms, linear frequency modulation, pulse width modulation and sync. ## "
+									"text" : "## Classic oscillator with the standard four geometric wavforms, linear frequency modulation, pulse width modulation and sync ## "
 								}
 
 							}
@@ -950,11 +950,29 @@
 												}
 
 											}
- ]
+ ],
+										"bgfillcolor" : 										{
+											"type" : "gradient",
+											"color1" : [ 0.435294, 0.462745, 0.498039, 1.0 ],
+											"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
+											"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
+											"angle" : 270.0,
+											"proportion" : 0.39
+										}
+
 									}
 ,
 									"patching_rect" : [ 650.03125, 709.485474, 71.0, 22.0 ],
 									"saved_object_attributes" : 									{
+										"bgfillcolor" : [ 											{
+												"type" : "gradient",
+												"color1" : [ 0.435294, 0.462745, 0.498039, 1.0 ],
+												"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
+												"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
+												"angle" : 270.0,
+												"proportion" : 0.39
+											}
+ ],
 										"bgfillcolor_dictionary" : 										{
 											"type" : "gradient",
 											"color1" : [ 0.435294, 0.462745, 0.498039, 1.0 ],
@@ -2106,7 +2124,7 @@
 ,
 									"style" : "",
 									"text" : "autopattr",
-									"varname" : "u839002456"
+									"varname" : "u904000223"
 								}
 
 							}
@@ -3281,43 +3299,43 @@
  ],
 		"lines" : [  ],
 		"parameters" : 		{
-			"obj-17::obj-107" : [ "Linear", "Linear", 0 ],
 			"obj-17::obj-51" : [ "Freq", "Freq", 0 ],
-			"obj-17::obj-4" : [ "Waveform", "Waveform", 0 ],
+			"obj-17::obj-45" : [ "FreqMode", "FreqMode", 0 ],
 			"obj-17::obj-46" : [ "Offset", "Offset", 0 ],
 			"obj-17::obj-36" : [ "PW", "PW", 0 ],
-			"obj-17::obj-45" : [ "FreqMode", "FreqMode", 0 ],
+			"obj-17::obj-4" : [ "Waveform", "Waveform", 0 ],
+			"obj-17::obj-107" : [ "Linear", "Linear", 0 ],
+			"obj-17::obj-129" : [ "CV2", "CV2", 0 ],
 			"obj-17::obj-53" : [ "Mute", "Mute", 0 ],
-			"obj-17::obj-106" : [ "CV3", "CV3", 0 ],
 			"obj-17::obj-11" : [ "PWM", "PWM", 0 ],
-			"obj-17::obj-129" : [ "CV2", "CV2", 0 ]
+			"obj-17::obj-106" : [ "CV3", "CV3", 0 ]
 		}
 ,
 		"dependency_cache" : [ 			{
 				"name" : "sine.svg",
-				"bootpath" : "/Applications/Max 7/resources/media/max/picts/m4l-picts",
-				"patcherrelativepath" : "../../../../../media/max/picts/m4l-picts",
+				"bootpath" : "/Applications/Max 7/Max.app/Contents/Resources/C74/media/max/picts/m4l-picts",
+				"patcherrelativepath" : "../../../../../../../Applications/Max 7/Max.app/Contents/Resources/C74/media/max/picts/m4l-picts",
 				"type" : "svg ",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "updown.svg",
-				"bootpath" : "/Applications/Max 7/resources/media/max/picts/m4l-picts",
-				"patcherrelativepath" : "../../../../../media/max/picts/m4l-picts",
+				"bootpath" : "/Applications/Max 7/Max.app/Contents/Resources/C74/media/max/picts/m4l-picts",
+				"patcherrelativepath" : "../../../../../../../Applications/Max 7/Max.app/Contents/Resources/C74/media/max/picts/m4l-picts",
 				"type" : "svg ",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "up.svg",
-				"bootpath" : "/Applications/Max 7/resources/media/max/picts/m4l-picts",
-				"patcherrelativepath" : "../../../../../media/max/picts/m4l-picts",
+				"bootpath" : "/Applications/Max 7/Max.app/Contents/Resources/C74/media/max/picts/m4l-picts",
+				"patcherrelativepath" : "../../../../../../../Applications/Max 7/Max.app/Contents/Resources/C74/media/max/picts/m4l-picts",
 				"type" : "svg ",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "square.svg",
-				"bootpath" : "/Applications/Max 7/resources/media/max/picts/m4l-picts",
-				"patcherrelativepath" : "../../../../../media/max/picts/m4l-picts",
+				"bootpath" : "/Applications/Max 7/Max.app/Contents/Resources/C74/media/max/picts/m4l-picts",
+				"patcherrelativepath" : "../../../../../../../Applications/Max 7/Max.app/Contents/Resources/C74/media/max/picts/m4l-picts",
 				"type" : "svg ",
 				"implicit" : 1
 			}

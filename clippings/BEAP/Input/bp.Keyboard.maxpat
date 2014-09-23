@@ -91,9 +91,9 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 26.0, 68.0, 285.0, 20.0 ],
+									"patching_rect" : [ 26.0, 68.0, 186.0, 20.0 ],
 									"style" : "",
-									"text" : "## Virtual keyboard controller. ## "
+									"text" : "## Virtual keyboard controller ## "
 								}
 
 							}
@@ -1000,7 +1000,7 @@
 ,
 									"style" : "",
 									"text" : "autopattr",
-									"varname" : "u453004952"
+									"varname" : "u403002175"
 								}
 
 							}
@@ -2153,9 +2153,9 @@
 		"lines" : [  ],
 		"parameters" : 		{
 			"obj-6::obj-64" : [ "live.text", "live.text", 0 ],
+			"obj-6::obj-58" : [ "RepeatInterval[1]", "Repeat", 0 ],
 			"obj-6::obj-12" : [ "KeyboardMode[1]", "KeyboardMode", 0 ],
-			"obj-6::obj-5" : [ "Octave[1]", "Octave", 0 ],
-			"obj-6::obj-58" : [ "RepeatInterval[1]", "Repeat", 0 ]
+			"obj-6::obj-5" : [ "Octave[1]", "Octave", 0 ]
 		}
 ,
 		"dependency_cache" : [  ],

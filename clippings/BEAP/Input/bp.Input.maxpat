@@ -142,7 +142,7 @@
 									"numoutlets" : 0,
 									"patching_rect" : [ 19.0, 68.0, 353.0, 20.0 ],
 									"style" : "",
-									"text" : "## Route an input from an audio interface to a Beap signal. ## "
+									"text" : "## Route an input from an audio interface to a Beap signal ## "
 								}
 
 							}
@@ -178,7 +178,7 @@
 ,
 									"style" : "",
 									"text" : "autopattr",
-									"varname" : "u931002543"
+									"varname" : "u139002111"
 								}
 
 							}
@@ -293,7 +293,7 @@
 							}
 , 							{
 								"box" : 								{
-									"bgcolor" : [ 0.0, 146.0, 255.0, 0.000502 ],
+									"bgcolor" : [ 0.0, 146.0, 255.0, 0.000229 ],
 									"id" : "obj-11",
 									"ignoreclick" : 1,
 									"maxclass" : "textbutton",

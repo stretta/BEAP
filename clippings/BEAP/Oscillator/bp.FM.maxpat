@@ -93,7 +93,7 @@
 									"numoutlets" : 0,
 									"patching_rect" : [ 48.0, 82.0, 228.0, 20.0 ],
 									"style" : "",
-									"text" : "## Simple two operator FM oscillator. ## "
+									"text" : "## Simple two operator FM oscillator ## "
 								}
 
 							}
@@ -177,7 +177,7 @@
 ,
 									"style" : "",
 									"text" : "autopattr",
-									"varname" : "u450007753"
+									"varname" : "u571009966"
 								}
 
 							}
@@ -1418,11 +1418,11 @@
  ],
 		"lines" : [  ],
 		"parameters" : 		{
-			"obj-10::obj-80" : [ "Ratio", "Ratio", 0 ],
-			"obj-10::obj-20" : [ "mute", "mute", 0 ],
-			"obj-10::obj-56" : [ "Depth", "Depth", 0 ],
 			"obj-10::obj-91" : [ "Offset", "Offset", 0 ],
-			"obj-10::obj-86" : [ "Amt", "Amt", 0 ]
+			"obj-10::obj-56" : [ "Depth", "Depth", 0 ],
+			"obj-10::obj-20" : [ "mute", "mute", 0 ],
+			"obj-10::obj-86" : [ "Amt", "Amt", 0 ],
+			"obj-10::obj-80" : [ "Ratio", "Ratio", 0 ]
 		}
 ,
 		"dependency_cache" : [  ],

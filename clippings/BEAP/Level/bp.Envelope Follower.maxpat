@@ -109,9 +109,9 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 24.0, 71.0, 304.0, 33.0 ],
+									"patching_rect" : [ 24.0, 71.0, 309.0, 33.0 ],
 									"style" : "",
-									"text" : "## Converts the amplitude of an audio signal into a control signal. ## "
+									"text" : "## Convert the amplitude of an audio signal to a control signal ## "
 								}
 
 							}
@@ -177,7 +177,7 @@
 ,
 									"style" : "",
 									"text" : "autopattr",
-									"varname" : "u959008293"
+									"varname" : "u866005687"
 								}
 
 							}

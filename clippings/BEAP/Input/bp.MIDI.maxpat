@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 34.0, 78.0, 1344.0, 617.0 ],
+		"rect" : [ 34.0, 78.0, 1212.0, 641.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -91,9 +91,9 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 48.0, 95.0, 285.0, 20.0 ],
+									"patching_rect" : [ 48.0, 95.0, 247.0, 20.0 ],
 									"style" : "",
-									"text" : "## Converts a MIDI input to a Beap signal. ## "
+									"text" : "## Convert a MIDI input to a Beap signal ## "
 								}
 
 							}
@@ -856,7 +856,7 @@
 ,
 									"style" : "",
 									"text" : "autopattr",
-									"varname" : "u685005658"
+									"varname" : "u924002307"
 								}
 
 							}

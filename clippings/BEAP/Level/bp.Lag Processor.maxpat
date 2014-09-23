@@ -91,9 +91,9 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 22.0, 68.0, 305.0, 20.0 ],
+									"patching_rect" : [ 22.0, 68.0, 213.0, 20.0 ],
 									"style" : "",
-									"text" : "## Lag processor. Slows down or smooths a signal. ## "
+									"text" : "## Slows down or smooth a signal ## "
 								}
 
 							}
@@ -636,11 +636,29 @@
 												}
 
 											}
- ]
+ ],
+										"bgfillcolor" : 										{
+											"type" : "gradient",
+											"color1" : [ 0.435294, 0.462745, 0.498039, 1.0 ],
+											"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
+											"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
+											"angle" : 270.0,
+											"proportion" : 0.39
+										}
+
 									}
 ,
 									"patching_rect" : [ 417.889893, 94.0, 156.0, 22.0 ],
 									"saved_object_attributes" : 									{
+										"bgfillcolor" : [ 											{
+												"type" : "gradient",
+												"color1" : [ 0.435294, 0.462745, 0.498039, 1.0 ],
+												"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
+												"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
+												"angle" : 270.0,
+												"proportion" : 0.39
+											}
+ ],
 										"bgfillcolor_dictionary" : 										{
 											"type" : "gradient",
 											"color1" : [ 0.435294, 0.462745, 0.498039, 1.0 ],
@@ -1073,7 +1091,7 @@
 ,
 									"style" : "",
 									"text" : "autopattr",
-									"varname" : "u402010064"
+									"varname" : "u517005981"
 								}
 
 							}
@@ -1372,11 +1390,11 @@
  ],
 		"lines" : [  ],
 		"parameters" : 		{
-			"obj-1::obj-11" : [ "Link", "Link", 1 ],
-			"obj-1::obj-37" : [ "Up", "Up", 0 ],
 			"obj-1::obj-22" : [ "InterpMode", "InterpMode", 1 ],
-			"obj-1::obj-9" : [ "Down", "Down", 0 ],
-			"obj-1::obj-1" : [ "bypass[1]", "bypass", 0 ]
+			"obj-1::obj-37" : [ "Up", "Up", 0 ],
+			"obj-1::obj-1" : [ "bypass[1]", "bypass", 0 ],
+			"obj-1::obj-11" : [ "Link", "Link", 1 ],
+			"obj-1::obj-9" : [ "Down", "Down", 0 ]
 		}
 ,
 		"dependency_cache" : [  ],

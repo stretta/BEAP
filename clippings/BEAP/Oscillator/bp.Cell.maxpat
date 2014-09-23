@@ -93,7 +93,7 @@
 									"numoutlets" : 0,
 									"patching_rect" : [ 48.0, 80.0, 209.0, 20.0 ],
 									"style" : "",
-									"text" : "## Trigger a sample with a signal. ## "
+									"text" : "## Trigger a sample with a signal ## "
 								}
 
 							}
@@ -716,7 +716,7 @@
 ,
 									"style" : "",
 									"text" : "autopattr",
-									"varname" : "u112006677"
+									"varname" : "u063009628"
 								}
 
 							}
@@ -1087,10 +1087,10 @@
  ],
 		"lines" : [  ],
 		"parameters" : 		{
-			"obj-60::obj-20" : [ "power", "power", 0 ],
 			"obj-60::obj-48" : [ "Mype", "Mype", 0 ],
-			"obj-60::obj-28" : [ "Duration", "Duration", 0 ],
-			"obj-60::obj-3" : [ "live.text", "live.text", 0 ]
+			"obj-60::obj-20" : [ "power", "power", 0 ],
+			"obj-60::obj-3" : [ "live.text", "live.text", 0 ],
+			"obj-60::obj-28" : [ "Duration", "Duration", 0 ]
 		}
 ,
 		"dependency_cache" : [  ],

@@ -87,13 +87,12 @@
 						"boxes" : [ 							{
 								"box" : 								{
 									"id" : "obj-5",
-									"linecount" : 2,
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 42.0, 90.0, 330.0, 33.0 ],
+									"patching_rect" : [ 42.0, 90.0, 285.0, 20.0 ],
 									"style" : "",
-									"text" : "## MaxForLive output. Converts audio from Beap to an AMXD output. ## "
+									"text" : "## Convert audio from Beap to an AMXD output ## "
 								}
 
 							}
@@ -297,7 +296,7 @@
 ,
 									"style" : "",
 									"text" : "autopattr",
-									"varname" : "u546002190"
+									"varname" : "u226002008"
 								}
 
 							}

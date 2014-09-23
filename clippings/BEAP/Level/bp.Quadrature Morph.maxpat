@@ -94,7 +94,7 @@
 									"numoutlets" : 0,
 									"patching_rect" : [ 24.142456, 78.0, 338.0, 33.0 ],
 									"style" : "",
-									"text" : "## Transforms a 0-5v ramp signal into four unipolar cosine control signals suitable for quad crossfading. ## "
+									"text" : "## Transform a 0-5v ramp signal into four unipolar cosine control signals suitable for quad crossfading ## "
 								}
 
 							}

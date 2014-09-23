@@ -93,7 +93,7 @@
 									"numoutlets" : 0,
 									"patching_rect" : [ 48.0, 82.0, 269.0, 20.0 ],
 									"style" : "",
-									"text" : "## Quantize a gate signal to global transport. ## "
+									"text" : "## Quantize a gate signal to global transport ## "
 								}
 
 							}
@@ -461,7 +461,7 @@
 ,
 									"style" : "",
 									"text" : "autopattr",
-									"varname" : "u982003294"
+									"varname" : "u426001024"
 								}
 
 							}
@@ -802,10 +802,10 @@
  ],
 		"lines" : [  ],
 		"parameters" : 		{
-			"obj-13::obj-1" : [ "bypass[8]", "bypass", 0 ],
-			"obj-13::obj-11" : [ "led[6]", "led", 0 ],
+			"obj-13::obj-27" : [ "led[7]", "led", 0 ],
 			"obj-13::obj-34" : [ "Pulse[3]", "Pulse", 0 ],
-			"obj-13::obj-27" : [ "led[7]", "led", 0 ]
+			"obj-13::obj-1" : [ "bypass[8]", "bypass", 0 ],
+			"obj-13::obj-11" : [ "led[6]", "led", 0 ]
 		}
 ,
 		"dependency_cache" : [  ],

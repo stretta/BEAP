@@ -91,9 +91,9 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 14.173828, 72.0, 141.0, 20.0 ],
+									"patching_rect" : [ 14.173828, 72.0, 138.0, 20.0 ],
 									"style" : "",
-									"text" : "## Signal attenuator. ## "
+									"text" : "## Signal attenuator ## "
 								}
 
 							}
@@ -193,7 +193,7 @@
 ,
 									"style" : "",
 									"text" : "autopattr",
-									"varname" : "u748007856"
+									"varname" : "u191005488"
 								}
 
 							}

@@ -87,140 +87,6 @@
 						"style" : "",
 						"boxes" : [ 							{
 								"box" : 								{
-									"activedialcolor" : [ 0.278431, 0.839216, 1.0, 1.0 ],
-									"activeneedlecolor" : [ 1.0, 1.0, 1.0, 0.7 ],
-									"focusbordercolor" : [ 1.0, 1.0, 1.0, 1.0 ],
-									"id" : "obj-32",
-									"maxclass" : "live.dial",
-									"numinlets" : 1,
-									"numoutlets" : 2,
-									"outlettype" : [ "", "float" ],
-									"parameter_enable" : 1,
-									"patching_rect" : [ 444.81665, 145.302612, 44.0, 47.0 ],
-									"presentation" : 1,
-									"presentation_rect" : [ 190.5, 43.169079, 44.0, 47.0 ],
-									"saved_attribute_attributes" : 									{
-										"valueof" : 										{
-											"parameter_longname" : "Sustain",
-											"parameter_shortname" : "Sustain",
-											"parameter_type" : 0,
-											"parameter_mmax" : 100.0,
-											"parameter_initial_enable" : 1,
-											"parameter_initial" : [ 100 ],
-											"parameter_unitstyle" : 5
-										}
-
-									}
-,
-									"textcolor" : [ 1.0, 1.0, 1.0, 0.7 ],
-									"varname" : "Sustain"
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"activedialcolor" : [ 0.278431, 0.839216, 1.0, 1.0 ],
-									"activeneedlecolor" : [ 1.0, 1.0, 1.0, 0.7 ],
-									"appearance" : 1,
-									"focusbordercolor" : [ 1.0, 1.0, 1.0, 1.0 ],
-									"id" : "obj-31",
-									"maxclass" : "live.dial",
-									"numinlets" : 1,
-									"numoutlets" : 2,
-									"outlettype" : [ "", "float" ],
-									"parameter_enable" : 1,
-									"patching_rect" : [ 576.382935, 145.302612, 80.0, 36.0 ],
-									"presentation" : 1,
-									"presentation_rect" : [ 248.977173, 46.169079, 54.0, 36.0 ],
-									"saved_attribute_attributes" : 									{
-										"valueof" : 										{
-											"parameter_longname" : "Release",
-											"parameter_shortname" : "Release",
-											"parameter_type" : 0,
-											"parameter_mmax" : 8000.0,
-											"parameter_initial_enable" : 1,
-											"parameter_initial" : [ 50 ],
-											"parameter_unitstyle" : 2,
-											"parameter_exponent" : 2.0
-										}
-
-									}
-,
-									"textcolor" : [ 1.0, 1.0, 1.0, 0.7 ],
-									"varname" : "Release"
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"activedialcolor" : [ 0.278431, 0.839216, 1.0, 1.0 ],
-									"activeneedlecolor" : [ 1.0, 1.0, 1.0, 0.7 ],
-									"appearance" : 1,
-									"focusbordercolor" : [ 1.0, 1.0, 1.0, 1.0 ],
-									"id" : "obj-29",
-									"maxclass" : "live.dial",
-									"numinlets" : 1,
-									"numoutlets" : 2,
-									"outlettype" : [ "", "float" ],
-									"parameter_enable" : 1,
-									"patching_rect" : [ 319.852783, 145.302612, 80.0, 36.0 ],
-									"presentation" : 1,
-									"presentation_rect" : [ 105.992371, 46.169079, 53.0, 36.0 ],
-									"saved_attribute_attributes" : 									{
-										"valueof" : 										{
-											"parameter_longname" : "Decay",
-											"parameter_shortname" : "Decay",
-											"parameter_type" : 0,
-											"parameter_mmax" : 8000.0,
-											"parameter_initial_enable" : 1,
-											"parameter_initial" : [ 50 ],
-											"parameter_unitstyle" : 2,
-											"parameter_exponent" : 4.0
-										}
-
-									}
-,
-									"textcolor" : [ 1.0, 1.0, 1.0, 0.7 ],
-									"varname" : "Decay"
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"activedialcolor" : [ 0.278431, 0.839216, 1.0, 1.0 ],
-									"activeneedlecolor" : [ 1.0, 1.0, 1.0, 0.7 ],
-									"appearance" : 1,
-									"focusbordercolor" : [ 1.0, 1.0, 1.0, 1.0 ],
-									"id" : "obj-2",
-									"maxclass" : "live.dial",
-									"numinlets" : 1,
-									"numoutlets" : 2,
-									"outlettype" : [ "", "float" ],
-									"parameter_enable" : 1,
-									"patching_rect" : [ 199.32251, 145.302612, 80.0, 36.0 ],
-									"presentation" : 1,
-									"presentation_rect" : [ 10.5, 46.169079, 53.0, 36.0 ],
-									"saved_attribute_attributes" : 									{
-										"valueof" : 										{
-											"parameter_longname" : "Attack",
-											"parameter_shortname" : "Attack",
-											"parameter_type" : 0,
-											"parameter_mmax" : 8000.0,
-											"parameter_initial_enable" : 1,
-											"parameter_initial" : [ 50 ],
-											"parameter_unitstyle" : 2,
-											"parameter_exponent" : 2.0
-										}
-
-									}
-,
-									"textcolor" : [ 1.0, 1.0, 1.0, 0.7 ],
-									"varname" : "Attack"
-								}
-
-							}
-, 							{
-								"box" : 								{
 									"id" : "obj-1",
 									"maxclass" : "comment",
 									"numinlets" : 1,
@@ -372,7 +238,7 @@
 										"Attack" : [ 50.0 ],
 										"Decay" : [ 50.0 ],
 										"Release" : [ 50.0 ],
-										"Sustain" : [ 98.661417 ],
+										"Sustain" : [ 80.0 ],
 										"attack curve" : [ 1.0 ],
 										"decay curve" : [ 1.0 ],
 										"mute" : [ 0.0 ],
@@ -381,7 +247,7 @@
 ,
 									"style" : "",
 									"text" : "autopattr",
-									"varname" : "u960002392"
+									"varname" : "u357007605"
 								}
 
 							}
@@ -2267,6 +2133,140 @@
 							}
 , 							{
 								"box" : 								{
+									"activedialcolor" : [ 0.278431, 0.839216, 1.0, 1.0 ],
+									"activeneedlecolor" : [ 1.0, 1.0, 1.0, 0.7 ],
+									"focusbordercolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+									"id" : "obj-32",
+									"maxclass" : "live.dial",
+									"numinlets" : 1,
+									"numoutlets" : 2,
+									"outlettype" : [ "", "float" ],
+									"parameter_enable" : 1,
+									"patching_rect" : [ 444.81665, 145.302612, 44.0, 47.0 ],
+									"presentation" : 1,
+									"presentation_rect" : [ 190.5, 43.169079, 44.0, 47.0 ],
+									"saved_attribute_attributes" : 									{
+										"valueof" : 										{
+											"parameter_longname" : "Sustain",
+											"parameter_shortname" : "Sustain",
+											"parameter_type" : 0,
+											"parameter_mmax" : 100.0,
+											"parameter_initial_enable" : 1,
+											"parameter_initial" : [ 100 ],
+											"parameter_unitstyle" : 5
+										}
+
+									}
+,
+									"textcolor" : [ 1.0, 1.0, 1.0, 0.7 ],
+									"varname" : "Sustain"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"activedialcolor" : [ 0.278431, 0.839216, 1.0, 1.0 ],
+									"activeneedlecolor" : [ 1.0, 1.0, 1.0, 0.7 ],
+									"appearance" : 1,
+									"focusbordercolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+									"id" : "obj-31",
+									"maxclass" : "live.dial",
+									"numinlets" : 1,
+									"numoutlets" : 2,
+									"outlettype" : [ "", "float" ],
+									"parameter_enable" : 1,
+									"patching_rect" : [ 576.382935, 145.302612, 80.0, 36.0 ],
+									"presentation" : 1,
+									"presentation_rect" : [ 248.977173, 46.169079, 54.0, 36.0 ],
+									"saved_attribute_attributes" : 									{
+										"valueof" : 										{
+											"parameter_longname" : "Release",
+											"parameter_shortname" : "Release",
+											"parameter_type" : 0,
+											"parameter_mmax" : 8000.0,
+											"parameter_initial_enable" : 1,
+											"parameter_initial" : [ 50 ],
+											"parameter_unitstyle" : 2,
+											"parameter_exponent" : 2.0
+										}
+
+									}
+,
+									"textcolor" : [ 1.0, 1.0, 1.0, 0.7 ],
+									"varname" : "Release"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"activedialcolor" : [ 0.278431, 0.839216, 1.0, 1.0 ],
+									"activeneedlecolor" : [ 1.0, 1.0, 1.0, 0.7 ],
+									"appearance" : 1,
+									"focusbordercolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+									"id" : "obj-29",
+									"maxclass" : "live.dial",
+									"numinlets" : 1,
+									"numoutlets" : 2,
+									"outlettype" : [ "", "float" ],
+									"parameter_enable" : 1,
+									"patching_rect" : [ 319.852783, 145.302612, 80.0, 36.0 ],
+									"presentation" : 1,
+									"presentation_rect" : [ 105.992371, 46.169079, 53.0, 36.0 ],
+									"saved_attribute_attributes" : 									{
+										"valueof" : 										{
+											"parameter_longname" : "Decay",
+											"parameter_shortname" : "Decay",
+											"parameter_type" : 0,
+											"parameter_mmax" : 8000.0,
+											"parameter_initial_enable" : 1,
+											"parameter_initial" : [ 50 ],
+											"parameter_unitstyle" : 2,
+											"parameter_exponent" : 4.0
+										}
+
+									}
+,
+									"textcolor" : [ 1.0, 1.0, 1.0, 0.7 ],
+									"varname" : "Decay"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"activedialcolor" : [ 0.278431, 0.839216, 1.0, 1.0 ],
+									"activeneedlecolor" : [ 1.0, 1.0, 1.0, 0.7 ],
+									"appearance" : 1,
+									"focusbordercolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+									"id" : "obj-2",
+									"maxclass" : "live.dial",
+									"numinlets" : 1,
+									"numoutlets" : 2,
+									"outlettype" : [ "", "float" ],
+									"parameter_enable" : 1,
+									"patching_rect" : [ 199.32251, 145.302612, 80.0, 36.0 ],
+									"presentation" : 1,
+									"presentation_rect" : [ 10.5, 46.169079, 53.0, 36.0 ],
+									"saved_attribute_attributes" : 									{
+										"valueof" : 										{
+											"parameter_longname" : "Attack",
+											"parameter_shortname" : "Attack",
+											"parameter_type" : 0,
+											"parameter_mmax" : 8000.0,
+											"parameter_initial_enable" : 1,
+											"parameter_initial" : [ 50 ],
+											"parameter_unitstyle" : 2,
+											"parameter_exponent" : 2.0
+										}
+
+									}
+,
+									"textcolor" : [ 1.0, 1.0, 1.0, 0.7 ],
+									"varname" : "Attack"
+								}
+
+							}
+, 							{
+								"box" : 								{
 									"angle" : 0.0,
 									"background" : 1,
 									"bgcolor" : [ 0.137255, 0.145098, 0.160784, 0.65 ],
@@ -2630,14 +2630,14 @@
  ],
 		"lines" : [  ],
 		"parameters" : 		{
-			"obj-10::obj-2" : [ "Attack", "Attack", 0 ],
-			"obj-10::obj-46" : [ "decay curve", "decay curve", 0 ],
-			"obj-10::obj-26" : [ "mute", "mute", 0 ],
-			"obj-10::obj-29" : [ "Decay", "Decay", 0 ],
 			"obj-10::obj-31" : [ "Release", "Release", 0 ],
 			"obj-10::obj-45" : [ "release curve", "release curve", 0 ],
+			"obj-10::obj-29" : [ "Decay", "Decay", 0 ],
+			"obj-10::obj-47" : [ "attack curve", "attack curve", 0 ],
+			"obj-10::obj-26" : [ "mute", "mute", 0 ],
 			"obj-10::obj-32" : [ "Sustain", "Sustain", 0 ],
-			"obj-10::obj-47" : [ "attack curve", "attack curve", 0 ]
+			"obj-10::obj-2" : [ "Attack", "Attack", 0 ],
+			"obj-10::obj-46" : [ "decay curve", "decay curve", 0 ]
 		}
 ,
 		"dependency_cache" : [  ],

@@ -93,7 +93,7 @@
 									"numoutlets" : 0,
 									"patching_rect" : [ 36.5, 87.422546, 220.0, 20.0 ],
 									"style" : "",
-									"text" : "## CV-controllable waveform folder. ## "
+									"text" : "## CV-controllable waveform folder ## "
 								}
 
 							}
@@ -663,7 +663,7 @@
 ,
 									"style" : "",
 									"text" : "autopattr",
-									"varname" : "u402007909"
+									"varname" : "u278010025"
 								}
 
 							}
@@ -1067,12 +1067,12 @@
  ],
 		"lines" : [  ],
 		"parameters" : 		{
+			"obj-10::obj-45" : [ "mode", "mode", 0 ],
+			"obj-10::obj-40" : [ "LoValue", "Low", 0 ],
+			"obj-10::obj-4" : [ "bypass", "bypass", 0 ],
 			"obj-10::obj-52" : [ "HiValue", "High", 0 ],
 			"obj-10::obj-38" : [ "LoValueCV", "CV", 0 ],
-			"obj-10::obj-50" : [ "HiValueCV", "CV", 0 ],
-			"obj-10::obj-4" : [ "bypass", "bypass", 0 ],
-			"obj-10::obj-45" : [ "mode", "mode", 0 ],
-			"obj-10::obj-40" : [ "LoValue", "Low", 0 ]
+			"obj-10::obj-50" : [ "HiValueCV", "CV", 0 ]
 		}
 ,
 		"dependency_cache" : [  ],

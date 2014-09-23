@@ -93,7 +93,7 @@
 									"numoutlets" : 0,
 									"patching_rect" : [ 48.0, 82.0, 253.0, 20.0 ],
 									"style" : "",
-									"text" : "## Quantize a signal to a specified scale. ## "
+									"text" : "## Quantize a signal to a specified scale ## "
 								}
 
 							}
@@ -237,7 +237,16 @@
 												}
 
 											}
- ]
+ ],
+										"bgfillcolor" : 										{
+											"type" : "gradient",
+											"color1" : [ 0.435294, 0.462745, 0.498039, 1.0 ],
+											"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
+											"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
+											"angle" : 270.0,
+											"proportion" : 0.39
+										}
+
 									}
 ,
 									"patching_rect" : [ 158.194611, 1019.373169, 43.0, 22.0 ],
@@ -1235,7 +1244,16 @@
 																}
 
 															}
- ]
+ ],
+														"bgfillcolor" : 														{
+															"type" : "gradient",
+															"color1" : [ 0.435294, 0.462745, 0.498039, 1.0 ],
+															"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
+															"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
+															"angle" : 270.0,
+															"proportion" : 0.39
+														}
+
 													}
 ,
 													"patching_rect" : [ 31.0, 116.0, 96.0, 22.0 ],
@@ -1429,7 +1447,16 @@
 																}
 
 															}
- ]
+ ],
+														"bgfillcolor" : 														{
+															"type" : "gradient",
+															"color1" : [ 0.435294, 0.462745, 0.498039, 1.0 ],
+															"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
+															"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
+															"angle" : 270.0,
+															"proportion" : 0.39
+														}
+
 													}
 ,
 													"patching_rect" : [ 124.0, 84.0, 127.0, 22.0 ],
@@ -1716,7 +1743,16 @@
 												}
 
 											}
- ]
+ ],
+										"bgfillcolor" : 										{
+											"type" : "gradient",
+											"color1" : [ 0.435294, 0.462745, 0.498039, 1.0 ],
+											"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
+											"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
+											"angle" : 270.0,
+											"proportion" : 0.39
+										}
+
 									}
 ,
 									"patching_rect" : [ 188.694611, 1341.262939, 59.0, 22.0 ],
@@ -2726,10 +2762,7 @@
 							}
 , 							{
 								"box" : 								{
-									"bgcolor" : [ 0.233817, 0.233817, 0.233817, 0.57 ],
 									"blackkeycolor" : [ 0.233817, 0.233817, 0.233817, 0.57 ],
-									"color" : [ 0.321569, 0.321569, 0.321569, 0.62 ],
-									"elementcolor" : [ 0.278431, 0.839216, 1.0, 1.0 ],
 									"hkeycolor" : [ 0.94838, 0.975571, 1.0, 1.0 ],
 									"id" : "obj-71",
 									"maxclass" : "kslider",
@@ -3103,7 +3136,7 @@
 ,
 									"style" : "",
 									"text" : "autopattr",
-									"varname" : "u238003847"
+									"varname" : "u518000941"
 								}
 
 							}
@@ -4105,10 +4138,10 @@
  ],
 		"lines" : [  ],
 		"parameters" : 		{
+			"obj-18::obj-71" : [ "kslider[3]", "kslider", 0 ],
 			"obj-18::obj-12" : [ "bypass", "bypass", 0 ],
-			"obj-18::obj-87" : [ "rounding", "rounding", 0 ],
 			"obj-18::obj-25" : [ "stealthinit", "stealthinit", 0 ],
-			"obj-18::obj-71" : [ "kslider[3]", "kslider", 0 ]
+			"obj-18::obj-87" : [ "rounding", "rounding", 0 ]
 		}
 ,
 		"dependency_cache" : [  ],

@@ -91,9 +91,9 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 39.0, 88.0, 262.0, 20.0 ],
+									"patching_rect" : [ 39.0, 88.0, 259.0, 20.0 ],
 									"style" : "",
-									"text" : "## Sonogram/ spectrogram graphic display. ## "
+									"text" : "## Sonogram/ spectrogram graphic display ## "
 								}
 
 							}
@@ -233,7 +233,7 @@
 ,
 									"style" : "",
 									"text" : "autopattr",
-									"varname" : "u532001836"
+									"varname" : "u009005130"
 								}
 
 							}
@@ -463,8 +463,8 @@
  ],
 		"lines" : [  ],
 		"parameters" : 		{
-			"obj-2::obj-69" : [ "LinLog", "LinLog", 0 ],
-			"obj-2::obj-7" : [ "display", "display", 0 ]
+			"obj-2::obj-7" : [ "display", "display", 0 ],
+			"obj-2::obj-69" : [ "LinLog", "LinLog", 0 ]
 		}
 ,
 		"dependency_cache" : [  ],

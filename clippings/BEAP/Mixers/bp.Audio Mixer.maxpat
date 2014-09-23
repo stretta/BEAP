@@ -93,7 +93,7 @@
 									"numoutlets" : 0,
 									"patching_rect" : [ 24.0, 73.0, 169.0, 20.0 ],
 									"style" : "",
-									"text" : "## Four input audio mixer. ## "
+									"text" : "## Four input audio mixer ## "
 								}
 
 							}
@@ -1064,7 +1064,7 @@
 ,
 									"style" : "",
 									"text" : "autopattr",
-									"varname" : "u236001274"
+									"varname" : "u925009179"
 								}
 
 							}
@@ -1915,15 +1915,15 @@
  ],
 		"lines" : [  ],
 		"parameters" : 		{
-			"obj-15::obj-33" : [ "4", "4", 0 ],
-			"obj-15::obj-70" : [ "MuteCh4", "MuteCh4", 0 ],
 			"obj-15::obj-32" : [ "2", "2", 0 ],
-			"obj-15::obj-37" : [ "Mute", "Mute", 0 ],
-			"obj-15::obj-29" : [ "3", "3", 0 ],
 			"obj-15::obj-58" : [ "MuteCh2", "MuteCh2", 0 ],
-			"obj-15::obj-64" : [ "MuteCh3", "MuteCh3", 0 ],
+			"obj-15::obj-29" : [ "3", "3", 0 ],
+			"obj-15::obj-49" : [ "MuteCh1", "MuteCh1", 0 ],
+			"obj-15::obj-37" : [ "Mute", "Mute", 0 ],
 			"obj-15::obj-39" : [ "1", "1", 0 ],
-			"obj-15::obj-49" : [ "MuteCh1", "MuteCh1", 0 ]
+			"obj-15::obj-70" : [ "MuteCh4", "MuteCh4", 0 ],
+			"obj-15::obj-64" : [ "MuteCh3", "MuteCh3", 0 ],
+			"obj-15::obj-33" : [ "4", "4", 0 ]
 		}
 ,
 		"dependency_cache" : [  ],

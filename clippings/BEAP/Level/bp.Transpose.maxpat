@@ -91,9 +91,9 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 48.0, 82.0, 343.0, 20.0 ],
+									"patching_rect" : [ 48.0, 82.0, 340.0, 20.0 ],
 									"style" : "",
-									"text" : "## Transpose a 1v/oct control signal in terms of semitones. ## "
+									"text" : "## Transpose a 1v/oct control signal in terms of semitones ## "
 								}
 
 							}
@@ -161,7 +161,7 @@
 ,
 									"style" : "",
 									"text" : "autopattr",
-									"varname" : "u978000619"
+									"varname" : "u658006284"
 								}
 
 							}
@@ -275,7 +275,7 @@
 									"presentation" : 1,
 									"presentation_rect" : [ 2.0, 97.0, 38.0, 17.0 ],
 									"style" : "",
-									"text" : "Signal",
+									"text" : "1v/oct",
 									"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 								}
 
@@ -292,7 +292,7 @@
 									"presentation" : 1,
 									"presentation_rect" : [ 2.0, 0.0, 38.0, 17.0 ],
 									"style" : "",
-									"text" : "Signal",
+									"text" : "1v/oct",
 									"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 								}
 

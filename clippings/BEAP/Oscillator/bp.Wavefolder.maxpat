@@ -92,9 +92,9 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 19.236206, 64.0, 295.0, 33.0 ],
+									"patching_rect" : [ 19.236206, 64.0, 229.0, 33.0 ],
 									"style" : "",
-									"text" : "## Waveshape a signal by amplifying and wrapping the peaks back down. ## "
+									"text" : "## Waveshape a signal by amplifying and wrapping the peaks back down ## "
 								}
 
 							}

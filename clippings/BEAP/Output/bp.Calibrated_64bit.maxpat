@@ -93,7 +93,7 @@
 									"numoutlets" : 0,
 									"patching_rect" : [ 48.0, 96.653198, 299.0, 47.0 ],
 									"style" : "",
-									"text" : "## Calibrated output for using a DC-couped audio interface to send accurate 1v/oct signals to hardware modulars. ## "
+									"text" : "## Calibrated output for using a DC-couped audio interface to send accurate 1v/oct signals to hardware modulars ## "
 								}
 
 							}
@@ -321,11 +321,29 @@
 												}
 
 											}
- ]
+ ],
+										"bgfillcolor" : 										{
+											"type" : "gradient",
+											"color1" : [ 0.435294, 0.462745, 0.498039, 1.0 ],
+											"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
+											"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
+											"angle" : 270.0,
+											"proportion" : 0.39
+										}
+
 									}
 ,
 									"patching_rect" : [ 707.776001, 438.503906, 75.0, 22.0 ],
 									"saved_object_attributes" : 									{
+										"bgfillcolor" : [ 											{
+												"type" : "gradient",
+												"color1" : [ 0.435294, 0.462745, 0.498039, 1.0 ],
+												"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
+												"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
+												"angle" : 270.0,
+												"proportion" : 0.39
+											}
+ ],
 										"bgfillcolor_dictionary" : 										{
 											"type" : "gradient",
 											"color1" : [ 0.435294, 0.462745, 0.498039, 1.0 ],
@@ -681,7 +699,6 @@
 									"presentation_rect" : [ 96.957611, 41.503334, 234.14267, 71.151833 ],
 									"range" : [ -1.0, 1.0 ],
 									"style" : "",
-									"sustaincolor" : [ 0.278431, 0.839216, 1.0, 1.0 ],
 									"textcolor" : [ 1.0, 1.0, 1.0, 0.6 ]
 								}
 
@@ -1256,7 +1273,7 @@
 ,
 									"style" : "",
 									"text" : "autopattr",
-									"varname" : "u666001708"
+									"varname" : "u089001929"
 								}
 
 							}

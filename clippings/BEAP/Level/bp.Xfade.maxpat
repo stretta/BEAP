@@ -91,9 +91,9 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 24.997009, 78.0, 241.0, 20.0 ],
+									"patching_rect" : [ 24.997009, 78.0, 238.0, 20.0 ],
 									"style" : "",
-									"text" : "## Crossfade two signals to one output. ## "
+									"text" : "## Crossfade two signals to one output ## "
 								}
 
 							}
@@ -465,7 +465,7 @@
 ,
 									"style" : "",
 									"text" : "autopattr",
-									"varname" : "u676002213"
+									"varname" : "u726006575"
 								}
 
 							}
@@ -860,15 +860,15 @@
  ],
 		"lines" : [  ],
 		"parameters" : 		{
+			"obj-9::obj-41" : [ "bypass", "bypass", 0 ],
 			"obj-9::obj-22" : [ "CV", "CV", 0 ],
-			"obj-9::obj-1" : [ "Fade", "Fade", 0 ],
-			"obj-9::obj-41" : [ "bypass", "bypass", 0 ]
+			"obj-9::obj-1" : [ "Fade", "Fade", 0 ]
 		}
 ,
 		"dependency_cache" : [ 			{
 				"name" : "M4L.cross1~.maxpat",
-				"bootpath" : "/Applications/Max 7/resources/patchers/m4l/Tools resources",
-				"patcherrelativepath" : "../../../../../patchers/m4l/Tools resources",
+				"bootpath" : "/Applications/Max 7/Max.app/Contents/Resources/C74/patchers/m4l/Tools resources",
+				"patcherrelativepath" : "../../../../../../../Applications/Max 7/Max.app/Contents/Resources/C74/patchers/m4l/Tools resources",
 				"type" : "JSON",
 				"implicit" : 1
 			}

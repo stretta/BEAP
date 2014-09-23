@@ -91,9 +91,9 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 48.0, 75.0, 346.0, 20.0 ],
+									"patching_rect" : [ 48.0, 75.0, 343.0, 20.0 ],
 									"style" : "",
-									"text" : "## Pan a signal between two outputs using a control signal. ## "
+									"text" : "## Pan a signal between two outputs using a control signal ## "
 								}
 
 							}
@@ -599,7 +599,7 @@
 ,
 									"style" : "",
 									"text" : "autopattr",
-									"varname" : "u305010203"
+									"varname" : "u862006034"
 								}
 
 							}
@@ -1094,8 +1094,8 @@
 		"lines" : [  ],
 		"parameters" : 		{
 			"obj-13::obj-41" : [ "bypass", "bypass", 0 ],
-			"obj-13::obj-1" : [ "Pan", "Pan", 0 ],
-			"obj-13::obj-22" : [ "CV", "CV", 0 ]
+			"obj-13::obj-22" : [ "CV", "CV", 0 ],
+			"obj-13::obj-1" : [ "Pan", "Pan", 0 ]
 		}
 ,
 		"dependency_cache" : [  ],

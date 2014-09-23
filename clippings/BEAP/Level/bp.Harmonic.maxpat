@@ -88,13 +88,13 @@
 						"boxes" : [ 							{
 								"box" : 								{
 									"id" : "obj-4",
-									"linecount" : 3,
+									"linecount" : 2,
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 48.0, 86.0, 321.0, 47.0 ],
+									"patching_rect" : [ 48.0, 86.0, 257.0, 33.0 ],
 									"style" : "",
-									"text" : "## Given a 1v/oct input representing a fundamental frequency, Harmonic will output a 1v/oct signal representing a specified harmonic of that frequency.  ## "
+									"text" : "## Derrive a 1v/oct signal that represents a specified harmonic from a 1v/oct input ## "
 								}
 
 							}
@@ -365,7 +365,7 @@
 ,
 									"style" : "",
 									"text" : "autopattr",
-									"varname" : "u563009928"
+									"varname" : "u685005791"
 								}
 
 							}
