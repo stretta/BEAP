@@ -87,12 +87,25 @@
 						"style" : "",
 						"boxes" : [ 							{
 								"box" : 								{
+									"id" : "obj-31",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 4,
+									"outlettype" : [ "int", "float", "int", "int" ],
+									"patching_rect" : [ 972.0, 762.0, 63.0, 22.0 ],
+									"style" : "",
+									"text" : "dspstate~"
+								}
+
+							}
+, 							{
+								"box" : 								{
 									"id" : "obj-11",
 									"maxclass" : "newobj",
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "bang" ],
-									"patching_rect" : [ 800.0, 804.221924, 108.0, 22.0 ],
+									"patching_rect" : [ 972.0, 804.221924, 108.0, 22.0 ],
 									"style" : "",
 									"text" : "metro 5 @active 1"
 								}
@@ -391,7 +404,7 @@
 ,
 									"style" : "",
 									"text" : "autopattr",
-									"varname" : "u091000436"
+									"varname" : "u347000450"
 								}
 
 							}
@@ -4574,6 +4587,15 @@
 							}
 , 							{
 								"patchline" : 								{
+									"destination" : [ "obj-11", 0 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-31", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
 									"destination" : [ "obj-10", 1 ],
 									"disabled" : 0,
 									"hidden" : 0,
@@ -4872,14 +4894,14 @@
  ],
 		"lines" : [  ],
 		"parameters" : 		{
-			"obj-2::obj-51" : [ "divide", "divide", 0 ],
-			"obj-2::obj-49" : [ "quantize", "quantize", 0 ],
-			"obj-2::obj-45" : [ "Slide", "Slide", 0 ],
 			"obj-2::obj-25" : [ "Base", "Base", 0 ],
-			"obj-2::obj-33::obj-6" : [ "live.text[1]", "live.text[1]", 0 ],
 			"obj-2::obj-46" : [ "Q", "Q", 0 ],
+			"obj-2::obj-49" : [ "quantize", "quantize", 0 ],
 			"obj-2::obj-69" : [ "Lock", "Lock", 0 ],
-			"obj-2::obj-26" : [ "Gain", "Gain", 0 ]
+			"obj-2::obj-33::obj-6" : [ "live.text[1]", "live.text[1]", 0 ],
+			"obj-2::obj-26" : [ "Gain", "Gain", 0 ],
+			"obj-2::obj-51" : [ "divide", "divide", 0 ],
+			"obj-2::obj-45" : [ "Slide", "Slide", 0 ]
 		}
 ,
 		"dependency_cache" : [ 			{
