@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 34.0, 78.0, 1212.0, 641.0 ],
+		"rect" : [ 34.0, 78.0, 825.0, 641.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -87,12 +87,39 @@
 						"style" : "",
 						"boxes" : [ 							{
 								"box" : 								{
+									"id" : "obj-58",
+									"linecount" : 3,
+									"maxclass" : "newobj",
+									"numinlets" : 2,
+									"numoutlets" : 2,
+									"outlettype" : [ "", "" ],
+									"patching_rect" : [ 716.802124, 867.65918, 256.0, 49.0 ],
+									"style" : "",
+									"text" : "combine \"../Max 7/Max.app/Contents/Resources/C74/packages/Beap/misc/marco_osc/\" file @triggers 1"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-35",
+									"maxclass" : "newobj",
+									"numinlets" : 0,
+									"numoutlets" : 1,
+									"outlettype" : [ "bang" ],
+									"patching_rect" : [ 913.302124, 486.669922, 67.0, 22.0 ],
+									"style" : "",
+									"text" : "pastebang"
+								}
+
+							}
+, 							{
+								"box" : 								{
 									"id" : "obj-8",
 									"maxclass" : "newobj",
 									"numinlets" : 1,
 									"numoutlets" : 2,
 									"outlettype" : [ "bang", "types" ],
-									"patching_rect" : [ 676.302124, 788.38501, 87.0, 22.0 ],
+									"patching_rect" : [ 913.302124, 578.841553, 87.0, 22.0 ],
 									"style" : "",
 									"text" : "trigger b types"
 								}
@@ -135,7 +162,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 716.802124, 961.163269, 128.0, 22.0 ],
+									"patching_rect" : [ 716.802124, 984.163269, 128.0, 22.0 ],
 									"style" : "",
 									"text" : "prepend patchername"
 								}
@@ -158,27 +185,23 @@
 							}
 , 							{
 								"box" : 								{
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-									"bgfillcolor" : [ 										{
-											"type" : "color",
-											"color1" : [ 0.435294, 0.462745, 0.498039, 1.0 ],
-											"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-											"color" : [ 0.0, 0.0, 0.0, 1.0 ],
-											"angle" : 270.0,
-											"proportion" : 0.39
-										}
- ],
+									"bgfillcolor_angle" : 270.0,
+									"bgfillcolor_color" : [ 0.0, 0.0, 0.0, 1.0 ],
+									"bgfillcolor_color1" : [ 0.435294, 0.462745, 0.498039, 1.0 ],
+									"bgfillcolor_color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
+									"bgfillcolor_proportion" : 0.39,
+									"bgfillcolor_type" : "color",
 									"fontface" : 0,
 									"fontname" : "Arial",
 									"fontsize" : 9.0,
 									"id" : "obj-9",
-									"items" : [ "bp.FM-OD.maxpat", ",", "bp.MIO.maxpat", ",", "bp.Sync.maxpat", ",", "bp.Tuned Delay.maxpat", ",", "bp.Tuned Noise.maxpat" ],
+									"items" : [ "bp.Detuned Ring Modulated Sines.maxpat", ",", "bp.Dual Square Sync.maxpat", ",", "bp.FM-OD.maxpat", ",", "bp.MIO.maxpat", ",", "bp.Morphing Geometrics.maxpat", ",", "bp.Tuned Delay.maxpat", ",", "bp.Tuned Noise.maxpat" ],
 									"maxclass" : "umenu",
 									"numinlets" : 1,
 									"numoutlets" : 3,
 									"outlettype" : [ "int", "", "" ],
 									"parameter_enable" : 0,
-									"patching_rect" : [ 676.302124, 919.206665, 100.0, 19.0 ],
+									"patching_rect" : [ 913.302124, 681.663208, 100.0, 19.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 81.586617, 66.338158, 96.413376, 19.0 ],
 									"style" : "",
@@ -195,7 +218,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 589.302124, 833.229858, 37.0, 22.0 ],
+									"patching_rect" : [ 815.41156, 603.142944, 37.0, 22.0 ],
 									"style" : "",
 									"text" : "clear"
 								}
@@ -208,13 +231,14 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "bang" ],
-									"patching_rect" : [ 676.302124, 755.598389, 20.0, 20.0 ],
+									"patching_rect" : [ 913.302124, 536.054932, 20.0, 20.0 ],
 									"style" : ""
 								}
 
 							}
 , 							{
 								"box" : 								{
+									"fontface" : 0,
 									"fontname" : "Arial",
 									"fontsize" : 13.0,
 									"id" : "obj-61",
@@ -222,66 +246,9 @@
 									"numinlets" : 1,
 									"numoutlets" : 2,
 									"outlettype" : [ "", "int" ],
-									"patching_rect" : [ 676.302124, 841.229858, 249.0, 23.0 ],
+									"patching_rect" : [ 913.302124, 631.686401, 499.0, 23.0 ],
 									"style" : "",
-									"text" : "folder ./packages/BEAP/misc/marco_osc/"
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"bubble" : 1,
-									"fontname" : "Arial",
-									"fontsize" : 12.0,
-									"id" : "obj-55",
-									"linecount" : 2,
-									"maxclass" : "comment",
-									"numinlets" : 1,
-									"numoutlets" : 0,
-									"patching_rect" : [ 728.302124, 650.476685, 244.0, 37.0 ],
-									"style" : "",
-									"text" : "stealth init (loadbang without loadbang for paste from... compatibility)"
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"fontname" : "Arial",
-									"fontsize" : 12.0,
-									"id" : "obj-7",
-									"maxclass" : "newobj",
-									"numinlets" : 2,
-									"numoutlets" : 2,
-									"outlettype" : [ "bang", "" ],
-									"patching_rect" : [ 676.302124, 714.976685, 36.0, 22.0 ],
-									"style" : "",
-									"text" : "sel 0"
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"id" : "obj-56",
-									"maxclass" : "live.text",
-									"numinlets" : 1,
-									"numoutlets" : 2,
-									"outlettype" : [ "", "" ],
-									"parameter_enable" : 1,
-									"patching_rect" : [ 676.302124, 658.976685, 40.0, 20.0 ],
-									"saved_attribute_attributes" : 									{
-										"valueof" : 										{
-											"parameter_longname" : "stealthinit",
-											"parameter_shortname" : "stealthinit",
-											"parameter_type" : 2,
-											"parameter_mmax" : 1.0,
-											"parameter_enum" : [ "val1", "val2" ],
-											"parameter_initial_enable" : 1,
-											"parameter_initial" : [ 0.0 ]
-										}
-
-									}
-,
-									"varname" : "stealthinit"
+									"text" : "folder \"../Max 7/Max.app/Contents/Resources/C74/packages/Beap/misc/marco_osc/\""
 								}
 
 							}
@@ -687,7 +654,8 @@
 													"numinlets" : 0,
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
-													"patching_rect" : [ 539.0, 63.0, 25.0, 25.0 ]
+													"patching_rect" : [ 539.0, 63.0, 25.0, 25.0 ],
+													"style" : ""
 												}
 
 											}
@@ -699,7 +667,8 @@
 													"numinlets" : 0,
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
-													"patching_rect" : [ 254.0, 193.0, 25.0, 25.0 ]
+													"patching_rect" : [ 254.0, 193.0, 25.0, 25.0 ],
+													"style" : ""
 												}
 
 											}
@@ -711,7 +680,8 @@
 													"numinlets" : 0,
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
-													"patching_rect" : [ 362.54126, 193.0, 25.0, 25.0 ]
+													"patching_rect" : [ 362.54126, 193.0, 25.0, 25.0 ],
+													"style" : ""
 												}
 
 											}
@@ -722,7 +692,8 @@
 													"maxclass" : "outlet",
 													"numinlets" : 1,
 													"numoutlets" : 0,
-													"patching_rect" : [ 107.0, 431.297241, 25.0, 25.0 ]
+													"patching_rect" : [ 107.0, 431.297241, 25.0, 25.0 ],
+													"style" : ""
 												}
 
 											}
@@ -733,7 +704,8 @@
 													"maxclass" : "outlet",
 													"numinlets" : 1,
 													"numoutlets" : 0,
-													"patching_rect" : [ 459.0, 431.297241, 25.0, 25.0 ]
+													"patching_rect" : [ 459.0, 431.297241, 25.0, 25.0 ],
+													"style" : ""
 												}
 
 											}
@@ -744,7 +716,8 @@
 													"maxclass" : "outlet",
 													"numinlets" : 1,
 													"numoutlets" : 0,
-													"patching_rect" : [ 720.77063, 431.297241, 25.0, 25.0 ]
+													"patching_rect" : [ 720.77063, 431.297241, 25.0, 25.0 ],
+													"style" : ""
 												}
 
 											}
@@ -1054,37 +1027,16 @@
 
 											}
  ],
-										"bgfillcolor" : 										{
-											"type" : "gradient",
-											"color1" : [ 0.435294, 0.462745, 0.498039, 1.0 ],
-											"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-											"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-											"angle" : 270.0,
-											"proportion" : 0.39
-										}
-
+										"bgfillcolor_type" : "gradient",
+										"bgfillcolor_color1" : [ 0.435294, 0.462745, 0.498039, 1.0 ],
+										"bgfillcolor_color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
+										"bgfillcolor_color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
+										"bgfillcolor_angle" : 270.0,
+										"bgfillcolor_proportion" : 0.39
 									}
 ,
 									"patching_rect" : [ 502.320953, 632.686401, 71.0, 22.0 ],
 									"saved_object_attributes" : 									{
-										"bgfillcolor" : [ 											{
-												"type" : "gradient",
-												"color1" : [ 0.435294, 0.462745, 0.498039, 1.0 ],
-												"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-												"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-												"angle" : 270.0,
-												"proportion" : 0.39
-											}
- ],
-										"bgfillcolor_dictionary" : 										{
-											"type" : "gradient",
-											"color1" : [ 0.435294, 0.462745, 0.498039, 1.0 ],
-											"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-											"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-											"angle" : 270.0,
-											"proportion" : 0.39
-										}
-,
 										"description" : "",
 										"digest" : "",
 										"globalpatchername" : "",
@@ -1337,7 +1289,8 @@
 									"numinlets" : 0,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 984.283447, 193.48378, 25.0, 25.0 ]
+									"patching_rect" : [ 984.283447, 193.48378, 25.0, 25.0 ],
+									"style" : ""
 								}
 
 							}
@@ -1441,7 +1394,8 @@
 									"numinlets" : 0,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 446.539703, 149.567596, 25.0, 25.0 ]
+									"patching_rect" : [ 446.539703, 149.567596, 25.0, 25.0 ],
+									"style" : ""
 								}
 
 							}
@@ -1469,7 +1423,8 @@
 									"numinlets" : 0,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 653.539673, 149.567596, 25.0, 25.0 ]
+									"patching_rect" : [ 653.539673, 149.567596, 25.0, 25.0 ],
+									"style" : ""
 								}
 
 							}
@@ -1675,13 +1630,12 @@
 										"Mute" : [ 0.0 ],
 										"Offset[2]" : [ 0.0 ],
 										"Timbre" : [ 0.0 ],
-										"TimbreCV" : [ 0.0 ],
-										"stealthinit" : [ 0.0 ]
+										"TimbreCV" : [ 0.0 ]
 									}
 ,
 									"style" : "",
 									"text" : "autopattr",
-									"varname" : "u243000743"
+									"varname" : "u526004169"
 								}
 
 							}
@@ -1708,7 +1662,8 @@
 									"numinlets" : 0,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 1464.769653, 864.658936, 25.0, 25.0 ]
+									"patching_rect" : [ 1464.769653, 864.658936, 25.0, 25.0 ],
+									"style" : ""
 								}
 
 							}
@@ -1876,7 +1831,8 @@
 									"numinlets" : 0,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 1131.411133, 793.713379, 25.0, 25.0 ]
+									"patching_rect" : [ 1131.411133, 793.713379, 25.0, 25.0 ],
+									"style" : ""
 								}
 
 							}
@@ -2155,7 +2111,8 @@
 									"maxclass" : "outlet",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 643.043274, 1175.638062, 25.0, 25.0 ]
+									"patching_rect" : [ 643.043274, 1175.638062, 25.0, 25.0 ],
+									"style" : ""
 								}
 
 							}
@@ -2218,15 +2175,6 @@
 									"angle" : 0.0,
 									"background" : 1,
 									"bgcolor" : [ 0.137255, 0.145098, 0.160784, 0.65 ],
-									"bgfillcolor" : [ 										{
-											"type" : "color",
-											"color1" : [ 0.75, 0.79, 0.93, 1.0 ],
-											"color2" : [ 0.66, 0.66, 0.72, 1.0 ],
-											"color" : [ 0.137255, 0.145098, 0.160784, 0.65 ],
-											"angle" : 0,
-											"proportion" : 0.39
-										}
- ],
 									"id" : "obj-130",
 									"maxclass" : "panel",
 									"mode" : 0,
@@ -2246,15 +2194,6 @@
 									"angle" : 0.0,
 									"background" : 1,
 									"bgcolor" : [ 0.367404, 0.389405, 0.430238, 1.0 ],
-									"bgfillcolor" : [ 										{
-											"type" : "color",
-											"color1" : [ 0.75, 0.79, 0.93, 1.0 ],
-											"color2" : [ 0.66, 0.66, 0.72, 1.0 ],
-											"color" : [ 0.367404, 0.389405, 0.430238, 1.0 ],
-											"angle" : 0,
-											"proportion" : 0.39
-										}
- ],
 									"id" : "obj-131",
 									"maxclass" : "panel",
 									"mode" : 0,
@@ -2274,15 +2213,6 @@
 									"angle" : 0.0,
 									"background" : 1,
 									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-									"bgfillcolor" : [ 										{
-											"type" : "color",
-											"color1" : [ 0.75, 0.79, 0.93, 1.0 ],
-											"color2" : [ 0.66, 0.66, 0.72, 1.0 ],
-											"color" : [ 0.0, 0.0, 0.0, 1.0 ],
-											"angle" : 0,
-											"proportion" : 0.39
-										}
- ],
 									"id" : "obj-135",
 									"maxclass" : "panel",
 									"mode" : 0,
@@ -2573,6 +2503,15 @@
 							}
 , 							{
 								"patchline" : 								{
+									"destination" : [ "obj-60", 0 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-35", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
 									"destination" : [ "obj-26", 0 ],
 									"disabled" : 0,
 									"hidden" : 0,
@@ -2638,10 +2577,10 @@
 							}
 , 							{
 								"patchline" : 								{
-									"destination" : [ "obj-7", 0 ],
+									"destination" : [ "obj-18", 0 ],
 									"disabled" : 0,
 									"hidden" : 0,
-									"source" : [ "obj-56", 0 ]
+									"source" : [ "obj-58", 0 ]
 								}
 
 							}
@@ -2724,15 +2663,6 @@
 									"disabled" : 0,
 									"hidden" : 0,
 									"source" : [ "obj-69", 0 ]
-								}
-
-							}
-, 							{
-								"patchline" : 								{
-									"destination" : [ "obj-60", 0 ],
-									"disabled" : 0,
-									"hidden" : 0,
-									"source" : [ "obj-7", 0 ]
 								}
 
 							}
@@ -2828,7 +2758,7 @@
 							}
 , 							{
 								"patchline" : 								{
-									"destination" : [ "obj-18", 0 ],
+									"destination" : [ "obj-58", 1 ],
 									"disabled" : 0,
 									"hidden" : 0,
 									"source" : [ "obj-9", 1 ]
@@ -2883,24 +2813,30 @@
  ],
 		"lines" : [  ],
 		"parameters" : 		{
-			"obj-38::obj-51" : [ "Freq", "Freq", 0 ],
 			"obj-38::obj-3" : [ "Timbre", "Timbre", 0 ],
-			"obj-38::obj-56" : [ "stealthinit", "stealthinit", 0 ],
+			"obj-38::obj-81" : [ "Color", "Color", 0 ],
 			"obj-38::obj-45" : [ "FreqMode", "FreqMode", 0 ],
-			"obj-38::obj-46" : [ "Offset", "Offset", 0 ],
 			"obj-38::obj-25" : [ "TimbreCV", "CV", 0 ],
 			"obj-38::obj-129" : [ "CV2", "CV2", 0 ],
-			"obj-38::obj-12" : [ "Mute", "Mute", 0 ],
 			"obj-38::obj-80" : [ "ColorCV", "CV", 0 ],
-			"obj-38::obj-81" : [ "Color", "Color", 0 ],
 			"obj-38::obj-106" : [ "CV3", "CV3", 0 ],
-			"obj-38::obj-14.1::obj-80" : [ "Ratio", "Ratio", 0 ]
+			"obj-38::obj-35::obj-2" : [ "live.toggle", "live.toggle", 0 ],
+			"obj-38::obj-46" : [ "Offset", "Offset", 0 ],
+			"obj-38::obj-12" : [ "Mute", "Mute", 0 ],
+			"obj-38::obj-51" : [ "Freq", "Freq", 0 ]
 		}
 ,
 		"dependency_cache" : [ 			{
-				"name" : "bp.FM-OD.maxpat",
+				"name" : "bp.Tuned Noise.maxpat",
 				"bootpath" : "/Applications/Max 7/Max.app/Contents/Resources/C74/packages/Beap/misc/marco_osc",
-				"patcherrelativepath" : "../../../../../../../Applications/Max 7/Max.app/Contents/Resources/C74/packages/Beap/misc/marco_osc",
+				"patcherrelativepath" : "../../../misc/marco_osc",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "pastebang.maxpat",
+				"bootpath" : "~/Documents/Beap/misc",
+				"patcherrelativepath" : "../../../../../../../../../../../Users/matthew/Documents/Beap/misc",
 				"type" : "JSON",
 				"implicit" : 1
 			}
