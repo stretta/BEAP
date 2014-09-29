@@ -5,10 +5,11 @@
 			"major" : 7,
 			"minor" : 0,
 			"revision" : 0,
-			"architecture" : "x64"
+			"architecture" : "x64",
+			"modernui" : 1
 		}
 ,
-		"rect" : [ 25.0, 69.0, 807.0, 544.0 ],
+		"rect" : [ 34.0, 78.0, 807.0, 544.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -19,14 +20,20 @@
 		"gridsnaponopen" : 0,
 		"statusbarvisible" : 2,
 		"toolbarvisible" : 1,
+		"lefttoolbarpinned" : 0,
+		"toptoolbarpinned" : 0,
+		"righttoolbarpinned" : 0,
+		"bottomtoolbarpinned" : 0,
+		"toolbars_unpinned_last_save" : 0,
+		"tallnewobj" : 0,
 		"boxanimatetime" : 200,
-		"imprint" : 0,
 		"enablehscroll" : 1,
 		"enablevscroll" : 1,
 		"devicewidth" : 0.0,
 		"description" : "",
 		"digest" : "",
 		"tags" : "",
+		"style" : "",
 		"boxes" : [ 			{
 				"box" : 				{
 					"bgmode" : 0,
@@ -48,10 +55,11 @@
 							"major" : 7,
 							"minor" : 0,
 							"revision" : 0,
-							"architecture" : "x64"
+							"architecture" : "x64",
+							"modernui" : 1
 						}
 ,
-						"rect" : [ 25.0, 69.0, 115.0, 116.0 ],
+						"rect" : [ 34.0, 78.0, 115.0, 116.0 ],
 						"bgcolor" : [ 1.0, 1.0, 1.0, 0.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 1,
@@ -63,19 +71,37 @@
 						"gridsnaponopen" : 0,
 						"statusbarvisible" : 1,
 						"toolbarvisible" : 1,
+						"lefttoolbarpinned" : 0,
+						"toptoolbarpinned" : 0,
+						"righttoolbarpinned" : 0,
+						"bottomtoolbarpinned" : 0,
+						"toolbars_unpinned_last_save" : 0,
+						"tallnewobj" : 0,
 						"boxanimatetime" : 200,
-						"imprint" : 0,
 						"enablehscroll" : 1,
 						"enablevscroll" : 1,
 						"devicewidth" : 0.0,
 						"description" : "",
 						"digest" : "",
 						"tags" : "",
+						"style" : "",
 						"boxes" : [ 							{
+								"box" : 								{
+									"id" : "obj-3",
+									"linecount" : 2,
+									"maxclass" : "comment",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 195.0, 393.0, 150.0, 33.0 ],
+									"style" : "",
+									"text" : "## Display a signal on a button grid ##"
+								}
+
+							}
+, 							{
 								"box" : 								{
 									"fontname" : "Arial Bold",
 									"fontsize" : 9.0,
-									"frgb" : 0.0,
 									"id" : "obj-160",
 									"maxclass" : "comment",
 									"numinlets" : 1,
@@ -83,6 +109,7 @@
 									"patching_rect" : [ 58.0, 97.0, 60.0, 17.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 56.0, 97.0, 60.0, 17.0 ],
+									"style" : "",
 									"text" : "Serialosc B",
 									"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 								}
@@ -95,7 +122,7 @@
 									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"id" : "obj-159",
 									"maxclass" : "live.tab",
-									"num_lines_patching" : 0,
+									"num_lines_patching" : 1,
 									"num_lines_presentation" : 1,
 									"numinlets" : 1,
 									"numoutlets" : 3,
@@ -124,7 +151,6 @@
 								"box" : 								{
 									"fontname" : "Arial Bold",
 									"fontsize" : 9.0,
-									"frgb" : 0.0,
 									"id" : "obj-59",
 									"maxclass" : "comment",
 									"numinlets" : 1,
@@ -132,6 +158,7 @@
 									"patching_rect" : [ 212.142456, 170.705078, 30.0, 17.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 7.0, 47.0, 30.0, 17.0 ],
+									"style" : "",
 									"text" : "Rate",
 									"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 								}
@@ -176,7 +203,8 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 934.660034, 566.0, 32.5, 18.0 ],
+									"patching_rect" : [ 934.660034, 566.0, 32.5, 22.0 ],
+									"style" : "",
 									"text" : "0"
 								}
 
@@ -190,7 +218,8 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 887.160034, 566.0, 32.5, 18.0 ],
+									"patching_rect" : [ 887.160034, 566.0, 32.5, 22.0 ],
+									"style" : "",
 									"text" : "-5"
 								}
 
@@ -204,7 +233,8 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 2983.976074, 1241.829834, 181.0, 18.0 ],
+									"patching_rect" : [ 2983.976074, 1241.829834, 181.0, 22.0 ],
+									"style" : "",
 									"text" : "/monome/grid/led/col 15 0 $1 $2"
 								}
 
@@ -287,11 +317,12 @@
 									"numinlets" : 1,
 									"numoutlets" : 4,
 									"outlettype" : [ "", "", "", "" ],
-									"patching_rect" : [ 2983.976074, 1206.153809, 59.5, 20.0 ],
+									"patching_rect" : [ 2983.976074, 1206.153809, 59.5, 22.0 ],
 									"saved_object_attributes" : 									{
 										"embed" : 1
 									}
 ,
+									"style" : "",
 									"text" : "coll"
 								}
 
@@ -305,7 +336,8 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 2800.976074, 1241.829834, 181.0, 18.0 ],
+									"patching_rect" : [ 2800.976074, 1241.829834, 181.0, 22.0 ],
+									"style" : "",
 									"text" : "/monome/grid/led/col 14 0 $1 $2"
 								}
 
@@ -388,11 +420,12 @@
 									"numinlets" : 1,
 									"numoutlets" : 4,
 									"outlettype" : [ "", "", "", "" ],
-									"patching_rect" : [ 2800.976074, 1206.153809, 59.5, 20.0 ],
+									"patching_rect" : [ 2800.976074, 1206.153809, 59.5, 22.0 ],
 									"saved_object_attributes" : 									{
 										"embed" : 1
 									}
 ,
+									"style" : "",
 									"text" : "coll"
 								}
 
@@ -406,7 +439,8 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 2622.976074, 1241.829834, 181.0, 18.0 ],
+									"patching_rect" : [ 2622.976074, 1241.829834, 181.0, 22.0 ],
+									"style" : "",
 									"text" : "/monome/grid/led/col 13 0 $1 $2"
 								}
 
@@ -489,11 +523,12 @@
 									"numinlets" : 1,
 									"numoutlets" : 4,
 									"outlettype" : [ "", "", "", "" ],
-									"patching_rect" : [ 2622.976074, 1206.153809, 59.5, 20.0 ],
+									"patching_rect" : [ 2622.976074, 1206.153809, 59.5, 22.0 ],
 									"saved_object_attributes" : 									{
 										"embed" : 1
 									}
 ,
+									"style" : "",
 									"text" : "coll"
 								}
 
@@ -507,7 +542,8 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 2439.976074, 1241.829834, 181.0, 18.0 ],
+									"patching_rect" : [ 2439.976074, 1241.829834, 181.0, 22.0 ],
+									"style" : "",
 									"text" : "/monome/grid/led/col 12 0 $1 $2"
 								}
 
@@ -590,11 +626,12 @@
 									"numinlets" : 1,
 									"numoutlets" : 4,
 									"outlettype" : [ "", "", "", "" ],
-									"patching_rect" : [ 2439.976074, 1206.153809, 59.5, 20.0 ],
+									"patching_rect" : [ 2439.976074, 1206.153809, 59.5, 22.0 ],
 									"saved_object_attributes" : 									{
 										"embed" : 1
 									}
 ,
+									"style" : "",
 									"text" : "coll"
 								}
 
@@ -608,7 +645,8 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 2257.97583, 1241.829834, 180.0, 18.0 ],
+									"patching_rect" : [ 2257.97583, 1241.829834, 180.0, 22.0 ],
+									"style" : "",
 									"text" : "/monome/grid/led/col 11 0 $1 $2"
 								}
 
@@ -691,11 +729,12 @@
 									"numinlets" : 1,
 									"numoutlets" : 4,
 									"outlettype" : [ "", "", "", "" ],
-									"patching_rect" : [ 2257.97583, 1206.153809, 59.5, 20.0 ],
+									"patching_rect" : [ 2257.97583, 1206.153809, 59.5, 22.0 ],
 									"saved_object_attributes" : 									{
 										"embed" : 1
 									}
 ,
+									"style" : "",
 									"text" : "coll"
 								}
 
@@ -709,7 +748,8 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 2074.97583, 1241.829834, 181.0, 18.0 ],
+									"patching_rect" : [ 2074.97583, 1241.829834, 181.0, 22.0 ],
+									"style" : "",
 									"text" : "/monome/grid/led/col 10 0 $1 $2"
 								}
 
@@ -792,11 +832,12 @@
 									"numinlets" : 1,
 									"numoutlets" : 4,
 									"outlettype" : [ "", "", "", "" ],
-									"patching_rect" : [ 2074.97583, 1206.153809, 59.5, 20.0 ],
+									"patching_rect" : [ 2074.97583, 1206.153809, 59.5, 22.0 ],
 									"saved_object_attributes" : 									{
 										"embed" : 1
 									}
 ,
+									"style" : "",
 									"text" : "coll"
 								}
 
@@ -810,7 +851,8 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 1896.975952, 1241.829834, 174.0, 18.0 ],
+									"patching_rect" : [ 1896.975952, 1241.829834, 174.0, 22.0 ],
+									"style" : "",
 									"text" : "/monome/grid/led/col 9 0 $1 $2"
 								}
 
@@ -893,11 +935,12 @@
 									"numinlets" : 1,
 									"numoutlets" : 4,
 									"outlettype" : [ "", "", "", "" ],
-									"patching_rect" : [ 1896.975952, 1206.153809, 59.5, 20.0 ],
+									"patching_rect" : [ 1896.975952, 1206.153809, 59.5, 22.0 ],
 									"saved_object_attributes" : 									{
 										"embed" : 1
 									}
 ,
+									"style" : "",
 									"text" : "coll"
 								}
 
@@ -911,7 +954,8 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 1713.975952, 1241.829834, 174.0, 18.0 ],
+									"patching_rect" : [ 1713.975952, 1241.829834, 174.0, 22.0 ],
+									"style" : "",
 									"text" : "/monome/grid/led/col 8 0 $1 $2"
 								}
 
@@ -994,11 +1038,12 @@
 									"numinlets" : 1,
 									"numoutlets" : 4,
 									"outlettype" : [ "", "", "", "" ],
-									"patching_rect" : [ 1713.975952, 1206.153809, 59.5, 20.0 ],
+									"patching_rect" : [ 1713.975952, 1206.153809, 59.5, 22.0 ],
 									"saved_object_attributes" : 									{
 										"embed" : 1
 									}
 ,
+									"style" : "",
 									"text" : "coll"
 								}
 
@@ -1012,7 +1057,8 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 2983.976074, 1113.829834, 174.0, 18.0 ],
+									"patching_rect" : [ 2983.976074, 1113.829834, 174.0, 22.0 ],
+									"style" : "",
 									"text" : "/monome/grid/led/col 7 0 $1 $2"
 								}
 
@@ -1095,11 +1141,12 @@
 									"numinlets" : 1,
 									"numoutlets" : 4,
 									"outlettype" : [ "", "", "", "" ],
-									"patching_rect" : [ 2983.976074, 1078.153809, 59.5, 20.0 ],
+									"patching_rect" : [ 2983.976074, 1078.153809, 59.5, 22.0 ],
 									"saved_object_attributes" : 									{
 										"embed" : 1
 									}
 ,
+									"style" : "",
 									"text" : "coll"
 								}
 
@@ -1113,7 +1160,8 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 2800.976074, 1113.829834, 174.0, 18.0 ],
+									"patching_rect" : [ 2800.976074, 1113.829834, 174.0, 22.0 ],
+									"style" : "",
 									"text" : "/monome/grid/led/col 6 0 $1 $2"
 								}
 
@@ -1196,11 +1244,12 @@
 									"numinlets" : 1,
 									"numoutlets" : 4,
 									"outlettype" : [ "", "", "", "" ],
-									"patching_rect" : [ 2800.976074, 1078.153809, 59.5, 20.0 ],
+									"patching_rect" : [ 2800.976074, 1078.153809, 59.5, 22.0 ],
 									"saved_object_attributes" : 									{
 										"embed" : 1
 									}
 ,
+									"style" : "",
 									"text" : "coll"
 								}
 
@@ -1214,7 +1263,8 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 2622.976074, 1113.829834, 174.0, 18.0 ],
+									"patching_rect" : [ 2622.976074, 1113.829834, 174.0, 22.0 ],
+									"style" : "",
 									"text" : "/monome/grid/led/col 5 0 $1 $2"
 								}
 
@@ -1297,11 +1347,12 @@
 									"numinlets" : 1,
 									"numoutlets" : 4,
 									"outlettype" : [ "", "", "", "" ],
-									"patching_rect" : [ 2622.976074, 1078.153809, 59.5, 20.0 ],
+									"patching_rect" : [ 2622.976074, 1078.153809, 59.5, 22.0 ],
 									"saved_object_attributes" : 									{
 										"embed" : 1
 									}
 ,
+									"style" : "",
 									"text" : "coll"
 								}
 
@@ -1315,7 +1366,8 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 2439.976074, 1113.829834, 174.0, 18.0 ],
+									"patching_rect" : [ 2439.976074, 1113.829834, 174.0, 22.0 ],
+									"style" : "",
 									"text" : "/monome/grid/led/col 4 0 $1 $2"
 								}
 
@@ -1398,11 +1450,12 @@
 									"numinlets" : 1,
 									"numoutlets" : 4,
 									"outlettype" : [ "", "", "", "" ],
-									"patching_rect" : [ 2439.976074, 1078.153809, 59.5, 20.0 ],
+									"patching_rect" : [ 2439.976074, 1078.153809, 59.5, 22.0 ],
 									"saved_object_attributes" : 									{
 										"embed" : 1
 									}
 ,
+									"style" : "",
 									"text" : "coll"
 								}
 
@@ -1416,7 +1469,8 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 2257.97583, 1113.829834, 174.0, 18.0 ],
+									"patching_rect" : [ 2257.97583, 1113.829834, 174.0, 22.0 ],
+									"style" : "",
 									"text" : "/monome/grid/led/col 3 0 $1 $2"
 								}
 
@@ -1499,11 +1553,12 @@
 									"numinlets" : 1,
 									"numoutlets" : 4,
 									"outlettype" : [ "", "", "", "" ],
-									"patching_rect" : [ 2257.97583, 1078.153809, 59.5, 20.0 ],
+									"patching_rect" : [ 2257.97583, 1078.153809, 59.5, 22.0 ],
 									"saved_object_attributes" : 									{
 										"embed" : 1
 									}
 ,
+									"style" : "",
 									"text" : "coll"
 								}
 
@@ -1517,7 +1572,8 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 2074.97583, 1113.829834, 174.0, 18.0 ],
+									"patching_rect" : [ 2074.97583, 1113.829834, 174.0, 22.0 ],
+									"style" : "",
 									"text" : "/monome/grid/led/col 2 0 $1 $2"
 								}
 
@@ -1600,11 +1656,12 @@
 									"numinlets" : 1,
 									"numoutlets" : 4,
 									"outlettype" : [ "", "", "", "" ],
-									"patching_rect" : [ 2074.97583, 1078.153809, 59.5, 20.0 ],
+									"patching_rect" : [ 2074.97583, 1078.153809, 59.5, 22.0 ],
 									"saved_object_attributes" : 									{
 										"embed" : 1
 									}
 ,
+									"style" : "",
 									"text" : "coll"
 								}
 
@@ -1618,7 +1675,8 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 1896.975952, 1113.829834, 174.0, 18.0 ],
+									"patching_rect" : [ 1896.975952, 1113.829834, 174.0, 22.0 ],
+									"style" : "",
 									"text" : "/monome/grid/led/col 1 0 $1 $2"
 								}
 
@@ -1701,11 +1759,12 @@
 									"numinlets" : 1,
 									"numoutlets" : 4,
 									"outlettype" : [ "", "", "", "" ],
-									"patching_rect" : [ 1896.975952, 1078.153809, 59.5, 20.0 ],
+									"patching_rect" : [ 1896.975952, 1078.153809, 59.5, 22.0 ],
 									"saved_object_attributes" : 									{
 										"embed" : 1
 									}
 ,
+									"style" : "",
 									"text" : "coll"
 								}
 
@@ -1719,7 +1778,8 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 1713.975952, 1113.829834, 174.0, 18.0 ],
+									"patching_rect" : [ 1713.975952, 1113.829834, 174.0, 22.0 ],
+									"style" : "",
 									"text" : "/monome/grid/led/col 0 0 $1 $2"
 								}
 
@@ -1802,11 +1862,12 @@
 									"numinlets" : 1,
 									"numoutlets" : 4,
 									"outlettype" : [ "", "", "", "" ],
-									"patching_rect" : [ 1713.975952, 1078.153809, 59.5, 20.0 ],
+									"patching_rect" : [ 1713.975952, 1078.153809, 59.5, 22.0 ],
 									"saved_object_attributes" : 									{
 										"embed" : 1
 									}
 ,
+									"style" : "",
 									"text" : "coll"
 								}
 
@@ -1818,7 +1879,8 @@
 									"maxclass" : "outlet",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 2383.991211, 1514.868286, 25.0, 25.0 ]
+									"patching_rect" : [ 2383.991211, 1514.868286, 25.0, 25.0 ],
+									"style" : ""
 								}
 
 							}
@@ -1831,7 +1893,8 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 1449.642578, 1228.932373, 181.0, 18.0 ],
+									"patching_rect" : [ 1449.642578, 1228.932373, 181.0, 22.0 ],
+									"style" : "",
 									"text" : "/monome/grid/led/col 15 0 $1 $2"
 								}
 
@@ -1914,11 +1977,12 @@
 									"numinlets" : 1,
 									"numoutlets" : 4,
 									"outlettype" : [ "", "", "", "" ],
-									"patching_rect" : [ 1449.642578, 1193.256348, 59.5, 20.0 ],
+									"patching_rect" : [ 1449.642578, 1193.256348, 59.5, 22.0 ],
 									"saved_object_attributes" : 									{
 										"embed" : 1
 									}
 ,
+									"style" : "",
 									"text" : "coll"
 								}
 
@@ -1932,7 +1996,8 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 1266.642456, 1228.932373, 181.0, 18.0 ],
+									"patching_rect" : [ 1266.642456, 1228.932373, 181.0, 22.0 ],
+									"style" : "",
 									"text" : "/monome/grid/led/col 14 0 $1 $2"
 								}
 
@@ -2015,11 +2080,12 @@
 									"numinlets" : 1,
 									"numoutlets" : 4,
 									"outlettype" : [ "", "", "", "" ],
-									"patching_rect" : [ 1266.642456, 1193.256348, 59.5, 20.0 ],
+									"patching_rect" : [ 1266.642456, 1193.256348, 59.5, 22.0 ],
 									"saved_object_attributes" : 									{
 										"embed" : 1
 									}
 ,
+									"style" : "",
 									"text" : "coll"
 								}
 
@@ -2033,7 +2099,8 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 1088.642456, 1228.932373, 181.0, 18.0 ],
+									"patching_rect" : [ 1088.642456, 1228.932373, 181.0, 22.0 ],
+									"style" : "",
 									"text" : "/monome/grid/led/col 13 0 $1 $2"
 								}
 
@@ -2116,11 +2183,12 @@
 									"numinlets" : 1,
 									"numoutlets" : 4,
 									"outlettype" : [ "", "", "", "" ],
-									"patching_rect" : [ 1088.642456, 1193.256348, 59.5, 20.0 ],
+									"patching_rect" : [ 1088.642456, 1193.256348, 59.5, 22.0 ],
 									"saved_object_attributes" : 									{
 										"embed" : 1
 									}
 ,
+									"style" : "",
 									"text" : "coll"
 								}
 
@@ -2134,7 +2202,8 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 905.642456, 1228.932373, 181.0, 18.0 ],
+									"patching_rect" : [ 905.642456, 1228.932373, 181.0, 22.0 ],
+									"style" : "",
 									"text" : "/monome/grid/led/col 12 0 $1 $2"
 								}
 
@@ -2217,11 +2286,12 @@
 									"numinlets" : 1,
 									"numoutlets" : 4,
 									"outlettype" : [ "", "", "", "" ],
-									"patching_rect" : [ 905.642456, 1193.256348, 59.5, 20.0 ],
+									"patching_rect" : [ 905.642456, 1193.256348, 59.5, 22.0 ],
 									"saved_object_attributes" : 									{
 										"embed" : 1
 									}
 ,
+									"style" : "",
 									"text" : "coll"
 								}
 
@@ -2235,7 +2305,8 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 723.642456, 1228.932373, 180.0, 18.0 ],
+									"patching_rect" : [ 723.642456, 1228.932373, 180.0, 22.0 ],
+									"style" : "",
 									"text" : "/monome/grid/led/col 11 0 $1 $2"
 								}
 
@@ -2318,11 +2389,12 @@
 									"numinlets" : 1,
 									"numoutlets" : 4,
 									"outlettype" : [ "", "", "", "" ],
-									"patching_rect" : [ 723.642456, 1193.256348, 59.5, 20.0 ],
+									"patching_rect" : [ 723.642456, 1193.256348, 59.5, 22.0 ],
 									"saved_object_attributes" : 									{
 										"embed" : 1
 									}
 ,
+									"style" : "",
 									"text" : "coll"
 								}
 
@@ -2336,7 +2408,8 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 540.642456, 1228.932373, 181.0, 18.0 ],
+									"patching_rect" : [ 540.642456, 1228.932373, 181.0, 22.0 ],
+									"style" : "",
 									"text" : "/monome/grid/led/col 10 0 $1 $2"
 								}
 
@@ -2419,11 +2492,12 @@
 									"numinlets" : 1,
 									"numoutlets" : 4,
 									"outlettype" : [ "", "", "", "" ],
-									"patching_rect" : [ 540.642456, 1193.256348, 59.5, 20.0 ],
+									"patching_rect" : [ 540.642456, 1193.256348, 59.5, 22.0 ],
 									"saved_object_attributes" : 									{
 										"embed" : 1
 									}
 ,
+									"style" : "",
 									"text" : "coll"
 								}
 
@@ -2437,7 +2511,8 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 362.642456, 1228.932373, 174.0, 18.0 ],
+									"patching_rect" : [ 362.642456, 1228.932373, 174.0, 22.0 ],
+									"style" : "",
 									"text" : "/monome/grid/led/col 9 0 $1 $2"
 								}
 
@@ -2520,11 +2595,12 @@
 									"numinlets" : 1,
 									"numoutlets" : 4,
 									"outlettype" : [ "", "", "", "" ],
-									"patching_rect" : [ 362.642456, 1193.256348, 59.5, 20.0 ],
+									"patching_rect" : [ 362.642456, 1193.256348, 59.5, 22.0 ],
 									"saved_object_attributes" : 									{
 										"embed" : 1
 									}
 ,
+									"style" : "",
 									"text" : "coll"
 								}
 
@@ -2538,7 +2614,8 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 179.642456, 1228.932373, 174.0, 18.0 ],
+									"patching_rect" : [ 179.642456, 1228.932373, 174.0, 22.0 ],
+									"style" : "",
 									"text" : "/monome/grid/led/col 8 0 $1 $2"
 								}
 
@@ -2621,11 +2698,12 @@
 									"numinlets" : 1,
 									"numoutlets" : 4,
 									"outlettype" : [ "", "", "", "" ],
-									"patching_rect" : [ 179.642456, 1193.256348, 59.5, 20.0 ],
+									"patching_rect" : [ 179.642456, 1193.256348, 59.5, 22.0 ],
 									"saved_object_attributes" : 									{
 										"embed" : 1
 									}
 ,
+									"style" : "",
 									"text" : "coll"
 								}
 
@@ -2639,7 +2717,8 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 1449.642578, 1100.932373, 174.0, 18.0 ],
+									"patching_rect" : [ 1449.642578, 1100.932373, 174.0, 22.0 ],
+									"style" : "",
 									"text" : "/monome/grid/led/col 7 0 $1 $2"
 								}
 
@@ -2722,11 +2801,12 @@
 									"numinlets" : 1,
 									"numoutlets" : 4,
 									"outlettype" : [ "", "", "", "" ],
-									"patching_rect" : [ 1449.642578, 1065.256348, 59.5, 20.0 ],
+									"patching_rect" : [ 1449.642578, 1065.256348, 59.5, 22.0 ],
 									"saved_object_attributes" : 									{
 										"embed" : 1
 									}
 ,
+									"style" : "",
 									"text" : "coll"
 								}
 
@@ -2740,7 +2820,8 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 1266.642456, 1100.932373, 174.0, 18.0 ],
+									"patching_rect" : [ 1266.642456, 1100.932373, 174.0, 22.0 ],
+									"style" : "",
 									"text" : "/monome/grid/led/col 6 0 $1 $2"
 								}
 
@@ -2823,11 +2904,12 @@
 									"numinlets" : 1,
 									"numoutlets" : 4,
 									"outlettype" : [ "", "", "", "" ],
-									"patching_rect" : [ 1266.642456, 1065.256348, 59.5, 20.0 ],
+									"patching_rect" : [ 1266.642456, 1065.256348, 59.5, 22.0 ],
 									"saved_object_attributes" : 									{
 										"embed" : 1
 									}
 ,
+									"style" : "",
 									"text" : "coll"
 								}
 
@@ -2841,7 +2923,8 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 1088.642456, 1100.932373, 174.0, 18.0 ],
+									"patching_rect" : [ 1088.642456, 1100.932373, 174.0, 22.0 ],
+									"style" : "",
 									"text" : "/monome/grid/led/col 5 0 $1 $2"
 								}
 
@@ -2924,11 +3007,12 @@
 									"numinlets" : 1,
 									"numoutlets" : 4,
 									"outlettype" : [ "", "", "", "" ],
-									"patching_rect" : [ 1088.642456, 1065.256348, 59.5, 20.0 ],
+									"patching_rect" : [ 1088.642456, 1065.256348, 59.5, 22.0 ],
 									"saved_object_attributes" : 									{
 										"embed" : 1
 									}
 ,
+									"style" : "",
 									"text" : "coll"
 								}
 
@@ -2942,7 +3026,8 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 905.642456, 1100.932373, 174.0, 18.0 ],
+									"patching_rect" : [ 905.642456, 1100.932373, 174.0, 22.0 ],
+									"style" : "",
 									"text" : "/monome/grid/led/col 4 0 $1 $2"
 								}
 
@@ -3025,11 +3110,12 @@
 									"numinlets" : 1,
 									"numoutlets" : 4,
 									"outlettype" : [ "", "", "", "" ],
-									"patching_rect" : [ 905.642456, 1065.256348, 59.5, 20.0 ],
+									"patching_rect" : [ 905.642456, 1065.256348, 59.5, 22.0 ],
 									"saved_object_attributes" : 									{
 										"embed" : 1
 									}
 ,
+									"style" : "",
 									"text" : "coll"
 								}
 
@@ -3043,7 +3129,8 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 723.642456, 1100.932373, 174.0, 18.0 ],
+									"patching_rect" : [ 723.642456, 1100.932373, 174.0, 22.0 ],
+									"style" : "",
 									"text" : "/monome/grid/led/col 3 0 $1 $2"
 								}
 
@@ -3126,11 +3213,12 @@
 									"numinlets" : 1,
 									"numoutlets" : 4,
 									"outlettype" : [ "", "", "", "" ],
-									"patching_rect" : [ 723.642456, 1065.256348, 59.5, 20.0 ],
+									"patching_rect" : [ 723.642456, 1065.256348, 59.5, 22.0 ],
 									"saved_object_attributes" : 									{
 										"embed" : 1
 									}
 ,
+									"style" : "",
 									"text" : "coll"
 								}
 
@@ -3144,7 +3232,8 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 540.642456, 1100.932373, 174.0, 18.0 ],
+									"patching_rect" : [ 540.642456, 1100.932373, 174.0, 22.0 ],
+									"style" : "",
 									"text" : "/monome/grid/led/col 2 0 $1 $2"
 								}
 
@@ -3227,11 +3316,12 @@
 									"numinlets" : 1,
 									"numoutlets" : 4,
 									"outlettype" : [ "", "", "", "" ],
-									"patching_rect" : [ 540.642456, 1065.256348, 59.5, 20.0 ],
+									"patching_rect" : [ 540.642456, 1065.256348, 59.5, 22.0 ],
 									"saved_object_attributes" : 									{
 										"embed" : 1
 									}
 ,
+									"style" : "",
 									"text" : "coll"
 								}
 
@@ -3245,7 +3335,8 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 362.642456, 1100.932373, 174.0, 18.0 ],
+									"patching_rect" : [ 362.642456, 1100.932373, 174.0, 22.0 ],
+									"style" : "",
 									"text" : "/monome/grid/led/col 1 0 $1 $2"
 								}
 
@@ -3328,11 +3419,12 @@
 									"numinlets" : 1,
 									"numoutlets" : 4,
 									"outlettype" : [ "", "", "", "" ],
-									"patching_rect" : [ 362.642456, 1065.256348, 59.5, 20.0 ],
+									"patching_rect" : [ 362.642456, 1065.256348, 59.5, 22.0 ],
 									"saved_object_attributes" : 									{
 										"embed" : 1
 									}
 ,
+									"style" : "",
 									"text" : "coll"
 								}
 
@@ -3346,7 +3438,8 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 179.642456, 1100.932373, 174.0, 18.0 ],
+									"patching_rect" : [ 179.642456, 1100.932373, 174.0, 22.0 ],
+									"style" : "",
 									"text" : "/monome/grid/led/col 0 0 $1 $2"
 								}
 
@@ -3429,11 +3522,12 @@
 									"numinlets" : 1,
 									"numoutlets" : 4,
 									"outlettype" : [ "", "", "", "" ],
-									"patching_rect" : [ 179.642456, 1065.256348, 59.5, 20.0 ],
+									"patching_rect" : [ 179.642456, 1065.256348, 59.5, 22.0 ],
 									"saved_object_attributes" : 									{
 										"embed" : 1
 									}
 ,
+									"style" : "",
 									"text" : "coll"
 								}
 
@@ -3447,7 +3541,8 @@
 									"numinlets" : 1,
 									"numoutlets" : 32,
 									"outlettype" : [ "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "" ],
-									"patching_rect" : [ 816.660034, 760.152039, 1352.5, 20.0 ],
+									"patching_rect" : [ 816.660034, 760.152039, 1352.5, 22.0 ],
+									"style" : "",
 									"text" : "bucket 32"
 								}
 
@@ -3461,7 +3556,8 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "int" ],
-									"patching_rect" : [ 816.660034, 705.436035, 32.5, 20.0 ],
+									"patching_rect" : [ 816.660034, 705.436035, 32.5, 22.0 ],
+									"style" : "",
 									"text" : "i"
 								}
 
@@ -3475,7 +3571,8 @@
 									"numinlets" : 6,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 816.660034, 659.436035, 96.0, 20.0 ],
+									"patching_rect" : [ 816.660034, 659.436035, 96.0, 22.0 ],
+									"style" : "",
 									"text" : "scale -5. 5. 0 15"
 								}
 
@@ -3489,7 +3586,8 @@
 									"numinlets" : 3,
 									"numoutlets" : 3,
 									"outlettype" : [ "bang", "bang", "" ],
-									"patching_rect" : [ 887.160034, 521.353088, 114.0, 20.0 ],
+									"patching_rect" : [ 887.160034, 521.353088, 114.0, 22.0 ],
+									"style" : "",
 									"text" : "sel 0 1"
 								}
 
@@ -3503,7 +3601,8 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "float" ],
-									"patching_rect" : [ 816.660034, 426.353088, 90.0, 20.0 ],
+									"patching_rect" : [ 816.660034, 426.353088, 90.0, 22.0 ],
+									"style" : "",
 									"text" : "snapshot~ 100"
 								}
 
@@ -3516,7 +3615,8 @@
 									"numinlets" : 0,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 816.660034, 361.922028, 25.0, 25.0 ]
+									"patching_rect" : [ 816.660034, 361.922028, 25.0, 25.0 ],
+									"style" : ""
 								}
 
 							}
@@ -3527,7 +3627,8 @@
 									"maxclass" : "outlet",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 775.196167, 1510.970825, 25.0, 25.0 ]
+									"patching_rect" : [ 775.196167, 1510.970825, 25.0, 25.0 ],
+									"style" : ""
 								}
 
 							}
@@ -3540,14 +3641,15 @@
 									"numinlets" : 1,
 									"numoutlets" : 4,
 									"outlettype" : [ "", "", "", "" ],
-									"patching_rect" : [ 132.642456, 384.907501, 59.5, 20.0 ],
+									"patching_rect" : [ 132.642456, 384.907501, 59.5, 22.0 ],
 									"restore" : 									{
 										"Resolution" : [ 26.771654 ],
 										"live.tab" : [ 0.0 ]
 									}
 ,
+									"style" : "",
 									"text" : "autopattr",
-									"varname" : "u680002827"
+									"varname" : "u696007210"
 								}
 
 							}
@@ -3555,7 +3657,6 @@
 								"box" : 								{
 									"fontname" : "Arial Bold",
 									"fontsize" : 9.0,
-									"frgb" : 0.0,
 									"id" : "obj-8",
 									"maxclass" : "comment",
 									"numinlets" : 1,
@@ -3563,6 +3664,7 @@
 									"patching_rect" : [ 105.52005, 97.0, 59.0, 17.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 2.0, 97.0, 59.0, 17.0 ],
+									"style" : "",
 									"text" : "Serialosc A",
 									"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 								}
@@ -3572,7 +3674,6 @@
 								"box" : 								{
 									"fontname" : "Arial Bold",
 									"fontsize" : 9.0,
-									"frgb" : 0.0,
 									"id" : "obj-19",
 									"maxclass" : "comment",
 									"numinlets" : 1,
@@ -3580,6 +3681,7 @@
 									"patching_rect" : [ 179.642456, 211.883911, 38.0, 17.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 2.0, 0.0, 48.0, 17.0 ],
+									"style" : "",
 									"text" : "Signal",
 									"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 								}
@@ -3589,7 +3691,6 @@
 								"box" : 								{
 									"fontname" : "Arial Bold",
 									"fontsize" : 9.0,
-									"frgb" : 0.0,
 									"id" : "obj-13",
 									"maxclass" : "comment",
 									"numinlets" : 1,
@@ -3597,6 +3698,7 @@
 									"patching_rect" : [ 179.642456, 239.907501, 65.0, 17.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 2.0, 19.0, 65.0, 17.0 ],
+									"style" : "",
 									"text" : "GRIDSCOPE",
 									"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 								}
@@ -3604,57 +3706,73 @@
 							}
 , 							{
 								"box" : 								{
+									"angle" : 0.0,
 									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"id" : "obj-14",
 									"maxclass" : "panel",
+									"mode" : 0,
 									"numinlets" : 1,
 									"numoutlets" : 0,
 									"patching_rect" : [ 21.736206, 143.0, 128.0, 128.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 0.0, 0.0, 283.268768, 17.0 ],
-									"rounded" : 0
+									"proportion" : 0.39,
+									"rounded" : 0,
+									"style" : ""
 								}
 
 							}
 , 							{
 								"box" : 								{
+									"angle" : 0.0,
 									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"id" : "obj-15",
 									"maxclass" : "panel",
+									"mode" : 0,
 									"numinlets" : 1,
 									"numoutlets" : 0,
 									"patching_rect" : [ 149.736206, 15.0, 128.0, 128.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 0.0, 97.0, 283.268768, 35.433025 ],
-									"rounded" : 0
+									"proportion" : 0.39,
+									"rounded" : 0,
+									"style" : ""
 								}
 
 							}
 , 							{
 								"box" : 								{
+									"angle" : 0.0,
 									"bgcolor" : [ 0.137255, 0.145098, 0.160784, 0.65 ],
 									"id" : "obj-18",
 									"maxclass" : "panel",
+									"mode" : 0,
 									"numinlets" : 1,
 									"numoutlets" : 0,
 									"patching_rect" : [ 21.736206, 15.0, 128.0, 128.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 0.0, 37.0, 283.268768, 71.584457 ],
-									"rounded" : 0
+									"proportion" : 0.39,
+									"rounded" : 0,
+									"style" : ""
 								}
 
 							}
 , 							{
 								"box" : 								{
+									"angle" : 0.0,
 									"bgcolor" : [ 0.367404, 0.389405, 0.430238, 1.0 ],
 									"id" : "obj-21",
 									"maxclass" : "panel",
+									"mode" : 0,
 									"numinlets" : 1,
 									"numoutlets" : 0,
 									"patching_rect" : [ 149.736206, 143.0, 128.0, 128.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 0.0, 17.0, 283.268768, 116.114227 ],
-									"rounded" : 0
+									"proportion" : 0.39,
+									"rounded" : 0,
+									"style" : ""
 								}
 
 							}
@@ -4625,11 +4743,12 @@
  ],
 		"lines" : [  ],
 		"parameters" : 		{
-			"obj-37::obj-158" : [ "Resolution", "Resolution", 0 ],
-			"obj-37::obj-159" : [ "live.tab", "live.tab", 0 ]
+			"obj-37::obj-159" : [ "live.tab", "live.tab", 0 ],
+			"obj-37::obj-158" : [ "Resolution", "Resolution", 0 ]
 		}
 ,
-		"dependency_cache" : [  ]
+		"dependency_cache" : [  ],
+		"embedsnapshot" : 0
 	}
 
 }

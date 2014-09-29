@@ -91,9 +91,9 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 39.0, 88.0, 259.0, 20.0 ],
+									"patching_rect" : [ 39.0, 88.0, 264.0, 20.0 ],
 									"style" : "",
-									"text" : "## Sonogram/ spectrogram graphic display ## "
+									"text" : "## Sonogram / spectrogram graphic display ## "
 								}
 
 							}
@@ -190,8 +190,6 @@
 , 							{
 								"box" : 								{
 									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-									"color" : [ 0.0, 0.771062, 1.0, 1.0 ],
-									"elementcolor" : [ 0.178799, 0.178799, 0.178799, 1.0 ],
 									"fgcolor" : [ 0.0, 0.771062, 1.0, 1.0 ],
 									"id" : "obj-31",
 									"markercolor" : [ 0.178799, 0.178799, 0.178799, 1.0 ],
@@ -201,11 +199,9 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 259.5, 329.0, 300.0, 100.0 ],
-									"peakcolor" : [ 0.952941, 0.8, 0.8, 1.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 4.5, 41.0, 135.0, 52.0 ],
 									"range" : [ 0.0, 1.0 ],
-									"rounded" : 0,
 									"sono" : 1,
 									"sonohicolor" : [ 0.278431, 0.839216, 1.0, 1.0 ],
 									"sonomedcolor" : [ 0.129761, 0.394144, 0.47164, 1.0 ],
@@ -233,7 +229,7 @@
 ,
 									"style" : "",
 									"text" : "autopattr",
-									"varname" : "u009005130"
+									"varname" : "u798006498"
 								}
 
 							}
@@ -245,7 +241,8 @@
 									"maxclass" : "outlet",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 157.0, 329.0, 25.0, 25.0 ]
+									"patching_rect" : [ 157.0, 329.0, 25.0, 25.0 ],
+									"style" : ""
 								}
 
 							}
@@ -257,7 +254,8 @@
 									"numinlets" : 0,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 157.0, 248.5, 25.0, 25.0 ]
+									"patching_rect" : [ 157.0, 248.5, 25.0, 25.0 ],
+									"style" : ""
 								}
 
 							}
@@ -317,15 +315,6 @@
 									"angle" : 0.0,
 									"background" : 1,
 									"bgcolor" : [ 0.137255, 0.145098, 0.160784, 0.65 ],
-									"bgfillcolor" : [ 										{
-											"type" : "color",
-											"color1" : [ 0.75, 0.79, 0.93, 1.0 ],
-											"color2" : [ 0.66, 0.66, 0.72, 1.0 ],
-											"color" : [ 0.137255, 0.145098, 0.160784, 0.65 ],
-											"angle" : 0.0,
-											"proportion" : 0.39
-										}
- ],
 									"id" : "obj-130",
 									"maxclass" : "panel",
 									"mode" : 0,
@@ -345,15 +334,6 @@
 									"angle" : 0.0,
 									"background" : 1,
 									"bgcolor" : [ 0.367404, 0.389405, 0.430238, 1.0 ],
-									"bgfillcolor" : [ 										{
-											"type" : "color",
-											"color1" : [ 0.75, 0.79, 0.93, 1.0 ],
-											"color2" : [ 0.66, 0.66, 0.72, 1.0 ],
-											"color" : [ 0.367404, 0.389405, 0.430238, 1.0 ],
-											"angle" : 0.0,
-											"proportion" : 0.39
-										}
- ],
 									"id" : "obj-131",
 									"maxclass" : "panel",
 									"mode" : 0,
@@ -373,15 +353,6 @@
 									"angle" : 0.0,
 									"background" : 1,
 									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-									"bgfillcolor" : [ 										{
-											"type" : "color",
-											"color1" : [ 0.75, 0.79, 0.93, 1.0 ],
-											"color2" : [ 0.66, 0.66, 0.72, 1.0 ],
-											"color" : [ 0.0, 0.0, 0.0, 1.0 ],
-											"angle" : 0.0,
-											"proportion" : 0.39
-										}
- ],
 									"id" : "obj-135",
 									"maxclass" : "panel",
 									"mode" : 0,

@@ -91,9 +91,9 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 51.642456, 83.0, 122.0, 20.0 ],
+									"patching_rect" : [ 51.642456, 83.0, 118.0, 20.0 ],
 									"style" : "",
-									"text" : "## Chorus effect. ## "
+									"text" : "## Chorus effect ## "
 								}
 
 							}
@@ -691,7 +691,8 @@
 									"maxclass" : "outlet",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 412.236206, 480.661774, 25.0, 25.0 ]
+									"patching_rect" : [ 412.236206, 480.661774, 25.0, 25.0 ],
+									"style" : ""
 								}
 
 							}
@@ -770,7 +771,8 @@
 									"maxclass" : "outlet",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 141.236206, 480.661774, 25.0, 25.0 ]
+									"patching_rect" : [ 141.236206, 480.661774, 25.0, 25.0 ],
+									"style" : ""
 								}
 
 							}
@@ -782,7 +784,8 @@
 									"numinlets" : 0,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 225.236206, 49.907501, 25.0, 25.0 ]
+									"patching_rect" : [ 225.236206, 49.907501, 25.0, 25.0 ],
+									"style" : ""
 								}
 
 							}
@@ -964,7 +967,7 @@
 ,
 									"style" : "",
 									"text" : "autopattr",
-									"varname" : "u809004062"
+									"varname" : "u198007894"
 								}
 
 							}
@@ -1057,15 +1060,6 @@
 									"angle" : 0.0,
 									"background" : 1,
 									"bgcolor" : [ 0.137255, 0.145098, 0.160784, 0.65 ],
-									"bgfillcolor" : [ 										{
-											"type" : "color",
-											"color1" : [ 0.75, 0.79, 0.93, 1.0 ],
-											"color2" : [ 0.66, 0.66, 0.72, 1.0 ],
-											"color" : [ 0.137255, 0.145098, 0.160784, 0.65 ],
-											"angle" : 0.0,
-											"proportion" : 0.39
-										}
- ],
 									"id" : "obj-130",
 									"maxclass" : "panel",
 									"mode" : 0,
@@ -1085,15 +1079,6 @@
 									"angle" : 0.0,
 									"background" : 1,
 									"bgcolor" : [ 0.367404, 0.389405, 0.430238, 1.0 ],
-									"bgfillcolor" : [ 										{
-											"type" : "color",
-											"color1" : [ 0.75, 0.79, 0.93, 1.0 ],
-											"color2" : [ 0.66, 0.66, 0.72, 1.0 ],
-											"color" : [ 0.367404, 0.389405, 0.430238, 1.0 ],
-											"angle" : 0.0,
-											"proportion" : 0.39
-										}
- ],
 									"id" : "obj-131",
 									"maxclass" : "panel",
 									"mode" : 0,
@@ -1113,15 +1098,6 @@
 									"angle" : 0.0,
 									"background" : 1,
 									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-									"bgfillcolor" : [ 										{
-											"type" : "color",
-											"color1" : [ 0.75, 0.79, 0.93, 1.0 ],
-											"color2" : [ 0.66, 0.66, 0.72, 1.0 ],
-											"color" : [ 0.0, 0.0, 0.0, 1.0 ],
-											"angle" : 0.0,
-											"proportion" : 0.39
-										}
- ],
 									"id" : "obj-135",
 									"maxclass" : "panel",
 									"mode" : 0,
@@ -1344,11 +1320,11 @@
  ],
 		"lines" : [  ],
 		"parameters" : 		{
-			"obj-1::obj-2" : [ "Rate[1]", "Rate", 0 ],
-			"obj-1::obj-28" : [ "Center[1]", "Center", 0 ],
 			"obj-1::obj-3" : [ "Regen[1]", "Regen", 0 ],
-			"obj-1::obj-1" : [ "Width[1]", "Width", 0 ],
-			"obj-1::obj-23" : [ "bypass[1]", "bypass", 0 ]
+			"obj-1::obj-2" : [ "Rate[1]", "Rate", 0 ],
+			"obj-1::obj-23" : [ "bypass[1]", "bypass", 0 ],
+			"obj-1::obj-28" : [ "Center[1]", "Center", 0 ],
+			"obj-1::obj-1" : [ "Width[1]", "Width", 0 ]
 		}
 ,
 		"dependency_cache" : [  ],

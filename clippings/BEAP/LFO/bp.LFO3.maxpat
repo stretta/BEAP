@@ -93,7 +93,7 @@
 									"numoutlets" : 0,
 									"patching_rect" : [ 48.0, 82.0, 304.567627, 20.0 ],
 									"style" : "",
-									"text" : "## CV-controllable LFO without the graphic display. ## "
+									"text" : "## CV-controllable LFO without the graphic display ## "
 								}
 
 							}
@@ -487,7 +487,8 @@
 													"numinlets" : 0,
 													"numoutlets" : 1,
 													"outlettype" : [ "signal" ],
-													"patching_rect" : [ 47.0, 38.0, 25.0, 25.0 ]
+													"patching_rect" : [ 47.0, 38.0, 25.0, 25.0 ],
+													"style" : ""
 												}
 
 											}
@@ -498,7 +499,8 @@
 													"maxclass" : "outlet",
 													"numinlets" : 1,
 													"numoutlets" : 0,
-													"patching_rect" : [ 48.0, 300.0, 25.0, 25.0 ]
+													"patching_rect" : [ 48.0, 300.0, 25.0, 25.0 ],
+													"style" : ""
 												}
 
 											}
@@ -540,37 +542,16 @@
 
 											}
  ],
-										"bgfillcolor" : 										{
-											"type" : "gradient",
-											"color1" : [ 0.435294, 0.462745, 0.498039, 1.0 ],
-											"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-											"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-											"angle" : 270.0,
-											"proportion" : 0.39
-										}
-
+										"bgfillcolor_type" : "gradient",
+										"bgfillcolor_color1" : [ 0.435294, 0.462745, 0.498039, 1.0 ],
+										"bgfillcolor_color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
+										"bgfillcolor_color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
+										"bgfillcolor_angle" : 270.0,
+										"bgfillcolor_proportion" : 0.39
 									}
 ,
 									"patching_rect" : [ 693.405762, 539.813232, 40.0, 20.0 ],
 									"saved_object_attributes" : 									{
-										"bgfillcolor" : [ 											{
-												"type" : "gradient",
-												"color1" : [ 0.435294, 0.462745, 0.498039, 1.0 ],
-												"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-												"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-												"angle" : 270.0,
-												"proportion" : 0.39
-											}
- ],
-										"bgfillcolor_dictionary" : 										{
-											"type" : "gradient",
-											"color1" : [ 0.435294, 0.462745, 0.498039, 1.0 ],
-											"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-											"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-											"angle" : 270.0,
-											"proportion" : 0.39
-										}
-,
 										"description" : "",
 										"digest" : "",
 										"fontsize" : 9.0,
@@ -712,7 +693,8 @@
 									"numinlets" : 0,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 493.336426, 77.454987, 25.0, 25.0 ]
+									"patching_rect" : [ 493.336426, 77.454987, 25.0, 25.0 ],
+									"style" : ""
 								}
 
 							}
@@ -753,7 +735,8 @@
 									"maxclass" : "outlet",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 292.90625, 780.813232, 25.0, 25.0 ]
+									"patching_rect" : [ 292.90625, 780.813232, 25.0, 25.0 ],
+									"style" : ""
 								}
 
 							}
@@ -829,7 +812,7 @@
 									"numoutlets" : 0,
 									"patching_rect" : [ 323.567627, 780.813232, 62.0, 17.0 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 45.518768, 100.211548, 62.0, 17.0 ],
+									"presentation_rect" : [ 45.0, 100.0, 62.0, 17.0 ],
 									"style" : "",
 									"text" : "Ramp (0-5v)",
 									"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
@@ -846,7 +829,7 @@
 									"numoutlets" : 0,
 									"patching_rect" : [ 163.0, 784.813232, 38.0, 17.0 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 1.768768, 100.211548, 38.0, 17.0 ],
+									"presentation_rect" : [ 2.0, 100.0, 38.0, 17.0 ],
 									"style" : "",
 									"text" : "Signal",
 									"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
@@ -872,7 +855,7 @@
 ,
 									"style" : "",
 									"text" : "autopattr",
-									"varname" : "u321007093"
+									"varname" : "u972006575"
 								}
 
 							}
@@ -913,7 +896,8 @@
 									"maxclass" : "outlet",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 132.90625, 780.813232, 25.0, 25.0 ]
+									"patching_rect" : [ 132.90625, 780.813232, 25.0, 25.0 ],
+									"style" : ""
 								}
 
 							}
@@ -977,15 +961,6 @@
 									"angle" : 0.0,
 									"background" : 1,
 									"bgcolor" : [ 0.137255, 0.145098, 0.160784, 0.65 ],
-									"bgfillcolor" : [ 										{
-											"type" : "color",
-											"color1" : [ 0.75, 0.79, 0.93, 1.0 ],
-											"color2" : [ 0.66, 0.66, 0.72, 1.0 ],
-											"color" : [ 0.137255, 0.145098, 0.160784, 0.65 ],
-											"angle" : 0.0,
-											"proportion" : 0.39
-										}
- ],
 									"id" : "obj-130",
 									"maxclass" : "panel",
 									"mode" : 0,
@@ -1005,15 +980,6 @@
 									"angle" : 0.0,
 									"background" : 1,
 									"bgcolor" : [ 0.367404, 0.389405, 0.430238, 1.0 ],
-									"bgfillcolor" : [ 										{
-											"type" : "color",
-											"color1" : [ 0.75, 0.79, 0.93, 1.0 ],
-											"color2" : [ 0.66, 0.66, 0.72, 1.0 ],
-											"color" : [ 0.367404, 0.389405, 0.430238, 1.0 ],
-											"angle" : 0.0,
-											"proportion" : 0.39
-										}
- ],
 									"id" : "obj-131",
 									"maxclass" : "panel",
 									"mode" : 0,
@@ -1033,15 +999,6 @@
 									"angle" : 0.0,
 									"background" : 1,
 									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-									"bgfillcolor" : [ 										{
-											"type" : "color",
-											"color1" : [ 0.75, 0.79, 0.93, 1.0 ],
-											"color2" : [ 0.66, 0.66, 0.72, 1.0 ],
-											"color" : [ 0.0, 0.0, 0.0, 1.0 ],
-											"angle" : 0.0,
-											"proportion" : 0.39
-										}
- ],
 									"id" : "obj-135",
 									"maxclass" : "panel",
 									"mode" : 0,
@@ -1438,10 +1395,10 @@
  ],
 		"lines" : [  ],
 		"parameters" : 		{
-			"obj-2::obj-75" : [ "SpectraLFOShape[2]", "Shape", 0 ],
 			"obj-2::obj-12" : [ "Mute[10]", "Mute", 0 ],
+			"obj-2::obj-20" : [ "Frequency[3]", "Freq", 0 ],
 			"obj-2::obj-106" : [ "live.numbox[1]", "live.numbox", 0 ],
-			"obj-2::obj-20" : [ "Frequency[3]", "Freq", 0 ]
+			"obj-2::obj-75" : [ "SpectraLFOShape[2]", "Shape", 0 ]
 		}
 ,
 		"dependency_cache" : [  ],

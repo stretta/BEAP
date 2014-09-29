@@ -92,9 +92,9 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 25.0, 100.0, 222.0, 33.0 ],
+									"patching_rect" : [ 25.0, 100.0, 225.0, 33.0 ],
 									"style" : "",
-									"text" : "## Produces a gate signal of a specified duration from a trigger input ##"
+									"text" : "## Produce a gate signal of a specified duration from a trigger input ##"
 								}
 
 							}
@@ -1177,7 +1177,8 @@
 									"maxclass" : "outlet",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 388.5, 465.754272, 25.0, 25.0 ]
+									"patching_rect" : [ 388.5, 465.754272, 25.0, 25.0 ],
+									"style" : ""
 								}
 
 							}
@@ -1204,7 +1205,8 @@
 									"numinlets" : 0,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 481.0, 199.0, 25.0, 25.0 ]
+									"patching_rect" : [ 481.0, 199.0, 25.0, 25.0 ],
+									"style" : ""
 								}
 
 							}
@@ -1226,7 +1228,7 @@
 ,
 									"style" : "",
 									"text" : "autopattr",
-									"varname" : "u144006348"
+									"varname" : "u994006726"
 								}
 
 							}
@@ -1320,15 +1322,6 @@
 									"angle" : 0.0,
 									"background" : 1,
 									"bgcolor" : [ 0.137255, 0.145098, 0.160784, 0.65 ],
-									"bgfillcolor" : [ 										{
-											"type" : "color",
-											"color1" : [ 0.75, 0.79, 0.93, 1.0 ],
-											"color2" : [ 0.66, 0.66, 0.72, 1.0 ],
-											"color" : [ 0.137255, 0.145098, 0.160784, 0.65 ],
-											"angle" : 0.0,
-											"proportion" : 0.39
-										}
- ],
 									"id" : "obj-130",
 									"maxclass" : "panel",
 									"mode" : 0,
@@ -1348,15 +1341,6 @@
 									"angle" : 0.0,
 									"background" : 1,
 									"bgcolor" : [ 0.367404, 0.389405, 0.430238, 1.0 ],
-									"bgfillcolor" : [ 										{
-											"type" : "color",
-											"color1" : [ 0.75, 0.79, 0.93, 1.0 ],
-											"color2" : [ 0.66, 0.66, 0.72, 1.0 ],
-											"color" : [ 0.367404, 0.389405, 0.430238, 1.0 ],
-											"angle" : 0.0,
-											"proportion" : 0.39
-										}
- ],
 									"id" : "obj-131",
 									"maxclass" : "panel",
 									"mode" : 0,
@@ -1376,15 +1360,6 @@
 									"angle" : 0.0,
 									"background" : 1,
 									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-									"bgfillcolor" : [ 										{
-											"type" : "color",
-											"color1" : [ 0.75, 0.79, 0.93, 1.0 ],
-											"color2" : [ 0.66, 0.66, 0.72, 1.0 ],
-											"color" : [ 0.0, 0.0, 0.0, 1.0 ],
-											"angle" : 0.0,
-											"proportion" : 0.39
-										}
- ],
 									"id" : "obj-135",
 									"maxclass" : "panel",
 									"mode" : 0,
@@ -1674,9 +1649,9 @@
  ],
 		"lines" : [  ],
 		"parameters" : 		{
-			"obj-10::obj-40" : [ "live.tab", "live.tab", 0 ],
 			"obj-10::obj-28" : [ "Duration", "Duration", 0 ],
-			"obj-10::obj-11" : [ "bypass", "bypass", 0 ]
+			"obj-10::obj-11" : [ "bypass", "bypass", 0 ],
+			"obj-10::obj-40" : [ "live.tab", "live.tab", 0 ]
 		}
 ,
 		"dependency_cache" : [  ],

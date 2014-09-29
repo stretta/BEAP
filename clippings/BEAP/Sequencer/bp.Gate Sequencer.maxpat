@@ -172,9 +172,9 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 19.582031, 105.0, 307.0, 20.0 ],
+									"patching_rect" : [ 19.582031, 105.0, 321.0, 20.0 ],
 									"style" : "",
-									"text" : "## A sequencer that creates a pattern of gate signals ##"
+									"text" : "## A sequencer that generates a pattern of gate signals ##"
 								}
 
 							}
@@ -430,7 +430,8 @@
 									"numinlets" : 0,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 371.766113, 618.031982, 25.0, 25.0 ]
+									"patching_rect" : [ 371.766113, 618.031982, 25.0, 25.0 ],
+									"style" : ""
 								}
 
 							}
@@ -486,7 +487,8 @@
 									"maxclass" : "outlet",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 411.214905, 1434.592285, 25.0, 25.0 ]
+									"patching_rect" : [ 411.214905, 1434.592285, 25.0, 25.0 ],
+									"style" : ""
 								}
 
 							}
@@ -974,7 +976,8 @@
 													"numinlets" : 0,
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
-													"patching_rect" : [ 226.625, 66.0, 25.0, 25.0 ]
+													"patching_rect" : [ 226.625, 66.0, 25.0, 25.0 ],
+													"style" : ""
 												}
 
 											}
@@ -1106,7 +1109,8 @@
 													"maxclass" : "outlet",
 													"numinlets" : 1,
 													"numoutlets" : 0,
-													"patching_rect" : [ 50.000004, 696.415527, 25.0, 25.0 ]
+													"patching_rect" : [ 50.000004, 696.415527, 25.0, 25.0 ],
+													"style" : ""
 												}
 
 											}
@@ -1784,20 +1788,17 @@
 												}
 
 											}
- ]
+ ],
+										"bgfillcolor_type" : "gradient",
+										"bgfillcolor_color1" : [ 0.435294, 0.462745, 0.498039, 1.0 ],
+										"bgfillcolor_color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
+										"bgfillcolor_color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
+										"bgfillcolor_angle" : 270.0,
+										"bgfillcolor_proportion" : 0.39
 									}
 ,
 									"patching_rect" : [ 579.245605, 433.091553, 79.0, 20.0 ],
 									"saved_object_attributes" : 									{
-										"bgfillcolor_dictionary" : 										{
-											"type" : "gradient",
-											"color1" : [ 0.435294, 0.462745, 0.498039, 1.0 ],
-											"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-											"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-											"angle" : 270.0,
-											"proportion" : 0.39
-										}
-,
 										"description" : "",
 										"digest" : "",
 										"globalpatchername" : "",
@@ -2000,15 +2001,6 @@
 								"box" : 								{
 									"angle" : 0.0,
 									"bgcolor" : [ 0.094118, 0.117647, 0.137255, 1.0 ],
-									"bgfillcolor" : [ 										{
-											"type" : "color",
-											"color1" : [ 0.75, 0.79, 0.93, 1.0 ],
-											"color2" : [ 0.66, 0.66, 0.72, 1.0 ],
-											"color" : [ 0.094118, 0.117647, 0.137255, 1.0 ],
-											"angle" : 0,
-											"proportion" : 0.39
-										}
- ],
 									"bordercolor" : [ 1.0, 1.0, 1.0, 0.4 ],
 									"id" : "obj-97",
 									"maxclass" : "panel",
@@ -2067,7 +2059,7 @@
 ,
 									"style" : "",
 									"text" : "autopattr",
-									"varname" : "u669003237"
+									"varname" : "u878006688"
 								}
 
 							}
@@ -2127,15 +2119,6 @@
 									"angle" : 0.0,
 									"background" : 1,
 									"bgcolor" : [ 0.137255, 0.145098, 0.160784, 0.65 ],
-									"bgfillcolor" : [ 										{
-											"type" : "color",
-											"color1" : [ 0.75, 0.79, 0.93, 1.0 ],
-											"color2" : [ 0.66, 0.66, 0.72, 1.0 ],
-											"color" : [ 0.137255, 0.145098, 0.160784, 0.65 ],
-											"angle" : 0.0,
-											"proportion" : 0.39
-										}
- ],
 									"id" : "obj-130",
 									"maxclass" : "panel",
 									"mode" : 0,
@@ -2155,15 +2138,6 @@
 									"angle" : 0.0,
 									"background" : 1,
 									"bgcolor" : [ 0.367404, 0.389405, 0.430238, 1.0 ],
-									"bgfillcolor" : [ 										{
-											"type" : "color",
-											"color1" : [ 0.75, 0.79, 0.93, 1.0 ],
-											"color2" : [ 0.66, 0.66, 0.72, 1.0 ],
-											"color" : [ 0.367404, 0.389405, 0.430238, 1.0 ],
-											"angle" : 0.0,
-											"proportion" : 0.39
-										}
- ],
 									"id" : "obj-10",
 									"maxclass" : "panel",
 									"mode" : 0,
@@ -2183,15 +2157,6 @@
 									"angle" : 0.0,
 									"background" : 1,
 									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-									"bgfillcolor" : [ 										{
-											"type" : "color",
-											"color1" : [ 0.75, 0.79, 0.93, 1.0 ],
-											"color2" : [ 0.66, 0.66, 0.72, 1.0 ],
-											"color" : [ 0.0, 0.0, 0.0, 1.0 ],
-											"angle" : 0.0,
-											"proportion" : 0.39
-										}
- ],
 									"id" : "obj-135",
 									"maxclass" : "panel",
 									"mode" : 0,
@@ -2682,23 +2647,23 @@
  ],
 		"lines" : [  ],
 		"parameters" : 		{
-			"obj-12::obj-125" : [ "NoteGrid", "NoteGrid", 0 ],
 			"obj-12::obj-20" : [ "mute[2]", "mute", 0 ],
-			"obj-12::obj-95" : [ "Steps", "Steps", 0 ],
-			"obj-12::obj-9" : [ "gatepct", "gatepct", 0 ],
-			"obj-12::obj-96" : [ "Pulse[1]", "Pulse", 0 ],
+			"obj-12::obj-120" : [ "Max pulse[1]", "Max pulse", 0 ],
 			"obj-12::obj-155" : [ "Swing amount", "Swing amount", 0 ],
-			"obj-12::obj-28" : [ "Attack[1]", "Attack", 0 ],
+			"obj-12::obj-9" : [ "gatepct", "gatepct", 0 ],
 			"obj-12::obj-89" : [ "Reset", "Reset", 0 ],
-			"obj-12::obj-139" : [ "ClockSelect", "ClockSelect", 0 ],
 			"obj-12::obj-157" : [ "Swing enable", "Swing enable", 0 ],
-			"obj-12::obj-120" : [ "Max pulse[1]", "Max pulse", 0 ]
+			"obj-12::obj-96" : [ "Pulse[1]", "Pulse", 0 ],
+			"obj-12::obj-28" : [ "Attack[1]", "Attack", 0 ],
+			"obj-12::obj-139" : [ "ClockSelect", "ClockSelect", 0 ],
+			"obj-12::obj-95" : [ "Steps", "Steps", 0 ],
+			"obj-12::obj-125" : [ "NoteGrid", "NoteGrid", 0 ]
 		}
 ,
 		"dependency_cache" : [ 			{
 				"name" : "swingCalc.js",
-				"bootpath" : "/Applications/Max 7/resources/packages/Beap/misc",
-				"patcherrelativepath" : "../../../misc",
+				"bootpath" : "/Applications/Max 7/Max.app/Contents/Resources/C74/packages/Beap/misc",
+				"patcherrelativepath" : "../../../../../../../Applications/Max 7/Max.app/Contents/Resources/C74/packages/Beap/misc",
 				"type" : "TEXT",
 				"implicit" : 1
 			}

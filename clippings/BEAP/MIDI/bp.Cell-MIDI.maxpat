@@ -91,9 +91,9 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 39.173828, 86.0, 263.0, 20.0 ],
+									"patching_rect" : [ 39.173828, 86.0, 223.0, 20.0 ],
 									"style" : "",
-									"text" : "## Trigger an audio sample with a MIDI note ##"
+									"text" : "## Trigger a sample with a MIDI note ##"
 								}
 
 							}
@@ -220,20 +220,15 @@
 							}
 , 							{
 								"box" : 								{
-									"bgcolor" : [ 0.866667, 0.866667, 0.866667, 0.0 ],
-									"bgfillcolor" : [ 										{
-											"type" : "gradient",
-											"color1" : [ 0.866667, 0.866667, 0.866667, 0.0 ],
-											"color2" : [ 0.685, 0.685, 0.685, 1.0 ],
-											"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-											"angle" : 270.0,
-											"proportion" : 0.39,
-											"autogradient" : 0.79
-										}
- ],
+									"bgfillcolor_angle" : 270.0,
+									"bgfillcolor_autogradient" : 0.79,
+									"bgfillcolor_color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
+									"bgfillcolor_color1" : [ 0.866667, 0.866667, 0.866667, 0.0 ],
+									"bgfillcolor_color2" : [ 0.685, 0.685, 0.685, 1.0 ],
+									"bgfillcolor_proportion" : 0.39,
+									"bgfillcolor_type" : "gradient",
 									"fontname" : "Arial",
 									"fontsize" : 12.0,
-									"gradient" : 0,
 									"id" : "obj-29",
 									"maxclass" : "message",
 									"numinlets" : 2,
@@ -360,7 +355,8 @@
 									"maxclass" : "outlet",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 433.25, 636.211914, 25.0, 25.0 ]
+									"patching_rect" : [ 433.25, 636.211914, 25.0, 25.0 ],
+									"style" : ""
 								}
 
 							}
@@ -738,7 +734,8 @@
 									"numinlets" : 0,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 409.25, 35.24585, 25.0, 25.0 ]
+									"patching_rect" : [ 409.25, 35.24585, 25.0, 25.0 ],
+									"style" : ""
 								}
 
 							}
@@ -781,7 +778,8 @@
 									"maxclass" : "outlet",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 205.011108, 636.211914, 25.0, 25.0 ]
+									"patching_rect" : [ 205.011108, 636.211914, 25.0, 25.0 ],
+									"style" : ""
 								}
 
 							}
@@ -881,7 +879,7 @@
 ,
 									"style" : "",
 									"text" : "autopattr",
-									"varname" : "u512000592"
+									"varname" : "u697007612"
 								}
 
 							}
@@ -905,15 +903,6 @@
 									"angle" : 0.0,
 									"background" : 1,
 									"bgcolor" : [ 0.137255, 0.145098, 0.160784, 0.65 ],
-									"bgfillcolor" : [ 										{
-											"type" : "color",
-											"color1" : [ 0.75, 0.79, 0.93, 1.0 ],
-											"color2" : [ 0.66, 0.66, 0.72, 1.0 ],
-											"color" : [ 0.137255, 0.145098, 0.160784, 0.65 ],
-											"angle" : 0,
-											"proportion" : 0.39
-										}
- ],
 									"id" : "obj-130",
 									"maxclass" : "panel",
 									"mode" : 0,
@@ -933,15 +922,6 @@
 									"angle" : 0.0,
 									"background" : 1,
 									"bgcolor" : [ 0.367404, 0.389405, 0.430238, 1.0 ],
-									"bgfillcolor" : [ 										{
-											"type" : "color",
-											"color1" : [ 0.75, 0.79, 0.93, 1.0 ],
-											"color2" : [ 0.66, 0.66, 0.72, 1.0 ],
-											"color" : [ 0.367404, 0.389405, 0.430238, 1.0 ],
-											"angle" : 0,
-											"proportion" : 0.39
-										}
- ],
 									"id" : "obj-131",
 									"maxclass" : "panel",
 									"mode" : 0,
@@ -961,15 +941,6 @@
 									"angle" : 0.0,
 									"background" : 1,
 									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-									"bgfillcolor" : [ 										{
-											"type" : "color",
-											"color1" : [ 0.75, 0.79, 0.93, 1.0 ],
-											"color2" : [ 0.66, 0.66, 0.72, 1.0 ],
-											"color" : [ 0.0, 0.0, 0.0, 1.0 ],
-											"angle" : 0,
-											"proportion" : 0.39
-										}
- ],
 									"id" : "obj-135",
 									"maxclass" : "panel",
 									"mode" : 0,
@@ -1439,9 +1410,9 @@
 		"parameters" : 		{
 			"obj-25::obj-20" : [ "power[4]", "power", 0 ],
 			"obj-25::obj-9" : [ "Note[2]", "Note", 0 ],
-			"obj-25::obj-48" : [ "Mype[2]", "Mype", 0 ],
+			"obj-25::obj-22" : [ "live.text[3]", "live.text", 0 ],
 			"obj-25::obj-28" : [ "Duration[2]", "Duration", 0 ],
-			"obj-25::obj-22" : [ "live.text[3]", "live.text", 0 ]
+			"obj-25::obj-48" : [ "Mype[2]", "Mype", 0 ]
 		}
 ,
 		"dependency_cache" : [  ],
