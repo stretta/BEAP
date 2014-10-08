@@ -5,7 +5,7 @@
 			"major" : 7,
 			"minor" : 0,
 			"revision" : 0,
-			"architecture" : "x64",
+			"architecture" : "x86",
 			"modernui" : 1
 		}
 ,
@@ -55,7 +55,7 @@
 							"major" : 7,
 							"minor" : 0,
 							"revision" : 0,
-							"architecture" : "x64",
+							"architecture" : "x86",
 							"modernui" : 1
 						}
 ,
@@ -104,9 +104,9 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 76.0, 136.0, 172.0, 20.0 ],
+									"patching_rect" : [ 76.0, 136.0, 178.0, 20.0 ],
 									"style" : "",
-									"text" : "## Stereo ompressor effect ##"
+									"text" : "## Stereo compressor effect ##"
 								}
 
 							}
@@ -254,9 +254,11 @@
 									"activeneedlecolor" : [ 1.0, 1.0, 1.0, 0.7 ],
 									"id" : "obj-44",
 									"maxclass" : "live.dial",
+									"needlecolor" : [ 0.321569, 0.321569, 0.321569, 1.0 ],
 									"numinlets" : 1,
 									"numoutlets" : 2,
 									"outlettype" : [ "", "float" ],
+									"panelcolor" : [ 0.709804, 0.698039, 0.694118, 1.0 ],
 									"parameter_enable" : 1,
 									"patching_rect" : [ 289.0, 1232.0, 44.0, 47.0 ],
 									"presentation" : 1,
@@ -276,6 +278,8 @@
 									}
 ,
 									"textcolor" : [ 1.0, 1.0, 1.0, 0.7 ],
+									"tribordercolor" : [ 0.196078, 0.196078, 0.196078, 1.0 ],
+									"tricolor" : [ 0.6, 0.6, 0.6, 1.0 ],
 									"varname" : "Input"
 								}
 
@@ -331,9 +335,11 @@
 									"activeneedlecolor" : [ 1.0, 1.0, 1.0, 0.7 ],
 									"id" : "obj-2",
 									"maxclass" : "live.dial",
+									"needlecolor" : [ 0.321569, 0.321569, 0.321569, 1.0 ],
 									"numinlets" : 1,
 									"numoutlets" : 2,
 									"outlettype" : [ "", "float" ],
+									"panelcolor" : [ 0.709804, 0.698039, 0.694118, 1.0 ],
 									"parameter_enable" : 1,
 									"patching_rect" : [ 590.0, 1541.0, 44.0, 47.0 ],
 									"presentation" : 1,
@@ -353,6 +359,8 @@
 									}
 ,
 									"textcolor" : [ 1.0, 1.0, 1.0, 0.7 ],
+									"tribordercolor" : [ 0.196078, 0.196078, 0.196078, 1.0 ],
+									"tricolor" : [ 0.6, 0.6, 0.6, 1.0 ],
 									"varname" : "Output"
 								}
 
@@ -772,9 +780,11 @@
 									"focusbordercolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 									"id" : "obj-78",
 									"maxclass" : "live.dial",
+									"needlecolor" : [ 0.321569, 0.321569, 0.321569, 1.0 ],
 									"numinlets" : 1,
 									"numoutlets" : 2,
 									"outlettype" : [ "", "float" ],
+									"panelcolor" : [ 0.709804, 0.698039, 0.694118, 1.0 ],
 									"parameter_enable" : 1,
 									"patching_rect" : [ 583.0, 611.5, 44.0, 47.0 ],
 									"presentation" : 1,
@@ -795,6 +805,8 @@
 									}
 ,
 									"textcolor" : [ 1.0, 1.0, 1.0, 0.7 ],
+									"tribordercolor" : [ 0.196078, 0.196078, 0.196078, 1.0 ],
+									"tricolor" : [ 0.6, 0.6, 0.6, 1.0 ],
 									"varname" : "Ratio"
 								}
 
@@ -806,9 +818,11 @@
 									"focusbordercolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 									"id" : "obj-52",
 									"maxclass" : "live.dial",
+									"needlecolor" : [ 0.321569, 0.321569, 0.321569, 1.0 ],
 									"numinlets" : 1,
 									"numoutlets" : 2,
 									"outlettype" : [ "", "float" ],
+									"panelcolor" : [ 0.709804, 0.698039, 0.694118, 1.0 ],
 									"parameter_enable" : 1,
 									"patching_rect" : [ 411.0, 768.0, 44.0, 47.0 ],
 									"presentation" : 1,
@@ -828,6 +842,8 @@
 									}
 ,
 									"textcolor" : [ 1.0, 1.0, 1.0, 0.7 ],
+									"tribordercolor" : [ 0.196078, 0.196078, 0.196078, 1.0 ],
+									"tricolor" : [ 0.6, 0.6, 0.6, 1.0 ],
 									"varname" : "Threshold"
 								}
 
@@ -841,9 +857,11 @@
 									"hint" : "arbitrary units - higher numbers are faster",
 									"id" : "obj-47",
 									"maxclass" : "live.dial",
+									"needlecolor" : [ 0.321569, 0.321569, 0.321569, 1.0 ],
 									"numinlets" : 1,
 									"numoutlets" : 2,
 									"outlettype" : [ "", "float" ],
+									"panelcolor" : [ 0.709804, 0.698039, 0.694118, 1.0 ],
 									"parameter_enable" : 1,
 									"patching_rect" : [ 844.0, 555.0, 44.0, 47.0 ],
 									"presentation" : 1,
@@ -862,6 +880,8 @@
 									}
 ,
 									"textcolor" : [ 1.0, 1.0, 1.0, 0.7 ],
+									"tribordercolor" : [ 0.196078, 0.196078, 0.196078, 1.0 ],
+									"tricolor" : [ 0.6, 0.6, 0.6, 1.0 ],
 									"varname" : "Release"
 								}
 
@@ -981,7 +1001,7 @@
 ,
 									"style" : "",
 									"text" : "autopattr",
-									"varname" : "u116007954"
+									"varname" : "u555005894"
 								}
 
 							}
@@ -1011,9 +1031,11 @@
 									"hint" : "arbitrary units - higher numbers are faster",
 									"id" : "obj-28",
 									"maxclass" : "live.dial",
+									"needlecolor" : [ 0.321569, 0.321569, 0.321569, 1.0 ],
 									"numinlets" : 1,
 									"numoutlets" : 2,
 									"outlettype" : [ "", "float" ],
+									"panelcolor" : [ 0.709804, 0.698039, 0.694118, 1.0 ],
 									"parameter_enable" : 1,
 									"patching_rect" : [ 759.0, 555.0, 44.0, 47.0 ],
 									"presentation" : 1,
@@ -1032,6 +1054,8 @@
 									}
 ,
 									"textcolor" : [ 1.0, 1.0, 1.0, 0.7 ],
+									"tribordercolor" : [ 0.196078, 0.196078, 0.196078, 1.0 ],
+									"tricolor" : [ 0.6, 0.6, 0.6, 1.0 ],
 									"varname" : "Attack"
 								}
 
@@ -1060,6 +1084,7 @@
 									"activetextcolor" : [ 1.0, 1.0, 1.0, 0.57 ],
 									"activetextoncolor" : [ 0.0, 0.019608, 0.078431, 1.0 ],
 									"bgcolor" : [ 0.101961, 0.101961, 0.101961, 0.78 ],
+									"bgoncolor" : [ 0.490196, 0.482353, 0.478431, 1.0 ],
 									"bordercolor" : [ 0.0, 0.019608, 0.078431, 0.37 ],
 									"id" : "obj-12",
 									"maxclass" : "live.text",
@@ -1692,22 +1717,22 @@
  ],
 		"lines" : [  ],
 		"parameters" : 		{
-			"obj-162::obj-15::obj-2" : [ "live.toggle", "live.toggle", 0 ],
-			"obj-162::obj-28" : [ "Attack", "Attack", 0 ],
-			"obj-162::obj-34" : [ "slider[3]", "slider[3]", 0 ],
-			"obj-162::obj-47" : [ "Release", "Release", 0 ],
-			"obj-162::obj-2" : [ "Output", "Output", 0 ],
 			"obj-162::obj-12" : [ "Bypass", "Bypass", 0 ],
-			"obj-162::obj-44" : [ "Input", "Input", 0 ],
-			"obj-162::obj-35" : [ "slider[2]", "slider[2]", 0 ],
 			"obj-162::obj-52" : [ "Threshold", "Threshold", 0 ],
-			"obj-162::obj-78" : [ "Ratio", "Ratio", 0 ]
+			"obj-162::obj-35" : [ "slider[2]", "slider[2]", 0 ],
+			"obj-162::obj-2" : [ "Output", "Output", 0 ],
+			"obj-162::obj-15::obj-2" : [ "live.toggle", "live.toggle", 0 ],
+			"obj-162::obj-34" : [ "slider[3]", "slider[3]", 0 ],
+			"obj-162::obj-28" : [ "Attack", "Attack", 0 ],
+			"obj-162::obj-44" : [ "Input", "Input", 0 ],
+			"obj-162::obj-78" : [ "Ratio", "Ratio", 0 ],
+			"obj-162::obj-47" : [ "Release", "Release", 0 ]
 		}
 ,
 		"dependency_cache" : [ 			{
 				"name" : "pastebang.maxpat",
-				"bootpath" : "~/Documents/Beap/misc",
-				"patcherrelativepath" : "../../../misc",
+				"bootpath" : "/Applications/Max 7/Max.app/Contents/Resources/C74/packages/Beap/misc",
+				"patcherrelativepath" : "../../../../../../../Applications/Max 7/Max.app/Contents/Resources/C74/packages/Beap/misc",
 				"type" : "JSON",
 				"implicit" : 1
 			}
