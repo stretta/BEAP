@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 34.0, 78.0, 1212.0, 641.0 ],
+		"rect" : [ 34.0, 78.0, 836.0, 641.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -87,13 +87,63 @@
 						"style" : "",
 						"boxes" : [ 							{
 								"box" : 								{
+									"id" : "obj-36",
+									"maxclass" : "newobj",
+									"numinlets" : 2,
+									"numoutlets" : 1,
+									"outlettype" : [ "float" ],
+									"patching_rect" : [ 974.554688, 1097.0, 42.0, 22.0 ],
+									"style" : "",
+									"text" : "* 0.01"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-29",
+									"maxclass" : "newobj",
+									"numinlets" : 2,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 916.554688, 1137.0, 77.0, 22.0 ],
+									"style" : "",
+									"text" : "pak 100. 80."
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-18",
+									"maxclass" : "button",
+									"numinlets" : 1,
+									"numoutlets" : 1,
+									"outlettype" : [ "bang" ],
+									"patching_rect" : [ 665.0, 1213.0, 24.0, 24.0 ],
+									"style" : ""
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-16",
+									"maxclass" : "message",
+									"numinlets" : 2,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 644.0, 1150.0, 50.0, 22.0 ],
+									"style" : ""
+								}
+
+							}
+, 							{
+								"box" : 								{
 									"fontname" : "Arial Bold",
 									"fontsize" : 10.0,
 									"id" : "obj-11",
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 948.054688, 1125.0, 44.0, 18.0 ],
+									"patching_rect" : [ 974.554688, 1042.505615, 44.0, 18.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 340.067993, 44.0, 44.0, 18.0 ],
 									"style" : "",
@@ -118,7 +168,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "float" ],
 									"parameter_enable" : 1,
-									"patching_rect" : [ 948.054688, 1151.895386, 36.0, 15.0 ],
+									"patching_rect" : [ 974.554688, 1069.401001, 36.0, 15.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 340.067993, 70.33548, 45.404167, 15.0 ],
 									"saved_attribute_attributes" : 									{
@@ -160,9 +210,9 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 916.554688, 1097.0, 99.0, 22.0 ],
+									"patching_rect" : [ 916.554688, 957.0, 137.0, 22.0 ],
 									"style" : "",
-									"text" : "translate bbu ms"
+									"text" : "translate notevalues ms"
 								}
 
 							}
@@ -335,7 +385,7 @@
 									"presentation_rect" : [ 448.472168, 20.0, 52.0, 14.764645 ],
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
-											"parameter_longname" : "mute[2]",
+											"parameter_longname" : "mute",
 											"parameter_shortname" : "mute",
 											"parameter_type" : 2,
 											"parameter_mmax" : 1.0,
@@ -498,9 +548,8 @@
 									"bgstepcolor2" : [ 1.0, 1.0, 1.0, 0.07 ],
 									"bordercolor" : [ 0.0, 0.0, 0.0, 0.0 ],
 									"bordercolor2" : [ 0.0, 0.0, 0.0, 0.0 ],
-									"columns" : 4,
 									"direction" : 0,
-									"hbgcolor" : [ 0.278431, 0.839216, 1.0, 0.1 ],
+									"hbgcolor" : [ 0.278431, 0.839216, 1.0, 1.0 ],
 									"id" : "obj-125",
 									"marker_vertical" : 0,
 									"matrixmode" : 1,
@@ -516,8 +565,8 @@
 									"rows" : 1,
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
-											"parameter_longname" : "NoteGrid",
-											"parameter_shortname" : "NoteGrid",
+											"parameter_longname" : "PatternGrid",
+											"parameter_shortname" : "PatternGrid",
 											"parameter_type" : 3,
 											"parameter_initial_enable" : 1,
 											"parameter_initial" : [ 3, 16, 8, 0, 4, 0, 4000, 8000, 12000, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2 ],
@@ -527,8 +576,8 @@
 									}
 ,
 									"spacing" : 0.0,
-									"stepcolor" : [ 0.278431, 0.839216, 1.0, 1.0 ],
-									"varname" : "live.grid"
+									"stepcolor" : [ 0.278431, 0.839216, 1.0, 0.72 ],
+									"varname" : "PatternGrid"
 								}
 
 							}
@@ -611,7 +660,7 @@
 									"presentation_rect" : [ 433.027832, 46.0, 66.848503, 15.0 ],
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
-											"parameter_longname" : "Pulse[1]",
+											"parameter_longname" : "Pulse",
 											"parameter_shortname" : "Pulse",
 											"parameter_type" : 2,
 											"parameter_enum" : [ "whole", "1/2", "1/4", "1/8", "1/16", "1/32", "--", "1/2 dotted", "1/4 dotted", "1/8 dotted", "1/16 dotted", "1/32 dotted", "--", "1/2 triplet", "1/4 triplet", "1/8 triplet", "1/16 triplet", "1/32 triplet" ],
@@ -1822,7 +1871,7 @@
 									"patching_rect" : [ 412.094238, 198.248795, 71.944458, 15.0 ],
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
-											"parameter_longname" : "Max pulse[1]",
+											"parameter_longname" : "Max pulse",
 											"parameter_shortname" : "Max pulse",
 											"parameter_type" : 2,
 											"parameter_enum" : [ "1nd", "1n", "1nt", "2nd", "2n", "2nt", "4nd", "4n", "4nt", "8nd", "8n", "8nt", "16nd", "16n", "16nt", "32nd", "32n", "32nt", "64nd", "64n", "128nd", "128n" ],
@@ -1902,7 +1951,7 @@
 									"presentation_rect" : [ 315.876343, 70.33548, 15.0, 15.0 ],
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
-											"parameter_longname" : "Attack[1]",
+											"parameter_longname" : "Attack",
 											"parameter_shortname" : "Attack",
 											"parameter_type" : 0,
 											"parameter_mmax" : 2000.0,
@@ -2045,13 +2094,13 @@
 									"patching_rect" : [ 19.582031, 134.011475, 58.0, 22.0 ],
 									"restore" : 									{
 										"ClockSelect" : [ 0.0 ],
-										"Pulse" : [ 3.0 ],
-										"Reset" : [ 0.0 ],
-										"Steps" : [ 4.0 ],
+										"PatternGrid" : [ 3, 16, 1, 0, 4, 0, 4000, 8000, 12000, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2 ],
+										"Pulse" : [ 4.0 ],
+										"Reset" : [ 1.0 ],
+										"Steps" : [ 15.0 ],
 										"Sync" : [ 0.0 ],
-										"gatepct" : [ 0.0 ],
-										"live.grid" : [ 3, 4, 1, 0, 4, 0, 1000, 2000, 3000, 2, 2, 2, 2 ],
-										"max pulse[1]" : [ 10.0 ],
+										"gatepct" : [ 79.212598 ],
+										"max pulse[1]" : [ 13.0 ],
 										"mute" : [ 0.0 ],
 										"swing amount" : [ 0.0 ],
 										"swing switch" : [ 0.0 ]
@@ -2059,7 +2108,7 @@
 ,
 									"style" : "",
 									"text" : "autopattr",
-									"varname" : "u878006688"
+									"varname" : "u220000737"
 								}
 
 							}
@@ -2419,6 +2468,15 @@
 							}
 , 							{
 								"patchline" : 								{
+									"destination" : [ "obj-18", 0 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-22", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
 									"destination" : [ "obj-25", 0 ],
 									"disabled" : 0,
 									"hidden" : 0,
@@ -2483,6 +2541,15 @@
 							}
 , 							{
 								"patchline" : 								{
+									"destination" : [ "obj-7", 0 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-29", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
 									"destination" : [ "obj-262", 0 ],
 									"disabled" : 0,
 									"hidden" : 0,
@@ -2528,6 +2595,15 @@
 							}
 , 							{
 								"patchline" : 								{
+									"destination" : [ "obj-29", 1 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-36", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
 									"destination" : [ "obj-103", 0 ],
 									"disabled" : 0,
 									"hidden" : 0,
@@ -2556,7 +2632,7 @@
 							}
 , 							{
 								"patchline" : 								{
-									"destination" : [ "obj-7", 0 ],
+									"destination" : [ "obj-29", 0 ],
 									"disabled" : 0,
 									"hidden" : 0,
 									"source" : [ "obj-6", 0 ]
@@ -2592,7 +2668,7 @@
 							}
 , 							{
 								"patchline" : 								{
-									"destination" : [ "obj-7", 1 ],
+									"destination" : [ "obj-36", 0 ],
 									"disabled" : 0,
 									"hidden" : 0,
 									"source" : [ "obj-9", 0 ]
@@ -2647,17 +2723,17 @@
  ],
 		"lines" : [  ],
 		"parameters" : 		{
-			"obj-12::obj-20" : [ "mute[2]", "mute", 0 ],
-			"obj-12::obj-120" : [ "Max pulse[1]", "Max pulse", 0 ],
 			"obj-12::obj-155" : [ "Swing amount", "Swing amount", 0 ],
 			"obj-12::obj-9" : [ "gatepct", "gatepct", 0 ],
-			"obj-12::obj-89" : [ "Reset", "Reset", 0 ],
-			"obj-12::obj-157" : [ "Swing enable", "Swing enable", 0 ],
-			"obj-12::obj-96" : [ "Pulse[1]", "Pulse", 0 ],
-			"obj-12::obj-28" : [ "Attack[1]", "Attack", 0 ],
-			"obj-12::obj-139" : [ "ClockSelect", "ClockSelect", 0 ],
+			"obj-12::obj-125" : [ "PatternGrid", "PatternGrid", 0 ],
+			"obj-12::obj-96" : [ "Pulse", "Pulse", 0 ],
+			"obj-12::obj-120" : [ "Max pulse", "Max pulse", 0 ],
 			"obj-12::obj-95" : [ "Steps", "Steps", 0 ],
-			"obj-12::obj-125" : [ "NoteGrid", "NoteGrid", 0 ]
+			"obj-12::obj-89" : [ "Reset", "Reset", 0 ],
+			"obj-12::obj-28" : [ "Attack", "Attack", 0 ],
+			"obj-12::obj-20" : [ "mute", "mute", 0 ],
+			"obj-12::obj-157" : [ "Swing enable", "Swing enable", 0 ],
+			"obj-12::obj-139" : [ "ClockSelect", "ClockSelect", 0 ]
 		}
 ,
 		"dependency_cache" : [ 			{
