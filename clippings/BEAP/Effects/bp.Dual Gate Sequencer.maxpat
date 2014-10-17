@@ -87,6 +87,38 @@
 						"style" : "",
 						"boxes" : [ 							{
 								"box" : 								{
+									"activebgoncolor" : [ 0.278431, 0.839216, 1.0, 1.0 ],
+									"id" : "obj-5",
+									"maxclass" : "live.tab",
+									"num_lines_patching" : 1,
+									"num_lines_presentation" : 1,
+									"numinlets" : 1,
+									"numoutlets" : 3,
+									"outlettype" : [ "", "", "float" ],
+									"parameter_enable" : 1,
+									"patching_rect" : [ 171.0, 573.389893, 107.0, 20.0 ],
+									"presentation" : 1,
+									"presentation_rect" : [ 230.747162, 67.822319, 107.0, 20.0 ],
+									"saved_attribute_attributes" : 									{
+										"valueof" : 										{
+											"parameter_longname" : "ClockSelect",
+											"parameter_shortname" : "ClockSelect",
+											"parameter_type" : 2,
+											"parameter_mmax" : 1.0,
+											"parameter_enum" : [ "Trigger", "Transport" ],
+											"parameter_initial_enable" : 1,
+											"parameter_initial" : [ 0.0 ],
+											"parameter_defer" : 1
+										}
+
+									}
+,
+									"varname" : "ClockSelect"
+								}
+
+							}
+, 							{
+								"box" : 								{
 									"id" : "obj-4",
 									"maxclass" : "comment",
 									"numinlets" : 1,
@@ -154,9 +186,9 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 913.0, 1426.754272, 37.0, 17.0 ],
+									"patching_rect" : [ 913.0, 1426.754272, 34.0, 17.0 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 412.876343, 97.0, 38.0, 17.0 ],
+									"presentation_rect" : [ 412.876343, 97.0, 34.0, 17.0 ],
 									"style" : "",
 									"text" : "Out 2",
 									"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
@@ -200,7 +232,8 @@
 									"maxclass" : "outlet",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 869.508789, 1426.754272, 25.0, 25.0 ]
+									"patching_rect" : [ 869.508789, 1426.754272, 25.0, 25.0 ],
+									"style" : ""
 								}
 
 							}
@@ -212,7 +245,8 @@
 									"numinlets" : 0,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 887.508789, 1179.5, 25.0, 25.0 ]
+									"patching_rect" : [ 887.508789, 1179.5, 25.0, 25.0 ],
+									"style" : ""
 								}
 
 							}
@@ -305,7 +339,8 @@
 									"maxclass" : "outlet",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 604.508789, 1426.754272, 25.0, 25.0 ]
+									"patching_rect" : [ 604.508789, 1426.754272, 25.0, 25.0 ],
+									"style" : ""
 								}
 
 							}
@@ -317,7 +352,8 @@
 									"numinlets" : 0,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 1095.508789, 1179.5, 25.0, 25.0 ]
+									"patching_rect" : [ 1095.508789, 1179.5, 25.0, 25.0 ],
+									"style" : ""
 								}
 
 							}
@@ -521,51 +557,14 @@
 							}
 , 							{
 								"box" : 								{
-									"activebgcolor" : [ 0.572549, 0.615686, 0.658824, 0.0 ],
-									"activebgoncolor" : [ 0.278431, 0.839216, 1.0, 1.0 ],
-									"activetextcolor" : [ 1.0, 1.0, 1.0, 0.57 ],
-									"activetextoncolor" : [ 0.0, 0.019608, 0.078431, 1.0 ],
-									"bgcolor" : [ 0.101961, 0.101961, 0.101961, 0.78 ],
-									"bordercolor" : [ 0.0, 0.019608, 0.078431, 0.37 ],
-									"id" : "obj-139",
-									"maxclass" : "live.text",
-									"numinlets" : 1,
-									"numoutlets" : 2,
-									"outlettype" : [ "", "" ],
-									"parameter_enable" : 1,
-									"patching_rect" : [ 283.413086, 593.689819, 75.0, 18.529419 ],
-									"presentation" : 1,
-									"presentation_rect" : [ 241.747162, 70.33548, 66.226547, 14.764645 ],
-									"saved_attribute_attributes" : 									{
-										"valueof" : 										{
-											"parameter_longname" : "ClockSelect",
-											"parameter_shortname" : "ClockSelect",
-											"parameter_type" : 2,
-											"parameter_mmax" : 1.0,
-											"parameter_enum" : [ "val1", "val2" ],
-											"parameter_initial_enable" : 1,
-											"parameter_initial" : [ 0.0 ],
-											"parameter_defer" : 1
-										}
-
-									}
-,
-									"text" : "Transport",
-									"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
-									"texton" : "Trigger",
-									"varname" : "ClockSelect"
-								}
-
-							}
-, 							{
-								"box" : 								{
 									"comment" : "",
 									"id" : "obj-137",
 									"maxclass" : "inlet",
 									"numinlets" : 0,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 431.170654, 587.219238, 25.0, 25.0 ]
+									"patching_rect" : [ 431.170654, 587.219238, 25.0, 25.0 ],
+									"style" : ""
 								}
 
 							}
@@ -693,7 +692,7 @@
 									"numoutlets" : 0,
 									"patching_rect" : [ 535.512085, 627.389893, 38.0, 18.0 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 241.747162, 43.0, 38.0, 18.0 ],
+									"presentation_rect" : [ 232.861679, 43.0, 38.0, 18.0 ],
 									"style" : "",
 									"text" : "Reset",
 									"textcolor" : [ 1.0, 1.0, 1.0, 0.7 ]
@@ -714,7 +713,7 @@
 									"parameter_enable" : 1,
 									"patching_rect" : [ 471.498779, 32.447998, 71.944458, 15.0 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 384.027832, 46.0, 66.848503, 15.0 ],
+									"presentation_rect" : [ 384.027832, 44.0, 66.848503, 15.0 ],
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
 											"parameter_longname" : "Pulse",
@@ -743,7 +742,7 @@
 									"numoutlets" : 0,
 									"patching_rect" : [ 402.582031, 32.447998, 60.0, 18.0 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 342.472168, 44.0, 38.0, 18.0 ],
+									"presentation_rect" : [ 342.472168, 43.0, 38.0, 18.0 ],
 									"style" : "",
 									"text" : "Pulse",
 									"textcolor" : [ 1.0, 1.0, 1.0, 0.7 ]
@@ -1082,7 +1081,8 @@
 													"numinlets" : 0,
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
-													"patching_rect" : [ 226.625, 66.0, 25.0, 25.0 ]
+													"patching_rect" : [ 226.625, 66.0, 25.0, 25.0 ],
+													"style" : ""
 												}
 
 											}
@@ -1214,7 +1214,8 @@
 													"maxclass" : "outlet",
 													"numinlets" : 1,
 													"numoutlets" : 0,
-													"patching_rect" : [ 50.000004, 696.415527, 25.0, 25.0 ]
+													"patching_rect" : [ 50.000004, 696.415527, 25.0, 25.0 ],
+													"style" : ""
 												}
 
 											}
@@ -1892,20 +1893,17 @@
 												}
 
 											}
- ]
+ ],
+										"bgfillcolor_type" : "gradient",
+										"bgfillcolor_color1" : [ 0.435294, 0.462745, 0.498039, 1.0 ],
+										"bgfillcolor_color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
+										"bgfillcolor_color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
+										"bgfillcolor_angle" : 270.0,
+										"bgfillcolor_proportion" : 0.39
 									}
 ,
 									"patching_rect" : [ 638.650146, 402.278778, 79.0, 20.0 ],
 									"saved_object_attributes" : 									{
-										"bgfillcolor_dictionary" : 										{
-											"type" : "gradient",
-											"color1" : [ 0.435294, 0.462745, 0.498039, 1.0 ],
-											"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-											"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-											"angle" : 270.0,
-											"proportion" : 0.39
-										}
-,
 										"description" : "",
 										"digest" : "",
 										"globalpatchername" : "",
@@ -2006,7 +2004,7 @@
 									"parameter_enable" : 1,
 									"patching_rect" : [ 535.512085, 758.689941, 23.345901, 25.0 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 315.876343, 70.33548, 15.0, 15.0 ],
+									"presentation_rect" : [ 317.876343, 43.33548, 15.0, 15.0 ],
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
 											"parameter_longname" : "Attack",
@@ -2040,7 +2038,7 @@
 									"parameter_enable" : 1,
 									"patching_rect" : [ 535.512085, 645.389893, 41.144463, 15.0 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 287.156982, 44.0, 42.438744, 15.0 ],
+									"presentation_rect" : [ 268.156982, 44.0, 42.438744, 15.0 ],
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
 											"parameter_longname" : "Reset",
@@ -2108,15 +2106,6 @@
 								"box" : 								{
 									"angle" : 0.0,
 									"bgcolor" : [ 0.094118, 0.117647, 0.137255, 1.0 ],
-									"bgfillcolor" : [ 										{
-											"type" : "color",
-											"color1" : [ 0.75, 0.79, 0.93, 1.0 ],
-											"color2" : [ 0.66, 0.66, 0.72, 1.0 ],
-											"color" : [ 0.094118, 0.117647, 0.137255, 1.0 ],
-											"angle" : 0,
-											"proportion" : 0.39
-										}
- ],
 									"bordercolor" : [ 1.0, 1.0, 1.0, 0.4 ],
 									"id" : "obj-97",
 									"maxclass" : "panel",
@@ -2160,7 +2149,7 @@
 									"outlettype" : [ "", "", "", "" ],
 									"patching_rect" : [ 42.0, 114.0, 59.5, 22.0 ],
 									"restore" : 									{
-										"ClockSelect" : [ 0.0 ],
+										"ClockSelect" : [ 1.0 ],
 										"Pulse" : [ 4.0 ],
 										"Reset" : [ 0.0 ],
 										"Steps" : [ 16.0 ],
@@ -2174,7 +2163,7 @@
 ,
 									"style" : "",
 									"text" : "autopattr",
-									"varname" : "u962004212"
+									"varname" : "u727006947"
 								}
 
 							}
@@ -2234,15 +2223,6 @@
 									"angle" : 0.0,
 									"background" : 1,
 									"bgcolor" : [ 0.137255, 0.145098, 0.160784, 0.65 ],
-									"bgfillcolor" : [ 										{
-											"type" : "color",
-											"color1" : [ 0.75, 0.79, 0.93, 1.0 ],
-											"color2" : [ 0.66, 0.66, 0.72, 1.0 ],
-											"color" : [ 0.137255, 0.145098, 0.160784, 0.65 ],
-											"angle" : 0.0,
-											"proportion" : 0.39
-										}
- ],
 									"id" : "obj-130",
 									"maxclass" : "panel",
 									"mode" : 0,
@@ -2262,15 +2242,6 @@
 									"angle" : 0.0,
 									"background" : 1,
 									"bgcolor" : [ 0.367404, 0.389405, 0.430238, 1.0 ],
-									"bgfillcolor" : [ 										{
-											"type" : "color",
-											"color1" : [ 0.75, 0.79, 0.93, 1.0 ],
-											"color2" : [ 0.66, 0.66, 0.72, 1.0 ],
-											"color" : [ 0.367404, 0.389405, 0.430238, 1.0 ],
-											"angle" : 0.0,
-											"proportion" : 0.39
-										}
- ],
 									"id" : "obj-131",
 									"maxclass" : "panel",
 									"mode" : 0,
@@ -2290,15 +2261,6 @@
 									"angle" : 0.0,
 									"background" : 1,
 									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-									"bgfillcolor" : [ 										{
-											"type" : "color",
-											"color1" : [ 0.75, 0.79, 0.93, 1.0 ],
-											"color2" : [ 0.66, 0.66, 0.72, 1.0 ],
-											"color" : [ 0.0, 0.0, 0.0, 1.0 ],
-											"angle" : 0.0,
-											"proportion" : 0.39
-										}
- ],
 									"id" : "obj-135",
 									"maxclass" : "panel",
 									"mode" : 0,
@@ -2478,15 +2440,6 @@
 							}
 , 							{
 								"patchline" : 								{
-									"destination" : [ "obj-140", 0 ],
-									"disabled" : 0,
-									"hidden" : 0,
-									"source" : [ "obj-139", 0 ]
-								}
-
-							}
-, 							{
-								"patchline" : 								{
 									"destination" : [ "obj-138", 0 ],
 									"disabled" : 0,
 									"hidden" : 0,
@@ -2636,6 +2589,15 @@
 									"disabled" : 0,
 									"hidden" : 0,
 									"source" : [ "obj-34", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-140", 0 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-5", 0 ]
 								}
 
 							}
@@ -2846,7 +2808,8 @@
 								}
 
 							}
- ]
+ ],
+						"toolbaradditions" : [ "transport" ]
 					}
 ,
 					"patching_rect" : [ 0.0, 0.0, 457.0, 116.0 ],
@@ -2858,19 +2821,26 @@
  ],
 		"lines" : [  ],
 		"parameters" : 		{
-			"obj-10::obj-96" : [ "Pulse", "Pulse", 0 ],
-			"obj-10::obj-157" : [ "Swing enable", "Swing enable", 0 ],
+			"obj-10::obj-155" : [ "Swing amount", "Swing amount", 0 ],
 			"obj-10::obj-95" : [ "Steps", "Steps", 0 ],
+			"obj-10::obj-96" : [ "Pulse", "Pulse", 0 ],
+			"obj-10::obj-28" : [ "Attack", "Attack", 0 ],
+			"obj-10::obj-157" : [ "Swing enable", "Swing enable", 0 ],
 			"obj-10::obj-120" : [ "Max pulse[1]", "Max pulse", 0 ],
 			"obj-10::obj-74" : [ "bypass", "bypass", 0 ],
-			"obj-10::obj-89" : [ "Reset", "Reset", 0 ],
-			"obj-10::obj-139" : [ "ClockSelect", "ClockSelect", 0 ],
-			"obj-10::obj-155" : [ "Swing amount", "Swing amount", 0 ],
-			"obj-10::obj-28" : [ "Attack", "Attack", 0 ],
-			"obj-10::obj-125" : [ "NoteGrid", "NoteGrid", 0 ]
+			"obj-10::obj-5" : [ "ClockSelect", "ClockSelect", 0 ],
+			"obj-10::obj-125" : [ "NoteGrid", "NoteGrid", 0 ],
+			"obj-10::obj-89" : [ "Reset", "Reset", 0 ]
 		}
 ,
-		"dependency_cache" : [  ],
+		"dependency_cache" : [ 			{
+				"name" : "swingCalc.js",
+				"bootpath" : "/Applications/Max 7/Max.app/Contents/Resources/C74/packages/Beap/misc",
+				"patcherrelativepath" : "../../../../../../../Applications/Max 7/Max.app/Contents/Resources/C74/packages/Beap/misc",
+				"type" : "TEXT",
+				"implicit" : 1
+			}
+ ],
 		"embedsnapshot" : 0
 	}
 

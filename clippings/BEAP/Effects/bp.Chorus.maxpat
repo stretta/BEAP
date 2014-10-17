@@ -897,12 +897,12 @@
 									"presentation_rect" : [ 91.5, 43.0, 44.0, 47.0 ],
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
-											"parameter_longname" : "Rate[1]",
+											"parameter_longname" : "Rate",
 											"parameter_shortname" : "Rate",
 											"parameter_type" : 0,
-											"parameter_mmax" : 50.0,
+											"parameter_mmax" : 10.0,
 											"parameter_initial_enable" : 1,
-											"parameter_initial" : [ 0.01 ],
+											"parameter_initial" : [ 2 ],
 											"parameter_unitstyle" : 3,
 											"parameter_exponent" : 4.0
 										}
@@ -959,7 +959,7 @@
 									"patching_rect" : [ 51.642456, 139.0, 59.5, 22.0 ],
 									"restore" : 									{
 										"Center" : [ 500.0 ],
-										"Rate" : [ 8.0 ],
+										"Rate" : [ 2.0 ],
 										"Regen" : [ 0.5 ],
 										"Width" : [ 20.0 ],
 										"bypass" : [ 0.0 ]
@@ -967,7 +967,7 @@
 ,
 									"style" : "",
 									"text" : "autopattr",
-									"varname" : "u198007894"
+									"varname" : "u980007393"
 								}
 
 							}
@@ -1320,11 +1320,11 @@
  ],
 		"lines" : [  ],
 		"parameters" : 		{
-			"obj-1::obj-3" : [ "Regen[1]", "Regen", 0 ],
-			"obj-1::obj-2" : [ "Rate[1]", "Rate", 0 ],
 			"obj-1::obj-23" : [ "bypass[1]", "bypass", 0 ],
 			"obj-1::obj-28" : [ "Center[1]", "Center", 0 ],
-			"obj-1::obj-1" : [ "Width[1]", "Width", 0 ]
+			"obj-1::obj-3" : [ "Regen[1]", "Regen", 0 ],
+			"obj-1::obj-1" : [ "Width[1]", "Width", 0 ],
+			"obj-1::obj-2" : [ "Rate", "Rate", 0 ]
 		}
 ,
 		"dependency_cache" : [  ],

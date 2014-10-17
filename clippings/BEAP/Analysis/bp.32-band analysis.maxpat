@@ -404,7 +404,7 @@
 ,
 									"style" : "",
 									"text" : "autopattr",
-									"varname" : "u205003377"
+									"varname" : "u951005416"
 								}
 
 							}
@@ -892,6 +892,19 @@
 										"style" : "",
 										"boxes" : [ 											{
 												"box" : 												{
+													"id" : "obj-36",
+													"maxclass" : "newobj",
+													"numinlets" : 0,
+													"numoutlets" : 1,
+													"outlettype" : [ "bang" ],
+													"patching_rect" : [ 172.0, 126.0, 67.0, 22.0 ],
+													"style" : "",
+													"text" : "pastebang"
+												}
+
+											}
+, 											{
+												"box" : 												{
 													"comment" : "",
 													"id" : "obj-39",
 													"maxclass" : "inlet",
@@ -1374,47 +1387,6 @@
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 411.214294, 197.0, 25.0, 25.0 ],
 													"style" : ""
-												}
-
-											}
-, 											{
-												"box" : 												{
-													"fontname" : "Arial",
-													"fontsize" : 12.0,
-													"id" : "obj-20",
-													"maxclass" : "newobj",
-													"numinlets" : 2,
-													"numoutlets" : 2,
-													"outlettype" : [ "bang", "" ],
-													"patching_rect" : [ 172.0, 147.0, 36.0, 22.0 ],
-													"style" : "",
-													"text" : "sel 0"
-												}
-
-											}
-, 											{
-												"box" : 												{
-													"id" : "obj-6",
-													"maxclass" : "live.text",
-													"numinlets" : 1,
-													"numoutlets" : 2,
-													"outlettype" : [ "", "" ],
-													"parameter_enable" : 1,
-													"patching_rect" : [ 172.0, 100.0, 40.0, 20.0 ],
-													"saved_attribute_attributes" : 													{
-														"valueof" : 														{
-															"parameter_longname" : "live.text[1]",
-															"parameter_shortname" : "live.text[1]",
-															"parameter_type" : 2,
-															"parameter_mmax" : 1.0,
-															"parameter_enum" : [ "val1", "val2" ],
-															"parameter_initial_enable" : 1,
-															"parameter_initial" : [ 0.0 ]
-														}
-
-													}
-,
-													"varname" : "live.text"
 												}
 
 											}
@@ -1957,15 +1929,6 @@
 											}
 , 											{
 												"patchline" : 												{
-													"destination" : [ "obj-19", 0 ],
-													"disabled" : 0,
-													"hidden" : 0,
-													"source" : [ "obj-20", 0 ]
-												}
-
-											}
-, 											{
-												"patchline" : 												{
 													"destination" : [ "obj-98", 0 ],
 													"disabled" : 0,
 													"hidden" : 0,
@@ -2097,6 +2060,15 @@
 													"disabled" : 0,
 													"hidden" : 0,
 													"source" : [ "obj-35", 0 ]
+												}
+
+											}
+, 											{
+												"patchline" : 												{
+													"destination" : [ "obj-19", 0 ],
+													"disabled" : 0,
+													"hidden" : 0,
+													"source" : [ "obj-36", 0 ]
 												}
 
 											}
@@ -2724,15 +2696,6 @@
 													"disabled" : 0,
 													"hidden" : 0,
 													"source" : [ "obj-56", 0 ]
-												}
-
-											}
-, 											{
-												"patchline" : 												{
-													"destination" : [ "obj-20", 0 ],
-													"disabled" : 0,
-													"hidden" : 0,
-													"source" : [ "obj-6", 0 ]
 												}
 
 											}
@@ -4826,8 +4789,8 @@
 		"lines" : [  ],
 		"parameters" : 		{
 			"obj-2::obj-45" : [ "Slide", "Slide", 0 ],
+			"obj-2::obj-33::obj-36::obj-2" : [ "live.toggle", "live.toggle", 0 ],
 			"obj-2::obj-25" : [ "Base", "Base", 0 ],
-			"obj-2::obj-33::obj-6" : [ "live.text[1]", "live.text[1]", 0 ],
 			"obj-2::obj-51" : [ "divide", "divide", 0 ],
 			"obj-2::obj-49" : [ "quantize", "quantize", 0 ],
 			"obj-2::obj-26" : [ "Gain", "Gain", 0 ],
@@ -4837,6 +4800,13 @@
 ,
 		"dependency_cache" : [ 			{
 				"name" : "a_chan.maxpat",
+				"bootpath" : "/Applications/Max 7/Max.app/Contents/Resources/C74/packages/Beap/misc",
+				"patcherrelativepath" : "../../../../../../../Applications/Max 7/Max.app/Contents/Resources/C74/packages/Beap/misc",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "pastebang.maxpat",
 				"bootpath" : "/Applications/Max 7/Max.app/Contents/Resources/C74/packages/Beap/misc",
 				"patcherrelativepath" : "../../../../../../../Applications/Max 7/Max.app/Contents/Resources/C74/packages/Beap/misc",
 				"type" : "JSON",

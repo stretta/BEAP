@@ -139,7 +139,8 @@
 									"numinlets" : 0,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 521.673828, 384.910736, 25.0, 25.0 ]
+									"patching_rect" : [ 521.673828, 384.910736, 25.0, 25.0 ],
+									"style" : ""
 								}
 
 							}
@@ -187,8 +188,7 @@
 									"presentation" : 1,
 									"presentation_rect" : [ 24.950989, 1.62315, 10.049012, 10.748189 ],
 									"style" : "",
-									"text" : "",
-									"usecustombgoncolor" : 1
+									"text" : ""
 								}
 
 							}
@@ -405,7 +405,8 @@
 													"numinlets" : 0,
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
-													"patching_rect" : [ 131.5, 83.0, 25.0, 25.0 ]
+													"patching_rect" : [ 131.5, 83.0, 25.0, 25.0 ],
+													"style" : ""
 												}
 
 											}
@@ -445,7 +446,8 @@
 													"maxclass" : "outlet",
 													"numinlets" : 1,
 													"numoutlets" : 0,
-													"patching_rect" : [ 85.0, 280.0, 25.0, 25.0 ]
+													"patching_rect" : [ 85.0, 280.0, 25.0, 25.0 ],
+													"style" : ""
 												}
 
 											}
@@ -502,7 +504,8 @@
 													"numinlets" : 0,
 													"numoutlets" : 1,
 													"outlettype" : [ "signal" ],
-													"patching_rect" : [ 85.0, 83.0, 25.0, 25.0 ]
+													"patching_rect" : [ 85.0, 83.0, 25.0, 25.0 ],
+													"style" : ""
 												}
 
 											}
@@ -571,37 +574,16 @@
 
 											}
  ],
-										"bgfillcolor" : 										{
-											"type" : "gradient",
-											"color1" : [ 0.435294, 0.462745, 0.498039, 1.0 ],
-											"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-											"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-											"angle" : 270.0,
-											"proportion" : 0.39
-										}
-
+										"bgfillcolor_type" : "gradient",
+										"bgfillcolor_color1" : [ 0.435294, 0.462745, 0.498039, 1.0 ],
+										"bgfillcolor_color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
+										"bgfillcolor_color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
+										"bgfillcolor_angle" : 270.0,
+										"bgfillcolor_proportion" : 0.39
 									}
 ,
 									"patching_rect" : [ 458.673828, 495.910736, 82.0, 22.0 ],
 									"saved_object_attributes" : 									{
-										"bgfillcolor" : [ 											{
-												"type" : "gradient",
-												"color1" : [ 0.435294, 0.462745, 0.498039, 1.0 ],
-												"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-												"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-												"angle" : 270.0,
-												"proportion" : 0.39
-											}
- ],
-										"bgfillcolor_dictionary" : 										{
-											"type" : "gradient",
-											"color1" : [ 0.435294, 0.462745, 0.498039, 1.0 ],
-											"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-											"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-											"angle" : 270.0,
-											"proportion" : 0.39
-										}
-,
 										"description" : "",
 										"digest" : "",
 										"fontname" : "Arial Bold",
@@ -786,12 +768,12 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "float" ],
 									"parameter_enable" : 1,
-									"patching_rect" : [ 816.340515, 468.970001, 44.0, 47.0 ],
+									"patching_rect" : [ 816.340515, 470.910736, 44.0, 47.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 106.0, 42.292229, 44.0, 47.0 ],
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
-											"parameter_longname" : "Decay[1]",
+											"parameter_longname" : "Decay",
 											"parameter_shortname" : "Decay",
 											"parameter_type" : 0,
 											"parameter_mmax" : 10000.0,
@@ -847,7 +829,8 @@
 									"numinlets" : 0,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 747.673889, 560.469971, 25.0, 25.0 ]
+									"patching_rect" : [ 747.673889, 560.469971, 25.0, 25.0 ],
+									"style" : ""
 								}
 
 							}
@@ -859,7 +842,8 @@
 									"numinlets" : 0,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 651.340576, 565.76355, 25.0, 25.0 ]
+									"patching_rect" : [ 651.340576, 565.76355, 25.0, 25.0 ],
+									"style" : ""
 								}
 
 							}
@@ -872,7 +856,8 @@
 									"numinlets" : 0,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 555.007141, 237.0, 25.0, 25.0 ]
+									"patching_rect" : [ 555.007141, 237.0, 25.0, 25.0 ],
+									"style" : ""
 								}
 
 							}
@@ -1404,7 +1389,8 @@
 									"maxclass" : "outlet",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 356.997437, 730.883911, 25.0, 25.0 ]
+									"patching_rect" : [ 356.997437, 730.883911, 25.0, 25.0 ],
+									"style" : ""
 								}
 
 							}
@@ -1417,7 +1403,8 @@
 									"numinlets" : 0,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 458.673828, 136.0, 25.0, 25.0 ]
+									"patching_rect" : [ 458.673828, 136.0, 25.0, 25.0 ],
+									"style" : ""
 								}
 
 							}
@@ -1505,7 +1492,7 @@
 											"parameter_type" : 0,
 											"parameter_mmax" : 10000.0,
 											"parameter_initial_enable" : 1,
-											"parameter_initial" : [ 4 ],
+											"parameter_initial" : [ 500 ],
 											"parameter_unitstyle" : 2,
 											"parameter_exponent" : 4.0
 										}
@@ -1529,14 +1516,14 @@
 									"patching_rect" : [ 26.173828, 112.623154, 59.5, 22.0 ],
 									"restore" : 									{
 										"Attack" : [ 1.0 ],
-										"Decay" : [ 150.0 ],
-										"Hold" : [ 0.0 ],
+										"Decay" : [ 100.0 ],
+										"Hold" : [ 500.0 ],
 										"mute" : [ 0.0 ]
 									}
 ,
 									"style" : "",
 									"text" : "autopattr",
-									"varname" : "u599002464"
+									"varname" : "u982008869"
 								}
 
 							}
@@ -1596,15 +1583,6 @@
 									"angle" : 0.0,
 									"background" : 1,
 									"bgcolor" : [ 0.137255, 0.145098, 0.160784, 0.65 ],
-									"bgfillcolor" : [ 										{
-											"type" : "color",
-											"color1" : [ 0.75, 0.79, 0.93, 1.0 ],
-											"color2" : [ 0.66, 0.66, 0.72, 1.0 ],
-											"color" : [ 0.137255, 0.145098, 0.160784, 0.65 ],
-											"angle" : 0,
-											"proportion" : 0.39
-										}
- ],
 									"id" : "obj-130",
 									"maxclass" : "panel",
 									"mode" : 0,
@@ -1624,15 +1602,6 @@
 									"angle" : 0.0,
 									"background" : 1,
 									"bgcolor" : [ 0.367404, 0.389405, 0.430238, 1.0 ],
-									"bgfillcolor" : [ 										{
-											"type" : "color",
-											"color1" : [ 0.75, 0.79, 0.93, 1.0 ],
-											"color2" : [ 0.66, 0.66, 0.72, 1.0 ],
-											"color" : [ 0.367404, 0.389405, 0.430238, 1.0 ],
-											"angle" : 0,
-											"proportion" : 0.39
-										}
- ],
 									"id" : "obj-131",
 									"maxclass" : "panel",
 									"mode" : 0,
@@ -1652,15 +1621,6 @@
 									"angle" : 0.0,
 									"background" : 1,
 									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-									"bgfillcolor" : [ 										{
-											"type" : "color",
-											"color1" : [ 0.75, 0.79, 0.93, 1.0 ],
-											"color2" : [ 0.66, 0.66, 0.72, 1.0 ],
-											"color" : [ 0.0, 0.0, 0.0, 1.0 ],
-											"angle" : 0,
-											"proportion" : 0.39
-										}
- ],
 									"id" : "obj-135",
 									"maxclass" : "panel",
 									"mode" : 0,
@@ -1968,10 +1928,10 @@
  ],
 		"lines" : [  ],
 		"parameters" : 		{
-			"obj-10::obj-45" : [ "Attack", "Attack", 0 ],
 			"obj-10::obj-20" : [ "mute", "mute", 0 ],
+			"obj-10::obj-45" : [ "Attack", "Attack", 0 ],
 			"obj-10::obj-32" : [ "Hold", "Hold", 0 ],
-			"obj-10::obj-18" : [ "Decay[1]", "Decay", 0 ]
+			"obj-10::obj-18" : [ "Decay", "Decay", 0 ]
 		}
 ,
 		"dependency_cache" : [  ],

@@ -144,7 +144,7 @@
 									"presentation_rect" : [ 48.0, 42.292229, 44.0, 47.0 ],
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
-											"parameter_longname" : "Sustain[1]",
+											"parameter_longname" : "Sustain",
 											"parameter_shortname" : "Sustain",
 											"parameter_type" : 0,
 											"parameter_mmax" : 100.0,
@@ -234,8 +234,7 @@
 									"presentation" : 1,
 									"presentation_rect" : [ 30.926483, 3.375908, 10.049012, 10.748189 ],
 									"style" : "",
-									"text" : "",
-									"usecustombgoncolor" : 1
+									"text" : ""
 								}
 
 							}
@@ -374,7 +373,8 @@
 									"maxclass" : "outlet",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 390.568909, 499.358673, 25.0, 25.0 ]
+									"patching_rect" : [ 390.568909, 499.358673, 25.0, 25.0 ],
+									"style" : ""
 								}
 
 							}
@@ -386,7 +386,8 @@
 									"numinlets" : 0,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 390.568909, 38.907501, 25.0, 25.0 ]
+									"patching_rect" : [ 390.568909, 38.907501, 25.0, 25.0 ],
+									"style" : ""
 								}
 
 							}
@@ -436,7 +437,7 @@
 									"presentation_rect" : [ 4.0, 42.292229, 44.0, 47.0 ],
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
-											"parameter_longname" : "Attack[1]",
+											"parameter_longname" : "Attack",
 											"parameter_shortname" : "Attack",
 											"parameter_type" : 0,
 											"parameter_mmax" : 4000.0,
@@ -468,7 +469,7 @@
 									"presentation_rect" : [ 92.0, 42.292229, 44.0, 47.0 ],
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
-											"parameter_longname" : "Release[1]",
+											"parameter_longname" : "Release",
 											"parameter_shortname" : "Release",
 											"parameter_type" : 0,
 											"parameter_mmax" : 4000.0,
@@ -510,15 +511,15 @@
 									"outlettype" : [ "", "", "", "" ],
 									"patching_rect" : [ 21.642456, 123.0, 59.5, 22.0 ],
 									"restore" : 									{
-										"Attack" : [ 0.0 ],
-										"Release" : [ 0.0 ],
-										"Sustain" : [ 0.0 ],
+										"Attack" : [ 100.0 ],
+										"Release" : [ 100.0 ],
+										"Sustain" : [ 100.0 ],
 										"mute" : [ 0.0 ]
 									}
 ,
 									"style" : "",
 									"text" : "autopattr",
-									"varname" : "u038002686"
+									"varname" : "u656007644"
 								}
 
 							}
@@ -578,15 +579,6 @@
 									"angle" : 0.0,
 									"background" : 1,
 									"bgcolor" : [ 0.137255, 0.145098, 0.160784, 0.65 ],
-									"bgfillcolor" : [ 										{
-											"type" : "color",
-											"color1" : [ 0.75, 0.79, 0.93, 1.0 ],
-											"color2" : [ 0.66, 0.66, 0.72, 1.0 ],
-											"color" : [ 0.137255, 0.145098, 0.160784, 0.65 ],
-											"angle" : 0.0,
-											"proportion" : 0.39
-										}
- ],
 									"id" : "obj-130",
 									"maxclass" : "panel",
 									"mode" : 0,
@@ -606,15 +598,6 @@
 									"angle" : 0.0,
 									"background" : 1,
 									"bgcolor" : [ 0.367404, 0.389405, 0.430238, 1.0 ],
-									"bgfillcolor" : [ 										{
-											"type" : "color",
-											"color1" : [ 0.75, 0.79, 0.93, 1.0 ],
-											"color2" : [ 0.66, 0.66, 0.72, 1.0 ],
-											"color" : [ 0.367404, 0.389405, 0.430238, 1.0 ],
-											"angle" : 0.0,
-											"proportion" : 0.39
-										}
- ],
 									"id" : "obj-131",
 									"maxclass" : "panel",
 									"mode" : 0,
@@ -634,15 +617,6 @@
 									"angle" : 0.0,
 									"background" : 1,
 									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-									"bgfillcolor" : [ 										{
-											"type" : "color",
-											"color1" : [ 0.75, 0.79, 0.93, 1.0 ],
-											"color2" : [ 0.66, 0.66, 0.72, 1.0 ],
-											"color" : [ 0.0, 0.0, 0.0, 1.0 ],
-											"angle" : 0.0,
-											"proportion" : 0.39
-										}
- ],
 									"id" : "obj-135",
 									"maxclass" : "panel",
 									"mode" : 0,
@@ -886,10 +860,10 @@
  ],
 		"lines" : [  ],
 		"parameters" : 		{
+			"obj-10::obj-32" : [ "Release", "Release", 0 ],
 			"obj-10::obj-20" : [ "mute", "mute", 0 ],
-			"obj-10::obj-6" : [ "Sustain[1]", "Sustain", 0 ],
-			"obj-10::obj-32" : [ "Release[1]", "Release", 0 ],
-			"obj-10::obj-45" : [ "Attack[1]", "Attack", 0 ]
+			"obj-10::obj-45" : [ "Attack", "Attack", 0 ],
+			"obj-10::obj-6" : [ "Sustain", "Sustain", 0 ]
 		}
 ,
 		"dependency_cache" : [  ],

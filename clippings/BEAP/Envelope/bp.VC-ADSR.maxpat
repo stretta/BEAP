@@ -157,8 +157,7 @@
 									"presentation" : 1,
 									"presentation_rect" : [ 71.0, 2.0, 10.049012, 10.748189 ],
 									"style" : "",
-									"text" : "",
-									"usecustombgoncolor" : 1
+									"text" : ""
 								}
 
 							}
@@ -247,7 +246,8 @@
 									"numinlets" : 0,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 153.142456, 427.900635, 25.0, 25.0 ]
+									"patching_rect" : [ 153.142456, 427.900635, 25.0, 25.0 ],
+									"style" : ""
 								}
 
 							}
@@ -265,8 +265,7 @@
 									"presentation" : 1,
 									"presentation_rect" : [ 31.0, 2.0, 10.049012, 10.748189 ],
 									"style" : "",
-									"text" : "",
-									"usecustombgoncolor" : 1
+									"text" : ""
 								}
 
 							}
@@ -449,7 +448,8 @@
 									"maxclass" : "outlet",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 363.874451, 1227.15918, 25.0, 25.0 ]
+									"patching_rect" : [ 363.874451, 1227.15918, 25.0, 25.0 ],
+									"style" : ""
 								}
 
 							}
@@ -546,7 +546,7 @@
 											"parameter_type" : 0,
 											"parameter_mmax" : 100.0,
 											"parameter_initial_enable" : 1,
-											"parameter_initial" : [ 1 ],
+											"parameter_initial" : [ 80 ],
 											"parameter_unitstyle" : 5
 										}
 
@@ -583,7 +583,7 @@
 											"parameter_mmin" : 0.1,
 											"parameter_mmax" : 4000.0,
 											"parameter_initial_enable" : 1,
-											"parameter_initial" : [ 1 ],
+											"parameter_initial" : [ 500 ],
 											"parameter_unitstyle" : 2,
 											"parameter_exponent" : 4.0
 										}
@@ -621,7 +621,7 @@
 											"parameter_mmin" : 0.1,
 											"parameter_mmax" : 1000.0,
 											"parameter_initial_enable" : 1,
-											"parameter_initial" : [ 1 ],
+											"parameter_initial" : [ 50 ],
 											"parameter_unitstyle" : 2,
 											"parameter_exponent" : 4.0
 										}
@@ -671,7 +671,8 @@
 									"numinlets" : 0,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 856.647644, 472.857788, 25.0, 25.0 ]
+									"patching_rect" : [ 856.647644, 472.857788, 25.0, 25.0 ],
+									"style" : ""
 								}
 
 							}
@@ -710,7 +711,7 @@
 									"presentation_rect" : [ 129.523849, 59.646118, 60.799217, 15.0 ],
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
-											"parameter_longname" : "SustainCV[1]",
+											"parameter_longname" : "SustainCV",
 											"parameter_shortname" : "SustainCV",
 											"parameter_type" : 0,
 											"parameter_mmax" : 100.0,
@@ -764,7 +765,8 @@
 									"numinlets" : 0,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 976.920532, 696.505005, 25.0, 25.0 ]
+									"patching_rect" : [ 976.920532, 696.505005, 25.0, 25.0 ],
+									"style" : ""
 								}
 
 							}
@@ -893,7 +895,7 @@
 									"presentation_rect" : [ 193.285782, 59.646118, 60.799217, 15.0 ],
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
-											"parameter_longname" : "ReleaseCV[1]",
+											"parameter_longname" : "ReleaseCV",
 											"parameter_shortname" : "ReleaseCV",
 											"parameter_type" : 0,
 											"parameter_mmax" : 100.0,
@@ -963,7 +965,8 @@
 									"numinlets" : 0,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 840.256775, 68.561218, 25.0, 25.0 ]
+									"patching_rect" : [ 840.256775, 68.561218, 25.0, 25.0 ],
+									"style" : ""
 								}
 
 							}
@@ -1092,7 +1095,7 @@
 									"presentation_rect" : [ 65.761925, 59.646118, 60.799217, 15.0 ],
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
-											"parameter_longname" : "DecayCV[1]",
+											"parameter_longname" : "DecayCV",
 											"parameter_shortname" : "DecayCV",
 											"parameter_type" : 0,
 											"parameter_mmax" : 100.0,
@@ -1162,7 +1165,8 @@
 									"numinlets" : 0,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 450.090027, 354.061188, 25.0, 25.0 ]
+									"patching_rect" : [ 450.090027, 354.061188, 25.0, 25.0 ],
+									"style" : ""
 								}
 
 							}
@@ -1264,7 +1268,8 @@
 									"numinlets" : 0,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 43.0, 427.900635, 25.0, 25.0 ]
+									"patching_rect" : [ 43.0, 427.900635, 25.0, 25.0 ],
+									"style" : ""
 								}
 
 							}
@@ -1303,7 +1308,7 @@
 									"presentation_rect" : [ 2.0, 59.646118, 60.799217, 15.0 ],
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
-											"parameter_longname" : "AttackCV[1]",
+											"parameter_longname" : "AttackCV",
 											"parameter_shortname" : "AttackCV",
 											"parameter_type" : 0,
 											"parameter_mmax" : 100.0,
@@ -1369,8 +1374,8 @@
 									"presentation_rect" : [ 193.285782, 78.292236, 60.799217, 15.0 ],
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
-											"parameter_longname" : "filter envelope release curve[1]",
-											"parameter_shortname" : "filter envelope release curve",
+											"parameter_longname" : "release_curve",
+											"parameter_shortname" : "release_curve",
 											"parameter_type" : 0,
 											"parameter_mmax" : 2.0,
 											"parameter_initial_enable" : 1,
@@ -1381,7 +1386,7 @@
 									}
 ,
 									"textcolor" : [ 1.0, 1.0, 1.0, 0.6 ],
-									"varname" : "filter envelope release curve"
+									"varname" : "release_curve"
 								}
 
 							}
@@ -1405,8 +1410,8 @@
 									"presentation_rect" : [ 65.761925, 78.292236, 60.799217, 15.0 ],
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
-											"parameter_longname" : "filter envelope decay curve[1]",
-											"parameter_shortname" : "filter envelope decay curve",
+											"parameter_longname" : "decay_curve",
+											"parameter_shortname" : "decay_curve",
 											"parameter_type" : 0,
 											"parameter_mmax" : 2.0,
 											"parameter_initial_enable" : 1,
@@ -1417,7 +1422,7 @@
 									}
 ,
 									"textcolor" : [ 1.0, 1.0, 1.0, 0.6 ],
-									"varname" : "filter envelope decay curve"
+									"varname" : "decay_curve"
 								}
 
 							}
@@ -1441,8 +1446,8 @@
 									"presentation_rect" : [ 2.0, 78.292236, 60.799217, 15.0 ],
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
-											"parameter_longname" : "filter envelope attack curve[1]",
-											"parameter_shortname" : "filter envelope attack curve",
+											"parameter_longname" : "attack_curve",
+											"parameter_shortname" : "attack_curve",
 											"parameter_type" : 0,
 											"parameter_mmax" : 2.0,
 											"parameter_initial_enable" : 1,
@@ -1453,7 +1458,7 @@
 									}
 ,
 									"textcolor" : [ 1.0, 1.0, 1.0, 0.6 ],
-									"varname" : "filter envelope attack curve"
+									"varname" : "attack_curve"
 								}
 
 							}
@@ -3147,7 +3152,7 @@
 									"outlettype" : [ "", "", "", "" ],
 									"patching_rect" : [ 18.0, 113.0, 59.5, 22.0 ],
 									"restore" : 									{
-										"Attack" : [ 5.0 ],
+										"Attack" : [ 50.0 ],
 										"AttackCV" : [ 0.0 ],
 										"Decay" : [ 50.0 ],
 										"DecayCV" : [ 0.0 ],
@@ -3156,14 +3161,14 @@
 										"ReleaseCV" : [ 0.0 ],
 										"Sustain" : [ 80.0 ],
 										"SustainCV" : [ 0.0 ],
-										"filter envelope attack curve" : [ 0.5 ],
-										"filter envelope decay curve" : [ 0.5 ],
-										"filter envelope release curve" : [ 0.5 ]
+										"attack_curve" : [ 1.0 ],
+										"decay_curve" : [ 1.0 ],
+										"release_curve" : [ 1.0 ]
 									}
 ,
 									"style" : "",
 									"text" : "autopattr",
-									"varname" : "u490002947"
+									"varname" : "u240009477"
 								}
 
 							}
@@ -3220,7 +3225,7 @@
 									"presentation_rect" : [ 202.084991, 19.0, 52.0, 14.764645 ],
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
-											"parameter_longname" : "Mute[3]",
+											"parameter_longname" : "Mute",
 											"parameter_shortname" : "Mute",
 											"parameter_type" : 2,
 											"parameter_mmax" : 1.0,
@@ -3260,15 +3265,6 @@
 									"angle" : 0.0,
 									"background" : 1,
 									"bgcolor" : [ 0.137255, 0.145098, 0.160784, 0.65 ],
-									"bgfillcolor" : [ 										{
-											"type" : "color",
-											"color1" : [ 0.75, 0.79, 0.93, 1.0 ],
-											"color2" : [ 0.66, 0.66, 0.72, 1.0 ],
-											"color" : [ 0.137255, 0.145098, 0.160784, 0.65 ],
-											"angle" : 0.0,
-											"proportion" : 0.39
-										}
- ],
 									"id" : "obj-15",
 									"maxclass" : "panel",
 									"mode" : 0,
@@ -3288,15 +3284,6 @@
 									"angle" : 0.0,
 									"background" : 1,
 									"bgcolor" : [ 0.367404, 0.389405, 0.430238, 1.0 ],
-									"bgfillcolor" : [ 										{
-											"type" : "color",
-											"color1" : [ 0.75, 0.79, 0.93, 1.0 ],
-											"color2" : [ 0.66, 0.66, 0.72, 1.0 ],
-											"color" : [ 0.367404, 0.389405, 0.430238, 1.0 ],
-											"angle" : 0.0,
-											"proportion" : 0.39
-										}
- ],
 									"id" : "obj-18",
 									"maxclass" : "panel",
 									"mode" : 0,
@@ -3316,15 +3303,6 @@
 									"angle" : 0.0,
 									"background" : 1,
 									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-									"bgfillcolor" : [ 										{
-											"type" : "color",
-											"color1" : [ 0.75, 0.79, 0.93, 1.0 ],
-											"color2" : [ 0.66, 0.66, 0.72, 1.0 ],
-											"color" : [ 0.0, 0.0, 0.0, 1.0 ],
-											"angle" : 0.0,
-											"proportion" : 0.39
-										}
- ],
 									"id" : "obj-21",
 									"maxclass" : "panel",
 									"mode" : 0,
@@ -4069,18 +4047,18 @@
  ],
 		"lines" : [  ],
 		"parameters" : 		{
-			"obj-2::obj-46" : [ "filter envelope decay curve[1]", "filter envelope decay curve", 0 ],
-			"obj-2::obj-174" : [ "Attack", "Attack", 0 ],
-			"obj-2::obj-144" : [ "SustainCV[1]", "SustainCV", 0 ],
-			"obj-2::obj-150" : [ "Decay", "Decay", 0 ],
 			"obj-2::obj-151" : [ "Release", "Release", 0 ],
-			"obj-2::obj-45" : [ "filter envelope release curve[1]", "filter envelope release curve", 0 ],
+			"obj-2::obj-137" : [ "ReleaseCV", "ReleaseCV", 0 ],
+			"obj-2::obj-46" : [ "decay_curve", "decay_curve", 0 ],
+			"obj-2::obj-47" : [ "attack_curve", "attack_curve", 0 ],
+			"obj-2::obj-174" : [ "Attack", "Attack", 0 ],
+			"obj-2::obj-90" : [ "AttackCV", "AttackCV", 0 ],
+			"obj-2::obj-12" : [ "Mute", "Mute", 0 ],
+			"obj-2::obj-144" : [ "SustainCV", "SustainCV", 0 ],
+			"obj-2::obj-122" : [ "DecayCV", "DecayCV", 0 ],
 			"obj-2::obj-152" : [ "Sustain", "Sustain", 0 ],
-			"obj-2::obj-47" : [ "filter envelope attack curve[1]", "filter envelope attack curve", 0 ],
-			"obj-2::obj-137" : [ "ReleaseCV[1]", "ReleaseCV", 0 ],
-			"obj-2::obj-122" : [ "DecayCV[1]", "DecayCV", 0 ],
-			"obj-2::obj-12" : [ "Mute[3]", "Mute", 0 ],
-			"obj-2::obj-90" : [ "AttackCV[1]", "AttackCV", 0 ]
+			"obj-2::obj-45" : [ "release_curve", "release_curve", 0 ],
+			"obj-2::obj-150" : [ "Decay", "Decay", 0 ]
 		}
 ,
 		"dependency_cache" : [  ],

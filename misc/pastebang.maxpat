@@ -5,7 +5,7 @@
 			"major" : 7,
 			"minor" : 0,
 			"revision" : 0,
-			"architecture" : "x86",
+			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
@@ -41,7 +41,8 @@
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 134.0, 302.0, 30.0, 30.0 ]
+					"patching_rect" : [ 134.0, 302.0, 30.0, 30.0 ],
+					"style" : ""
 				}
 
 			}
@@ -69,18 +70,19 @@
 					"patching_rect" : [ 134.0, 182.0, 43.0, 43.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_longname" : "live.toggle",
-							"parameter_shortname" : "live.toggle",
+							"parameter_longname" : "pastebang",
+							"parameter_shortname" : "pastebang",
 							"parameter_type" : 2,
 							"parameter_mmax" : 1.0,
 							"parameter_enum" : [ "off", "on" ],
 							"parameter_initial_enable" : 1,
-							"parameter_initial" : [ 1 ]
+							"parameter_initial" : [ 1 ],
+							"parameter_invisible" : 2
 						}
 
 					}
 ,
-					"varname" : "live.toggle"
+					"varname" : "pastebang"
 				}
 
 			}
@@ -105,7 +107,7 @@
 			}
  ],
 		"parameters" : 		{
-			"obj-2" : [ "live.toggle", "live.toggle", 0 ]
+			"obj-2" : [ "pastebang", "pastebang", 0 ]
 		}
 ,
 		"dependency_cache" : [  ],

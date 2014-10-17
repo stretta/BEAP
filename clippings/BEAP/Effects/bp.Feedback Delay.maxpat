@@ -143,7 +143,7 @@
 									"outlettype" : [ "", "", "", "" ],
 									"patching_rect" : [ 39.173828, 129.0, 59.5, 22.0 ],
 									"restore" : 									{
-										"Feedback" : [ 16.0 ],
+										"Feedback" : [ -96.0 ],
 										"HPF" : [ 20.0 ],
 										"LPF" : [ 20000.0 ],
 										"Mix" : [ 50.0 ],
@@ -153,7 +153,7 @@
 ,
 									"style" : "",
 									"text" : "autopattr",
-									"varname" : "u234006234"
+									"varname" : "u175005858"
 								}
 
 							}
@@ -362,10 +362,11 @@
 											"parameter_longname" : "Feedback",
 											"parameter_shortname" : "Feedback",
 											"parameter_type" : 0,
-											"parameter_mmax" : 100.0,
+											"parameter_mmin" : -96.0,
+											"parameter_mmax" : 0.0,
 											"parameter_initial_enable" : 1,
-											"parameter_initial" : [ 16 ],
-											"parameter_unitstyle" : 5
+											"parameter_initial" : [ -96 ],
+											"parameter_unitstyle" : 4
 										}
 
 									}
@@ -439,17 +440,17 @@
 							}
 , 							{
 								"box" : 								{
-									"fontface" : 1,
+									"fontface" : 0,
 									"fontname" : "Arial",
 									"fontsize" : 10.0,
 									"id" : "obj-519",
 									"maxclass" : "newobj",
-									"numinlets" : 2,
+									"numinlets" : 1,
 									"numoutlets" : 1,
-									"outlettype" : [ "float" ],
-									"patching_rect" : [ 417.307373, 539.940552, 42.0, 20.0 ],
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 417.307373, 539.940552, 36.0, 20.0 ],
 									"style" : "",
-									"text" : "* 0.001"
+									"text" : "dbtoa"
 								}
 
 							}
@@ -1094,18 +1095,16 @@
  ],
 		"lines" : [  ],
 		"parameters" : 		{
-			"obj-10::obj-27" : [ "Feedback", "Feedback", 0 ],
 			"obj-10::obj-50" : [ "LPF", "LPF", 0 ],
+			"obj-10::obj-27" : [ "Feedback", "Feedback", 0 ],
 			"obj-10::obj-7" : [ "bypass", "bypass", 0 ],
 			"obj-10::obj-118" : [ "Mix", "Mix", 0 ],
-			"obj-10::obj-9" : [ "time", "Time", 0 ],
-			"obj-10::obj-49" : [ "HPF", "HPF", 0 ]
+			"obj-10::obj-49" : [ "HPF", "HPF", 0 ],
+			"obj-10::obj-9" : [ "time", "Time", 0 ]
 		}
 ,
 		"dependency_cache" : [ 			{
 				"name" : "M4L.bal2~.maxpat",
-				"bootpath" : "/Applications/Max 7/Max.app/Contents/Resources/C74/patchers/m4l/Tools resources",
-				"patcherrelativepath" : "../../../../../../../Applications/Max 7/Max.app/Contents/Resources/C74/patchers/m4l/Tools resources",
 				"type" : "JSON",
 				"implicit" : 1
 			}

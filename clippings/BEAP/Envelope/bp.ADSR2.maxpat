@@ -87,6 +87,19 @@
 						"style" : "",
 						"boxes" : [ 							{
 								"box" : 								{
+									"id" : "obj-6",
+									"maxclass" : "newobj",
+									"numinlets" : 2,
+									"numoutlets" : 1,
+									"outlettype" : [ "signal" ],
+									"patching_rect" : [ 531.730347, 661.0, 32.0, 22.0 ],
+									"style" : "",
+									"text" : "*~ 5"
+								}
+
+							}
+, 							{
+								"box" : 								{
 									"id" : "obj-1",
 									"maxclass" : "comment",
 									"numinlets" : 1,
@@ -126,8 +139,7 @@
 									"presentation" : 1,
 									"presentation_rect" : [ 28.926483, 3.375908, 10.049012, 10.748189 ],
 									"style" : "",
-									"text" : "",
-									"usecustombgoncolor" : 1
+									"text" : ""
 								}
 
 							}
@@ -220,7 +232,8 @@
 									"maxclass" : "outlet",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 413.352783, 768.0, 25.0, 25.0 ]
+									"patching_rect" : [ 413.352783, 768.0, 25.0, 25.0 ],
+									"style" : ""
 								}
 
 							}
@@ -247,7 +260,7 @@
 ,
 									"style" : "",
 									"text" : "autopattr",
-									"varname" : "u357007605"
+									"varname" : "u283008308"
 								}
 
 							}
@@ -259,7 +272,8 @@
 									"numinlets" : 0,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 704.935547, 246.199829, 25.0, 25.0 ]
+									"patching_rect" : [ 704.935547, 246.199829, 25.0, 25.0 ],
+									"style" : ""
 								}
 
 							}
@@ -2270,15 +2284,6 @@
 									"angle" : 0.0,
 									"background" : 1,
 									"bgcolor" : [ 0.137255, 0.145098, 0.160784, 0.65 ],
-									"bgfillcolor" : [ 										{
-											"type" : "color",
-											"color1" : [ 0.75, 0.79, 0.93, 1.0 ],
-											"color2" : [ 0.66, 0.66, 0.72, 1.0 ],
-											"color" : [ 0.137255, 0.145098, 0.160784, 0.65 ],
-											"angle" : 0.0,
-											"proportion" : 0.39
-										}
- ],
 									"id" : "obj-130",
 									"maxclass" : "panel",
 									"mode" : 0,
@@ -2298,15 +2303,6 @@
 									"angle" : 0.0,
 									"background" : 1,
 									"bgcolor" : [ 0.367404, 0.389405, 0.430238, 1.0 ],
-									"bgfillcolor" : [ 										{
-											"type" : "color",
-											"color1" : [ 0.75, 0.79, 0.93, 1.0 ],
-											"color2" : [ 0.66, 0.66, 0.72, 1.0 ],
-											"color" : [ 0.367404, 0.389405, 0.430238, 1.0 ],
-											"angle" : 0.0,
-											"proportion" : 0.39
-										}
- ],
 									"id" : "obj-131",
 									"maxclass" : "panel",
 									"mode" : 0,
@@ -2326,15 +2322,6 @@
 									"angle" : 0.0,
 									"background" : 1,
 									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-									"bgfillcolor" : [ 										{
-											"type" : "color",
-											"color1" : [ 0.75, 0.79, 0.93, 1.0 ],
-											"color2" : [ 0.66, 0.66, 0.72, 1.0 ],
-											"color" : [ 0.0, 0.0, 0.0, 1.0 ],
-											"angle" : 0.0,
-											"proportion" : 0.39
-										}
- ],
 									"id" : "obj-135",
 									"maxclass" : "panel",
 									"mode" : 0,
@@ -2485,7 +2472,7 @@
 							}
 , 							{
 								"patchline" : 								{
-									"destination" : [ "obj-4", 1 ],
+									"destination" : [ "obj-6", 0 ],
 									"disabled" : 0,
 									"hidden" : 0,
 									"source" : [ "obj-183", 0 ]
@@ -2611,6 +2598,15 @@
 							}
 , 							{
 								"patchline" : 								{
+									"destination" : [ "obj-4", 1 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-6", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
 									"destination" : [ "obj-20", 0 ],
 									"disabled" : 0,
 									"hidden" : 0,
@@ -2631,13 +2627,13 @@
 		"lines" : [  ],
 		"parameters" : 		{
 			"obj-10::obj-31" : [ "Release", "Release", 0 ],
-			"obj-10::obj-45" : [ "release curve", "release curve", 0 ],
-			"obj-10::obj-29" : [ "Decay", "Decay", 0 ],
-			"obj-10::obj-47" : [ "attack curve", "attack curve", 0 ],
 			"obj-10::obj-26" : [ "mute", "mute", 0 ],
-			"obj-10::obj-32" : [ "Sustain", "Sustain", 0 ],
 			"obj-10::obj-2" : [ "Attack", "Attack", 0 ],
-			"obj-10::obj-46" : [ "decay curve", "decay curve", 0 ]
+			"obj-10::obj-45" : [ "release curve", "release curve", 0 ],
+			"obj-10::obj-47" : [ "attack curve", "attack curve", 0 ],
+			"obj-10::obj-32" : [ "Sustain", "Sustain", 0 ],
+			"obj-10::obj-46" : [ "decay curve", "decay curve", 0 ],
+			"obj-10::obj-29" : [ "Decay", "Decay", 0 ]
 		}
 ,
 		"dependency_cache" : [  ],
