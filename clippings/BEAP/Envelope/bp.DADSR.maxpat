@@ -216,7 +216,7 @@
 											"parameter_type" : 0,
 											"parameter_mmax" : 8000.0,
 											"parameter_initial_enable" : 1,
-											"parameter_initial" : [ 7 ],
+											"parameter_initial" : [ 0 ],
 											"parameter_unitstyle" : 2,
 											"parameter_exponent" : 4.0
 										}
@@ -317,8 +317,7 @@
 									"presentation" : 1,
 									"presentation_rect" : [ 28.926483, 2.375908, 10.049012, 10.748189 ],
 									"style" : "",
-									"text" : "",
-									"usecustombgoncolor" : 1
+									"text" : ""
 								}
 
 							}
@@ -435,7 +434,7 @@
 											"parameter_type" : 0,
 											"parameter_mmax" : 8000.0,
 											"parameter_initial_enable" : 1,
-											"parameter_initial" : [ 50 ],
+											"parameter_initial" : [ 500 ],
 											"parameter_unitstyle" : 2,
 											"parameter_exponent" : 2.0
 										}
@@ -532,7 +531,7 @@
 									"presentation_rect" : [ 227.268768, 19.238117, 45.0, 14.764645 ],
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
-											"parameter_longname" : "Mute[4]",
+											"parameter_longname" : "Mute",
 											"parameter_shortname" : "Mute",
 											"parameter_type" : 2,
 											"parameter_mmax" : 1.0,
@@ -562,7 +561,7 @@
 									"outlettype" : [ "", "", "", "" ],
 									"patching_rect" : [ 15.0, 113.0, 59.5, 22.0 ],
 									"restore" : 									{
-										"Attack" : [ 0.0 ],
+										"Attack" : [ 50.0 ],
 										"Decay" : [ 50.0 ],
 										"Delay" : [ 0.0 ],
 										"Legato" : [ 0.0 ],
@@ -573,7 +572,7 @@
 ,
 									"style" : "",
 									"text" : "autopattr",
-									"varname" : "u678002632"
+									"varname" : "u262003768"
 								}
 
 							}
@@ -614,7 +613,8 @@
 									"maxclass" : "outlet",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 328.6875, 550.0, 25.0, 25.0 ]
+									"patching_rect" : [ 328.6875, 550.0, 25.0, 25.0 ],
+									"style" : ""
 								}
 
 							}
@@ -626,7 +626,8 @@
 									"numinlets" : 0,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 416.0, 11.907501, 25.0, 25.0 ]
+									"patching_rect" : [ 416.0, 11.907501, 25.0, 25.0 ],
+									"style" : ""
 								}
 
 							}
@@ -686,15 +687,6 @@
 									"angle" : 0.0,
 									"background" : 1,
 									"bgcolor" : [ 0.137255, 0.145098, 0.160784, 0.65 ],
-									"bgfillcolor" : [ 										{
-											"type" : "color",
-											"color1" : [ 0.75, 0.79, 0.93, 1.0 ],
-											"color2" : [ 0.66, 0.66, 0.72, 1.0 ],
-											"color" : [ 0.137255, 0.145098, 0.160784, 0.65 ],
-											"angle" : 0.0,
-											"proportion" : 0.39
-										}
- ],
 									"id" : "obj-130",
 									"maxclass" : "panel",
 									"mode" : 0,
@@ -714,15 +706,6 @@
 									"angle" : 0.0,
 									"background" : 1,
 									"bgcolor" : [ 0.367404, 0.389405, 0.430238, 1.0 ],
-									"bgfillcolor" : [ 										{
-											"type" : "color",
-											"color1" : [ 0.75, 0.79, 0.93, 1.0 ],
-											"color2" : [ 0.66, 0.66, 0.72, 1.0 ],
-											"color" : [ 0.367404, 0.389405, 0.430238, 1.0 ],
-											"angle" : 0.0,
-											"proportion" : 0.39
-										}
- ],
 									"id" : "obj-131",
 									"maxclass" : "panel",
 									"mode" : 0,
@@ -742,15 +725,6 @@
 									"angle" : 0.0,
 									"background" : 1,
 									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-									"bgfillcolor" : [ 										{
-											"type" : "color",
-											"color1" : [ 0.75, 0.79, 0.93, 1.0 ],
-											"color2" : [ 0.66, 0.66, 0.72, 1.0 ],
-											"color" : [ 0.0, 0.0, 0.0, 1.0 ],
-											"angle" : 0.0,
-											"proportion" : 0.39
-										}
- ],
 									"id" : "obj-135",
 									"maxclass" : "panel",
 									"mode" : 0,
@@ -1030,13 +1004,13 @@
  ],
 		"lines" : [  ],
 		"parameters" : 		{
-			"obj-4::obj-1" : [ "Attack", "Attack", 0 ],
-			"obj-4::obj-20" : [ "Mute[4]", "Mute", 0 ],
-			"obj-4::obj-30" : [ "Legato", "Legato", 0 ],
-			"obj-4::obj-29" : [ "Decay", "Decay", 0 ],
 			"obj-4::obj-31" : [ "Release", "Release", 0 ],
+			"obj-4::obj-29" : [ "Decay", "Decay", 0 ],
 			"obj-4::obj-10" : [ "Delay", "Delay", 0 ],
-			"obj-4::obj-32" : [ "Sustain", "Sustain", 0 ]
+			"obj-4::obj-32" : [ "Sustain", "Sustain", 0 ],
+			"obj-4::obj-30" : [ "Legato", "Legato", 0 ],
+			"obj-4::obj-20" : [ "Mute", "Mute", 0 ],
+			"obj-4::obj-1" : [ "Attack", "Attack", 0 ]
 		}
 ,
 		"dependency_cache" : [  ],

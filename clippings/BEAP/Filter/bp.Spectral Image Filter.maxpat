@@ -15,9 +15,9 @@
 		"default_fontsize" : 12.0,
 		"default_fontface" : 0,
 		"default_fontname" : "Arial",
-		"gridonopen" : 0,
+		"gridonopen" : 1,
 		"gridsize" : [ 15.0, 15.0 ],
-		"gridsnaponopen" : 0,
+		"gridsnaponopen" : 1,
 		"statusbarvisible" : 1,
 		"toolbarvisible" : 1,
 		"lefttoolbarpinned" : 0,
@@ -66,9 +66,9 @@
 						"default_fontsize" : 12.0,
 						"default_fontface" : 0,
 						"default_fontname" : "Arial",
-						"gridonopen" : 0,
+						"gridonopen" : 1,
 						"gridsize" : [ 15.0, 15.0 ],
-						"gridsnaponopen" : 0,
+						"gridsnaponopen" : 1,
 						"statusbarvisible" : 1,
 						"toolbarvisible" : 1,
 						"lefttoolbarpinned" : 0,
@@ -290,8 +290,8 @@
 									"presentation_rect" : [ 309.268768, 155.381424, 45.0, 19.0 ],
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
-											"parameter_longname" : "number",
-											"parameter_shortname" : "number",
+											"parameter_longname" : "contrast",
+											"parameter_shortname" : "contrast",
 											"parameter_type" : 3,
 											"parameter_initial_enable" : 1,
 											"parameter_initial" : [ 1 ],
@@ -301,7 +301,7 @@
 									}
 ,
 									"style" : "",
-									"varname" : "number"
+									"varname" : "contrast"
 								}
 
 							}
@@ -333,8 +333,8 @@
 									"presentation_rect" : [ 252.268768, 155.381424, 43.0, 19.0 ],
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
-											"parameter_longname" : "number[1]",
-											"parameter_shortname" : "number[1]",
+											"parameter_longname" : "brightness",
+											"parameter_shortname" : "brightness",
 											"parameter_type" : 3,
 											"parameter_initial_enable" : 1,
 											"parameter_initial" : [ 1 ],
@@ -397,9 +397,9 @@
 										"default_fontsize" : 12.0,
 										"default_fontface" : 0,
 										"default_fontname" : "Arial",
-										"gridonopen" : 0,
+										"gridonopen" : 1,
 										"gridsize" : [ 15.0, 15.0 ],
-										"gridsnaponopen" : 0,
+										"gridsnaponopen" : 1,
 										"statusbarvisible" : 2,
 										"toolbarvisible" : 1,
 										"lefttoolbarpinned" : 0,
@@ -519,9 +519,9 @@
 														"default_fontsize" : 12.0,
 														"default_fontface" : 0,
 														"default_fontname" : "Arial",
-														"gridonopen" : 0,
+														"gridonopen" : 1,
 														"gridsize" : [ 15.0, 15.0 ],
-														"gridsnaponopen" : 0,
+														"gridsnaponopen" : 1,
 														"statusbarvisible" : 2,
 														"toolbarvisible" : 1,
 														"lefttoolbarpinned" : 0,
@@ -1267,6 +1267,25 @@
 
 															}
  ],
+														"styles" : [ 															{
+																"name" : "AudioStatus_Menu",
+																"default" : 																{
+																	"bgfillcolor" : 																	{
+																		"type" : "color",
+																		"color" : [ 0.294118, 0.313726, 0.337255, 1 ],
+																		"color1" : [ 0.454902, 0.462745, 0.482353, 0.0 ],
+																		"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
+																		"angle" : 270.0,
+																		"proportion" : 0.39,
+																		"autogradient" : 0
+																	}
+
+																}
+,
+																"parentstyle" : "",
+																"multi" : 0
+															}
+ ],
 														"bgfillcolor_type" : "color",
 														"bgfillcolor_color1" : [ 0.384314, 0.392157, 0.407843, 1.0 ],
 														"bgfillcolor_color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
@@ -1492,12 +1511,10 @@
 									"presentation" : 1,
 									"presentation_rect" : [ 345.032593, 114.508865, 64.032593, 19.0 ],
 									"rounded" : 8.0,
-									"selectioncolor" : [ 0.278431, 0.839216, 1.0, 1.0 ],
 									"style" : "",
 									"text" : "import",
 									"textcolor" : [ 1.0, 1.0, 1.0, 0.6 ],
-									"texton" : "start",
-									"usecustombgoncolor" : 1
+									"texton" : "start"
 								}
 
 							}
@@ -1683,8 +1700,8 @@
 											"parameter_longname" : "CV",
 											"parameter_shortname" : "CV",
 											"parameter_type" : 0,
-											"parameter_mmin" : -100.0,
-											"parameter_mmax" : 100.0,
+											"parameter_mmin" : -200.0,
+											"parameter_mmax" : 200.0,
 											"parameter_initial_enable" : 1,
 											"parameter_initial" : [ 0.0 ],
 											"parameter_unitstyle" : 5
@@ -2269,13 +2286,13 @@
 										"PositionCV" : [ 0.0 ],
 										"Response" : [ 1.0 ],
 										"bypass" : [ 0.0 ],
-										"number" : [ 1.0 ],
+										"contrast" : [ 1.0 ],
 										"number[1]" : [ 1.0 ]
 									}
 ,
 									"style" : "",
 									"text" : "autopattr",
-									"varname" : "u705003644"
+									"varname" : "u687002220"
 								}
 
 							}
@@ -2860,13 +2877,13 @@
  ],
 		"lines" : [  ],
 		"parameters" : 		{
-			"obj-6::obj-44" : [ "number[1]", "number[1]", 0 ],
-			"obj-6::obj-25" : [ "CV", "CV", 0 ],
-			"obj-6::obj-80" : [ "Response", "Response", 0 ],
-			"obj-6::obj-50" : [ "number", "number", 0 ],
-			"obj-6::obj-3" : [ "Position", "Position", 0 ],
 			"obj-6::obj-63::obj-8" : [ "StealthInit", "StealthInit", 0 ],
-			"obj-6::obj-54::obj-2" : [ "live.toggle", "live.toggle", 0 ],
+			"obj-6::obj-54::obj-2" : [ "pastebang", "pastebang", 0 ],
+			"obj-6::obj-44" : [ "brightness", "brightness", 0 ],
+			"obj-6::obj-25" : [ "CV", "CV", 0 ],
+			"obj-6::obj-50" : [ "contrast", "contrast", 0 ],
+			"obj-6::obj-3" : [ "Position", "Position", 0 ],
+			"obj-6::obj-80" : [ "Response", "Response", 0 ],
 			"obj-6::obj-7" : [ "bypass", "bypass", 0 ]
 		}
 ,
@@ -2879,8 +2896,8 @@
 			}
 , 			{
 				"name" : "pastebang.maxpat",
-				"bootpath" : "~/Documents/Beap/misc",
-				"patcherrelativepath" : "../../../misc",
+				"bootpath" : "/Applications/Max 7/Max.app/Contents/Resources/C74/packages/Beap/misc",
+				"patcherrelativepath" : "../../../../../../../Applications/Max 7/Max.app/Contents/Resources/C74/packages/Beap/misc",
 				"type" : "JSON",
 				"implicit" : 1
 			}
