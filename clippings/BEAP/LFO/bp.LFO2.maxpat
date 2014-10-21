@@ -15,9 +15,9 @@
 		"default_fontsize" : 12.0,
 		"default_fontface" : 0,
 		"default_fontname" : "Arial",
-		"gridonopen" : 0,
+		"gridonopen" : 1,
 		"gridsize" : [ 15.0, 15.0 ],
-		"gridsnaponopen" : 0,
+		"gridsnaponopen" : 1,
 		"statusbarvisible" : 1,
 		"toolbarvisible" : 1,
 		"lefttoolbarpinned" : 0,
@@ -66,9 +66,9 @@
 						"default_fontsize" : 12.0,
 						"default_fontface" : 0,
 						"default_fontname" : "Arial",
-						"gridonopen" : 0,
+						"gridonopen" : 1,
 						"gridsize" : [ 15.0, 15.0 ],
-						"gridsnaponopen" : 0,
+						"gridsnaponopen" : 1,
 						"statusbarvisible" : 1,
 						"toolbarvisible" : 1,
 						"lefttoolbarpinned" : 0,
@@ -344,7 +344,7 @@
 									"patching_rect" : [ 419.398132, 304.545044, 26.0, 26.0 ],
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
-											"parameter_longname" : "ReTriggerA[1]",
+											"parameter_longname" : "Re-Trigger",
 											"parameter_shortname" : "Re-Trigger",
 											"parameter_type" : 2,
 											"parameter_mmax" : 1.0,
@@ -380,7 +380,7 @@
 									"prototypename" : "M4L.dial.tiny",
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
-											"parameter_longname" : "SpectraLFORateSync[1]",
+											"parameter_longname" : "Rate",
 											"parameter_shortname" : "Rate",
 											"parameter_type" : 2,
 											"parameter_enum" : [ "1/48", "1/32", "1/24", "1/16", "1/12", "1/8", "1/6", "1/4", "1/3", "1/2", "1", "2", "3", "4", "6", "8" ],
@@ -416,7 +416,7 @@
 									"presentation_rect" : [ 62.931854, 79.405006, 50.725529, 15.0 ],
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
-											"parameter_longname" : "SpectraLFOShape[1]",
+											"parameter_longname" : "Shape",
 											"parameter_shortname" : "Shape",
 											"parameter_type" : 2,
 											"parameter_enum" : [ "sine", "up", "down", "triangle", "rect", "random" ],
@@ -465,7 +465,7 @@
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
 											"parameter_order" : 1,
-											"parameter_longname" : "InvertA[1]",
+											"parameter_longname" : "Phase-Inversion",
 											"parameter_shortname" : "Phase-Inversion",
 											"parameter_type" : 2,
 											"parameter_mmax" : 1.0,
@@ -505,8 +505,7 @@
 									"prototypename" : "amount",
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
-											"parameter_linknames" : 1,
-											"parameter_longname" : "SpectraLFOPhase[1]",
+											"parameter_longname" : "Phase",
 											"parameter_shortname" : "Phase",
 											"parameter_type" : 0,
 											"parameter_mmin" : -1.0,
@@ -567,7 +566,7 @@
 										"default_fontname" : "Arial Bold",
 										"gridonopen" : 2,
 										"gridsize" : [ 8.0, 8.0 ],
-										"gridsnaponopen" : 0,
+										"gridsnaponopen" : 1,
 										"statusbarvisible" : 1,
 										"toolbarvisible" : 1,
 										"lefttoolbarpinned" : 0,
@@ -1158,7 +1157,7 @@
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
 											"parameter_order" : 1,
-											"parameter_longname" : "SpectraLFOTimeMode[1]",
+											"parameter_longname" : "Time Mode",
 											"parameter_shortname" : "Time Mode",
 											"parameter_type" : 2,
 											"parameter_mmax" : 1.0,
@@ -1199,7 +1198,7 @@
 									"prototypename" : "freq",
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
-											"parameter_longname" : "SpectraLFORate[1]",
+											"parameter_longname" : "SyncRate",
 											"parameter_shortname" : "Rate",
 											"parameter_type" : 0,
 											"parameter_mmax" : 40.0,
@@ -1245,7 +1244,7 @@
 										"default_fontname" : "Arial Bold",
 										"gridonopen" : 2,
 										"gridsize" : [ 8.0, 8.0 ],
-										"gridsnaponopen" : 0,
+										"gridsnaponopen" : 1,
 										"statusbarvisible" : 1,
 										"toolbarvisible" : 1,
 										"lefttoolbarpinned" : 0,
@@ -1378,9 +1377,9 @@
 														"default_fontsize" : 10.0,
 														"default_fontface" : 0,
 														"default_fontname" : "Arial",
-														"gridonopen" : 0,
+														"gridonopen" : 1,
 														"gridsize" : [ 15.0, 15.0 ],
-														"gridsnaponopen" : 0,
+														"gridsnaponopen" : 1,
 														"statusbarvisible" : 1,
 														"toolbarvisible" : 1,
 														"lefttoolbarpinned" : 0,
@@ -1672,9 +1671,9 @@
 																		"default_fontsize" : 10.0,
 																		"default_fontface" : 0,
 																		"default_fontname" : "Arial",
-																		"gridonopen" : 0,
+																		"gridonopen" : 1,
 																		"gridsize" : [ 15.0, 15.0 ],
-																		"gridsnaponopen" : 0,
+																		"gridsnaponopen" : 1,
 																		"statusbarvisible" : 1,
 																		"toolbarvisible" : 1,
 																		"lefttoolbarpinned" : 0,
@@ -3005,7 +3004,7 @@
 										"default_fontname" : "Arial Bold",
 										"gridonopen" : 2,
 										"gridsize" : [ 8.0, 8.0 ],
-										"gridsnaponopen" : 0,
+										"gridsnaponopen" : 1,
 										"statusbarvisible" : 1,
 										"toolbarvisible" : 1,
 										"lefttoolbarpinned" : 0,
@@ -3375,9 +3374,9 @@
 														"default_fontsize" : 10.0,
 														"default_fontface" : 0,
 														"default_fontname" : "Arial Bold",
-														"gridonopen" : 0,
+														"gridonopen" : 1,
 														"gridsize" : [ 8.0, 8.0 ],
-														"gridsnaponopen" : 0,
+														"gridsnaponopen" : 1,
 														"statusbarvisible" : 1,
 														"toolbarvisible" : 1,
 														"lefttoolbarpinned" : 0,
@@ -3810,9 +3809,9 @@
 														"default_fontsize" : 9.0,
 														"default_fontface" : 0,
 														"default_fontname" : "Arial",
-														"gridonopen" : 0,
+														"gridonopen" : 1,
 														"gridsize" : [ 15.0, 15.0 ],
-														"gridsnaponopen" : 0,
+														"gridsnaponopen" : 1,
 														"statusbarvisible" : 1,
 														"toolbarvisible" : 1,
 														"lefttoolbarpinned" : 0,
@@ -4725,11 +4724,11 @@
 									"outlettype" : [ "", "", "", "" ],
 									"patching_rect" : [ 3.0, 111.000015, 59.5, 22.0 ],
 									"restore" : 									{
-										"FreqRate" : [ 0.359378 ],
+										"FreqRate" : [ 0.6 ],
 										"Mute" : [ 0.0 ],
 										"Phase-Inversion" : [ 0.0 ],
 										"SpectraLFOPhase[1]" : [ 0.0 ],
-										"SpectraShape" : [ 0.0 ],
+										"SpectraShape" : [ 1.0 ],
 										"SyncRate" : [ 5.0 ],
 										"TimeMode" : [ 1.0 ],
 										"re-trigger" : [ 0.0 ]
@@ -4737,7 +4736,7 @@
 ,
 									"style" : "",
 									"text" : "autopattr",
-									"varname" : "u192002899"
+									"varname" : "u589002000"
 								}
 
 							}
@@ -4772,7 +4771,7 @@
 									"presentation_rect" : [ 112.518768, 19.0, 52.0, 14.764645 ],
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
-											"parameter_longname" : "Mute[6]",
+											"parameter_longname" : "Mute",
 											"parameter_shortname" : "Mute",
 											"parameter_type" : 2,
 											"parameter_mmax" : 1.0,
@@ -5213,14 +5212,14 @@
  ],
 		"lines" : [  ],
 		"parameters" : 		{
-			"obj-74::obj-75" : [ "SpectraLFOShape[1]", "Shape", 0 ],
-			"obj-74::obj-74" : [ "SpectraLFORateSync[1]", "Rate", 0 ],
-			"obj-74::obj-81" : [ "InvertA[1]", "Phase-Inversion", 1 ],
-			"obj-74::obj-12" : [ "Mute[6]", "Mute", 0 ],
-			"obj-74::obj-89" : [ "SpectraLFORate[1]", "Rate", 0 ],
-			"obj-74::obj-88" : [ "SpectraLFOTimeMode[1]", "Time Mode", 1 ],
-			"obj-74::obj-94" : [ "ReTriggerA[1]", "Re-Trigger", 0 ],
-			"obj-74::obj-144" : [ "SpectraLFOPhase[1]", "Phase", 0 ]
+			"obj-74::obj-94" : [ "Re-Trigger", "Re-Trigger", 0 ],
+			"obj-74::obj-75" : [ "Shape", "Shape", 0 ],
+			"obj-74::obj-12" : [ "Mute", "Mute", 0 ],
+			"obj-74::obj-81" : [ "Phase-Inversion", "Phase-Inversion", 1 ],
+			"obj-74::obj-89" : [ "SyncRate", "Rate", 0 ],
+			"obj-74::obj-144" : [ "Phase", "Phase", 0 ],
+			"obj-74::obj-88" : [ "Time Mode", "Time Mode", 1 ],
+			"obj-74::obj-74" : [ "Rate", "Rate", 0 ]
 		}
 ,
 		"dependency_cache" : [  ],

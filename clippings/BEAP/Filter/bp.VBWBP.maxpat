@@ -15,9 +15,9 @@
 		"default_fontsize" : 12.0,
 		"default_fontface" : 0,
 		"default_fontname" : "Arial",
-		"gridonopen" : 0,
+		"gridonopen" : 1,
 		"gridsize" : [ 15.0, 15.0 ],
-		"gridsnaponopen" : 0,
+		"gridsnaponopen" : 1,
 		"statusbarvisible" : 2,
 		"toolbarvisible" : 1,
 		"lefttoolbarpinned" : 0,
@@ -66,9 +66,9 @@
 						"default_fontsize" : 12.0,
 						"default_fontface" : 0,
 						"default_fontname" : "Arial",
-						"gridonopen" : 0,
+						"gridonopen" : 1,
 						"gridsize" : [ 15.0, 15.0 ],
-						"gridsnaponopen" : 0,
+						"gridsnaponopen" : 1,
 						"statusbarvisible" : 1,
 						"toolbarvisible" : 1,
 						"lefttoolbarpinned" : 0,
@@ -195,7 +195,8 @@
 									"numinlets" : 0,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 506.372681, 1133.972046, 25.0, 25.0 ]
+									"patching_rect" : [ 506.372681, 1133.972046, 25.0, 25.0 ],
+									"style" : ""
 								}
 
 							}
@@ -354,7 +355,6 @@
 								"box" : 								{
 									"bgcolor" : [ 0.941176, 0.941176, 0.941176, 0.0 ],
 									"dbdisplay" : 0,
-									"elementcolor" : [ 0.627451, 0.627451, 0.627451, 0.0 ],
 									"fontface" : 0,
 									"id" : "obj-91",
 									"linmarkers" : [ 0.0, 11025.0, 16537.5 ],
@@ -379,7 +379,6 @@
 								"box" : 								{
 									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"dbdisplay" : 0,
-									"elementcolor" : [ 0.627451, 0.627451, 0.627451, 0.0 ],
 									"fontface" : 0,
 									"id" : "obj-90",
 									"linmarkers" : [ 0.0, 11025.0, 16537.5 ],
@@ -582,10 +581,12 @@
 									"presentation_rect" : [ 133.358734, 138.65155, 73.0, 43.656387 ],
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
-											"parameter_longname" : "live.tab",
-											"parameter_shortname" : "live.tab",
+											"parameter_longname" : "mode",
+											"parameter_shortname" : "mode",
 											"parameter_type" : 2,
 											"parameter_enum" : [ "Band Pass", "Band Reject" ],
+											"parameter_initial_enable" : 1,
+											"parameter_initial" : [ 1.0 ],
 											"parameter_unitstyle" : 0
 										}
 
@@ -908,15 +909,6 @@
 								"box" : 								{
 									"angle" : 0.0,
 									"bgcolor" : [ 0.0, 0.0, 0.0, 0.36 ],
-									"bgfillcolor" : [ 										{
-											"type" : "color",
-											"color1" : [ 0.75, 0.79, 0.93, 1.0 ],
-											"color2" : [ 0.66, 0.66, 0.72, 1.0 ],
-											"color" : [ 0.0, 0.0, 0.0, 0.36 ],
-											"angle" : 0,
-											"proportion" : 0.39
-										}
- ],
 									"bordercolor" : [ 0.0, 0.0, 0.0, 0.0 ],
 									"id" : "obj-121",
 									"maxclass" : "panel",
@@ -936,15 +928,6 @@
 								"box" : 								{
 									"angle" : 0.0,
 									"bgcolor" : [ 0.0, 0.0, 0.0, 0.36 ],
-									"bgfillcolor" : [ 										{
-											"type" : "color",
-											"color1" : [ 0.75, 0.79, 0.93, 1.0 ],
-											"color2" : [ 0.66, 0.66, 0.72, 1.0 ],
-											"color" : [ 0.0, 0.0, 0.0, 0.36 ],
-											"angle" : 0,
-											"proportion" : 0.39
-										}
- ],
 									"bordercolor" : [ 0.0, 0.0, 0.0, 0.0 ],
 									"id" : "obj-120",
 									"maxclass" : "panel",
@@ -1094,7 +1077,8 @@
 									"maxclass" : "outlet",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 372.5, 1563.663452, 25.0, 25.0 ]
+									"patching_rect" : [ 372.5, 1563.663452, 25.0, 25.0 ],
+									"style" : ""
 								}
 
 							}
@@ -1156,15 +1140,6 @@
 								"box" : 								{
 									"angle" : 0.0,
 									"bgcolor" : [ 0.0, 0.0, 0.0, 0.36 ],
-									"bgfillcolor" : [ 										{
-											"type" : "color",
-											"color1" : [ 0.75, 0.79, 0.93, 1.0 ],
-											"color2" : [ 0.66, 0.66, 0.72, 1.0 ],
-											"color" : [ 0.0, 0.0, 0.0, 0.36 ],
-											"angle" : 0,
-											"proportion" : 0.39
-										}
- ],
 									"bordercolor" : [ 0.0, 0.0, 0.0, 0.0 ],
 									"id" : "obj-66",
 									"maxclass" : "panel",
@@ -1184,15 +1159,6 @@
 								"box" : 								{
 									"angle" : 0.0,
 									"bgcolor" : [ 0.0, 0.0, 0.0, 0.36 ],
-									"bgfillcolor" : [ 										{
-											"type" : "color",
-											"color1" : [ 0.75, 0.79, 0.93, 1.0 ],
-											"color2" : [ 0.66, 0.66, 0.72, 1.0 ],
-											"color" : [ 0.0, 0.0, 0.0, 0.36 ],
-											"angle" : 0,
-											"proportion" : 0.39
-										}
- ],
 									"bordercolor" : [ 0.0, 0.0, 0.0, 0.0 ],
 									"id" : "obj-128",
 									"maxclass" : "panel",
@@ -1213,15 +1179,6 @@
 									"angle" : 0.0,
 									"background" : 1,
 									"bgcolor" : [ 0.137255, 0.145098, 0.160784, 0.65 ],
-									"bgfillcolor" : [ 										{
-											"type" : "color",
-											"color1" : [ 0.75, 0.79, 0.93, 1.0 ],
-											"color2" : [ 0.66, 0.66, 0.72, 1.0 ],
-											"color" : [ 0.137255, 0.145098, 0.160784, 0.65 ],
-											"angle" : 0,
-											"proportion" : 0.39
-										}
- ],
 									"id" : "obj-18",
 									"maxclass" : "panel",
 									"mode" : 0,
@@ -1241,15 +1198,6 @@
 									"angle" : 0.0,
 									"background" : 1,
 									"bgcolor" : [ 0.367404, 0.389405, 0.430238, 1.0 ],
-									"bgfillcolor" : [ 										{
-											"type" : "color",
-											"color1" : [ 0.75, 0.79, 0.93, 1.0 ],
-											"color2" : [ 0.66, 0.66, 0.72, 1.0 ],
-											"color" : [ 0.367404, 0.389405, 0.430238, 1.0 ],
-											"angle" : 0,
-											"proportion" : 0.39
-										}
- ],
 									"id" : "obj-21",
 									"maxclass" : "panel",
 									"mode" : 0,
@@ -1269,15 +1217,6 @@
 									"angle" : 0.0,
 									"background" : 1,
 									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-									"bgfillcolor" : [ 										{
-											"type" : "color",
-											"color1" : [ 0.75, 0.79, 0.93, 1.0 ],
-											"color2" : [ 0.66, 0.66, 0.72, 1.0 ],
-											"color" : [ 0.0, 0.0, 0.0, 1.0 ],
-											"angle" : 0,
-											"proportion" : 0.39
-										}
- ],
 									"id" : "obj-14",
 									"maxclass" : "panel",
 									"mode" : 0,
@@ -1845,13 +1784,13 @@
  ],
 		"lines" : [  ],
 		"parameters" : 		{
-			"obj-38::obj-71" : [ "Bandwidth", "Bandwidth", 0 ],
-			"obj-38::obj-45" : [ "CV_center_freq", "CV", 0 ],
-			"obj-38::obj-58" : [ "BandwidthCV", "CV", 0 ],
-			"obj-38::obj-65" : [ "live.tab", "live.tab", 0 ],
-			"obj-38::obj-22" : [ "Poles", "Poles", 0 ],
+			"obj-38::obj-47" : [ "Center Freq", "Center Freq", 0 ],
 			"obj-38::obj-12" : [ "Bypass", "Bypass", 0 ],
-			"obj-38::obj-47" : [ "Center Freq", "Center Freq", 0 ]
+			"obj-38::obj-22" : [ "Poles", "Poles", 0 ],
+			"obj-38::obj-71" : [ "Bandwidth", "Bandwidth", 0 ],
+			"obj-38::obj-65" : [ "mode", "mode", 0 ],
+			"obj-38::obj-45" : [ "CV_center_freq", "CV", 0 ],
+			"obj-38::obj-58" : [ "BandwidthCV", "CV", 0 ]
 		}
 ,
 		"dependency_cache" : [  ],

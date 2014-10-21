@@ -15,9 +15,9 @@
 		"default_fontsize" : 12.0,
 		"default_fontface" : 0,
 		"default_fontname" : "Arial",
-		"gridonopen" : 0,
+		"gridonopen" : 1,
 		"gridsize" : [ 15.0, 15.0 ],
-		"gridsnaponopen" : 0,
+		"gridsnaponopen" : 1,
 		"statusbarvisible" : 1,
 		"toolbarvisible" : 1,
 		"lefttoolbarpinned" : 0,
@@ -65,9 +65,9 @@
 						"default_fontsize" : 12.0,
 						"default_fontface" : 0,
 						"default_fontname" : "Arial",
-						"gridonopen" : 0,
+						"gridonopen" : 1,
 						"gridsize" : [ 15.0, 15.0 ],
-						"gridsnaponopen" : 0,
+						"gridsnaponopen" : 1,
 						"statusbarvisible" : 1,
 						"toolbarvisible" : 1,
 						"lefttoolbarpinned" : 0,
@@ -85,6 +85,23 @@
 						"tags" : "",
 						"style" : "",
 						"boxes" : [ 							{
+								"box" : 								{
+									"fontname" : "Arial Bold",
+									"fontsize" : 9.0,
+									"id" : "obj-1",
+									"maxclass" : "comment",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 2.0, 46.0, 22.0, 17.0 ],
+									"presentation" : 1,
+									"presentation_rect" : [ 0.0, 46.669079, 22.0, 17.0 ],
+									"style" : "",
+									"text" : "Ch",
+									"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
+								}
+
+							}
+, 							{
 								"box" : 								{
 									"id" : "obj-3",
 									"maxclass" : "newobj",
@@ -113,7 +130,7 @@
 									"parameter_enable" : 1,
 									"patching_rect" : [ 295.0, 211.5, 36.0, 15.0 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 4.0, 46.669079, 41.738075, 15.0 ],
+									"presentation_rect" : [ 19.0, 46.669079, 26.738075, 15.0 ],
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
 											"parameter_longname" : "Channel",
@@ -197,8 +214,7 @@
 									"presentation" : 1,
 									"presentation_rect" : [ 34.5, 2.292229, 10.049012, 10.748189 ],
 									"style" : "",
-									"text" : "",
-									"usecustombgoncolor" : 1
+									"text" : ""
 								}
 
 							}
@@ -306,13 +322,13 @@
 									"outlettype" : [ "", "", "", "" ],
 									"patching_rect" : [ 1232.0, 651.0, 59.5, 22.0 ],
 									"restore" : 									{
-										"Channel" : [ 1.0 ],
+										"Channel" : [ 32.0 ],
 										"mute" : [ 0.0 ]
 									}
 ,
 									"style" : "",
 									"text" : "autopattr",
-									"varname" : "u651001202"
+									"varname" : "u653000728"
 								}
 
 							}
@@ -324,7 +340,8 @@
 									"numinlets" : 0,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 443.0, 119.0, 25.0, 25.0 ]
+									"patching_rect" : [ 443.0, 119.0, 25.0, 25.0 ],
+									"style" : ""
 								}
 
 							}
@@ -380,15 +397,6 @@
 									"angle" : 0.0,
 									"background" : 1,
 									"bgcolor" : [ 0.137255, 0.145098, 0.160784, 0.65 ],
-									"bgfillcolor" : [ 										{
-											"type" : "color",
-											"color1" : [ 0.75, 0.79, 0.93, 1.0 ],
-											"color2" : [ 0.66, 0.66, 0.72, 1.0 ],
-											"color" : [ 0.137255, 0.145098, 0.160784, 0.65 ],
-											"angle" : 0.0,
-											"proportion" : 0.39
-										}
- ],
 									"id" : "obj-130",
 									"maxclass" : "panel",
 									"mode" : 0,
@@ -408,15 +416,6 @@
 									"angle" : 0.0,
 									"background" : 1,
 									"bgcolor" : [ 0.367404, 0.389405, 0.430238, 1.0 ],
-									"bgfillcolor" : [ 										{
-											"type" : "color",
-											"color1" : [ 0.75, 0.79, 0.93, 1.0 ],
-											"color2" : [ 0.66, 0.66, 0.72, 1.0 ],
-											"color" : [ 0.367404, 0.389405, 0.430238, 1.0 ],
-											"angle" : 0.0,
-											"proportion" : 0.39
-										}
- ],
 									"id" : "obj-131",
 									"maxclass" : "panel",
 									"mode" : 0,
@@ -436,15 +435,6 @@
 									"angle" : 0.0,
 									"background" : 1,
 									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-									"bgfillcolor" : [ 										{
-											"type" : "color",
-											"color1" : [ 0.75, 0.79, 0.93, 1.0 ],
-											"color2" : [ 0.66, 0.66, 0.72, 1.0 ],
-											"color" : [ 0.0, 0.0, 0.0, 1.0 ],
-											"angle" : 0.0,
-											"proportion" : 0.39
-										}
- ],
 									"id" : "obj-135",
 									"maxclass" : "panel",
 									"mode" : 0,
@@ -571,8 +561,8 @@
  ],
 		"lines" : [  ],
 		"parameters" : 		{
-			"obj-9::obj-46" : [ "Channel", "Channel", 0 ],
-			"obj-9::obj-20" : [ "mute", "mute", 0 ]
+			"obj-9::obj-20" : [ "mute", "mute", 0 ],
+			"obj-9::obj-46" : [ "Channel", "Channel", 0 ]
 		}
 ,
 		"dependency_cache" : [  ],
