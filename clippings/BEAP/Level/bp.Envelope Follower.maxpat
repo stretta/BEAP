@@ -15,9 +15,10 @@
 		"default_fontsize" : 12.0,
 		"default_fontface" : 0,
 		"default_fontname" : "Arial",
-		"gridonopen" : 0,
+		"gridonopen" : 1,
 		"gridsize" : [ 15.0, 15.0 ],
-		"gridsnaponopen" : 0,
+		"gridsnaponopen" : 1,
+		"objectsnaponopen" : 1,
 		"statusbarvisible" : 1,
 		"toolbarvisible" : 1,
 		"lefttoolbarpinned" : 0,
@@ -66,9 +67,10 @@
 						"default_fontsize" : 12.0,
 						"default_fontface" : 0,
 						"default_fontname" : "Arial",
-						"gridonopen" : 0,
+						"gridonopen" : 1,
 						"gridsize" : [ 15.0, 15.0 ],
-						"gridsnaponopen" : 0,
+						"gridsnaponopen" : 1,
+						"objectsnaponopen" : 1,
 						"statusbarvisible" : 1,
 						"toolbarvisible" : 1,
 						"lefttoolbarpinned" : 0,
@@ -129,8 +131,8 @@
 									"presentation_rect" : [ 123.397644, 79.0, 50.0, 15.0 ],
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
-											"parameter_longname" : "SampleStart",
-											"parameter_shortname" : "SampleStart",
+											"parameter_longname" : "smoothing",
+											"parameter_shortname" : "smoothin",
 											"parameter_type" : 0,
 											"parameter_mmax" : 2000.0,
 											"parameter_initial_enable" : 1,
@@ -171,13 +173,13 @@
 									"outlettype" : [ "", "", "", "" ],
 									"patching_rect" : [ 24.0, 117.375366, 59.5, 22.0 ],
 									"restore" : 									{
-										"SampleStart" : [ 0.0 ],
+										"SampleStart" : [ 10.0 ],
 										"bypass[1]" : [ 0.0 ]
 									}
 ,
 									"style" : "",
 									"text" : "autopattr",
-									"varname" : "u866005687"
+									"varname" : "u142002227"
 								}
 
 							}
@@ -238,7 +240,7 @@
 									"presentation_rect" : [ 123.397644, 19.0, 52.0, 14.764645 ],
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
-											"parameter_longname" : "bypass[1]",
+											"parameter_longname" : "bypass",
 											"parameter_shortname" : "bypass",
 											"parameter_type" : 2,
 											"parameter_mmax" : 1.0,
@@ -265,7 +267,8 @@
 									"numinlets" : 0,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 385.670044, 113.129639, 25.0, 25.0 ]
+									"patching_rect" : [ 385.670044, 113.129639, 25.0, 25.0 ],
+									"style" : ""
 								}
 
 							}
@@ -336,7 +339,8 @@
 									"maxclass" : "outlet",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 306.170044, 318.129639, 25.0, 25.0 ]
+									"patching_rect" : [ 306.170044, 318.129639, 25.0, 25.0 ],
+									"style" : ""
 								}
 
 							}
@@ -396,15 +400,6 @@
 									"angle" : 0.0,
 									"background" : 1,
 									"bgcolor" : [ 0.137255, 0.145098, 0.160784, 0.65 ],
-									"bgfillcolor" : [ 										{
-											"type" : "color",
-											"color1" : [ 0.75, 0.79, 0.93, 1.0 ],
-											"color2" : [ 0.66, 0.66, 0.72, 1.0 ],
-											"color" : [ 0.137255, 0.145098, 0.160784, 0.65 ],
-											"angle" : 0.0,
-											"proportion" : 0.39
-										}
- ],
 									"id" : "obj-130",
 									"maxclass" : "panel",
 									"mode" : 0,
@@ -424,15 +419,6 @@
 									"angle" : 0.0,
 									"background" : 1,
 									"bgcolor" : [ 0.367404, 0.389405, 0.430238, 1.0 ],
-									"bgfillcolor" : [ 										{
-											"type" : "color",
-											"color1" : [ 0.75, 0.79, 0.93, 1.0 ],
-											"color2" : [ 0.66, 0.66, 0.72, 1.0 ],
-											"color" : [ 0.367404, 0.389405, 0.430238, 1.0 ],
-											"angle" : 0.0,
-											"proportion" : 0.39
-										}
- ],
 									"id" : "obj-131",
 									"maxclass" : "panel",
 									"mode" : 0,
@@ -452,15 +438,6 @@
 									"angle" : 0.0,
 									"background" : 1,
 									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-									"bgfillcolor" : [ 										{
-											"type" : "color",
-											"color1" : [ 0.75, 0.79, 0.93, 1.0 ],
-											"color2" : [ 0.66, 0.66, 0.72, 1.0 ],
-											"color" : [ 0.0, 0.0, 0.0, 1.0 ],
-											"angle" : 0.0,
-											"proportion" : 0.39
-										}
- ],
 									"id" : "obj-135",
 									"maxclass" : "panel",
 									"mode" : 0,
@@ -587,8 +564,8 @@
  ],
 		"lines" : [  ],
 		"parameters" : 		{
-			"obj-10::obj-129" : [ "SampleStart", "SampleStart", 0 ],
-			"obj-10::obj-32" : [ "bypass[1]", "bypass", 0 ]
+			"obj-10::obj-129" : [ "smoothing", "smoothin", 0 ],
+			"obj-10::obj-32" : [ "bypass", "bypass", 0 ]
 		}
 ,
 		"dependency_cache" : [  ],

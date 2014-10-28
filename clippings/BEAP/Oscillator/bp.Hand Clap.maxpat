@@ -16,9 +16,10 @@
 		"default_fontsize" : 12.0,
 		"default_fontface" : 0,
 		"default_fontname" : "Arial",
-		"gridonopen" : 0,
+		"gridonopen" : 1,
 		"gridsize" : [ 15.0, 15.0 ],
-		"gridsnaponopen" : 0,
+		"gridsnaponopen" : 1,
+		"objectsnaponopen" : 1,
 		"statusbarvisible" : 1,
 		"toolbarvisible" : 1,
 		"lefttoolbarpinned" : 0,
@@ -68,9 +69,10 @@
 						"default_fontsize" : 12.0,
 						"default_fontface" : 0,
 						"default_fontname" : "Arial Bold",
-						"gridonopen" : 0,
+						"gridonopen" : 1,
 						"gridsize" : [ 15.0, 15.0 ],
-						"gridsnaponopen" : 0,
+						"gridsnaponopen" : 1,
+						"objectsnaponopen" : 1,
 						"statusbarvisible" : 2,
 						"toolbarvisible" : 1,
 						"lefttoolbarpinned" : 0,
@@ -327,9 +329,10 @@
 										"default_fontsize" : 10.0,
 										"default_fontface" : 0,
 										"default_fontname" : "Arial Bold",
-										"gridonopen" : 0,
+										"gridonopen" : 1,
 										"gridsize" : [ 15.0, 15.0 ],
-										"gridsnaponopen" : 0,
+										"gridsnaponopen" : 1,
+										"objectsnaponopen" : 1,
 										"statusbarvisible" : 2,
 										"toolbarvisible" : 1,
 										"lefttoolbarpinned" : 0,
@@ -426,9 +429,10 @@
 														"default_fontsize" : 10.0,
 														"default_fontface" : 0,
 														"default_fontname" : "Arial Bold",
-														"gridonopen" : 0,
+														"gridonopen" : 1,
 														"gridsize" : [ 15.0, 15.0 ],
-														"gridsnaponopen" : 0,
+														"gridsnaponopen" : 1,
+														"objectsnaponopen" : 1,
 														"statusbarvisible" : 2,
 														"toolbarvisible" : 1,
 														"lefttoolbarpinned" : 0,
@@ -626,9 +630,10 @@
 																		"default_fontsize" : 12.0,
 																		"default_fontface" : 0,
 																		"default_fontname" : "Arial",
-																		"gridonopen" : 0,
+																		"gridonopen" : 1,
 																		"gridsize" : [ 15.0, 15.0 ],
-																		"gridsnaponopen" : 0,
+																		"gridsnaponopen" : 1,
+																		"objectsnaponopen" : 1,
 																		"statusbarvisible" : 2,
 																		"toolbarvisible" : 1,
 																		"lefttoolbarpinned" : 0,
@@ -1099,9 +1104,10 @@
 														"default_fontsize" : 12.0,
 														"default_fontface" : 0,
 														"default_fontname" : "Arial",
-														"gridonopen" : 0,
+														"gridonopen" : 1,
 														"gridsize" : [ 15.0, 15.0 ],
-														"gridsnaponopen" : 0,
+														"gridsnaponopen" : 1,
+														"objectsnaponopen" : 1,
 														"statusbarvisible" : 2,
 														"toolbarvisible" : 1,
 														"lefttoolbarpinned" : 0,
@@ -2041,9 +2047,10 @@
 										"default_fontsize" : 10.0,
 										"default_fontface" : 0,
 										"default_fontname" : "Arial Bold",
-										"gridonopen" : 0,
+										"gridonopen" : 1,
 										"gridsize" : [ 15.0, 15.0 ],
-										"gridsnaponopen" : 0,
+										"gridsnaponopen" : 1,
+										"objectsnaponopen" : 1,
 										"statusbarvisible" : 2,
 										"toolbarvisible" : 1,
 										"lefttoolbarpinned" : 0,
@@ -2304,7 +2311,7 @@
 									"presentation_rect" : [ 3.0, 43.0, 44.0, 47.0 ],
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
-											"parameter_longname" : "Decay[1]",
+											"parameter_longname" : "Decay",
 											"parameter_shortname" : "Decay",
 											"parameter_type" : 0,
 											"parameter_mmax" : 2000.0,
@@ -2384,7 +2391,7 @@
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
 											"parameter_linknames" : 1,
-											"parameter_longname" : "Claps[1]",
+											"parameter_longname" : "Claps",
 											"parameter_shortname" : "Claps",
 											"parameter_type" : 1,
 											"parameter_mmin" : 1.0,
@@ -2398,7 +2405,7 @@
 									}
 ,
 									"textcolor" : [ 0.278431, 0.839216, 1.0, 1.0 ],
-									"varname" : "Claps[1]"
+									"varname" : "Claps"
 								}
 
 							}
@@ -2427,9 +2434,10 @@
 										"default_fontsize" : 10.0,
 										"default_fontface" : 0,
 										"default_fontname" : "Arial Bold",
-										"gridonopen" : 0,
+										"gridonopen" : 1,
 										"gridsize" : [ 15.0, 15.0 ],
-										"gridsnaponopen" : 0,
+										"gridsnaponopen" : 1,
+										"objectsnaponopen" : 1,
 										"statusbarvisible" : 2,
 										"toolbarvisible" : 1,
 										"lefttoolbarpinned" : 0,
@@ -2758,7 +2766,7 @@
 									"presentation_rect" : [ 163.007629, 19.0, 52.0, 14.764645 ],
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
-											"parameter_longname" : "Mute[1]",
+											"parameter_longname" : "Mute",
 											"parameter_shortname" : "Mute",
 											"parameter_type" : 2,
 											"parameter_mmax" : 1.0,
@@ -2900,8 +2908,8 @@
 									"outlettype" : [ "", "", "", "" ],
 									"patching_rect" : [ 48.0, 116.5, 59.5, 22.0 ],
 									"restore" : 									{
-										"Claps[1]" : [ 5.0 ],
-										"Decay" : [ 65.596125 ],
+										"Claps" : [ 5.0 ],
+										"Decay" : [ 50.0 ],
 										"MaxFreq" : [ 2200.0 ],
 										"MinFreq" : [ 200.0 ],
 										"Mute" : [ 0.0 ],
@@ -2910,7 +2918,7 @@
 ,
 									"style" : "",
 									"text" : "autopattr",
-									"varname" : "u292010306"
+									"varname" : "u943001877"
 								}
 
 							}
@@ -3225,12 +3233,12 @@
  ],
 		"lines" : [  ],
 		"parameters" : 		{
-			"obj-11::obj-36" : [ "MinFreq", "MinFreq", 0 ],
-			"obj-11::obj-12" : [ "Mute[1]", "Mute", 0 ],
-			"obj-11::obj-37" : [ "Claps[1]", "Claps", 0 ],
-			"obj-11::obj-28" : [ "Decay[1]", "Decay", 0 ],
+			"obj-11::obj-37" : [ "Claps", "Claps", 0 ],
 			"obj-11::obj-33" : [ "MaxFreq", "MaxFreq", 0 ],
-			"obj-11::obj-29" : [ "Q", "SampleStart", 0 ]
+			"obj-11::obj-12" : [ "Mute", "Mute", 0 ],
+			"obj-11::obj-28" : [ "Decay", "Decay", 0 ],
+			"obj-11::obj-29" : [ "Q", "SampleStart", 0 ],
+			"obj-11::obj-36" : [ "MinFreq", "MinFreq", 0 ]
 		}
 ,
 		"dependency_cache" : [  ],

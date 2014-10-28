@@ -15,9 +15,10 @@
 		"default_fontsize" : 12.0,
 		"default_fontface" : 0,
 		"default_fontname" : "Arial",
-		"gridonopen" : 0,
+		"gridonopen" : 1,
 		"gridsize" : [ 15.0, 15.0 ],
-		"gridsnaponopen" : 0,
+		"gridsnaponopen" : 1,
+		"objectsnaponopen" : 1,
 		"statusbarvisible" : 1,
 		"toolbarvisible" : 1,
 		"lefttoolbarpinned" : 0,
@@ -66,9 +67,10 @@
 						"default_fontsize" : 12.0,
 						"default_fontface" : 0,
 						"default_fontname" : "Arial",
-						"gridonopen" : 0,
+						"gridonopen" : 1,
 						"gridsize" : [ 15.0, 15.0 ],
-						"gridsnaponopen" : 0,
+						"gridsnaponopen" : 1,
+						"objectsnaponopen" : 1,
 						"statusbarvisible" : 1,
 						"toolbarvisible" : 1,
 						"lefttoolbarpinned" : 0,
@@ -240,7 +242,8 @@
 									"maxclass" : "outlet",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 378.75, 506.5, 25.0, 25.0 ]
+									"patching_rect" : [ 378.75, 506.5, 25.0, 25.0 ],
+									"style" : ""
 								}
 
 							}
@@ -252,7 +255,8 @@
 									"numinlets" : 0,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 735.303589, 225.0, 25.0, 25.0 ]
+									"patching_rect" : [ 735.303589, 225.0, 25.0, 25.0 ],
+									"style" : ""
 								}
 
 							}
@@ -264,7 +268,8 @@
 									"numinlets" : 0,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 612.319214, 225.0, 25.0, 25.0 ]
+									"patching_rect" : [ 612.319214, 225.0, 25.0, 25.0 ],
+									"style" : ""
 								}
 
 							}
@@ -276,7 +281,8 @@
 									"numinlets" : 0,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 491.068665, 225.0, 25.0, 25.0 ]
+									"patching_rect" : [ 491.068665, 225.0, 25.0, 25.0 ],
+									"style" : ""
 								}
 
 							}
@@ -288,7 +294,8 @@
 									"numinlets" : 0,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 350.515076, 225.0, 25.0, 25.0 ]
+									"patching_rect" : [ 350.515076, 225.0, 25.0, 25.0 ],
+									"style" : ""
 								}
 
 							}
@@ -328,7 +335,7 @@
 									"presentation_rect" : [ 116.977173, 19.657436, 52.0, 14.764645 ],
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
-											"parameter_longname" : "power[1]",
+											"parameter_longname" : "power",
 											"parameter_shortname" : "power",
 											"parameter_type" : 2,
 											"parameter_mmax" : 1.0,
@@ -409,8 +416,8 @@
 									"presentation_rect" : [ 129.0, 41.71455, 44.0, 47.0 ],
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
-											"parameter_longname" : "4",
-											"parameter_shortname" : "4",
+											"parameter_longname" : "in4",
+											"parameter_shortname" : "in4",
 											"parameter_type" : 0,
 											"parameter_mmax" : 1.0,
 											"parameter_initial_enable" : 1,
@@ -550,7 +557,7 @@
 ,
 									"style" : "",
 									"text" : "autopattr",
-									"varname" : "u455009415"
+									"varname" : "u628000288"
 								}
 
 							}
@@ -569,8 +576,8 @@
 									"presentation_rect" : [ 85.0, 41.71455, 44.0, 47.0 ],
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
-											"parameter_longname" : "3",
-											"parameter_shortname" : "3",
+											"parameter_longname" : "in3",
+											"parameter_shortname" : "in3",
 											"parameter_type" : 0,
 											"parameter_mmax" : 1.0,
 											"parameter_unitstyle" : 1
@@ -613,8 +620,8 @@
 									"presentation_rect" : [ 41.0, 41.71455, 44.0, 47.0 ],
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
-											"parameter_longname" : "2",
-											"parameter_shortname" : "2",
+											"parameter_longname" : "in2",
+											"parameter_shortname" : "in2",
 											"parameter_type" : 0,
 											"parameter_mmax" : 1.0,
 											"parameter_unitstyle" : 1
@@ -657,8 +664,8 @@
 									"presentation_rect" : [ -3.0, 41.71455, 44.0, 47.0 ],
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
-											"parameter_longname" : "1",
-											"parameter_shortname" : "1",
+											"parameter_longname" : "in1",
+											"parameter_shortname" : "in1",
 											"parameter_type" : 0,
 											"parameter_mmax" : 1.0,
 											"parameter_unitstyle" : 1
@@ -706,15 +713,6 @@
 									"angle" : 0.0,
 									"background" : 1,
 									"bgcolor" : [ 0.137255, 0.145098, 0.160784, 0.65 ],
-									"bgfillcolor" : [ 										{
-											"type" : "color",
-											"color1" : [ 0.75, 0.79, 0.93, 1.0 ],
-											"color2" : [ 0.66, 0.66, 0.72, 1.0 ],
-											"color" : [ 0.137255, 0.145098, 0.160784, 0.65 ],
-											"angle" : 0.0,
-											"proportion" : 0.39
-										}
- ],
 									"id" : "obj-130",
 									"maxclass" : "panel",
 									"mode" : 0,
@@ -734,15 +732,6 @@
 									"angle" : 0.0,
 									"background" : 1,
 									"bgcolor" : [ 0.367404, 0.389405, 0.430238, 1.0 ],
-									"bgfillcolor" : [ 										{
-											"type" : "color",
-											"color1" : [ 0.75, 0.79, 0.93, 1.0 ],
-											"color2" : [ 0.66, 0.66, 0.72, 1.0 ],
-											"color" : [ 0.367404, 0.389405, 0.430238, 1.0 ],
-											"angle" : 0.0,
-											"proportion" : 0.39
-										}
- ],
 									"id" : "obj-131",
 									"maxclass" : "panel",
 									"mode" : 0,
@@ -762,15 +751,6 @@
 									"angle" : 0.0,
 									"background" : 1,
 									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-									"bgfillcolor" : [ 										{
-											"type" : "color",
-											"color1" : [ 0.75, 0.79, 0.93, 1.0 ],
-											"color2" : [ 0.66, 0.66, 0.72, 1.0 ],
-											"color" : [ 0.0, 0.0, 0.0, 1.0 ],
-											"angle" : 0.0,
-											"proportion" : 0.39
-										}
- ],
 									"id" : "obj-135",
 									"maxclass" : "panel",
 									"mode" : 0,
@@ -1032,11 +1012,11 @@
  ],
 		"lines" : [  ],
 		"parameters" : 		{
-			"obj-15::obj-32" : [ "2", "2", 0 ],
-			"obj-15::obj-37" : [ "power[1]", "power", 0 ],
-			"obj-15::obj-29" : [ "3", "3", 0 ],
-			"obj-15::obj-39" : [ "1", "1", 0 ],
-			"obj-15::obj-33" : [ "4", "4", 0 ]
+			"obj-15::obj-39" : [ "in1", "in1", 0 ],
+			"obj-15::obj-32" : [ "in2", "in2", 0 ],
+			"obj-15::obj-29" : [ "in3", "in3", 0 ],
+			"obj-15::obj-33" : [ "in4", "in4", 0 ],
+			"obj-15::obj-37" : [ "power", "power", 0 ]
 		}
 ,
 		"dependency_cache" : [  ],
