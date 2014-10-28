@@ -15,9 +15,10 @@
 		"default_fontsize" : 12.0,
 		"default_fontface" : 0,
 		"default_fontname" : "Arial",
-		"gridonopen" : 0,
+		"gridonopen" : 1,
 		"gridsize" : [ 15.0, 15.0 ],
-		"gridsnaponopen" : 0,
+		"gridsnaponopen" : 1,
+		"objectsnaponopen" : 1,
 		"statusbarvisible" : 2,
 		"toolbarvisible" : 1,
 		"lefttoolbarpinned" : 0,
@@ -66,9 +67,10 @@
 						"default_fontsize" : 12.0,
 						"default_fontface" : 0,
 						"default_fontname" : "Arial",
-						"gridonopen" : 0,
+						"gridonopen" : 1,
 						"gridsize" : [ 15.0, 15.0 ],
-						"gridsnaponopen" : 0,
+						"gridsnaponopen" : 1,
+						"objectsnaponopen" : 1,
 						"statusbarvisible" : 1,
 						"toolbarvisible" : 1,
 						"lefttoolbarpinned" : 0,
@@ -86,6 +88,19 @@
 						"tags" : "",
 						"style" : "",
 						"boxes" : [ 							{
+								"box" : 								{
+									"id" : "obj-14",
+									"maxclass" : "newobj",
+									"numinlets" : 0,
+									"numoutlets" : 1,
+									"outlettype" : [ "bang" ],
+									"patching_rect" : [ 1073.333252, 477.883911, 67.0, 22.0 ],
+									"style" : "",
+									"text" : "pastebang"
+								}
+
+							}
+, 							{
 								"box" : 								{
 									"id" : "obj-15",
 									"maxclass" : "comment",
@@ -108,48 +123,6 @@
 									"patching_rect" : [ 914.6026, 574.207336, 128.0, 22.0 ],
 									"style" : "",
 									"text" : "s beap_buffer_refresh"
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"fontname" : "Arial",
-									"fontsize" : 12.0,
-									"id" : "obj-10",
-									"maxclass" : "newobj",
-									"numinlets" : 2,
-									"numoutlets" : 2,
-									"outlettype" : [ "bang", "" ],
-									"patching_rect" : [ 1073.333252, 498.322632, 36.0, 22.0 ],
-									"style" : "",
-									"text" : "sel 0"
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"id" : "obj-22",
-									"maxclass" : "live.text",
-									"numinlets" : 1,
-									"numoutlets" : 2,
-									"outlettype" : [ "", "" ],
-									"parameter_enable" : 1,
-									"patching_rect" : [ 1073.333252, 451.322632, 40.0, 20.0 ],
-									"saved_attribute_attributes" : 									{
-										"valueof" : 										{
-											"parameter_longname" : "live.text[3]",
-											"parameter_shortname" : "live.text",
-											"parameter_type" : 2,
-											"parameter_mmax" : 1.0,
-											"parameter_enum" : [ "val1", "val2" ],
-											"parameter_initial_enable" : 1,
-											"parameter_initial" : [ 0.0 ],
-											"parameter_invisible" : 2
-										}
-
-									}
-,
-									"varname" : "stealth_init"
 								}
 
 							}
@@ -271,7 +244,7 @@
 									"presentation_rect" : [ 102.0, 39.953262, 44.0, 47.0 ],
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
-											"parameter_longname" : "Note[2]",
+											"parameter_longname" : "Note",
 											"parameter_shortname" : "Note",
 											"parameter_type" : 1,
 											"parameter_initial_enable" : 1,
@@ -302,7 +275,7 @@
 									"presentation_rect" : [ 34.122688, 3.0, 9.742592, 9.742592 ],
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
-											"parameter_longname" : "Duration[2]",
+											"parameter_longname" : "Duration",
 											"parameter_shortname" : "Duration",
 											"parameter_type" : 0,
 											"parameter_mmax" : 100.0,
@@ -609,7 +582,7 @@
 									"presentation_rect" : [ 145.272064, 39.0, 67.353462, 52.0 ],
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
-											"parameter_longname" : "Mype[2]",
+											"parameter_longname" : "Mype",
 											"parameter_shortname" : "Mype",
 											"parameter_type" : 2,
 											"parameter_enum" : [ "One shot", "Gated" ],
@@ -690,8 +663,8 @@
 									"presentation_rect" : [ 158.634384, 19.126471, 52.0, 14.764645 ],
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
-											"parameter_longname" : "power[4]",
-											"parameter_shortname" : "power",
+											"parameter_longname" : "mute",
+											"parameter_shortname" : "mute",
 											"parameter_type" : 2,
 											"parameter_mmax" : 1.0,
 											"parameter_enum" : [ "val1", "val2" ],
@@ -871,15 +844,14 @@
 									"patching_rect" : [ 39.173828, 129.779785, 58.0, 22.0 ],
 									"restore" : 									{
 										"Mype" : [ 0.0 ],
-										"Note" : [ 36.0 ],
-										"led" : [ 0.0 ],
-										"power[1]" : [ 0.0 ],
-										"stealth_init" : [ 0.0 ]
+										"Note" : [ 60.0 ],
+										"led" : [ 95.0 ],
+										"power[1]" : [ 0.0 ]
 									}
 ,
 									"style" : "",
 									"text" : "autopattr",
-									"varname" : "u697007612"
+									"varname" : "u123000673"
 								}
 
 							}
@@ -1002,24 +974,6 @@
 							}
 , 							{
 								"patchline" : 								{
-									"destination" : [ "obj-29", 0 ],
-									"disabled" : 0,
-									"hidden" : 0,
-									"source" : [ "obj-10", 0 ]
-								}
-
-							}
-, 							{
-								"patchline" : 								{
-									"destination" : [ "obj-30", 0 ],
-									"disabled" : 0,
-									"hidden" : 0,
-									"source" : [ "obj-10", 0 ]
-								}
-
-							}
-, 							{
-								"patchline" : 								{
 									"destination" : [ "obj-107", 0 ],
 									"disabled" : 0,
 									"hidden" : 0,
@@ -1110,6 +1064,24 @@
 							}
 , 							{
 								"patchline" : 								{
+									"destination" : [ "obj-29", 0 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-14", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-30", 0 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-14", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
 									"destination" : [ "obj-13", 0 ],
 									"disabled" : 0,
 									"hidden" : 0,
@@ -1159,15 +1131,6 @@
 									"disabled" : 0,
 									"hidden" : 0,
 									"source" : [ "obj-21", 0 ]
-								}
-
-							}
-, 							{
-								"patchline" : 								{
-									"destination" : [ "obj-10", 0 ],
-									"disabled" : 0,
-									"hidden" : 0,
-									"source" : [ "obj-22", 0 ]
 								}
 
 							}
@@ -1408,14 +1371,21 @@
  ],
 		"lines" : [  ],
 		"parameters" : 		{
-			"obj-25::obj-20" : [ "power[4]", "power", 0 ],
-			"obj-25::obj-9" : [ "Note[2]", "Note", 0 ],
-			"obj-25::obj-22" : [ "live.text[3]", "live.text", 0 ],
-			"obj-25::obj-28" : [ "Duration[2]", "Duration", 0 ],
-			"obj-25::obj-48" : [ "Mype[2]", "Mype", 0 ]
+			"obj-25::obj-48" : [ "Mype", "Mype", 0 ],
+			"obj-25::obj-20" : [ "mute", "mute", 0 ],
+			"obj-25::obj-9" : [ "Note", "Note", 0 ],
+			"obj-25::obj-28" : [ "Duration", "Duration", 0 ],
+			"obj-25::obj-14::obj-2" : [ "pastebang", "pastebang", 0 ]
 		}
 ,
-		"dependency_cache" : [  ],
+		"dependency_cache" : [ 			{
+				"name" : "pastebang.maxpat",
+				"bootpath" : "/Applications/Max 7/Max.app/Contents/Resources/C74/packages/Beap/misc",
+				"patcherrelativepath" : "../../../../../../../Applications/Max 7/Max.app/Contents/Resources/C74/packages/Beap/misc",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+ ],
 		"embedsnapshot" : 0
 	}
 

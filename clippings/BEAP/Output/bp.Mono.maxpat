@@ -18,6 +18,7 @@
 		"gridonopen" : 1,
 		"gridsize" : [ 15.0, 15.0 ],
 		"gridsnaponopen" : 1,
+		"objectsnaponopen" : 1,
 		"statusbarvisible" : 1,
 		"toolbarvisible" : 1,
 		"lefttoolbarpinned" : 0,
@@ -68,6 +69,7 @@
 						"gridonopen" : 1,
 						"gridsize" : [ 15.0, 15.0 ],
 						"gridsnaponopen" : 1,
+						"objectsnaponopen" : 1,
 						"statusbarvisible" : 1,
 						"toolbarvisible" : 1,
 						"lefttoolbarpinned" : 0,
@@ -322,13 +324,13 @@
 									"outlettype" : [ "", "", "", "" ],
 									"patching_rect" : [ 1232.0, 651.0, 59.5, 22.0 ],
 									"restore" : 									{
-										"Channel" : [ 32.0 ],
+										"Channel" : [ 1.0 ],
 										"mute" : [ 0.0 ]
 									}
 ,
 									"style" : "",
 									"text" : "autopattr",
-									"varname" : "u653000728"
+									"varname" : "u000002190"
 								}
 
 							}
@@ -561,8 +563,8 @@
  ],
 		"lines" : [  ],
 		"parameters" : 		{
-			"obj-9::obj-20" : [ "mute", "mute", 0 ],
-			"obj-9::obj-46" : [ "Channel", "Channel", 0 ]
+			"obj-9::obj-46" : [ "Channel", "Channel", 0 ],
+			"obj-9::obj-20" : [ "mute", "mute", 0 ]
 		}
 ,
 		"dependency_cache" : [  ],

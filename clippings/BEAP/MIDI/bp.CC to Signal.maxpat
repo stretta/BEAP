@@ -15,9 +15,10 @@
 		"default_fontsize" : 12.0,
 		"default_fontface" : 0,
 		"default_fontname" : "Arial",
-		"gridonopen" : 0,
+		"gridonopen" : 1,
 		"gridsize" : [ 15.0, 15.0 ],
-		"gridsnaponopen" : 0,
+		"gridsnaponopen" : 1,
+		"objectsnaponopen" : 1,
 		"statusbarvisible" : 1,
 		"toolbarvisible" : 1,
 		"lefttoolbarpinned" : 0,
@@ -66,9 +67,10 @@
 						"default_fontsize" : 12.0,
 						"default_fontface" : 0,
 						"default_fontname" : "Arial",
-						"gridonopen" : 0,
+						"gridonopen" : 1,
 						"gridsize" : [ 15.0, 15.0 ],
-						"gridsnaponopen" : 0,
+						"gridsnaponopen" : 1,
+						"objectsnaponopen" : 1,
 						"statusbarvisible" : 1,
 						"toolbarvisible" : 1,
 						"lefttoolbarpinned" : 0,
@@ -112,7 +114,7 @@
 									"parameter_enable" : 0,
 									"patching_rect" : [ 303.814819, 184.883911, 48.0, 19.0 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 38.21434, 77.0, 30.5, 19.0 ],
+									"presentation_rect" : [ 38.21434, 77.0, 31.0, 19.0 ],
 									"style" : "",
 									"textcolor" : [ 0.870588, 0.870588, 0.870588, 0.52 ],
 									"tricolor" : [ 1.0, 1.0, 1.0, 0.0 ]
@@ -144,7 +146,8 @@
 									"numinlets" : 0,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 303.814819, 55.0, 25.0, 25.0 ]
+									"patching_rect" : [ 303.814819, 55.0, 25.0, 25.0 ],
+									"style" : ""
 								}
 
 							}
@@ -246,8 +249,8 @@
 									"presentation_rect" : [ 119.25, 96.5, 15.0, 15.0 ],
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
-											"parameter_longname" : "ModWheelActivityLED",
-											"parameter_shortname" : "ModWheelActivityLED",
+											"parameter_longname" : "ActivityLED",
+											"parameter_shortname" : "ActivityLED",
 											"parameter_type" : 2,
 											"parameter_mmax" : 1.0,
 											"parameter_enum" : [ "off", "on" ],
@@ -256,7 +259,7 @@
 
 									}
 ,
-									"varname" : "ModWheelActivityLED"
+									"varname" : "ActivityLED"
 								}
 
 							}
@@ -335,13 +338,13 @@
 									"outlettype" : [ "", "", "", "" ],
 									"patching_rect" : [ 7.173828, 173.0, 59.5, 22.0 ],
 									"restore" : 									{
-										"Controller" : [ 0.0 ],
-										"ModWheelActivityLED" : [ 0.0 ]
+										"ActivityLED" : [ 0.0 ],
+										"Controller" : [ 0.0 ]
 									}
 ,
 									"style" : "",
 									"text" : "autopattr",
-									"varname" : "u042000398"
+									"varname" : "u034000546"
 								}
 
 							}
@@ -367,7 +370,8 @@
 									"maxclass" : "outlet",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 375.981445, 478.0, 25.0, 25.0 ]
+									"patching_rect" : [ 375.981445, 478.0, 25.0, 25.0 ],
+									"style" : ""
 								}
 
 							}
@@ -376,15 +380,6 @@
 									"angle" : 0.0,
 									"background" : 1,
 									"bgcolor" : [ 0.137255, 0.145098, 0.160784, 0.65 ],
-									"bgfillcolor" : [ 										{
-											"type" : "color",
-											"color1" : [ 0.75, 0.79, 0.93, 1.0 ],
-											"color2" : [ 0.66, 0.66, 0.72, 1.0 ],
-											"color" : [ 0.137255, 0.145098, 0.160784, 0.65 ],
-											"angle" : 0,
-											"proportion" : 0.39
-										}
- ],
 									"id" : "obj-130",
 									"maxclass" : "panel",
 									"mode" : 0,
@@ -404,15 +399,6 @@
 									"angle" : 0.0,
 									"background" : 1,
 									"bgcolor" : [ 0.367404, 0.389405, 0.430238, 1.0 ],
-									"bgfillcolor" : [ 										{
-											"type" : "color",
-											"color1" : [ 0.75, 0.79, 0.93, 1.0 ],
-											"color2" : [ 0.66, 0.66, 0.72, 1.0 ],
-											"color" : [ 0.367404, 0.389405, 0.430238, 1.0 ],
-											"angle" : 0,
-											"proportion" : 0.39
-										}
- ],
 									"id" : "obj-131",
 									"maxclass" : "panel",
 									"mode" : 0,
@@ -432,15 +418,6 @@
 									"angle" : 0.0,
 									"background" : 1,
 									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-									"bgfillcolor" : [ 										{
-											"type" : "color",
-											"color1" : [ 0.75, 0.79, 0.93, 1.0 ],
-											"color2" : [ 0.66, 0.66, 0.72, 1.0 ],
-											"color" : [ 0.0, 0.0, 0.0, 1.0 ],
-											"angle" : 0,
-											"proportion" : 0.39
-										}
- ],
 									"id" : "obj-135",
 									"maxclass" : "panel",
 									"mode" : 0,
@@ -559,8 +536,8 @@
  ],
 		"lines" : [  ],
 		"parameters" : 		{
-			"obj-41::obj-28" : [ "Controller", "Controller", 0 ],
-			"obj-41::obj-20" : [ "ModWheelActivityLED", "ModWheelActivityLED", 0 ]
+			"obj-41::obj-20" : [ "ActivityLED", "ActivityLED", 0 ],
+			"obj-41::obj-28" : [ "Controller", "Controller", 0 ]
 		}
 ,
 		"dependency_cache" : [  ],

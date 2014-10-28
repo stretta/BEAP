@@ -15,9 +15,10 @@
 		"default_fontsize" : 12.0,
 		"default_fontface" : 0,
 		"default_fontname" : "Arial",
-		"gridonopen" : 0,
+		"gridonopen" : 1,
 		"gridsize" : [ 15.0, 15.0 ],
-		"gridsnaponopen" : 0,
+		"gridsnaponopen" : 1,
+		"objectsnaponopen" : 1,
 		"statusbarvisible" : 2,
 		"toolbarvisible" : 1,
 		"lefttoolbarpinned" : 0,
@@ -66,9 +67,10 @@
 						"default_fontsize" : 12.0,
 						"default_fontface" : 0,
 						"default_fontname" : "Arial",
-						"gridonopen" : 0,
+						"gridonopen" : 1,
 						"gridsize" : [ 15.0, 15.0 ],
-						"gridsnaponopen" : 0,
+						"gridsnaponopen" : 1,
+						"objectsnaponopen" : 1,
 						"statusbarvisible" : 1,
 						"toolbarvisible" : 1,
 						"lefttoolbarpinned" : 0,
@@ -113,8 +115,8 @@
 									"presentation_rect" : [ 27.5, 100.0, 9.733376, 9.733376 ],
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
-											"parameter_longname" : "PitchActivityLED[8]",
-											"parameter_shortname" : "PitchActivityLED",
+											"parameter_longname" : "MIDI_out_LED",
+											"parameter_shortname" : "MIDI_out_LED",
 											"parameter_type" : 2,
 											"parameter_mmax" : 1.0,
 											"parameter_enum" : [ "off", "on" ],
@@ -143,8 +145,8 @@
 									"presentation_rect" : [ 24.5, 3.0, 9.733376, 9.733376 ],
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
-											"parameter_longname" : "PitchActivityLED[7]",
-											"parameter_shortname" : "PitchActivityLED",
+											"parameter_longname" : "MIDI_in_LED",
+											"parameter_shortname" : "MIDI_in_LED",
 											"parameter_type" : 2,
 											"parameter_mmax" : 1.0,
 											"parameter_enum" : [ "off", "on" ],
@@ -224,7 +226,8 @@
 									"maxclass" : "outlet",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 523.005676, 1539.0, 25.0, 25.0 ]
+									"patching_rect" : [ 523.005676, 1539.0, 25.0, 25.0 ],
+									"style" : ""
 								}
 
 							}
@@ -266,7 +269,8 @@
 									"numinlets" : 0,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 479.255646, 80.190475, 25.0, 25.0 ]
+									"patching_rect" : [ 479.255646, 80.190475, 25.0, 25.0 ],
+									"style" : ""
 								}
 
 							}
@@ -321,8 +325,8 @@
 									"presentation_rect" : [ 297.45929, 56.660751, 96.0, 15.0 ],
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
-											"parameter_longname" : "live.menu[6]",
-											"parameter_shortname" : "live.menu[6]",
+											"parameter_longname" : "TransMenu",
+											"parameter_shortname" : "TransMenu",
 											"parameter_type" : 2,
 											"parameter_enum" : [ "0 12 24", "0 3 2 1 -2 -1 -12", "0 -12 12 -5 7 0", "0 0 12 12", "0 0 12 10", "0 0 -2 -2", "0 12", "0 7 0 12 0 12 0 0" ],
 											"parameter_initial_enable" : 1,
@@ -353,7 +357,7 @@
 									"presentation" : 1,
 									"presentation_rect" : [ 297.45929, 75.422241, 96.0, 16.604538 ],
 									"style" : "",
-									"text" : "0 0 -2 -2",
+									"text" : "0 12",
 									"textcolor" : [ 0.0, 0.870117, 0.103208, 1.0 ],
 									"textjustification" : 0,
 									"varname" : "textedit"
@@ -509,8 +513,8 @@
 									"presentation_rect" : [ 11.433908, 70.660751, 52.661621, 14.973684 ],
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
-											"parameter_longname" : "live.tab[1]",
-											"parameter_shortname" : "live.tab",
+											"parameter_longname" : "TransField",
+											"parameter_shortname" : "TransField",
 											"parameter_type" : 2,
 											"parameter_mmax" : 1.0,
 											"parameter_enum" : [ "Pattern 1", "Pattern 2", "Pattern 3", "Pattern 4", "Pattern 5", "Pattern 6", "Pattern 7", "Pattern 8", "Pattern 9", "Pattern 10", "Pattern 11", "Pattern 12" ],
@@ -529,15 +533,6 @@
 								"box" : 								{
 									"angle" : 0.0,
 									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-									"bgfillcolor" : [ 										{
-											"type" : "color",
-											"color1" : [ 0.75, 0.79, 0.93, 1.0 ],
-											"color2" : [ 0.66, 0.66, 0.72, 1.0 ],
-											"color" : [ 0.0, 0.0, 0.0, 1.0 ],
-											"angle" : 0,
-											"proportion" : 0.39
-										}
- ],
 									"id" : "obj-159",
 									"maxclass" : "panel",
 									"mode" : 0,
@@ -569,8 +564,8 @@
 									"presentation_rect" : [ 217.2612, 41.660751, 66.915611, 14.764645 ],
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
-											"parameter_longname" : "live.text[1]",
-											"parameter_shortname" : "live.text[1]",
+											"parameter_longname" : "Hold",
+											"parameter_shortname" : "Hold",
 											"parameter_type" : 2,
 											"parameter_mmax" : 1.0,
 											"parameter_enum" : [ "val1", "val2" ]
@@ -602,18 +597,18 @@
 										"Pulse" : [ 4.0 ],
 										"live.menu" : [ 0.0 ],
 										"live.menu[4]" : [ 0.0 ],
-										"live.menu[6]" : [ 5.0 ],
-										"live.text" : [ 0.0 ],
+										"live.menu[6]" : [ 6.0 ],
 										"live.text[1]" : [ 1.0 ],
 										"max pulse[1]" : [ 13.0 ],
+										"setbutton" : [ 0.0 ],
 										"swing amount" : [ 50.0 ],
 										"swing switch" : [ 0.0 ],
-										"textedit" : [ 0, 0, -2, -2 ]
+										"textedit" : [ 0, 12 ]
 									}
 ,
 									"style" : "",
 									"text" : "autopattr",
-									"varname" : "u277000172"
+									"varname" : "u306000726"
 								}
 
 							}
@@ -700,7 +695,8 @@
 									"numinlets" : 0,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 1089.533447, 636.943909, 25.0, 25.0 ]
+									"patching_rect" : [ 1089.533447, 636.943909, 25.0, 25.0 ],
+									"style" : ""
 								}
 
 							}
@@ -927,9 +923,10 @@
 										"default_fontsize" : 12.0,
 										"default_fontface" : 0,
 										"default_fontname" : "Arial",
-										"gridonopen" : 0,
+										"gridonopen" : 1,
 										"gridsize" : [ 15.0, 15.0 ],
-										"gridsnaponopen" : 0,
+										"gridsnaponopen" : 1,
+										"objectsnaponopen" : 1,
 										"statusbarvisible" : 1,
 										"toolbarvisible" : 1,
 										"lefttoolbarpinned" : 0,
@@ -954,7 +951,8 @@
 													"numinlets" : 0,
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
-													"patching_rect" : [ 226.625, 66.0, 25.0, 25.0 ]
+													"patching_rect" : [ 226.625, 66.0, 25.0, 25.0 ],
+													"style" : ""
 												}
 
 											}
@@ -1086,7 +1084,8 @@
 													"maxclass" : "outlet",
 													"numinlets" : 1,
 													"numoutlets" : 0,
-													"patching_rect" : [ 50.000004, 696.415527, 25.0, 25.0 ]
+													"patching_rect" : [ 50.000004, 696.415527, 25.0, 25.0 ],
+													"style" : ""
 												}
 
 											}
@@ -1764,20 +1763,17 @@
 												}
 
 											}
- ]
+ ],
+										"bgfillcolor_type" : "gradient",
+										"bgfillcolor_color1" : [ 0.435294, 0.462745, 0.498039, 1.0 ],
+										"bgfillcolor_color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
+										"bgfillcolor_color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
+										"bgfillcolor_angle" : 270.0,
+										"bgfillcolor_proportion" : 0.39
 									}
 ,
 									"patching_rect" : [ 1322.033447, 445.493469, 88.0, 22.0 ],
 									"saved_object_attributes" : 									{
-										"bgfillcolor_dictionary" : 										{
-											"type" : "gradient",
-											"color1" : [ 0.435294, 0.462745, 0.498039, 1.0 ],
-											"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-											"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-											"angle" : 270.0,
-											"proportion" : 0.39
-										}
-,
 										"description" : "",
 										"digest" : "",
 										"globalpatchername" : "",
@@ -1803,7 +1799,7 @@
 									"patching_rect" : [ 1142.061279, 175.730759, 71.944458, 17.0 ],
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
-											"parameter_longname" : "Max pulse[1]",
+											"parameter_longname" : "Max pulse",
 											"parameter_shortname" : "Max pulse",
 											"parameter_type" : 2,
 											"parameter_enum" : [ "1nd", "1n", "1nt", "2nd", "2n", "2nt", "4nd", "4n", "4nt", "8nd", "8n", "8nt", "16nd", "16n", "16nt", "32nd", "32n", "32nt", "64nd", "64n", "128nd", "128n" ],
@@ -1882,17 +1878,18 @@
 									"rounded" : 1.0,
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
-											"parameter_longname" : "live.text",
-											"parameter_shortname" : "live.text",
+											"parameter_longname" : "setbutton",
+											"parameter_shortname" : "setbutton",
 											"parameter_type" : 2,
 											"parameter_mmax" : 1.0,
-											"parameter_enum" : [ "val1", "val2" ]
+											"parameter_enum" : [ "val1", "val2" ],
+											"parameter_invisible" : 2
 										}
 
 									}
 ,
 									"text" : "Set",
-									"varname" : "live.text"
+									"varname" : "setbutton"
 								}
 
 							}
@@ -2019,8 +2016,8 @@
 									"presentation_rect" : [ 217.2612, 75.410751, 66.915611, 15.0 ],
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
-											"parameter_longname" : "live.menu[4]",
-											"parameter_shortname" : "live.menu[4]",
+											"parameter_longname" : "ArpMode",
+											"parameter_shortname" : "ArpMode",
 											"parameter_type" : 2,
 											"parameter_enum" : [ "As played", "Sort up", "Sort down" ]
 										}
@@ -2048,8 +2045,8 @@
 									"presentation_rect" : [ 217.2612, 58.660751, 66.915611, 15.0 ],
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
-											"parameter_longname" : "live.menu",
-											"parameter_shortname" : "live.menu",
+											"parameter_longname" : "ArpDirection",
+											"parameter_shortname" : "ArpDirection",
 											"parameter_type" : 2,
 											"parameter_enum" : [ "Forward", "Backward", "Fwd & Bkwd" ]
 										}
@@ -2131,9 +2128,10 @@
 										"default_fontsize" : 12.0,
 										"default_fontface" : 0,
 										"default_fontname" : "Arial Bold",
-										"gridonopen" : 0,
+										"gridonopen" : 1,
 										"gridsize" : [ 15.0, 15.0 ],
-										"gridsnaponopen" : 0,
+										"gridsnaponopen" : 1,
+										"objectsnaponopen" : 1,
 										"statusbarvisible" : 2,
 										"toolbarvisible" : 1,
 										"lefttoolbarpinned" : 0,
@@ -2248,7 +2246,8 @@
 													"numinlets" : 0,
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
-													"patching_rect" : [ 50.0, 40.0, 25.0, 25.0 ]
+													"patching_rect" : [ 50.0, 40.0, 25.0, 25.0 ],
+													"style" : ""
 												}
 
 											}
@@ -2260,7 +2259,8 @@
 													"numinlets" : 0,
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
-													"patching_rect" : [ 167.0, 86.0, 25.0, 25.0 ]
+													"patching_rect" : [ 167.0, 86.0, 25.0, 25.0 ],
+													"style" : ""
 												}
 
 											}
@@ -2271,7 +2271,8 @@
 													"maxclass" : "outlet",
 													"numinlets" : 1,
 													"numoutlets" : 0,
-													"patching_rect" : [ 50.0, 364.0, 25.0, 25.0 ]
+													"patching_rect" : [ 50.0, 364.0, 25.0, 25.0 ],
+													"style" : ""
 												}
 
 											}
@@ -2375,20 +2376,17 @@
 												}
 
 											}
- ]
+ ],
+										"bgfillcolor_type" : "gradient",
+										"bgfillcolor_color1" : [ 0.435294, 0.462745, 0.498039, 1.0 ],
+										"bgfillcolor_color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
+										"bgfillcolor_color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
+										"bgfillcolor_angle" : 270.0,
+										"bgfillcolor_proportion" : 0.39
 									}
 ,
 									"patching_rect" : [ 523.005676, 1198.228394, 77.0, 22.0 ],
 									"saved_object_attributes" : 									{
-										"bgfillcolor_dictionary" : 										{
-											"type" : "gradient",
-											"color1" : [ 0.435294, 0.462745, 0.498039, 1.0 ],
-											"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-											"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-											"angle" : 270.0,
-											"proportion" : 0.39
-										}
-,
 										"description" : "",
 										"digest" : "",
 										"fontname" : "Arial Bold",
@@ -2427,9 +2425,10 @@
 										"default_fontsize" : 12.0,
 										"default_fontface" : 0,
 										"default_fontname" : "Arial Bold",
-										"gridonopen" : 0,
+										"gridonopen" : 1,
 										"gridsize" : [ 15.0, 15.0 ],
-										"gridsnaponopen" : 0,
+										"gridsnaponopen" : 1,
+										"objectsnaponopen" : 1,
 										"statusbarvisible" : 2,
 										"toolbarvisible" : 1,
 										"lefttoolbarpinned" : 0,
@@ -2543,7 +2542,8 @@
 													"numinlets" : 0,
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
-													"patching_rect" : [ 132.0, 36.0, 25.0, 25.0 ]
+													"patching_rect" : [ 132.0, 36.0, 25.0, 25.0 ],
+													"style" : ""
 												}
 
 											}
@@ -2555,7 +2555,8 @@
 													"numinlets" : 0,
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
-													"patching_rect" : [ 232.0, 56.0, 25.0, 25.0 ]
+													"patching_rect" : [ 232.0, 56.0, 25.0, 25.0 ],
+													"style" : ""
 												}
 
 											}
@@ -2566,7 +2567,8 @@
 													"maxclass" : "outlet",
 													"numinlets" : 1,
 													"numoutlets" : 0,
-													"patching_rect" : [ 132.0, 263.533447, 25.0, 25.0 ]
+													"patching_rect" : [ 132.0, 263.533447, 25.0, 25.0 ],
+													"style" : ""
 												}
 
 											}
@@ -2652,20 +2654,17 @@
 												}
 
 											}
- ]
+ ],
+										"bgfillcolor_type" : "gradient",
+										"bgfillcolor_color1" : [ 0.435294, 0.462745, 0.498039, 1.0 ],
+										"bgfillcolor_color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
+										"bgfillcolor_color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
+										"bgfillcolor_angle" : 270.0,
+										"bgfillcolor_proportion" : 0.39
 									}
 ,
 									"patching_rect" : [ 504.255646, 940.038208, 44.0, 22.0 ],
 									"saved_object_attributes" : 									{
-										"bgfillcolor_dictionary" : 										{
-											"type" : "gradient",
-											"color1" : [ 0.435294, 0.462745, 0.498039, 1.0 ],
-											"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-											"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-											"angle" : 270.0,
-											"proportion" : 0.39
-										}
-,
 										"description" : "",
 										"digest" : "",
 										"fontname" : "Arial Bold",
@@ -2704,9 +2703,10 @@
 										"default_fontsize" : 12.0,
 										"default_fontface" : 0,
 										"default_fontname" : "Arial Bold",
-										"gridonopen" : 0,
+										"gridonopen" : 1,
 										"gridsize" : [ 15.0, 15.0 ],
-										"gridsnaponopen" : 0,
+										"gridsnaponopen" : 1,
+										"objectsnaponopen" : 1,
 										"statusbarvisible" : 2,
 										"toolbarvisible" : 1,
 										"lefttoolbarpinned" : 0,
@@ -2760,7 +2760,8 @@
 													"maxclass" : "outlet",
 													"numinlets" : 1,
 													"numoutlets" : 0,
-													"patching_rect" : [ 337.5, 399.0, 25.0, 25.0 ]
+													"patching_rect" : [ 337.5, 399.0, 25.0, 25.0 ],
+													"style" : ""
 												}
 
 											}
@@ -2917,7 +2918,8 @@
 													"numinlets" : 0,
 													"numoutlets" : 1,
 													"outlettype" : [ "int" ],
-													"patching_rect" : [ 104.0, 26.0, 25.0, 25.0 ]
+													"patching_rect" : [ 104.0, 26.0, 25.0, 25.0 ],
+													"style" : ""
 												}
 
 											}
@@ -2929,7 +2931,8 @@
 													"numinlets" : 0,
 													"numoutlets" : 1,
 													"outlettype" : [ "int" ],
-													"patching_rect" : [ 54.0, 116.0, 25.0, 25.0 ]
+													"patching_rect" : [ 54.0, 116.0, 25.0, 25.0 ],
+													"style" : ""
 												}
 
 											}
@@ -2940,7 +2943,8 @@
 													"maxclass" : "outlet",
 													"numinlets" : 1,
 													"numoutlets" : 0,
-													"patching_rect" : [ 186.5, 373.0, 25.0, 25.0 ]
+													"patching_rect" : [ 186.5, 373.0, 25.0, 25.0 ],
+													"style" : ""
 												}
 
 											}
@@ -3098,20 +3102,17 @@
 												}
 
 											}
- ]
+ ],
+										"bgfillcolor_type" : "gradient",
+										"bgfillcolor_color1" : [ 0.435294, 0.462745, 0.498039, 1.0 ],
+										"bgfillcolor_color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
+										"bgfillcolor_color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
+										"bgfillcolor_angle" : 270.0,
+										"bgfillcolor_proportion" : 0.39
 									}
 ,
 									"patching_rect" : [ 479.255646, 508.714172, 125.999969, 22.0 ],
 									"saved_object_attributes" : 									{
-										"bgfillcolor_dictionary" : 										{
-											"type" : "gradient",
-											"color1" : [ 0.435294, 0.462745, 0.498039, 1.0 ],
-											"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-											"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-											"angle" : 270.0,
-											"proportion" : 0.39
-										}
-,
 										"description" : "",
 										"digest" : "",
 										"fontname" : "Arial Bold",
@@ -3438,15 +3439,6 @@
 									"angle" : 0.0,
 									"background" : 1,
 									"bgcolor" : [ 0.137255, 0.145098, 0.160784, 0.65 ],
-									"bgfillcolor" : [ 										{
-											"type" : "color",
-											"color1" : [ 0.75, 0.79, 0.93, 1.0 ],
-											"color2" : [ 0.66, 0.66, 0.72, 1.0 ],
-											"color" : [ 0.137255, 0.145098, 0.160784, 0.65 ],
-											"angle" : 0,
-											"proportion" : 0.39
-										}
- ],
 									"id" : "obj-130",
 									"maxclass" : "panel",
 									"mode" : 0,
@@ -3466,15 +3458,6 @@
 									"angle" : 0.0,
 									"background" : 1,
 									"bgcolor" : [ 0.367404, 0.389405, 0.430238, 1.0 ],
-									"bgfillcolor" : [ 										{
-											"type" : "color",
-											"color1" : [ 0.75, 0.79, 0.93, 1.0 ],
-											"color2" : [ 0.66, 0.66, 0.72, 1.0 ],
-											"color" : [ 0.367404, 0.389405, 0.430238, 1.0 ],
-											"angle" : 0,
-											"proportion" : 0.39
-										}
- ],
 									"id" : "obj-17",
 									"maxclass" : "panel",
 									"mode" : 0,
@@ -3494,15 +3477,6 @@
 									"angle" : 0.0,
 									"background" : 1,
 									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-									"bgfillcolor" : [ 										{
-											"type" : "color",
-											"color1" : [ 0.75, 0.79, 0.93, 1.0 ],
-											"color2" : [ 0.66, 0.66, 0.72, 1.0 ],
-											"color" : [ 0.0, 0.0, 0.0, 1.0 ],
-											"angle" : 0,
-											"proportion" : 0.39
-										}
- ],
 									"id" : "obj-29",
 									"maxclass" : "panel",
 									"mode" : 0,
@@ -4243,25 +4217,25 @@
  ],
 		"lines" : [  ],
 		"parameters" : 		{
-			"obj-10::obj-155" : [ "Swing amount", "Swing amount", 0 ],
-			"obj-10::obj-47" : [ "PitchActivityLED[7]", "PitchActivityLED", 0 ],
-			"obj-10::obj-3" : [ "live.tab[1]", "live.tab", 0 ],
-			"obj-10::obj-139" : [ "ClockSelect", "ClockSelect", 0 ],
-			"obj-10::obj-152" : [ "live.menu[4]", "live.menu[4]", 0 ],
-			"obj-10::obj-44" : [ "live.text[1]", "live.text[1]", 0 ],
-			"obj-10::obj-28" : [ "Duration", "Duration", 0 ],
-			"obj-10::obj-120" : [ "Max pulse[1]", "Max pulse", 0 ],
-			"obj-10::obj-48" : [ "PitchActivityLED[8]", "PitchActivityLED", 0 ],
+			"obj-10::obj-152" : [ "ArpMode", "ArpMode", 0 ],
 			"obj-10::obj-96" : [ "Pulse", "Pulse", 0 ],
-			"obj-10::obj-151" : [ "live.menu", "live.menu", 0 ],
-			"obj-10::obj-180" : [ "live.menu[6]", "live.menu[6]", 0 ],
-			"obj-10::obj-54" : [ "live.text", "live.text", 0 ]
+			"obj-10::obj-48" : [ "MIDI_out_LED", "MIDI_out_LED", 0 ],
+			"obj-10::obj-54" : [ "setbutton", "setbutton", 0 ],
+			"obj-10::obj-139" : [ "ClockSelect", "ClockSelect", 0 ],
+			"obj-10::obj-180" : [ "TransMenu", "TransMenu", 0 ],
+			"obj-10::obj-44" : [ "Hold", "Hold", 0 ],
+			"obj-10::obj-120" : [ "Max pulse", "Max pulse", 0 ],
+			"obj-10::obj-155" : [ "Swing amount", "Swing amount", 0 ],
+			"obj-10::obj-151" : [ "ArpDirection", "ArpDirection", 0 ],
+			"obj-10::obj-28" : [ "Duration", "Duration", 0 ],
+			"obj-10::obj-47" : [ "MIDI_in_LED", "MIDI_in_LED", 0 ],
+			"obj-10::obj-3" : [ "TransField", "TransField", 0 ]
 		}
 ,
 		"dependency_cache" : [ 			{
 				"name" : "swingCalc.js",
-				"bootpath" : "/Applications/Max 7/resources/packages/Beap/misc",
-				"patcherrelativepath" : "../../../misc",
+				"bootpath" : "/Applications/Max 7/Max.app/Contents/Resources/C74/packages/Beap/misc",
+				"patcherrelativepath" : "../../../../../../../Applications/Max 7/Max.app/Contents/Resources/C74/packages/Beap/misc",
 				"type" : "TEXT",
 				"implicit" : 1
 			}

@@ -15,9 +15,10 @@
 		"default_fontsize" : 12.0,
 		"default_fontface" : 0,
 		"default_fontname" : "Arial",
-		"gridonopen" : 0,
+		"gridonopen" : 1,
 		"gridsize" : [ 15.0, 15.0 ],
-		"gridsnaponopen" : 0,
+		"gridsnaponopen" : 1,
+		"objectsnaponopen" : 1,
 		"statusbarvisible" : 2,
 		"toolbarvisible" : 1,
 		"lefttoolbarpinned" : 0,
@@ -66,9 +67,10 @@
 						"default_fontsize" : 12.0,
 						"default_fontface" : 0,
 						"default_fontname" : "Arial",
-						"gridonopen" : 0,
+						"gridonopen" : 1,
 						"gridsize" : [ 15.0, 15.0 ],
-						"gridsnaponopen" : 0,
+						"gridsnaponopen" : 1,
+						"objectsnaponopen" : 1,
 						"statusbarvisible" : 1,
 						"toolbarvisible" : 1,
 						"lefttoolbarpinned" : 0,
@@ -118,7 +120,7 @@
 									"presentation_rect" : [ 168.642151, 48.0, 52.0, 15.0 ],
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
-											"parameter_longname" : "swing.amt[1]",
+											"parameter_longname" : "swing.amt",
 											"parameter_shortname" : "swing.amt",
 											"parameter_type" : 0,
 											"parameter_mmax" : 100.0,
@@ -225,7 +227,7 @@
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
 											"parameter_linknames" : 1,
-											"parameter_longname" : "swing_switch[1]",
+											"parameter_longname" : "swing",
 											"parameter_shortname" : "swing",
 											"parameter_type" : 2,
 											"parameter_mmax" : 1.0,
@@ -239,7 +241,7 @@
 									"text" : "Swing off",
 									"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 									"texton" : "Swing on",
-									"varname" : "swing_switch[1]"
+									"varname" : "swing"
 								}
 
 							}
@@ -247,15 +249,6 @@
 								"box" : 								{
 									"angle" : 0.0,
 									"bgcolor" : [ 0.137255, 0.145098, 0.160784, 0.65 ],
-									"bgfillcolor" : [ 										{
-											"type" : "color",
-											"color1" : [ 0.75, 0.79, 0.93, 1.0 ],
-											"color2" : [ 0.66, 0.66, 0.72, 1.0 ],
-											"color" : [ 0.137255, 0.145098, 0.160784, 0.65 ],
-											"angle" : 0,
-											"proportion" : 0.39
-										}
- ],
 									"id" : "obj-19",
 									"maxclass" : "panel",
 									"mode" : 0,
@@ -296,9 +289,10 @@
 										"default_fontsize" : 13.0,
 										"default_fontface" : 0,
 										"default_fontname" : "Arial",
-										"gridonopen" : 0,
+										"gridonopen" : 1,
 										"gridsize" : [ 8.0, 8.0 ],
-										"gridsnaponopen" : 0,
+										"gridsnaponopen" : 1,
+										"objectsnaponopen" : 1,
 										"statusbarvisible" : 1,
 										"toolbarvisible" : 1,
 										"lefttoolbarpinned" : 0,
@@ -322,7 +316,8 @@
 													"maxclass" : "outlet",
 													"numinlets" : 1,
 													"numoutlets" : 0,
-													"patching_rect" : [ 884.0, 632.609863, 25.0, 25.0 ]
+													"patching_rect" : [ 884.0, 632.609863, 25.0, 25.0 ],
+													"style" : ""
 												}
 
 											}
@@ -409,7 +404,8 @@
 													"numinlets" : 0,
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
-													"patching_rect" : [ 381.0, 55.5, 25.0, 25.0 ]
+													"patching_rect" : [ 381.0, 55.5, 25.0, 25.0 ],
+													"style" : ""
 												}
 
 											}
@@ -496,7 +492,8 @@
 													"numinlets" : 0,
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
-													"patching_rect" : [ 860.340088, 55.5, 25.0, 25.0 ]
+													"patching_rect" : [ 860.340088, 55.5, 25.0, 25.0 ],
+													"style" : ""
 												}
 
 											}
@@ -508,7 +505,8 @@
 													"numinlets" : 0,
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
-													"patching_rect" : [ 761.340088, 55.5, 25.0, 25.0 ]
+													"patching_rect" : [ 761.340088, 55.5, 25.0, 25.0 ],
+													"style" : ""
 												}
 
 											}
@@ -540,7 +538,8 @@
 													"maxclass" : "outlet",
 													"numinlets" : 1,
 													"numoutlets" : 0,
-													"patching_rect" : [ 74.0, 632.609863, 25.0, 25.0 ]
+													"patching_rect" : [ 74.0, 632.609863, 25.0, 25.0 ],
+													"style" : ""
 												}
 
 											}
@@ -645,9 +644,10 @@
 														"default_fontsize" : 10.0,
 														"default_fontface" : 0,
 														"default_fontname" : "Arial Bold",
-														"gridonopen" : 0,
+														"gridonopen" : 1,
 														"gridsize" : [ 8.0, 8.0 ],
-														"gridsnaponopen" : 0,
+														"gridsnaponopen" : 1,
+														"objectsnaponopen" : 1,
 														"statusbarvisible" : 1,
 														"toolbarvisible" : 1,
 														"lefttoolbarpinned" : 0,
@@ -672,7 +672,8 @@
 																	"numinlets" : 0,
 																	"numoutlets" : 1,
 																	"outlettype" : [ "" ],
-																	"patching_rect" : [ 102.0, 24.0, 25.0, 25.0 ]
+																	"patching_rect" : [ 102.0, 24.0, 25.0, 25.0 ],
+																	"style" : ""
 																}
 
 															}
@@ -745,7 +746,8 @@
 																	"numinlets" : 0,
 																	"numoutlets" : 1,
 																	"outlettype" : [ "int" ],
-																	"patching_rect" : [ 32.0, 24.0, 18.0, 18.0 ]
+																	"patching_rect" : [ 32.0, 24.0, 18.0, 18.0 ],
+																	"style" : ""
 																}
 
 															}
@@ -936,7 +938,8 @@
 																	"maxclass" : "outlet",
 																	"numinlets" : 1,
 																	"numoutlets" : 0,
-																	"patching_rect" : [ 32.0, 264.0, 18.0, 18.0 ]
+																	"patching_rect" : [ 32.0, 264.0, 18.0, 18.0 ],
+																	"style" : ""
 																}
 
 															}
@@ -949,7 +952,8 @@
 																	"numinlets" : 0,
 																	"numoutlets" : 1,
 																	"outlettype" : [ "float" ],
-																	"patching_rect" : [ 264.0, 24.0, 18.0, 18.0 ]
+																	"patching_rect" : [ 264.0, 24.0, 18.0, 18.0 ],
+																	"style" : ""
 																}
 
 															}
@@ -1251,20 +1255,17 @@
 																}
 
 															}
- ]
+ ],
+														"bgfillcolor_type" : "gradient",
+														"bgfillcolor_color1" : [ 0.435294, 0.462745, 0.498039, 1.0 ],
+														"bgfillcolor_color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
+														"bgfillcolor_color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
+														"bgfillcolor_angle" : 270.0,
+														"bgfillcolor_proportion" : 0.39
 													}
 ,
 													"patching_rect" : [ 733.79071, 271.813171, 69.0, 21.0 ],
 													"saved_object_attributes" : 													{
-														"bgfillcolor_dictionary" : 														{
-															"type" : "gradient",
-															"color1" : [ 0.435294, 0.462745, 0.498039, 1.0 ],
-															"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-															"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-															"angle" : 270.0,
-															"proportion" : 0.39
-														}
-,
 														"description" : "",
 														"digest" : "",
 														"fontname" : "Arial Bold",
@@ -1318,7 +1319,8 @@
 													"numinlets" : 0,
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
-													"patching_rect" : [ 74.0, 55.5, 25.0, 25.0 ]
+													"patching_rect" : [ 74.0, 55.5, 25.0, 25.0 ],
+													"style" : ""
 												}
 
 											}
@@ -1771,20 +1773,17 @@
 												}
 
 											}
- ]
+ ],
+										"bgfillcolor_type" : "gradient",
+										"bgfillcolor_color1" : [ 0.435294, 0.462745, 0.498039, 1.0 ],
+										"bgfillcolor_color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
+										"bgfillcolor_color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
+										"bgfillcolor_angle" : 270.0,
+										"bgfillcolor_proportion" : 0.39
 									}
 ,
 									"patching_rect" : [ 435.0, 225.0, 147.639771, 23.0 ],
 									"saved_object_attributes" : 									{
-										"bgfillcolor_dictionary" : 										{
-											"type" : "gradient",
-											"color1" : [ 0.435294, 0.462745, 0.498039, 1.0 ],
-											"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-											"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-											"angle" : 270.0,
-											"proportion" : 0.39
-										}
-,
 										"description" : "",
 										"digest" : "",
 										"fontsize" : 13.0,
@@ -1933,7 +1932,8 @@
 									"maxclass" : "outlet",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 174.0, 567.0, 25.0, 25.0 ]
+									"patching_rect" : [ 174.0, 567.0, 25.0, 25.0 ],
+									"style" : ""
 								}
 
 							}
@@ -1982,8 +1982,8 @@
 									"presentation_rect" : [ 3.0, 46.792229, 17.0, 18.0 ],
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
-											"parameter_longname" : "live.toggle",
-											"parameter_shortname" : "live.toggle",
+											"parameter_longname" : "enable",
+											"parameter_shortname" : "enable",
 											"parameter_type" : 2,
 											"parameter_mmax" : 1.0,
 											"parameter_enum" : [ "off", "on" ],
@@ -1999,16 +1999,12 @@
 							}
 , 							{
 								"box" : 								{
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-									"bgfillcolor" : [ 										{
-											"type" : "color",
-											"color1" : [ 0.435294, 0.462745, 0.498039, 1.0 ],
-											"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-											"color" : [ 0.0, 0.0, 0.0, 1.0 ],
-											"angle" : 270.0,
-											"proportion" : 0.39
-										}
- ],
+									"bgfillcolor_angle" : 270.0,
+									"bgfillcolor_color" : [ 0.0, 0.0, 0.0, 1.0 ],
+									"bgfillcolor_color1" : [ 0.435294, 0.462745, 0.498039, 1.0 ],
+									"bgfillcolor_color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
+									"bgfillcolor_proportion" : 0.39,
+									"bgfillcolor_type" : "color",
 									"fontface" : 0,
 									"fontname" : "Arial Bold",
 									"fontsize" : 10.0,
@@ -2056,14 +2052,14 @@
 										"led" : [ 1.0 ],
 										"live.toggle" : [ 1.0 ],
 										"mute" : [ 0.0 ],
-										"swing_switch[1]" : [ 0.0 ],
-										"swingamt" : [ 40.039371 ],
+										"swing" : [ 0.0 ],
+										"swingamt" : [ 15.0 ],
 										"swingbase" : [ 1.0 ]
 									}
 ,
 									"style" : "",
 									"text" : "autopattr",
-									"varname" : "u405002264"
+									"varname" : "u890001162"
 								}
 
 							}
@@ -2106,15 +2102,6 @@
 									"angle" : 0.0,
 									"background" : 1,
 									"bgcolor" : [ 0.137255, 0.145098, 0.160784, 0.65 ],
-									"bgfillcolor" : [ 										{
-											"type" : "color",
-											"color1" : [ 0.75, 0.79, 0.93, 1.0 ],
-											"color2" : [ 0.66, 0.66, 0.72, 1.0 ],
-											"color" : [ 0.137255, 0.145098, 0.160784, 0.65 ],
-											"angle" : 0.0,
-											"proportion" : 0.39
-										}
- ],
 									"id" : "obj-130",
 									"maxclass" : "panel",
 									"mode" : 0,
@@ -2134,15 +2121,6 @@
 									"angle" : 0.0,
 									"background" : 1,
 									"bgcolor" : [ 0.367404, 0.389405, 0.430238, 1.0 ],
-									"bgfillcolor" : [ 										{
-											"type" : "color",
-											"color1" : [ 0.75, 0.79, 0.93, 1.0 ],
-											"color2" : [ 0.66, 0.66, 0.72, 1.0 ],
-											"color" : [ 0.367404, 0.389405, 0.430238, 1.0 ],
-											"angle" : 0.0,
-											"proportion" : 0.39
-										}
- ],
 									"id" : "obj-131",
 									"maxclass" : "panel",
 									"mode" : 0,
@@ -2162,15 +2140,6 @@
 									"angle" : 0.0,
 									"background" : 1,
 									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-									"bgfillcolor" : [ 										{
-											"type" : "color",
-											"color1" : [ 0.75, 0.79, 0.93, 1.0 ],
-											"color2" : [ 0.66, 0.66, 0.72, 1.0 ],
-											"color" : [ 0.0, 0.0, 0.0, 1.0 ],
-											"angle" : 0.0,
-											"proportion" : 0.39
-										}
- ],
 									"id" : "obj-135",
 									"maxclass" : "panel",
 									"mode" : 0,
@@ -2371,19 +2340,19 @@
  ],
 		"lines" : [  ],
 		"parameters" : 		{
-			"obj-18::obj-27" : [ "led", "led", 0 ],
-			"obj-18::obj-476" : [ "swing.amt[1]", "swing.amt", 0 ],
+			"obj-18::obj-34" : [ "Pulse", "Pulse", 0 ],
+			"obj-18::obj-20" : [ "enable", "enable", 0 ],
 			"obj-18::obj-29" : [ "mute", "mute", 0 ],
-			"obj-18::obj-477" : [ "swing.base", "swing.base", 0 ],
-			"obj-18::obj-478" : [ "swing_switch[1]", "swing", 0 ],
-			"obj-18::obj-20" : [ "live.toggle", "live.toggle", 0 ],
-			"obj-18::obj-34" : [ "Pulse", "Pulse", 0 ]
+			"obj-18::obj-478" : [ "swing", "swing", 0 ],
+			"obj-18::obj-476" : [ "swing.amt", "swing.amt", 0 ],
+			"obj-18::obj-27" : [ "led", "led", 0 ],
+			"obj-18::obj-477" : [ "swing.base", "swing.base", 0 ]
 		}
 ,
 		"dependency_cache" : [ 			{
 				"name" : "swingCalc.js",
-				"bootpath" : "/Applications/Max 7/resources/packages/Beap/misc",
-				"patcherrelativepath" : "../../../misc",
+				"bootpath" : "/Applications/Max 7/Max.app/Contents/Resources/C74/packages/Beap/misc",
+				"patcherrelativepath" : "../../../../../../../Applications/Max 7/Max.app/Contents/Resources/C74/packages/Beap/misc",
 				"type" : "TEXT",
 				"implicit" : 1
 			}

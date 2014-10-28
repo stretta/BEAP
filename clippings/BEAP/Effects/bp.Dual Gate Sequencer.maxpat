@@ -15,9 +15,10 @@
 		"default_fontsize" : 12.0,
 		"default_fontface" : 0,
 		"default_fontname" : "Arial",
-		"gridonopen" : 0,
+		"gridonopen" : 1,
 		"gridsize" : [ 15.0, 15.0 ],
-		"gridsnaponopen" : 0,
+		"gridsnaponopen" : 1,
+		"objectsnaponopen" : 1,
 		"statusbarvisible" : 1,
 		"toolbarvisible" : 1,
 		"lefttoolbarpinned" : 0,
@@ -66,9 +67,10 @@
 						"default_fontsize" : 12.0,
 						"default_fontface" : 0,
 						"default_fontname" : "Arial",
-						"gridonopen" : 0,
+						"gridonopen" : 1,
 						"gridsize" : [ 15.0, 15.0 ],
-						"gridsnaponopen" : 0,
+						"gridsnaponopen" : 1,
+						"objectsnaponopen" : 1,
 						"statusbarvisible" : 1,
 						"toolbarvisible" : 1,
 						"lefttoolbarpinned" : 0,
@@ -108,6 +110,7 @@
 											"parameter_enum" : [ "Trigger", "Transport" ],
 											"parameter_initial_enable" : 1,
 											"parameter_initial" : [ 0.0 ],
+											"parameter_unitstyle" : 0,
 											"parameter_defer" : 1
 										}
 
@@ -123,9 +126,9 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 42.0, 67.0, 285.0, 20.0 ],
+									"patching_rect" : [ 42.0, 67.0, 256.0, 20.0 ],
 									"style" : "",
-									"text" : "## Two channel sequencer-controlled gate. ## "
+									"text" : "## Two channel sequencer-controlled gate ## "
 								}
 
 							}
@@ -1054,9 +1057,10 @@
 										"default_fontsize" : 12.0,
 										"default_fontface" : 0,
 										"default_fontname" : "Arial",
-										"gridonopen" : 0,
+										"gridonopen" : 1,
 										"gridsize" : [ 15.0, 15.0 ],
-										"gridsnaponopen" : 0,
+										"gridsnaponopen" : 1,
+										"objectsnaponopen" : 1,
 										"statusbarvisible" : 1,
 										"toolbarvisible" : 1,
 										"lefttoolbarpinned" : 0,
@@ -2163,7 +2167,7 @@
 ,
 									"style" : "",
 									"text" : "autopattr",
-									"varname" : "u727006947"
+									"varname" : "u167002461"
 								}
 
 							}
@@ -2809,7 +2813,8 @@
 
 							}
  ],
-						"toolbaradditions" : [ "transport" ]
+						"toolbaradditions" : [ "transport" ],
+						"toolbarexclusions" : [ "transport" ]
 					}
 ,
 					"patching_rect" : [ 0.0, 0.0, 457.0, 116.0 ],
@@ -2823,14 +2828,14 @@
 		"parameters" : 		{
 			"obj-10::obj-155" : [ "Swing amount", "Swing amount", 0 ],
 			"obj-10::obj-95" : [ "Steps", "Steps", 0 ],
-			"obj-10::obj-96" : [ "Pulse", "Pulse", 0 ],
-			"obj-10::obj-28" : [ "Attack", "Attack", 0 ],
-			"obj-10::obj-157" : [ "Swing enable", "Swing enable", 0 ],
-			"obj-10::obj-120" : [ "Max pulse[1]", "Max pulse", 0 ],
-			"obj-10::obj-74" : [ "bypass", "bypass", 0 ],
 			"obj-10::obj-5" : [ "ClockSelect", "ClockSelect", 0 ],
-			"obj-10::obj-125" : [ "NoteGrid", "NoteGrid", 0 ],
-			"obj-10::obj-89" : [ "Reset", "Reset", 0 ]
+			"obj-10::obj-28" : [ "Attack", "Attack", 0 ],
+			"obj-10::obj-89" : [ "Reset", "Reset", 0 ],
+			"obj-10::obj-74" : [ "bypass", "bypass", 0 ],
+			"obj-10::obj-96" : [ "Pulse", "Pulse", 0 ],
+			"obj-10::obj-120" : [ "Max pulse[1]", "Max pulse", 0 ],
+			"obj-10::obj-157" : [ "Swing enable", "Swing enable", 0 ],
+			"obj-10::obj-125" : [ "NoteGrid", "NoteGrid", 0 ]
 		}
 ,
 		"dependency_cache" : [ 			{

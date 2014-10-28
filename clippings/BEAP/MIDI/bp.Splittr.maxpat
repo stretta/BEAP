@@ -15,9 +15,10 @@
 		"default_fontsize" : 12.0,
 		"default_fontface" : 0,
 		"default_fontname" : "Arial",
-		"gridonopen" : 0,
+		"gridonopen" : 1,
 		"gridsize" : [ 15.0, 15.0 ],
-		"gridsnaponopen" : 0,
+		"gridsnaponopen" : 1,
+		"objectsnaponopen" : 1,
 		"statusbarvisible" : 1,
 		"toolbarvisible" : 1,
 		"lefttoolbarpinned" : 0,
@@ -66,9 +67,10 @@
 						"default_fontsize" : 12.0,
 						"default_fontface" : 0,
 						"default_fontname" : "Arial",
-						"gridonopen" : 0,
+						"gridonopen" : 1,
 						"gridsize" : [ 15.0, 15.0 ],
-						"gridsnaponopen" : 0,
+						"gridsnaponopen" : 1,
+						"objectsnaponopen" : 1,
 						"statusbarvisible" : 1,
 						"toolbarvisible" : 1,
 						"lefttoolbarpinned" : 0,
@@ -114,8 +116,8 @@
 									"presentation_rect" : [ 79.134384, 100.0, 9.277222, 9.795346 ],
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
-											"parameter_longname" : "PitchActivityLED[2]",
-											"parameter_shortname" : "PitchActivityLED",
+											"parameter_longname" : "HighOutputActivityLED",
+											"parameter_shortname" : "HighOutputActivityLED",
 											"parameter_type" : 2,
 											"parameter_mmax" : 1.0,
 											"parameter_enum" : [ "off", "on" ],
@@ -144,8 +146,8 @@
 									"presentation_rect" : [ 31.634384, 100.0, 9.277222, 9.795346 ],
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
-											"parameter_longname" : "PitchActivityLED[1]",
-											"parameter_shortname" : "PitchActivityLED",
+											"parameter_longname" : "LowOutputActivityLED",
+											"parameter_shortname" : "LowOutputActivityLED",
 											"parameter_type" : 2,
 											"parameter_mmax" : 1.0,
 											"parameter_enum" : [ "off", "on" ],
@@ -182,7 +184,8 @@
 									"maxclass" : "outlet",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 427.166656, 512.029968, 25.0, 25.0 ]
+									"patching_rect" : [ 427.166656, 512.029968, 25.0, 25.0 ],
+									"style" : ""
 								}
 
 							}
@@ -193,7 +196,8 @@
 									"maxclass" : "outlet",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 319.166656, 512.029968, 25.0, 25.0 ]
+									"patching_rect" : [ 319.166656, 512.029968, 25.0, 25.0 ],
+									"style" : ""
 								}
 
 							}
@@ -318,8 +322,8 @@
 									"presentation_rect" : [ 25.0, 3.0, 9.277222, 9.795346 ],
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
-											"parameter_longname" : "PitchActivityLED[6]",
-											"parameter_shortname" : "PitchActivityLED",
+											"parameter_longname" : "InputActivityLED",
+											"parameter_shortname" : "InputActivityLED",
 											"parameter_type" : 2,
 											"parameter_mmax" : 1.0,
 											"parameter_enum" : [ "off", "on" ],
@@ -372,7 +376,8 @@
 									"numinlets" : 0,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 319.166656, 35.529995, 25.0, 25.0 ]
+									"patching_rect" : [ 319.166656, 35.529995, 25.0, 25.0 ],
+									"style" : ""
 								}
 
 							}
@@ -444,7 +449,7 @@
 ,
 									"style" : "",
 									"text" : "autopattr",
-									"varname" : "u385004449"
+									"varname" : "u834001219"
 								}
 
 							}
@@ -453,15 +458,6 @@
 									"angle" : 0.0,
 									"background" : 1,
 									"bgcolor" : [ 0.137255, 0.145098, 0.160784, 0.65 ],
-									"bgfillcolor" : [ 										{
-											"type" : "color",
-											"color1" : [ 0.75, 0.79, 0.93, 1.0 ],
-											"color2" : [ 0.66, 0.66, 0.72, 1.0 ],
-											"color" : [ 0.137255, 0.145098, 0.160784, 0.65 ],
-											"angle" : 0,
-											"proportion" : 0.39
-										}
- ],
 									"id" : "obj-130",
 									"maxclass" : "panel",
 									"mode" : 0,
@@ -481,15 +477,6 @@
 									"angle" : 0.0,
 									"background" : 1,
 									"bgcolor" : [ 0.367404, 0.389405, 0.430238, 1.0 ],
-									"bgfillcolor" : [ 										{
-											"type" : "color",
-											"color1" : [ 0.75, 0.79, 0.93, 1.0 ],
-											"color2" : [ 0.66, 0.66, 0.72, 1.0 ],
-											"color" : [ 0.367404, 0.389405, 0.430238, 1.0 ],
-											"angle" : 0,
-											"proportion" : 0.39
-										}
- ],
 									"id" : "obj-131",
 									"maxclass" : "panel",
 									"mode" : 0,
@@ -509,15 +496,6 @@
 									"angle" : 0.0,
 									"background" : 1,
 									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-									"bgfillcolor" : [ 										{
-											"type" : "color",
-											"color1" : [ 0.75, 0.79, 0.93, 1.0 ],
-											"color2" : [ 0.66, 0.66, 0.72, 1.0 ],
-											"color" : [ 0.0, 0.0, 0.0, 1.0 ],
-											"angle" : 0,
-											"proportion" : 0.39
-										}
- ],
 									"id" : "obj-135",
 									"maxclass" : "panel",
 									"mode" : 0,
@@ -680,10 +658,10 @@
  ],
 		"lines" : [  ],
 		"parameters" : 		{
-			"obj-12::obj-22" : [ "PitchActivityLED[1]", "PitchActivityLED", 0 ],
-			"obj-12::obj-3" : [ "PitchActivityLED[6]", "PitchActivityLED", 0 ],
 			"obj-12::obj-4" : [ "Split", "Split", 0 ],
-			"obj-12::obj-23" : [ "PitchActivityLED[2]", "PitchActivityLED", 0 ]
+			"obj-12::obj-23" : [ "HighOutputActivityLED", "HighOutputActivityLED", 0 ],
+			"obj-12::obj-3" : [ "InputActivityLED", "InputActivityLED", 0 ],
+			"obj-12::obj-22" : [ "LowOutputActivityLED", "LowOutputActivityLED", 0 ]
 		}
 ,
 		"dependency_cache" : [  ],
