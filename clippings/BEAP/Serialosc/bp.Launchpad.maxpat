@@ -120,7 +120,6 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 504.0, 461.469971, 37.0, 22.0 ],
-									"presentation_rect" : [ 653.0, 520.0, 0.0, 0.0 ],
 									"style" : "",
 									"text" : "clear"
 								}
@@ -8512,26 +8511,13 @@
 							}
 , 							{
 								"box" : 								{
-									"id" : "obj-49",
-									"maxclass" : "newobj",
-									"numinlets" : 0,
-									"numoutlets" : 1,
-									"outlettype" : [ "bang" ],
-									"patching_rect" : [ 966.5, 402.469971, 67.0, 22.0 ],
-									"style" : "",
-									"text" : "pastebang"
-								}
-
-							}
-, 							{
-								"box" : 								{
 									"fontname" : "Arial Bold",
 									"fontsize" : 9.0,
 									"id" : "obj-16",
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 30.0, 55.5, 67.0, 17.0 ],
+									"patching_rect" : [ 24.684509, 55.5, 67.0, 17.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 4.5, 17.5, 67.0, 17.0 ],
 									"style" : "",
@@ -8562,7 +8548,7 @@
 									"patching_rect" : [ 737.0, 563.0, 59.0, 20.0 ],
 									"pattrmode" : 1,
 									"presentation" : 1,
-									"presentation_rect" : [ 125.602203, 70.0, 50.0, 20.0 ],
+									"presentation_rect" : [ 125.0, 70.0, 50.0, 20.0 ],
 									"style" : "",
 									"textcolor" : [ 1.0, 0.548455, 0.000076, 1.0 ],
 									"varname" : "Channel"
@@ -8582,7 +8568,7 @@
 									"fontsize" : 10.0,
 									"hint" : "MIDI port",
 									"id" : "obj-67",
-									"items" : "<empty>",
+									"items" : [ "AU DLS Synth 1", ",", "AU DLS Synth 1", ",", "IAC Driver Bus 1", ",", "IAC Driver Bus 1", ",", "from Max 1", ",", "from Max 1", ",", "from Max 2", ",", "from Max 2" ],
 									"maxclass" : "umenu",
 									"numinlets" : 1,
 									"numoutlets" : 3,
@@ -8591,7 +8577,7 @@
 									"patching_rect" : [ 569.0, 563.0, 158.0, 20.0 ],
 									"pattrmode" : 1,
 									"presentation" : 1,
-									"presentation_rect" : [ 4.608932, 70.0, 117.993271, 20.0 ],
+									"presentation_rect" : [ 5.0, 70.0, 117.993271, 20.0 ],
 									"style" : "",
 									"textcolor" : [ 1.0, 0.548455, 0.000076, 1.0 ],
 									"varname" : "MIDIPort[1]"
@@ -8633,7 +8619,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 30.0, 84.0, 241.0, 20.0 ],
+									"patching_rect" : [ 24.684509, 84.0, 241.0, 20.0 ],
 									"style" : "",
 									"text" : "## Convert serialosc to Launchpad MIDI ##"
 								}
@@ -8696,17 +8682,17 @@
 									"numinlets" : 1,
 									"numoutlets" : 4,
 									"outlettype" : [ "", "", "", "" ],
-									"patching_rect" : [ 30.0, 117.0, 59.5, 22.0 ],
+									"patching_rect" : [ 24.684509, 117.0, 59.5, 22.0 ],
 									"restore" : 									{
 										"Channel" : [ "1" ],
-										"MIDIPort" : [ "" ],
-										"MIDIPort[1]" : [ "" ],
+										"MIDIPort" : [ "IAC Driver Bus 1" ],
+										"MIDIPort[1]" : [ "AU DLS Synth 1" ],
 										"refresh" : [ 0.0 ]
 									}
 ,
 									"style" : "",
 									"text" : "autopattr",
-									"varname" : "u068010385"
+									"varname" : "u876007815"
 								}
 
 							}
@@ -8723,7 +8709,7 @@
 									"fontsize" : 10.0,
 									"hint" : "MIDI port",
 									"id" : "obj-42",
-									"items" : "<empty>",
+									"items" : [ "IAC Driver Bus 1", ",", "IAC Driver Bus 1", ",", "to Max 1", ",", "to Max 1", ",", "to Max 2", ",", "to Max 2" ],
 									"maxclass" : "umenu",
 									"numinlets" : 1,
 									"numoutlets" : 3,
@@ -8732,7 +8718,7 @@
 									"patching_rect" : [ 897.0, 563.0, 158.0, 20.0 ],
 									"pattrmode" : 1,
 									"presentation" : 1,
-									"presentation_rect" : [ 5.5, 44.0, 118.102203, 20.0 ],
+									"presentation_rect" : [ 5.0, 44.0, 118.102203, 20.0 ],
 									"style" : "",
 									"textcolor" : [ 1.0, 0.548455, 0.000076, 1.0 ],
 									"varname" : "MIDIPort"
@@ -9450,15 +9436,6 @@
 							}
 , 							{
 								"patchline" : 								{
-									"destination" : [ "obj-32", 0 ],
-									"disabled" : 0,
-									"hidden" : 0,
-									"source" : [ "obj-49", 0 ]
-								}
-
-							}
-, 							{
-								"patchline" : 								{
 									"destination" : [ "obj-3", 0 ],
 									"disabled" : 0,
 									"hidden" : 0,
@@ -9552,6 +9529,15 @@
 							}
 , 							{
 								"patchline" : 								{
+									"destination" : [ "obj-32", 0 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-72", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
 									"destination" : [ "obj-70", 0 ],
 									"disabled" : 0,
 									"hidden" : 0,
@@ -9582,7 +9568,6 @@
 		"parameters" : 		{
 			"obj-1::obj-33::obj-5::obj-2" : [ "pastebang[2]", "pastebang", 0 ],
 			"obj-1::obj-72::obj-2" : [ "pastebang[1]", "pastebang", 0 ],
-			"obj-1::obj-49::obj-2" : [ "pastebang", "pastebang", 0 ],
 			"obj-1::obj-28" : [ "refresh", "refresh", 0 ]
 		}
 ,

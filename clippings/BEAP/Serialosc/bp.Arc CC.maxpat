@@ -89,6 +89,23 @@
 						"style" : "",
 						"boxes" : [ 							{
 								"box" : 								{
+									"bgcolor" : [ 0.913022, 0.913022, 0.913022, 0.0 ],
+									"blinkcolor" : [ 1.0, 0.548455, 0.000076, 1.0 ],
+									"id" : "obj-14",
+									"maxclass" : "button",
+									"numinlets" : 1,
+									"numoutlets" : 1,
+									"outlettype" : [ "bang" ],
+									"outlinecolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+									"patching_rect" : [ 194.765381, 710.26001, 20.0, 20.0 ],
+									"presentation" : 1,
+									"presentation_rect" : [ 30.0401, 100.5, 10.0, 10.0 ],
+									"style" : ""
+								}
+
+							}
+, 							{
+								"box" : 								{
 									"id" : "obj-2",
 									"linecount" : 2,
 									"maxclass" : "comment",
@@ -178,7 +195,7 @@
 ,
 									"style" : "",
 									"text" : "autopattr",
-									"varname" : "u204000982"
+									"varname" : "u345007352"
 								}
 
 							}
@@ -794,6 +811,15 @@
 							}
 , 							{
 								"patchline" : 								{
+									"destination" : [ "obj-14", 0 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-4", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
 									"destination" : [ "obj-5", 0 ],
 									"disabled" : 0,
 									"hidden" : 0,
@@ -896,8 +922,8 @@
  ],
 		"lines" : [  ],
 		"parameters" : 		{
-			"obj-74::obj-32" : [ "encoder", "encoder", 0 ],
 			"obj-74::obj-12" : [ "Mute", "Mute", 0 ],
+			"obj-74::obj-32" : [ "encoder", "encoder", 0 ],
 			"obj-74::obj-129" : [ "MIDICC", "MIDICC", 0 ]
 		}
 ,

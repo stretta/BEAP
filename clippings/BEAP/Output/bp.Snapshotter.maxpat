@@ -15,9 +15,10 @@
 		"default_fontsize" : 12.0,
 		"default_fontface" : 0,
 		"default_fontname" : "Arial",
-		"gridonopen" : 0,
+		"gridonopen" : 1,
 		"gridsize" : [ 15.0, 15.0 ],
-		"gridsnaponopen" : 0,
+		"gridsnaponopen" : 1,
+		"objectsnaponopen" : 1,
 		"statusbarvisible" : 1,
 		"toolbarvisible" : 1,
 		"lefttoolbarpinned" : 0,
@@ -66,9 +67,10 @@
 						"default_fontsize" : 12.0,
 						"default_fontface" : 0,
 						"default_fontname" : "Arial",
-						"gridonopen" : 0,
+						"gridonopen" : 1,
 						"gridsize" : [ 15.0, 15.0 ],
-						"gridsnaponopen" : 0,
+						"gridsnaponopen" : 1,
+						"objectsnaponopen" : 1,
 						"statusbarvisible" : 1,
 						"toolbarvisible" : 1,
 						"lefttoolbarpinned" : 0,
@@ -95,13 +97,13 @@
 									"patching_rect" : [ 374.0, 344.0, 58.0, 22.0 ],
 									"restore" : 									{
 										"InputRange" : [ 0.0 ],
-										"Interval" : [ 5.0 ],
+										"Interval" : [ 100.0 ],
 										"OutputRange" : [ 0.0 ]
 									}
 ,
 									"style" : "",
 									"text" : "autopattr",
-									"varname" : "u567000877"
+									"varname" : "u887000622"
 								}
 
 							}
@@ -140,9 +142,10 @@
 										"default_fontsize" : 12.0,
 										"default_fontface" : 0,
 										"default_fontname" : "Arial",
-										"gridonopen" : 0,
+										"gridonopen" : 1,
 										"gridsize" : [ 15.0, 15.0 ],
-										"gridsnaponopen" : 0,
+										"gridsnaponopen" : 1,
+										"objectsnaponopen" : 1,
 										"statusbarvisible" : 2,
 										"toolbarvisible" : 1,
 										"lefttoolbarpinned" : 0,
@@ -660,9 +663,6 @@
 , 							{
 								"box" : 								{
 									"activebgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-									"activeslidercolor" : [ 0.94902, 0.376471, 0.0, 1.0 ],
-									"activetricolor" : [ 0.6, 0.6, 0.6, 1.0 ],
-									"bordercolor" : [ 0.196078, 0.196078, 0.196078, 1.0 ],
 									"id" : "obj-129",
 									"maxclass" : "live.numbox",
 									"numinlets" : 1,
@@ -680,15 +680,13 @@
 											"parameter_mmin" : 1.0,
 											"parameter_mmax" : 500.0,
 											"parameter_initial_enable" : 1,
-											"parameter_initial" : [ 5 ],
+											"parameter_initial" : [ 100 ],
 											"parameter_unitstyle" : 2
 										}
 
 									}
 ,
 									"textcolor" : [ 0.278431, 0.839216, 1.0, 1.0 ],
-									"tricolor" : [ 0.490196, 0.482353, 0.478431, 1.0 ],
-									"tricolor2" : [ 0.6, 0.6, 0.6, 1.0 ],
 									"varname" : "Interval"
 								}
 
@@ -756,8 +754,6 @@
 								"box" : 								{
 									"activebgcolor" : [ 0.137255, 0.145098, 0.160784, 0.65 ],
 									"activebgoncolor" : [ 0.278431, 0.839216, 1.0, 1.0 ],
-									"bgcolor" : [ 0.6, 0.6, 0.6, 1.0 ],
-									"bgoncolor" : [ 0.490196, 0.482353, 0.478431, 1.0 ],
 									"bordercolor" : [ 0.0, 0.0, 0.0, 0.56 ],
 									"hint" : "",
 									"id" : "obj-7",
@@ -793,8 +789,6 @@
 								"box" : 								{
 									"activebgcolor" : [ 0.137255, 0.145098, 0.160784, 0.65 ],
 									"activebgoncolor" : [ 0.278431, 0.839216, 1.0, 1.0 ],
-									"bgcolor" : [ 0.6, 0.6, 0.6, 1.0 ],
-									"bgoncolor" : [ 0.490196, 0.482353, 0.478431, 1.0 ],
 									"bordercolor" : [ 0.0, 0.0, 0.0, 0.56 ],
 									"hint" : "",
 									"id" : "obj-33",
@@ -997,8 +991,8 @@
  ],
 		"lines" : [  ],
 		"parameters" : 		{
-			"obj-3::obj-129" : [ "Interval", "Interval", 0 ],
 			"obj-3::obj-33" : [ "InputRange", "InputRange", 0 ],
+			"obj-3::obj-129" : [ "Interval", "Interval", 0 ],
 			"obj-3::obj-7" : [ "OutputRange", "OutputRange", 0 ]
 		}
 ,
