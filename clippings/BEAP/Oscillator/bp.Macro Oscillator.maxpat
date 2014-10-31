@@ -5,7 +5,7 @@
 			"major" : 7,
 			"minor" : 0,
 			"revision" : 0,
-			"architecture" : "x64",
+			"architecture" : "x86",
 			"modernui" : 1
 		}
 ,
@@ -15,9 +15,10 @@
 		"default_fontsize" : 12.0,
 		"default_fontface" : 0,
 		"default_fontname" : "Arial",
-		"gridonopen" : 0,
+		"gridonopen" : 1,
 		"gridsize" : [ 15.0, 15.0 ],
-		"gridsnaponopen" : 0,
+		"gridsnaponopen" : 1,
+		"objectsnaponopen" : 1,
 		"statusbarvisible" : 2,
 		"toolbarvisible" : 1,
 		"lefttoolbarpinned" : 0,
@@ -55,7 +56,7 @@
 							"major" : 7,
 							"minor" : 0,
 							"revision" : 0,
-							"architecture" : "x64",
+							"architecture" : "x86",
 							"modernui" : 1
 						}
 ,
@@ -66,9 +67,10 @@
 						"default_fontsize" : 12.0,
 						"default_fontface" : 0,
 						"default_fontname" : "Arial",
-						"gridonopen" : 0,
+						"gridonopen" : 1,
 						"gridsize" : [ 15.0, 15.0 ],
-						"gridsnaponopen" : 0,
+						"gridsnaponopen" : 1,
+						"objectsnaponopen" : 1,
 						"statusbarvisible" : 1,
 						"toolbarvisible" : 1,
 						"lefttoolbarpinned" : 0,
@@ -87,26 +89,12 @@
 						"style" : "",
 						"boxes" : [ 							{
 								"box" : 								{
-									"id" : "obj-58",
-									"linecount" : 3,
-									"maxclass" : "newobj",
-									"numinlets" : 2,
-									"numoutlets" : 2,
-									"outlettype" : [ "", "" ],
-									"patching_rect" : [ 716.802124, 867.65918, 256.0, 49.0 ],
-									"style" : "",
-									"text" : "combine \"../Max 7/Max.app/Contents/Resources/C74/packages/Beap/misc/marco_osc/\" file @triggers 1"
-								}
-
-							}
-, 							{
-								"box" : 								{
 									"id" : "obj-35",
 									"maxclass" : "newobj",
 									"numinlets" : 0,
 									"numoutlets" : 1,
 									"outlettype" : [ "bang" ],
-									"patching_rect" : [ 913.302124, 486.669922, 67.0, 22.0 ],
+									"patching_rect" : [ 676.302124, 724.213379, 67.0, 22.0 ],
 									"style" : "",
 									"text" : "pastebang"
 								}
@@ -119,7 +107,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 2,
 									"outlettype" : [ "bang", "types" ],
-									"patching_rect" : [ 913.302124, 578.841553, 87.0, 22.0 ],
+									"patching_rect" : [ 676.302124, 816.38501, 87.0, 22.0 ],
 									"style" : "",
 									"text" : "trigger b types"
 								}
@@ -201,7 +189,7 @@
 									"numoutlets" : 3,
 									"outlettype" : [ "int", "", "" ],
 									"parameter_enable" : 0,
-									"patching_rect" : [ 913.302124, 681.663208, 100.0, 19.0 ],
+									"patching_rect" : [ 676.302124, 919.206665, 100.0, 19.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 81.586617, 66.338158, 96.413376, 19.0 ],
 									"style" : "",
@@ -218,7 +206,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 815.41156, 603.142944, 37.0, 22.0 ],
+									"patching_rect" : [ 578.41156, 840.686401, 37.0, 22.0 ],
 									"style" : "",
 									"text" : "clear"
 								}
@@ -231,7 +219,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "bang" ],
-									"patching_rect" : [ 913.302124, 536.054932, 20.0, 20.0 ],
+									"patching_rect" : [ 676.302124, 773.598389, 20.0, 20.0 ],
 									"style" : ""
 								}
 
@@ -246,9 +234,9 @@
 									"numinlets" : 1,
 									"numoutlets" : 2,
 									"outlettype" : [ "", "int" ],
-									"patching_rect" : [ 913.302124, 631.686401, 499.0, 23.0 ],
+									"patching_rect" : [ 676.302124, 869.229858, 265.0, 23.0 ],
 									"style" : "",
-									"text" : "folder \"../Max 7/Max.app/Contents/Resources/C74/packages/Beap/misc/marco_osc/\""
+									"text" : "folder C74:/packages/Beap/misc/marco_osc"
 								}
 
 							}
@@ -301,7 +289,7 @@
 											"major" : 7,
 											"minor" : 0,
 											"revision" : 0,
-											"architecture" : "x64",
+											"architecture" : "x86",
 											"modernui" : 1
 										}
 ,
@@ -311,9 +299,10 @@
 										"default_fontsize" : 12.0,
 										"default_fontface" : 0,
 										"default_fontname" : "Arial",
-										"gridonopen" : 0,
+										"gridonopen" : 1,
 										"gridsize" : [ 15.0, 15.0 ],
-										"gridsnaponopen" : 0,
+										"gridsnaponopen" : 1,
+										"objectsnaponopen" : 1,
 										"statusbarvisible" : 2,
 										"toolbarvisible" : 1,
 										"lefttoolbarpinned" : 0,
@@ -1635,7 +1624,7 @@
 ,
 									"style" : "",
 									"text" : "autopattr",
-									"varname" : "u526004169"
+									"varname" : "u975001167"
 								}
 
 							}
@@ -2172,58 +2161,23 @@
 							}
 , 							{
 								"box" : 								{
-									"angle" : 0.0,
 									"background" : 1,
-									"bgcolor" : [ 0.137255, 0.145098, 0.160784, 0.65 ],
-									"id" : "obj-130",
-									"maxclass" : "panel",
-									"mode" : 0,
-									"numinlets" : 1,
+									"bgmode" : 0,
+									"border" : 0,
+									"clickthrough" : 0,
+									"enablehscroll" : 0,
+									"enablevscroll" : 0,
+									"id" : "obj-50",
+									"lockeddragscroll" : 0,
+									"maxclass" : "bpatcher",
+									"name" : "background_sm.maxpat",
+									"numinlets" : 0,
 									"numoutlets" : 0,
-									"patching_rect" : [ 17.173828, 48.529999, 37.0, 5.0 ],
+									"offset" : [ 0.0, 0.0 ],
+									"patching_rect" : [ 17.173828, 46.0, 239.0, 10.0 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 0.0, 37.0, 425.0, 60.338158 ],
-									"proportion" : 0.39,
-									"rounded" : 0,
-									"style" : ""
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"angle" : 0.0,
-									"background" : 1,
-									"bgcolor" : [ 0.367404, 0.389405, 0.430238, 1.0 ],
-									"id" : "obj-131",
-									"maxclass" : "panel",
-									"mode" : 0,
-									"numinlets" : 1,
-									"numoutlets" : 0,
-									"patching_rect" : [ 64.135803, 48.529999, 37.0, 5.0 ],
-									"presentation" : 1,
-									"presentation_rect" : [ 0.0, 17.0, 425.0, 80.338158 ],
-									"proportion" : 0.39,
-									"rounded" : 0,
-									"style" : ""
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"angle" : 0.0,
-									"background" : 1,
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-									"id" : "obj-135",
-									"maxclass" : "panel",
-									"mode" : 0,
-									"numinlets" : 1,
-									"numoutlets" : 0,
-									"patching_rect" : [ 111.097778, 48.529999, 37.0, 5.0 ],
-									"presentation" : 1,
-									"presentation_rect" : [ 0.0, 0.0, 425.0, 133.0 ],
-									"proportion" : 0.39,
-									"rounded" : 0,
-									"style" : ""
+									"presentation_rect" : [ 0.0, 0.0, 390.0, 132.0 ],
+									"viewvisibility" : 1
 								}
 
 							}
@@ -2477,7 +2431,7 @@
 									"destination" : [ "obj-46", 0 ],
 									"disabled" : 0,
 									"hidden" : 0,
-									"midpoints" : [ 511.820953, 661.686401, 530.210999, 661.686401, 530.210999, 460.7901, 554.820923, 460.7901 ],
+									"midpoints" : [ 511.820953, 661.686401, 493.210999, 661.686401, 493.210999, 460.7901, 554.820923, 460.7901 ],
 									"source" : [ "obj-32", 0 ]
 								}
 
@@ -2487,7 +2441,7 @@
 									"destination" : [ "obj-51", 0 ],
 									"disabled" : 0,
 									"hidden" : 0,
-									"midpoints" : [ 537.820953, 661.686401, 571.591553, 661.686401, 571.591553, 455.475433, 611.582031, 455.475433 ],
+									"midpoints" : [ 537.820923, 661.686401, 676.591553, 661.686401, 676.591553, 455.475433, 611.582031, 455.475433 ],
 									"source" : [ "obj-32", 1 ]
 								}
 
@@ -2561,7 +2515,7 @@
 									"destination" : [ "obj-32", 1 ],
 									"disabled" : 0,
 									"hidden" : 0,
-									"midpoints" : [ 611.582031, 549.936401, 537.820953, 549.936401 ],
+									"midpoints" : [ 611.582031, 573.936401, 537.820923, 573.936401 ],
 									"source" : [ "obj-51", 0 ]
 								}
 
@@ -2572,15 +2526,6 @@
 									"disabled" : 0,
 									"hidden" : 0,
 									"source" : [ "obj-52", 0 ]
-								}
-
-							}
-, 							{
-								"patchline" : 								{
-									"destination" : [ "obj-18", 0 ],
-									"disabled" : 0,
-									"hidden" : 0,
-									"source" : [ "obj-58", 0 ]
 								}
 
 							}
@@ -2758,7 +2703,7 @@
 							}
 , 							{
 								"patchline" : 								{
-									"destination" : [ "obj-58", 1 ],
+									"destination" : [ "obj-18", 0 ],
 									"disabled" : 0,
 									"hidden" : 0,
 									"source" : [ "obj-9", 1 ]
@@ -2813,30 +2758,38 @@
  ],
 		"lines" : [  ],
 		"parameters" : 		{
-			"obj-38::obj-3" : [ "Timbre", "Timbre", 0 ],
-			"obj-38::obj-81" : [ "Color", "Color", 0 ],
-			"obj-38::obj-45" : [ "FreqMode", "FreqMode", 0 ],
+			"obj-38::obj-35::obj-2" : [ "pastebang", "pastebang", 0 ],
+			"obj-38::obj-46" : [ "Offset", "Offset", 0 ],
 			"obj-38::obj-25" : [ "TimbreCV", "CV", 0 ],
+			"obj-38::obj-14.1::obj-80" : [ "Ratio", "Ratio", 0 ],
 			"obj-38::obj-129" : [ "CV2", "CV2", 0 ],
+			"obj-38::obj-12" : [ "Mute", "Mute", 0 ],
+			"obj-38::obj-81" : [ "Color", "Color", 0 ],
+			"obj-38::obj-51" : [ "Freq", "Freq", 0 ],
+			"obj-38::obj-45" : [ "FreqMode", "FreqMode", 0 ],
 			"obj-38::obj-80" : [ "ColorCV", "CV", 0 ],
 			"obj-38::obj-106" : [ "CV3", "CV3", 0 ],
-			"obj-38::obj-35::obj-2" : [ "live.toggle", "live.toggle", 0 ],
-			"obj-38::obj-46" : [ "Offset", "Offset", 0 ],
-			"obj-38::obj-12" : [ "Mute", "Mute", 0 ],
-			"obj-38::obj-51" : [ "Freq", "Freq", 0 ]
+			"obj-38::obj-3" : [ "Timbre", "Timbre", 0 ]
 		}
 ,
 		"dependency_cache" : [ 			{
-				"name" : "bp.Tuned Noise.maxpat",
-				"bootpath" : "/Applications/Max 7/Max.app/Contents/Resources/C74/packages/Beap/misc/marco_osc",
-				"patcherrelativepath" : "../../../misc/marco_osc",
+				"name" : "background_sm.maxpat",
+				"bootpath" : "/Applications/Max.app/Contents/Resources/C74/packages/Beap/misc",
+				"patcherrelativepath" : "../../../../../../../Applications/Max.app/Contents/Resources/C74/packages/Beap/misc",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "bp.FM-OD.maxpat",
+				"bootpath" : "/Applications/Max.app/Contents/Resources/C74/packages/Beap/misc/marco_osc",
+				"patcherrelativepath" : "../../../../../../../Applications/Max.app/Contents/Resources/C74/packages/Beap/misc/marco_osc",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "pastebang.maxpat",
-				"bootpath" : "~/Documents/Beap/misc",
-				"patcherrelativepath" : "../../../../../../../../../../../Users/matthew/Documents/Beap/misc",
+				"bootpath" : "/Applications/Max.app/Contents/Resources/C74/packages/Beap/misc",
+				"patcherrelativepath" : "../../../../../../../Applications/Max.app/Contents/Resources/C74/packages/Beap/misc",
 				"type" : "JSON",
 				"implicit" : 1
 			}
