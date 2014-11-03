@@ -5,7 +5,7 @@
 			"major" : 7,
 			"minor" : 0,
 			"revision" : 0,
-			"architecture" : "x64",
+			"architecture" : "x86",
 			"modernui" : 1
 		}
 ,
@@ -15,9 +15,10 @@
 		"default_fontsize" : 12.0,
 		"default_fontface" : 0,
 		"default_fontname" : "Arial",
-		"gridonopen" : 0,
+		"gridonopen" : 1,
 		"gridsize" : [ 15.0, 15.0 ],
-		"gridsnaponopen" : 0,
+		"gridsnaponopen" : 1,
+		"objectsnaponopen" : 1,
 		"statusbarvisible" : 1,
 		"toolbarvisible" : 1,
 		"lefttoolbarpinned" : 0,
@@ -55,7 +56,7 @@
 							"major" : 7,
 							"minor" : 0,
 							"revision" : 0,
-							"architecture" : "x64",
+							"architecture" : "x86",
 							"modernui" : 1
 						}
 ,
@@ -66,9 +67,10 @@
 						"default_fontsize" : 12.0,
 						"default_fontface" : 0,
 						"default_fontname" : "Arial",
-						"gridonopen" : 0,
+						"gridonopen" : 1,
 						"gridsize" : [ 15.0, 15.0 ],
-						"gridsnaponopen" : 0,
+						"gridsnaponopen" : 1,
+						"objectsnaponopen" : 1,
 						"statusbarvisible" : 1,
 						"toolbarvisible" : 1,
 						"lefttoolbarpinned" : 0,
@@ -714,7 +716,8 @@
 											"parameter_longname" : "SustainCV",
 											"parameter_shortname" : "SustainCV",
 											"parameter_type" : 0,
-											"parameter_mmax" : 100.0,
+											"parameter_mmin" : -200.0,
+											"parameter_mmax" : 200.0,
 											"parameter_initial_enable" : 1,
 											"parameter_initial" : [ 0 ],
 											"parameter_unitstyle" : 5
@@ -898,7 +901,8 @@
 											"parameter_longname" : "ReleaseCV",
 											"parameter_shortname" : "ReleaseCV",
 											"parameter_type" : 0,
-											"parameter_mmax" : 100.0,
+											"parameter_mmin" : -200.0,
+											"parameter_mmax" : 200.0,
 											"parameter_initial_enable" : 1,
 											"parameter_initial" : [ 0 ],
 											"parameter_unitstyle" : 5
@@ -1098,7 +1102,8 @@
 											"parameter_longname" : "DecayCV",
 											"parameter_shortname" : "DecayCV",
 											"parameter_type" : 0,
-											"parameter_mmax" : 100.0,
+											"parameter_mmin" : -200.0,
+											"parameter_mmax" : 200.0,
 											"parameter_initial_enable" : 1,
 											"parameter_initial" : [ 0 ],
 											"parameter_unitstyle" : 5
@@ -1311,7 +1316,8 @@
 											"parameter_longname" : "AttackCV",
 											"parameter_shortname" : "AttackCV",
 											"parameter_type" : 0,
-											"parameter_mmax" : 100.0,
+											"parameter_mmin" : -200.0,
+											"parameter_mmax" : 200.0,
 											"parameter_initial_enable" : 1,
 											"parameter_initial" : [ 0 ],
 											"parameter_unitstyle" : 5
@@ -1553,7 +1559,7 @@
 											"major" : 7,
 											"minor" : 0,
 											"revision" : 0,
-											"architecture" : "x64",
+											"architecture" : "x86",
 											"modernui" : 1
 										}
 ,
@@ -1565,9 +1571,10 @@
 										"default_fontsize" : 12.0,
 										"default_fontface" : 0,
 										"default_fontname" : "Arial",
-										"gridonopen" : 0,
+										"gridonopen" : 1,
 										"gridsize" : [ 5.0, 5.0 ],
-										"gridsnaponopen" : 0,
+										"gridsnaponopen" : 1,
+										"objectsnaponopen" : 1,
 										"statusbarvisible" : 1,
 										"toolbarvisible" : 1,
 										"lefttoolbarpinned" : 0,
@@ -2685,7 +2692,7 @@
 													"destination" : [ "obj-17", 4 ],
 													"disabled" : 0,
 													"hidden" : 0,
-													"midpoints" : [ 822.357117, 757.0, 696.1, 757.0 ],
+													"midpoints" : [ 822.357117, 757.0, 696.099976, 757.0 ],
 													"source" : [ "obj-23", 0 ]
 												}
 
@@ -3168,7 +3175,7 @@
 ,
 									"style" : "",
 									"text" : "autopattr",
-									"varname" : "u240009477"
+									"varname" : "u308006284"
 								}
 
 							}
@@ -4047,18 +4054,18 @@
  ],
 		"lines" : [  ],
 		"parameters" : 		{
+			"obj-2::obj-150" : [ "Decay", "Decay", 0 ],
 			"obj-2::obj-151" : [ "Release", "Release", 0 ],
-			"obj-2::obj-137" : [ "ReleaseCV", "ReleaseCV", 0 ],
-			"obj-2::obj-46" : [ "decay_curve", "decay_curve", 0 ],
 			"obj-2::obj-47" : [ "attack_curve", "attack_curve", 0 ],
-			"obj-2::obj-174" : [ "Attack", "Attack", 0 ],
 			"obj-2::obj-90" : [ "AttackCV", "AttackCV", 0 ],
 			"obj-2::obj-12" : [ "Mute", "Mute", 0 ],
-			"obj-2::obj-144" : [ "SustainCV", "SustainCV", 0 ],
-			"obj-2::obj-122" : [ "DecayCV", "DecayCV", 0 ],
+			"obj-2::obj-46" : [ "decay_curve", "decay_curve", 0 ],
 			"obj-2::obj-152" : [ "Sustain", "Sustain", 0 ],
+			"obj-2::obj-122" : [ "DecayCV", "DecayCV", 0 ],
 			"obj-2::obj-45" : [ "release_curve", "release_curve", 0 ],
-			"obj-2::obj-150" : [ "Decay", "Decay", 0 ]
+			"obj-2::obj-137" : [ "ReleaseCV", "ReleaseCV", 0 ],
+			"obj-2::obj-144" : [ "SustainCV", "SustainCV", 0 ],
+			"obj-2::obj-174" : [ "Attack", "Attack", 0 ]
 		}
 ,
 		"dependency_cache" : [  ],

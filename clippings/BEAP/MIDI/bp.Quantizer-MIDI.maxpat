@@ -5,7 +5,7 @@
 			"major" : 7,
 			"minor" : 0,
 			"revision" : 0,
-			"architecture" : "x64",
+			"architecture" : "x86",
 			"modernui" : 1
 		}
 ,
@@ -56,7 +56,7 @@
 							"major" : 7,
 							"minor" : 0,
 							"revision" : 0,
-							"architecture" : "x64",
+							"architecture" : "x86",
 							"modernui" : 1
 						}
 ,
@@ -203,7 +203,7 @@
 									"fontname" : "Arial",
 									"fontsize" : 9.0,
 									"id" : "obj-83",
-									"items" : [ "C", ",", "D#/Db", ",", "D", ",", "D#/Eb", ",", "E", ",", "F", ",", "F#/Gb", ",", "G", ",", "G#/Ab", ",", "A", ",", "A#/Bb", ",", "B" ],
+									"items" : [ "C", ",", "C#/Db", ",", "D", ",", "D#/Eb", ",", "E", ",", "F", ",", "F#/Gb", ",", "G", ",", "G#/Ab", ",", "A", ",", "A#/Bb", ",", "B" ],
 									"maxclass" : "umenu",
 									"numinlets" : 1,
 									"numoutlets" : 3,
@@ -1217,7 +1217,7 @@
 ,
 									"style" : "",
 									"text" : "autopattr",
-									"varname" : "u878001692"
+									"varname" : "u411000691"
 								}
 
 							}
@@ -1404,7 +1404,7 @@
 									"destination" : [ "obj-82", 0 ],
 									"disabled" : 0,
 									"hidden" : 0,
-									"midpoints" : [ 791.309021, 915.567947, 894.231445, 915.567947, 894.231445, 27.828979, 945.820679, 27.828979 ],
+									"midpoints" : [ 791.309021, 915.567932, 894.231445, 915.567932, 894.231445, 27.828979, 945.820679, 27.828979 ],
 									"source" : [ "obj-10", 0 ]
 								}
 
@@ -1432,7 +1432,7 @@
 									"destination" : [ "obj-30", 0 ],
 									"disabled" : 0,
 									"hidden" : 0,
-									"midpoints" : [ 791.309021, 1134.041107, 940.215393, 1134.041107 ],
+									"midpoints" : [ 791.309021, 1134.041138, 940.215393, 1134.041138 ],
 									"source" : [ "obj-16", 0 ]
 								}
 
@@ -1442,7 +1442,7 @@
 									"destination" : [ "obj-7", 0 ],
 									"disabled" : 0,
 									"hidden" : 0,
-									"midpoints" : [ 791.309021, 1058.319733, 628.905396, 1058.319733 ],
+									"midpoints" : [ 791.309021, 1058.319702, 628.905396, 1058.319702 ],
 									"source" : [ "obj-16", 0 ]
 								}
 
@@ -2127,17 +2127,17 @@
  ],
 		"lines" : [  ],
 		"parameters" : 		{
+			"obj-1::obj-48" : [ "InputLED", "InputLED", 0 ],
 			"obj-1::obj-29" : [ "OutputLED", "OutputLED", 0 ],
 			"obj-1::obj-10::obj-2" : [ "pastebang", "pastebang", 0 ],
-			"obj-1::obj-48" : [ "InputLED", "InputLED", 0 ],
 			"obj-1::obj-12" : [ "bypass", "bypass", 0 ],
 			"obj-1::obj-92" : [ "kslider", "kslider", 0 ]
 		}
 ,
 		"dependency_cache" : [ 			{
 				"name" : "pastebang.maxpat",
-				"bootpath" : "/Applications/Max 7/Max.app/Contents/Resources/C74/packages/Beap/misc",
-				"patcherrelativepath" : "../../../../../../../Applications/Max 7/Max.app/Contents/Resources/C74/packages/Beap/misc",
+				"bootpath" : "/Applications/Max.app/Contents/Resources/C74/packages/Beap/misc",
+				"patcherrelativepath" : "../../../../../../../Applications/Max.app/Contents/Resources/C74/packages/Beap/misc",
 				"type" : "JSON",
 				"implicit" : 1
 			}
