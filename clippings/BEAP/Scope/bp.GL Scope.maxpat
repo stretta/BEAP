@@ -104,12 +104,12 @@
 								"box" : 								{
 									"id" : "obj-7",
 									"maxclass" : "newobj",
-									"numinlets" : 1,
+									"numinlets" : 2,
 									"numoutlets" : 1,
-									"outlettype" : [ "" ],
-									"patching_rect" : [ 39.0, 245.407501, 56.0, 22.0 ],
+									"outlettype" : [ "bang" ],
+									"patching_rect" : [ 39.0, 245.407501, 63.0, 22.0 ],
 									"style" : "",
-									"text" : "deferlow"
+									"text" : "delay 100"
 								}
 
 							}
@@ -130,7 +130,7 @@
 								"box" : 								{
 									"id" : "obj-10",
 									"maxclass" : "jit.pwindow",
-									"name" : "1029_display",
+									"name" : "1184_display",
 									"numinlets" : 1,
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
@@ -296,7 +296,7 @@
 									"patching_rect" : [ 39.0, 121.0, 59.5, 22.0 ],
 									"style" : "",
 									"text" : "autopattr",
-									"varname" : "u030001312"
+									"varname" : "u860003958"
 								}
 
 							}
