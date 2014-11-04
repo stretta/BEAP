@@ -5,7 +5,7 @@
 			"major" : 7,
 			"minor" : 0,
 			"revision" : 0,
-			"architecture" : "x64",
+			"architecture" : "x86",
 			"modernui" : 1
 		}
 ,
@@ -56,7 +56,7 @@
 							"major" : 7,
 							"minor" : 0,
 							"revision" : 0,
-							"architecture" : "x64",
+							"architecture" : "x86",
 							"modernui" : 1
 						}
 ,
@@ -107,7 +107,7 @@
 											"parameter_shortname" : "ClockSelect",
 											"parameter_type" : 2,
 											"parameter_mmax" : 1.0,
-											"parameter_enum" : [ "Trigger", "Transport" ],
+											"parameter_enum" : [ "Transport", "Trigger" ],
 											"parameter_initial_enable" : 1,
 											"parameter_initial" : [ 0.0 ],
 											"parameter_unitstyle" : 0,
@@ -1047,7 +1047,7 @@
 											"major" : 7,
 											"minor" : 0,
 											"revision" : 0,
-											"architecture" : "x64",
+											"architecture" : "x86",
 											"modernui" : 1
 										}
 ,
@@ -1641,7 +1641,7 @@
 													"destination" : [ "obj-10", 0 ],
 													"disabled" : 0,
 													"hidden" : 0,
-													"midpoints" : [ 93.354168, 250.0, 404.125, 250.0 ],
+													"midpoints" : [ 93.354172, 250.0, 404.125, 250.0 ],
 													"source" : [ "obj-222", 2 ]
 												}
 
@@ -1651,7 +1651,7 @@
 													"destination" : [ "obj-11", 0 ],
 													"disabled" : 0,
 													"hidden" : 0,
-													"midpoints" : [ 93.354168, 250.0, 548.125, 250.0 ],
+													"midpoints" : [ 93.354172, 250.0, 548.125, 250.0 ],
 													"source" : [ "obj-222", 2 ]
 												}
 
@@ -1661,7 +1661,7 @@
 													"destination" : [ "obj-12", 0 ],
 													"disabled" : 0,
 													"hidden" : 0,
-													"midpoints" : [ 93.354168, 250.0, 500.125, 250.0 ],
+													"midpoints" : [ 93.354172, 250.0, 500.125, 250.0 ],
 													"source" : [ "obj-222", 2 ]
 												}
 
@@ -1671,7 +1671,7 @@
 													"destination" : [ "obj-19", 0 ],
 													"disabled" : 0,
 													"hidden" : 0,
-													"midpoints" : [ 76.427084, 274.0, 100.125, 274.0 ],
+													"midpoints" : [ 76.427086, 274.0, 100.125, 274.0 ],
 													"source" : [ "obj-222", 1 ]
 												}
 
@@ -1726,7 +1726,7 @@
 													"destination" : [ "obj-4", 0 ],
 													"disabled" : 0,
 													"hidden" : 0,
-													"midpoints" : [ 93.354168, 250.0, 212.125, 250.0 ],
+													"midpoints" : [ 93.354172, 250.0, 212.125, 250.0 ],
 													"source" : [ "obj-222", 2 ]
 												}
 
@@ -1736,7 +1736,7 @@
 													"destination" : [ "obj-5", 0 ],
 													"disabled" : 0,
 													"hidden" : 0,
-													"midpoints" : [ 93.354168, 250.0, 260.125, 250.0 ],
+													"midpoints" : [ 93.354172, 250.0, 260.125, 250.0 ],
 													"source" : [ "obj-222", 2 ]
 												}
 
@@ -1746,7 +1746,7 @@
 													"destination" : [ "obj-6", 0 ],
 													"disabled" : 0,
 													"hidden" : 0,
-													"midpoints" : [ 93.354168, 250.0, 308.125, 250.0 ],
+													"midpoints" : [ 93.354172, 250.0, 308.125, 250.0 ],
 													"source" : [ "obj-222", 2 ]
 												}
 
@@ -1756,7 +1756,7 @@
 													"destination" : [ "obj-8", 0 ],
 													"disabled" : 0,
 													"hidden" : 0,
-													"midpoints" : [ 93.354168, 250.0, 356.125, 250.0 ],
+													"midpoints" : [ 93.354172, 250.0, 356.125, 250.0 ],
 													"source" : [ "obj-222", 2 ]
 												}
 
@@ -1766,7 +1766,7 @@
 													"destination" : [ "obj-9", 0 ],
 													"disabled" : 0,
 													"hidden" : 0,
-													"midpoints" : [ 93.354168, 250.0, 452.125, 250.0 ],
+													"midpoints" : [ 93.354172, 250.0, 452.125, 250.0 ],
 													"source" : [ "obj-222", 2 ]
 												}
 
@@ -2167,7 +2167,7 @@
 ,
 									"style" : "",
 									"text" : "autopattr",
-									"varname" : "u167002461"
+									"varname" : "u906004997"
 								}
 
 							}
@@ -2826,22 +2826,22 @@
  ],
 		"lines" : [  ],
 		"parameters" : 		{
-			"obj-10::obj-155" : [ "Swing amount", "Swing amount", 0 ],
-			"obj-10::obj-95" : [ "Steps", "Steps", 0 ],
-			"obj-10::obj-5" : [ "ClockSelect", "ClockSelect", 0 ],
-			"obj-10::obj-28" : [ "Attack", "Attack", 0 ],
-			"obj-10::obj-89" : [ "Reset", "Reset", 0 ],
 			"obj-10::obj-74" : [ "bypass", "bypass", 0 ],
 			"obj-10::obj-96" : [ "Pulse", "Pulse", 0 ],
+			"obj-10::obj-95" : [ "Steps", "Steps", 0 ],
+			"obj-10::obj-5" : [ "ClockSelect", "ClockSelect", 0 ],
+			"obj-10::obj-89" : [ "Reset", "Reset", 0 ],
+			"obj-10::obj-28" : [ "Attack", "Attack", 0 ],
 			"obj-10::obj-120" : [ "Max pulse[1]", "Max pulse", 0 ],
-			"obj-10::obj-157" : [ "Swing enable", "Swing enable", 0 ],
-			"obj-10::obj-125" : [ "NoteGrid", "NoteGrid", 0 ]
+			"obj-10::obj-125" : [ "NoteGrid", "NoteGrid", 0 ],
+			"obj-10::obj-155" : [ "Swing amount", "Swing amount", 0 ],
+			"obj-10::obj-157" : [ "Swing enable", "Swing enable", 0 ]
 		}
 ,
 		"dependency_cache" : [ 			{
 				"name" : "swingCalc.js",
-				"bootpath" : "/Applications/Max 7/Max.app/Contents/Resources/C74/packages/Beap/misc",
-				"patcherrelativepath" : "../../../../../../../Applications/Max 7/Max.app/Contents/Resources/C74/packages/Beap/misc",
+				"bootpath" : "/Applications/Max.app/Contents/Resources/C74/packages/Beap/misc",
+				"patcherrelativepath" : "../../../../../../../Applications/Max.app/Contents/Resources/C74/packages/Beap/misc",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
