@@ -673,7 +673,7 @@
 											"modernui" : 1
 										}
 ,
-										"rect" : [ 34.0, 34.0, 974.0, 517.0 ],
+										"rect" : [ 59.0, 103.0, 974.0, 517.0 ],
 										"bglocked" : 0,
 										"openinpresentation" : 0,
 										"default_fontsize" : 12.0,
@@ -700,6 +700,19 @@
 										"tags" : "",
 										"style" : "",
 										"boxes" : [ 											{
+												"box" : 												{
+													"id" : "obj-4",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 1,
+													"outlettype" : [ "" ],
+													"patching_rect" : [ 451.0, 113.0, 38.0, 22.0 ],
+													"style" : "",
+													"text" : "defer"
+												}
+
+											}
+, 											{
 												"box" : 												{
 													"comment" : "",
 													"id" : "obj-21",
@@ -1016,7 +1029,7 @@
 															"modernui" : 1
 														}
 ,
-														"rect" : [ 0.0, 0.0, 640.0, 480.0 ],
+														"rect" : [ 84.0, 128.0, 640.0, 480.0 ],
 														"bglocked" : 0,
 														"openinpresentation" : 0,
 														"default_fontsize" : 12.0,
@@ -1051,7 +1064,7 @@
 																	"numinlets" : 2,
 																	"numoutlets" : 1,
 																	"outlettype" : [ "signal" ],
-																	"patching_rect" : [ 50.0, 100.0, 32.5, 20.0 ],
+																	"patching_rect" : [ 50.0, 100.0, 32.5, 22.0 ],
 																	"style" : "",
 																	"text" : "-~"
 																}
@@ -1166,7 +1179,7 @@
 															"modernui" : 1
 														}
 ,
-														"rect" : [ 34.0, 34.0, 640.0, 480.0 ],
+														"rect" : [ 84.0, 128.0, 640.0, 480.0 ],
 														"bglocked" : 0,
 														"openinpresentation" : 0,
 														"default_fontsize" : 12.0,
@@ -1503,6 +1516,15 @@
 											}
 , 											{
 												"patchline" : 												{
+													"destination" : [ "obj-4", 0 ],
+													"disabled" : 0,
+													"hidden" : 0,
+													"source" : [ "obj-36", 2 ]
+												}
+
+											}
+, 											{
+												"patchline" : 												{
 													"destination" : [ "obj-5", 0 ],
 													"disabled" : 0,
 													"hidden" : 0,
@@ -1513,19 +1535,19 @@
 											}
 , 											{
 												"patchline" : 												{
-													"destination" : [ "obj-85", 0 ],
+													"destination" : [ "obj-3", 1 ],
 													"disabled" : 0,
 													"hidden" : 0,
-													"source" : [ "obj-36", 2 ]
+													"source" : [ "obj-37", 0 ]
 												}
 
 											}
 , 											{
 												"patchline" : 												{
-													"destination" : [ "obj-3", 1 ],
+													"destination" : [ "obj-85", 0 ],
 													"disabled" : 0,
 													"hidden" : 0,
-													"source" : [ "obj-37", 0 ]
+													"source" : [ "obj-4", 0 ]
 												}
 
 											}
@@ -2542,12 +2564,11 @@
 									"range" : 12,
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
-											"parameter_order" : -1,
 											"parameter_longname" : "notes",
 											"parameter_shortname" : "notes",
 											"parameter_type" : 3,
 											"parameter_initial_enable" : 1,
-											"parameter_initial" : [ 0, 68, 1, 38, 2, 45, 3, 38, 4, 88, 5, 88, 6, 44, 7, 76, 8, 24, 9, 68, 10, 17, 11, 65 ],
+											"parameter_initial" : [ 0, 1, 2, 3, 4, 5, 5, 6, 7, 8, 9, 10, 11, 12 ],
 											"parameter_invisible" : 1
 										}
 
@@ -2862,7 +2883,7 @@
 ,
 									"style" : "",
 									"text" : "autopattr",
-									"varname" : "u528000614"
+									"varname" : "u775001483"
 								}
 
 							}
@@ -3911,11 +3932,11 @@
  ],
 		"lines" : [  ],
 		"parameters" : 		{
-			"obj-5::obj-100" : [ "score", "score", 0 ],
-			"obj-5::obj-14::obj-2" : [ "pastebang", "pastebang", 0 ],
-			"obj-5::obj-71" : [ "notes", "notes", -1 ],
+			"obj-5::obj-71" : [ "notes", "notes", 0 ],
 			"obj-5::obj-12" : [ "bypass", "bypass", 0 ],
-			"obj-5::obj-105" : [ "rounding", "rounding", 0 ]
+			"obj-5::obj-100" : [ "score", "score", 0 ],
+			"obj-5::obj-105" : [ "rounding", "rounding", 0 ],
+			"obj-5::obj-14::obj-2" : [ "pastebang", "pastebang", 0 ]
 		}
 ,
 		"dependency_cache" : [ 			{
