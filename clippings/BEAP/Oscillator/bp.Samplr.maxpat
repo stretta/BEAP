@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 34.0, 78.0, 1212.0, 641.0 ],
+		"rect" : [ 34.0, 78.0, 616.0, 641.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -35,6 +35,7 @@
 		"digest" : "",
 		"tags" : "",
 		"style" : "",
+		"subpatcher_template" : "",
 		"boxes" : [ 			{
 				"box" : 				{
 					"bgmode" : 0,
@@ -87,6 +88,7 @@
 						"digest" : "",
 						"tags" : "",
 						"style" : "",
+						"subpatcher_template" : "",
 						"boxes" : [ 							{
 								"box" : 								{
 									"id" : "obj-69",
@@ -310,14 +312,14 @@
 									"fontname" : "Arial",
 									"fontsize" : 12.0,
 									"id" : "obj-120",
-									"linecount" : 3,
+									"linecount" : 2,
 									"maxclass" : "message",
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 1440.25, 1018.0, 189.0, 49.0 ],
+									"patching_rect" : [ 1440.25, 1018.0, 180.0, 35.0 ],
 									"style" : "",
-									"text" : ";\r$1_buffer duplicate #0_buffer,\n;\ndirty_buffer $1"
+									"text" : ";\r$1_buffer duplicate #0_buffer"
 								}
 
 							}
@@ -1044,6 +1046,7 @@
 							}
 , 							{
 								"box" : 								{
+									"fontface" : 0,
 									"fontname" : "Arial",
 									"fontsize" : 12.0,
 									"id" : "obj-28",
@@ -1051,15 +1054,15 @@
 									"numinlets" : 1,
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "" ],
-									"patching_rect" : [ 1306.051636, 221.433945, 100.0, 22.0 ],
-									"restore" : [ "Macintosh HD:/Applications/Max 7/resources/media/msp/cherokee.aif" ],
+									"patching_rect" : [ 1306.051636, 221.433945, 93.0, 22.0 ],
+									"restore" : [ "Macintosh HD:/Applications/Max.app/Contents/Resources/C74/media/msp/cherokee.aif" ],
 									"saved_object_attributes" : 									{
 										"parameter_enable" : 0
 									}
 ,
 									"style" : "",
-									"text" : "pattr samplepath",
-									"varname" : "samplepath"
+									"text" : "pattr samplepth",
+									"varname" : "samplepth"
 								}
 
 							}
@@ -1905,12 +1908,11 @@
 									"saved_object_attributes" : 									{
 										"basictuning" : 440,
 										"followglobaltempo" : 0,
-										"formant" : [ 1.0 ],
 										"formantcorrection" : 0,
-										"loopend" : [ 0.999, "ms" ],
+										"loopend" : [ 2841.917143, "ms" ],
 										"loopstart" : [ 0.0, "ms" ],
 										"mode" : "basic",
-										"originallength" : [ 1919.999965, "ticks" ],
+										"originallength" : [ 2730.971378, "ticks" ],
 										"originaltempo" : 120.0,
 										"phase" : [ 0.0, "ticks" ],
 										"pitchcorrection" : 0,
@@ -2157,7 +2159,7 @@
 									"patching_rect" : [ 359.004272, 1222.789673, 59.5, 22.0 ],
 									"restore" : 									{
 										"Loop" : [ 0.0 ],
-										"LoopEnd" : [ 0.999 ],
+										"LoopEnd" : [ 2841.917143 ],
 										"LoopStart" : [ 0.0 ],
 										"RecordGate" : [ 0.0 ],
 										"Root" : [ 60.0 ],
@@ -2171,7 +2173,7 @@
 ,
 									"style" : "",
 									"text" : "autopattr",
-									"varname" : "u288002173"
+									"varname" : "u230005622"
 								}
 
 							}
@@ -3195,24 +3197,24 @@
  ],
 		"lines" : [  ],
 		"parameters" : 		{
-			"obj-2::obj-69::obj-2" : [ "pastebang", "pastebang", 0 ],
-			"obj-2::obj-8" : [ "write", "write", 0 ],
-			"obj-2::obj-63" : [ "Root", "Root", 0 ],
-			"obj-2::obj-151" : [ "LoopStart", "LoopStart", 0 ],
-			"obj-2::obj-129" : [ "SampleStart", "SampleStart", 0 ],
-			"obj-2::obj-19" : [ "import", "import", 0 ],
-			"obj-2::obj-57" : [ "Select all", "Select all", 0 ],
 			"obj-2::obj-20" : [ "power", "power", 0 ],
+			"obj-2::obj-151" : [ "LoopStart", "LoopStart", 0 ],
+			"obj-2::obj-32" : [ "getsamplelength", "getsamplelength", 0 ],
+			"obj-2::obj-69::obj-2" : [ "pastebang", "pastebang", 0 ],
+			"obj-2::obj-129" : [ "SampleStart", "SampleStart", 0 ],
 			"obj-2::obj-61" : [ "Loop", "Loop", 0 ],
 			"obj-2::obj-49" : [ "RecordGate", "RecordGate", 0 ],
 			"obj-2::obj-152" : [ "LoopEnd", "LoopEnd", 0 ],
-			"obj-2::obj-32" : [ "getsamplelength", "getsamplelength", 0 ]
+			"obj-2::obj-57" : [ "Select all", "Select all", 0 ],
+			"obj-2::obj-8" : [ "write", "write", 0 ],
+			"obj-2::obj-63" : [ "Root", "Root", 0 ],
+			"obj-2::obj-19" : [ "import", "import", 0 ]
 		}
 ,
 		"dependency_cache" : [ 			{
 				"name" : "pastebang.maxpat",
-				"bootpath" : "/Applications/Max 7/Max.app/Contents/Resources/C74/packages/Beap/misc",
-				"patcherrelativepath" : "../../../../../../../Applications/Max 7/Max.app/Contents/Resources/C74/packages/Beap/misc",
+				"bootpath" : "/Applications/Max.app/Contents/Resources/C74/packages/Beap/misc",
+				"patcherrelativepath" : "../../../../../../../Applications/Max.app/Contents/Resources/C74/packages/Beap/misc",
 				"type" : "JSON",
 				"implicit" : 1
 			}

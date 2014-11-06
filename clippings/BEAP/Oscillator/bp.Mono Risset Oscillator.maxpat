@@ -35,6 +35,7 @@
 		"digest" : "",
 		"tags" : "",
 		"style" : "",
+		"subpatcher_template" : "",
 		"boxes" : [ 			{
 				"box" : 				{
 					"bgmode" : 0,
@@ -87,6 +88,7 @@
 						"digest" : "",
 						"tags" : "",
 						"style" : "",
+						"subpatcher_template" : "",
 						"boxes" : [ 							{
 								"box" : 								{
 									"id" : "obj-8",
@@ -433,6 +435,7 @@
 										"digest" : "",
 										"tags" : "",
 										"style" : "",
+										"subpatcher_template" : "",
 										"boxes" : [ 											{
 												"box" : 												{
 													"fontname" : "Arial",
@@ -709,22 +712,6 @@
 							}
 , 							{
 								"box" : 								{
-									"fontface" : 0,
-									"fontname" : "Arial",
-									"fontsize" : 12.0,
-									"id" : "obj-7",
-									"maxclass" : "newobj",
-									"numinlets" : 2,
-									"numoutlets" : 1,
-									"outlettype" : [ "signal" ],
-									"patching_rect" : [ 872.000061, 1092.678467, 42.0, 22.0 ],
-									"style" : "",
-									"text" : "*~ 2.5"
-								}
-
-							}
-, 							{
-								"box" : 								{
 									"fontname" : "Arial",
 									"fontsize" : 12.0,
 									"id" : "obj-4",
@@ -815,6 +802,7 @@
 										"digest" : "",
 										"tags" : "",
 										"style" : "",
+										"subpatcher_template" : "",
 										"boxes" : [ 											{
 												"box" : 												{
 													"fontname" : "Arial",
@@ -2320,7 +2308,7 @@
 										"CV3" : [ 0.0 ],
 										"Freq" : [ 261.625565 ],
 										"FreqMode" : [ 1.0 ],
-										"KeyboardMode" : [ 2.0 ],
+										"KeyboardMode" : [ 0.0 ],
 										"Mute" : [ 0.0 ],
 										"Offset[2]" : [ 0.0 ],
 										"octaves" : [ 4.0 ],
@@ -2329,12 +2317,13 @@
 ,
 									"style" : "",
 									"text" : "autopattr",
-									"varname" : "u161001749"
+									"varname" : "u793001606"
 								}
 
 							}
 , 							{
 								"box" : 								{
+									"fontface" : 0,
 									"fontname" : "Arial",
 									"fontsize" : 12.0,
 									"id" : "obj-38",
@@ -2342,9 +2331,9 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "signal" ],
-									"patching_rect" : [ 815.422119, 1207.992676, 36.0, 22.0 ],
+									"patching_rect" : [ 815.422119, 1207.992676, 42.0, 22.0 ],
 									"style" : "",
-									"text" : "*~ 5."
+									"text" : "*~ 0.5"
 								}
 
 							}
@@ -2775,7 +2764,7 @@
 							}
 , 							{
 								"patchline" : 								{
-									"destination" : [ "obj-7", 0 ],
+									"destination" : [ "obj-1", 1 ],
 									"disabled" : 0,
 									"hidden" : 0,
 									"source" : [ "obj-6", 0 ]
@@ -2843,15 +2832,6 @@
 									"disabled" : 0,
 									"hidden" : 0,
 									"source" : [ "obj-69", 0 ]
-								}
-
-							}
-, 							{
-								"patchline" : 								{
-									"destination" : [ "obj-1", 1 ],
-									"disabled" : 0,
-									"hidden" : 0,
-									"source" : [ "obj-7", 0 ]
 								}
 
 							}
@@ -2994,21 +2974,21 @@
  ],
 		"lines" : [  ],
 		"parameters" : 		{
-			"obj-17::obj-45" : [ "FreqMode", "FreqMode", 0 ],
-			"obj-17::obj-12" : [ "KeyboardMode", "KeyboardMode", 0 ],
-			"obj-17::obj-106" : [ "CV3", "CV3", 0 ],
-			"obj-17::obj-64" : [ "octaves", "octaves", 0 ],
 			"obj-17::obj-46" : [ "Offset", "Offset", 0 ],
-			"obj-17::obj-51" : [ "Freq", "Freq", 0 ],
+			"obj-17::obj-106" : [ "CV3", "CV3", 0 ],
+			"obj-17::obj-45" : [ "FreqMode", "FreqMode", 0 ],
 			"obj-17::obj-129" : [ "CV2", "CV2", 0 ],
+			"obj-17::obj-64" : [ "octaves", "octaves", 0 ],
 			"obj-17::obj-53" : [ "Mute", "Mute", 0 ],
-			"obj-17::obj-16" : [ "root_note", "root_note", 0 ]
+			"obj-17::obj-12" : [ "KeyboardMode", "KeyboardMode", 0 ],
+			"obj-17::obj-16" : [ "root_note", "root_note", 0 ],
+			"obj-17::obj-51" : [ "Freq", "Freq", 0 ]
 		}
 ,
 		"dependency_cache" : [ 			{
-				"name" : "mro_sin.maxpat",
-				"bootpath" : "/Applications/Max 7/Max.app/Contents/Resources/C74/packages/Beap/misc/mro_osc",
-				"patcherrelativepath" : "../../../../../../../Applications/Max 7/Max.app/Contents/Resources/C74/packages/Beap/misc/mro_osc",
+				"name" : "mro_saw.maxpat",
+				"bootpath" : "/Applications/Max.app/Contents/Resources/C74/packages/Beap/misc/mro_osc",
+				"patcherrelativepath" : "../../../../../../../Applications/Max.app/Contents/Resources/C74/packages/Beap/misc/mro_osc",
 				"type" : "JSON",
 				"implicit" : 1
 			}
