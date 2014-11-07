@@ -5,7 +5,7 @@
 			"major" : 7,
 			"minor" : 0,
 			"revision" : 0,
-			"architecture" : "x86",
+			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
@@ -35,6 +35,7 @@
 		"digest" : "",
 		"tags" : "",
 		"style" : "",
+		"subpatcher_template" : "",
 		"boxes" : [ 			{
 				"box" : 				{
 					"bgmode" : 0,
@@ -56,11 +57,11 @@
 							"major" : 7,
 							"minor" : 0,
 							"revision" : 0,
-							"architecture" : "x86",
+							"architecture" : "x64",
 							"modernui" : 1
 						}
 ,
-						"rect" : [ 56.0, 78.0, 391.0, 121.0 ],
+						"rect" : [ 56.0, 78.0, 362.0, 116.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 1,
 						"default_fontsize" : 12.0,
@@ -86,6 +87,7 @@
 						"digest" : "",
 						"tags" : "",
 						"style" : "",
+						"subpatcher_template" : "",
 						"boxes" : [ 							{
 								"box" : 								{
 									"id" : "obj-14",
@@ -176,7 +178,7 @@
 								"box" : 								{
 									"id" : "obj-48",
 									"maxclass" : "jit.pwindow",
-									"name" : "1039_display",
+									"name" : "1122_display",
 									"numinlets" : 1,
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
@@ -337,7 +339,7 @@
 											"major" : 7,
 											"minor" : 0,
 											"revision" : 0,
-											"architecture" : "x86",
+											"architecture" : "x64",
 											"modernui" : 1
 										}
 ,
@@ -367,6 +369,7 @@
 										"digest" : "",
 										"tags" : "",
 										"style" : "",
+										"subpatcher_template" : "",
 										"boxes" : [ 											{
 												"box" : 												{
 													"fontname" : "Arial Bold",
@@ -1714,7 +1717,7 @@
 											"major" : 7,
 											"minor" : 0,
 											"revision" : 0,
-											"architecture" : "x86",
+											"architecture" : "x64",
 											"modernui" : 1
 										}
 ,
@@ -1744,6 +1747,7 @@
 										"digest" : "",
 										"tags" : "",
 										"style" : "",
+										"subpatcher_template" : "",
 										"boxes" : [ 											{
 												"box" : 												{
 													"id" : "obj-76",
@@ -2885,7 +2889,7 @@
  ]
 					}
 ,
-					"patching_rect" : [ 0.0, 0.0, 391.0, 121.0 ],
+					"patching_rect" : [ 0.0, 0.0, 362.0, 116.0 ],
 					"viewvisibility" : 1
 				}
 
@@ -2893,17 +2897,17 @@
  ],
 		"lines" : [  ],
 		"parameters" : 		{
+			"obj-1::obj-44" : [ "Shape", "Shape", 0 ],
 			"obj-1::obj-18" : [ "Scale", "Scale", 0 ],
-			"obj-1::obj-12" : [ "Mute", "Mute", 0 ],
-			"obj-1::obj-20" : [ "Frequency", "Freq", 0 ],
-			"obj-1::obj-64" : [ "Pulse", "Pulse", 0 ],
-			"obj-1::obj-45::obj-2" : [ "pastebang", "pastebang", 0 ],
-			"obj-1::obj-129" : [ "Rate_ms", "Rate_ms", 0 ],
-			"obj-1::obj-59" : [ "Lock", "Lock", 0 ],
-			"obj-1::obj-21" : [ "Phase", "Phase", 0 ],
 			"obj-1::obj-19" : [ "Bias", "Bias", 0 ],
 			"obj-1::obj-23::obj-2" : [ "pastebang[1]", "pastebang", 0 ],
-			"obj-1::obj-44" : [ "Shape", "Shape", 0 ]
+			"obj-1::obj-20" : [ "Frequency", "Freq", 0 ],
+			"obj-1::obj-45::obj-2" : [ "pastebang", "pastebang", 0 ],
+			"obj-1::obj-59" : [ "Lock", "Lock", 0 ],
+			"obj-1::obj-64" : [ "Pulse", "Pulse", 0 ],
+			"obj-1::obj-21" : [ "Phase", "Phase", 0 ],
+			"obj-1::obj-12" : [ "Mute", "Mute", 0 ],
+			"obj-1::obj-129" : [ "Rate_ms", "Rate_ms", 0 ]
 		}
 ,
 		"dependency_cache" : [ 			{
