@@ -8,7 +8,7 @@
 			"architecture" : "x64"
 		}
 ,
-		"rect" : [ 228.0, 90.0, 1280.0, 663.0 ],
+		"rect" : [ 411.0, 272.0, 1280.0, 663.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -44,7 +44,7 @@
 							"architecture" : "x64"
 						}
 ,
-						"rect" : [ 228.0, 90.0, 390.0, 116.0 ],
+						"rect" : [ 411.0, 272.0, 346.0, 116.0 ],
 						"bgcolor" : [ 1.0, 1.0, 1.0, 0.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 1,
@@ -75,15 +75,15 @@
 									"outlettype" : [ "", "", "", "" ],
 									"patching_rect" : [ 190.236206, 389.0, 59.5, 20.0 ],
 									"restore" : 									{
-										"bypass" : [ 0.0 ],
-										"depth" : [ 115.0 ],
-										"drywet" : [ 115.0 ],
-										"filter" : [ 87.0 ],
-										"size" : [ 50.0 ]
+										"Depth" : [ 115.0 ],
+										"DryWet" : [ 115.0 ],
+										"Filter" : [ 87.0 ],
+										"Size" : [ 50.0 ],
+										"bypass" : [ 0.0 ]
 									}
 ,
 									"text" : "autopattr",
-									"varname" : "u838000156"
+									"varname" : "u137000975"
 								}
 
 							}
@@ -2501,7 +2501,7 @@
 									"numoutlets" : 0,
 									"patching_rect" : [ 365.25, 271.0, 37.0, 17.0 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 351.788971, 97.0, 38.0, 17.0 ],
+									"presentation_rect" : [ 328.788971, 97.0, 16.0, 17.0 ],
 									"text" : "R",
 									"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 								}
@@ -2518,7 +2518,7 @@
 									"numoutlets" : 0,
 									"patching_rect" : [ 365.25, 346.0, 37.0, 17.0 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 351.788971, 0.0, 38.0, 17.0 ],
+									"presentation_rect" : [ 327.788971, 1.0, 17.0, 17.0 ],
 									"text" : "R",
 									"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 								}
@@ -2540,8 +2540,8 @@
 									"presentation_rect" : [ 131.0, 44.0, 44.0, 47.0 ],
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
-											"parameter_longname" : "dry/wet",
-											"parameter_shortname" : "dry/wet",
+											"parameter_longname" : "Dry/Wet",
+											"parameter_shortname" : "Dry/Wet",
 											"parameter_type" : 0,
 											"parameter_initial" : [ 115.0 ],
 											"parameter_unitstyle" : 0,
@@ -2551,7 +2551,7 @@
 									}
 ,
 									"textcolor" : [ 1.0, 1.0, 1.0, 0.6 ],
-									"varname" : "drywet"
+									"varname" : "DryWet"
 								}
 
 							}
@@ -2569,7 +2569,8 @@
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 590.0, 504.0, 154.0, 60.0 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 179.788971, 37.0, 158.0, 60.0 ],
+									"presentation_rect" : [ 179.788971, 42.0, 159.0, 51.0 ],
+									"rounded" : 0,
 									"sono" : 1
 								}
 
@@ -2590,8 +2591,8 @@
 									"presentation_rect" : [ 87.0, 44.0, 44.0, 47.0 ],
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
-											"parameter_longname" : "depth",
-											"parameter_shortname" : "depth",
+											"parameter_longname" : "Depth",
+											"parameter_shortname" : "Depth",
 											"parameter_type" : 0,
 											"parameter_initial" : [ 115.0 ],
 											"parameter_unitstyle" : 0,
@@ -2601,7 +2602,7 @@
 									}
 ,
 									"textcolor" : [ 1.0, 1.0, 1.0, 0.6 ],
-									"varname" : "depth"
+									"varname" : "Depth"
 								}
 
 							}
@@ -2621,8 +2622,8 @@
 									"presentation_rect" : [ 44.0, 44.0, 44.0, 47.0 ],
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
-											"parameter_longname" : "filter",
-											"parameter_shortname" : "filter",
+											"parameter_longname" : "Filter",
+											"parameter_shortname" : "Filter",
 											"parameter_type" : 0,
 											"parameter_initial" : [ 87.0 ],
 											"parameter_unitstyle" : 0,
@@ -2632,7 +2633,7 @@
 									}
 ,
 									"textcolor" : [ 1.0, 1.0, 1.0, 0.6 ],
-									"varname" : "filter"
+									"varname" : "Filter"
 								}
 
 							}
@@ -2652,8 +2653,8 @@
 									"presentation_rect" : [ 0.0, 44.0, 44.0, 47.0 ],
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
-											"parameter_longname" : "size",
-											"parameter_shortname" : "size",
+											"parameter_longname" : "Size",
+											"parameter_shortname" : "Size",
 											"parameter_type" : 0,
 											"parameter_initial" : [ 50.0 ],
 											"parameter_unitstyle" : 0,
@@ -2663,7 +2664,7 @@
 									}
 ,
 									"textcolor" : [ 1.0, 1.0, 1.0, 0.6 ],
-									"varname" : "size"
+									"varname" : "Size"
 								}
 
 							}
@@ -2678,7 +2679,7 @@
 									"numoutlets" : 0,
 									"patching_rect" : [ 305.25, 271.0, 37.0, 17.0 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 0.0, 97.0, 38.0, 17.0 ],
+									"presentation_rect" : [ 1.0, 97.0, 16.0, 17.0 ],
 									"text" : "L",
 									"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 								}
@@ -2695,7 +2696,7 @@
 									"numoutlets" : 0,
 									"patching_rect" : [ 305.25, 346.0, 37.0, 17.0 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 0.0, 0.0, 38.0, 17.0 ],
+									"presentation_rect" : [ 1.0, 1.0, 16.0, 17.0 ],
 									"text" : "L",
 									"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 								}
@@ -2717,7 +2718,7 @@
 									"parameter_enable" : 1,
 									"patching_rect" : [ 307.5, 521.9375, 40.0, 20.0 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 336.788971, 19.0, 52.0, 14.764645 ],
+									"presentation_rect" : [ 287.0, 20.235355, 52.0, 14.764645 ],
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
 											"parameter_longname" : "bypass",
@@ -2749,7 +2750,7 @@
 									"numoutlets" : 0,
 									"patching_rect" : [ 305.25, 306.0, 62.0, 17.0 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 2.0, 17.0, 62.0, 17.0 ],
+									"presentation_rect" : [ 2.0, 19.0, 62.0, 17.0 ],
 									"text" : "CK REFLEX",
 									"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 								}
@@ -2764,7 +2765,7 @@
 									"numoutlets" : 0,
 									"patching_rect" : [ 21.736206, 143.0, 128.0, 128.0 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 0.0, 0.0, 389.788971, 17.0 ],
+									"presentation_rect" : [ 0.0, 0.0, 345.0, 17.0 ],
 									"rounded" : 0
 								}
 
@@ -2778,7 +2779,7 @@
 									"numoutlets" : 0,
 									"patching_rect" : [ 149.378326, 15.0, 128.0, 128.0 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 0.0, 97.0, 389.788971, 35.433025 ],
+									"presentation_rect" : [ 0.0, 97.0, 345.0, 35.433025 ],
 									"rounded" : 0
 								}
 
@@ -2792,7 +2793,7 @@
 									"numoutlets" : 0,
 									"patching_rect" : [ 21.736206, 15.0, 128.0, 128.0 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 0.0, 37.0, 389.788971, 71.584457 ],
+									"presentation_rect" : [ 0.0, 37.0, 345.0, 71.584457 ],
 									"rounded" : 0
 								}
 
@@ -2806,7 +2807,7 @@
 									"numoutlets" : 0,
 									"patching_rect" : [ 149.378326, 143.0, 128.0, 128.0 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 0.0, 17.0, 389.788971, 116.114227 ],
+									"presentation_rect" : [ 0.0, 17.0, 345.0, 116.114227 ],
 									"rounded" : 0
 								}
 
@@ -3079,7 +3080,7 @@
  ]
 					}
 ,
-					"patching_rect" : [ 0.0, 0.0, 390.0, 116.0 ],
+					"patching_rect" : [ 0.0, 0.0, 346.0, 116.0 ],
 					"varname" : "CKReflex"
 				}
 
@@ -3087,11 +3088,11 @@
  ],
 		"lines" : [  ],
 		"parameters" : 		{
-			"obj-4::obj-33" : [ "size", "size", 0 ],
+			"obj-4::obj-26" : [ "Dry/Wet", "Dry/Wet", 0 ],
 			"obj-4::obj-28" : [ "bypass", "bypass", 0 ],
-			"obj-4::obj-32" : [ "depth", "depth", 0 ],
-			"obj-4::obj-5" : [ "filter", "filter", 0 ],
-			"obj-4::obj-26" : [ "dry/wet", "dry/wet", 0 ]
+			"obj-4::obj-33" : [ "Size", "Size", 0 ],
+			"obj-4::obj-32" : [ "Depth", "Depth", 0 ],
+			"obj-4::obj-5" : [ "Filter", "Filter", 0 ]
 		}
 ,
 		"dependency_cache" : [ 			{
