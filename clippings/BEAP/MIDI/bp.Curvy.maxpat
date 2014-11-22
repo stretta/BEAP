@@ -5,7 +5,7 @@
 			"major" : 7,
 			"minor" : 0,
 			"revision" : 0,
-			"architecture" : "x64",
+			"architecture" : "x86",
 			"modernui" : 1
 		}
 ,
@@ -35,6 +35,7 @@
 		"digest" : "",
 		"tags" : "",
 		"style" : "",
+		"subpatcher_template" : "",
 		"boxes" : [ 			{
 				"box" : 				{
 					"bgmode" : 0,
@@ -56,7 +57,7 @@
 							"major" : 7,
 							"minor" : 0,
 							"revision" : 0,
-							"architecture" : "x64",
+							"architecture" : "x86",
 							"modernui" : 1
 						}
 ,
@@ -87,6 +88,7 @@
 						"digest" : "",
 						"tags" : "",
 						"style" : "",
+						"subpatcher_template" : "",
 						"boxes" : [ 							{
 								"box" : 								{
 									"id" : "obj-13",
@@ -364,16 +366,17 @@
 							}
 , 							{
 								"box" : 								{
+									"fontface" : 0,
 									"fontname" : "Arial",
 									"fontsize" : 12.0,
 									"id" : "obj-32",
 									"maxclass" : "newobj",
-									"numinlets" : 1,
+									"numinlets" : 0,
 									"numoutlets" : 1,
 									"outlettype" : [ "bang" ],
-									"patching_rect" : [ 201.499786, 338.098938, 60.0, 22.0 ],
+									"patching_rect" : [ 201.499786, 338.098938, 67.0, 22.0 ],
 									"style" : "",
-									"text" : "loadbang"
+									"text" : "pastebang"
 								}
 
 							}
@@ -706,7 +709,7 @@
 											"major" : 7,
 											"minor" : 0,
 											"revision" : 0,
-											"architecture" : "x64",
+											"architecture" : "x86",
 											"modernui" : 1
 										}
 ,
@@ -736,6 +739,7 @@
 										"digest" : "",
 										"tags" : "",
 										"style" : "",
+										"subpatcher_template" : "",
 										"boxes" : [ 											{
 												"box" : 												{
 													"comment" : "",
@@ -2490,7 +2494,7 @@
 													"destination" : [ "obj-102", 0 ],
 													"disabled" : 0,
 													"hidden" : 0,
-													"midpoints" : [ 2077.947724, 450.043762, 86.65451, 450.043762 ],
+													"midpoints" : [ 2077.947754, 450.043762, 86.65451, 450.043762 ],
 													"source" : [ "obj-28", 8 ]
 												}
 
@@ -3614,19 +3618,27 @@
  ],
 		"lines" : [  ],
 		"parameters" : 		{
-			"obj-1::obj-452" : [ "Pulse", "Pulse", 0 ],
-			"obj-1::obj-11" : [ "scale", "scale", 0 ],
+			"obj-1::obj-32::obj-2" : [ "pastebang", "pastebang", 0 ],
 			"obj-1::obj-9" : [ "trigger_LED", "trigger_LED", 0 ],
-			"obj-1::obj-1" : [ "MIDI_note_curve", "MIDI_note_curve", 0 ],
+			"obj-1::obj-11" : [ "scale", "scale", 0 ],
+			"obj-1::obj-452" : [ "Pulse", "Pulse", 0 ],
+			"obj-1::obj-3" : [ "MIDI_note_scale", "MIDI_note_scale", 0 ],
 			"obj-1::obj-7" : [ "curve", "curve", 0 ],
-			"obj-1::obj-3" : [ "MIDI_note_scale", "MIDI_note_scale", 0 ]
+			"obj-1::obj-1" : [ "MIDI_note_curve", "MIDI_note_curve", 0 ]
 		}
 ,
 		"dependency_cache" : [ 			{
 				"name" : "curvetypes.svg",
-				"bootpath" : "/Applications/Max 7/Max.app/Contents/Resources/C74/packages/Beap/misc",
-				"patcherrelativepath" : "../../../../../../../Applications/Max 7/Max.app/Contents/Resources/C74/packages/Beap/misc",
+				"bootpath" : "/Applications/Max.app/Contents/Resources/C74/packages/Beap/misc",
+				"patcherrelativepath" : "../../../../../../../Applications/Max.app/Contents/Resources/C74/packages/Beap/misc",
 				"type" : "svg ",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "pastebang.maxpat",
+				"bootpath" : "/Applications/Max.app/Contents/Resources/C74/packages/Beap/misc",
+				"patcherrelativepath" : "../../../../../../../Applications/Max.app/Contents/Resources/C74/packages/Beap/misc",
+				"type" : "JSON",
 				"implicit" : 1
 			}
  ],
