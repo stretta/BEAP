@@ -5,7 +5,7 @@
 			"major" : 7,
 			"minor" : 0,
 			"revision" : 0,
-			"architecture" : "x86",
+			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
@@ -35,6 +35,7 @@
 		"digest" : "",
 		"tags" : "",
 		"style" : "",
+		"subpatcher_template" : "",
 		"boxes" : [ 			{
 				"box" : 				{
 					"bgmode" : 0,
@@ -56,11 +57,11 @@
 							"major" : 7,
 							"minor" : 0,
 							"revision" : 0,
-							"architecture" : "x86",
+							"architecture" : "x64",
 							"modernui" : 1
 						}
 ,
-						"rect" : [ 34.0, 78.0, 169.0, 117.0 ],
+						"rect" : [ 34.0, 78.0, 217.0, 117.0 ],
 						"bgcolor" : [ 1.0, 1.0, 1.0, 0.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 1,
@@ -87,7 +88,87 @@
 						"digest" : "",
 						"tags" : "",
 						"style" : "",
+						"subpatcher_template" : "",
 						"boxes" : [ 							{
+								"box" : 								{
+									"activebgcolor" : [ 0.163647, 0.174699, 0.17409, 1.0 ],
+									"activebgoncolor" : [ 0.0, 0.870588, 0.101961, 1.0 ],
+									"activetextcolor" : [ 1.0, 1.0, 1.0, 0.57 ],
+									"activetextoncolor" : [ 0.0, 0.019608, 0.078431, 1.0 ],
+									"annotation" : "Enables listen to remote score events",
+									"bgcolor" : [ 0.101961, 0.101961, 0.101961, 0.78 ],
+									"bgoncolor" : [ 0.0, 0.870588, 0.101961, 1.0 ],
+									"bordercolor" : [ 0.0, 0.019608, 0.078431, 0.37 ],
+									"id" : "obj-100",
+									"maxclass" : "live.text",
+									"numinlets" : 1,
+									"numoutlets" : 2,
+									"outlettype" : [ "", "" ],
+									"parameter_enable" : 1,
+									"patching_rect" : [ 1113.0, 152.0, 58.0, 20.0 ],
+									"presentation" : 1,
+									"presentation_rect" : [ 170.126038, 49.419079, 41.873962, 15.5 ],
+									"saved_attribute_attributes" : 									{
+										"valueof" : 										{
+											"parameter_longname" : "score",
+											"parameter_shortname" : "score",
+											"parameter_type" : 2,
+											"parameter_mmax" : 1.0,
+											"parameter_enum" : [ "val1", "val2" ],
+											"parameter_initial_enable" : 1,
+											"parameter_initial" : [ 0 ],
+											"parameter_defer" : 1
+										}
+
+									}
+,
+									"text" : "score",
+									"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+									"texton" : "score",
+									"varname" : "score"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-99",
+									"maxclass" : "newobj",
+									"numinlets" : 2,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 1113.0, 196.353119, 124.0, 22.0 ],
+									"style" : "",
+									"text" : "gate"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-14",
+									"maxclass" : "newobj",
+									"numinlets" : 5,
+									"numoutlets" : 5,
+									"outlettype" : [ "", "", "", "", "" ],
+									"patching_rect" : [ 1113.0, 237.353119, 263.0, 22.0 ],
+									"style" : "",
+									"text" : "route /chordscale /basenote /notelist /transpose"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-15",
+									"maxclass" : "newobj",
+									"numinlets" : 0,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 1218.0, 152.0, 64.0, 22.0 ],
+									"style" : "",
+									"text" : "r bp.score"
+								}
+
+							}
+, 							{
 								"box" : 								{
 									"id" : "obj-10",
 									"maxclass" : "newobj",
@@ -1212,12 +1293,13 @@
 										"PitchActivityLED[1]" : [ 0.0 ],
 										"PitchActivityLED[2]" : [ 0.0 ],
 										"bypass" : [ 0.0 ],
-										"kslider" : [ 0, 68, 1, 38, 2, 45, 3, 38, 4, 88, 5, 88, 6, 44, 7, 76, 8, 24, 9, 68, 10, 17, 11, 65 ]
+										"kslider" : [ 0, 68, 1, 38, 2, 45, 3, 38, 4, 88, 5, 88, 6, 44, 7, 76, 8, 24, 9, 68, 10, 17, 11, 65 ],
+										"score" : [ 0.0 ]
 									}
 ,
 									"style" : "",
 									"text" : "autopattr",
-									"varname" : "u411000691"
+									"varname" : "u210000785"
 								}
 
 							}
@@ -1284,7 +1366,7 @@
 									"parameter_enable" : 1,
 									"patching_rect" : [ 83.585922, 901.819702, 40.0, 20.0 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 98.320618, 19.0, 66.0, 14.764645 ],
+									"presentation_rect" : [ 156.320618, 19.0, 55.679382, 14.764645 ],
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
 											"parameter_longname" : "bypass",
@@ -1411,10 +1493,55 @@
 							}
 , 							{
 								"patchline" : 								{
+									"destination" : [ "obj-99", 0 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-100", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
 									"destination" : [ "obj-2", 0 ],
 									"disabled" : 0,
 									"hidden" : 0,
 									"source" : [ "obj-12", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-65", 0 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-14", 2 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-79", 0 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-14", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-83", 0 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-14", 1 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-99", 1 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-15", 0 ]
 								}
 
 							}
@@ -2115,10 +2242,19 @@
 								}
 
 							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-14", 0 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-99", 0 ]
+								}
+
+							}
  ]
 					}
 ,
-					"patching_rect" : [ 0.0, 0.0, 169.0, 117.0 ],
+					"patching_rect" : [ 0.0, 0.0, 217.0, 117.0 ],
 					"varname" : "Quantizer-MIDI",
 					"viewvisibility" : 1
 				}
@@ -2127,17 +2263,18 @@
  ],
 		"lines" : [  ],
 		"parameters" : 		{
-			"obj-1::obj-48" : [ "InputLED", "InputLED", 0 ],
-			"obj-1::obj-29" : [ "OutputLED", "OutputLED", 0 ],
 			"obj-1::obj-10::obj-2" : [ "pastebang", "pastebang", 0 ],
 			"obj-1::obj-12" : [ "bypass", "bypass", 0 ],
-			"obj-1::obj-92" : [ "kslider", "kslider", 0 ]
+			"obj-1::obj-29" : [ "OutputLED", "OutputLED", 0 ],
+			"obj-1::obj-92" : [ "kslider", "kslider", 0 ],
+			"obj-1::obj-48" : [ "InputLED", "InputLED", 0 ],
+			"obj-1::obj-100" : [ "score", "score", 0 ]
 		}
 ,
 		"dependency_cache" : [ 			{
 				"name" : "pastebang.maxpat",
-				"bootpath" : "/Applications/Max.app/Contents/Resources/C74/packages/Beap/misc",
-				"patcherrelativepath" : "../../../../../../../Applications/Max.app/Contents/Resources/C74/packages/Beap/misc",
+				"bootpath" : "~/Documents/Beap/misc",
+				"patcherrelativepath" : "../../../misc",
 				"type" : "JSON",
 				"implicit" : 1
 			}
