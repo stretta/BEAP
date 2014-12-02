@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 7,
 			"minor" : 0,
-			"revision" : 0,
+			"revision" : 1,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
@@ -56,7 +56,7 @@
 						"appversion" : 						{
 							"major" : 7,
 							"minor" : 0,
-							"revision" : 0,
+							"revision" : 1,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -183,7 +183,7 @@
 								"box" : 								{
 									"id" : "obj-10",
 									"maxclass" : "jit.pwindow",
-									"name" : "1010_display",
+									"name" : "1722_display",
 									"numinlets" : 1,
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
@@ -353,7 +353,7 @@
 ,
 									"style" : "",
 									"text" : "autopattr",
-									"varname" : "u901000586"
+									"varname" : "u949002617"
 								}
 
 							}
@@ -561,7 +561,7 @@
 					}
 ,
 					"patching_rect" : [ 0.0, 0.0, 141.0, 116.0 ],
-					"varname" : "Scope",
+					"varname" : "GLScope",
 					"viewvisibility" : 1
 				}
 

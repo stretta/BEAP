@@ -4,12 +4,12 @@
 		"appversion" : 		{
 			"major" : 7,
 			"minor" : 0,
-			"revision" : 0,
+			"revision" : 1,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 34.0, 78.0, 1212.0, 641.0 ],
+		"rect" : [ 34.0, 78.0, 862.0, 641.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -35,6 +35,7 @@
 		"digest" : "",
 		"tags" : "",
 		"style" : "",
+		"subpatcher_template" : "",
 		"boxes" : [ 			{
 				"box" : 				{
 					"bgmode" : 0,
@@ -55,7 +56,7 @@
 						"appversion" : 						{
 							"major" : 7,
 							"minor" : 0,
-							"revision" : 0,
+							"revision" : 1,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -87,6 +88,7 @@
 						"digest" : "",
 						"tags" : "",
 						"style" : "",
+						"subpatcher_template" : "",
 						"boxes" : [ 							{
 								"box" : 								{
 									"id" : "obj-8",
@@ -620,7 +622,7 @@
 ,
 									"style" : "",
 									"text" : "autopattr",
-									"varname" : "u307001586"
+									"varname" : "u981008355"
 								}
 
 							}
@@ -893,7 +895,7 @@
 					}
 ,
 					"patching_rect" : [ 0.0, 0.0, 113.0, 116.0 ],
-					"varname" : "MIDI_to_signal",
+					"varname" : "Scalr",
 					"viewvisibility" : 1
 				}
 
@@ -902,12 +904,12 @@
 		"lines" : [  ],
 		"parameters" : 		{
 			"obj-12::obj-28" : [ "LoOut", "LoOut", 0 ],
-			"obj-12::obj-22" : [ "OutputLED", "OutputLED", 0 ],
 			"obj-12::obj-26" : [ "HiIn", "HiIn", 0 ],
 			"obj-12::obj-3" : [ "InputLED", "InputLED", 0 ],
 			"obj-12::obj-25" : [ "LowIn", "LowIn", 0 ],
 			"obj-12::obj-27" : [ "HiOut", "HiOut", 0 ],
-			"obj-12::obj-23" : [ "bypass", "bypass", 0 ]
+			"obj-12::obj-23" : [ "bypass", "bypass", 0 ],
+			"obj-12::obj-22" : [ "OutputLED", "OutputLED", 0 ]
 		}
 ,
 		"dependency_cache" : [  ],

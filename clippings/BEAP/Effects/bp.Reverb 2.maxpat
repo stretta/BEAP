@@ -4,20 +4,21 @@
 		"appversion" : 		{
 			"major" : 7,
 			"minor" : 0,
-			"revision" : 0,
+			"revision" : 1,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 316.0, 78.0, 930.0, 645.0 ],
+		"rect" : [ 34.0, 78.0, 862.0, 645.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
 		"default_fontface" : 0,
 		"default_fontname" : "Arial",
-		"gridonopen" : 0,
+		"gridonopen" : 1,
 		"gridsize" : [ 15.0, 15.0 ],
-		"gridsnaponopen" : 0,
+		"gridsnaponopen" : 1,
+		"objectsnaponopen" : 1,
 		"statusbarvisible" : 2,
 		"toolbarvisible" : 1,
 		"lefttoolbarpinned" : 0,
@@ -34,6 +35,7 @@
 		"digest" : "",
 		"tags" : "",
 		"style" : "",
+		"subpatcher_template" : "",
 		"boxes" : [ 			{
 				"box" : 				{
 					"bgmode" : 0,
@@ -54,21 +56,22 @@
 						"appversion" : 						{
 							"major" : 7,
 							"minor" : 0,
-							"revision" : 0,
+							"revision" : 1,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
 ,
-						"rect" : [ 316.0, 78.0, 271.0, 114.0 ],
+						"rect" : [ 34.0, 78.0, 271.0, 114.0 ],
 						"bgcolor" : [ 1.0, 1.0, 1.0, 0.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 1,
 						"default_fontsize" : 12.0,
 						"default_fontface" : 0,
 						"default_fontname" : "Arial",
-						"gridonopen" : 0,
+						"gridonopen" : 1,
 						"gridsize" : [ 15.0, 15.0 ],
-						"gridsnaponopen" : 0,
+						"gridsnaponopen" : 1,
+						"objectsnaponopen" : 1,
 						"statusbarvisible" : 1,
 						"toolbarvisible" : 1,
 						"lefttoolbarpinned" : 0,
@@ -85,6 +88,7 @@
 						"digest" : "",
 						"tags" : "",
 						"style" : "",
+						"subpatcher_template" : "",
 						"boxes" : [ 							{
 								"box" : 								{
 									"id" : "obj-58",
@@ -951,7 +955,7 @@
 ,
 									"style" : "",
 									"text" : "autopattr",
-									"varname" : "u835005030"
+									"varname" : "u849002464"
 								}
 
 							}
@@ -1599,7 +1603,7 @@
 					}
 ,
 					"patching_rect" : [ 0.0, 0.0, 271.0, 114.0 ],
-					"varname" : "patcher",
+					"varname" : "Reverb2",
 					"viewvisibility" : 1
 				}
 
@@ -1607,12 +1611,12 @@
  ],
 		"lines" : [  ],
 		"parameters" : 		{
-			"obj-10::obj-1" : [ "Size", "Size", 0 ],
-			"obj-10::obj-20" : [ "Diffusion", "Diffusion", 0 ],
 			"obj-10::obj-25" : [ "Damping", "Damping", 0 ],
+			"obj-10::obj-26" : [ "Decay", "Decay", 0 ],
+			"obj-10::obj-1" : [ "Size", "Size", 0 ],
 			"obj-10::obj-50" : [ "bypass", "bypass", 0 ],
 			"obj-10::obj-55" : [ "Mix", "Mix", 0 ],
-			"obj-10::obj-26" : [ "Decay", "Decay", 0 ]
+			"obj-10::obj-20" : [ "Diffusion", "Diffusion", 0 ]
 		}
 ,
 		"dependency_cache" : [ 			{
@@ -1624,8 +1628,8 @@
 			}
 , 			{
 				"name" : "M4L.cross1~.maxpat",
-				"bootpath" : "/Applications/Max 7/Max.app/Contents/Resources/C74/patchers/m4l/Tools resources",
-				"patcherrelativepath" : "../../../../../../../Applications/Max 7/Max.app/Contents/Resources/C74/patchers/m4l/Tools resources",
+				"bootpath" : "/Applications/Max.app/Contents/Resources/C74/patchers/m4l/Tools resources",
+				"patcherrelativepath" : "../../../../../../../Applications/Max.app/Contents/Resources/C74/patchers/m4l/Tools resources",
 				"type" : "JSON",
 				"implicit" : 1
 			}

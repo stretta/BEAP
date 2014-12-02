@@ -4,20 +4,21 @@
 		"appversion" : 		{
 			"major" : 7,
 			"minor" : 0,
-			"revision" : 0,
+			"revision" : 1,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 34.0, 78.0, 1212.0, 641.0 ],
+		"rect" : [ 34.0, 78.0, 862.0, 641.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
 		"default_fontface" : 0,
 		"default_fontname" : "Arial",
-		"gridonopen" : 0,
+		"gridonopen" : 1,
 		"gridsize" : [ 15.0, 15.0 ],
-		"gridsnaponopen" : 0,
+		"gridsnaponopen" : 1,
+		"objectsnaponopen" : 1,
 		"statusbarvisible" : 2,
 		"toolbarvisible" : 1,
 		"lefttoolbarpinned" : 0,
@@ -34,6 +35,7 @@
 		"digest" : "",
 		"tags" : "",
 		"style" : "",
+		"subpatcher_template" : "",
 		"boxes" : [ 			{
 				"box" : 				{
 					"bgmode" : 0,
@@ -54,7 +56,7 @@
 						"appversion" : 						{
 							"major" : 7,
 							"minor" : 0,
-							"revision" : 0,
+							"revision" : 1,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -66,9 +68,10 @@
 						"default_fontsize" : 12.0,
 						"default_fontface" : 0,
 						"default_fontname" : "Arial",
-						"gridonopen" : 0,
+						"gridonopen" : 1,
 						"gridsize" : [ 15.0, 15.0 ],
-						"gridsnaponopen" : 0,
+						"gridsnaponopen" : 1,
+						"objectsnaponopen" : 1,
 						"statusbarvisible" : 1,
 						"toolbarvisible" : 1,
 						"lefttoolbarpinned" : 0,
@@ -85,6 +88,7 @@
 						"digest" : "",
 						"tags" : "",
 						"style" : "",
+						"subpatcher_template" : "",
 						"boxes" : [ 							{
 								"box" : 								{
 									"fontname" : "Arial",
@@ -94,7 +98,6 @@
 									"numinlets" : 1,
 									"numoutlets" : 0,
 									"patching_rect" : [ 21.101273, 114.900894, 287.0, 17.0 ],
-									"presentation_rect" : [ 1484.089233, 1472.858643, 0.0, 0.0 ],
 									"style" : "",
 									"text" : "## Wavetable oscillator with a 16x16 cv-indexable matrix of waves ##"
 								}
@@ -448,7 +451,8 @@
 									"numinlets" : 0,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 1060.899658, 56.482895, 25.0, 25.0 ]
+									"patching_rect" : [ 1060.899658, 56.482895, 25.0, 25.0 ],
+									"style" : ""
 								}
 
 							}
@@ -728,7 +732,8 @@
 									"numinlets" : 0,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 786.899719, 107.199615, 25.0, 25.0 ]
+									"patching_rect" : [ 786.899719, 107.199615, 25.0, 25.0 ],
+									"style" : ""
 								}
 
 							}
@@ -810,7 +815,8 @@
 									"numinlets" : 0,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 142.101273, 278.640991, 25.0, 25.0 ]
+									"patching_rect" : [ 142.101273, 278.640991, 25.0, 25.0 ],
+									"style" : ""
 								}
 
 							}
@@ -838,7 +844,8 @@
 									"numinlets" : 0,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 270.132507, 275.537292, 25.0, 25.0 ]
+									"patching_rect" : [ 270.132507, 275.537292, 25.0, 25.0 ],
+									"style" : ""
 								}
 
 							}
@@ -2033,7 +2040,7 @@
 ,
 									"style" : "",
 									"text" : "autopattr",
-									"varname" : "u383001214"
+									"varname" : "u134000420"
 								}
 
 							}
@@ -2044,7 +2051,8 @@
 									"maxclass" : "outlet",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 68.342484, 1022.289307, 25.0, 25.0 ]
+									"patching_rect" : [ 68.342484, 1022.289307, 25.0, 25.0 ],
+									"style" : ""
 								}
 
 							}
@@ -2106,15 +2114,6 @@
 								"box" : 								{
 									"angle" : 0.0,
 									"bgcolor" : [ 0.130261, 0.130261, 0.130261, 1.0 ],
-									"bgfillcolor" : [ 										{
-											"type" : "color",
-											"color1" : [ 0.75, 0.79, 0.93, 1.0 ],
-											"color2" : [ 0.66, 0.66, 0.72, 1.0 ],
-											"color" : [ 0.130261, 0.130261, 0.130261, 1.0 ],
-											"angle" : 0,
-											"proportion" : 0.39
-										}
- ],
 									"id" : "obj-118",
 									"maxclass" : "panel",
 									"mode" : 0,
@@ -2133,15 +2132,6 @@
 								"box" : 								{
 									"angle" : 0.0,
 									"bgcolor" : [ 0.137255, 0.145098, 0.160784, 0.65 ],
-									"bgfillcolor" : [ 										{
-											"type" : "color",
-											"color1" : [ 0.75, 0.79, 0.93, 1.0 ],
-											"color2" : [ 0.66, 0.66, 0.72, 1.0 ],
-											"color" : [ 0.137255, 0.145098, 0.160784, 0.65 ],
-											"angle" : 0,
-											"proportion" : 0.39
-										}
- ],
 									"id" : "obj-18",
 									"maxclass" : "panel",
 									"mode" : 0,
@@ -2160,15 +2150,6 @@
 								"box" : 								{
 									"angle" : 0.0,
 									"bgcolor" : [ 0.367404, 0.389405, 0.430238, 1.0 ],
-									"bgfillcolor" : [ 										{
-											"type" : "color",
-											"color1" : [ 0.75, 0.79, 0.93, 1.0 ],
-											"color2" : [ 0.66, 0.66, 0.72, 1.0 ],
-											"color" : [ 0.367404, 0.389405, 0.430238, 1.0 ],
-											"angle" : 0,
-											"proportion" : 0.39
-										}
- ],
 									"id" : "obj-21",
 									"maxclass" : "panel",
 									"mode" : 0,
@@ -2187,15 +2168,6 @@
 								"box" : 								{
 									"angle" : 0.0,
 									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-									"bgfillcolor" : [ 										{
-											"type" : "color",
-											"color1" : [ 0.75, 0.79, 0.93, 1.0 ],
-											"color2" : [ 0.66, 0.66, 0.72, 1.0 ],
-											"color" : [ 0.0, 0.0, 0.0, 1.0 ],
-											"angle" : 0,
-											"proportion" : 0.39
-										}
- ],
 									"id" : "obj-14",
 									"maxclass" : "panel",
 									"mode" : 0,
@@ -3335,7 +3307,7 @@
 					}
 ,
 					"patching_rect" : [ 0.0, 0.0, 381.0, 116.0 ],
-					"varname" : "PhaseVocoder",
+					"varname" : "Wavetable",
 					"viewvisibility" : 1
 				}
 
@@ -3343,14 +3315,14 @@
  ],
 		"lines" : [  ],
 		"parameters" : 		{
-			"obj-38::obj-154" : [ "CV2", "CV2", 0 ],
-			"obj-38::obj-110" : [ "Wavetable", "Wavetable", 0 ],
-			"obj-38::obj-80" : [ "BankCV", "CV", 0 ],
-			"obj-38::obj-12" : [ "Mute", "Mute", 0 ],
-			"obj-38::obj-25" : [ "WaveCV", "CV", 0 ],
 			"obj-38::obj-100" : [ "Offset", "Offset", 0 ],
+			"obj-38::obj-110" : [ "Wavetable", "Wavetable", 0 ],
+			"obj-38::obj-12" : [ "Mute", "Mute", 0 ],
+			"obj-38::obj-3" : [ "Wave", "Wave", 0 ],
 			"obj-38::obj-81" : [ "Bank", "Bank", 0 ],
-			"obj-38::obj-3" : [ "Wave", "Wave", 0 ]
+			"obj-38::obj-154" : [ "CV2", "CV2", 0 ],
+			"obj-38::obj-80" : [ "BankCV", "CV", 0 ],
+			"obj-38::obj-25" : [ "WaveCV", "CV", 0 ]
 		}
 ,
 		"dependency_cache" : [  ],

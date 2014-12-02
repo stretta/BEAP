@@ -4,20 +4,21 @@
 		"appversion" : 		{
 			"major" : 7,
 			"minor" : 0,
-			"revision" : 0,
+			"revision" : 1,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 34.0, 78.0, 1212.0, 645.0 ],
+		"rect" : [ 34.0, 78.0, 862.0, 645.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
 		"default_fontface" : 0,
 		"default_fontname" : "Arial",
-		"gridonopen" : 0,
+		"gridonopen" : 1,
 		"gridsize" : [ 15.0, 15.0 ],
-		"gridsnaponopen" : 0,
+		"gridsnaponopen" : 1,
+		"objectsnaponopen" : 1,
 		"statusbarvisible" : 2,
 		"toolbarvisible" : 1,
 		"lefttoolbarpinned" : 0,
@@ -34,6 +35,7 @@
 		"digest" : "",
 		"tags" : "",
 		"style" : "",
+		"subpatcher_template" : "",
 		"boxes" : [ 			{
 				"box" : 				{
 					"bgmode" : 0,
@@ -54,7 +56,7 @@
 						"appversion" : 						{
 							"major" : 7,
 							"minor" : 0,
-							"revision" : 0,
+							"revision" : 1,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -66,9 +68,10 @@
 						"default_fontsize" : 12.0,
 						"default_fontface" : 0,
 						"default_fontname" : "Arial",
-						"gridonopen" : 0,
+						"gridonopen" : 1,
 						"gridsize" : [ 15.0, 15.0 ],
-						"gridsnaponopen" : 0,
+						"gridsnaponopen" : 1,
+						"objectsnaponopen" : 1,
 						"statusbarvisible" : 1,
 						"toolbarvisible" : 1,
 						"lefttoolbarpinned" : 0,
@@ -85,6 +88,7 @@
 						"digest" : "",
 						"tags" : "",
 						"style" : "",
+						"subpatcher_template" : "",
 						"boxes" : [ 							{
 								"box" : 								{
 									"id" : "obj-22",
@@ -185,7 +189,7 @@
 										"appversion" : 										{
 											"major" : 7,
 											"minor" : 0,
-											"revision" : 0,
+											"revision" : 1,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -196,9 +200,10 @@
 										"default_fontsize" : 12.0,
 										"default_fontface" : 0,
 										"default_fontname" : "Arial",
-										"gridonopen" : 0,
+										"gridonopen" : 1,
 										"gridsize" : [ 15.0, 15.0 ],
-										"gridsnaponopen" : 0,
+										"gridsnaponopen" : 1,
+										"objectsnaponopen" : 1,
 										"statusbarvisible" : 2,
 										"toolbarvisible" : 1,
 										"lefttoolbarpinned" : 0,
@@ -215,6 +220,7 @@
 										"digest" : "",
 										"tags" : "",
 										"style" : "",
+										"subpatcher_template" : "",
 										"boxes" : [ 											{
 												"box" : 												{
 													"comment" : "",
@@ -824,7 +830,7 @@
 ,
 									"style" : "",
 									"text" : "autopattr",
-									"varname" : "u493005191"
+									"varname" : "u941001627"
 								}
 
 							}
@@ -1217,7 +1223,7 @@
 					}
 ,
 					"patching_rect" : [ 0.0, 0.0, 186.0, 116.0 ],
-					"varname" : "patcher",
+					"varname" : "pitch_to_cv",
 					"viewvisibility" : 1
 				}
 
@@ -1225,12 +1231,12 @@
  ],
 		"lines" : [  ],
 		"parameters" : 		{
-			"obj-10::obj-31" : [ "freq", "freq", 0 ],
-			"obj-10::obj-25" : [ "Smoothing", "Smooth", 0 ],
 			"obj-10::obj-43" : [ "Type", "Type", 0 ],
-			"obj-10::obj-12" : [ "Mute", "Mute", 0 ],
 			"obj-10::obj-3" : [ "MIDI", "MIDI", 0 ],
-			"obj-10::obj-129" : [ "Semi", "Semi", 0 ]
+			"obj-10::obj-31" : [ "freq", "freq", 0 ],
+			"obj-10::obj-12" : [ "Mute", "Mute", 0 ],
+			"obj-10::obj-129" : [ "Semi", "Semi", 0 ],
+			"obj-10::obj-25" : [ "Smoothing", "Smooth", 0 ]
 		}
 ,
 		"dependency_cache" : [  ],

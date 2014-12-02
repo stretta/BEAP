@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 7,
 			"minor" : 0,
-			"revision" : 0,
+			"revision" : 1,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
@@ -56,7 +56,7 @@
 						"appversion" : 						{
 							"major" : 7,
 							"minor" : 0,
-							"revision" : 0,
+							"revision" : 1,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -97,7 +97,6 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 473.0, 305.0, 45.0, 22.0 ],
-									"presentation_rect" : [ 471.0, 305.0, 0.0, 0.0 ],
 									"style" : "",
 									"text" : "r reset"
 								}
@@ -262,12 +261,10 @@
 									"bgfillcolor_color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
 									"bgfillcolor_proportion" : 0.39,
 									"bgfillcolor_type" : "color",
-									"fontface" : 0,
-									"fontname" : "Arial",
 									"fontsize" : 10.0,
 									"hint" : "MIDI port",
 									"id" : "obj-56",
-									"items" : "<empty>",
+									"items" : [ "IAC Driver Bus 1", ",", "to Max 1", ",", "to Max 2" ],
 									"maxclass" : "umenu",
 									"numinlets" : 1,
 									"numoutlets" : 3,
@@ -824,7 +821,7 @@
 									"patching_rect" : [ 29.0, 94.0, 59.5, 22.0 ],
 									"restore" : 									{
 										"KeyboardMode" : [ 0.0 ],
-										"MIDIPort" : [ "" ],
+										"MIDIPort" : [ "IAC Driver Bus 1" ],
 										"Octave" : [ 0.0 ],
 										"RepeatInterval" : [ 250.0 ],
 										"kslider" : [ -1 ]
@@ -832,7 +829,7 @@
 ,
 									"style" : "",
 									"text" : "autopattr",
-									"varname" : "u208006648"
+									"varname" : "u295004383"
 								}
 
 							}
@@ -1776,7 +1773,7 @@
 					}
 ,
 					"patching_rect" : [ 0.0, 0.0, 506.0, 116.0 ],
-					"varname" : "Keyboard[1]",
+					"varname" : "Keyboard",
 					"viewvisibility" : 1
 				}
 
@@ -1784,11 +1781,11 @@
  ],
 		"lines" : [  ],
 		"parameters" : 		{
+			"obj-6::obj-5" : [ "Octave", "Octave", 0 ],
+			"obj-6::obj-12" : [ "KeyboardMode", "KeyboardMode", 0 ],
 			"obj-6::obj-34::obj-2" : [ "pastebang", "pastebang", 0 ],
 			"obj-6::obj-68" : [ "RepeatInterval", "RepeatInterval", 0 ],
-			"obj-6::obj-15::obj-2" : [ "pastebang[1]", "pastebang", 0 ],
-			"obj-6::obj-12" : [ "KeyboardMode", "KeyboardMode", 0 ],
-			"obj-6::obj-5" : [ "Octave", "Octave", 0 ]
+			"obj-6::obj-15::obj-2" : [ "pastebang[1]", "pastebang", 0 ]
 		}
 ,
 		"dependency_cache" : [ 			{

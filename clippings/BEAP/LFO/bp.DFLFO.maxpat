@@ -4,12 +4,12 @@
 		"appversion" : 		{
 			"major" : 7,
 			"minor" : 0,
-			"revision" : 0,
+			"revision" : 1,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 34.0, 78.0, 1212.0, 641.0 ],
+		"rect" : [ 34.0, 78.0, 862.0, 641.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -18,6 +18,7 @@
 		"gridonopen" : 1,
 		"gridsize" : [ 15.0, 15.0 ],
 		"gridsnaponopen" : 1,
+		"objectsnaponopen" : 1,
 		"statusbarvisible" : 1,
 		"toolbarvisible" : 1,
 		"lefttoolbarpinned" : 0,
@@ -34,6 +35,7 @@
 		"digest" : "",
 		"tags" : "",
 		"style" : "",
+		"subpatcher_template" : "",
 		"boxes" : [ 			{
 				"box" : 				{
 					"bgmode" : 0,
@@ -54,7 +56,7 @@
 						"appversion" : 						{
 							"major" : 7,
 							"minor" : 0,
-							"revision" : 0,
+							"revision" : 1,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -69,6 +71,7 @@
 						"gridonopen" : 1,
 						"gridsize" : [ 15.0, 15.0 ],
 						"gridsnaponopen" : 1,
+						"objectsnaponopen" : 1,
 						"statusbarvisible" : 1,
 						"toolbarvisible" : 1,
 						"lefttoolbarpinned" : 0,
@@ -85,6 +88,7 @@
 						"digest" : "",
 						"tags" : "",
 						"style" : "",
+						"subpatcher_template" : "",
 						"boxes" : [ 							{
 								"box" : 								{
 									"fontname" : "Arial",
@@ -125,7 +129,7 @@
 										"appversion" : 										{
 											"major" : 7,
 											"minor" : 0,
-											"revision" : 0,
+											"revision" : 1,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -139,6 +143,7 @@
 										"gridonopen" : 1,
 										"gridsize" : [ 15.0, 15.0 ],
 										"gridsnaponopen" : 1,
+										"objectsnaponopen" : 1,
 										"statusbarvisible" : 2,
 										"toolbarvisible" : 1,
 										"lefttoolbarpinned" : 0,
@@ -155,6 +160,7 @@
 										"digest" : "",
 										"tags" : "",
 										"style" : "",
+										"subpatcher_template" : "",
 										"boxes" : [ 											{
 												"box" : 												{
 													"fontname" : "Arial",
@@ -514,7 +520,7 @@
 										"appversion" : 										{
 											"major" : 7,
 											"minor" : 0,
-											"revision" : 0,
+											"revision" : 1,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -528,6 +534,7 @@
 										"gridonopen" : 1,
 										"gridsize" : [ 15.0, 15.0 ],
 										"gridsnaponopen" : 1,
+										"objectsnaponopen" : 1,
 										"statusbarvisible" : 2,
 										"toolbarvisible" : 1,
 										"lefttoolbarpinned" : 0,
@@ -544,6 +551,7 @@
 										"digest" : "",
 										"tags" : "",
 										"style" : "",
+										"subpatcher_template" : "",
 										"boxes" : [ 											{
 												"box" : 												{
 													"fontname" : "Arial Bold",
@@ -1472,7 +1480,7 @@
 ,
 									"style" : "",
 									"text" : "autopattr",
-									"varname" : "u998001669"
+									"varname" : "u091005658"
 								}
 
 							}
@@ -2159,7 +2167,7 @@
 					}
 ,
 					"patching_rect" : [ 0.0, 0.0, 244.0, 116.0 ],
-					"varname" : "LFO",
+					"varname" : "DFLFO",
 					"viewvisibility" : 1
 				}
 
@@ -2168,12 +2176,12 @@
 		"lines" : [  ],
 		"parameters" : 		{
 			"obj-18::obj-30" : [ "Shape", "Shape", 0 ],
-			"obj-18::obj-16" : [ "Fade", "Fade", 0 ],
-			"obj-18::obj-12" : [ "Mute", "Mute", 0 ],
-			"obj-18::obj-14" : [ "FadeInOut", "FadeInOut", 0 ],
 			"obj-18::obj-45" : [ "Sync", "Sync", 0 ],
-			"obj-18::obj-25" : [ "Delay", "Delay", 0 ],
 			"obj-18::obj-20" : [ "Frequency", "Freq", 0 ],
+			"obj-18::obj-12" : [ "Mute", "Mute", 0 ],
+			"obj-18::obj-25" : [ "Delay", "Delay", 0 ],
+			"obj-18::obj-14" : [ "FadeInOut", "FadeInOut", 0 ],
+			"obj-18::obj-16" : [ "Fade", "Fade", 0 ],
 			"obj-18::obj-122" : [ "SyncPhase", "SyncPhase", 0 ]
 		}
 ,

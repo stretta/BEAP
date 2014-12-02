@@ -4,12 +4,12 @@
 		"appversion" : 		{
 			"major" : 7,
 			"minor" : 0,
-			"revision" : 0,
+			"revision" : 1,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 34.0, 78.0, 1212.0, 645.0 ],
+		"rect" : [ 34.0, 78.0, 862.0, 645.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -56,7 +56,7 @@
 						"appversion" : 						{
 							"major" : 7,
 							"minor" : 0,
-							"revision" : 0,
+							"revision" : 1,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -131,7 +131,7 @@
 										"appversion" : 										{
 											"major" : 7,
 											"minor" : 0,
-											"revision" : 0,
+											"revision" : 1,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -1357,9 +1357,8 @@
 									"presentation" : 1,
 									"presentation_rect" : [ 51.500061, 56.0, 55.0, 18.0 ],
 									"style" : "",
-									"text" : "0 2 47",
-									"textcolor" : [ 0.278431, 0.839216, 1.0, 1.0 ],
-									"textjustification" : 0
+									"text" : "0 1 96",
+									"textcolor" : [ 0.278431, 0.839216, 1.0, 1.0 ]
 								}
 
 							}
@@ -1557,7 +1556,7 @@
 								"box" : 								{
 									"id" : "obj-48",
 									"maxclass" : "jit.pwindow",
-									"name" : "1113_display",
+									"name" : "1257_display",
 									"numinlets" : 1,
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
@@ -1575,8 +1574,6 @@
 									"bgfillcolor_color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
 									"bgfillcolor_proportion" : 0.39,
 									"bgfillcolor_type" : "color",
-									"fontface" : 0,
-									"fontname" : "Arial",
 									"fontsize" : 10.0,
 									"hint" : "Waveform shape",
 									"id" : "obj-44",
@@ -1623,7 +1620,7 @@
 										"appversion" : 										{
 											"major" : 7,
 											"minor" : 0,
-											"revision" : 0,
+											"revision" : 1,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -2059,8 +2056,6 @@
 									"bgfillcolor_color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
 									"bgfillcolor_proportion" : 0.39,
 									"bgfillcolor_type" : "color",
-									"fontface" : 0,
-									"fontname" : "Arial",
 									"fontsize" : 10.0,
 									"hint" : "Sample and hold",
 									"id" : "obj-64",
@@ -2768,7 +2763,7 @@
 										"appversion" : 										{
 											"major" : 7,
 											"minor" : 0,
-											"revision" : 0,
+											"revision" : 1,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -3794,6 +3789,7 @@
 					}
 ,
 					"patching_rect" : [ 0.0, 0.0, 422.0, 116.0 ],
+					"varname" : "GLLFO",
 					"viewvisibility" : 1
 				}
 
@@ -3801,18 +3797,18 @@
  ],
 		"lines" : [  ],
 		"parameters" : 		{
-			"obj-12::obj-20" : [ "Frequency", "Freq", 0 ],
-			"obj-12::obj-45::obj-2" : [ "pastebang", "pastebang", 0 ],
-			"obj-12::obj-19" : [ "Bias", "Bias", 0 ],
-			"obj-12::obj-7" : [ "Phase", "Phase", 0 ],
-			"obj-12::obj-23::obj-2" : [ "pastebang[1]", "pastebang", 0 ],
-			"obj-12::obj-18" : [ "Scale", "Scale", 0 ],
 			"obj-12::obj-44" : [ "Shape", "Shape", 0 ],
-			"obj-12::obj-12" : [ "Mute", "Mute", 0 ],
+			"obj-12::obj-7" : [ "Phase", "Phase", 0 ],
+			"obj-12::obj-19" : [ "Bias", "Bias", 0 ],
+			"obj-12::obj-18" : [ "Scale", "Scale", 0 ],
+			"obj-12::obj-45::obj-2" : [ "pastebang", "pastebang", 0 ],
 			"obj-12::obj-64" : [ "Pulse", "Pulse", 0 ],
-			"obj-12::obj-129" : [ "Rate_ms", "Rate_ms", 0 ],
+			"obj-12::obj-20" : [ "Frequency", "Freq", 0 ],
+			"obj-12::obj-12" : [ "Mute", "Mute", 0 ],
+			"obj-12::obj-59" : [ "Lock", "Lock", 0 ],
+			"obj-12::obj-23::obj-2" : [ "pastebang[1]", "pastebang", 0 ],
 			"obj-12::obj-4" : [ "Follow", "Follow", 0 ],
-			"obj-12::obj-59" : [ "Lock", "Lock", 0 ]
+			"obj-12::obj-129" : [ "Rate_ms", "Rate_ms", 0 ]
 		}
 ,
 		"dependency_cache" : [ 			{
@@ -3824,8 +3820,8 @@
 			}
 , 			{
 				"name" : "pastebang.maxpat",
-				"bootpath" : "~/Documents/Beap/misc",
-				"patcherrelativepath" : "../../../misc",
+				"bootpath" : "/Applications/Max.app/Contents/Resources/C74/packages/Beap/misc",
+				"patcherrelativepath" : "../../../../../../../Applications/Max.app/Contents/Resources/C74/packages/Beap/misc",
 				"type" : "JSON",
 				"implicit" : 1
 			}

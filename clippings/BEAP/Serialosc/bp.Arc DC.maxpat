@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 7,
 			"minor" : 0,
-			"revision" : 0,
+			"revision" : 1,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
@@ -35,6 +35,7 @@
 		"digest" : "",
 		"tags" : "",
 		"style" : "",
+		"subpatcher_template" : "",
 		"boxes" : [ 			{
 				"box" : 				{
 					"bgmode" : 0,
@@ -55,7 +56,7 @@
 						"appversion" : 						{
 							"major" : 7,
 							"minor" : 0,
-							"revision" : 0,
+							"revision" : 1,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -87,6 +88,7 @@
 						"digest" : "",
 						"tags" : "",
 						"style" : "",
+						"subpatcher_template" : "",
 						"boxes" : [ 							{
 								"box" : 								{
 									"bgcolor" : [ 0.913022, 0.913022, 0.913022, 0.0 ],
@@ -134,7 +136,7 @@
 ,
 									"style" : "",
 									"text" : "autopattr",
-									"varname" : "u441001578"
+									"varname" : "u853004362"
 								}
 
 							}
@@ -882,7 +884,7 @@
 					}
 ,
 					"patching_rect" : [ 0.0, 0.0, 106.0, 116.0 ],
-					"varname" : "ArcEncoder",
+					"varname" : "ArcDC",
 					"viewvisibility" : 1
 				}
 
@@ -890,15 +892,15 @@
  ],
 		"lines" : [  ],
 		"parameters" : 		{
-			"obj-10::obj-12" : [ "Mute[1]", "Mute", 0 ],
 			"obj-10::obj-32" : [ "live.tab", "live.tab", 0 ],
-			"obj-10::obj-129" : [ "Resolution", "Resolution", 0 ]
+			"obj-10::obj-129" : [ "Resolution", "Resolution", 0 ],
+			"obj-10::obj-12" : [ "Mute[1]", "Mute", 0 ]
 		}
 ,
 		"dependency_cache" : [ 			{
 				"name" : "background_sm.maxpat",
-				"bootpath" : "~/Documents/Beap/misc",
-				"patcherrelativepath" : "../../../misc",
+				"bootpath" : "/Applications/Max.app/Contents/Resources/C74/packages/Beap/misc",
+				"patcherrelativepath" : "../../../../../../../Applications/Max.app/Contents/Resources/C74/packages/Beap/misc",
 				"type" : "JSON",
 				"implicit" : 1
 			}

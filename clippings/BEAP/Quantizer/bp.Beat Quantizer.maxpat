@@ -4,12 +4,12 @@
 		"appversion" : 		{
 			"major" : 7,
 			"minor" : 0,
-			"revision" : 0,
+			"revision" : 1,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 34.0, 78.0, 1212.0, 641.0 ],
+		"rect" : [ 34.0, 78.0, 862.0, 641.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -35,6 +35,7 @@
 		"digest" : "",
 		"tags" : "",
 		"style" : "",
+		"subpatcher_template" : "",
 		"boxes" : [ 			{
 				"box" : 				{
 					"bgmode" : 0,
@@ -55,12 +56,12 @@
 						"appversion" : 						{
 							"major" : 7,
 							"minor" : 0,
-							"revision" : 0,
+							"revision" : 1,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
 ,
-						"rect" : [ 33.0, 78.0, 113.0, 116.0 ],
+						"rect" : [ 34.0, 78.0, 113.0, 116.0 ],
 						"bgcolor" : [ 1.0, 1.0, 1.0, 0.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 1,
@@ -87,6 +88,7 @@
 						"digest" : "",
 						"tags" : "",
 						"style" : "",
+						"subpatcher_template" : "",
 						"boxes" : [ 							{
 								"box" : 								{
 									"id" : "obj-3",
@@ -352,8 +354,6 @@
 									"bgfillcolor_color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
 									"bgfillcolor_proportion" : 0.39,
 									"bgfillcolor_type" : "color",
-									"fontface" : 0,
-									"fontname" : "Arial",
 									"fontsize" : 10.0,
 									"id" : "obj-34",
 									"items" : [ "32.0.0", ",", "16.0.0", ",", "8.0.0", ",", "4.0.0", ",", "2.0.0", ",", "1.0.0", ",", "1nd", ",", "1n", ",", "1nt", ",", "2nd", ",", "2n", ",", "4nd", ",", "4n", ",", "4nt", ",", "8nd", ",", "8n", ",", "8nt", ",", "16nd", ",", "16n", ",", "16nt", ",", "32nd", ",", "32n", ",", "32nt", ",", "64nd", ",", "64n", ",", "128n" ],
@@ -461,7 +461,7 @@
 ,
 									"style" : "",
 									"text" : "autopattr",
-									"varname" : "u759006091"
+									"varname" : "u978001753"
 								}
 
 							}
@@ -767,7 +767,7 @@
 					}
 ,
 					"patching_rect" : [ -1.0, 0.0, 113.0, 116.0 ],
-					"varname" : "MetricQuantizer[3]",
+					"varname" : "BeatQuantizer",
 					"viewvisibility" : 1
 				}
 
@@ -776,9 +776,9 @@
 		"lines" : [  ],
 		"parameters" : 		{
 			"obj-13::obj-11" : [ "gateled", "led", 0 ],
-			"obj-13::obj-1" : [ "bypass", "bypass", 0 ],
 			"obj-13::obj-34" : [ "Pulse", "Pulse", 0 ],
-			"obj-13::obj-27" : [ "beatled", "led", 0 ]
+			"obj-13::obj-27" : [ "beatled", "led", 0 ],
+			"obj-13::obj-1" : [ "bypass", "bypass", 0 ]
 		}
 ,
 		"dependency_cache" : [  ],

@@ -4,12 +4,12 @@
 		"appversion" : 		{
 			"major" : 7,
 			"minor" : 0,
-			"revision" : 0,
+			"revision" : 1,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 34.0, 78.0, 1170.0, 688.0 ],
+		"rect" : [ 34.0, 78.0, 862.0, 645.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -35,6 +35,7 @@
 		"digest" : "",
 		"tags" : "",
 		"style" : "",
+		"subpatcher_template" : "",
 		"boxes" : [ 			{
 				"box" : 				{
 					"bgmode" : 0,
@@ -54,7 +55,7 @@
 						"appversion" : 						{
 							"major" : 7,
 							"minor" : 0,
-							"revision" : 0,
+							"revision" : 1,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -86,6 +87,7 @@
 						"digest" : "",
 						"tags" : "",
 						"style" : "",
+						"subpatcher_template" : "",
 						"boxes" : [ 							{
 								"box" : 								{
 									"id" : "obj-5",
@@ -300,7 +302,8 @@
 									"numoutlets" : 0,
 									"patching_rect" : [ 171.83252, 1013.327881, 67.0, 17.0 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 334.901306, 45.265213, 67.0, 17.0 ],
+									"presentation_linecount" : 2,
+									"presentation_rect" : [ 334.901306, 45.265213, 57.0, 27.0 ],
 									"style" : "",
 									"text" : "1v/oct output",
 									"textcolor" : [ 1.0, 1.0, 1.0, 0.6 ]
@@ -1007,7 +1010,7 @@
 ,
 									"style" : "",
 									"text" : "autopattr",
-									"varname" : "u166005837"
+									"varname" : "u043001522"
 								}
 
 							}
@@ -1556,8 +1559,8 @@
 		"lines" : [  ],
 		"parameters" : 		{
 			"obj-3::obj-22" : [ "offest", "offset", 0 ],
-			"obj-3::obj-2" : [ "stealth_init", "stealth_init", 0 ],
-			"obj-3::obj-54" : [ "mute", "mute", 0 ]
+			"obj-3::obj-54" : [ "mute", "mute", 0 ],
+			"obj-3::obj-2" : [ "stealth_init", "stealth_init", 0 ]
 		}
 ,
 		"dependency_cache" : [  ],

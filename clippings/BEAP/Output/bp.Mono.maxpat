@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 7,
 			"minor" : 0,
-			"revision" : 0,
+			"revision" : 1,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
@@ -35,6 +35,7 @@
 		"digest" : "",
 		"tags" : "",
 		"style" : "",
+		"subpatcher_template" : "",
 		"boxes" : [ 			{
 				"box" : 				{
 					"bgmode" : 0,
@@ -54,7 +55,7 @@
 						"appversion" : 						{
 							"major" : 7,
 							"minor" : 0,
-							"revision" : 0,
+							"revision" : 1,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -86,6 +87,7 @@
 						"digest" : "",
 						"tags" : "",
 						"style" : "",
+						"subpatcher_template" : "",
 						"boxes" : [ 							{
 								"box" : 								{
 									"fontname" : "Arial Bold",
@@ -330,7 +332,7 @@
 ,
 									"style" : "",
 									"text" : "autopattr",
-									"varname" : "u000002190"
+									"varname" : "u428001407"
 								}
 
 							}
@@ -555,7 +557,7 @@
 					}
 ,
 					"patching_rect" : [ 0.0, 0.0, 52.0, 116.0 ],
-					"varname" : "Output",
+					"varname" : "MonoOutput",
 					"viewvisibility" : 1
 				}
 
@@ -563,8 +565,8 @@
  ],
 		"lines" : [  ],
 		"parameters" : 		{
-			"obj-9::obj-46" : [ "Channel", "Channel", 0 ],
-			"obj-9::obj-20" : [ "mute", "mute", 0 ]
+			"obj-9::obj-20" : [ "mute", "mute", 0 ],
+			"obj-9::obj-46" : [ "Channel", "Channel", 0 ]
 		}
 ,
 		"dependency_cache" : [  ],

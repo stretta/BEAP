@@ -4,12 +4,12 @@
 		"appversion" : 		{
 			"major" : 7,
 			"minor" : 0,
-			"revision" : 0,
+			"revision" : 1,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 34.0, 78.0, 1212.0, 641.0 ],
+		"rect" : [ 34.0, 78.0, 862.0, 641.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -18,6 +18,7 @@
 		"gridonopen" : 1,
 		"gridsize" : [ 15.0, 15.0 ],
 		"gridsnaponopen" : 1,
+		"objectsnaponopen" : 1,
 		"statusbarvisible" : 2,
 		"toolbarvisible" : 1,
 		"lefttoolbarpinned" : 0,
@@ -34,6 +35,7 @@
 		"digest" : "",
 		"tags" : "",
 		"style" : "",
+		"subpatcher_template" : "",
 		"boxes" : [ 			{
 				"box" : 				{
 					"bgmode" : 0,
@@ -54,7 +56,7 @@
 						"appversion" : 						{
 							"major" : 7,
 							"minor" : 0,
-							"revision" : 0,
+							"revision" : 1,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -69,6 +71,7 @@
 						"gridonopen" : 1,
 						"gridsize" : [ 15.0, 15.0 ],
 						"gridsnaponopen" : 1,
+						"objectsnaponopen" : 1,
 						"statusbarvisible" : 1,
 						"toolbarvisible" : 1,
 						"lefttoolbarpinned" : 0,
@@ -85,6 +88,7 @@
 						"digest" : "",
 						"tags" : "",
 						"style" : "",
+						"subpatcher_template" : "",
 						"boxes" : [ 							{
 								"box" : 								{
 									"id" : "obj-16",
@@ -140,7 +144,7 @@
 										"appversion" : 										{
 											"major" : 7,
 											"minor" : 0,
-											"revision" : 0,
+											"revision" : 1,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -154,6 +158,7 @@
 										"gridonopen" : 1,
 										"gridsize" : [ 15.0, 15.0 ],
 										"gridsnaponopen" : 1,
+										"objectsnaponopen" : 1,
 										"statusbarvisible" : 2,
 										"toolbarvisible" : 1,
 										"lefttoolbarpinned" : 0,
@@ -170,6 +175,7 @@
 										"digest" : "",
 										"tags" : "",
 										"style" : "",
+										"subpatcher_template" : "",
 										"boxes" : [ 											{
 												"box" : 												{
 													"fontname" : "Arial",
@@ -445,7 +451,7 @@
 										"appversion" : 										{
 											"major" : 7,
 											"minor" : 0,
-											"revision" : 0,
+											"revision" : 1,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -459,6 +465,7 @@
 										"gridonopen" : 2,
 										"gridsize" : [ 8.0, 8.0 ],
 										"gridsnaponopen" : 1,
+										"objectsnaponopen" : 1,
 										"statusbarvisible" : 1,
 										"toolbarvisible" : 1,
 										"lefttoolbarpinned" : 0,
@@ -475,6 +482,7 @@
 										"digest" : "",
 										"tags" : "",
 										"style" : "",
+										"subpatcher_template" : "",
 										"boxes" : [ 											{
 												"box" : 												{
 													"id" : "obj-5",
@@ -1787,7 +1795,7 @@
 ,
 									"style" : "",
 									"text" : "autopattr",
-									"varname" : "u709001426"
+									"varname" : "u798003832"
 								}
 
 							}
@@ -2357,7 +2365,7 @@
 					}
 ,
 					"patching_rect" : [ 0.0, 0.0, 250.0, 116.0 ],
-					"varname" : "Ladder",
+					"varname" : "DiodeLadder",
 					"viewvisibility" : 1
 				}
 
@@ -2365,27 +2373,27 @@
  ],
 		"lines" : [  ],
 		"parameters" : 		{
-			"obj-73::obj-55" : [ "power", "power", 0 ],
-			"obj-73::obj-22" : [ "TimeMode", "TimeMode", 1 ],
-			"obj-73::obj-63" : [ "CV3", "CV3", 0 ],
-			"obj-73::obj-4" : [ "Offset", "Offset", 0 ],
 			"obj-73::obj-54" : [ "CV1", "CV1", 0 ],
+			"obj-73::obj-4" : [ "Offset", "Offset", 0 ],
 			"obj-73::obj-28" : [ "Res", "Res", 0 ],
-			"obj-73::obj-20" : [ "Freq", "Freq", 0 ],
-			"obj-73::obj-23" : [ "CV2", "CV2", 0 ]
+			"obj-73::obj-63" : [ "CV3", "CV3", 0 ],
+			"obj-73::obj-22" : [ "TimeMode", "TimeMode", 1 ],
+			"obj-73::obj-23" : [ "CV2", "CV2", 0 ],
+			"obj-73::obj-55" : [ "power", "power", 0 ],
+			"obj-73::obj-20" : [ "Freq", "Freq", 0 ]
 		}
 ,
 		"dependency_cache" : [ 			{
 				"name" : "bp.diodeladder.poly.maxpat",
-				"bootpath" : "/Applications/Max 7/Max.app/Contents/Resources/C74/packages/Beap/misc",
-				"patcherrelativepath" : "../../../../../../../Applications/Max 7/Max.app/Contents/Resources/C74/packages/Beap/misc",
+				"bootpath" : "/Applications/Max.app/Contents/Resources/C74/packages/Beap/misc",
+				"patcherrelativepath" : "../../../../../../../Applications/Max.app/Contents/Resources/C74/packages/Beap/misc",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "0df_diodeladder.gendsp",
-				"bootpath" : "/Applications/Max 7/Max.app/Contents/Resources/C74/packages/Beap/misc",
-				"patcherrelativepath" : "../../../../../../../Applications/Max 7/Max.app/Contents/Resources/C74/packages/Beap/misc",
+				"bootpath" : "/Applications/Max.app/Contents/Resources/C74/packages/Beap/misc",
+				"patcherrelativepath" : "../../../../../../../Applications/Max.app/Contents/Resources/C74/packages/Beap/misc",
 				"type" : "gDSP",
 				"implicit" : 1
 			}

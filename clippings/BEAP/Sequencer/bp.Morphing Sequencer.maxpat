@@ -4,12 +4,12 @@
 		"appversion" : 		{
 			"major" : 7,
 			"minor" : 0,
-			"revision" : 0,
+			"revision" : 1,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 34.0, 78.0, 1212.0, 641.0 ],
+		"rect" : [ 34.0, 78.0, 862.0, 641.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -18,6 +18,7 @@
 		"gridonopen" : 1,
 		"gridsize" : [ 15.0, 15.0 ],
 		"gridsnaponopen" : 1,
+		"objectsnaponopen" : 1,
 		"statusbarvisible" : 1,
 		"toolbarvisible" : 1,
 		"lefttoolbarpinned" : 0,
@@ -34,6 +35,7 @@
 		"digest" : "",
 		"tags" : "",
 		"style" : "",
+		"subpatcher_template" : "",
 		"boxes" : [ 			{
 				"box" : 				{
 					"bgmode" : 0,
@@ -54,7 +56,7 @@
 						"appversion" : 						{
 							"major" : 7,
 							"minor" : 0,
-							"revision" : 0,
+							"revision" : 1,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -69,6 +71,7 @@
 						"gridonopen" : 1,
 						"gridsize" : [ 15.0, 15.0 ],
 						"gridsnaponopen" : 1,
+						"objectsnaponopen" : 1,
 						"statusbarvisible" : 1,
 						"toolbarvisible" : 1,
 						"lefttoolbarpinned" : 0,
@@ -85,6 +88,7 @@
 						"digest" : "",
 						"tags" : "",
 						"style" : "",
+						"subpatcher_template" : "",
 						"boxes" : [ 							{
 								"box" : 								{
 									"id" : "obj-11",
@@ -947,7 +951,7 @@
 										"appversion" : 										{
 											"major" : 7,
 											"minor" : 0,
-											"revision" : 0,
+											"revision" : 1,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -961,6 +965,7 @@
 										"gridonopen" : 1,
 										"gridsize" : [ 15.0, 15.0 ],
 										"gridsnaponopen" : 1,
+										"objectsnaponopen" : 1,
 										"statusbarvisible" : 1,
 										"toolbarvisible" : 1,
 										"lefttoolbarpinned" : 0,
@@ -977,6 +982,7 @@
 										"digest" : "",
 										"tags" : "",
 										"style" : "",
+										"subpatcher_template" : "",
 										"boxes" : [ 											{
 												"box" : 												{
 													"comment" : "",
@@ -2081,7 +2087,7 @@
 										"appversion" : 										{
 											"major" : 7,
 											"minor" : 0,
-											"revision" : 0,
+											"revision" : 1,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -2095,6 +2101,7 @@
 										"gridonopen" : 1,
 										"gridsize" : [ 15.0, 15.0 ],
 										"gridsnaponopen" : 1,
+										"objectsnaponopen" : 1,
 										"statusbarvisible" : 1,
 										"toolbarvisible" : 1,
 										"lefttoolbarpinned" : 0,
@@ -2111,6 +2118,7 @@
 										"digest" : "",
 										"tags" : "",
 										"style" : "",
+										"subpatcher_template" : "",
 										"boxes" : [ 											{
 												"box" : 												{
 													"fontname" : "Arial Bold",
@@ -2779,7 +2787,7 @@
 									"patching_rect" : [ 42.082153, 146.124985, 58.0, 22.0 ],
 									"restore" : 									{
 										"ClockSelect" : [ 0.0 ],
-										"CurrentStep" : [ 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0 ],
+										"CurrentStep" : [ 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0 ],
 										"EditMode" : [ 1.0 ],
 										"LoopEnd" : [ 16.0 ],
 										"LoopStart" : [ 4.0 ],
@@ -2800,7 +2808,7 @@
 ,
 									"style" : "",
 									"text" : "autopattr",
-									"varname" : "u532001404"
+									"varname" : "u833003319"
 								}
 
 							}
@@ -3459,7 +3467,7 @@
 					}
 ,
 					"patching_rect" : [ 0.0, 0.0, 445.0, 116.0 ],
-					"varname" : "Oscillator",
+					"varname" : "MorphingSequencer",
 					"viewvisibility" : 1
 				}
 
@@ -3467,24 +3475,24 @@
  ],
 		"lines" : [  ],
 		"parameters" : 		{
+			"obj-18::obj-157" : [ "Swing enable", "Swing enable", 0 ],
+			"obj-18::obj-20" : [ "mute", "mute", 0 ],
 			"obj-18::obj-28" : [ "Sync", "Sync", 0 ],
+			"obj-18::obj-96" : [ "Pulse", "Pulse", 0 ],
+			"obj-18::obj-30" : [ "LoopEnd", "LoopEnd", 0 ],
+			"obj-18::obj-89" : [ "Reset", "Reset", 0 ],
 			"obj-18::obj-80" : [ "EditMode", "EditMode", 0 ],
 			"obj-18::obj-8" : [ "dict", "dict", -1 ],
 			"obj-18::obj-29" : [ "LoopStart", "LoopStart", 0 ],
-			"obj-18::obj-120" : [ "Max pulse", "Max pulse", 0 ],
-			"obj-18::obj-20" : [ "mute", "mute", 0 ],
-			"obj-18::obj-157" : [ "Swing enable", "Swing enable", 0 ],
 			"obj-18::obj-155" : [ "Swing amount", "Swing amount", 0 ],
-			"obj-18::obj-96" : [ "Pulse", "Pulse", 0 ],
-			"obj-18::obj-89" : [ "Reset", "Reset", 0 ],
-			"obj-18::obj-30" : [ "LoopEnd", "LoopEnd", 0 ],
-			"obj-18::obj-139" : [ "ClockSelect", "ClockSelect", 0 ]
+			"obj-18::obj-139" : [ "ClockSelect", "ClockSelect", 0 ],
+			"obj-18::obj-120" : [ "Max pulse", "Max pulse", 0 ]
 		}
 ,
 		"dependency_cache" : [ 			{
 				"name" : "swingCalc.js",
-				"bootpath" : "/Applications/Max 7/Max.app/Contents/Resources/C74/packages/Beap/misc",
-				"patcherrelativepath" : "../../../../../../../Applications/Max 7/Max.app/Contents/Resources/C74/packages/Beap/misc",
+				"bootpath" : "/Applications/Max.app/Contents/Resources/C74/packages/Beap/misc",
+				"patcherrelativepath" : "../../../../../../../Applications/Max.app/Contents/Resources/C74/packages/Beap/misc",
 				"type" : "TEXT",
 				"implicit" : 1
 			}

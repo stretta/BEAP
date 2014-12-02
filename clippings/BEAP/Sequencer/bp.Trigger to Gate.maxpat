@@ -4,12 +4,12 @@
 		"appversion" : 		{
 			"major" : 7,
 			"minor" : 0,
-			"revision" : 0,
+			"revision" : 1,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 34.0, 78.0, 1212.0, 641.0 ],
+		"rect" : [ 34.0, 78.0, 862.0, 641.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -35,6 +35,7 @@
 		"digest" : "",
 		"tags" : "",
 		"style" : "",
+		"subpatcher_template" : "",
 		"boxes" : [ 			{
 				"box" : 				{
 					"bgmode" : 0,
@@ -55,7 +56,7 @@
 						"appversion" : 						{
 							"major" : 7,
 							"minor" : 0,
-							"revision" : 0,
+							"revision" : 1,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -87,6 +88,7 @@
 						"digest" : "",
 						"tags" : "",
 						"style" : "",
+						"subpatcher_template" : "",
 						"boxes" : [ 							{
 								"box" : 								{
 									"id" : "obj-5",
@@ -271,7 +273,7 @@
 										"appversion" : 										{
 											"major" : 7,
 											"minor" : 0,
-											"revision" : 0,
+											"revision" : 1,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -304,6 +306,7 @@
 										"digest" : "",
 										"tags" : "",
 										"style" : "",
+										"subpatcher_template" : "",
 										"boxes" : [ 											{
 												"box" : 												{
 													"fontname" : "Arial Bold",
@@ -1216,7 +1219,7 @@
 ,
 									"style" : "",
 									"text" : "autopattr",
-									"varname" : "u506000292"
+									"varname" : "u810004228"
 								}
 
 							}
@@ -1594,7 +1597,7 @@
 					}
 ,
 					"patching_rect" : [ 0.0, 0.0, 110.0, 116.0 ],
-					"varname" : "GateToTrigger",
+					"varname" : "TriggerToGate",
 					"viewvisibility" : 1
 				}
 
@@ -1602,15 +1605,15 @@
  ],
 		"lines" : [  ],
 		"parameters" : 		{
+			"obj-10::obj-40" : [ "live.tab", "live.tab", 0 ],
 			"obj-10::obj-28" : [ "Duration", "Duration", 0 ],
-			"obj-10::obj-11" : [ "bypass", "bypass", 0 ],
-			"obj-10::obj-40" : [ "live.tab", "live.tab", 0 ]
+			"obj-10::obj-11" : [ "bypass", "bypass", 0 ]
 		}
 ,
 		"dependency_cache" : [ 			{
 				"name" : "background_sm.maxpat",
-				"bootpath" : "~/Documents/Beap/misc",
-				"patcherrelativepath" : "../../../misc",
+				"bootpath" : "/Applications/Max.app/Contents/Resources/C74/packages/Beap/misc",
+				"patcherrelativepath" : "../../../../../../../Applications/Max.app/Contents/Resources/C74/packages/Beap/misc",
 				"type" : "JSON",
 				"implicit" : 1
 			}

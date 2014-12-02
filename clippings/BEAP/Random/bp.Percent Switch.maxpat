@@ -4,12 +4,12 @@
 		"appversion" : 		{
 			"major" : 7,
 			"minor" : 0,
-			"revision" : 0,
+			"revision" : 1,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 34.0, 78.0, 1212.0, 641.0 ],
+		"rect" : [ 34.0, 78.0, 862.0, 641.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 10.0,
@@ -35,6 +35,7 @@
 		"digest" : "",
 		"tags" : "",
 		"style" : "",
+		"subpatcher_template" : "",
 		"boxes" : [ 			{
 				"box" : 				{
 					"bgmode" : 0,
@@ -56,7 +57,7 @@
 						"appversion" : 						{
 							"major" : 7,
 							"minor" : 0,
-							"revision" : 0,
+							"revision" : 1,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -88,6 +89,7 @@
 						"digest" : "",
 						"tags" : "",
 						"style" : "",
+						"subpatcher_template" : "",
 						"boxes" : [ 							{
 								"box" : 								{
 									"id" : "obj-7",
@@ -263,7 +265,7 @@
 										"appversion" : 										{
 											"major" : 7,
 											"minor" : 0,
-											"revision" : 0,
+											"revision" : 1,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -294,6 +296,7 @@
 										"digest" : "",
 										"tags" : "",
 										"style" : "",
+										"subpatcher_template" : "",
 										"boxes" : [ 											{
 												"box" : 												{
 													"fontname" : "Arial Bold",
@@ -700,7 +703,7 @@
 										"appversion" : 										{
 											"major" : 7,
 											"minor" : 0,
-											"revision" : 0,
+											"revision" : 1,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -731,6 +734,7 @@
 										"digest" : "",
 										"tags" : "",
 										"style" : "",
+										"subpatcher_template" : "",
 										"boxes" : [ 											{
 												"box" : 												{
 													"fontname" : "Arial",
@@ -857,7 +861,7 @@
 										"appversion" : 										{
 											"major" : 7,
 											"minor" : 0,
-											"revision" : 0,
+											"revision" : 1,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -888,6 +892,7 @@
 										"digest" : "",
 										"tags" : "",
 										"style" : "",
+										"subpatcher_template" : "",
 										"boxes" : [ 											{
 												"box" : 												{
 													"fontname" : "Arial",
@@ -1448,7 +1453,7 @@
 ,
 									"style" : "",
 									"text" : "autopattr",
-									"varname" : "u320000832"
+									"varname" : "u540002238"
 								}
 
 							}
@@ -1838,7 +1843,7 @@
 					}
 ,
 					"patching_rect" : [ 0.0, 0.0, 153.0, 116.0 ],
-					"varname" : "AR[1]",
+					"varname" : "PercentSwitch",
 					"viewvisibility" : 1
 				}
 
@@ -1846,12 +1851,12 @@
  ],
 		"lines" : [  ],
 		"parameters" : 		{
-			"obj-19::obj-23" : [ "trigaoutled", "trigaoutled", 0 ],
-			"obj-19::obj-45" : [ "PercentB", "Percent B", 0 ],
-			"obj-19::obj-29" : [ "trigboutled", "trigboutled", 0 ],
-			"obj-19::obj-20" : [ "bypass", "bypass", 0 ],
 			"obj-19::obj-189" : [ "triginled", "triginled", 0 ],
-			"obj-19::obj-86" : [ "CV Amt", "Amt", 0 ]
+			"obj-19::obj-86" : [ "CV Amt", "Amt", 0 ],
+			"obj-19::obj-23" : [ "trigaoutled", "trigaoutled", 0 ],
+			"obj-19::obj-29" : [ "trigboutled", "trigboutled", 0 ],
+			"obj-19::obj-45" : [ "PercentB", "Percent B", 0 ],
+			"obj-19::obj-20" : [ "bypass", "bypass", 0 ]
 		}
 ,
 		"dependency_cache" : [  ],

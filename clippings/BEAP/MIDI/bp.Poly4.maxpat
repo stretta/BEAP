@@ -4,12 +4,12 @@
 		"appversion" : 		{
 			"major" : 7,
 			"minor" : 0,
-			"revision" : 0,
+			"revision" : 1,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 34.0, 78.0, 1212.0, 641.0 ],
+		"rect" : [ 34.0, 78.0, 862.0, 641.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -35,6 +35,7 @@
 		"digest" : "",
 		"tags" : "",
 		"style" : "",
+		"subpatcher_template" : "",
 		"boxes" : [ 			{
 				"box" : 				{
 					"bgmode" : 0,
@@ -55,7 +56,7 @@
 						"appversion" : 						{
 							"major" : 7,
 							"minor" : 0,
-							"revision" : 0,
+							"revision" : 1,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -87,6 +88,7 @@
 						"digest" : "",
 						"tags" : "",
 						"style" : "",
+						"subpatcher_template" : "",
 						"boxes" : [ 							{
 								"box" : 								{
 									"id" : "obj-6",
@@ -651,7 +653,7 @@
 ,
 									"style" : "",
 									"text" : "autopattr",
-									"varname" : "u413001858"
+									"varname" : "u848008233"
 								}
 
 							}
@@ -951,7 +953,7 @@
 					}
 ,
 					"patching_rect" : [ 0.0, 0.0, 108.0, 116.0 ],
-					"varname" : "Transpose",
+					"varname" : "Poly4",
 					"viewvisibility" : 1
 				}
 
@@ -959,12 +961,12 @@
  ],
 		"lines" : [  ],
 		"parameters" : 		{
-			"obj-12::obj-3" : [ "input_led", "input_led", 0 ],
-			"obj-12::obj-34" : [ "output_led_3", "output_led_3", 0 ],
-			"obj-12::obj-22" : [ "output_led_1", "output_led_1", 0 ],
-			"obj-12::obj-35" : [ "output_led_4", "output_led_4", 0 ],
 			"obj-12::obj-33" : [ "output_led_2", "output_led_2", 0 ],
-			"obj-12::obj-29" : [ "bypass", "bypass", 0 ]
+			"obj-12::obj-34" : [ "output_led_3", "output_led_3", 0 ],
+			"obj-12::obj-29" : [ "bypass", "bypass", 0 ],
+			"obj-12::obj-22" : [ "output_led_1", "output_led_1", 0 ],
+			"obj-12::obj-3" : [ "input_led", "input_led", 0 ],
+			"obj-12::obj-35" : [ "output_led_4", "output_led_4", 0 ]
 		}
 ,
 		"dependency_cache" : [  ],

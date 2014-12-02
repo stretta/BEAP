@@ -4,12 +4,12 @@
 		"appversion" : 		{
 			"major" : 7,
 			"minor" : 0,
-			"revision" : 0,
+			"revision" : 1,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 34.0, 78.0, 1212.0, 641.0 ],
+		"rect" : [ 34.0, 78.0, 862.0, 641.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -35,6 +35,7 @@
 		"digest" : "",
 		"tags" : "",
 		"style" : "",
+		"subpatcher_template" : "",
 		"boxes" : [ 			{
 				"box" : 				{
 					"bgmode" : 0,
@@ -55,7 +56,7 @@
 						"appversion" : 						{
 							"major" : 7,
 							"minor" : 0,
-							"revision" : 0,
+							"revision" : 1,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -87,6 +88,7 @@
 						"digest" : "",
 						"tags" : "",
 						"style" : "",
+						"subpatcher_template" : "",
 						"boxes" : [ 							{
 								"box" : 								{
 									"id" : "obj-15",
@@ -449,7 +451,7 @@
 ,
 									"style" : "",
 									"text" : "autopattr",
-									"varname" : "u834001219"
+									"varname" : "u217008503"
 								}
 
 							}
@@ -650,7 +652,7 @@
 					}
 ,
 					"patching_rect" : [ 0.0, 0.0, 95.0, 116.0 ],
-					"varname" : "MIDI_to_signal",
+					"varname" : "Splittr",
 					"viewvisibility" : 1
 				}
 
@@ -659,9 +661,9 @@
 		"lines" : [  ],
 		"parameters" : 		{
 			"obj-12::obj-4" : [ "Split", "Split", 0 ],
+			"obj-12::obj-22" : [ "LowOutputActivityLED", "LowOutputActivityLED", 0 ],
 			"obj-12::obj-23" : [ "HighOutputActivityLED", "HighOutputActivityLED", 0 ],
-			"obj-12::obj-3" : [ "InputActivityLED", "InputActivityLED", 0 ],
-			"obj-12::obj-22" : [ "LowOutputActivityLED", "LowOutputActivityLED", 0 ]
+			"obj-12::obj-3" : [ "InputActivityLED", "InputActivityLED", 0 ]
 		}
 ,
 		"dependency_cache" : [  ],

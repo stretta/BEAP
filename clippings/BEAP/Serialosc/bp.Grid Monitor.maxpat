@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 34.0, 78.0, 1212.0, 684.0 ],
+		"rect" : [ 34.0, 78.0, 862.0, 645.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -859,7 +859,6 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "jit_matrix", "" ],
 									"patching_rect" : [ 529.0, 162.666748, 111.0, 22.0 ],
-									"presentation_rect" : [ 956.0, 512.666687, 0.0, 0.0 ],
 									"style" : "",
 									"text" : "jit.matrix #0_grid"
 								}
@@ -12006,7 +12005,7 @@
 ,
 									"style" : "",
 									"text" : "autopattr",
-									"varname" : "u694001531"
+									"varname" : "u699004976"
 								}
 
 							}
@@ -12474,7 +12473,7 @@
 					}
 ,
 					"patching_rect" : [ 0.0, 0.0, 115.0, 116.0 ],
-					"varname" : "64P",
+					"varname" : "GridMonitor",
 					"viewvisibility" : 1
 				}
 

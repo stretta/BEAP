@@ -4,12 +4,12 @@
 		"appversion" : 		{
 			"major" : 7,
 			"minor" : 0,
-			"revision" : 0,
+			"revision" : 1,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
-		"rect" : [ -8.0, 78.0, 1212.0, 641.0 ],
+		"rect" : [ 34.0, 78.0, 862.0, 641.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -35,6 +35,7 @@
 		"digest" : "",
 		"tags" : "",
 		"style" : "",
+		"subpatcher_template" : "",
 		"boxes" : [ 			{
 				"box" : 				{
 					"bgmode" : 0,
@@ -54,12 +55,12 @@
 						"appversion" : 						{
 							"major" : 7,
 							"minor" : 0,
-							"revision" : 0,
+							"revision" : 1,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
 ,
-						"rect" : [ -8.0, 78.0, 410.0, 116.0 ],
+						"rect" : [ 34.0, 78.0, 410.0, 116.0 ],
 						"bgcolor" : [ 1.0, 1.0, 1.0, 0.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 1,
@@ -86,6 +87,7 @@
 						"digest" : "",
 						"tags" : "",
 						"style" : "",
+						"subpatcher_template" : "",
 						"boxes" : [ 							{
 								"box" : 								{
 									"id" : "obj-5",
@@ -113,7 +115,7 @@
 										"appversion" : 										{
 											"major" : 7,
 											"minor" : 0,
-											"revision" : 0,
+											"revision" : 1,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -144,6 +146,7 @@
 										"digest" : "",
 										"tags" : "",
 										"style" : "",
+										"subpatcher_template" : "",
 										"boxes" : [ 											{
 												"box" : 												{
 													"fontname" : "Arial",
@@ -1229,7 +1232,7 @@
 ,
 									"style" : "",
 									"text" : "autopattr",
-									"varname" : "u892005742"
+									"varname" : "u568001572"
 								}
 
 							}
@@ -1769,7 +1772,7 @@
 					}
 ,
 					"patching_rect" : [ 0.0, 0.0, 409.757019, 116.0 ],
-					"varname" : "Calibrated",
+					"varname" : "Calibrated_64",
 					"viewvisibility" : 1
 				}
 
@@ -1777,9 +1780,9 @@
  ],
 		"lines" : [  ],
 		"parameters" : 		{
+			"obj-3::obj-54" : [ "mute", "mute", 0 ],
 			"obj-3::obj-2" : [ "stealth_init", "stealth_init", 0 ],
-			"obj-3::obj-22" : [ "offset", "offset", 0 ],
-			"obj-3::obj-54" : [ "mute", "mute", 0 ]
+			"obj-3::obj-22" : [ "offset", "offset", 0 ]
 		}
 ,
 		"dependency_cache" : [  ],

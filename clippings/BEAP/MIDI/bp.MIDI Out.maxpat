@@ -4,12 +4,12 @@
 		"appversion" : 		{
 			"major" : 7,
 			"minor" : 0,
-			"revision" : 0,
+			"revision" : 1,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 34.0, 78.0, 1212.0, 641.0 ],
+		"rect" : [ 34.0, 78.0, 862.0, 641.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -35,6 +35,7 @@
 		"digest" : "",
 		"tags" : "",
 		"style" : "",
+		"subpatcher_template" : "",
 		"boxes" : [ 			{
 				"box" : 				{
 					"bgmode" : 0,
@@ -54,7 +55,7 @@
 						"appversion" : 						{
 							"major" : 7,
 							"minor" : 0,
-							"revision" : 0,
+							"revision" : 1,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -86,6 +87,7 @@
 						"digest" : "",
 						"tags" : "",
 						"style" : "",
+						"subpatcher_template" : "",
 						"boxes" : [ 							{
 								"box" : 								{
 									"bubble" : 1,
@@ -190,8 +192,6 @@
 									"bgfillcolor_color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
 									"bgfillcolor_proportion" : 0.39,
 									"bgfillcolor_type" : "color",
-									"fontface" : 0,
-									"fontname" : "Arial",
 									"fontsize" : 10.0,
 									"hint" : "Channel",
 									"id" : "obj-4",
@@ -282,14 +282,14 @@
 									"patching_rect" : [ 42.173828, 136.470001, 59.5, 22.0 ],
 									"restore" : 									{
 										"Channel" : [ "10" ],
-										"MIDIPort" : [ "" ],
+										"MIDIPort" : [ "AU DLS Synth 1" ],
 										"PitchActivityLED" : [ 0.0 ],
 										"refresh" : [ 0.0 ]
 									}
 ,
 									"style" : "",
 									"text" : "autopattr",
-									"varname" : "u191001314"
+									"varname" : "u794008032"
 								}
 
 							}
@@ -316,12 +316,10 @@
 									"bgfillcolor_color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
 									"bgfillcolor_proportion" : 0.39,
 									"bgfillcolor_type" : "color",
-									"fontface" : 0,
-									"fontname" : "Arial",
 									"fontsize" : 10.0,
 									"hint" : "MIDI port",
 									"id" : "obj-2",
-									"items" : "<empty>",
+									"items" : [ "AU DLS Synth 1", ",", "IAC Driver Bus 1", ",", "from Max 1", ",", "from Max 2" ],
 									"maxclass" : "umenu",
 									"numinlets" : 1,
 									"numoutlets" : 3,
@@ -570,7 +568,7 @@
 					}
 ,
 					"patching_rect" : [ 0.0, 0.0, 167.0, 119.0 ],
-					"varname" : "MIDI",
+					"varname" : "MIDI_Out",
 					"viewvisibility" : 1
 				}
 
@@ -579,14 +577,14 @@
 		"lines" : [  ],
 		"parameters" : 		{
 			"obj-2::obj-14" : [ "refresh", "refresh", 0 ],
-			"obj-2::obj-3::obj-2" : [ "pastebang", "pastebang", 0 ],
-			"obj-2::obj-9" : [ "PitchActivityLED", "PitchActivityLED", 0 ]
+			"obj-2::obj-9" : [ "PitchActivityLED", "PitchActivityLED", 0 ],
+			"obj-2::obj-3::obj-2" : [ "pastebang", "pastebang", 0 ]
 		}
 ,
 		"dependency_cache" : [ 			{
 				"name" : "pastebang.maxpat",
-				"bootpath" : "/Applications/Max 7/Max.app/Contents/Resources/C74/packages/Beap/misc",
-				"patcherrelativepath" : "../../../../../../../Applications/Max 7/Max.app/Contents/Resources/C74/packages/Beap/misc",
+				"bootpath" : "/Applications/Max.app/Contents/Resources/C74/packages/Beap/misc",
+				"patcherrelativepath" : "../../../../../../../Applications/Max.app/Contents/Resources/C74/packages/Beap/misc",
 				"type" : "JSON",
 				"implicit" : 1
 			}

@@ -4,20 +4,21 @@
 		"appversion" : 		{
 			"major" : 7,
 			"minor" : 0,
-			"revision" : 0,
+			"revision" : 1,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 34.0, 78.0, 1212.0, 641.0 ],
+		"rect" : [ 34.0, 78.0, 862.0, 641.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
 		"default_fontface" : 0,
 		"default_fontname" : "Arial",
-		"gridonopen" : 0,
+		"gridonopen" : 1,
 		"gridsize" : [ 15.0, 15.0 ],
-		"gridsnaponopen" : 0,
+		"gridsnaponopen" : 1,
+		"objectsnaponopen" : 1,
 		"statusbarvisible" : 1,
 		"toolbarvisible" : 1,
 		"lefttoolbarpinned" : 0,
@@ -34,6 +35,7 @@
 		"digest" : "",
 		"tags" : "",
 		"style" : "",
+		"subpatcher_template" : "",
 		"boxes" : [ 			{
 				"box" : 				{
 					"bgmode" : 0,
@@ -54,7 +56,7 @@
 						"appversion" : 						{
 							"major" : 7,
 							"minor" : 0,
-							"revision" : 0,
+							"revision" : 1,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -66,9 +68,10 @@
 						"default_fontsize" : 12.0,
 						"default_fontface" : 0,
 						"default_fontname" : "Arial",
-						"gridonopen" : 0,
+						"gridonopen" : 1,
 						"gridsize" : [ 15.0, 15.0 ],
-						"gridsnaponopen" : 0,
+						"gridsnaponopen" : 1,
+						"objectsnaponopen" : 1,
 						"statusbarvisible" : 1,
 						"toolbarvisible" : 1,
 						"lefttoolbarpinned" : 0,
@@ -85,6 +88,7 @@
 						"digest" : "",
 						"tags" : "",
 						"style" : "",
+						"subpatcher_template" : "",
 						"boxes" : [ 							{
 								"box" : 								{
 									"id" : "obj-15",
@@ -334,18 +338,12 @@
 							}
 , 							{
 								"box" : 								{
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-									"bgfillcolor" : [ 										{
-											"type" : "color",
-											"color1" : [ 0.435294, 0.462745, 0.498039, 1.0 ],
-											"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-											"color" : [ 0.0, 0.0, 0.0, 1.0 ],
-											"angle" : 270.0,
-											"proportion" : 0.39
-										}
- ],
-									"fontface" : 0,
-									"fontname" : "Arial",
+									"bgfillcolor_angle" : 270.0,
+									"bgfillcolor_color" : [ 0.0, 0.0, 0.0, 1.0 ],
+									"bgfillcolor_color1" : [ 0.435294, 0.462745, 0.498039, 1.0 ],
+									"bgfillcolor_color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
+									"bgfillcolor_proportion" : 0.39,
+									"bgfillcolor_type" : "color",
 									"fontsize" : 10.0,
 									"id" : "obj-112",
 									"items" : [ "C", ",", "C#/Db", ",", "D", ",", "D#/Eb", ",", "E", ",", "F", ",", "F#/Gb", ",", "G", ",", "G#/Ab", ",", "A", ",", "A#/Bb", ",", "B" ],
@@ -2190,7 +2188,8 @@
 									"maxclass" : "outlet",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 575.0, 939.0, 25.0, 25.0 ]
+									"patching_rect" : [ 575.0, 939.0, 25.0, 25.0 ],
+									"style" : ""
 								}
 
 							}
@@ -2265,7 +2264,7 @@
 ,
 									"style" : "",
 									"text" : "autopattr",
-									"varname" : "u421004468"
+									"varname" : "u641002029"
 								}
 
 							}
@@ -2277,7 +2276,8 @@
 									"numinlets" : 0,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 494.0, 60.5, 25.0, 25.0 ]
+									"patching_rect" : [ 494.0, 60.5, 25.0, 25.0 ],
+									"style" : ""
 								}
 
 							}
@@ -2375,15 +2375,6 @@
 									"angle" : 0.0,
 									"background" : 1,
 									"bgcolor" : [ 0.137255, 0.145098, 0.160784, 0.65 ],
-									"bgfillcolor" : [ 										{
-											"type" : "color",
-											"color1" : [ 0.75, 0.79, 0.93, 1.0 ],
-											"color2" : [ 0.66, 0.66, 0.72, 1.0 ],
-											"color" : [ 0.137255, 0.145098, 0.160784, 0.65 ],
-											"angle" : 0.0,
-											"proportion" : 0.39
-										}
- ],
 									"id" : "obj-130",
 									"maxclass" : "panel",
 									"mode" : 0,
@@ -2403,15 +2394,6 @@
 									"angle" : 0.0,
 									"background" : 1,
 									"bgcolor" : [ 0.367404, 0.389405, 0.430238, 1.0 ],
-									"bgfillcolor" : [ 										{
-											"type" : "color",
-											"color1" : [ 0.75, 0.79, 0.93, 1.0 ],
-											"color2" : [ 0.66, 0.66, 0.72, 1.0 ],
-											"color" : [ 0.367404, 0.389405, 0.430238, 1.0 ],
-											"angle" : 0.0,
-											"proportion" : 0.39
-										}
- ],
 									"id" : "obj-131",
 									"maxclass" : "panel",
 									"mode" : 0,
@@ -2431,15 +2413,6 @@
 									"angle" : 0.0,
 									"background" : 1,
 									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-									"bgfillcolor" : [ 										{
-											"type" : "color",
-											"color1" : [ 0.75, 0.79, 0.93, 1.0 ],
-											"color2" : [ 0.66, 0.66, 0.72, 1.0 ],
-											"color" : [ 0.0, 0.0, 0.0, 1.0 ],
-											"angle" : 0.0,
-											"proportion" : 0.39
-										}
- ],
 									"id" : "obj-135",
 									"maxclass" : "panel",
 									"mode" : 0,
@@ -3314,7 +3287,7 @@
 					}
 ,
 					"patching_rect" : [ 0.0, 0.0, 362.0, 116.0 ],
-					"varname" : "Quantizer",
+					"varname" : "Ratios",
 					"viewvisibility" : 1
 				}
 
@@ -3322,31 +3295,31 @@
  ],
 		"lines" : [  ],
 		"parameters" : 		{
-			"obj-18::obj-91" : [ "SampleStart[17]", "SampleStart", 0 ],
-			"obj-18::obj-12" : [ "bypass", "bypass", 0 ],
+			"obj-18::obj-94" : [ "SampleStart[18]", "SampleStart", 0 ],
 			"obj-18::obj-106" : [ "SampleStart[22]", "SampleStart", 0 ],
+			"obj-18::obj-129" : [ "SampleStart", "SampleStart", 0 ],
 			"obj-18::obj-55" : [ "SampleStart[5]", "SampleStart", 0 ],
-			"obj-18::obj-70" : [ "SampleStart[10]", "SampleStart", 0 ],
-			"obj-18::obj-85" : [ "SampleStart[15]", "SampleStart", 0 ],
+			"obj-18::obj-73" : [ "SampleStart[11]", "SampleStart", 0 ],
+			"obj-18::obj-88" : [ "SampleStart[16]", "SampleStart", 0 ],
 			"obj-18::obj-100" : [ "SampleStart[20]", "SampleStart", 0 ],
 			"obj-18::obj-45" : [ "SampleStart[3]", "SampleStart", 0 ],
 			"obj-18::obj-64" : [ "SampleStart[8]", "SampleStart", 0 ],
-			"obj-18::obj-79" : [ "SampleStart[13]", "SampleStart", 0 ],
-			"obj-18::obj-94" : [ "SampleStart[18]", "SampleStart", 0 ],
+			"obj-18::obj-82" : [ "SampleStart[14]", "SampleStart", 0 ],
+			"obj-18::obj-97" : [ "SampleStart[19]", "SampleStart", 0 ],
 			"obj-18::obj-109" : [ "SampleStart[23]", "SampleStart", 0 ],
-			"obj-18::obj-129" : [ "SampleStart", "SampleStart", 0 ],
 			"obj-18::obj-58" : [ "SampleStart[6]", "SampleStart", 0 ],
-			"obj-18::obj-73" : [ "SampleStart[11]", "SampleStart", 0 ],
-			"obj-18::obj-88" : [ "SampleStart[16]", "SampleStart", 0 ],
+			"obj-18::obj-76" : [ "SampleStart[12]", "SampleStart", 0 ],
+			"obj-18::obj-91" : [ "SampleStart[17]", "SampleStart", 0 ],
 			"obj-18::obj-103" : [ "SampleStart[21]", "SampleStart", 0 ],
 			"obj-18::obj-52" : [ "SampleStart[4]", "SampleStart", 0 ],
 			"obj-18::obj-67" : [ "SampleStart[9]", "SampleStart", 0 ],
+			"obj-18::obj-70" : [ "SampleStart[10]", "SampleStart", 0 ],
+			"obj-18::obj-85" : [ "SampleStart[15]", "SampleStart", 0 ],
 			"obj-18::obj-23" : [ "SampleStart[1]", "SampleStart", 0 ],
-			"obj-18::obj-82" : [ "SampleStart[14]", "SampleStart", 0 ],
-			"obj-18::obj-97" : [ "SampleStart[19]", "SampleStart", 0 ],
+			"obj-18::obj-12" : [ "bypass", "bypass", 0 ],
 			"obj-18::obj-37" : [ "SampleStart[2]", "SampleStart", 0 ],
 			"obj-18::obj-61" : [ "SampleStart[7]", "SampleStart", 0 ],
-			"obj-18::obj-76" : [ "SampleStart[12]", "SampleStart", 0 ]
+			"obj-18::obj-79" : [ "SampleStart[13]", "SampleStart", 0 ]
 		}
 ,
 		"dependency_cache" : [  ],

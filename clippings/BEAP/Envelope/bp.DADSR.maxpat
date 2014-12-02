@@ -4,20 +4,21 @@
 		"appversion" : 		{
 			"major" : 7,
 			"minor" : 0,
-			"revision" : 0,
+			"revision" : 1,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 34.0, 78.0, 1212.0, 641.0 ],
+		"rect" : [ 34.0, 78.0, 862.0, 641.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
 		"default_fontface" : 0,
 		"default_fontname" : "Arial",
-		"gridonopen" : 0,
+		"gridonopen" : 1,
 		"gridsize" : [ 15.0, 15.0 ],
-		"gridsnaponopen" : 0,
+		"gridsnaponopen" : 1,
+		"objectsnaponopen" : 1,
 		"statusbarvisible" : 1,
 		"toolbarvisible" : 1,
 		"lefttoolbarpinned" : 0,
@@ -34,6 +35,7 @@
 		"digest" : "",
 		"tags" : "",
 		"style" : "",
+		"subpatcher_template" : "",
 		"boxes" : [ 			{
 				"box" : 				{
 					"bgmode" : 0,
@@ -54,7 +56,7 @@
 						"appversion" : 						{
 							"major" : 7,
 							"minor" : 0,
-							"revision" : 0,
+							"revision" : 1,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -66,9 +68,10 @@
 						"default_fontsize" : 12.0,
 						"default_fontface" : 0,
 						"default_fontname" : "Arial",
-						"gridonopen" : 0,
+						"gridonopen" : 1,
 						"gridsize" : [ 15.0, 15.0 ],
-						"gridsnaponopen" : 0,
+						"gridsnaponopen" : 1,
+						"objectsnaponopen" : 1,
 						"statusbarvisible" : 1,
 						"toolbarvisible" : 1,
 						"lefttoolbarpinned" : 0,
@@ -85,6 +88,7 @@
 						"digest" : "",
 						"tags" : "",
 						"style" : "",
+						"subpatcher_template" : "",
 						"boxes" : [ 							{
 								"box" : 								{
 									"id" : "obj-14",
@@ -572,7 +576,7 @@
 ,
 									"style" : "",
 									"text" : "autopattr",
-									"varname" : "u262003768"
+									"varname" : "u023003162"
 								}
 
 							}
@@ -996,7 +1000,7 @@
 					}
 ,
 					"patching_rect" : [ 0.0, 0.0, 278.0, 116.0 ],
-					"varname" : "ADSR",
+					"varname" : "DADSR",
 					"viewvisibility" : 1
 				}
 
@@ -1004,13 +1008,13 @@
  ],
 		"lines" : [  ],
 		"parameters" : 		{
-			"obj-4::obj-31" : [ "Release", "Release", 0 ],
-			"obj-4::obj-29" : [ "Decay", "Decay", 0 ],
-			"obj-4::obj-10" : [ "Delay", "Delay", 0 ],
 			"obj-4::obj-32" : [ "Sustain", "Sustain", 0 ],
-			"obj-4::obj-30" : [ "Legato", "Legato", 0 ],
 			"obj-4::obj-20" : [ "Mute", "Mute", 0 ],
-			"obj-4::obj-1" : [ "Attack", "Attack", 0 ]
+			"obj-4::obj-10" : [ "Delay", "Delay", 0 ],
+			"obj-4::obj-29" : [ "Decay", "Decay", 0 ],
+			"obj-4::obj-1" : [ "Attack", "Attack", 0 ],
+			"obj-4::obj-30" : [ "Legato", "Legato", 0 ],
+			"obj-4::obj-31" : [ "Release", "Release", 0 ]
 		}
 ,
 		"dependency_cache" : [  ],
