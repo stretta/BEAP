@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 34.0, 78.0, 873.0, 645.0 ],
+		"rect" : [ 123.0, 78.0, 663.0, 645.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -40,12 +40,12 @@
 				"box" : 				{
 					"id" : "obj-16",
 					"maxclass" : "newobj",
-					"numinlets" : 0,
+					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 190.0, 225.0, 67.0, 22.0 ],
+					"patching_rect" : [ 197.0, 81.0, 60.0, 22.0 ],
 					"style" : "",
-					"text" : "pastebang"
+					"text" : "loadbang"
 				}
 
 			}
@@ -57,7 +57,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 47.0, 177.0, 30.0, 30.0 ],
+					"patching_rect" : [ 54.0, 34.0, 30.0, 30.0 ],
 					"style" : ""
 				}
 
@@ -69,7 +69,7 @@
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 190.0, 621.0, 25.0, 25.0 ],
+					"patching_rect" : [ 197.0, 477.0, 25.0, 25.0 ],
 					"style" : ""
 				}
 
@@ -83,7 +83,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 190.0, 582.597595, 158.0, 22.0 ],
+					"patching_rect" : [ 197.0, 438.597595, 158.0, 22.0 ],
 					"style" : "",
 					"text" : "prepend /monome/ring/map"
 				}
@@ -98,7 +98,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 190.0, 551.597595, 71.0, 22.0 ],
+					"patching_rect" : [ 197.0, 393.597595, 71.0, 22.0 ],
 					"style" : "",
 					"text" : "prepend #1"
 				}
@@ -111,7 +111,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "bang", "int" ],
-					"patching_rect" : [ 47.0, 267.0, 67.0, 22.0 ],
+					"patching_rect" : [ 54.0, 123.0, 67.0, 22.0 ],
 					"style" : "",
 					"text" : "t b i"
 				}
@@ -127,7 +127,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 47.0, 225.0, 50.0, 22.0 ],
+					"patching_rect" : [ 54.0, 81.0, 50.0, 22.0 ],
 					"style" : ""
 				}
 
@@ -139,7 +139,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 95.0, 323.0, 66.0, 22.0 ],
+					"patching_rect" : [ 102.0, 179.0, 66.0, 22.0 ],
 					"style" : "",
 					"text" : "offset 0 $1"
 				}
@@ -152,7 +152,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "jit_matrix", "" ],
-					"patching_rect" : [ 190.0, 414.0, 136.0, 22.0 ],
+					"patching_rect" : [ 197.0, 270.0, 136.0, 22.0 ],
 					"style" : "",
 					"text" : "jit.submatrix @dim 64 1"
 				}
@@ -165,7 +165,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 190.0, 267.0, 157.0, 22.0 ],
+					"patching_rect" : [ 197.0, 123.0, 157.0, 22.0 ],
 					"style" : "",
 					"text" : "importmovie bandwidth.png"
 				}
@@ -178,7 +178,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 190.0, 506.658691, 76.0, 22.0 ],
+					"patching_rect" : [ 197.0, 351.658691, 76.0, 22.0 ],
 					"style" : "",
 					"text" : "vexpr $i1/16"
 				}
@@ -194,7 +194,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 190.0, 448.658691, 178.0, 22.0 ],
+					"patching_rect" : [ 197.0, 304.658691, 178.0, 22.0 ],
 					"style" : "",
 					"text" : "jit.spill @plane 3 @listlength 64"
 				}
@@ -207,7 +207,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "jit_matrix", "" ],
-					"patching_rect" : [ 190.0, 314.307129, 266.0, 22.0 ],
+					"patching_rect" : [ 197.0, 170.307129, 278.0, 22.0 ],
 					"style" : "",
 					"text" : "jit.matrix #0_bandwidth 4 char 64 500 @adapt 0"
 				}
@@ -219,6 +219,7 @@
 					"destination" : [ "obj-2", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
+					"midpoints" : [ 63.5, 157.153564, 206.5, 157.153564 ],
 					"source" : [ "obj-12", 0 ]
 				}
 
@@ -300,6 +301,7 @@
 					"destination" : [ "obj-4", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
+					"midpoints" : [ 111.5, 235.0, 206.5, 235.0 ],
 					"source" : [ "obj-6", 0 ]
 				}
 
@@ -332,18 +334,7 @@
 
 			}
  ],
-		"parameters" : 		{
-			"obj-16::obj-2" : [ "pastebang", "pastebang", 0 ]
-		}
-,
-		"dependency_cache" : [ 			{
-				"name" : "pastebang.maxpat",
-				"bootpath" : "~/Documents/Beap/misc",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
- ],
+		"dependency_cache" : [  ],
 		"embedsnapshot" : 0
 	}
 

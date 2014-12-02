@@ -162,7 +162,6 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 2155.801758, 67.557076, 74.0, 22.0 ],
-									"presentation_rect" : [ 2051.0, 47.0, 0.0, 0.0 ],
 									"style" : "",
 									"text" : "prepend set"
 								}
@@ -468,9 +467,9 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 3198.666748, 498.774109, 53.0, 22.0 ],
+									"patching_rect" : [ 3198.666748, 498.774109, 92.0, 22.0 ],
 									"style" : "",
-									"text" : "bp.bw 1",
+									"text" : "bp.bandwidth 1",
 									"varname" : "bp.bw"
 								}
 
@@ -879,7 +878,7 @@
 , 							{
 								"box" : 								{
 									"bgcolor" : [ 0.694118, 0.694118, 0.694118, 0.0 ],
-									"fgcolor" : [ 1.0, 1.0, 1.0, 0.59 ],
+									"fgcolor" : [ 1.0, 1.0, 1.0, 0.36 ],
 									"id" : "obj-249",
 									"maxclass" : "rslider",
 									"numinlets" : 2,
@@ -1055,7 +1054,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 708.223938, 765.211548, 33.0, 17.0 ],
+									"patching_rect" : [ 278.40451, 510.533081, 33.0, 17.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 257.143768, 197.211548, 33.0, 17.0 ],
 									"style" : "",
@@ -1070,7 +1069,7 @@
 									"maxclass" : "live.line",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 797.288879, 793.800293, 8.0, 153.296265 ],
+									"patching_rect" : [ 216.288879, 756.057068, 8.0, 153.296265 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 39.860008, 161.65155, 14.539368, 11.0 ]
 								}
@@ -2194,7 +2193,7 @@
 ,
 									"style" : "",
 									"text" : "autopattr",
-									"varname" : "u423006948"
+									"varname" : "u207001464"
 								}
 
 							}
@@ -3513,7 +3512,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 708.223938, 946.892822, 78.0, 17.0 ],
+									"patching_rect" : [ 1629.848267, 125.557083, 78.0, 17.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 318.351593, 0.0, 78.0, 17.0 ],
 									"style" : "",
@@ -3560,7 +3559,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 708.223938, 915.244751, 28.0, 17.0 ],
+									"patching_rect" : [ 1406.946167, 88.240082, 28.0, 17.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 170.143768, 0.0, 28.0, 17.0 ],
 									"style" : "",
@@ -3577,7 +3576,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 708.223938, 851.948364, 63.0, 17.0 ],
+									"patching_rect" : [ 1120.654785, 60.200096, 63.0, 17.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 1.768768, 0.0, 63.0, 17.0 ],
 									"style" : "",
@@ -3594,7 +3593,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 708.223938, 883.596558, 27.0, 17.0 ],
+									"patching_rect" : [ 102.40451, 506.533081, 27.0, 17.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 1.768768, 197.211548, 27.0, 17.0 ],
 									"style" : "",
@@ -3660,7 +3659,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 708.223938, 800.300293, 62.0, 17.0 ],
+									"patching_rect" : [ 253.654785, 892.353333, 62.0, 17.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 1.768768, 19.0, 62.0, 17.0 ],
 									"style" : "",
@@ -5448,25 +5447,24 @@
  ],
 		"lines" : [  ],
 		"parameters" : 		{
-			"obj-1::obj-12" : [ "Mute", "Mute", 0 ],
 			"obj-1::obj-94" : [ "PitchRandomAmt", "Random", 0 ],
-			"obj-1::obj-98::obj-2" : [ "pastebang", "pastebang", 0 ],
-			"obj-1::obj-270::obj-16::obj-181" : [ "live.text[2]", "live.text", 0 ],
-			"obj-1::obj-45" : [ "DurationRandomAmt", "Random", 0 ],
-			"obj-1::obj-71" : [ "Pan", "Pan", 0 ],
-			"obj-1::obj-25" : [ "CV", "CV", 0 ],
-			"obj-1::obj-101" : [ "Width", "Width", 0 ],
 			"obj-1::obj-237::obj-16::obj-181" : [ "live.text[1]", "live.text", 0 ],
-			"obj-1::obj-261::obj-2" : [ "pastebang[1]", "pastebang", 0 ],
-			"obj-1::obj-19" : [ "CV2", "CV2", 0 ],
+			"obj-1::obj-280::obj-16::obj-181" : [ "live.text[3]", "live.text", 0 ],
 			"obj-1::obj-115" : [ "NewGrainEvery", "NewGrainEvery", 0 ],
 			"obj-1::obj-3" : [ "Position", "Position", 0 ],
-			"obj-1::obj-114" : [ "MaxGrains", "MaxGrains", 0 ],
-			"obj-1::obj-58" : [ "PanRandomAmt", "Random", 0 ],
-			"obj-1::obj-280::obj-16::obj-181" : [ "live.text[3]", "live.text", 0 ],
 			"obj-1::obj-47" : [ "Duration", "Duration", 0 ],
+			"obj-1::obj-98::obj-2" : [ "pastebang", "pastebang", 0 ],
+			"obj-1::obj-45" : [ "DurationRandomAmt", "Random", 0 ],
+			"obj-1::obj-19" : [ "CV2", "CV2", 0 ],
+			"obj-1::obj-101" : [ "Width", "Width", 0 ],
+			"obj-1::obj-270::obj-16::obj-181" : [ "live.text[2]", "live.text", 0 ],
+			"obj-1::obj-58" : [ "PanRandomAmt", "Random", 0 ],
+			"obj-1::obj-261::obj-2" : [ "pastebang[1]", "pastebang", 0 ],
 			"obj-1::obj-28" : [ "Offset", "Offset", 0 ],
-			"obj-1::obj-285::obj-35::obj-2" : [ "pastebang[2]", "pastebang", 0 ]
+			"obj-1::obj-25" : [ "CV", "CV", 0 ],
+			"obj-1::obj-71" : [ "Pan", "Pan", 0 ],
+			"obj-1::obj-114" : [ "MaxGrains", "MaxGrains", 0 ],
+			"obj-1::obj-12" : [ "Mute", "Mute", 0 ]
 		}
 ,
 		"dependency_cache" : [ 			{
@@ -5499,8 +5497,8 @@
 			}
 , 			{
 				"name" : "pastebang.maxpat",
-				"bootpath" : "~/Documents/Beap/misc",
-				"patcherrelativepath" : "../../../misc",
+				"bootpath" : "/Applications/Max.app/Contents/Resources/C74/packages/Beap/misc",
+				"patcherrelativepath" : "../../../../../../../Applications/Max.app/Contents/Resources/C74/packages/Beap/misc",
 				"type" : "JSON",
 				"implicit" : 1
 			}
@@ -5526,9 +5524,9 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "bp.bw.maxpat",
-				"bootpath" : "/Applications/Max.app/Contents/Resources/C74/packages/Beap/misc",
-				"patcherrelativepath" : "../../../../../../../Applications/Max.app/Contents/Resources/C74/packages/Beap/misc",
+				"name" : "bp.bandwidth.maxpat",
+				"bootpath" : "~/Documents/Beap/misc",
+				"patcherrelativepath" : "../../../misc",
 				"type" : "JSON",
 				"implicit" : 1
 			}
