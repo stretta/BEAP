@@ -4,12 +4,12 @@
 		"appversion" : 		{
 			"major" : 7,
 			"minor" : 0,
-			"revision" : 0,
+			"revision" : 1,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 34.0, 78.0, 1212.0, 641.0 ],
+		"rect" : [ 34.0, 78.0, 862.0, 641.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -35,6 +35,7 @@
 		"digest" : "",
 		"tags" : "",
 		"style" : "",
+		"subpatcher_template" : "",
 		"boxes" : [ 			{
 				"box" : 				{
 					"bgmode" : 0,
@@ -55,7 +56,7 @@
 						"appversion" : 						{
 							"major" : 7,
 							"minor" : 0,
-							"revision" : 0,
+							"revision" : 1,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -87,6 +88,7 @@
 						"digest" : "",
 						"tags" : "",
 						"style" : "",
+						"subpatcher_template" : "",
 						"boxes" : [ 							{
 								"box" : 								{
 									"id" : "obj-1",
@@ -103,7 +105,7 @@
 ,
 									"style" : "",
 									"text" : "autopattr",
-									"varname" : "u887000622"
+									"varname" : "u005001622"
 								}
 
 							}
@@ -131,7 +133,7 @@
 										"appversion" : 										{
 											"major" : 7,
 											"minor" : 0,
-											"revision" : 0,
+											"revision" : 1,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -162,6 +164,7 @@
 										"digest" : "",
 										"tags" : "",
 										"style" : "",
+										"subpatcher_template" : "",
 										"boxes" : [ 											{
 												"box" : 												{
 													"id" : "obj-37",
@@ -983,7 +986,7 @@
 					}
 ,
 					"patching_rect" : [ 0.0, 0.0, 236.0, 116.0 ],
-					"varname" : "StereoOutput",
+					"varname" : "Snapshotter",
 					"viewvisibility" : 1
 				}
 
@@ -991,9 +994,9 @@
  ],
 		"lines" : [  ],
 		"parameters" : 		{
-			"obj-3::obj-33" : [ "InputRange", "InputRange", 0 ],
+			"obj-3::obj-7" : [ "OutputRange", "OutputRange", 0 ],
 			"obj-3::obj-129" : [ "Interval", "Interval", 0 ],
-			"obj-3::obj-7" : [ "OutputRange", "OutputRange", 0 ]
+			"obj-3::obj-33" : [ "InputRange", "InputRange", 0 ]
 		}
 ,
 		"dependency_cache" : [  ],

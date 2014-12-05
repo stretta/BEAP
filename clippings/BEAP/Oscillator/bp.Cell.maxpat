@@ -4,12 +4,12 @@
 		"appversion" : 		{
 			"major" : 7,
 			"minor" : 0,
-			"revision" : 0,
+			"revision" : 1,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 34.0, 78.0, 1212.0, 641.0 ],
+		"rect" : [ 34.0, 78.0, 862.0, 641.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -35,6 +35,7 @@
 		"digest" : "",
 		"tags" : "",
 		"style" : "",
+		"subpatcher_template" : "",
 		"boxes" : [ 			{
 				"box" : 				{
 					"bgmode" : 0,
@@ -55,7 +56,7 @@
 						"appversion" : 						{
 							"major" : 7,
 							"minor" : 0,
-							"revision" : 0,
+							"revision" : 1,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -87,6 +88,7 @@
 						"digest" : "",
 						"tags" : "",
 						"style" : "",
+						"subpatcher_template" : "",
 						"boxes" : [ 							{
 								"box" : 								{
 									"id" : "obj-13",
@@ -685,7 +687,7 @@
 ,
 									"style" : "",
 									"text" : "autopattr",
-									"varname" : "u098000449"
+									"varname" : "u713010177"
 								}
 
 							}
@@ -1012,7 +1014,7 @@
 					}
 ,
 					"patching_rect" : [ 0.0, 0.0, 179.0, 116.0 ],
-					"varname" : "CellM",
+					"varname" : "Cell",
 					"viewvisibility" : 1
 				}
 
@@ -1020,16 +1022,16 @@
  ],
 		"lines" : [  ],
 		"parameters" : 		{
-			"obj-60::obj-13::obj-2" : [ "pastebang", "pastebang", 0 ],
 			"obj-60::obj-28" : [ "Duration", "Duration", 0 ],
-			"obj-60::obj-20" : [ "power", "power", 0 ],
-			"obj-60::obj-48" : [ "Mype", "Mype", 0 ]
+			"obj-60::obj-13::obj-2" : [ "pastebang", "pastebang", 0 ],
+			"obj-60::obj-48" : [ "Mype", "Mype", 0 ],
+			"obj-60::obj-20" : [ "power", "power", 0 ]
 		}
 ,
 		"dependency_cache" : [ 			{
 				"name" : "pastebang.maxpat",
-				"bootpath" : "/Applications/Max 7/Max.app/Contents/Resources/C74/packages/Beap/misc",
-				"patcherrelativepath" : "../../../../../../../Applications/Max 7/Max.app/Contents/Resources/C74/packages/Beap/misc",
+				"bootpath" : "/Applications/Max.app/Contents/Resources/C74/packages/Beap/misc",
+				"patcherrelativepath" : "../../../../../../../Applications/Max.app/Contents/Resources/C74/packages/Beap/misc",
 				"type" : "JSON",
 				"implicit" : 1
 			}

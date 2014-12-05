@@ -4,12 +4,12 @@
 		"appversion" : 		{
 			"major" : 7,
 			"minor" : 0,
-			"revision" : 0,
+			"revision" : 1,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 34.0, 78.0, 1212.0, 641.0 ],
+		"rect" : [ 34.0, 78.0, 862.0, 641.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -35,6 +35,7 @@
 		"digest" : "",
 		"tags" : "",
 		"style" : "",
+		"subpatcher_template" : "",
 		"boxes" : [ 			{
 				"box" : 				{
 					"bgmode" : 0,
@@ -55,7 +56,7 @@
 						"appversion" : 						{
 							"major" : 7,
 							"minor" : 0,
-							"revision" : 0,
+							"revision" : 1,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -87,6 +88,7 @@
 						"digest" : "",
 						"tags" : "",
 						"style" : "",
+						"subpatcher_template" : "",
 						"boxes" : [ 							{
 								"box" : 								{
 									"id" : "obj-1",
@@ -557,7 +559,7 @@
 ,
 									"style" : "",
 									"text" : "autopattr",
-									"varname" : "u628000288"
+									"varname" : "u691009889"
 								}
 
 							}
@@ -1004,7 +1006,7 @@
 					}
 ,
 					"patching_rect" : [ 0.0, 0.0, 175.0, 116.0 ],
-					"varname" : "Mixer",
+					"varname" : "SignalMixer",
 					"viewvisibility" : 1
 				}
 
@@ -1012,11 +1014,11 @@
  ],
 		"lines" : [  ],
 		"parameters" : 		{
+			"obj-15::obj-33" : [ "in4", "in4", 0 ],
 			"obj-15::obj-39" : [ "in1", "in1", 0 ],
 			"obj-15::obj-32" : [ "in2", "in2", 0 ],
-			"obj-15::obj-29" : [ "in3", "in3", 0 ],
-			"obj-15::obj-33" : [ "in4", "in4", 0 ],
-			"obj-15::obj-37" : [ "power", "power", 0 ]
+			"obj-15::obj-37" : [ "power", "power", 0 ],
+			"obj-15::obj-29" : [ "in3", "in3", 0 ]
 		}
 ,
 		"dependency_cache" : [  ],

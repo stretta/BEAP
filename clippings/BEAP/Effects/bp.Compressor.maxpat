@@ -4,20 +4,21 @@
 		"appversion" : 		{
 			"major" : 7,
 			"minor" : 0,
-			"revision" : 0,
-			"architecture" : "x86",
+			"revision" : 1,
+			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 34.0, 78.0, 1212.0, 641.0 ],
+		"rect" : [ 34.0, 78.0, 862.0, 641.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
 		"default_fontface" : 0,
 		"default_fontname" : "Arial",
-		"gridonopen" : 0,
+		"gridonopen" : 1,
 		"gridsize" : [ 15.0, 15.0 ],
-		"gridsnaponopen" : 0,
+		"gridsnaponopen" : 1,
+		"objectsnaponopen" : 1,
 		"statusbarvisible" : 2,
 		"toolbarvisible" : 1,
 		"lefttoolbarpinned" : 0,
@@ -34,6 +35,7 @@
 		"digest" : "",
 		"tags" : "",
 		"style" : "",
+		"subpatcher_template" : "",
 		"boxes" : [ 			{
 				"box" : 				{
 					"bgmode" : 0,
@@ -54,8 +56,8 @@
 						"appversion" : 						{
 							"major" : 7,
 							"minor" : 0,
-							"revision" : 0,
-							"architecture" : "x86",
+							"revision" : 1,
+							"architecture" : "x64",
 							"modernui" : 1
 						}
 ,
@@ -66,9 +68,10 @@
 						"default_fontsize" : 12.0,
 						"default_fontface" : 0,
 						"default_fontname" : "Arial",
-						"gridonopen" : 0,
+						"gridonopen" : 1,
 						"gridsize" : [ 15.0, 15.0 ],
-						"gridsnaponopen" : 0,
+						"gridsnaponopen" : 1,
+						"objectsnaponopen" : 1,
 						"statusbarvisible" : 1,
 						"toolbarvisible" : 1,
 						"lefttoolbarpinned" : 0,
@@ -85,6 +88,7 @@
 						"digest" : "",
 						"tags" : "",
 						"style" : "",
+						"subpatcher_template" : "",
 						"boxes" : [ 							{
 								"box" : 								{
 									"id" : "obj-15",
@@ -254,11 +258,9 @@
 									"activeneedlecolor" : [ 1.0, 1.0, 1.0, 0.7 ],
 									"id" : "obj-44",
 									"maxclass" : "live.dial",
-									"needlecolor" : [ 0.321569, 0.321569, 0.321569, 1.0 ],
 									"numinlets" : 1,
 									"numoutlets" : 2,
 									"outlettype" : [ "", "float" ],
-									"panelcolor" : [ 0.709804, 0.698039, 0.694118, 1.0 ],
 									"parameter_enable" : 1,
 									"patching_rect" : [ 289.0, 1232.0, 44.0, 47.0 ],
 									"presentation" : 1,
@@ -278,8 +280,6 @@
 									}
 ,
 									"textcolor" : [ 1.0, 1.0, 1.0, 0.7 ],
-									"tribordercolor" : [ 0.196078, 0.196078, 0.196078, 1.0 ],
-									"tricolor" : [ 0.6, 0.6, 0.6, 1.0 ],
 									"varname" : "Input"
 								}
 
@@ -335,11 +335,9 @@
 									"activeneedlecolor" : [ 1.0, 1.0, 1.0, 0.7 ],
 									"id" : "obj-2",
 									"maxclass" : "live.dial",
-									"needlecolor" : [ 0.321569, 0.321569, 0.321569, 1.0 ],
 									"numinlets" : 1,
 									"numoutlets" : 2,
 									"outlettype" : [ "", "float" ],
-									"panelcolor" : [ 0.709804, 0.698039, 0.694118, 1.0 ],
 									"parameter_enable" : 1,
 									"patching_rect" : [ 590.0, 1541.0, 44.0, 47.0 ],
 									"presentation" : 1,
@@ -359,8 +357,6 @@
 									}
 ,
 									"textcolor" : [ 1.0, 1.0, 1.0, 0.7 ],
-									"tribordercolor" : [ 0.196078, 0.196078, 0.196078, 1.0 ],
-									"tricolor" : [ 0.6, 0.6, 0.6, 1.0 ],
 									"varname" : "Output"
 								}
 
@@ -780,11 +776,9 @@
 									"focusbordercolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 									"id" : "obj-78",
 									"maxclass" : "live.dial",
-									"needlecolor" : [ 0.321569, 0.321569, 0.321569, 1.0 ],
 									"numinlets" : 1,
 									"numoutlets" : 2,
 									"outlettype" : [ "", "float" ],
-									"panelcolor" : [ 0.709804, 0.698039, 0.694118, 1.0 ],
 									"parameter_enable" : 1,
 									"patching_rect" : [ 583.0, 611.5, 44.0, 47.0 ],
 									"presentation" : 1,
@@ -805,8 +799,6 @@
 									}
 ,
 									"textcolor" : [ 1.0, 1.0, 1.0, 0.7 ],
-									"tribordercolor" : [ 0.196078, 0.196078, 0.196078, 1.0 ],
-									"tricolor" : [ 0.6, 0.6, 0.6, 1.0 ],
 									"varname" : "Ratio"
 								}
 
@@ -818,11 +810,9 @@
 									"focusbordercolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 									"id" : "obj-52",
 									"maxclass" : "live.dial",
-									"needlecolor" : [ 0.321569, 0.321569, 0.321569, 1.0 ],
 									"numinlets" : 1,
 									"numoutlets" : 2,
 									"outlettype" : [ "", "float" ],
-									"panelcolor" : [ 0.709804, 0.698039, 0.694118, 1.0 ],
 									"parameter_enable" : 1,
 									"patching_rect" : [ 411.0, 768.0, 44.0, 47.0 ],
 									"presentation" : 1,
@@ -842,8 +832,6 @@
 									}
 ,
 									"textcolor" : [ 1.0, 1.0, 1.0, 0.7 ],
-									"tribordercolor" : [ 0.196078, 0.196078, 0.196078, 1.0 ],
-									"tricolor" : [ 0.6, 0.6, 0.6, 1.0 ],
 									"varname" : "Threshold"
 								}
 
@@ -857,11 +845,9 @@
 									"hint" : "arbitrary units - higher numbers are faster",
 									"id" : "obj-47",
 									"maxclass" : "live.dial",
-									"needlecolor" : [ 0.321569, 0.321569, 0.321569, 1.0 ],
 									"numinlets" : 1,
 									"numoutlets" : 2,
 									"outlettype" : [ "", "float" ],
-									"panelcolor" : [ 0.709804, 0.698039, 0.694118, 1.0 ],
 									"parameter_enable" : 1,
 									"patching_rect" : [ 844.0, 555.0, 44.0, 47.0 ],
 									"presentation" : 1,
@@ -880,8 +866,6 @@
 									}
 ,
 									"textcolor" : [ 1.0, 1.0, 1.0, 0.7 ],
-									"tribordercolor" : [ 0.196078, 0.196078, 0.196078, 1.0 ],
-									"tricolor" : [ 0.6, 0.6, 0.6, 1.0 ],
 									"varname" : "Release"
 								}
 
@@ -1001,7 +985,7 @@
 ,
 									"style" : "",
 									"text" : "autopattr",
-									"varname" : "u555005894"
+									"varname" : "u714001782"
 								}
 
 							}
@@ -1031,11 +1015,9 @@
 									"hint" : "arbitrary units - higher numbers are faster",
 									"id" : "obj-28",
 									"maxclass" : "live.dial",
-									"needlecolor" : [ 0.321569, 0.321569, 0.321569, 1.0 ],
 									"numinlets" : 1,
 									"numoutlets" : 2,
 									"outlettype" : [ "", "float" ],
-									"panelcolor" : [ 0.709804, 0.698039, 0.694118, 1.0 ],
 									"parameter_enable" : 1,
 									"patching_rect" : [ 759.0, 555.0, 44.0, 47.0 ],
 									"presentation" : 1,
@@ -1054,8 +1036,6 @@
 									}
 ,
 									"textcolor" : [ 1.0, 1.0, 1.0, 0.7 ],
-									"tribordercolor" : [ 0.196078, 0.196078, 0.196078, 1.0 ],
-									"tricolor" : [ 0.6, 0.6, 0.6, 1.0 ],
 									"varname" : "Attack"
 								}
 
@@ -1084,7 +1064,6 @@
 									"activetextcolor" : [ 1.0, 1.0, 1.0, 0.57 ],
 									"activetextoncolor" : [ 0.0, 0.019608, 0.078431, 1.0 ],
 									"bgcolor" : [ 0.101961, 0.101961, 0.101961, 0.78 ],
-									"bgoncolor" : [ 0.490196, 0.482353, 0.478431, 1.0 ],
 									"bordercolor" : [ 0.0, 0.019608, 0.078431, 0.37 ],
 									"id" : "obj-12",
 									"maxclass" : "live.text",
@@ -1709,7 +1688,7 @@
 					}
 ,
 					"patching_rect" : [ 0.0, 0.0, 339.0, 116.0 ],
-					"varname" : "patcher",
+					"varname" : "Compressor",
 					"viewvisibility" : 1
 				}
 
@@ -1717,22 +1696,22 @@
  ],
 		"lines" : [  ],
 		"parameters" : 		{
-			"obj-162::obj-12" : [ "Bypass", "Bypass", 0 ],
 			"obj-162::obj-52" : [ "Threshold", "Threshold", 0 ],
-			"obj-162::obj-35" : [ "slider[2]", "slider[2]", 0 ],
-			"obj-162::obj-2" : [ "Output", "Output", 0 ],
-			"obj-162::obj-15::obj-2" : [ "live.toggle", "live.toggle", 0 ],
-			"obj-162::obj-34" : [ "slider[3]", "slider[3]", 0 ],
-			"obj-162::obj-28" : [ "Attack", "Attack", 0 ],
-			"obj-162::obj-44" : [ "Input", "Input", 0 ],
+			"obj-162::obj-15::obj-2" : [ "pastebang", "pastebang", 0 ],
 			"obj-162::obj-78" : [ "Ratio", "Ratio", 0 ],
-			"obj-162::obj-47" : [ "Release", "Release", 0 ]
+			"obj-162::obj-28" : [ "Attack", "Attack", 0 ],
+			"obj-162::obj-35" : [ "slider[2]", "slider[2]", 0 ],
+			"obj-162::obj-44" : [ "Input", "Input", 0 ],
+			"obj-162::obj-47" : [ "Release", "Release", 0 ],
+			"obj-162::obj-2" : [ "Output", "Output", 0 ],
+			"obj-162::obj-12" : [ "Bypass", "Bypass", 0 ],
+			"obj-162::obj-34" : [ "slider[3]", "slider[3]", 0 ]
 		}
 ,
 		"dependency_cache" : [ 			{
 				"name" : "pastebang.maxpat",
-				"bootpath" : "/Applications/Max 7/Max.app/Contents/Resources/C74/packages/Beap/misc",
-				"patcherrelativepath" : "../../../../../../../Applications/Max 7/Max.app/Contents/Resources/C74/packages/Beap/misc",
+				"bootpath" : "/Applications/Max.app/Contents/Resources/C74/packages/Beap/misc",
+				"patcherrelativepath" : "../../../../../../../Applications/Max.app/Contents/Resources/C74/packages/Beap/misc",
 				"type" : "JSON",
 				"implicit" : 1
 			}

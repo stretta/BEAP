@@ -4,12 +4,12 @@
 		"appversion" : 		{
 			"major" : 7,
 			"minor" : 0,
-			"revision" : 0,
+			"revision" : 1,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 34.0, 78.0, 1212.0, 641.0 ],
+		"rect" : [ 34.0, 78.0, 862.0, 641.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -18,6 +18,7 @@
 		"gridonopen" : 1,
 		"gridsize" : [ 15.0, 15.0 ],
 		"gridsnaponopen" : 1,
+		"objectsnaponopen" : 1,
 		"statusbarvisible" : 1,
 		"toolbarvisible" : 1,
 		"lefttoolbarpinned" : 0,
@@ -34,6 +35,7 @@
 		"digest" : "",
 		"tags" : "",
 		"style" : "",
+		"subpatcher_template" : "",
 		"boxes" : [ 			{
 				"box" : 				{
 					"bgmode" : 0,
@@ -54,7 +56,7 @@
 						"appversion" : 						{
 							"major" : 7,
 							"minor" : 0,
-							"revision" : 0,
+							"revision" : 1,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -69,6 +71,7 @@
 						"gridonopen" : 1,
 						"gridsize" : [ 15.0, 15.0 ],
 						"gridsnaponopen" : 1,
+						"objectsnaponopen" : 1,
 						"statusbarvisible" : 1,
 						"toolbarvisible" : 1,
 						"lefttoolbarpinned" : 0,
@@ -85,6 +88,7 @@
 						"digest" : "",
 						"tags" : "",
 						"style" : "",
+						"subpatcher_template" : "",
 						"boxes" : [ 							{
 								"box" : 								{
 									"id" : "obj-43",
@@ -1352,7 +1356,7 @@
 ,
 									"style" : "",
 									"text" : "autopattr",
-									"varname" : "u528000485"
+									"varname" : "u312003614"
 								}
 
 							}
@@ -2129,7 +2133,7 @@
 					}
 ,
 					"patching_rect" : [ 0.0, 0.0, 558.0, 223.0 ],
-					"varname" : "MMF",
+					"varname" : "ClassroomFilter",
 					"viewvisibility" : 1
 				}
 
@@ -2137,15 +2141,15 @@
  ],
 		"lines" : [  ],
 		"parameters" : 		{
-			"obj-38::obj-55" : [ "power", "power", 0 ],
 			"obj-38::obj-98" : [ "Gain", "Gain", 0 ],
-			"obj-38::obj-63" : [ "CV3", "CV3", 0 ],
 			"obj-38::obj-54" : [ "CV1", "CV1", 0 ],
-			"obj-38::obj-11" : [ "Resonance", "Res", 0 ],
-			"obj-38::obj-95" : [ "Freq", "Freq", 0 ],
+			"obj-38::obj-59" : [ "filter_mode", "filter_mode", 0 ],
+			"obj-38::obj-63" : [ "CV3", "CV3", 0 ],
 			"obj-38::obj-26" : [ "spectral", "spectral", 0 ],
 			"obj-38::obj-51" : [ "CV2", "CV2", 0 ],
-			"obj-38::obj-59" : [ "filter_mode", "filter_mode", 0 ]
+			"obj-38::obj-55" : [ "power", "power", 0 ],
+			"obj-38::obj-95" : [ "Freq", "Freq", 0 ],
+			"obj-38::obj-11" : [ "Resonance", "Res", 0 ]
 		}
 ,
 		"dependency_cache" : [  ],

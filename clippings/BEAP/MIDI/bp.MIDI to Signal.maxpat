@@ -4,12 +4,12 @@
 		"appversion" : 		{
 			"major" : 7,
 			"minor" : 0,
-			"revision" : 0,
+			"revision" : 1,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 34.0, 78.0, 1212.0, 641.0 ],
+		"rect" : [ 34.0, 78.0, 862.0, 641.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -35,6 +35,7 @@
 		"digest" : "",
 		"tags" : "",
 		"style" : "",
+		"subpatcher_template" : "",
 		"boxes" : [ 			{
 				"box" : 				{
 					"bgmode" : 0,
@@ -55,7 +56,7 @@
 						"appversion" : 						{
 							"major" : 7,
 							"minor" : 0,
-							"revision" : 0,
+							"revision" : 1,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -87,6 +88,7 @@
 						"digest" : "",
 						"tags" : "",
 						"style" : "",
+						"subpatcher_template" : "",
 						"boxes" : [ 							{
 								"box" : 								{
 									"id" : "obj-14",
@@ -560,8 +562,6 @@
 									"bgfillcolor_color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
 									"bgfillcolor_proportion" : 0.39,
 									"bgfillcolor_type" : "color",
-									"fontface" : 0,
-									"fontname" : "Arial",
 									"fontsize" : 10.0,
 									"id" : "obj-47",
 									"items" : [ "Last", "Note", "Priority", ",", "High", "Note", "Priority", ",", "Low", "Note", "Priority" ],
@@ -588,8 +588,6 @@
 									"bgfillcolor_color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
 									"bgfillcolor_proportion" : 0.39,
 									"bgfillcolor_type" : "color",
-									"fontface" : 0,
-									"fontname" : "Arial",
 									"fontsize" : 10.0,
 									"id" : "obj-34",
 									"items" : [ "Retrigger", ",", "Legato", ",", "Last", "Step" ],
@@ -818,7 +816,7 @@
 ,
 									"style" : "",
 									"text" : "autopattr",
-									"varname" : "u216002131"
+									"varname" : "u923008090"
 								}
 
 							}
@@ -1428,7 +1426,7 @@
 					}
 ,
 					"patching_rect" : [ 0.0, 0.0, 163.0, 116.0 ],
-					"varname" : "MIDI",
+					"varname" : "MIDI_to_Signal",
 					"viewvisibility" : 1
 				}
 
@@ -1436,9 +1434,9 @@
  ],
 		"lines" : [  ],
 		"parameters" : 		{
+			"obj-41::obj-20" : [ "ModWheelActivityLED", "ModWheelActivityLED", 0 ],
 			"obj-41::obj-69" : [ "1voctled", "1voctled", 0 ],
-			"obj-41::obj-28" : [ "Bend", "Bend", 0 ],
-			"obj-41::obj-20" : [ "ModWheelActivityLED", "ModWheelActivityLED", 0 ]
+			"obj-41::obj-28" : [ "Bend", "Bend", 0 ]
 		}
 ,
 		"dependency_cache" : [  ],

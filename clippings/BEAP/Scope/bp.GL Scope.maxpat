@@ -4,8 +4,8 @@
 		"appversion" : 		{
 			"major" : 7,
 			"minor" : 0,
-			"revision" : 0,
-			"architecture" : "x86",
+			"revision" : 1,
+			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
@@ -35,6 +35,7 @@
 		"digest" : "",
 		"tags" : "",
 		"style" : "",
+		"subpatcher_template" : "",
 		"boxes" : [ 			{
 				"box" : 				{
 					"bgmode" : 0,
@@ -55,8 +56,8 @@
 						"appversion" : 						{
 							"major" : 7,
 							"minor" : 0,
-							"revision" : 0,
-							"architecture" : "x86",
+							"revision" : 1,
+							"architecture" : "x64",
 							"modernui" : 1
 						}
 ,
@@ -87,7 +88,59 @@
 						"digest" : "",
 						"tags" : "",
 						"style" : "",
+						"subpatcher_template" : "",
 						"boxes" : [ 							{
+								"box" : 								{
+									"id" : "obj-18",
+									"maxclass" : "message",
+									"numinlets" : 2,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 393.0, 330.0, 95.0, 22.0 ],
+									"style" : "",
+									"text" : "downsample $1"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"activedialcolor" : [ 0.278431, 0.839216, 1.0, 1.0 ],
+									"activeneedlecolor" : [ 1.0, 1.0, 1.0, 0.4 ],
+									"annotation" : "",
+									"bordercolor" : [ 1.0, 1.0, 1.0, 0.2 ],
+									"focusbordercolor" : [ 1.0, 1.0, 1.0, 0.2 ],
+									"id" : "obj-51",
+									"maxclass" : "live.dial",
+									"needlecolor" : [ 0.752941, 0.784314, 0.839216, 1.0 ],
+									"numinlets" : 1,
+									"numoutlets" : 2,
+									"outlettype" : [ "", "float" ],
+									"parameter_enable" : 1,
+									"patching_rect" : [ 393.0, 247.985474, 44.0, 47.0 ],
+									"presentation" : 1,
+									"presentation_rect" : [ 81.0, 42.5, 44.0, 47.0 ],
+									"prototypename" : "freq",
+									"saved_attribute_attributes" : 									{
+										"valueof" : 										{
+											"parameter_longname" : "Rate",
+											"parameter_shortname" : "Rate",
+											"parameter_type" : 1,
+											"parameter_mmax" : 100.0,
+											"parameter_initial_enable" : 1,
+											"parameter_initial" : [ 50 ],
+											"parameter_unitstyle" : 0,
+											"parameter_speedlim" : 0.0,
+											"parameter_annotation_name" : "Rate"
+										}
+
+									}
+,
+									"textcolor" : [ 1.0, 1.0, 1.0, 0.6 ],
+									"varname" : "Rate"
+								}
+
+							}
+, 							{
 								"box" : 								{
 									"id" : "obj-5",
 									"maxclass" : "newobj",
@@ -130,13 +183,13 @@
 								"box" : 								{
 									"id" : "obj-10",
 									"maxclass" : "jit.pwindow",
-									"name" : "1184_display",
+									"name" : "1722_display",
 									"numinlets" : 1,
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
-									"patching_rect" : [ 39.0, 330.407501, 129.0, 116.0 ],
+									"patching_rect" : [ 39.0, 330.407501, 54.0, 54.0 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 6.0, 40.0, 129.0, 54.0 ]
+									"presentation_rect" : [ 5.0, 40.0, 75.0, 54.0 ]
 								}
 
 							}
@@ -294,9 +347,13 @@
 									"numoutlets" : 4,
 									"outlettype" : [ "", "", "", "" ],
 									"patching_rect" : [ 39.0, 121.0, 59.5, 22.0 ],
+									"restore" : 									{
+										"Rate" : [ 50.0 ]
+									}
+,
 									"style" : "",
 									"text" : "autopattr",
-									"varname" : "u860003958"
+									"varname" : "u949002617"
 								}
 
 							}
@@ -439,6 +496,15 @@
 							}
 , 							{
 								"patchline" : 								{
+									"destination" : [ "obj-47", 0 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-18", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
 									"destination" : [ "obj-101", 0 ],
 									"disabled" : 0,
 									"hidden" : 0,
@@ -466,6 +532,15 @@
 							}
 , 							{
 								"patchline" : 								{
+									"destination" : [ "obj-18", 0 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-51", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
 									"destination" : [ "obj-9", 0 ],
 									"disabled" : 0,
 									"hidden" : 0,
@@ -486,7 +561,7 @@
 					}
 ,
 					"patching_rect" : [ 0.0, 0.0, 141.0, 116.0 ],
-					"varname" : "Scope",
+					"varname" : "GLScope",
 					"viewvisibility" : 1
 				}
 
@@ -494,7 +569,8 @@
  ],
 		"lines" : [  ],
 		"parameters" : 		{
-			"obj-3::obj-5::obj-2" : [ "pastebang", "pastebang", 0 ]
+			"obj-3::obj-5::obj-2" : [ "pastebang", "pastebang", 0 ],
+			"obj-3::obj-51" : [ "Rate", "Rate", 0 ]
 		}
 ,
 		"dependency_cache" : [ 			{

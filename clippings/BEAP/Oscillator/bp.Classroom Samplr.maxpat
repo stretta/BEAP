@@ -4,12 +4,12 @@
 		"appversion" : 		{
 			"major" : 7,
 			"minor" : 0,
-			"revision" : 0,
+			"revision" : 1,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 34.0, 78.0, 1003.0, 515.0 ],
+		"rect" : [ 34.0, 78.0, 862.0, 515.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -35,6 +35,7 @@
 		"digest" : "",
 		"tags" : "",
 		"style" : "",
+		"subpatcher_template" : "",
 		"boxes" : [ 			{
 				"box" : 				{
 					"bgmode" : 0,
@@ -55,12 +56,12 @@
 						"appversion" : 						{
 							"major" : 7,
 							"minor" : 0,
-							"revision" : 0,
+							"revision" : 1,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
 ,
-						"rect" : [ 35.0, 79.0, 440.0, 238.0 ],
+						"rect" : [ 34.0, 78.0, 882.0, 479.0 ],
 						"bgcolor" : [ 1.0, 1.0, 1.0, 0.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 1,
@@ -87,6 +88,7 @@
 						"digest" : "",
 						"tags" : "",
 						"style" : "",
+						"subpatcher_template" : "",
 						"boxes" : [ 							{
 								"box" : 								{
 									"id" : "obj-206",
@@ -309,10 +311,9 @@
 									"bgfillcolor_proportion" : 0.39,
 									"bgfillcolor_type" : "color",
 									"fontface" : 1,
-									"fontname" : "Arial",
 									"fontsize" : 9.0,
 									"id" : "obj-292",
-									"items" : [ "Get from...", ",", 1014 ],
+									"items" : [ "Get from...", ",", 1508 ],
 									"maxclass" : "umenu",
 									"numinlets" : 1,
 									"numoutlets" : 3,
@@ -497,10 +498,9 @@
 									"bgfillcolor_proportion" : 0.39,
 									"bgfillcolor_type" : "color",
 									"fontface" : 1,
-									"fontname" : "Arial",
 									"fontsize" : 9.0,
 									"id" : "obj-203",
-									"items" : [ "Send to...", ",", 1014 ],
+									"items" : [ "Send to...", ",", 1508 ],
 									"maxclass" : "umenu",
 									"numinlets" : 1,
 									"numoutlets" : 3,
@@ -1225,7 +1225,7 @@
 ,
 									"style" : "",
 									"text" : "autopattr",
-									"varname" : "u178000709"
+									"varname" : "u303010370"
 								}
 
 							}
@@ -2301,7 +2301,6 @@
 									"bgfillcolor_proportion" : 0.39,
 									"bgfillcolor_type" : "color",
 									"fontface" : 1,
-									"fontname" : "Arial",
 									"fontsize" : 10.0,
 									"id" : "obj-329",
 									"items" : [ "()", ",", "Crop", ",", "Fade", "In", ",", "Fade", "Out", ",", "Normalize", ",", "Process..." ],
@@ -2402,7 +2401,6 @@
 									"bgfillcolor_proportion" : 0.39,
 									"bgfillcolor_type" : "color",
 									"fontface" : 1,
-									"fontname" : "Arial",
 									"fontsize" : 10.0,
 									"id" : "obj-313",
 									"items" : [ "()", ",", "Undo", "Selection", ",", "-", ",", "(Cut)", ",", "(Copy)", ",", "(Paste)", ",", "Clear", ",", "-", ",", "Select", "All" ],
@@ -2864,7 +2862,6 @@
 									"bgfillcolor_proportion" : 0.39,
 									"bgfillcolor_type" : "color",
 									"fontface" : 1,
-									"fontname" : "Arial",
 									"fontsize" : 10.0,
 									"id" : "obj-80",
 									"items" : [ "()", ",", "New...", ",", "Open...", ",", "Import...", ",", "Replace...", ",", "-", ",", "Save..." ],
@@ -3018,7 +3015,7 @@
 										"appversion" : 										{
 											"major" : 7,
 											"minor" : 0,
-											"revision" : 0,
+											"revision" : 1,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -3049,6 +3046,7 @@
 										"digest" : "",
 										"tags" : "",
 										"style" : "",
+										"subpatcher_template" : "",
 										"boxes" : [ 											{
 												"box" : 												{
 													"fontname" : "Arial",
@@ -3234,7 +3232,7 @@
 										"appversion" : 										{
 											"major" : 7,
 											"minor" : 0,
-											"revision" : 0,
+											"revision" : 1,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -3265,6 +3263,7 @@
 										"digest" : "",
 										"tags" : "",
 										"style" : "",
+										"subpatcher_template" : "",
 										"boxes" : [ 											{
 												"box" : 												{
 													"fontname" : "Arial",
@@ -4590,6 +4589,7 @@
 							}
 , 							{
 								"box" : 								{
+									"fontface" : 0,
 									"fontname" : "Arial",
 									"fontsize" : 12.0,
 									"id" : "obj-45",
@@ -4597,9 +4597,9 @@
 									"numinlets" : 1,
 									"numoutlets" : 2,
 									"outlettype" : [ "float", "bang" ],
-									"patching_rect" : [ 2671.904053, 1563.811401, 177.0, 22.0 ],
+									"patching_rect" : [ 2671.904053, 1563.811401, 148.0, 22.0 ],
 									"style" : "",
-									"text" : "buffer~ #0_temp_buffer 1000"
+									"text" : "buffer~ #0_temp_buffer"
 								}
 
 							}
@@ -6401,7 +6401,6 @@
 									"saved_object_attributes" : 									{
 										"basictuning" : 440,
 										"followglobaltempo" : 0,
-										"formant" : [ 1.0 ],
 										"formantcorrection" : 0,
 										"loopend" : [ 0.0, "ms" ],
 										"loopstart" : [ 0.0, "ms" ],
@@ -9563,7 +9562,7 @@
 					}
 ,
 					"patching_rect" : [ 0.0, 0.0, 882.0, 479.0 ],
-					"varname" : "patcher",
+					"varname" : "ClassroomSampler",
 					"viewvisibility" : 1
 				}
 
@@ -9571,36 +9570,36 @@
  ],
 		"lines" : [  ],
 		"parameters" : 		{
-			"obj-2::obj-360" : [ "live.text[11]", "live.text", 0 ],
-			"obj-2::obj-120" : [ "live.text[16]", "live.text", 0 ],
-			"obj-2::obj-179" : [ "live.text[28]", "live.text", 0 ],
-			"obj-2::obj-145" : [ "live.text[7]", "live.text", 0 ],
-			"obj-2::obj-169" : [ "live.menu[2]", "live.menu", 0 ],
-			"obj-2::obj-114" : [ "live.text[30]", "live.text", 0 ],
-			"obj-2::obj-163" : [ "live.text[14]", "live.text", 0 ],
-			"obj-2::obj-140" : [ "live.text[5]", "live.text", 0 ],
 			"obj-2::obj-108" : [ "snap", "live.tab", 0 ],
-			"obj-2::obj-186" : [ "selectiontype", "live.tab[4]", 0 ],
-			"obj-2::obj-118" : [ "live.text[17]", "live.text", 0 ],
-			"obj-2::obj-87" : [ "mode", "live.tab", 0 ],
-			"obj-2::obj-98" : [ "live.text[26]", "live.text", 0 ],
-			"obj-2::obj-283" : [ "live.text[3]", "live.text", 0 ],
-			"obj-2::obj-117" : [ "live.numbox", "live.numbox", 0 ],
-			"obj-2::obj-6" : [ "zoom_zero", "live.text", 0 ],
-			"obj-2::obj-146" : [ "live.text[8]", "live.text", 0 ],
-			"obj-2::obj-135" : [ "live.text[27]", "live.text", 0 ],
-			"obj-2::obj-138" : [ "live.numbox[1]", "live.numbox", 0 ],
-			"obj-2::obj-106" : [ "units", "live.tab", 0 ],
-			"obj-2::obj-148" : [ "live.text[10]", "live.text", 0 ],
-			"obj-2::obj-71" : [ "live.text[24]", "live.text", 0 ],
-			"obj-2::obj-88" : [ "live.text[15]", "live.text", 0 ],
-			"obj-2::obj-141" : [ "live.text[6]", "live.text", 0 ],
-			"obj-2::obj-43" : [ "Loop", "Loop", 0 ],
-			"obj-2::obj-170" : [ "live.menu[1]", "live.menu", 0 ],
-			"obj-2::obj-160" : [ "live.text[13]", "live.text", 0 ],
-			"obj-2::obj-119" : [ "live.text[29]", "live.text", 0 ],
+			"obj-2::obj-179" : [ "live.text[28]", "live.text", 0 ],
 			"obj-2::obj-147" : [ "live.text[9]", "live.text", 0 ],
-			"obj-2::obj-143" : [ "live.numbox[2]", "live.numbox", 0 ]
+			"obj-2::obj-106" : [ "units", "live.tab", 0 ],
+			"obj-2::obj-43" : [ "Loop", "Loop", 0 ],
+			"obj-2::obj-160" : [ "live.text[13]", "live.text", 0 ],
+			"obj-2::obj-6" : [ "zoom_zero", "live.text", 0 ],
+			"obj-2::obj-145" : [ "live.text[7]", "live.text", 0 ],
+			"obj-2::obj-117" : [ "live.numbox", "live.numbox", 0 ],
+			"obj-2::obj-169" : [ "live.menu[2]", "live.menu", 0 ],
+			"obj-2::obj-360" : [ "live.text[11]", "live.text", 0 ],
+			"obj-2::obj-143" : [ "live.numbox[2]", "live.numbox", 0 ],
+			"obj-2::obj-120" : [ "live.text[16]", "live.text", 0 ],
+			"obj-2::obj-140" : [ "live.text[5]", "live.text", 0 ],
+			"obj-2::obj-71" : [ "live.text[24]", "live.text", 0 ],
+			"obj-2::obj-135" : [ "live.text[27]", "live.text", 0 ],
+			"obj-2::obj-98" : [ "live.text[26]", "live.text", 0 ],
+			"obj-2::obj-163" : [ "live.text[14]", "live.text", 0 ],
+			"obj-2::obj-186" : [ "selectiontype", "live.tab[4]", 0 ],
+			"obj-2::obj-146" : [ "live.text[8]", "live.text", 0 ],
+			"obj-2::obj-87" : [ "mode", "live.tab", 0 ],
+			"obj-2::obj-114" : [ "live.text[30]", "live.text", 0 ],
+			"obj-2::obj-141" : [ "live.text[6]", "live.text", 0 ],
+			"obj-2::obj-170" : [ "live.menu[1]", "live.menu", 0 ],
+			"obj-2::obj-119" : [ "live.text[29]", "live.text", 0 ],
+			"obj-2::obj-283" : [ "live.text[3]", "live.text", 0 ],
+			"obj-2::obj-148" : [ "live.text[10]", "live.text", 0 ],
+			"obj-2::obj-118" : [ "live.text[17]", "live.text", 0 ],
+			"obj-2::obj-88" : [ "live.text[15]", "live.text", 0 ],
+			"obj-2::obj-138" : [ "live.numbox[1]", "live.numbox", 0 ]
 		}
 ,
 		"dependency_cache" : [  ],
