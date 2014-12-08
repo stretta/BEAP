@@ -135,6 +135,20 @@
 										"subpatcher_template" : "",
 										"boxes" : [ 											{
 												"box" : 												{
+													"id" : "obj-3",
+													"maxclass" : "newobj",
+													"numinlets" : 4,
+													"numoutlets" : 1,
+													"outlettype" : [ "" ],
+													"patching_rect" : [ 27.25, 224.950439, 54.0, 22.0 ],
+													"presentation_rect" : [ 27.25, 224.950439, 0.0, 0.0 ],
+													"style" : "",
+													"text" : "switch 3"
+												}
+
+											}
+, 											{
+												"box" : 												{
 													"id" : "obj-2",
 													"maxclass" : "newobj",
 													"numinlets" : 1,
@@ -424,6 +438,15 @@
 											}
 , 											{
 												"patchline" : 												{
+													"destination" : [ "obj-30", 0 ],
+													"disabled" : 0,
+													"hidden" : 0,
+													"source" : [ "obj-21", 0 ]
+												}
+
+											}
+, 											{
+												"patchline" : 												{
 													"destination" : [ "obj-48", 1 ],
 													"disabled" : 0,
 													"hidden" : 0,
@@ -460,6 +483,15 @@
 											}
 , 											{
 												"patchline" : 												{
+													"destination" : [ "obj-30", 0 ],
+													"disabled" : 0,
+													"hidden" : 0,
+													"source" : [ "obj-25", 0 ]
+												}
+
+											}
+, 											{
+												"patchline" : 												{
 													"destination" : [ "obj-49", 1 ],
 													"disabled" : 0,
 													"hidden" : 0,
@@ -478,7 +510,7 @@
 											}
 , 											{
 												"patchline" : 												{
-													"destination" : [ "obj-37", 0 ],
+													"destination" : [ "obj-3", 1 ],
 													"disabled" : 0,
 													"hidden" : 0,
 													"source" : [ "obj-28", 0 ]
@@ -491,6 +523,15 @@
 													"disabled" : 0,
 													"hidden" : 0,
 													"source" : [ "obj-29", 0 ]
+												}
+
+											}
+, 											{
+												"patchline" : 												{
+													"destination" : [ "obj-37", 0 ],
+													"disabled" : 0,
+													"hidden" : 0,
+													"source" : [ "obj-3", 0 ]
 												}
 
 											}
@@ -626,6 +667,15 @@
 													"disabled" : 0,
 													"hidden" : 0,
 													"source" : [ "obj-54", 1 ]
+												}
+
+											}
+, 											{
+												"patchline" : 												{
+													"destination" : [ "obj-3", 0 ],
+													"disabled" : 0,
+													"hidden" : 0,
+													"source" : [ "obj-54", 0 ]
 												}
 
 											}
@@ -2777,7 +2827,7 @@
 										"LoopStart" : [ 4.0 ],
 										"Pulse" : [ 4.0 ],
 										"Reset" : [ 0.0 ],
-										"Sequence" : [ 0.0, 0.0, 0.228813, 0.415254, 0.563651, 0.0, 0.0, 0.0, 0.213168, 0.110169, 0.474576, 0.432203, 0.381356, 0.0, 0.0, 0.0 ],
+										"Sequence" : [ 0.0, 0.0, 0.228813, 0.415254, 0.563651, 0.0, 0.0, 0.0, 0.213168, 0.11017, 0.474577, 0.432204, 0.381356, 0.0, 0.0, 0.0 ],
 										"Sync" : [ 0.0 ],
 										"max pulse[1]" : [ 13.0 ],
 										"mute" : [ 0.0 ],
@@ -2787,7 +2837,7 @@
 ,
 									"style" : "",
 									"text" : "autopattr",
-									"varname" : "u090001463"
+									"varname" : "u873003150"
 								}
 
 							}
@@ -3396,6 +3446,25 @@
 									"source" : [ "obj-96", 0 ]
 								}
 
+							}
+ ],
+						"styles" : [ 							{
+								"name" : "AudioStatus_Menu",
+								"default" : 								{
+									"bgfillcolor" : 									{
+										"type" : "color",
+										"color" : [ 0.294118, 0.313726, 0.337255, 1 ],
+										"color1" : [ 0.454902, 0.462745, 0.482353, 0.0 ],
+										"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
+										"angle" : 270.0,
+										"proportion" : 0.39,
+										"autogradient" : 0
+									}
+
+								}
+,
+								"parentstyle" : "",
+								"multi" : 0
 							}
  ]
 					}
