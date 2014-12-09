@@ -96,7 +96,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 26.173828, 79.5, 383.0, 20.0 ],
+									"patching_rect" : [ 26.173828, 79.5, 379.0, 20.0 ],
 									"style" : "",
 									"text" : "## Attack hold decay envelope with voltage controlled parameters ## "
 								}
@@ -190,7 +190,8 @@
 									"parameter_enable" : 0,
 									"patching_rect" : [ 264.430481, 399.713196, 10.243361, 10.197549 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 24.950989, 1.62315, 10.049012, 10.748189 ],
+									"presentation_rect" : [ 24.950989, 5.0, 6.0, 6.0 ],
+									"rounded" : 8.0,
 									"style" : "",
 									"text" : ""
 								}
@@ -724,7 +725,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 636.673889, 528.910767, 37.0, 17.0 ],
+									"patching_rect" : [ 636.673889, 528.910767, 30.0, 17.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 94.0, -0.37685, 30.0, 17.0 ],
 									"style" : "",
@@ -1533,7 +1534,7 @@
 ,
 									"style" : "",
 									"text" : "autopattr",
-									"varname" : "u432002940"
+									"varname" : "u332005349"
 								}
 
 							}
@@ -1579,7 +1580,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 26.173828, 55.29892, 48.0, 17.0 ],
+									"patching_rect" : [ 26.173828, 55.29892, 30.0, 17.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 2.0, 19.0, 30.0, 17.0 ],
 									"style" : "",
@@ -1590,58 +1591,23 @@
 							}
 , 							{
 								"box" : 								{
-									"angle" : 0.0,
 									"background" : 1,
-									"bgcolor" : [ 0.137255, 0.145098, 0.160784, 0.65 ],
-									"id" : "obj-130",
-									"maxclass" : "panel",
-									"mode" : 0,
-									"numinlets" : 1,
+									"bgmode" : 0,
+									"border" : 0,
+									"clickthrough" : 0,
+									"enablehscroll" : 0,
+									"enablevscroll" : 0,
+									"id" : "obj-15",
+									"lockeddragscroll" : 0,
+									"maxclass" : "bpatcher",
+									"name" : "background_sm.maxpat",
+									"numinlets" : 0,
 									"numoutlets" : 0,
-									"patching_rect" : [ 26.173828, 42.529999, 37.0, 5.0 ],
+									"offset" : [ 0.0, 0.0 ],
+									"patching_rect" : [ 26.173828, 38.0, 239.0, 10.0 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 0.0, 35.62315, 283.0, 60.338158 ],
-									"proportion" : 0.39,
-									"rounded" : 0,
-									"style" : ""
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"angle" : 0.0,
-									"background" : 1,
-									"bgcolor" : [ 0.367404, 0.389405, 0.430238, 1.0 ],
-									"id" : "obj-131",
-									"maxclass" : "panel",
-									"mode" : 0,
-									"numinlets" : 1,
-									"numoutlets" : 0,
-									"patching_rect" : [ 72.447144, 42.529999, 37.0, 5.0 ],
-									"presentation" : 1,
-									"presentation_rect" : [ 0.0, 15.62315, 283.0, 80.338158 ],
-									"proportion" : 0.39,
-									"rounded" : 0,
-									"style" : ""
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"angle" : 0.0,
-									"background" : 1,
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-									"id" : "obj-135",
-									"maxclass" : "panel",
-									"mode" : 0,
-									"numinlets" : 1,
-									"numoutlets" : 0,
-									"patching_rect" : [ 117.055702, 42.529999, 37.0, 5.0 ],
-									"presentation" : 1,
-									"presentation_rect" : [ 0.0, -1.37685, 283.0, 133.0 ],
-									"proportion" : 0.39,
-									"rounded" : 0,
-									"style" : ""
+									"presentation_rect" : [ 0.0, 0.0, 186.0, 132.0 ],
+									"viewvisibility" : 1
 								}
 
 							}
@@ -1944,7 +1910,14 @@
 			"obj-10::obj-45" : [ "Attack", "Attack", 0 ]
 		}
 ,
-		"dependency_cache" : [  ],
+		"dependency_cache" : [ 			{
+				"name" : "background_sm.maxpat",
+				"bootpath" : "/Applications/Max.app/Contents/Resources/C74/packages/Beap/misc",
+				"patcherrelativepath" : "../../../../../../../Applications/Max.app/Contents/Resources/C74/packages/Beap/misc",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+ ],
 		"embedsnapshot" : 0
 	}
 
