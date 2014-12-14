@@ -96,9 +96,9 @@
 									"numinlets" : 3,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 2740.666504, 466.0, 132.0, 22.0 ],
+									"patching_rect" : [ 2740.666504, 466.0, 142.0, 22.0 ],
 									"style" : "",
-									"text" : "bp.arc.knob 1 indicator"
+									"text" : "bp.arc.knob 1 0 indicator"
 								}
 
 							}
@@ -110,7 +110,6 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 2740.666504, 410.0, 143.0, 22.0 ],
-									"presentation_rect" : [ 2669.0, 416.0, 0.0, 0.0 ],
 									"style" : "",
 									"text" : "scale -2500 2500 28 499"
 								}
@@ -123,9 +122,9 @@
 									"numinlets" : 3,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 2420.0, 466.0, 132.0, 22.0 ],
+									"patching_rect" : [ 2420.0, 466.0, 142.0, 22.0 ],
 									"style" : "",
-									"text" : "bp.arc.knob 0 indicator"
+									"text" : "bp.arc.knob 0 0 indicator"
 								}
 
 							}
@@ -2475,7 +2474,7 @@
 ,
 									"style" : "",
 									"text" : "autopattr",
-									"varname" : "u502008936"
+									"varname" : "u444005188"
 								}
 
 							}
@@ -3775,13 +3774,13 @@
  ],
 		"lines" : [  ],
 		"parameters" : 		{
+			"obj-38::obj-73" : [ "analyzing", "analyzing", 0 ],
+			"obj-38::obj-105::obj-2" : [ "pastebang", "pastebang", 0 ],
+			"obj-38::obj-28" : [ "Offset", "Offset", 0 ],
 			"obj-38::obj-3" : [ "Position", "Position", 0 ],
 			"obj-38::obj-19" : [ "CV2", "CV2", 0 ],
 			"obj-38::obj-12" : [ "Mute", "Mute", 0 ],
-			"obj-38::obj-25" : [ "CV", "CV", 0 ],
-			"obj-38::obj-73" : [ "analyzing", "analyzing", 0 ],
-			"obj-38::obj-28" : [ "Offset", "Offset", 0 ],
-			"obj-38::obj-105::obj-2" : [ "pastebang", "pastebang", 0 ]
+			"obj-38::obj-25" : [ "CV", "CV", 0 ]
 		}
 ,
 		"dependency_cache" : [ 			{
