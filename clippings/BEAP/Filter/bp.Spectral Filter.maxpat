@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 34.0, 78.0, 871.0, 641.0 ],
+		"rect" : [ 34.0, 79.0, 871.0, 641.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -61,7 +61,7 @@
 							"modernui" : 1
 						}
 ,
-						"rect" : [ 34.0, 78.0, 363.0, 116.0 ],
+						"rect" : [ 34.0, 79.0, 363.0, 116.0 ],
 						"bgcolor" : [ 1.0, 1.0, 1.0, 0.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 1,
@@ -731,6 +731,25 @@
 													"source" : [ "obj-7", 0 ]
 												}
 
+											}
+ ],
+										"styles" : [ 											{
+												"name" : "AudioStatus_Menu",
+												"default" : 												{
+													"bgfillcolor" : 													{
+														"type" : "color",
+														"color" : [ 0.294118, 0.313726, 0.337255, 1 ],
+														"color1" : [ 0.454902, 0.462745, 0.482353, 0.0 ],
+														"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
+														"angle" : 270.0,
+														"proportion" : 0.39,
+														"autogradient" : 0
+													}
+
+												}
+,
+												"parentstyle" : "",
+												"multi" : 0
 											}
  ]
 									}
@@ -2183,9 +2202,9 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "float" ],
-									"patching_rect" : [ 492.363098, 368.732758, 83.0, 22.0 ],
+									"patching_rect" : [ 492.363098, 368.732758, 76.0, 22.0 ],
 									"style" : "",
-									"text" : "snapshot~ 20"
+									"text" : "snapshot~ 5"
 								}
 
 							}
@@ -2259,7 +2278,7 @@
 ,
 									"style" : "",
 									"text" : "autopattr",
-									"varname" : "u557002737"
+									"varname" : "u298004354"
 								}
 
 							}
@@ -2516,9 +2535,9 @@
  ],
 		"lines" : [  ],
 		"parameters" : 		{
-			"obj-6::obj-80" : [ "EditMode", "EditMode", 0 ],
 			"obj-6::obj-2" : [ "Response", "Response", 0 ],
 			"obj-6::obj-63::obj-8" : [ "StealthInit", "StealthInit", 0 ],
+			"obj-6::obj-80" : [ "EditMode", "EditMode", 0 ],
 			"obj-6::obj-7" : [ "bypass", "bypass", 0 ]
 		}
 ,

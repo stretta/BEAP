@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 34.0, 78.0, 871.0, 645.0 ],
+		"rect" : [ 34.0, 79.0, 871.0, 645.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -61,7 +61,7 @@
 							"modernui" : 1
 						}
 ,
-						"rect" : [ 34.0, 78.0, 230.0, 116.0 ],
+						"rect" : [ 34.0, 79.0, 230.0, 116.0 ],
 						"bgcolor" : [ 1.0, 1.0, 1.0, 0.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 1,
@@ -1010,9 +1010,9 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "float" ],
-									"patching_rect" : [ 563.694824, 275.253479, 83.0, 22.0 ],
+									"patching_rect" : [ 563.694824, 275.253479, 76.0, 22.0 ],
 									"style" : "",
-									"text" : "snapshot~ 20"
+									"text" : "snapshot~ 5"
 								}
 
 							}
@@ -1102,7 +1102,7 @@
 ,
 									"style" : "",
 									"text" : "autopattr",
-									"varname" : "u224002983"
+									"varname" : "u756004282"
 								}
 
 							}
@@ -1577,8 +1577,8 @@
 ,
 		"dependency_cache" : [ 			{
 				"name" : "pastebang.maxpat",
-				"bootpath" : "/Applications/Max.app/Contents/Resources/C74/packages/Beap/misc",
-				"patcherrelativepath" : "../../../../../../../Applications/Max.app/Contents/Resources/C74/packages/Beap/misc",
+				"bootpath" : "~/Documents/Beap/misc",
+				"patcherrelativepath" : "../../../misc",
 				"type" : "JSON",
 				"implicit" : 1
 			}

@@ -4,12 +4,12 @@
 		"appversion" : 		{
 			"major" : 7,
 			"minor" : 0,
-			"revision" : 0,
+			"revision" : 1,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 34.0, 78.0, 1212.0, 641.0 ],
+		"rect" : [ 34.0, 79.0, 1212.0, 641.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -35,6 +35,7 @@
 		"digest" : "",
 		"tags" : "",
 		"style" : "",
+		"subpatcher_template" : "",
 		"boxes" : [ 			{
 				"box" : 				{
 					"bgmode" : 0,
@@ -55,12 +56,12 @@
 						"appversion" : 						{
 							"major" : 7,
 							"minor" : 0,
-							"revision" : 0,
+							"revision" : 1,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
 ,
-						"rect" : [ 34.0, 78.0, 135.0, 116.0 ],
+						"rect" : [ 34.0, 79.0, 135.0, 116.0 ],
 						"bgcolor" : [ 1.0, 1.0, 1.0, 0.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 1,
@@ -87,20 +88,8 @@
 						"digest" : "",
 						"tags" : "",
 						"style" : "",
+						"subpatcher_template" : "",
 						"boxes" : [ 							{
-								"box" : 								{
-									"id" : "obj-12",
-									"maxclass" : "newobj",
-									"numinlets" : 3,
-									"numoutlets" : 1,
-									"outlettype" : [ "" ],
-									"patching_rect" : [ 452.0, 482.0, 59.0, 22.0 ],
-									"style" : "",
-									"text" : "clip -5. 5."
-								}
-
-							}
-, 							{
 								"box" : 								{
 									"id" : "obj-14",
 									"maxclass" : "comment",
@@ -485,7 +474,7 @@
 ,
 									"style" : "",
 									"text" : "autopattr",
-									"varname" : "u180003536"
+									"varname" : "u609006516"
 								}
 
 							}
@@ -663,15 +652,6 @@
 							}
 , 							{
 								"patchline" : 								{
-									"destination" : [ "obj-4", 2 ],
-									"disabled" : 0,
-									"hidden" : 0,
-									"source" : [ "obj-12", 0 ]
-								}
-
-							}
-, 							{
-								"patchline" : 								{
 									"destination" : [ "obj-25", 0 ],
 									"disabled" : 0,
 									"hidden" : 0,
@@ -753,7 +733,7 @@
 							}
 , 							{
 								"patchline" : 								{
-									"destination" : [ "obj-12", 0 ],
+									"destination" : [ "obj-4", 2 ],
 									"disabled" : 0,
 									"hidden" : 0,
 									"source" : [ "obj-30", 0 ]
@@ -862,15 +842,15 @@
  ],
 		"lines" : [  ],
 		"parameters" : 		{
-			"obj-9::obj-1" : [ "Fade", "Fade", 0 ],
 			"obj-9::obj-22" : [ "CV", "CV", 0 ],
+			"obj-9::obj-1" : [ "Fade", "Fade", 0 ],
 			"obj-9::obj-41" : [ "bypass", "bypass", 0 ]
 		}
 ,
 		"dependency_cache" : [ 			{
 				"name" : "M4L.cross1~.maxpat",
-				"bootpath" : "/Applications/Max 7/Max.app/Contents/Resources/C74/patchers/m4l/Tools resources",
-				"patcherrelativepath" : "../../../../../../../Applications/Max 7/Max.app/Contents/Resources/C74/patchers/m4l/Tools resources",
+				"bootpath" : "/Applications/Max.app/Contents/Resources/C74/patchers/m4l/Tools resources",
+				"patcherrelativepath" : "../../../../../../../Applications/Max.app/Contents/Resources/C74/patchers/m4l/Tools resources",
 				"type" : "JSON",
 				"implicit" : 1
 			}
