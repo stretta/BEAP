@@ -85,7 +85,8 @@ function menu(i) {
 		connected = serials[i-1];
 	}
 	else {
-		outlet(2, "/sys/port", 0);
+		if(connected)
+			outlet(2, "/sys/port", 0);
 	}
 	
 }
