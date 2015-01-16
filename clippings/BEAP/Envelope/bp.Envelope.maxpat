@@ -1371,29 +1371,6 @@
 							}
 , 							{
 								"box" : 								{
-									"id" : "obj-52",
-									"maxclass" : "button",
-									"numinlets" : 1,
-									"numoutlets" : 1,
-									"outlettype" : [ "bang" ],
-									"patching_rect" : [ 233.75, 333.75, 24.0, 24.0 ],
-									"style" : ""
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"id" : "obj-46",
-									"maxclass" : "scope~",
-									"numinlets" : 2,
-									"numoutlets" : 0,
-									"patching_rect" : [ 197.0, 438.0, 130.0, 130.0 ],
-									"style" : ""
-								}
-
-							}
-, 							{
-								"box" : 								{
 									"id" : "obj-43",
 									"maxclass" : "message",
 									"numinlets" : 2,
@@ -1881,150 +1858,6 @@
 									}
 ,
 									"patching_rect" : [ 844.666748, 433.0, 64.0, 22.0 ],
-									"saved_object_attributes" : 									{
-										"description" : "",
-										"digest" : "",
-										"globalpatchername" : "",
-										"style" : "",
-										"tags" : ""
-									}
-,
-									"style" : "",
-									"text" : "p buffered"
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"id" : "obj-59",
-									"maxclass" : "newobj",
-									"numinlets" : 1,
-									"numoutlets" : 1,
-									"outlettype" : [ "signal" ],
-									"patcher" : 									{
-										"fileversion" : 1,
-										"appversion" : 										{
-											"major" : 7,
-											"minor" : 0,
-											"revision" : 1,
-											"architecture" : "x86",
-											"modernui" : 1
-										}
-,
-										"rect" : [ 0.0, 0.0, 640.0, 480.0 ],
-										"bglocked" : 0,
-										"openinpresentation" : 0,
-										"default_fontsize" : 12.0,
-										"default_fontface" : 0,
-										"default_fontname" : "Arial",
-										"gridonopen" : 1,
-										"gridsize" : [ 15.0, 15.0 ],
-										"gridsnaponopen" : 1,
-										"objectsnaponopen" : 1,
-										"statusbarvisible" : 2,
-										"toolbarvisible" : 1,
-										"lefttoolbarpinned" : 0,
-										"toptoolbarpinned" : 0,
-										"righttoolbarpinned" : 0,
-										"bottomtoolbarpinned" : 0,
-										"toolbars_unpinned_last_save" : 0,
-										"tallnewobj" : 0,
-										"boxanimatetime" : 200,
-										"enablehscroll" : 1,
-										"enablevscroll" : 1,
-										"devicewidth" : 0.0,
-										"description" : "",
-										"digest" : "",
-										"tags" : "",
-										"style" : "",
-										"subpatcher_template" : "",
-										"boxes" : [ 											{
-												"box" : 												{
-													"id" : "obj-56",
-													"maxclass" : "newobj",
-													"numinlets" : 1,
-													"numoutlets" : 1,
-													"outlettype" : [ "signal" ],
-													"patching_rect" : [ 50.0, 129.557373, 61.0, 22.0 ],
-													"style" : "",
-													"text" : "tapout~ 0"
-												}
-
-											}
-, 											{
-												"box" : 												{
-													"id" : "obj-55",
-													"maxclass" : "newobj",
-													"numinlets" : 1,
-													"numoutlets" : 1,
-													"outlettype" : [ "tapconnect" ],
-													"patching_rect" : [ 50.0, 100.0, 54.0, 22.0 ],
-													"style" : "",
-													"text" : "tapin~ 1"
-												}
-
-											}
-, 											{
-												"box" : 												{
-													"comment" : "",
-													"id" : "obj-57",
-													"maxclass" : "inlet",
-													"numinlets" : 0,
-													"numoutlets" : 1,
-													"outlettype" : [ "signal" ],
-													"patching_rect" : [ 50.0, 40.0, 30.0, 30.0 ],
-													"presentation" : 1,
-													"presentation_rect" : [ 902.0, 420.0, 30.0, 30.0 ],
-													"style" : ""
-												}
-
-											}
-, 											{
-												"box" : 												{
-													"comment" : "",
-													"id" : "obj-58",
-													"maxclass" : "outlet",
-													"numinlets" : 1,
-													"numoutlets" : 0,
-													"patching_rect" : [ 50.0, 211.557373, 30.0, 30.0 ],
-													"presentation" : 1,
-													"presentation_rect" : [ 902.0, 591.557373, 30.0, 30.0 ],
-													"style" : ""
-												}
-
-											}
- ],
-										"lines" : [ 											{
-												"patchline" : 												{
-													"destination" : [ "obj-56", 0 ],
-													"disabled" : 0,
-													"hidden" : 0,
-													"source" : [ "obj-55", 0 ]
-												}
-
-											}
-, 											{
-												"patchline" : 												{
-													"destination" : [ "obj-58", 0 ],
-													"disabled" : 0,
-													"hidden" : 0,
-													"source" : [ "obj-56", 0 ]
-												}
-
-											}
-, 											{
-												"patchline" : 												{
-													"destination" : [ "obj-55", 0 ],
-													"disabled" : 0,
-													"hidden" : 0,
-													"source" : [ "obj-57", 0 ]
-												}
-
-											}
- ]
-									}
-,
-									"patching_rect" : [ 421.661804, 560.0, 64.0, 22.0 ],
 									"saved_object_attributes" : 									{
 										"description" : "",
 										"digest" : "",
@@ -6113,7 +5946,6 @@
 													}
 ,
 													"patching_rect" : [ 888.0, 734.0, 117.0, 22.0 ],
-													"presentation_rect" : [ 929.5, 718.0, 0.0, 0.0 ],
 													"style" : "",
 													"text" : "gen @title MinPulse"
 												}
@@ -6464,7 +6296,6 @@
 													}
 ,
 													"patching_rect" : [ 345.5, 734.0, 117.0, 22.0 ],
-													"presentation_rect" : [ 382.0, 704.0, 0.0, 0.0 ],
 													"style" : "",
 													"text" : "gen @title MinPulse"
 												}
@@ -6815,7 +6646,6 @@
 													}
 ,
 													"patching_rect" : [ 617.0, 734.0, 117.0, 22.0 ],
-													"presentation_rect" : [ 625.5, 706.0, 0.0, 0.0 ],
 													"style" : "",
 													"text" : "gen @title MinPulse"
 												}
@@ -7702,7 +7532,7 @@
 ,
 									"style" : "",
 									"text" : "autopattr",
-									"varname" : "u181000437"
+									"varname" : "u526001233"
 								}
 
 							}
@@ -7865,7 +7695,7 @@
 							}
 , 							{
 								"patchline" : 								{
-									"destination" : [ "obj-59", 0 ],
+									"destination" : [ "obj-16", 0 ],
 									"disabled" : 0,
 									"hidden" : 0,
 									"source" : [ "obj-12", 0 ]
@@ -7995,15 +7825,6 @@
 									"disabled" : 0,
 									"hidden" : 0,
 									"source" : [ "obj-149", 0 ]
-								}
-
-							}
-, 							{
-								"patchline" : 								{
-									"destination" : [ "obj-46", 0 ],
-									"disabled" : 0,
-									"hidden" : 0,
-									"source" : [ "obj-15", 0 ]
 								}
 
 							}
@@ -8478,15 +8299,6 @@
 							}
 , 							{
 								"patchline" : 								{
-									"destination" : [ "obj-16", 0 ],
-									"disabled" : 0,
-									"hidden" : 0,
-									"source" : [ "obj-59", 0 ]
-								}
-
-							}
-, 							{
-								"patchline" : 								{
 									"destination" : [ "obj-179", 0 ],
 									"disabled" : 0,
 									"hidden" : 0,
@@ -8660,68 +8472,33 @@
  ],
 		"lines" : [  ],
 		"parameters" : 		{
-			"obj-10::obj-20" : [ "mute", "mute", 0 ],
-			"obj-10::obj-133" : [ "Envelope", "Envelope", 0 ],
-			"obj-10::obj-53" : [ "AttackCV[2]", "CV A", 0 ],
-			"obj-10::obj-145" : [ "Legato", "Legato", 1 ],
-			"obj-10::obj-144" : [ "RateTime", "RateTime", 1 ],
-			"obj-10::obj-48::obj-10::obj-2" : [ "pastebang", "pastebang", 0 ],
-			"obj-10::obj-147" : [ "Analog", "Analog", 0 ],
+			"obj-10::obj-45" : [ "Attack", "Attack", 0 ],
 			"obj-10::obj-35" : [ "Curve", "Curve", 0 ],
 			"obj-10::obj-142" : [ "Loop", "Loop", 1 ],
 			"obj-10::obj-129" : [ "ResetDuration", "ResetDur", 0 ],
-			"obj-10::obj-45" : [ "Attack", "Attack", 0 ],
+			"obj-10::obj-48::obj-10::obj-2" : [ "pastebang", "pastebang", 0 ],
+			"obj-10::obj-22" : [ "AttackCV", "CV A", 0 ],
 			"obj-10::obj-18" : [ "Decay", "Decay", 2 ],
 			"obj-10::obj-166" : [ "MinimumAttack", "MinAtk", 0 ],
 			"obj-10::obj-173" : [ "Skew", "Skew", 0 ],
-			"obj-10::obj-22" : [ "AttackCV", "CV A", 0 ],
 			"obj-10::obj-41" : [ "EndOfStage", "EndOfStage", 1 ],
 			"obj-10::obj-170" : [ "MinimumDecay", "MinDcy", 0 ],
 			"obj-10::obj-148" : [ "TimeScale", "Scale", 4 ],
+			"obj-10::obj-20" : [ "mute", "mute", 0 ],
+			"obj-10::obj-133" : [ "Envelope", "Envelope", 0 ],
 			"obj-10::obj-38" : [ "AttackCV[1]", "CV A", 0 ],
 			"obj-10::obj-32" : [ "Hold", "Hold", 1 ],
-			"obj-10::obj-172" : [ "MinimumHold", "MinHold", 0 ]
+			"obj-10::obj-172" : [ "MinimumHold", "MinHold", 0 ],
+			"obj-10::obj-147" : [ "Analog", "Analog", 0 ],
+			"obj-10::obj-53" : [ "AttackCV[2]", "CV A", 0 ],
+			"obj-10::obj-145" : [ "Legato", "Legato", 1 ],
+			"obj-10::obj-144" : [ "RateTime", "RateTime", 1 ]
 		}
 ,
 		"dependency_cache" : [ 			{
-				"name" : "envlinD.svg",
-				"bootpath" : "~/Projects/BEAP/misc",
-				"patcherrelativepath" : "../BEAP/misc",
-				"type" : "svg ",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "envlinAD.svg",
-				"bootpath" : "~/Projects/BEAP/misc",
-				"patcherrelativepath" : "../BEAP/misc",
-				"type" : "svg ",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "envlinAHD.svg",
-				"bootpath" : "~/Projects/BEAP/misc",
-				"patcherrelativepath" : "../BEAP/misc",
-				"type" : "svg ",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "envlinAHDrepeat.svg",
-				"bootpath" : "~/Projects/BEAP/misc",
-				"patcherrelativepath" : "../BEAP/misc",
-				"type" : "svg ",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "envlinASR.svg",
-				"bootpath" : "~/Projects/BEAP/misc",
-				"patcherrelativepath" : "../BEAP/misc",
-				"type" : "svg ",
-				"implicit" : 1
-			}
-, 			{
 				"name" : "pastebang.maxpat",
-				"bootpath" : "~/Projects/BEAP/misc",
-				"patcherrelativepath" : "../BEAP/misc",
+				"bootpath" : "/Applications/Max.app/Contents/Resources/C74/packages/Beap/misc",
+				"patcherrelativepath" : "../../../../../../../Applications/Max.app/Contents/Resources/C74/packages/Beap/misc",
 				"type" : "JSON",
 				"implicit" : 1
 			}
