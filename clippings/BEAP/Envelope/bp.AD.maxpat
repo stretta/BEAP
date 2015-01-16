@@ -4,12 +4,12 @@
 		"appversion" : 		{
 			"major" : 7,
 			"minor" : 0,
-			"revision" : 1,
+			"revision" : 2,
 			"architecture" : "x86",
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 804.0, 137.0, 750.0, 684.0 ],
+		"rect" : [ 255.0, 78.0, 750.0, 684.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -57,12 +57,12 @@
 						"appversion" : 						{
 							"major" : 7,
 							"minor" : 0,
-							"revision" : 1,
+							"revision" : 2,
 							"architecture" : "x86",
 							"modernui" : 1
 						}
 ,
-						"rect" : [ 804.0, 137.0, 208.0, 116.0 ],
+						"rect" : [ 255.0, 78.0, 208.0, 116.0 ],
 						"bgcolor" : [ 1.0, 1.0, 1.0, 0.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 1,
@@ -140,7 +140,6 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "signal" ],
 									"patching_rect" : [ 540.0, 304.0, 29.5, 22.0 ],
-									"presentation_rect" : [ 547.0, 302.0, 0.0, 0.0 ],
 									"style" : "",
 									"text" : "*~"
 								}
@@ -203,7 +202,6 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 540.0, 266.0, 19.0, 19.0 ],
-									"presentation_rect" : [ 581.0, 169.0, 0.0, 0.0 ],
 									"style" : ""
 								}
 
@@ -233,10 +231,9 @@
 									"lockeddragscroll" : 0,
 									"maxclass" : "bpatcher",
 									"name" : "bp.manualtrigger.maxpat",
-									"numinlets" : 1,
-									"numoutlets" : 1,
+									"numinlets" : 0,
+									"numoutlets" : 0,
 									"offset" : [ 0.0, 0.0 ],
-									"outlettype" : [ "signal" ],
 									"patching_rect" : [ 17.568909, 157.451172, 21.5, 17.5 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 25.0, 2.0, 12.0, 12.37315 ],
@@ -277,12 +274,12 @@
 										"appversion" : 										{
 											"major" : 7,
 											"minor" : 0,
-											"revision" : 1,
+											"revision" : 2,
 											"architecture" : "x86",
 											"modernui" : 1
 										}
 ,
-										"rect" : [ 807.0, 176.0, 402.0, 54.0 ],
+										"rect" : [ 258.0, 117.0, 402.0, 54.0 ],
 										"editing_bgcolor" : [ 0.239216, 0.254902, 0.278431, 1.0 ],
 										"bglocked" : 0,
 										"openinpresentation" : 1,
@@ -318,7 +315,6 @@
 													"numinlets" : 1,
 													"numoutlets" : 0,
 													"patching_rect" : [ 602.0, 521.0, 30.0, 30.0 ],
-													"presentation_rect" : [ 600.0, 524.0, 0.0, 0.0 ],
 													"style" : ""
 												}
 
@@ -343,7 +339,6 @@
 													"numoutlets" : 1,
 													"outlettype" : [ "float" ],
 													"patching_rect" : [ 756.0, 468.0, 42.0, 22.0 ],
-													"presentation_rect" : [ 755.0, 469.0, 0.0, 0.0 ],
 													"style" : "",
 													"text" : "* 0.01"
 												}
@@ -384,7 +379,7 @@
 													"numoutlets" : 0,
 													"patching_rect" : [ 720.0, 434.623138, 34.0, 18.0 ],
 													"presentation" : 1,
-													"presentation_rect" : [ 200.0, 19.666672, 34.0, 18.0 ],
+													"presentation_rect" : [ 200.0, 18.666672, 34.0, 18.0 ],
 													"style" : "",
 													"text" : "CV D",
 													"textcolor" : [ 1.0, 1.0, 1.0, 0.7 ],
@@ -421,7 +416,7 @@
 													"parameter_enable" : 1,
 													"patching_rect" : [ 602.0, 434.623138, 70.0, 15.0 ],
 													"presentation" : 1,
-													"presentation_rect" : [ 232.165039, 20.666672, 47.330078, 15.0 ],
+													"presentation_rect" : [ 232.165039, 20.144911, 47.330078, 15.0 ],
 													"saved_attribute_attributes" : 													{
 														"valueof" : 														{
 															"parameter_order" : 6,
@@ -489,7 +484,7 @@
 														"appversion" : 														{
 															"major" : 7,
 															"minor" : 0,
-															"revision" : 1,
+															"revision" : 2,
 															"architecture" : "x86",
 															"modernui" : 1
 														}
@@ -531,7 +526,6 @@
 																	"numoutlets" : 1,
 																	"outlettype" : [ "" ],
 																	"patching_rect" : [ 50.318909, 248.57608, 105.0, 22.0 ],
-																	"presentation_rect" : [ 110.0, 276.57608, 0.0, 0.0 ],
 																	"style" : "",
 																	"text" : "expr log10($f1)+1"
 																}
@@ -1026,6 +1020,7 @@
 													"activebgcolor" : [ 0.137255, 0.145098, 0.160784, 0.65 ],
 													"activebgoncolor" : [ 0.278431, 0.839216, 1.0, 1.0 ],
 													"bordercolor" : [ 0.0, 0.0, 0.0, 0.56 ],
+													"fontsize" : 9.0,
 													"hint" : "Retrigger: quickly ramp down to 0 (determined by retrigger time) then attack.  Legato: begin envelope from current position.  Oneshot: only attack if envelope is not active.",
 													"id" : "obj-46",
 													"maxclass" : "live.tab",
@@ -1065,6 +1060,7 @@
 													"activebgcolor" : [ 0.137255, 0.145098, 0.160784, 0.65 ],
 													"activebgoncolor" : [ 0.278431, 0.839216, 1.0, 1.0 ],
 													"bordercolor" : [ 0.0, 0.0, 0.0, 0.56 ],
+													"fontsize" : 9.0,
 													"hint" : "Retrigger: quickly ramp down to 0 (determined by retrigger time) then attack.  Legato: begin envelope from current position.  Oneshot: only attack if envelope is not active.",
 													"id" : "obj-44",
 													"maxclass" : "live.tab",
@@ -1076,7 +1072,7 @@
 													"parameter_enable" : 1,
 													"patching_rect" : [ 197.5, 143.033081, 46.0, 53.663452 ],
 													"presentation" : 1,
-													"presentation_rect" : [ 338.0, 37.666672, 56.330078, 16.0 ],
+													"presentation_rect" : [ 338.0, 35.666672, 56.330078, 16.0 ],
 													"saved_attribute_attributes" : 													{
 														"valueof" : 														{
 															"parameter_order" : 11,
@@ -1141,7 +1137,7 @@
 													"numoutlets" : 0,
 													"patching_rect" : [ 610.0, 240.033081, 34.0, 18.0 ],
 													"presentation" : 1,
-													"presentation_rect" : [ 199.0, 36.666672, 34.0, 18.0 ],
+													"presentation_rect" : [ 199.0, 34.666672, 34.0, 18.0 ],
 													"style" : "",
 													"text" : "Dur x",
 													"textcolor" : [ 1.0, 1.0, 1.0, 0.7 ],
@@ -1175,7 +1171,7 @@
 													"parameter_enable" : 1,
 													"patching_rect" : [ 603.5, 260.033081, 70.0, 15.0 ],
 													"presentation" : 1,
-													"presentation_rect" : [ 232.165039, 37.666672, 47.330078, 15.0 ],
+													"presentation_rect" : [ 232.165039, 35.666672, 47.330078, 15.0 ],
 													"saved_attribute_attributes" : 													{
 														"valueof" : 														{
 															"parameter_order" : 7,
@@ -1446,7 +1442,7 @@
 														"appversion" : 														{
 															"major" : 7,
 															"minor" : 0,
-															"revision" : 1,
+															"revision" : 2,
 															"architecture" : "x86",
 															"modernui" : 1
 														}
@@ -1634,6 +1630,7 @@
 , 											{
 												"box" : 												{
 													"activebgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+													"fontsize" : 9.0,
 													"hint" : "Reattack duration",
 													"id" : "obj-129",
 													"maxclass" : "live.numbox",
@@ -1641,9 +1638,9 @@
 													"numoutlets" : 2,
 													"outlettype" : [ "", "float" ],
 													"parameter_enable" : 1,
-													"patching_rect" : [ 319.0, 168.834961, 70.0, 15.0 ],
+													"patching_rect" : [ 319.0, 168.834961, 65.0, 14.0 ],
 													"presentation" : 1,
-													"presentation_rect" : [ 339.0, 3.62315, 55.330078, 15.0 ],
+													"presentation_rect" : [ 339.0, 3.62315, 55.0, 14.0 ],
 													"saved_attribute_attributes" : 													{
 														"valueof" : 														{
 															"parameter_order" : 9,
@@ -2159,7 +2156,7 @@
 										"appversion" : 										{
 											"major" : 7,
 											"minor" : 0,
-											"revision" : 1,
+											"revision" : 2,
 											"architecture" : "x86",
 											"modernui" : 1
 										}
@@ -2224,7 +2221,7 @@
 													"maxclass" : "inlet",
 													"numinlets" : 0,
 													"numoutlets" : 1,
-													"outlettype" : [ "signal" ],
+													"outlettype" : [ "" ],
 													"patching_rect" : [ 50.0, 40.0, 30.0, 30.0 ],
 													"presentation" : 1,
 													"presentation_rect" : [ 400.0, 37.0, 30.0, 30.0 ],
@@ -2417,7 +2414,7 @@
 										"appversion" : 										{
 											"major" : 7,
 											"minor" : 0,
-											"revision" : 1,
+											"revision" : 2,
 											"architecture" : "x86",
 											"modernui" : 1
 										}
@@ -2763,7 +2760,7 @@
 ,
 									"style" : "",
 									"text" : "autopattr",
-									"varname" : "u605000358"
+									"varname" : "u409005775"
 								}
 
 							}
@@ -2882,15 +2879,6 @@
 									"disabled" : 0,
 									"hidden" : 0,
 									"source" : [ "obj-1", 0 ]
-								}
-
-							}
-, 							{
-								"patchline" : 								{
-									"destination" : [ "obj-54", 0 ],
-									"disabled" : 0,
-									"hidden" : 0,
-									"source" : [ "obj-10", 0 ]
 								}
 
 							}
@@ -3045,15 +3033,6 @@
 							}
 , 							{
 								"patchline" : 								{
-									"destination" : [ "obj-10", 0 ],
-									"disabled" : 0,
-									"hidden" : 0,
-									"source" : [ "obj-3", 0 ]
-								}
-
-							}
-, 							{
-								"patchline" : 								{
 									"destination" : [ "obj-41", 1 ],
 									"disabled" : 0,
 									"hidden" : 0,
@@ -3147,47 +3126,40 @@
  ],
 		"lines" : [  ],
 		"parameters" : 		{
-			"obj-10::obj-119::obj-2" : [ "shape", "Shape", 2 ],
 			"obj-10::obj-20" : [ "mute", "mute", 8 ],
-			"obj-10::obj-119::obj-19" : [ "durationmultiplier", "DurMult", 7 ],
-			"obj-10::obj-122" : [ "page", "Page", 12 ],
+			"obj-10::obj-119::obj-2" : [ "shape", "Shape", 2 ],
 			"obj-10::obj-119::obj-80" : [ "mode", "Response", 4 ],
+			"obj-10::obj-119::obj-32" : [ "decay", "Decay", 1 ],
+			"obj-10::obj-119::obj-5" : [ "decaycv", "DcyCV", 6 ],
+			"obj-10::obj-119::obj-3" : [ "attackcv", "AtkCV", 5 ],
+			"obj-10::obj-119::obj-44" : [ "endofstage", "Response", 11 ],
 			"obj-10::obj-119::obj-129" : [ "reattackduration", "Reattack", 9 ],
+			"obj-10::obj-119::obj-19" : [ "durationmultiplier", "DurMult", 7 ],
+			"obj-10::obj-119::obj-46" : [ "response", "Response", 10 ],
 			"obj-10::obj-119::obj-45" : [ "attack", "Attack", 0 ],
 			"obj-10::obj-119::obj-48" : [ "loop", "Loop", 3 ],
-			"obj-10::obj-119::obj-3" : [ "attackcv", "AtkCV", 5 ],
-			"obj-10::obj-119::obj-32" : [ "decay", "Decay", 1 ],
-			"obj-10::obj-119::obj-44" : [ "endofstage", "Response", 11 ],
-			"obj-10::obj-119::obj-5" : [ "decaycv", "DcyCV", 6 ],
-			"obj-10::obj-119::obj-46" : [ "response", "Response", 10 ]
+			"obj-10::obj-122" : [ "page", "Page", 12 ]
 		}
 ,
 		"dependency_cache" : [ 			{
 				"name" : "BEAP_linearenv.svg",
-				"bootpath" : "~/Projects/BEAP/misc",
-				"patcherrelativepath" : "../../../misc",
+				"bootpath" : "~/Projects/BEAP/clippings/BEAP/Envelope",
+				"patcherrelativepath" : ".",
 				"type" : "svg ",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "BEAP_rcenv.svg",
-				"bootpath" : "~/Projects/BEAP/misc",
-				"patcherrelativepath" : "../../../misc",
+				"bootpath" : "~/Projects/BEAP/clippings/BEAP/Envelope",
+				"patcherrelativepath" : ".",
 				"type" : "svg ",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "BEAP_loop.svg",
-				"bootpath" : "~/Projects/BEAP/misc",
-				"patcherrelativepath" : "../../../misc",
+				"bootpath" : "~/Projects/BEAP/clippings/BEAP/Envelope",
+				"patcherrelativepath" : ".",
 				"type" : "svg ",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "bp.manualtrigger.maxpat",
-				"bootpath" : "~/Projects/BEAP/misc",
-				"patcherrelativepath" : "../../../misc",
-				"type" : "JSON",
 				"implicit" : 1
 			}
  ],
