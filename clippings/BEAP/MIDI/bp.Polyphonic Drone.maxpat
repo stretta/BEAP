@@ -252,7 +252,7 @@
 ,
 									"style" : "",
 									"text" : "autopattr",
-									"varname" : "u544007964"
+									"varname" : "u969008642"
 								}
 
 							}
@@ -1386,7 +1386,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 927.666687, 685.333313, 206.0, 74.0 ],
+									"patching_rect" : [ 949.666687, 671.333313, 206.0, 74.0 ],
 									"style" : "",
 									"text" : "Determine if coll is empty or not. if empty, kslider is cleared. If not, then proceed to the kslider fill routine. We could clear before every fill, but this causes the kslider to blink"
 								}
@@ -1412,7 +1412,7 @@
 									"numinlets" : 3,
 									"numoutlets" : 3,
 									"outlettype" : [ "bang", "bang", "" ],
-									"patching_rect" : [ 830.0, 785.333313, 46.0, 22.0 ],
+									"patching_rect" : [ 830.0, 748.333313, 46.0, 22.0 ],
 									"style" : "",
 									"text" : "sel 1 0"
 								}
@@ -1425,7 +1425,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "int" ],
-									"patching_rect" : [ 830.0, 749.333313, 29.5, 22.0 ],
+									"patching_rect" : [ 830.0, 712.333313, 29.5, 22.0 ],
 									"style" : "",
 									"text" : "> 0"
 								}
@@ -1438,26 +1438,13 @@
 									"numinlets" : 1,
 									"numoutlets" : 4,
 									"outlettype" : [ "", "", "", "" ],
-									"patching_rect" : [ 830.0, 711.333313, 93.0, 22.0 ],
+									"patching_rect" : [ 830.0, 674.333313, 93.0, 22.0 ],
 									"saved_object_attributes" : 									{
 										"embed" : 0
 									}
 ,
 									"style" : "",
 									"text" : "coll #0_notes"
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"id" : "obj-64",
-									"maxclass" : "message",
-									"numinlets" : 2,
-									"numoutlets" : 1,
-									"outlettype" : [ "" ],
-									"patching_rect" : [ 830.0, 672.333313, 33.0, 22.0 ],
-									"style" : "",
-									"text" : "max"
 								}
 
 							}
@@ -1487,10 +1474,10 @@
 									"maxclass" : "newobj",
 									"numinlets" : 1,
 									"numoutlets" : 2,
-									"outlettype" : [ "bang", "" ],
-									"patching_rect" : [ 830.0, 575.333313, 48.0, 22.0 ],
+									"outlettype" : [ "max", "" ],
+									"patching_rect" : [ 830.0, 575.333313, 46.0, 22.0 ],
 									"style" : "",
-									"text" : "t b l"
+									"text" : "t max l"
 								}
 
 							}
@@ -1673,7 +1660,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 4,
 									"outlettype" : [ "", "", "", "" ],
-									"patching_rect" : [ 859.0, 621.333313, 93.0, 22.0 ],
+									"patching_rect" : [ 857.0, 621.333313, 93.0, 22.0 ],
 									"saved_object_attributes" : 									{
 										"embed" : 0
 									}
@@ -2347,7 +2334,7 @@
 							}
 , 							{
 								"patchline" : 								{
-									"destination" : [ "obj-64", 0 ],
+									"destination" : [ "obj-65", 0 ],
 									"disabled" : 0,
 									"hidden" : 0,
 									"source" : [ "obj-56", 0 ]
@@ -2407,15 +2394,6 @@
 									"disabled" : 0,
 									"hidden" : 0,
 									"source" : [ "obj-63", 0 ]
-								}
-
-							}
-, 							{
-								"patchline" : 								{
-									"destination" : [ "obj-65", 0 ],
-									"disabled" : 0,
-									"hidden" : 0,
-									"source" : [ "obj-64", 0 ]
 								}
 
 							}
