@@ -5,7 +5,7 @@
 			"major" : 7,
 			"minor" : 0,
 			"revision" : 2,
-			"architecture" : "x86",
+			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
@@ -44,7 +44,7 @@
 					"embed" : 1,
 					"enablehscroll" : 0,
 					"enablevscroll" : 0,
-					"id" : "obj-10",
+					"id" : "obj-1",
 					"lockeddragscroll" : 0,
 					"maxclass" : "bpatcher",
 					"numinlets" : 0,
@@ -57,7 +57,7 @@
 							"major" : 7,
 							"minor" : 0,
 							"revision" : 2,
-							"architecture" : "x86",
+							"architecture" : "x64",
 							"modernui" : 1
 						}
 ,
@@ -90,6 +90,19 @@
 						"style" : "",
 						"subpatcher_template" : "",
 						"boxes" : [ 							{
+								"box" : 								{
+									"id" : "obj-37",
+									"maxclass" : "message",
+									"numinlets" : 2,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 790.0, 1437.0, 50.0, 22.0 ],
+									"style" : "",
+									"text" : "500."
+								}
+
+							}
+, 							{
 								"box" : 								{
 									"id" : "obj-83",
 									"maxclass" : "message",
@@ -286,7 +299,7 @@
 											"major" : 7,
 											"minor" : 0,
 											"revision" : 2,
-											"architecture" : "x86",
+											"architecture" : "x64",
 											"modernui" : 1
 										}
 ,
@@ -542,7 +555,7 @@
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
 											"parameter_linknames" : 1,
-											"parameter_longname" : "Level",
+											"parameter_longname" : "Level[1]",
 											"parameter_shortname" : "Level",
 											"parameter_type" : 0,
 											"parameter_mmax" : 100.0,
@@ -556,7 +569,7 @@
 									}
 ,
 									"textcolor" : [ 1.0, 1.0, 1.0, 0.6 ],
-									"varname" : "Level"
+									"varname" : "Level[1]"
 								}
 
 							}
@@ -577,16 +590,17 @@
 							}
 , 							{
 								"box" : 								{
+									"fontface" : 0,
 									"fontname" : "Arial Bold",
 									"fontsize" : 10.0,
 									"id" : "obj-121",
 									"maxclass" : "newobj",
 									"numinlets" : 2,
 									"numoutlets" : 1,
-									"outlettype" : [ "int" ],
-									"patching_rect" : [ 834.062744, 1308.0, 32.5, 20.0 ],
+									"outlettype" : [ "float" ],
+									"patching_rect" : [ 834.062744, 1308.0, 29.5, 20.0 ],
 									"style" : "",
-									"text" : "* 2"
+									"text" : "* 2."
 								}
 
 							}
@@ -701,7 +715,7 @@
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
 											"parameter_linknames" : 1,
-											"parameter_longname" : "PulseWidth[2]",
+											"parameter_longname" : "PulseWidth[3]",
 											"parameter_shortname" : "Pulse",
 											"parameter_type" : 0,
 											"parameter_mmax" : 100.0,
@@ -715,12 +729,13 @@
 									}
 ,
 									"textcolor" : [ 1.0, 1.0, 1.0, 0.6 ],
-									"varname" : "PulseWidth[2]"
+									"varname" : "PulseWidth[3]"
 								}
 
 							}
 , 							{
 								"box" : 								{
+									"fontface" : 0,
 									"fontname" : "Arial Bold",
 									"fontsize" : 10.0,
 									"id" : "obj-75",
@@ -728,9 +743,9 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 834.062744, 1277.0, 124.0, 20.0 ],
+									"patching_rect" : [ 834.062744, 1277.0, 171.0, 20.0 ],
 									"style" : "",
-									"text" : "translate notevalues ms"
+									"text" : "translate notevalues ms @listen 1"
 								}
 
 							}
@@ -781,7 +796,7 @@
 									"presentation_rect" : [ 404.365112, 178.500305, 48.753777, 15.0 ],
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
-											"parameter_longname" : "Max pulse[1]",
+											"parameter_longname" : "Max pulse[2]",
 											"parameter_shortname" : "Max pulse",
 											"parameter_type" : 2,
 											"parameter_enum" : [ "1nd", "1n", "1nt", "2nd", "2n", "2nt", "4nd", "4n", "4nt", "8nd", "8n", "8nt", "16nd", "16n", "16nt", "32nd", "32n", "32nt", "64nd", "64n", "128nd", "128n" ],
@@ -856,6 +871,7 @@
 							}
 , 							{
 								"box" : 								{
+									"fontface" : 0,
 									"fontname" : "Arial Bold",
 									"fontsize" : 10.0,
 									"id" : "obj-36",
@@ -863,9 +879,9 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "bang" ],
-									"patching_rect" : [ 708.0, 1563.0, 145.062683, 20.0 ],
+									"patching_rect" : [ 708.0, 1563.0, 56.0, 20.0 ],
 									"style" : "",
-									"text" : "delay 16n"
+									"text" : "delay 200"
 								}
 
 							}
@@ -924,7 +940,7 @@
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
 											"parameter_order" : 1,
-											"parameter_longname" : "Time Mode[2]",
+											"parameter_longname" : "Time Mode[3]",
 											"parameter_shortname" : "Time Mode",
 											"parameter_type" : 2,
 											"parameter_mmax" : 1.0,
@@ -995,7 +1011,7 @@
 									"presentation_rect" : [ 332.393799, 105.211609, 120.725121, 17.052631 ],
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
-											"parameter_longname" : "live.tab",
+											"parameter_longname" : "live.tab[1]",
 											"parameter_shortname" : "live.tab",
 											"parameter_type" : 2,
 											"parameter_enum" : [ "and", "or", "xor" ],
@@ -1088,7 +1104,7 @@
 									"presentation_rect" : [ 267.059784, 178.500305, 42.438744, 15.0 ],
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
-											"parameter_longname" : "Reset[2]",
+											"parameter_longname" : "Reset[3]",
 											"parameter_shortname" : "Reset",
 											"parameter_type" : 2,
 											"parameter_enum" : [ "off", "1", "2", "4" ],
@@ -1181,7 +1197,7 @@
 									"presentation_rect" : [ 105.396912, 178.500305, 42.438744, 15.0 ],
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
-											"parameter_longname" : "Reset[1]",
+											"parameter_longname" : "Reset[4]",
 											"parameter_shortname" : "Reset",
 											"parameter_type" : 2,
 											"parameter_enum" : [ "off", "1", "2", "4" ],
@@ -1218,7 +1234,7 @@
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
 											"parameter_linknames" : 1,
-											"parameter_longname" : "PulseWidth[1]",
+											"parameter_longname" : "PulseWidth[4]",
 											"parameter_shortname" : "PulseWidth",
 											"parameter_type" : 0,
 											"parameter_mmax" : 100.0,
@@ -1232,7 +1248,7 @@
 									}
 ,
 									"textcolor" : [ 1.0, 1.0, 1.0, 0.6 ],
-									"varname" : "PulseWidth[1]"
+									"varname" : "PulseWidth[4]"
 								}
 
 							}
@@ -1272,7 +1288,7 @@
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
 											"parameter_linknames" : 1,
-											"parameter_longname" : "PulseWidth",
+											"parameter_longname" : "PulseWidth[5]",
 											"parameter_shortname" : "PulseWidth",
 											"parameter_type" : 0,
 											"parameter_mmax" : 100.0,
@@ -1286,7 +1302,7 @@
 									}
 ,
 									"textcolor" : [ 1.0, 1.0, 1.0, 0.6 ],
-									"varname" : "PulseWidth"
+									"varname" : "PulseWidth[5]"
 								}
 
 							}
@@ -1320,7 +1336,7 @@
 											"major" : 7,
 											"minor" : 0,
 											"revision" : 2,
-											"architecture" : "x86",
+											"architecture" : "x64",
 											"modernui" : 1
 										}
 ,
@@ -1752,7 +1768,7 @@
 											"major" : 7,
 											"minor" : 0,
 											"revision" : 2,
-											"architecture" : "x86",
+											"architecture" : "x64",
 											"modernui" : 1
 										}
 ,
@@ -2157,7 +2173,7 @@
 									"presentation_rect" : [ 304.468567, 131.814911, 9.857803, 9.729032 ],
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
-											"parameter_longname" : "Re-Trigger[1]",
+											"parameter_longname" : "Re-Trigger[2]",
 											"parameter_shortname" : "Re-Trigger",
 											"parameter_type" : 2,
 											"parameter_mmax" : 1.0,
@@ -2192,7 +2208,7 @@
 									"prototypename" : "M4L.dial.tiny",
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
-											"parameter_longname" : "SyncRate[1]",
+											"parameter_longname" : "SyncRate[2]",
 											"parameter_shortname" : "Rate",
 											"parameter_type" : 2,
 											"parameter_enum" : [ "1/48", "1/32", "1/24", "1/16", "1/12", "1/8", "1/6", "1/4", "1/3", "1/2", "1", "2", "3", "4", "6", "8" ],
@@ -2300,7 +2316,7 @@
 											"major" : 7,
 											"minor" : 0,
 											"revision" : 2,
-											"architecture" : "x86",
+											"architecture" : "x64",
 											"modernui" : 1
 										}
 ,
@@ -2746,7 +2762,7 @@
 											"major" : 7,
 											"minor" : 0,
 											"revision" : 2,
-											"architecture" : "x86",
+											"architecture" : "x64",
 											"modernui" : 1
 										}
 ,
@@ -3134,7 +3150,7 @@
 											"major" : 7,
 											"minor" : 0,
 											"revision" : 2,
-											"architecture" : "x86",
+											"architecture" : "x64",
 											"modernui" : 1
 										}
 ,
@@ -3180,7 +3196,7 @@
 															"major" : 7,
 															"minor" : 0,
 															"revision" : 2,
-															"architecture" : "x86",
+															"architecture" : "x64",
 															"modernui" : 1
 														}
 ,
@@ -3539,7 +3555,7 @@
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
 											"parameter_linknames" : 1,
-											"parameter_longname" : "Hold[1]",
+											"parameter_longname" : "Hold[4]",
 											"parameter_shortname" : "Hold",
 											"parameter_type" : 2,
 											"parameter_mmax" : 1.0,
@@ -3551,7 +3567,7 @@
 ,
 									"text" : "Hold",
 									"texton" : "Hold",
-									"varname" : "Hold[1]"
+									"varname" : "Hold[4]"
 								}
 
 							}
@@ -3570,7 +3586,7 @@
 											"major" : 7,
 											"minor" : 0,
 											"revision" : 2,
-											"architecture" : "x86",
+											"architecture" : "x64",
 											"modernui" : 1
 										}
 ,
@@ -3872,7 +3888,7 @@
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
 											"parameter_order" : 1,
-											"parameter_longname" : "Invert[1]",
+											"parameter_longname" : "Invert[2]",
 											"parameter_shortname" : "Phase-Inversion",
 											"parameter_type" : 2,
 											"parameter_mmax" : 1.0,
@@ -3926,7 +3942,7 @@
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
 											"parameter_linknames" : 1,
-											"parameter_longname" : "Phase[1]",
+											"parameter_longname" : "Phase[2]",
 											"parameter_shortname" : "Phase",
 											"parameter_type" : 0,
 											"parameter_mmin" : -1.0,
@@ -3939,7 +3955,7 @@
 									}
 ,
 									"textcolor" : [ 1.0, 1.0, 1.0, 0.6 ],
-									"varname" : "Phase[1]"
+									"varname" : "Phase[2]"
 								}
 
 							}
@@ -3980,14 +3996,14 @@
 									"maxclass" : "newobj",
 									"numinlets" : 1,
 									"numoutlets" : 4,
-									"outlettype" : [ "bang", "", "bang", "" ],
+									"outlettype" : [ "", "", "", "" ],
 									"patcher" : 									{
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 7,
 											"minor" : 0,
 											"revision" : 2,
-											"architecture" : "x86",
+											"architecture" : "x64",
 											"modernui" : 1
 										}
 ,
@@ -4592,7 +4608,7 @@
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
 											"parameter_order" : 1,
-											"parameter_longname" : "Time Mode[1]",
+											"parameter_longname" : "Time Mode[4]",
 											"parameter_shortname" : "Time Mode",
 											"parameter_type" : 2,
 											"parameter_mmax" : 1.0,
@@ -4632,7 +4648,7 @@
 									"prototypename" : "freq",
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
-											"parameter_longname" : "FreqRate[1]",
+											"parameter_longname" : "FreqRate[2]",
 											"parameter_shortname" : "Rate",
 											"parameter_type" : 0,
 											"parameter_mmax" : 40.0,
@@ -4659,14 +4675,14 @@
 									"maxclass" : "newobj",
 									"numinlets" : 3,
 									"numoutlets" : 2,
-									"outlettype" : [ "signal", "int" ],
+									"outlettype" : [ "signal", "" ],
 									"patcher" : 									{
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 7,
 											"minor" : 0,
 											"revision" : 2,
-											"architecture" : "x86",
+											"architecture" : "x64",
 											"modernui" : 1
 										}
 ,
@@ -4803,7 +4819,7 @@
 															"major" : 7,
 															"minor" : 0,
 															"revision" : 2,
-															"architecture" : "x86",
+															"architecture" : "x64",
 															"modernui" : 1
 														}
 ,
@@ -5024,7 +5040,7 @@
 																			"major" : 7,
 																			"minor" : 0,
 																			"revision" : 2,
-																			"architecture" : "x86",
+																			"architecture" : "x64",
 																			"modernui" : 1
 																		}
 ,
@@ -6312,7 +6328,7 @@
 											"major" : 7,
 											"minor" : 0,
 											"revision" : 2,
-											"architecture" : "x86",
+											"architecture" : "x64",
 											"modernui" : 1
 										}
 ,
@@ -6591,7 +6607,7 @@
 															"major" : 7,
 															"minor" : 0,
 															"revision" : 2,
-															"architecture" : "x86",
+															"architecture" : "x64",
 															"modernui" : 1
 														}
 ,
@@ -7013,7 +7029,7 @@
 															"major" : 7,
 															"minor" : 0,
 															"revision" : 2,
-															"architecture" : "x86",
+															"architecture" : "x64",
 															"modernui" : 1
 														}
 ,
@@ -7605,7 +7621,7 @@
 									"presentation_rect" : [ 143.396912, 131.814911, 9.857803, 9.729032 ],
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
-											"parameter_longname" : "Re-Trigger",
+											"parameter_longname" : "Re-Trigger[3]",
 											"parameter_shortname" : "Re-Trigger",
 											"parameter_type" : 2,
 											"parameter_mmax" : 1.0,
@@ -7640,7 +7656,7 @@
 									"prototypename" : "M4L.dial.tiny",
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
-											"parameter_longname" : "SyncRate",
+											"parameter_longname" : "SyncRate[3]",
 											"parameter_shortname" : "Rate",
 											"parameter_type" : 2,
 											"parameter_enum" : [ "1/48", "1/32", "1/24", "1/16", "1/12", "1/8", "1/6", "1/4", "1/3", "1/2", "1", "2", "3", "4", "6", "8" ],
@@ -7748,7 +7764,7 @@
 											"major" : 7,
 											"minor" : 0,
 											"revision" : 2,
-											"architecture" : "x86",
+											"architecture" : "x64",
 											"modernui" : 1
 										}
 ,
@@ -8194,7 +8210,7 @@
 											"major" : 7,
 											"minor" : 0,
 											"revision" : 2,
-											"architecture" : "x86",
+											"architecture" : "x64",
 											"modernui" : 1
 										}
 ,
@@ -8582,7 +8598,7 @@
 											"major" : 7,
 											"minor" : 0,
 											"revision" : 2,
-											"architecture" : "x86",
+											"architecture" : "x64",
 											"modernui" : 1
 										}
 ,
@@ -8628,7 +8644,7 @@
 															"major" : 7,
 															"minor" : 0,
 															"revision" : 2,
-															"architecture" : "x86",
+															"architecture" : "x64",
 															"modernui" : 1
 														}
 ,
@@ -8987,7 +9003,7 @@
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
 											"parameter_linknames" : 1,
-											"parameter_longname" : "Hold",
+											"parameter_longname" : "Hold[5]",
 											"parameter_shortname" : "Hold",
 											"parameter_type" : 2,
 											"parameter_mmax" : 1.0,
@@ -8999,7 +9015,7 @@
 ,
 									"text" : "Hold",
 									"texton" : "Hold",
-									"varname" : "Hold"
+									"varname" : "Hold[5]"
 								}
 
 							}
@@ -9018,7 +9034,7 @@
 											"major" : 7,
 											"minor" : 0,
 											"revision" : 2,
-											"architecture" : "x86",
+											"architecture" : "x64",
 											"modernui" : 1
 										}
 ,
@@ -9320,7 +9336,7 @@
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
 											"parameter_order" : 1,
-											"parameter_longname" : "Invert",
+											"parameter_longname" : "Invert[3]",
 											"parameter_shortname" : "Phase-Inversion",
 											"parameter_type" : 2,
 											"parameter_mmax" : 1.0,
@@ -9374,7 +9390,7 @@
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
 											"parameter_linknames" : 1,
-											"parameter_longname" : "Phase",
+											"parameter_longname" : "Phase[3]",
 											"parameter_shortname" : "Phase",
 											"parameter_type" : 0,
 											"parameter_mmin" : -1.0,
@@ -9387,7 +9403,7 @@
 									}
 ,
 									"textcolor" : [ 1.0, 1.0, 1.0, 0.6 ],
-									"varname" : "Phase"
+									"varname" : "Phase[3]"
 								}
 
 							}
@@ -9428,14 +9444,14 @@
 									"maxclass" : "newobj",
 									"numinlets" : 1,
 									"numoutlets" : 4,
-									"outlettype" : [ "bang", "", "bang", "" ],
+									"outlettype" : [ "", "", "", "" ],
 									"patcher" : 									{
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 7,
 											"minor" : 0,
 											"revision" : 2,
-											"architecture" : "x86",
+											"architecture" : "x64",
 											"modernui" : 1
 										}
 ,
@@ -10040,7 +10056,7 @@
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
 											"parameter_order" : 1,
-											"parameter_longname" : "Time Mode",
+											"parameter_longname" : "Time Mode[5]",
 											"parameter_shortname" : "Time Mode",
 											"parameter_type" : 2,
 											"parameter_mmax" : 1.0,
@@ -10080,7 +10096,7 @@
 									"prototypename" : "freq",
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
-											"parameter_longname" : "FreqRate",
+											"parameter_longname" : "FreqRate[3]",
 											"parameter_shortname" : "Rate",
 											"parameter_type" : 0,
 											"parameter_mmax" : 40.0,
@@ -10107,14 +10123,14 @@
 									"maxclass" : "newobj",
 									"numinlets" : 3,
 									"numoutlets" : 2,
-									"outlettype" : [ "signal", "int" ],
+									"outlettype" : [ "signal", "" ],
 									"patcher" : 									{
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 7,
 											"minor" : 0,
 											"revision" : 2,
-											"architecture" : "x86",
+											"architecture" : "x64",
 											"modernui" : 1
 										}
 ,
@@ -10251,7 +10267,7 @@
 															"major" : 7,
 															"minor" : 0,
 															"revision" : 2,
-															"architecture" : "x86",
+															"architecture" : "x64",
 															"modernui" : 1
 														}
 ,
@@ -10472,7 +10488,7 @@
 																			"major" : 7,
 																			"minor" : 0,
 																			"revision" : 2,
-																			"architecture" : "x86",
+																			"architecture" : "x64",
 																			"modernui" : 1
 																		}
 ,
@@ -11760,7 +11776,7 @@
 											"major" : 7,
 											"minor" : 0,
 											"revision" : 2,
-											"architecture" : "x86",
+											"architecture" : "x64",
 											"modernui" : 1
 										}
 ,
@@ -12039,7 +12055,7 @@
 															"major" : 7,
 															"minor" : 0,
 															"revision" : 2,
-															"architecture" : "x86",
+															"architecture" : "x64",
 															"modernui" : 1
 														}
 ,
@@ -12891,27 +12907,27 @@
 									"outlettype" : [ "", "", "", "" ],
 									"patching_rect" : [ 21.736206, 130.547302, 59.5, 22.0 ],
 									"restore" : 									{
-										"FreqRate" : [ 4.847086 ],
-										"FreqRate[1]" : [ 2.666477 ],
-										"Hold" : [ 0.0 ],
-										"Hold[1]" : [ 0.0 ],
-										"Level" : [ 100.0 ],
+										"FreqRate" : [ 2.390792 ],
+										"FreqRate[1]" : [ 1.055859 ],
+										"Hold[4]" : [ 0.0 ],
+										"Hold[5]" : [ 0.0 ],
+										"Level[1]" : [ 100.0 ],
 										"Mute" : [ 0.0 ],
-										"Phase" : [ -0.566929 ],
 										"Phase-Inversion" : [ 0.0 ],
 										"Phase-Inversion[1]" : [ 0.0 ],
-										"Phase[1]" : [ 0.149606 ],
-										"PulseWidth" : [ 30.31496 ],
-										"PulseWidth[1]" : [ 67.322838 ],
-										"PulseWidth[2]" : [ 11.338583 ],
+										"Phase[2]" : [ 0.0 ],
+										"Phase[3]" : [ 0.0 ],
+										"PulseWidth[3]" : [ 50.0 ],
+										"PulseWidth[4]" : [ 50.0 ],
+										"PulseWidth[5]" : [ 50.0 ],
 										"Reset[1]" : [ 0.0 ],
 										"Reset[2]" : [ 0.0 ],
 										"SyncRate" : [ 5.0 ],
-										"SyncRate[1]" : [ 5.0 ],
+										"SyncRate[1]" : [ 1.0 ],
 										"TimeMode" : [ 1.0 ],
 										"TimeMode[1]" : [ 1.0 ],
 										"TimeMode[2]" : [ 0.0 ],
-										"live.tab" : [ 0.0 ],
+										"live.tab" : [ 1.0 ],
 										"max pulse[1]" : [ 10.0 ],
 										"re-trigger" : [ 0.0 ],
 										"re-trigger[1]" : [ 0.0 ]
@@ -12919,7 +12935,7 @@
 ,
 									"style" : "",
 									"text" : "autopattr",
-									"varname" : "u491001654"
+									"varname" : "u276002190"
 								}
 
 							}
@@ -12959,7 +12975,7 @@
 									"presentation_rect" : [ 412.701782, 19.0, 52.0, 14.764645 ],
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
-											"parameter_longname" : "Mute",
+											"parameter_longname" : "Mute[1]",
 											"parameter_shortname" : "Mute",
 											"parameter_type" : 2,
 											"parameter_mmax" : 1.0,
@@ -13160,6 +13176,15 @@
 , 							{
 								"patchline" : 								{
 									"destination" : [ "obj-117", 0 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-121", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-37", 1 ],
 									"disabled" : 0,
 									"hidden" : 0,
 									"source" : [ "obj-121", 0 ]
@@ -14198,7 +14223,7 @@
 					}
 ,
 					"patching_rect" : [ 0.0, 0.0, 472.0, 226.0 ],
-					"varname" : "PulseDesigner",
+					"varname" : "PulseDesigner[1]",
 					"viewvisibility" : 1
 				}
 
@@ -14206,30 +14231,30 @@
  ],
 		"lines" : [  ],
 		"parameters" : 		{
-			"obj-10::obj-186" : [ "Re-Trigger[1]", "Re-Trigger", 0 ],
-			"obj-10::obj-67" : [ "Reset[1]", "Reset", 0 ],
-			"obj-10::obj-144" : [ "Phase", "Phase", 0 ],
-			"obj-10::obj-212" : [ "Hold[1]", "Hold", 0 ],
-			"obj-10::obj-191" : [ "SyncRate[1]", "Rate", 0 ],
-			"obj-10::obj-81" : [ "Reset[2]", "Reset", 0 ],
-			"obj-10::obj-223" : [ "Time Mode[1]", "Time Mode", 1 ],
-			"obj-10::obj-219" : [ "Phase[1]", "Phase", 0 ],
-			"obj-10::obj-58" : [ "SyncRate", "Rate", 0 ],
-			"obj-10::obj-12" : [ "Mute", "Mute", 0 ],
-			"obj-10::obj-30" : [ "Time Mode", "Time Mode", 1 ],
-			"obj-10::obj-66" : [ "Max pulse[1]", "Max pulse", 0 ],
-			"obj-10::obj-32" : [ "live.tab", "live.tab", 0 ],
-			"obj-10::obj-89" : [ "FreqRate", "Rate", 0 ],
-			"obj-10::obj-49" : [ "PulseWidth", "PulseWidth", 0 ],
-			"obj-10::obj-123" : [ "Level", "Level", 0 ],
-			"obj-10::obj-224" : [ "FreqRate[1]", "Rate", 0 ],
-			"obj-10::obj-57" : [ "Invert", "Phase-Inversion", 1 ],
-			"obj-10::obj-61" : [ "PulseWidth[1]", "PulseWidth", 0 ],
-			"obj-10::obj-1" : [ "Time Mode[2]", "Time Mode", 1 ],
-			"obj-10::obj-94" : [ "Re-Trigger", "Re-Trigger", 0 ],
-			"obj-10::obj-214" : [ "Invert[1]", "Phase-Inversion", 1 ],
-			"obj-10::obj-55" : [ "Hold", "Hold", 0 ],
-			"obj-10::obj-96" : [ "PulseWidth[2]", "Pulse", 0 ]
+			"obj-1::obj-12" : [ "Mute[1]", "Mute", 0 ],
+			"obj-1::obj-96" : [ "PulseWidth[3]", "Pulse", 0 ],
+			"obj-1::obj-214" : [ "Invert[2]", "Phase-Inversion", 1 ],
+			"obj-1::obj-224" : [ "FreqRate[2]", "Rate", 0 ],
+			"obj-1::obj-212" : [ "Hold[4]", "Hold", 0 ],
+			"obj-1::obj-219" : [ "Phase[2]", "Phase", 0 ],
+			"obj-1::obj-223" : [ "Time Mode[4]", "Time Mode", 1 ],
+			"obj-1::obj-57" : [ "Invert[3]", "Phase-Inversion", 1 ],
+			"obj-1::obj-81" : [ "Reset[3]", "Reset", 0 ],
+			"obj-1::obj-61" : [ "PulseWidth[4]", "PulseWidth", 0 ],
+			"obj-1::obj-186" : [ "Re-Trigger[2]", "Re-Trigger", 0 ],
+			"obj-1::obj-191" : [ "SyncRate[2]", "Rate", 0 ],
+			"obj-1::obj-89" : [ "FreqRate[3]", "Rate", 0 ],
+			"obj-1::obj-123" : [ "Level[1]", "Level", 0 ],
+			"obj-1::obj-144" : [ "Phase[3]", "Phase", 0 ],
+			"obj-1::obj-30" : [ "Time Mode[5]", "Time Mode", 1 ],
+			"obj-1::obj-66" : [ "Max pulse[2]", "Max pulse", 0 ],
+			"obj-1::obj-55" : [ "Hold[5]", "Hold", 0 ],
+			"obj-1::obj-1" : [ "Time Mode[3]", "Time Mode", 1 ],
+			"obj-1::obj-67" : [ "Reset[4]", "Reset", 0 ],
+			"obj-1::obj-49" : [ "PulseWidth[5]", "PulseWidth", 0 ],
+			"obj-1::obj-94" : [ "Re-Trigger[3]", "Re-Trigger", 0 ],
+			"obj-1::obj-58" : [ "SyncRate[3]", "Rate", 0 ],
+			"obj-1::obj-32" : [ "live.tab[1]", "live.tab", 0 ]
 		}
 ,
 		"dependency_cache" : [ 			{
