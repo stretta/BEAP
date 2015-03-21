@@ -44,12 +44,14 @@ function rescan() {
 function osc() {
 	if(arguments[0] == "/serialosc/device") {
 		outlet(3, "append", arguments[1], arguments[2]);
-		ports.splice(0, 0, arguments[3]);
-		devices.splice(0, 0, arguments[2]);
-		serials.splice(0, 0, arguments[1]);
+		ports.push(arguments[3]);
+		devices.push(arguments[2]);
+		serials.push(arguments[1]);
+		
 		if(autoconnect == 1) {
 			outlet(3, 1);
 		}
+		
 		if(connected) {
 			var i;
 			for(i = 0; i < serials.length; i++) {
@@ -85,6 +87,8 @@ function menu(i) {
 		connected = serials[i-1];
 	}
 	else {
+		post(ports);
+		post(serials);
 		if(connected)
 			outlet(2, "/sys/port", 0);
 	}
