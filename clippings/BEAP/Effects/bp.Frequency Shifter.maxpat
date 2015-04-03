@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 34.0, 78.0, 603.0, 684.0 ],
+		"rect" : [ 327.0, 78.0, 603.0, 684.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -61,7 +61,7 @@
 							"modernui" : 1
 						}
 ,
-						"rect" : [ 34.0, 78.0, 227.0, 116.0 ],
+						"rect" : [ 327.0, 78.0, 227.0, 116.0 ],
 						"bgcolor" : [ 1.0, 1.0, 1.0, 0.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 1,
@@ -106,7 +106,7 @@
 											"modernui" : 1
 										}
 ,
-										"rect" : [ 0.0, 0.0, 640.0, 480.0 ],
+										"rect" : [ 84.0, 128.0, 640.0, 480.0 ],
 										"bglocked" : 0,
 										"openinpresentation" : 0,
 										"default_fontsize" : 12.0,
@@ -233,7 +233,7 @@
 													"outlettype" : [ "signal" ],
 													"patching_rect" : [ 50.0, 200.817505, 59.22406, 22.0 ],
 													"style" : "",
-													"text" : "*~ 0.2"
+													"text" : "*~"
 												}
 
 											}
@@ -545,14 +545,14 @@
 									"bgcolor" : [ 0.6, 0.6, 0.6, 0.0 ],
 									"bordercolor" : [ 0.278431, 0.839216, 1.0, 1.0 ],
 									"focusbordercolor" : [ 0.278431, 0.839216, 1.0, 1.0 ],
-									"hint" : "Thru-zero: includes negative frequencies in the output.  Only affects negatively shifted frequencies.",
+									"hint" : "Thru-zero: Passes/blocks frequencies less than zero (created by negative frequency shifts).    ",
 									"id" : "obj-38",
 									"maxclass" : "live.text",
 									"numinlets" : 1,
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
 									"parameter_enable" : 1,
-									"patching_rect" : [ 483.0, 569.075195, 73.0, 18.0 ],
+									"patching_rect" : [ 524.672119, 558.90332, 73.0, 18.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 51.0, 75.221527, 38.0, 14.947552 ],
 									"saved_attribute_attributes" : 									{
@@ -622,6 +622,7 @@
 										"tags" : "",
 										"style" : "",
 										"subpatcher_template" : "",
+										"visible" : 1,
 										"boxes" : [ 											{
 												"box" : 												{
 													"comment" : "",
@@ -681,7 +682,7 @@
 													"maxclass" : "inlet",
 													"numinlets" : 0,
 													"numoutlets" : 1,
-													"outlettype" : [ "" ],
+													"outlettype" : [ "signal" ],
 													"patching_rect" : [ 50.0, 40.0, 30.0, 30.0 ],
 													"presentation" : 1,
 													"presentation_rect" : [ 301.672119, 534.8927, 30.0, 30.0 ],
@@ -880,7 +881,7 @@
 													"maxclass" : "inlet",
 													"numinlets" : 0,
 													"numoutlets" : 1,
-													"outlettype" : [ "" ],
+													"outlettype" : [ "signal" ],
 													"patching_rect" : [ 50.0, 40.0, 30.0, 30.0 ],
 													"presentation" : 1,
 													"presentation_rect" : [ 301.672119, 534.8927, 30.0, 30.0 ],
@@ -2555,9 +2556,10 @@
 									"fontsize" : 12.0,
 									"id" : "obj-91",
 									"maxclass" : "newobj",
-									"numinlets" : 1,
-									"numoutlets" : 0,
-									"patching_rect" : [ 301.672119, 634.782715, 164.0, 22.0 ],
+									"numinlets" : 2,
+									"numoutlets" : 2,
+									"outlettype" : [ "signal", "signal" ],
+									"patching_rect" : [ 301.672119, 636.782715, 164.0, 22.0 ],
 									"style" : "",
 									"text" : "poly~ bp.freqshift.poly 1 up 2"
 								}
@@ -2711,7 +2713,7 @@
 									"restore" : 									{
 										"CV2" : [ 0.0 ],
 										"CV2[1]" : [ 100.0 ],
-										"DryWetMix" : [ 100.0 ],
+										"DryWetMix" : [ 50.0 ],
 										"Freq" : [ 100.0 ],
 										"FreqMode" : [ 0.0 ],
 										"Linear" : [ 0.0 ],
@@ -2722,7 +2724,7 @@
 ,
 									"style" : "",
 									"text" : "autopattr",
-									"varname" : "u103007470"
+									"varname" : "u822002271"
 								}
 
 							}
@@ -2959,6 +2961,15 @@
 							}
 , 							{
 								"patchline" : 								{
+									"destination" : [ "obj-37", 2 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-38", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
 									"destination" : [ "obj-91", 0 ],
 									"disabled" : 0,
 									"hidden" : 0,
@@ -3140,6 +3151,15 @@
 							}
 , 							{
 								"patchline" : 								{
+									"destination" : [ "obj-91", 1 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-73", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
 									"destination" : [ "obj-73", 1 ],
 									"disabled" : 0,
 									"hidden" : 0,
@@ -3183,6 +3203,24 @@
 								}
 
 							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-36", 0 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-91", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-37", 0 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-91", 1 ]
+								}
+
+							}
  ]
 					}
 ,
@@ -3197,18 +3235,24 @@
  ],
 		"lines" : [  ],
 		"parameters" : 		{
-			"obj-17::obj-10" : [ "CV2[2]", "CV2", 0 ],
 			"obj-17::obj-3" : [ "DryWetMix", "Mix", 0 ],
-			"obj-17::obj-129" : [ "CV2", "CV2", 0 ],
-			"obj-17::obj-45" : [ "FreqMode", "FreqMode", 0 ],
-			"obj-17::obj-38" : [ "ThruZero", "ThruZero", 0 ],
 			"obj-17::obj-46" : [ "Offset", "Offset", 0 ],
-			"obj-17::obj-107" : [ "Linear", "Linear", 0 ],
 			"obj-17::obj-51" : [ "Freq", "Freq", 0 ],
-			"obj-17::obj-53" : [ "Mute", "Mute", 0 ]
+			"obj-17::obj-45" : [ "FreqMode", "FreqMode", 0 ],
+			"obj-17::obj-107" : [ "Linear", "Linear", 0 ],
+			"obj-17::obj-129" : [ "CV2", "CV2", 0 ],
+			"obj-17::obj-53" : [ "Mute", "Mute", 0 ],
+			"obj-17::obj-38" : [ "ThruZero", "ThruZero", 0 ],
+			"obj-17::obj-10" : [ "CV2[2]", "CV2", 0 ]
 		}
 ,
-		"dependency_cache" : [  ],
+		"dependency_cache" : [ 			{
+				"name" : "bp.freqshift.poly.maxpat",
+				"bootpath" : "C74:/packages/Beap/misc",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+ ],
 		"embedsnapshot" : 0,
 		"styles" : [ 			{
 				"name" : "AudioStatus_Menu",
