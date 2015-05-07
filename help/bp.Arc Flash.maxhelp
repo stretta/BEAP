@@ -148,6 +148,19 @@
 						"showontab" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
+									"bubble" : 1,
+									"id" : "obj-8",
+									"maxclass" : "comment",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 109.0, 326.0, 168.0, 25.0 ],
+									"style" : "",
+									"text" : "select encoder ring (1-4)"
+								}
+
+							}
+, 							{
+								"box" : 								{
 									"bgmode" : 0,
 									"border" : 0,
 									"clickthrough" : 0,
@@ -3864,12 +3877,12 @@
 		"snapshot" : 		{
 			"filetype" : "C74Snapshot",
 			"version" : 1,
-			"name" : "bp.Arc DC.maxhelp",
-			"origin" : "bp.Arc DC.maxhelp",
+			"name" : "bp.Arc Flash.maxhelp",
+			"origin" : "bp.Arc Flash.maxhelp",
 			"type" : "patcher",
 			"subtype" : "Undefined",
 			"snapshot" : 			{
-				"name" : "bp.Arc DC.maxhelp",
+				"name" : "bp.Arc Flash.maxhelp",
 				"valuedictionary" : 				{
 					"parameter_values" : 					{
 						"Attack" : 0.0,
