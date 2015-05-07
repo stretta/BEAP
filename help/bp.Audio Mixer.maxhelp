@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 59.0, 106.0, 661.0, 756.0 ],
+		"rect" : [ 73.0, 93.0, 661.0, 756.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -117,7 +117,7 @@
 							"modernui" : 1
 						}
 ,
-						"rect" : [ 59.0, 132.0, 661.0, 730.0 ],
+						"rect" : [ 73.0, 119.0, 661.0, 730.0 ],
 						"bgcolor" : [ 0.88, 0.88, 0.88, 1.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
@@ -253,7 +253,7 @@
 											"modernui" : 1
 										}
 ,
-										"rect" : [ 69.0, 640.0, 201.0, 116.0 ],
+										"rect" : [ 83.0, 627.0, 201.0, 116.0 ],
 										"bgcolor" : [ 1.0, 1.0, 1.0, 0.0 ],
 										"bglocked" : 0,
 										"openinpresentation" : 1,
@@ -1145,7 +1145,7 @@
 ,
 													"style" : "",
 													"text" : "autopattr",
-													"varname" : "u055004281"
+													"varname" : "u546005407"
 												}
 
 											}
@@ -1980,7 +1980,7 @@
 											"modernui" : 1
 										}
 ,
-										"rect" : [ 223.0, 999.0, 111.0, 116.0 ],
+										"rect" : [ 237.0, 986.0, 111.0, 116.0 ],
 										"bgcolor" : [ 1.0, 1.0, 1.0, 0.0 ],
 										"bglocked" : 0,
 										"openinpresentation" : 1,
@@ -2138,7 +2138,7 @@
 ,
 													"style" : "",
 													"text" : "autopattr",
-													"varname" : "u642004275"
+													"varname" : "u894005386"
 												}
 
 											}
@@ -2667,7 +2667,7 @@
 						"CV3[1]" : 0.0,
 						"CV3[2]" : 0.0,
 						"CV3[3]" : 0.0,
-						"DSP" : 1.0,
+						"DSP" : 0.0,
 						"Fatness" : 2.366432,
 						"Fatness[1]" : 2.366432,
 						"Fatness[2]" : 2.366432,

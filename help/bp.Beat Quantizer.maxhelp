@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 59.0, 106.0, 685.0, 756.0 ],
+		"rect" : [ 74.0, 92.0, 685.0, 756.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -117,7 +117,7 @@
 							"modernui" : 1
 						}
 ,
-						"rect" : [ 59.0, 132.0, 685.0, 730.0 ],
+						"rect" : [ 74.0, 118.0, 685.0, 730.0 ],
 						"bgcolor" : [ 0.88, 0.88, 0.88, 1.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
@@ -210,7 +210,7 @@
 											"modernui" : 1
 										}
 ,
-										"rect" : [ 313.0, 459.0, 113.0, 116.0 ],
+										"rect" : [ 328.0, 445.0, 113.0, 116.0 ],
 										"bgcolor" : [ 1.0, 1.0, 1.0, 0.0 ],
 										"bglocked" : 0,
 										"openinpresentation" : 1,
@@ -603,15 +603,15 @@
 													"outlettype" : [ "", "", "", "" ],
 													"patching_rect" : [ 48.0, 120.470001, 59.5, 22.0 ],
 													"restore" : 													{
-														"Pulse" : [ "16nt" ],
+														"Pulse" : [ "8n" ],
 														"bypass" : [ 0.0 ],
-														"led" : [ 1.0 ],
+														"led" : [ 0.0 ],
 														"led[1]" : [ 1.0 ]
 													}
 ,
 													"style" : "",
 													"text" : "autopattr",
-													"varname" : "u113006500"
+													"varname" : "u469005138"
 												}
 
 											}
@@ -1007,7 +1007,7 @@
 											"modernui" : 1
 										}
 ,
-										"rect" : [ 223.0, 999.0, 111.0, 116.0 ],
+										"rect" : [ 238.0, 985.0, 111.0, 116.0 ],
 										"bgcolor" : [ 1.0, 1.0, 1.0, 0.0 ],
 										"bglocked" : 0,
 										"openinpresentation" : 1,
@@ -1165,7 +1165,7 @@
 ,
 													"style" : "",
 													"text" : "autopattr",
-													"varname" : "u215006335"
+													"varname" : "u312005090"
 												}
 
 											}
@@ -1595,7 +1595,7 @@
 						"Bypass" : 0.0,
 						"CV2" : 0.0,
 						"CV3" : 0.0,
-						"DSP" : 1.0,
+						"DSP" : 0.0,
 						"Freq" : 5687.678711,
 						"FreqMode" : 1.0,
 						"KeyboardMode" : 2.0,
