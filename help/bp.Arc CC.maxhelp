@@ -157,7 +157,6 @@
 									"numinlets" : 1,
 									"numoutlets" : 0,
 									"patching_rect" : [ 228.0, 125.0, 160.0, 25.0 ],
-									"presentation_rect" : [ 228.0, 124.0, 0.0, 0.0 ],
 									"style" : "",
 									"text" : "Select serialosc device"
 								}
@@ -176,7 +175,6 @@
 									"numinlets" : 1,
 									"numoutlets" : 0,
 									"patching_rect" : [ 132.0, 251.0, 164.5, 40.0 ],
-									"presentation_rect" : [ 843.0, 193.0, 0.0, 0.0 ],
 									"style" : "",
 									"text" : "Select MIDI continuous controller output"
 								}
@@ -365,7 +363,7 @@
 ,
 													"style" : "",
 													"text" : "autopattr",
-													"varname" : "u395000650"
+													"varname" : "u015001086"
 												}
 
 											}
@@ -1232,12 +1230,12 @@
 		"snapshot" : 		{
 			"filetype" : "C74Snapshot",
 			"version" : 1,
-			"name" : "bp.ArcCC.maxhelp",
-			"origin" : "bp.ArcCC.maxhelp",
+			"name" : "bp.Arc CC.maxhelp",
+			"origin" : "bp.Arc CC.maxhelp",
 			"type" : "patcher",
 			"subtype" : "Undefined",
 			"snapshot" : 			{
-				"name" : "bp.ArcCC.maxhelp",
+				"name" : "bp.Arc CC.maxhelp",
 				"valuedictionary" : 				{
 					"parameter_values" : 					{
 						"MIDICC" : 7.0,
