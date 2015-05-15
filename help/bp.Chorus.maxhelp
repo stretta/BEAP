@@ -148,6 +148,41 @@
 						"showontab" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
+									"bubble" : 1,
+									"id" : "obj-7",
+									"maxclass" : "comment",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 203.0, 441.5, 205.0, 25.0 ],
+									"style" : "",
+									"text" : "Try different settings of Chorus"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"bgmode" : 0,
+									"border" : 0,
+									"clickthrough" : 0,
+									"enablehscroll" : 0,
+									"enablevscroll" : 0,
+									"extract" : 1,
+									"id" : "obj-1",
+									"lockeddragscroll" : 0,
+									"maxclass" : "bpatcher",
+									"name" : "bp.Chorus.maxpat",
+									"numinlets" : 1,
+									"numoutlets" : 2,
+									"offset" : [ 0.0, 0.0 ],
+									"outlettype" : [ "signal", "signal" ],
+									"patching_rect" : [ 10.0, 396.0, 187.0, 116.0 ],
+									"varname" : "bp.Chorus",
+									"viewvisibility" : 1
+								}
+
+							}
+, 							{
+								"box" : 								{
 									"bgmode" : 0,
 									"border" : 0,
 									"clickthrough" : 0,
@@ -171,7 +206,7 @@
 											"modernui" : 1
 										}
 ,
-										"rect" : [ 597.0, 378.0, 110.0, 116.0 ],
+										"rect" : [ 238.0, 370.0, 110.0, 116.0 ],
 										"bgcolor" : [ 1.0, 1.0, 1.0, 0.0 ],
 										"bglocked" : 0,
 										"openinpresentation" : 1,
@@ -1322,14 +1357,14 @@
 													"outlettype" : [ "", "", "", "" ],
 													"patching_rect" : [ 25.0, 146.5, 59.5, 22.0 ],
 													"restore" : 													{
-														"Duration" : [ 33.631908 ],
+														"Duration" : [ 43.330177 ],
 														"bypass" : [ 0.0 ],
 														"live.tab" : [ 0.0 ]
 													}
 ,
 													"style" : "",
 													"text" : "autopattr",
-													"varname" : "u018000578"
+													"varname" : "u517002662"
 												}
 
 											}
@@ -1706,7 +1741,7 @@
  ]
 									}
 ,
-									"patching_rect" : [ 513.0, 257.0, 110.0, 116.0 ],
+									"patching_rect" : [ 154.0, 249.0, 110.0, 116.0 ],
 									"varname" : "TriggerToGate",
 									"viewvisibility" : 1
 								}
@@ -1719,22 +1754,9 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 685.0, 170.0, 160.0, 25.0 ],
+									"patching_rect" : [ 614.0, 305.0, 160.0, 25.0 ],
 									"style" : "",
 									"text" : "Chainge LFO speed"
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"bubble" : 1,
-									"id" : "obj-13",
-									"maxclass" : "comment",
-									"numinlets" : 1,
-									"numoutlets" : 0,
-									"patching_rect" : [ 635.0, 308.0, 160.0, 25.0 ],
-									"style" : "",
-									"text" : "Try different Durations"
 								}
 
 							}
@@ -1754,7 +1776,7 @@
 									"numoutlets" : 1,
 									"offset" : [ 0.0, 0.0 ],
 									"outlettype" : [ "signal" ],
-									"patching_rect" : [ 369.0, 257.0, 113.0, 116.0 ],
+									"patching_rect" : [ 10.0, 249.0, 113.0, 116.0 ],
 									"varname" : "bp.VCA",
 									"viewvisibility" : 1
 								}
@@ -1776,7 +1798,7 @@
 									"numoutlets" : 2,
 									"offset" : [ 0.0, 0.0 ],
 									"outlettype" : [ "signal", "signal" ],
-									"patching_rect" : [ 513.0, 119.5, 170.0, 116.0 ],
+									"patching_rect" : [ 442.0, 249.0, 170.0, 116.0 ],
 									"varname" : "bp.LFO2[1]",
 									"viewvisibility" : 1
 								}
@@ -1964,7 +1986,7 @@
 ,
 													"style" : "",
 													"text" : "autopattr",
-													"varname" : "u120000575"
+													"varname" : "u596002659"
 												}
 
 											}
@@ -2108,28 +2130,6 @@
 									"enablehscroll" : 0,
 									"enablevscroll" : 0,
 									"extract" : 1,
-									"id" : "obj-7",
-									"lockeddragscroll" : 0,
-									"maxclass" : "bpatcher",
-									"name" : "bp.Ladder.maxpat",
-									"numinlets" : 5,
-									"numoutlets" : 1,
-									"offset" : [ 0.0, 0.0 ],
-									"outlettype" : [ "signal" ],
-									"patching_rect" : [ 10.0, 421.0, 295.0, 116.0 ],
-									"varname" : "bp.Ladder",
-									"viewvisibility" : 1
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"bgmode" : 0,
-									"border" : 0,
-									"clickthrough" : 0,
-									"enablehscroll" : 0,
-									"enablevscroll" : 0,
-									"extract" : 1,
 									"id" : "obj-6",
 									"lockeddragscroll" : 0,
 									"maxclass" : "bpatcher",
@@ -2153,9 +2153,9 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 7.0, 69.0, 428.0, 36.0 ],
+									"patching_rect" : [ 7.0, 69.0, 626.0, 36.0 ],
 									"style" : "",
-									"text" : "A trigger input generates a gate signal/ The user can vary the length of the gate.",
+									"text" : "A chorus effect (sometimes chorusing or chorused effect) occurs when individual sounds with roughly the same timbre and nearly (but never exactly) the same pitch converge and are perceived as one.",
 									"textcolor" : [ 0.2, 0.2, 0.2, 1.0 ],
 									"varname" : "autohelp_top_digest"
 								}
@@ -2171,7 +2171,7 @@
 									"numoutlets" : 0,
 									"patching_rect" : [ 7.0, 7.0, 387.0, 60.0 ],
 									"style" : "",
-									"text" : "Trigger Gate",
+									"text" : "Chorus",
 									"textcolor" : [ 0.2, 0.2, 0.2, 1.0 ],
 									"varname" : "autohelp_top_digest[2]"
 								}
@@ -2180,10 +2180,27 @@
  ],
 						"lines" : [ 							{
 								"patchline" : 								{
-									"destination" : [ "obj-7", 0 ],
+									"destination" : [ "obj-10", 1 ],
 									"disabled" : 0,
 									"hidden" : 0,
-									"midpoints" : [ 378.5, 396.5, 19.5, 396.5 ],
+									"source" : [ "obj-1", 1 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-10", 0 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-1", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-1", 0 ],
+									"disabled" : 0,
+									"hidden" : 0,
 									"source" : [ "obj-12", 0 ]
 								}
 
@@ -2193,6 +2210,7 @@
 									"destination" : [ "obj-4", 0 ],
 									"disabled" : 0,
 									"hidden" : 0,
+									"midpoints" : [ 451.5, 375.0, 271.5, 375.0, 271.5, 238.0, 163.5, 238.0 ],
 									"source" : [ "obj-2", 0 ]
 								}
 
@@ -2202,6 +2220,7 @@
 									"destination" : [ "obj-12", 1 ],
 									"disabled" : 0,
 									"hidden" : 0,
+									"midpoints" : [ 163.5, 375.0, 138.5, 375.0, 138.5, 238.0, 113.5, 238.0 ],
 									"source" : [ "obj-4", 0 ]
 								}
 
@@ -2211,28 +2230,8 @@
 									"destination" : [ "obj-12", 0 ],
 									"disabled" : 0,
 									"hidden" : 0,
-									"midpoints" : [ 19.5, 240.0, 378.5, 240.0 ],
+									"midpoints" : [ 19.5, 240.0, 19.5, 240.0 ],
 									"source" : [ "obj-6", 0 ]
-								}
-
-							}
-, 							{
-								"patchline" : 								{
-									"destination" : [ "obj-10", 1 ],
-									"disabled" : 0,
-									"hidden" : 0,
-									"midpoints" : [ 19.5, 547.0, 148.5, 547.0 ],
-									"source" : [ "obj-7", 0 ]
-								}
-
-							}
-, 							{
-								"patchline" : 								{
-									"destination" : [ "obj-10", 0 ],
-									"disabled" : 0,
-									"hidden" : 0,
-									"midpoints" : [ 19.5, 547.0, 19.5, 547.0 ],
-									"source" : [ "obj-7", 0 ]
 								}
 
 							}
@@ -2291,31 +2290,26 @@
 			}
  ],
 		"parameters" : 		{
-			"obj-2::obj-7::obj-23" : [ "CV2[1]", "CV2", 0 ],
 			"obj-2::obj-6::obj-45" : [ "FreqMode", "FreqMode", 0 ],
 			"obj-2::obj-3::obj-129" : [ "Tempo", "Tempo", 0 ],
 			"obj-2::obj-2::obj-12" : [ "Mute[2]", "Mute", 0 ],
+			"obj-2::obj-1::obj-2" : [ "Rate[1]", "Rate", 0 ],
 			"obj-2::obj-6::obj-11" : [ "PWM", "PWM", 0 ],
-			"obj-2::obj-7::obj-28" : [ "Res", "Res", 0 ],
 			"obj-2::obj-6::obj-4" : [ "Waveform", "Waveform", 0 ],
+			"obj-2::obj-1::obj-1" : [ "Width[1]", "Width", 0 ],
 			"obj-2::obj-6::obj-106" : [ "CV3", "CV3", 0 ],
-			"obj-2::obj-7::obj-20" : [ "Freq[1]", "Freq", 0 ],
 			"obj-2::obj-6::obj-46" : [ "Offset", "Offset", 0 ],
 			"obj-2::obj-3::obj-76" : [ "Transport", "Transport", 0 ],
 			"obj-2::obj-2::obj-144" : [ "Phase", "Phase", 0 ],
-			"obj-2::obj-7::obj-95" : [ "ResCV", "CV", 0 ],
 			"obj-2::obj-10::obj-52" : [ "Level", "Level", 0 ],
 			"obj-2::obj-4::obj-11" : [ "bypass[1]", "bypass", 0 ],
 			"obj-2::obj-12::obj-55" : [ "Bypass", "Bypass", 0 ],
-			"obj-2::obj-7::obj-63" : [ "CV3[1]", "CV3", 0 ],
+			"obj-2::obj-1::obj-23" : [ "bypass[2]", "bypass", 0 ],
 			"obj-2::obj-6::obj-107" : [ "Linear", "Linear", 0 ],
 			"obj-2::obj-4::obj-28" : [ "Duration", "Duration", 0 ],
-			"obj-2::obj-7::obj-4" : [ "Offset[1]", "Offset", 0 ],
 			"obj-2::obj-12::obj-33" : [ "Quadrants", "Quadrants", 0 ],
 			"obj-2::obj-12::obj-80" : [ "Response", "Response", 0 ],
-			"obj-2::obj-7::obj-55" : [ "power", "power", 0 ],
 			"obj-2::obj-2::obj-81" : [ "Phase-Inversion", "Phase-Inversion", 1 ],
-			"obj-2::obj-7::obj-54" : [ "CV1", "CV1", 0 ],
 			"obj-2::obj-10::obj-55" : [ "DSP", "DSP", 0 ],
 			"obj-2::obj-6::obj-53" : [ "Mute", "Mute", 0 ],
 			"obj-2::obj-10::obj-56" : [ "OutputChannel", "OutputChannel", 0 ],
@@ -2323,13 +2317,14 @@
 			"obj-2::obj-2::obj-75" : [ "Shape", "Shape", 0 ],
 			"obj-2::obj-2::obj-88" : [ "Time Mode", "Time Mode", 1 ],
 			"obj-2::obj-4::obj-40" : [ "live.tab", "live.tab", 0 ],
+			"obj-2::obj-1::obj-28" : [ "Center[1]", "Center", 0 ],
+			"obj-2::obj-1::obj-3" : [ "Regen[1]", "Regen", 0 ],
 			"obj-2::obj-6::obj-129" : [ "CV2", "CV2", 0 ],
 			"obj-2::obj-6::obj-51" : [ "Freq", "Freq", 0 ],
 			"obj-2::obj-10::obj-22" : [ "Mute[1]", "Mute", 0 ],
 			"obj-2::obj-6::obj-36" : [ "PW", "PW", 0 ],
 			"obj-2::obj-2::obj-94" : [ "Re-Trigger", "Re-Trigger", 0 ],
-			"obj-2::obj-2::obj-89" : [ "SyncRate", "Rate", 0 ],
-			"obj-2::obj-7::obj-22" : [ "TimeMode", "TimeMode", 1 ]
+			"obj-2::obj-2::obj-89" : [ "SyncRate", "Rate", 0 ]
 		}
 ,
 		"dependency_cache" : [ 			{
@@ -2363,12 +2358,6 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "bp.Ladder.maxpat",
-				"bootpath" : "C74:/packages/Beap/clippings/BEAP/Filter",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
 				"name" : "bp.Stereo.maxpat",
 				"bootpath" : "C74:/packages/Beap/clippings/BEAP/Output",
 				"type" : "JSON",
@@ -2392,57 +2381,59 @@
 				"type" : "JSON",
 				"implicit" : 1
 			}
+, 			{
+				"name" : "bp.Chorus.maxpat",
+				"bootpath" : "C74:/packages/Beap/clippings/BEAP/Effects",
+				"type" : "JSON",
+				"implicit" : 1
+			}
  ],
 		"embedsnapshot" : 1,
 		"snapshot" : 		{
 			"filetype" : "C74Snapshot",
 			"version" : 1,
-			"name" : "bp.Trigger Gate.maxhelp",
-			"origin" : "bp.Trigger Gate.maxhelp",
+			"name" : "bp.Chorus.maxhelp",
+			"origin" : "bp.Chorus.maxhelp",
 			"type" : "patcher",
 			"subtype" : "Undefined",
 			"snapshot" : 			{
-				"name" : "bp.Trigger Gate.maxhelp",
+				"name" : "bp.Chorus.maxhelp",
 				"valuedictionary" : 				{
 					"parameter_values" : 					{
 						"Bypass" : 0.0,
-						"CV1" : 0.0,
 						"CV2" : 0.0,
-						"CV2[1]" : 99.842522,
 						"CV3" : 0.0,
-						"CV3[1]" : 0.0,
-						"DSP" : 1.0,
-						"Duration" : 2408.156982,
+						"Center[1]" : 1031.496094,
+						"DSP" : 0.0,
+						"Duration" : 2565.637207,
 						"Freq" : 6763.828125,
 						"FreqMode" : 1.0,
-						"Freq[1]" : 6766.246582,
 						"Level" : -3.475141,
 						"Linear" : 0.0,
 						"Mute" : 0.0,
 						"Mute[1]" : 0.0,
 						"Mute[2]" : 0.0,
-						"Offset" : 0.0,
-						"Offset[1]" : 64.0,
+						"Offset" : -12.0,
 						"OutputChannel" : 0.0,
 						"PW" : 50.0,
 						"PWM" : 0.0,
 						"Phase" : 0.0,
 						"Quadrants" : 0.0,
 						"Rate" : 5.0,
+						"Rate[1]" : 2.041734,
 						"Re-Trigger" : 0.0,
-						"Res" : 51.968502,
-						"ResCV" : 0.0,
+						"Regen[1]" : 0.822835,
 						"Response" : 0.0,
 						"Shape" : 1.0,
 						"SyncRate" : 22.81744,
 						"Tempo" : 80.0,
 						"Transport" : 1.0,
 						"Waveform" : 2.0,
+						"Width[1]" : 3556.55835,
 						"bypass[1]" : 0.0,
+						"bypass[2]" : 0.0,
 						"live.tab" : 0.0,
-						"power" : 0.0,
-						"Time Mode" : 1.0,
-						"TimeMode" : 1.0
+						"Time Mode" : 1.0
 					}
 
 				}
