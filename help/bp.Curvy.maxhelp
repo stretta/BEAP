@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 55.0, 79.0, 1029.0, 683.0 ],
+		"rect" : [ 55.0, 79.0, 669.0, 658.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -117,7 +117,7 @@
 							"modernui" : 1
 						}
 ,
-						"rect" : [ 55.0, 105.0, 1029.0, 657.0 ],
+						"rect" : [ 55.0, 105.0, 669.0, 632.0 ],
 						"bgcolor" : [ 0.88, 0.88, 0.88, 1.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
@@ -150,15 +150,19 @@
 								"box" : 								{
 									"bgcolor" : [ 0.0, 0.0, 0.0, 0.0 ],
 									"bubble" : 1,
+									"bubblepoint" : 0.99,
+									"bubbleside" : 2,
 									"fontname" : "Arial",
 									"fontsize" : 13.0,
-									"id" : "obj-6",
+									"id" : "obj-2",
+									"linecount" : 4,
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 141.0, 575.0, 232.0, 25.0 ],
+									"patching_rect" : [ 48.5, 306.0, 101.0, 84.0 ],
+									"presentation_rect" : [ 370.0, 495.0, 0.0, 0.0 ],
 									"style" : "",
-									"text" : "Here is the output from Curvy 0-5 V"
+									"text" : "MIDI notes 0-15 map to the 16 curve shapes"
 								}
 
 							}
@@ -168,13 +172,32 @@
 									"bubble" : 1,
 									"fontname" : "Arial",
 									"fontsize" : 13.0,
-									"id" : "obj-4",
+									"id" : "obj-6",
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 262.0, 449.0, 336.0, 25.0 ],
+									"patching_rect" : [ 183.0, 599.0, 232.0, 25.0 ],
 									"style" : "",
-									"text" : "Notes map to modulation wave shapes and scaling"
+									"text" : "Here is the output from Curvy 0-5 V"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"bgcolor" : [ 0.0, 0.0, 0.0, 0.0 ],
+									"bubble" : 1,
+									"bubblepoint" : 0.0,
+									"bubbleside" : 0,
+									"fontname" : "Arial",
+									"fontsize" : 13.0,
+									"id" : "obj-4",
+									"linecount" : 2,
+									"maxclass" : "comment",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 301.0, 416.0, 144.0, 55.0 ],
+									"style" : "",
+									"text" : "MIDI notes 0-127 map to 0-100% scaling"
 								}
 
 							}
@@ -2205,7 +2228,7 @@
 ,
 													"style" : "",
 													"text" : "autopattr",
-													"varname" : "u485001429"
+													"varname" : "u001006261"
 												}
 
 											}
@@ -2499,7 +2522,7 @@
 									"numoutlets" : 1,
 									"offset" : [ 0.0, 0.0 ],
 									"outlettype" : [ "signal" ],
-									"patching_rect" : [ 7.0, 537.0, 121.0, 116.0 ],
+									"patching_rect" : [ 48.5, 543.0, 121.0, 116.0 ],
 									"varname" : "bp.History",
 									"viewvisibility" : 1
 								}
@@ -2565,7 +2588,7 @@
 									"numoutlets" : 1,
 									"offset" : [ 0.0, 0.0 ],
 									"outlettype" : [ "signal" ],
-									"patching_rect" : [ 7.0, 399.0, 242.0, 116.0 ],
+									"patching_rect" : [ 48.5, 411.0, 242.0, 116.0 ],
 									"viewvisibility" : 1
 								}
 
@@ -2594,7 +2617,7 @@
 											"modernui" : 1
 										}
 ,
-										"rect" : [ 733.0, 569.0, 111.0, 116.0 ],
+										"rect" : [ 317.0, 208.0, 111.0, 116.0 ],
 										"bgcolor" : [ 1.0, 1.0, 1.0, 0.0 ],
 										"bglocked" : 0,
 										"openinpresentation" : 1,
@@ -2752,7 +2775,7 @@
 ,
 													"style" : "",
 													"text" : "autopattr",
-													"varname" : "u304001425"
+													"varname" : "u003006257"
 												}
 
 											}
@@ -2861,7 +2884,7 @@
  ]
 									}
 ,
-									"patching_rect" : [ 678.0, 464.0, 111.0, 116.0 ],
+									"patching_rect" : [ 262.0, 103.0, 111.0, 116.0 ],
 									"varname" : "GlobalTransport",
 									"viewvisibility" : 1
 								}
@@ -2932,6 +2955,7 @@
 									"destination" : [ "obj-1", 0 ],
 									"disabled" : 0,
 									"hidden" : 0,
+									"midpoints" : [ 16.5, 397.5, 58.0, 397.5 ],
 									"source" : [ "obj-18", 0 ]
 								}
 
@@ -3092,7 +3116,7 @@
 						"Top" : 31.0,
 						"Top[1]" : 127.0,
 						"Transport" : 1.0,
-						"curve" : 8.0,
+						"curve" : 15.0,
 						"enable" : 1.0,
 						"mute" : 0.0,
 						"mute[1]" : 0.0,
@@ -3104,7 +3128,7 @@
 						"blob" : 						{
 							"Pulse" : [ "8n" ],
 							"Pulse[1]" : [ "8n" ],
-							"scale" : [ 25.984252 ]
+							"scale" : [ 60.629921 ]
 						}
 
 					}
