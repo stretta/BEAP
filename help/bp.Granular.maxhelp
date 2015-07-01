@@ -4,12 +4,12 @@
 		"appversion" : 		{
 			"major" : 7,
 			"minor" : 0,
-			"revision" : 2,
-			"architecture" : "x64",
+			"revision" : 4,
+			"architecture" : "x86",
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 50.0, 79.0, 674.0, 658.0 ],
+		"rect" : [ 50.0, 97.0, 612.0, 883.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -36,7 +36,8 @@
 		"tags" : "",
 		"style" : "",
 		"subpatcher_template" : "",
-		"showontab" : 1,
+		"showrootpatcherontab" : 0,
+		"showontab" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
 					"fontname" : "Arial",
@@ -50,12 +51,12 @@
 						"appversion" : 						{
 							"major" : 7,
 							"minor" : 0,
-							"revision" : 2,
-							"architecture" : "x64",
+							"revision" : 4,
+							"architecture" : "x86",
 							"modernui" : 1
 						}
 ,
-						"rect" : [ 50.0, 105.0, 674.0, 632.0 ],
+						"rect" : [ 0.0, 26.0, 612.0, 857.0 ],
 						"bgcolor" : [ 0.88, 0.88, 0.88, 1.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
@@ -177,12 +178,12 @@
 										"appversion" : 										{
 											"major" : 7,
 											"minor" : 0,
-											"revision" : 2,
-											"architecture" : "x64",
+											"revision" : 4,
+											"architecture" : "x86",
 											"modernui" : 1
 										}
 ,
-										"rect" : [ 82.0, 552.0, 148.0, 116.0 ],
+										"rect" : [ 32.0, 473.0, 148.0, 116.0 ],
 										"bgcolor" : [ 1.0, 1.0, 1.0, 0.0 ],
 										"bglocked" : 0,
 										"openinpresentation" : 1,
@@ -436,9 +437,9 @@
 													"orientation" : 1,
 													"outlettype" : [ "signal", "signal", "", "float", "list" ],
 													"parameter_enable" : 1,
-													"patching_rect" : [ 456.1875, 347.0, 197.0, 38.0 ],
+													"patching_rect" : [ 456.1875, 347.0, 197.0, 24.0 ],
 													"presentation" : 1,
-													"presentation_rect" : [ 72.896645, 47.792229, 68.0, 38.0 ],
+													"presentation_rect" : [ 72.896645, 47.792229, 68.0, 24.0 ],
 													"saved_attribute_attributes" : 													{
 														"valueof" : 														{
 															"parameter_longname" : "Level[1]",
@@ -578,7 +579,7 @@
 ,
 													"style" : "",
 													"text" : "autopattr",
-													"varname" : "u205010506"
+													"varname" : "u460007858"
 												}
 
 											}
@@ -930,12 +931,12 @@
 										"appversion" : 										{
 											"major" : 7,
 											"minor" : 0,
-											"revision" : 2,
-											"architecture" : "x64",
+											"revision" : 4,
+											"architecture" : "x86",
 											"modernui" : 1
 										}
 ,
-										"rect" : [ 82.0, 299.0, 541.0, 214.0 ],
+										"rect" : [ 32.0, 220.0, 541.0, 214.0 ],
 										"bgcolor" : [ 1.0, 1.0, 1.0, 0.0 ],
 										"bglocked" : 0,
 										"openinpresentation" : 1,
@@ -2893,7 +2894,7 @@
 ,
 													"style" : "",
 													"text" : "autopattr",
-													"varname" : "u892010507"
+													"varname" : "u766007416"
 												}
 
 											}
@@ -3016,8 +3017,8 @@
 														"appversion" : 														{
 															"major" : 7,
 															"minor" : 0,
-															"revision" : 2,
-															"architecture" : "x64",
+															"revision" : 4,
+															"architecture" : "x86",
 															"modernui" : 1
 														}
 ,
@@ -6112,7 +6113,6 @@
 					}
 ,
 					"patching_rect" : [ 56.0, 116.0, 68.0, 22.0 ],
-					"presentation_rect" : [ 56.0, 116.0, 0.0, 0.0 ],
 					"saved_object_attributes" : 					{
 						"description" : "",
 						"digest" : "",
@@ -6202,12 +6202,12 @@
 						"appversion" : 						{
 							"major" : 7,
 							"minor" : 0,
-							"revision" : 2,
-							"architecture" : "x64",
+							"revision" : 4,
+							"architecture" : "x86",
 							"modernui" : 1
 						}
 ,
-						"rect" : [ 0.0, 26.0, 674.0, 632.0 ],
+						"rect" : [ 50.0, 123.0, 612.0, 857.0 ],
 						"bgcolor" : [ 0.88, 0.88, 0.88, 1.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
@@ -6239,14 +6239,14 @@
 						"boxes" : [ 							{
 								"box" : 								{
 									"bubble" : 1,
+									"bubbleside" : 2,
 									"fontname" : "Arial",
 									"fontsize" : 13.0,
 									"id" : "obj-9",
-									"linecount" : 2,
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 575.0, 494.0, 323.0, 40.0 ],
+									"patching_rect" : [ 150.0, 380.0, 323.0, 40.0 ],
 									"style" : "",
 									"text" : "Use a monophonic sound file as the sampling source.\n",
 									"textcolor" : [ 0.2, 0.2, 0.2, 1.0 ],
@@ -6397,9 +6397,9 @@
 									"maxclass" : "bpatcher",
 									"name" : "bp.Keyboard.maxpat",
 									"numinlets" : 0,
-									"numoutlets" : 3,
+									"numoutlets" : 4,
 									"offset" : [ 0.0, 0.0 ],
-									"outlettype" : [ "signal", "signal", "signal" ],
+									"outlettype" : [ "signal", "signal", "signal", "signal" ],
 									"patching_rect" : [ 34.0, 110.0, 506.0, 116.0 ],
 									"varname" : "bp.Keyboard",
 									"viewvisibility" : 1
@@ -6425,12 +6425,12 @@
 										"appversion" : 										{
 											"major" : 7,
 											"minor" : 0,
-											"revision" : 2,
-											"architecture" : "x64",
+											"revision" : 4,
+											"architecture" : "x86",
 											"modernui" : 1
 										}
 ,
-										"rect" : [ 32.0, 745.0, 148.0, 116.0 ],
+										"rect" : [ 82.0, 842.0, 148.0, 116.0 ],
 										"bgcolor" : [ 1.0, 1.0, 1.0, 0.0 ],
 										"bglocked" : 0,
 										"openinpresentation" : 1,
@@ -6826,7 +6826,7 @@
 ,
 													"style" : "",
 													"text" : "autopattr",
-													"varname" : "u770009064"
+													"varname" : "u765007389"
 												}
 
 											}
@@ -7178,12 +7178,12 @@
 										"appversion" : 										{
 											"major" : 7,
 											"minor" : 0,
-											"revision" : 2,
-											"architecture" : "x64",
+											"revision" : 4,
+											"architecture" : "x86",
 											"modernui" : 1
 										}
 ,
-										"rect" : [ 32.0, 453.0, 541.0, 214.0 ],
+										"rect" : [ 82.0, 550.0, 541.0, 214.0 ],
 										"bgcolor" : [ 1.0, 1.0, 1.0, 0.0 ],
 										"bglocked" : 0,
 										"openinpresentation" : 1,
@@ -9141,7 +9141,7 @@
 ,
 													"style" : "",
 													"text" : "autopattr",
-													"varname" : "u045009065"
+													"varname" : "u214006948"
 												}
 
 											}
@@ -9264,8 +9264,8 @@
 														"appversion" : 														{
 															"major" : 7,
 															"minor" : 0,
-															"revision" : 2,
-															"architecture" : "x64",
+															"revision" : 4,
+															"architecture" : "x86",
 															"modernui" : 1
 														}
 ,
@@ -12392,54 +12392,54 @@
 			}
  ],
 		"parameters" : 		{
-			"obj-1::obj-1::obj-114" : [ "MaxGrains[1]", "MaxGrains", 0 ],
-			"obj-2::obj-3::obj-22" : [ "Mute[11]", "Mute", 0 ],
-			"obj-2::obj-1::obj-58" : [ "PanRandomAmt", "Random", 0 ],
-			"obj-2::obj-1::obj-101" : [ "Width", "Width", 0 ],
-			"obj-2::obj-8::obj-12" : [ "Mute[2]", "Mute", 0 ],
-			"obj-1::obj-1::obj-94" : [ "PitchRandomAmt[1]", "Random", 0 ],
-			"obj-2::obj-6::obj-68" : [ "RepeatInterval", "RepeatInterval", 0 ],
-			"obj-1::obj-3::obj-56" : [ "OutputChannel[1]", "OutputChannel", 0 ],
-			"obj-2::obj-1::obj-47" : [ "Duration", "Duration", 0 ],
-			"obj-2::obj-1::obj-12" : [ "Mute", "Mute", 0 ],
-			"obj-1::obj-1::obj-12" : [ "Mute[4]", "Mute", 0 ],
-			"obj-2::obj-1::obj-25" : [ "CV[2]", "CV", 0 ],
-			"obj-2::obj-1::obj-3" : [ "Position", "Position", 0 ],
-			"obj-2::obj-1::obj-19" : [ "CV2", "CV2", 0 ],
-			"obj-2::obj-1::obj-114" : [ "MaxGrains", "MaxGrains", 0 ],
-			"obj-1::obj-3::obj-22" : [ "Mute[13]", "Mute", 0 ],
-			"obj-1::obj-1::obj-115" : [ "NewGrainEvery[1]", "NewGrainEvery", 0 ],
-			"obj-2::obj-8::obj-75" : [ "SpectraLFOShape[3]", "Shape", 0 ],
 			"obj-1::obj-1::obj-19" : [ "CV2[1]", "CV2", 0 ],
-			"obj-2::obj-6::obj-12" : [ "KeyboardMode", "KeyboardMode", 0 ],
-			"obj-2::obj-1::obj-71" : [ "Pan", "Pan", 0 ],
-			"obj-2::obj-10::obj-12" : [ "Mute[10]", "Mute", 0 ],
-			"obj-2::obj-1::obj-28" : [ "Offset", "Offset", 0 ],
-			"obj-1::obj-1::obj-28" : [ "Offset[1]", "Offset", 0 ],
-			"obj-2::obj-10::obj-75" : [ "SpectraLFOShape[2]", "Shape", 0 ],
-			"obj-2::obj-1::obj-94" : [ "PitchRandomAmt", "Random", 0 ],
-			"obj-2::obj-10::obj-20" : [ "Frequency[3]", "Freq", 0 ],
-			"obj-2::obj-1::obj-115" : [ "NewGrainEvery", "NewGrainEvery", 0 ],
 			"obj-1::obj-1::obj-45" : [ "DurationRandomAmt[1]", "Random", 0 ],
-			"obj-2::obj-6::obj-5" : [ "Octave", "Octave", 0 ],
-			"obj-2::obj-3::obj-52" : [ "Level", "Level", 0 ],
-			"obj-2::obj-3::obj-55" : [ "DSP", "DSP", 0 ],
-			"obj-1::obj-1::obj-25" : [ "CV[5]", "CV", 0 ],
-			"obj-1::obj-1::obj-101" : [ "Width[1]", "Width", 0 ],
-			"obj-1::obj-1::obj-71" : [ "Pan[1]", "Pan", 0 ],
-			"obj-2::obj-1::obj-45" : [ "DurationRandomAmt", "Random", 0 ],
 			"obj-1::obj-3::obj-52" : [ "Level[1]", "Level", 0 ],
-			"obj-2::obj-8::obj-7" : [ "CV[1]", "CV", 0 ],
-			"obj-2::obj-8::obj-20" : [ "Frequency[4]", "Freq", 0 ],
-			"obj-2::obj-1::obj-98::obj-2" : [ "pastebang[1]", "pastebang", 0 ],
-			"obj-2::obj-10::obj-7" : [ "CV", "CV", 0 ],
-			"obj-2::obj-6::obj-15::obj-2" : [ "pastebang", "pastebang", 0 ],
-			"obj-1::obj-1::obj-3" : [ "Position[1]", "Position", 0 ],
-			"obj-1::obj-1::obj-58" : [ "PanRandomAmt[1]", "Random", 0 ],
+			"obj-2::obj-3::obj-52" : [ "Level", "Level", 0 ],
+			"obj-1::obj-3::obj-56" : [ "OutputChannel[1]", "OutputChannel", 0 ],
+			"obj-2::obj-6::obj-68" : [ "RepeatInterval", "RepeatInterval", 0 ],
+			"obj-2::obj-1::obj-45" : [ "DurationRandomAmt", "Random", 0 ],
+			"obj-2::obj-10::obj-20" : [ "Frequency[1]", "Freq", 0 ],
 			"obj-1::obj-1::obj-47" : [ "Duration[1]", "Duration", 0 ],
-			"obj-1::obj-1::obj-98::obj-2" : [ "pastebang[3]", "pastebang", 0 ],
+			"obj-1::obj-1::obj-114" : [ "MaxGrains[1]", "MaxGrains", 0 ],
+			"obj-1::obj-1::obj-12" : [ "Mute[4]", "Mute", 0 ],
+			"obj-1::obj-1::obj-58" : [ "PanRandomAmt[1]", "Random", 0 ],
+			"obj-2::obj-8::obj-75" : [ "SpectraLFOShape[2]", "Shape", 0 ],
+			"obj-2::obj-3::obj-55" : [ "DSP", "DSP", 0 ],
+			"obj-2::obj-1::obj-47" : [ "Duration", "Duration", 0 ],
+			"obj-2::obj-1::obj-114" : [ "MaxGrains", "MaxGrains", 0 ],
+			"obj-1::obj-1::obj-98::obj-2" : [ "pastebang[2]", "pastebang", 0 ],
+			"obj-2::obj-1::obj-101" : [ "Width", "Width", 0 ],
+			"obj-2::obj-1::obj-3" : [ "Position", "Position", 0 ],
+			"obj-2::obj-1::obj-25" : [ "CV[2]", "CV", 0 ],
+			"obj-2::obj-8::obj-20" : [ "Frequency[3]", "Freq", 0 ],
+			"obj-2::obj-8::obj-12" : [ "Mute[10]", "Mute", 0 ],
+			"obj-1::obj-1::obj-115" : [ "NewGrainEvery[1]", "NewGrainEvery", 0 ],
+			"obj-1::obj-1::obj-71" : [ "Pan[1]", "Pan", 0 ],
+			"obj-2::obj-10::obj-75" : [ "SpectraLFOShape[3]", "Shape", 0 ],
+			"obj-2::obj-1::obj-12" : [ "Mute", "Mute", 0 ],
+			"obj-2::obj-1::obj-71" : [ "Pan", "Pan", 0 ],
+			"obj-2::obj-1::obj-115" : [ "NewGrainEvery", "NewGrainEvery", 0 ],
+			"obj-2::obj-6::obj-15::obj-2" : [ "pastebang[1]", "pastebang", 0 ],
+			"obj-2::obj-10::obj-7" : [ "CV[3]", "CV", 0 ],
+			"obj-1::obj-1::obj-25" : [ "CV[5]", "CV", 0 ],
+			"obj-2::obj-3::obj-22" : [ "Mute[11]", "Mute", 0 ],
+			"obj-2::obj-6::obj-5" : [ "Octave", "Octave", 0 ],
+			"obj-1::obj-1::obj-94" : [ "PitchRandomAmt[1]", "Random", 0 ],
+			"obj-1::obj-1::obj-101" : [ "Width[1]", "Width", 0 ],
 			"obj-2::obj-3::obj-56" : [ "OutputChannel", "OutputChannel", 0 ],
-			"obj-1::obj-3::obj-55" : [ "DSP[1]", "DSP", 0 ]
+			"obj-2::obj-1::obj-58" : [ "PanRandomAmt", "Random", 0 ],
+			"obj-2::obj-8::obj-7" : [ "CV", "CV", 0 ],
+			"obj-2::obj-10::obj-12" : [ "Mute[1]", "Mute", 0 ],
+			"obj-1::obj-3::obj-55" : [ "DSP[1]", "DSP", 0 ],
+			"obj-2::obj-1::obj-98::obj-2" : [ "pastebang", "pastebang", 0 ],
+			"obj-2::obj-6::obj-12" : [ "KeyboardMode", "KeyboardMode", 0 ],
+			"obj-1::obj-3::obj-22" : [ "Mute[13]", "Mute", 0 ],
+			"obj-1::obj-1::obj-28" : [ "Offset[1]", "Offset", 0 ],
+			"obj-1::obj-1::obj-3" : [ "Position[1]", "Position", 0 ],
+			"obj-2::obj-1::obj-28" : [ "Offset", "Offset", 0 ],
+			"obj-2::obj-1::obj-19" : [ "CV2", "CV2", 0 ],
+			"obj-2::obj-1::obj-94" : [ "PitchRandomAmt", "Random", 0 ]
 		}
 ,
 		"dependency_cache" : [ 			{
@@ -12457,14 +12457,12 @@
 , 			{
 				"name" : "rchoose.maxpat",
 				"bootpath" : "/Users/Shared/Max 7/Examples/sampling/granular/lib",
-				"patcherrelativepath" : "../../../../../Shared/Max 7/Examples/sampling/granular/lib",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "transratio.maxpat",
 				"bootpath" : "/Users/Shared/Max 7/Examples/max-tricks/notes-and-pitch/pitch-to-freq-ratio",
-				"patcherrelativepath" : "../../../../../Shared/Max 7/Examples/max-tricks/notes-and-pitch/pitch-to-freq-ratio",
 				"type" : "JSON",
 				"implicit" : 1
 			}
@@ -12532,8 +12530,8 @@
 						"CV" : 0.0,
 						"CV2" : 0.0,
 						"CV2[1]" : 0.0,
-						"CV[1]" : 0.0,
 						"CV[2]" : 0.0,
+						"CV[3]" : 0.0,
 						"CV[5]" : 0.0,
 						"DSP" : 1.0,
 						"DSP[1]" : 1.0,
@@ -12541,8 +12539,8 @@
 						"DurationRandomAmt" : 0.0,
 						"DurationRandomAmt[1]" : 0.0,
 						"Duration[1]" : 250.0,
+						"Frequency[1]" : 31.622776,
 						"Frequency[3]" : 31.622776,
-						"Frequency[4]" : 31.622776,
 						"KeyboardMode" : 0.0,
 						"Level" : -2.713292,
 						"Level[1]" : -2.713292,
@@ -12552,7 +12550,7 @@
 						"Mute[10]" : 0.0,
 						"Mute[11]" : 0.0,
 						"Mute[13]" : 0.0,
-						"Mute[2]" : 0.0,
+						"Mute[1]" : 0.0,
 						"Mute[4]" : 0.0,
 						"NewGrainEvery" : 50.0,
 						"NewGrainEvery[1]" : 50.0,
