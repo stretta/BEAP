@@ -4,12 +4,12 @@
 		"appversion" : 		{
 			"major" : 7,
 			"minor" : 0,
-			"revision" : 2,
-			"architecture" : "x64",
+			"revision" : 4,
+			"architecture" : "x86",
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 57.0, 79.0, 937.0, 658.0 ],
+		"rect" : [ 100.0, 100.0, 619.0, 917.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -112,12 +112,12 @@
 						"appversion" : 						{
 							"major" : 7,
 							"minor" : 0,
-							"revision" : 2,
-							"architecture" : "x64",
+							"revision" : 4,
+							"architecture" : "x86",
 							"modernui" : 1
 						}
 ,
-						"rect" : [ 57.0, 105.0, 937.0, 632.0 ],
+						"rect" : [ 100.0, 126.0, 619.0, 891.0 ],
 						"bgcolor" : [ 0.88, 0.88, 0.88, 1.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
@@ -250,7 +250,6 @@
 									"offset" : [ 0.0, 0.0 ],
 									"outlettype" : [ "", "int", "", "" ],
 									"patching_rect" : [ 101.0, 278.0, 201.0, 24.0 ],
-									"presentation_rect" : [ 489.0, 350.0, 0.0, 0.0 ],
 									"varname" : "serialosc[1]",
 									"viewvisibility" : 1
 								}
@@ -276,12 +275,12 @@
 										"appversion" : 										{
 											"major" : 7,
 											"minor" : 0,
-											"revision" : 2,
-											"architecture" : "x64",
+											"revision" : 4,
+											"architecture" : "x86",
 											"modernui" : 1
 										}
 ,
-										"rect" : [ 158.0, 427.0, 106.0, 116.0 ],
+										"rect" : [ 201.0, 448.0, 106.0, 116.0 ],
 										"bgcolor" : [ 1.0, 1.0, 1.0, 0.0 ],
 										"bglocked" : 0,
 										"openinpresentation" : 1,
@@ -351,13 +350,13 @@
 													"restore" : 													{
 														"Mute" : [ 0.0 ],
 														"Resolution" : [ 1.951969 ],
-														"TriggerTime" : [ 65.534646 ],
+														"TriggerTime" : [ 65.534645 ],
 														"live.tab" : [ 0.0 ]
 													}
 ,
 													"style" : "",
 													"text" : "autopattr",
-													"varname" : "u520002856"
+													"varname" : "u174006393"
 												}
 
 											}
@@ -1261,29 +1260,29 @@
 			}
  ],
 		"parameters" : 		{
-			"obj-2::obj-2::obj-129" : [ "CV2", "CV2", 0 ],
-			"obj-2::obj-6::obj-32" : [ "Decay", "Decay", 0 ],
-			"obj-2::obj-4::obj-129" : [ "Resolution", "Resolution", 0 ],
-			"obj-2::obj-3::obj-56" : [ "OutputChannel", "OutputChannel", 0 ],
-			"obj-2::obj-4::obj-32" : [ "Encoder", "Encoder", 0 ],
-			"obj-2::obj-3::obj-52" : [ "Level", "Level", 0 ],
-			"obj-2::obj-2::obj-45" : [ "FreqMode", "FreqMode", 0 ],
-			"obj-2::obj-4::obj-28" : [ "TriggerTime", "TriggerTime", 0 ],
-			"obj-2::obj-2::obj-36" : [ "PW", "PW", 0 ],
-			"obj-2::obj-3::obj-22" : [ "Mute[2]", "Mute", 0 ],
-			"obj-2::obj-2::obj-106" : [ "CV3", "CV3", 0 ],
-			"obj-2::obj-6::obj-20" : [ "mute", "mute", 0 ],
-			"obj-2::obj-7::obj-33" : [ "Quadrants", "Quadrants", 0 ],
-			"obj-2::obj-2::obj-53" : [ "Mute", "Mute", 0 ],
-			"obj-2::obj-2::obj-107" : [ "Linear", "Linear", 0 ],
-			"obj-2::obj-2::obj-4" : [ "Waveform", "Waveform", 0 ],
-			"obj-2::obj-7::obj-55" : [ "Bypass", "Bypass", 0 ],
-			"obj-2::obj-2::obj-51" : [ "Freq", "Freq", 0 ],
-			"obj-2::obj-2::obj-11" : [ "PWM", "PWM", 0 ],
 			"obj-2::obj-7::obj-80" : [ "Response", "Response", 0 ],
-			"obj-2::obj-2::obj-46" : [ "Offset", "Offset", 0 ],
+			"obj-2::obj-2::obj-45" : [ "FreqMode", "FreqMode", 0 ],
+			"obj-2::obj-7::obj-55" : [ "Bypass", "Bypass", 0 ],
+			"obj-2::obj-6::obj-32" : [ "Decay", "Decay", 0 ],
+			"obj-2::obj-3::obj-56" : [ "OutputChannel", "OutputChannel", 0 ],
+			"obj-2::obj-2::obj-129" : [ "CV2", "CV2", 0 ],
+			"obj-2::obj-2::obj-107" : [ "Linear", "Linear", 0 ],
+			"obj-2::obj-4::obj-32" : [ "Encoder", "Encoder", 0 ],
+			"obj-2::obj-2::obj-36" : [ "PW", "PW", 0 ],
+			"obj-2::obj-2::obj-106" : [ "CV3", "CV3", 0 ],
+			"obj-2::obj-4::obj-28" : [ "TriggerTime", "TriggerTime", 0 ],
+			"obj-2::obj-2::obj-53" : [ "Mute", "Mute", 0 ],
+			"obj-2::obj-4::obj-129" : [ "Resolution", "Resolution", 0 ],
+			"obj-2::obj-7::obj-33" : [ "Quadrants", "Quadrants", 0 ],
+			"obj-2::obj-2::obj-11" : [ "PWM", "PWM", 0 ],
 			"obj-2::obj-3::obj-55" : [ "DSP", "DSP", 0 ],
-			"obj-2::obj-4::obj-12" : [ "Mute[1]", "Mute", 0 ]
+			"obj-2::obj-4::obj-12" : [ "Mute[1]", "Mute", 0 ],
+			"obj-2::obj-2::obj-46" : [ "Offset", "Offset", 0 ],
+			"obj-2::obj-6::obj-20" : [ "mute", "mute", 0 ],
+			"obj-2::obj-3::obj-52" : [ "Level", "Level", 0 ],
+			"obj-2::obj-2::obj-4" : [ "Waveform", "Waveform", 0 ],
+			"obj-2::obj-3::obj-22" : [ "Mute[2]", "Mute", 0 ],
+			"obj-2::obj-2::obj-51" : [ "Freq", "Freq", 0 ]
 		}
 ,
 		"dependency_cache" : [ 			{
@@ -1357,18 +1356,18 @@
 		"snapshot" : 		{
 			"filetype" : "C74Snapshot",
 			"version" : 1,
-			"name" : "bp.Arc Ring.maxhelp",
-			"origin" : "bp.Arc Ring.maxhelp",
+			"name" : "bp.Arc Trigger.maxhelp",
+			"origin" : "bp.Arc Trigger.maxhelp",
 			"type" : "patcher",
 			"subtype" : "Undefined",
 			"snapshot" : 			{
-				"name" : "bp.Arc Ring.maxhelp",
+				"name" : "bp.Arc Trigger.maxhelp",
 				"valuedictionary" : 				{
 					"parameter_values" : 					{
 						"Bypass" : 0.0,
 						"CV2" : 0.0,
 						"CV3" : 0.0,
-						"DSP" : 1.0,
+						"DSP" : 0.0,
 						"Decay" : 251.181107,
 						"Encoder" : 0.0,
 						"Freq" : 6763.828125,
