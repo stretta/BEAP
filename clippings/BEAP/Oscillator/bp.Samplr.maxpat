@@ -4,12 +4,12 @@
 		"appversion" : 		{
 			"major" : 7,
 			"minor" : 0,
-			"revision" : 0,
+			"revision" : 2,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 34.0, 78.0, 616.0, 641.0 ],
+		"rect" : [ 34.0, 79.0, 616.0, 641.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -56,12 +56,12 @@
 						"appversion" : 						{
 							"major" : 7,
 							"minor" : 0,
-							"revision" : 0,
+							"revision" : 2,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
 ,
-						"rect" : [ 34.0, 78.0, 366.0, 214.0 ],
+						"rect" : [ 34.0, 79.0, 366.0, 214.0 ],
 						"bgcolor" : [ 1.0, 1.0, 1.0, 0.0 ],
 						"bglocked" : 1,
 						"openinpresentation" : 1,
@@ -355,14 +355,13 @@
 							}
 , 							{
 								"box" : 								{
+									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"bgfillcolor_angle" : 270.0,
 									"bgfillcolor_color" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"bgfillcolor_color1" : [ 0.435294, 0.462745, 0.498039, 1.0 ],
 									"bgfillcolor_color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
 									"bgfillcolor_proportion" : 0.39,
 									"bgfillcolor_type" : "color",
-									"fontface" : 0,
-									"fontname" : "Arial",
 									"fontsize" : 9.0,
 									"id" : "obj-114",
 									"items" : "send to...",
@@ -1912,8 +1911,8 @@
 										"loopend" : [ 2841.917143, "ms" ],
 										"loopstart" : [ 0.0, "ms" ],
 										"mode" : "basic",
-										"originallength" : [ 2730.971378, "ticks" ],
-										"originaltempo" : 120.0,
+										"originallength" : [ 1919.999965, "ticks" ],
+										"originaltempo" : 84.365584,
 										"phase" : [ 0.0, "ticks" ],
 										"pitchcorrection" : 0,
 										"quality" : "basic",
@@ -2079,6 +2078,7 @@
 							}
 , 							{
 								"box" : 								{
+									"bgcolor" : [ 0.866667, 0.866667, 0.866667, 0.0 ],
 									"bgfillcolor_angle" : 270.0,
 									"bgfillcolor_autogradient" : 0.79,
 									"bgfillcolor_color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
@@ -2088,6 +2088,7 @@
 									"bgfillcolor_type" : "gradient",
 									"fontname" : "Arial",
 									"fontsize" : 12.0,
+									"gradient" : 0,
 									"id" : "obj-102",
 									"maxclass" : "message",
 									"numinlets" : 2,
@@ -2173,7 +2174,7 @@
 ,
 									"style" : "",
 									"text" : "autopattr",
-									"varname" : "u230005622"
+									"varname" : "u767000331"
 								}
 
 							}
@@ -3197,24 +3198,23 @@
  ],
 		"lines" : [  ],
 		"parameters" : 		{
-			"obj-2::obj-20" : [ "power", "power", 0 ],
-			"obj-2::obj-151" : [ "LoopStart", "LoopStart", 0 ],
-			"obj-2::obj-32" : [ "getsamplelength", "getsamplelength", 0 ],
-			"obj-2::obj-69::obj-2" : [ "pastebang", "pastebang", 0 ],
-			"obj-2::obj-129" : [ "SampleStart", "SampleStart", 0 ],
-			"obj-2::obj-61" : [ "Loop", "Loop", 0 ],
-			"obj-2::obj-49" : [ "RecordGate", "RecordGate", 0 ],
-			"obj-2::obj-152" : [ "LoopEnd", "LoopEnd", 0 ],
-			"obj-2::obj-57" : [ "Select all", "Select all", 0 ],
 			"obj-2::obj-8" : [ "write", "write", 0 ],
 			"obj-2::obj-63" : [ "Root", "Root", 0 ],
-			"obj-2::obj-19" : [ "import", "import", 0 ]
+			"obj-2::obj-69::obj-2" : [ "pastebang", "pastebang", 0 ],
+			"obj-2::obj-19" : [ "import", "import", 0 ],
+			"obj-2::obj-151" : [ "LoopStart", "LoopStart", 0 ],
+			"obj-2::obj-32" : [ "getsamplelength", "getsamplelength", 0 ],
+			"obj-2::obj-61" : [ "Loop", "Loop", 0 ],
+			"obj-2::obj-129" : [ "SampleStart", "SampleStart", 0 ],
+			"obj-2::obj-49" : [ "RecordGate", "RecordGate", 0 ],
+			"obj-2::obj-20" : [ "power", "power", 0 ],
+			"obj-2::obj-152" : [ "LoopEnd", "LoopEnd", 0 ],
+			"obj-2::obj-57" : [ "Select all", "Select all", 0 ]
 		}
 ,
 		"dependency_cache" : [ 			{
 				"name" : "pastebang.maxpat",
-				"bootpath" : "/Applications/Max.app/Contents/Resources/C74/packages/Beap/misc",
-				"patcherrelativepath" : "../../../../../../../Applications/Max.app/Contents/Resources/C74/packages/Beap/misc",
+				"bootpath" : "C74:/packages/Beap/misc",
 				"type" : "JSON",
 				"implicit" : 1
 			}
