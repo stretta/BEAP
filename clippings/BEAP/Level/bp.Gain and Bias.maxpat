@@ -4,8 +4,8 @@
 		"appversion" : 		{
 			"major" : 7,
 			"minor" : 0,
-			"revision" : 2,
-			"architecture" : "x86",
+			"revision" : 6,
+			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
@@ -56,8 +56,8 @@
 						"appversion" : 						{
 							"major" : 7,
 							"minor" : 0,
-							"revision" : 2,
-							"architecture" : "x86",
+							"revision" : 6,
+							"architecture" : "x64",
 							"modernui" : 1
 						}
 ,
@@ -157,7 +157,7 @@
 											"parameter_shortname" : "Gain",
 											"parameter_type" : 0,
 											"parameter_mmin" : -100.0,
-											"parameter_mmax" : 100.0,
+											"parameter_mmax" : 200.0,
 											"parameter_initial_enable" : 1,
 											"parameter_initial" : [ 0.0 ],
 											"parameter_unitstyle" : 5
@@ -386,7 +386,7 @@
 ,
 									"style" : "",
 									"text" : "autopattr",
-									"varname" : "u733001253"
+									"varname" : "u985005819"
 								}
 
 							}
@@ -760,10 +760,10 @@
  ],
 		"lines" : [  ],
 		"parameters" : 		{
+			"obj-2::obj-10" : [ "Gain", "Gain", 0 ],
 			"obj-2::obj-1" : [ "Bias", "Bias", 0 ],
-			"obj-2::obj-40" : [ "presets", "presets", 0 ],
 			"obj-2::obj-55" : [ "Bypass", "Bypass", 0 ],
-			"obj-2::obj-10" : [ "Gain", "Gain", 0 ]
+			"obj-2::obj-40" : [ "presets", "presets", 0 ]
 		}
 ,
 		"dependency_cache" : [  ],
