@@ -4,8 +4,8 @@
 		"appversion" : 		{
 			"major" : 7,
 			"minor" : 0,
-			"revision" : 1,
-			"architecture" : "x64",
+			"revision" : 5,
+			"architecture" : "x86",
 			"modernui" : 1
 		}
 ,
@@ -56,8 +56,8 @@
 						"appversion" : 						{
 							"major" : 7,
 							"minor" : 0,
-							"revision" : 1,
-							"architecture" : "x64",
+							"revision" : 5,
+							"architecture" : "x86",
 							"modernui" : 1
 						}
 ,
@@ -382,10 +382,11 @@
 											"parameter_longname" : "Attack",
 											"parameter_shortname" : "Attack",
 											"parameter_type" : 0,
-											"parameter_mmax" : 4000.0,
+											"parameter_mmax" : 60000.0,
 											"parameter_initial_enable" : 1,
 											"parameter_initial" : [ 100 ],
-											"parameter_unitstyle" : 2
+											"parameter_unitstyle" : 2,
+											"parameter_exponent" : 5.0
 										}
 
 									}
@@ -414,10 +415,11 @@
 											"parameter_longname" : "Decay",
 											"parameter_shortname" : "Decay",
 											"parameter_type" : 0,
-											"parameter_mmax" : 4000.0,
+											"parameter_mmax" : 60000.0,
 											"parameter_initial_enable" : 1,
 											"parameter_initial" : [ 100 ],
-											"parameter_unitstyle" : 2
+											"parameter_unitstyle" : 2,
+											"parameter_exponent" : 5.0
 										}
 
 									}
@@ -460,7 +462,7 @@
 ,
 									"style" : "",
 									"text" : "autopattr",
-									"varname" : "u441004669"
+									"varname" : "u294001199"
 								}
 
 							}
@@ -747,8 +749,7 @@
 ,
 		"dependency_cache" : [ 			{
 				"name" : "background_sm.maxpat",
-				"bootpath" : "/Applications/Max.app/Contents/Resources/C74/packages/Beap/misc",
-				"patcherrelativepath" : "../../../../../../../Applications/Max.app/Contents/Resources/C74/packages/Beap/misc",
+				"bootpath" : "C74:/packages/Beap/misc",
 				"type" : "JSON",
 				"implicit" : 1
 			}
