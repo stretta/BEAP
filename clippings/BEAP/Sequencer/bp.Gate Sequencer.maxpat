@@ -4,12 +4,12 @@
 		"appversion" : 		{
 			"major" : 7,
 			"minor" : 0,
-			"revision" : 0,
+			"revision" : 6,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 34.0, 78.0, 836.0, 641.0 ],
+		"rect" : [ 34.0, 79.0, 610.0, 641.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -35,6 +35,7 @@
 		"digest" : "",
 		"tags" : "",
 		"style" : "",
+		"subpatcher_template" : "",
 		"boxes" : [ 			{
 				"box" : 				{
 					"bgmode" : 0,
@@ -55,12 +56,12 @@
 						"appversion" : 						{
 							"major" : 7,
 							"minor" : 0,
-							"revision" : 0,
+							"revision" : 6,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
 ,
-						"rect" : [ 34.0, 78.0, 508.0, 116.0 ],
+						"rect" : [ 34.0, 79.0, 508.0, 116.0 ],
 						"bgcolor" : [ 1.0, 1.0, 1.0, 0.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 1,
@@ -87,6 +88,7 @@
 						"digest" : "",
 						"tags" : "",
 						"style" : "",
+						"subpatcher_template" : "",
 						"boxes" : [ 							{
 								"box" : 								{
 									"id" : "obj-36",
@@ -110,30 +112,6 @@
 									"patching_rect" : [ 916.554688, 1137.0, 77.0, 22.0 ],
 									"style" : "",
 									"text" : "pak 100. 80."
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"id" : "obj-18",
-									"maxclass" : "button",
-									"numinlets" : 1,
-									"numoutlets" : 1,
-									"outlettype" : [ "bang" ],
-									"patching_rect" : [ 665.0, 1213.0, 24.0, 24.0 ],
-									"style" : ""
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"id" : "obj-16",
-									"maxclass" : "message",
-									"numinlets" : 2,
-									"numoutlets" : 1,
-									"outlettype" : [ "" ],
-									"patching_rect" : [ 644.0, 1150.0, 50.0, 22.0 ],
-									"style" : ""
 								}
 
 							}
@@ -989,7 +967,7 @@
 										"appversion" : 										{
 											"major" : 7,
 											"minor" : 0,
-											"revision" : 0,
+											"revision" : 6,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -1020,6 +998,7 @@
 										"digest" : "",
 										"tags" : "",
 										"style" : "",
+										"subpatcher_template" : "",
 										"boxes" : [ 											{
 												"box" : 												{
 													"comment" : "",
@@ -2079,9 +2058,9 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 556.554688, 980.189575, 67.0, 20.0 ],
+									"patching_rect" : [ 556.554688, 980.189575, 103.0, 20.0 ],
 									"style" : "",
-									"text" : "columns $1"
+									"text" : "columns $1, rows 1"
 								}
 
 							}
@@ -2111,7 +2090,7 @@
 ,
 									"style" : "",
 									"text" : "autopattr",
-									"varname" : "u586000853"
+									"varname" : "u940000515"
 								}
 
 							}
@@ -2471,15 +2450,6 @@
 							}
 , 							{
 								"patchline" : 								{
-									"destination" : [ "obj-18", 0 ],
-									"disabled" : 0,
-									"hidden" : 0,
-									"source" : [ "obj-22", 0 ]
-								}
-
-							}
-, 							{
-								"patchline" : 								{
 									"destination" : [ "obj-25", 0 ],
 									"disabled" : 0,
 									"hidden" : 0,
@@ -2726,23 +2696,22 @@
  ],
 		"lines" : [  ],
 		"parameters" : 		{
-			"obj-12::obj-155" : [ "Swing amount", "Swing amount", 0 ],
-			"obj-12::obj-95" : [ "Steps", "Steps", 0 ],
-			"obj-12::obj-139" : [ "ClockSelect", "ClockSelect", 0 ],
-			"obj-12::obj-125" : [ "PatternGrid", "PatternGrid", 0 ],
-			"obj-12::obj-157" : [ "Swing enable", "Swing enable", 0 ],
-			"obj-12::obj-20" : [ "mute", "mute", 0 ],
-			"obj-12::obj-28" : [ "Attack", "Attack", 0 ],
 			"obj-12::obj-120" : [ "Max pulse", "Max pulse", 0 ],
-			"obj-12::obj-96" : [ "Pulse", "Pulse", 0 ],
 			"obj-12::obj-9" : [ "gatepct", "gatepct", 0 ],
+			"obj-12::obj-20" : [ "mute", "mute", 0 ],
+			"obj-12::obj-96" : [ "Pulse", "Pulse", 0 ],
+			"obj-12::obj-157" : [ "Swing enable", "Swing enable", 0 ],
+			"obj-12::obj-28" : [ "Attack", "Attack", 0 ],
+			"obj-12::obj-139" : [ "ClockSelect", "ClockSelect", 0 ],
+			"obj-12::obj-95" : [ "Steps", "Steps", 0 ],
+			"obj-12::obj-155" : [ "Swing amount", "Swing amount", 0 ],
+			"obj-12::obj-125" : [ "PatternGrid", "PatternGrid", 0 ],
 			"obj-12::obj-89" : [ "Reset", "Reset", 0 ]
 		}
 ,
 		"dependency_cache" : [ 			{
 				"name" : "swingCalc.js",
-				"bootpath" : "/Applications/Max 7/Max.app/Contents/Resources/C74/packages/Beap/misc",
-				"patcherrelativepath" : "../../../../../../../Applications/Max 7/Max.app/Contents/Resources/C74/packages/Beap/misc",
+				"bootpath" : "C74:/packages/Beap/misc",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
