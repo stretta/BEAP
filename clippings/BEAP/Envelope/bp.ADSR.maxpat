@@ -4,12 +4,12 @@
 		"appversion" : 		{
 			"major" : 7,
 			"minor" : 0,
-			"revision" : 1,
+			"revision" : 6,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 34.0, 78.0, 871.0, 641.0 ],
+		"rect" : [ 34.0, 79.0, 871.0, 641.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -56,12 +56,12 @@
 						"appversion" : 						{
 							"major" : 7,
 							"minor" : 0,
-							"revision" : 1,
+							"revision" : 6,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
 ,
-						"rect" : [ 34.0, 78.0, 234.0, 116.0 ],
+						"rect" : [ 34.0, 79.0, 234.0, 116.0 ],
 						"bgcolor" : [ 1.0, 1.0, 1.0, 0.0 ],
 						"bglocked" : 1,
 						"openinpresentation" : 1,
@@ -90,6 +90,46 @@
 						"style" : "",
 						"subpatcher_template" : "",
 						"boxes" : [ 							{
+								"box" : 								{
+									"activebgcolor" : [ 0.572549, 0.615686, 0.658824, 0.0 ],
+									"activebgoncolor" : [ 0.278431, 0.839216, 1.0, 1.0 ],
+									"activetextcolor" : [ 1.0, 1.0, 1.0, 0.568627 ],
+									"activetextoncolor" : [ 0.0, 0.019608, 0.078431, 1.0 ],
+									"bgcolor" : [ 0.101961, 0.101961, 0.101961, 0.780392 ],
+									"bgoncolor" : [ 0.490196, 0.482353, 0.478431, 1.0 ],
+									"bordercolor" : [ 0.0, 0.019608, 0.078431, 0.368627 ],
+									"focusbordercolor" : [ 0.0, 0.019608, 0.078431, 1.0 ],
+									"id" : "obj-15",
+									"maxclass" : "live.text",
+									"numinlets" : 1,
+									"numoutlets" : 2,
+									"outlettype" : [ "", "" ],
+									"parameter_enable" : 1,
+									"patching_rect" : [ 62.0, 224.0, 40.0, 20.0 ],
+									"presentation" : 1,
+									"presentation_rect" : [ 184.268768, 42.45966, 45.0, 14.764645 ],
+									"saved_attribute_attributes" : 									{
+										"valueof" : 										{
+											"parameter_longname" : "Legato",
+											"parameter_shortname" : "Legato",
+											"parameter_type" : 2,
+											"parameter_mmax" : 1.0,
+											"parameter_enum" : [ "val1", "val2" ],
+											"parameter_initial_enable" : 1,
+											"parameter_initial" : [ 0.0 ],
+											"parameter_defer" : 1
+										}
+
+									}
+,
+									"text" : "Legato",
+									"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+									"texton" : "Legato",
+									"varname" : "Legato"
+								}
+
+							}
+, 							{
 								"box" : 								{
 									"id" : "obj-14",
 									"maxclass" : "comment",
@@ -252,44 +292,6 @@
 									"patching_rect" : [ 62.0, 261.0, 60.0, 22.0 ],
 									"style" : "",
 									"text" : "legato $1"
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"activebgcolor" : [ 0.572549, 0.615686, 0.658824, 0.0 ],
-									"activebgoncolor" : [ 0.278431, 0.839216, 1.0, 1.0 ],
-									"activetextcolor" : [ 1.0, 1.0, 1.0, 0.57 ],
-									"activetextoncolor" : [ 0.0, 0.019608, 0.078431, 1.0 ],
-									"bgcolor" : [ 0.101961, 0.101961, 0.101961, 0.78 ],
-									"bordercolor" : [ 0.0, 0.019608, 0.078431, 0.37 ],
-									"id" : "obj-30",
-									"maxclass" : "live.text",
-									"numinlets" : 1,
-									"numoutlets" : 2,
-									"outlettype" : [ "", "" ],
-									"parameter_enable" : 1,
-									"patching_rect" : [ 62.0, 224.0, 40.0, 20.0 ],
-									"presentation" : 1,
-									"presentation_rect" : [ 184.268768, 42.45966, 45.0, 14.764645 ],
-									"saved_attribute_attributes" : 									{
-										"valueof" : 										{
-											"parameter_longname" : "Legato",
-											"parameter_shortname" : "Legato",
-											"parameter_type" : 2,
-											"parameter_mmax" : 1.0,
-											"parameter_enum" : [ "val1", "val2" ],
-											"parameter_initial_enable" : 1,
-											"parameter_initial" : [ 0.0 ],
-											"parameter_defer" : 1
-										}
-
-									}
-,
-									"text" : "Legato",
-									"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
-									"texton" : "Legato",
-									"varname" : "Legato"
 								}
 
 							}
@@ -637,7 +639,7 @@
 ,
 									"style" : "",
 									"text" : "autopattr",
-									"varname" : "u069004554"
+									"varname" : "u705000799"
 								}
 
 							}
@@ -799,6 +801,15 @@
 							}
 , 							{
 								"patchline" : 								{
+									"destination" : [ "obj-35", 0 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-15", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
 									"destination" : [ "obj-5", 0 ],
 									"disabled" : 0,
 									"hidden" : 0,
@@ -937,15 +948,6 @@
 							}
 , 							{
 								"patchline" : 								{
-									"destination" : [ "obj-35", 0 ],
-									"disabled" : 0,
-									"hidden" : 0,
-									"source" : [ "obj-30", 0 ]
-								}
-
-							}
-, 							{
-								"patchline" : 								{
 									"destination" : [ "obj-3", 4 ],
 									"disabled" : 0,
 									"hidden" : 0,
@@ -1074,18 +1076,17 @@
  ],
 		"lines" : [  ],
 		"parameters" : 		{
-			"obj-4::obj-30" : [ "Legato", "Legato", 0 ],
-			"obj-4::obj-31" : [ "Release", "Release", 0 ],
 			"obj-4::obj-29" : [ "Decay", "Decay", 0 ],
-			"obj-4::obj-1" : [ "Attack", "Attack", 0 ],
 			"obj-4::obj-20" : [ "Mute", "Mute", 0 ],
-			"obj-4::obj-32" : [ "Sustain", "Sustain", 0 ]
+			"obj-4::obj-15" : [ "Legato", "Legato", 0 ],
+			"obj-4::obj-32" : [ "Sustain", "Sustain", 0 ],
+			"obj-4::obj-31" : [ "Release", "Release", 0 ],
+			"obj-4::obj-1" : [ "Attack", "Attack", 0 ]
 		}
 ,
 		"dependency_cache" : [ 			{
 				"name" : "background_sm.maxpat",
-				"bootpath" : "/Applications/Max.app/Contents/Resources/C74/packages/Beap/misc",
-				"patcherrelativepath" : "../../../../../../../Applications/Max.app/Contents/Resources/C74/packages/Beap/misc",
+				"bootpath" : "C74:/packages/Beap/misc",
 				"type" : "JSON",
 				"implicit" : 1
 			}
