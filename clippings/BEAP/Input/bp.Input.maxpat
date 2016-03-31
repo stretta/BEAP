@@ -3,13 +3,13 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 7,
-			"minor" : 0,
+			"minor" : 2,
 			"revision" : 0,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 34.0, 78.0, 1212.0, 641.0 ],
+		"rect" : [ 34.0, 79.0, 1212.0, 641.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -18,6 +18,7 @@
 		"gridonopen" : 1,
 		"gridsize" : [ 15.0, 15.0 ],
 		"gridsnaponopen" : 1,
+		"objectsnaponopen" : 1,
 		"statusbarvisible" : 2,
 		"toolbarvisible" : 1,
 		"lefttoolbarpinned" : 0,
@@ -34,6 +35,7 @@
 		"digest" : "",
 		"tags" : "",
 		"style" : "",
+		"subpatcher_template" : "",
 		"boxes" : [ 			{
 				"box" : 				{
 					"bgmode" : 0,
@@ -53,13 +55,13 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 7,
-							"minor" : 0,
+							"minor" : 2,
 							"revision" : 0,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
 ,
-						"rect" : [ 34.0, 78.0, 53.0, 116.0 ],
+						"rect" : [ 34.0, 79.0, 53.0, 116.0 ],
 						"bgcolor" : [ 1.0, 1.0, 1.0, 0.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 1,
@@ -69,6 +71,7 @@
 						"gridonopen" : 1,
 						"gridsize" : [ 15.0, 15.0 ],
 						"gridsnaponopen" : 1,
+						"objectsnaponopen" : 1,
 						"statusbarvisible" : 1,
 						"toolbarvisible" : 1,
 						"lefttoolbarpinned" : 0,
@@ -85,7 +88,70 @@
 						"digest" : "",
 						"tags" : "",
 						"style" : "",
+						"subpatcher_template" : "",
 						"boxes" : [ 							{
+								"box" : 								{
+									"id" : "obj-17",
+									"maxclass" : "newobj",
+									"numinlets" : 2,
+									"numoutlets" : 1,
+									"outlettype" : [ "signal" ],
+									"patching_rect" : [ 216.0, 320.0, 29.5, 22.0 ],
+									"style" : "",
+									"text" : "*~"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-15",
+									"maxclass" : "newobj",
+									"numinlets" : 2,
+									"numoutlets" : 1,
+									"outlettype" : [ "float" ],
+									"patching_rect" : [ 314.0, 274.0, 42.0, 22.0 ],
+									"style" : "",
+									"text" : "* 0.01"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"activebgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+									"activeslidercolor" : [ 0.278431, 0.839216, 1.0, 0.57 ],
+									"activetricolor2" : [ 0.278431, 0.839216, 1.0, 1.0 ],
+									"annotation" : "",
+									"bordercolor" : [ 1.0, 1.0, 1.0, 0.6 ],
+									"hint" : "",
+									"id" : "obj-14",
+									"maxclass" : "live.numbox",
+									"numinlets" : 1,
+									"numoutlets" : 2,
+									"outlettype" : [ "", "float" ],
+									"parameter_enable" : 1,
+									"patching_rect" : [ 307.0, 182.5, 36.0, 15.0 ],
+									"presentation" : 1,
+									"presentation_rect" : [ 5.0, 59.669079, 41.738075, 15.0 ],
+									"saved_attribute_attributes" : 									{
+										"valueof" : 										{
+											"parameter_longname" : "Gain",
+											"parameter_shortname" : "Gain",
+											"parameter_type" : 0,
+											"parameter_mmax" : 400.0,
+											"parameter_initial_enable" : 1,
+											"parameter_initial" : [ 100 ],
+											"parameter_unitstyle" : 5,
+											"parameter_exponent" : 4.0
+										}
+
+									}
+,
+									"textcolor" : [ 1.0, 1.0, 1.0, 0.6 ],
+									"varname" : "Gain"
+								}
+
+							}
+, 							{
 								"box" : 								{
 									"fontname" : "Arial Bold",
 									"fontsize" : 9.0,
@@ -95,7 +161,7 @@
 									"numoutlets" : 0,
 									"patching_rect" : [ 2.0, 44.25, 22.0, 17.0 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 2.0, 46.292236, 22.0, 17.0 ],
+									"presentation_rect" : [ 2.0, 42.292236, 22.0, 17.0 ],
 									"style" : "",
 									"text" : "Ch",
 									"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
@@ -131,7 +197,7 @@
 									"parameter_enable" : 1,
 									"patching_rect" : [ 207.0, 151.5, 36.0, 15.0 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 21.0, 46.292236, 25.738075, 15.0 ],
+									"presentation_rect" : [ 21.0, 42.292236, 25.738075, 15.0 ],
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
 											"parameter_longname" : "Channel",
@@ -190,12 +256,13 @@
 									"patching_rect" : [ 19.0, 101.0, 59.5, 22.0 ],
 									"restore" : 									{
 										"Channel" : [ 1.0 ],
+										"Gain" : [ 100.411843 ],
 										"mute" : [ 0.0 ]
 									}
 ,
 									"style" : "",
 									"text" : "autopattr",
-									"varname" : "u153000790"
+									"varname" : "u497003234"
 								}
 
 							}
@@ -275,7 +342,7 @@
 									"parameter_enable" : 1,
 									"patching_rect" : [ 34.0, 219.464355, 40.0, 20.0 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 5.0, 68.0, 41.738075, 19.764645 ],
+									"presentation_rect" : [ 5.0, 78.0, 41.738075, 15.764645 ],
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
 											"parameter_longname" : "mute",
@@ -484,6 +551,33 @@
 							}
 , 							{
 								"patchline" : 								{
+									"destination" : [ "obj-15", 0 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-14", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-17", 1 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-15", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-9", 0 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-17", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
 									"destination" : [ "obj-1", 0 ],
 									"disabled" : 0,
 									"hidden" : 0,
@@ -511,7 +605,7 @@
 							}
 , 							{
 								"patchline" : 								{
-									"destination" : [ "obj-9", 0 ],
+									"destination" : [ "obj-17", 0 ],
 									"disabled" : 0,
 									"hidden" : 0,
 									"source" : [ "obj-29", 0 ]
@@ -585,11 +679,12 @@
 		"lines" : [  ],
 		"parameters" : 		{
 			"obj-18::obj-20" : [ "mute", "mute", 0 ],
-			"obj-18::obj-46" : [ "Channel", "Channel", 0 ]
+			"obj-18::obj-46" : [ "Channel", "Channel", 0 ],
+			"obj-18::obj-14" : [ "Gain", "Gain", 0 ]
 		}
 ,
 		"dependency_cache" : [  ],
-		"embedsnapshot" : 0
+		"autosave" : 0
 	}
 
 }

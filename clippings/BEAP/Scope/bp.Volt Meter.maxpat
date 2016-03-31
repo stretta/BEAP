@@ -3,13 +3,13 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 7,
-			"minor" : 0,
-			"revision" : 1,
+			"minor" : 2,
+			"revision" : 0,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 34.0, 78.0, 862.0, 641.0 ],
+		"rect" : [ 34.0, 79.0, 862.0, 641.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -55,13 +55,13 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 7,
-							"minor" : 0,
-							"revision" : 1,
+							"minor" : 2,
+							"revision" : 0,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
 ,
-						"rect" : [ 34.0, 78.0, 275.0, 217.0 ],
+						"rect" : [ 34.0, 79.0, 275.0, 217.0 ],
 						"bgcolor" : [ 1.0, 1.0, 1.0, 0.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 1,
@@ -90,6 +90,36 @@
 						"style" : "",
 						"subpatcher_template" : "",
 						"boxes" : [ 							{
+								"box" : 								{
+									"id" : "obj-32",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 50.0, 351.0, 74.0, 22.0 ],
+									"style" : "",
+									"text" : "prepend set"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"fontsize" : 14.0,
+									"id" : "obj-31",
+									"maxclass" : "comment",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 48.099976, 390.0, 169.0, 22.0 ],
+									"presentation" : 1,
+									"presentation_rect" : [ 68.442886, 120.0, 135.0, 22.0 ],
+									"style" : "",
+									"text" : "0.00",
+									"textcolor" : [ 1.0, 1.0, 1.0, 0.5 ],
+									"textjustification" : 1
+								}
+
+							}
+, 							{
 								"box" : 								{
 									"id" : "obj-4",
 									"maxclass" : "comment",
@@ -409,7 +439,25 @@
 							}
 , 							{
 								"patchline" : 								{
+									"destination" : [ "obj-31", 0 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-32", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
 									"destination" : [ "obj-17", 0 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-9", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-32", 0 ],
 									"disabled" : 0,
 									"hidden" : 0,
 									"source" : [ "obj-9", 0 ]
@@ -428,7 +476,7 @@
  ],
 		"lines" : [  ],
 		"dependency_cache" : [  ],
-		"embedsnapshot" : 0
+		"autosave" : 0
 	}
 
 }
