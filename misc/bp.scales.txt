@@ -1,0 +1,1 @@
+major, Imaj7 ii-7 iii-7 IVmaj7 V7 vi-7 vii-7b5;minor-natural, i-7 iiø7 III7 iv-7 V7 VI7 VII7;minor-melodic, i-7 ii-7 III+7 IV7 V7 viø7 viiø7;minor-harmonic, iminMaj7 iiø7 IIImaj7#5 iv-7 V7 VImaj7 vidim7;
