@@ -38,6 +38,19 @@
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-107",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 118.464355, 407.0, 73.0, 22.0 ],
+					"style" : "",
+					"text" : "fromsymbol"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-5",
 					"linecount" : 2,
 					"maxclass" : "comment",
@@ -71,19 +84,6 @@
 					"patching_rect" : [ 219.0, 156.233368, 266.0, 47.0 ],
 					"style" : "",
 					"text" : "staring from the back of the string, look for an upper or lower case roman numeral, and output from there to the beginning."
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-493",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 118.464355, 394.500031, 73.0, 22.0 ],
-					"style" : "",
-					"text" : "fromsymbol"
 				}
 
 			}
@@ -238,7 +238,7 @@
 					"destination" : [ "obj-517", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"source" : [ "obj-493", 0 ]
+					"source" : [ "obj-107", 0 ]
 				}
 
 			}
@@ -253,7 +253,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-493", 0 ],
+					"destination" : [ "obj-107", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-495", 0 ]
@@ -341,9 +341,7 @@
 				}
 
 			}
- ],
-		"dependency_cache" : [  ],
-		"autosave" : 0
+ ]
 	}
 
 }

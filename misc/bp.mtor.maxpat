@@ -43,9 +43,8 @@
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
-					"outlettype" : [ "" ],
+					"outlettype" : [ "int" ],
 					"patching_rect" : [ 263.5, 115.999878, 30.0, 30.0 ],
-					"presentation_rect" : [ 260.0, 122.999878, 0.0, 0.0 ],
 					"style" : ""
 				}
 
@@ -57,7 +56,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 152.5, 72.999878, 39.0, 20.0 ],
-					"presentation_rect" : [ 152.5, 72.999878, 0.0, 0.0 ],
 					"style" : "",
 					"text" : "Key"
 				}
@@ -70,7 +68,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 582.5, 157.999878, 73.0, 20.0 ],
-					"presentation_rect" : [ 582.5, 160.0, 0.0, 0.0 ],
 					"style" : "",
 					"text" : "Preference"
 				}
@@ -86,7 +83,6 @@
 					"outlettype" : [ "int", "", "" ],
 					"parameter_enable" : 0,
 					"patching_rect" : [ 467.5, 156.999878, 100.0, 22.0 ],
-					"presentation_rect" : [ 467.5, 156.999878, 0.0, 0.0 ],
 					"style" : ""
 				}
 
@@ -114,7 +110,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 149.0, 115.999878, 30.0, 30.0 ],
-					"presentation_rect" : [ 98.0, 166.999878, 0.0, 0.0 ],
 					"style" : ""
 				}
 
@@ -369,13 +364,13 @@
 					"numinlets" : 1,
 					"numoutlets" : 4,
 					"outlettype" : [ "", "", "", "" ],
-					"patching_rect" : [ 70.0, 369.999878, 56.0, 22.0 ],
+					"patching_rect" : [ 70.0, 369.999878, 73.0, 22.0 ],
 					"saved_object_attributes" : 					{
 						"embed" : 0
 					}
 ,
 					"style" : "",
-					"text" : "coll mtor"
+					"text" : "coll bp.mtor"
 				}
 
 			}
@@ -488,15 +483,7 @@
 				}
 
 			}
- ],
-		"dependency_cache" : [ 			{
-				"name" : "bp.mtor.txt",
-				"bootpath" : "C74:/packages/BEAP/misc",
-				"type" : "TEXT",
-				"implicit" : 1
-			}
- ],
-		"autosave" : 0
+ ]
 	}
 
 }
