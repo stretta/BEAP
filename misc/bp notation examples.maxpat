@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 34.0, 79.0, 936.0, 662.0 ],
+		"rect" : [ 34.0, 79.0, 896.0, 662.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -37,6 +37,19 @@
 		"style" : "",
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
+				"box" : 				{
+					"id" : "obj-9",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 2644.0, 1147.0, 50.0, 22.0 ],
+					"style" : "",
+					"text" : "5"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"id" : "obj-199",
 					"maxclass" : "newobj",
@@ -290,7 +303,7 @@
  ]
 					}
 ,
-					"patching_rect" : [ 2068.0, 1333.812134, 72.0, 22.0 ],
+					"patching_rect" : [ 2188.0, 1372.812134, 72.0, 22.0 ],
 					"saved_object_attributes" : 					{
 						"description" : "",
 						"digest" : "",
@@ -312,7 +325,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 2121.0, 1291.0, 24.0, 24.0 ],
+					"patching_rect" : [ 2241.0, 1330.0, 24.0, 24.0 ],
 					"style" : ""
 				}
 
@@ -324,9 +337,9 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1815.56543, 1333.812134, 127.0, 22.0 ],
+					"patching_rect" : [ 1935.56543, 1372.812134, 127.0, 22.0 ],
 					"style" : "",
-					"text" : "0 0 1 0 0 1 0 0 0 1 0 0"
+					"text" : "0 0 0 0 0 0 0 0 0 0 0 0"
 				}
 
 			}
@@ -553,7 +566,7 @@
  ]
 					}
 ,
-					"patching_rect" : [ 1963.0, 1333.812134, 88.0, 22.0 ],
+					"patching_rect" : [ 2083.0, 1372.812134, 88.0, 22.0 ],
 					"saved_object_attributes" : 					{
 						"description" : "",
 						"digest" : "",
@@ -577,8 +590,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 1963.0, 1249.0, 50.0, 22.0 ],
-					"presentation_rect" : [ 2178.0, 1244.0, 0.0, 0.0 ],
+					"patching_rect" : [ 2083.0, 1288.0, 50.0, 22.0 ],
 					"style" : ""
 				}
 
@@ -593,7 +605,7 @@
 					"offset" : 0,
 					"outlettype" : [ "int", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 1963.0, 1376.0, 84.0, 53.0 ],
+					"patching_rect" : [ 2083.0, 1415.0, 84.0, 53.0 ],
 					"presentation_rect" : [ 0.0, 0.0, 84.0, 53.0 ],
 					"range" : 12,
 					"style" : ""
@@ -606,8 +618,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 2010.0, 1175.0, 23.0, 20.0 ],
-					"presentation_rect" : [ 2011.0, 1271.0, 0.0, 0.0 ],
+					"patching_rect" : [ 2130.0, 1214.0, 23.0, 20.0 ],
 					"style" : "",
 					"text" : "D-"
 				}
@@ -619,7 +630,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1963.0, 1175.0, 39.0, 20.0 ],
+					"patching_rect" : [ 2083.0, 1214.0, 39.0, 20.0 ],
 					"style" : "",
 					"text" : "Cmaj"
 				}
@@ -632,7 +643,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 2010.0, 1201.0, 31.0, 22.0 ],
+					"patching_rect" : [ 2130.0, 1240.0, 31.0, 22.0 ],
 					"style" : "",
 					"text" : "548"
 				}
@@ -645,7 +656,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1963.0, 1201.0, 31.0, 22.0 ],
+					"patching_rect" : [ 2083.0, 1240.0, 31.0, 22.0 ],
 					"style" : "",
 					"text" : "145"
 				}
@@ -658,7 +669,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1963.0, 1284.0, 57.0, 22.0 ],
+					"patching_rect" : [ 2083.0, 1323.0, 57.0, 22.0 ],
 					"style" : "",
 					"text" : "bp.tttopc"
 				}
@@ -670,8 +681,7 @@
 					"maxclass" : "live.line",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 2074.0, 1161.833374, 300.5, 5.0 ],
-					"presentation_rect" : [ 2074.0, 1161.833374, 0.0, 0.0 ]
+					"patching_rect" : [ 2074.0, 1161.833374, 300.5, 5.0 ]
 				}
 
 			}
@@ -683,7 +693,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 2074.0, 1170.833374, 289.0, 27.0 ],
-					"presentation_rect" : [ 2074.0, 1170.833374, 0.0, 0.0 ],
 					"style" : "",
 					"text" : "12-tone cluster ID to pitch class list"
 				}
@@ -770,18 +779,18 @@
 , 			{
 				"box" : 				{
 					"coll_data" : 					{
-						"count" : 26,
+						"count" : 80,
 						"data" : [ 							{
 								"key" : 145,
 								"value" : [ "Imaj" ]
 							}
 , 							{
 								"key" : 548,
-								"value" : [ "ii-" ]
+								"value" : [ "iimin" ]
 							}
 , 							{
 								"key" : 2192,
-								"value" : [ "iii-" ]
+								"value" : [ "iiimin" ]
 							}
 , 							{
 								"key" : 545,
@@ -789,15 +798,43 @@
 							}
 , 							{
 								"key" : 2180,
-								"value" : [ "V" ]
+								"value" : [ "Vmaj" ]
 							}
 , 							{
 								"key" : 529,
-								"value" : [ "vi-" ]
+								"value" : [ "vimin" ]
 							}
 , 							{
 								"key" : 2084,
 								"value" : [ "viidim" ]
+							}
+, 							{
+								"key" : 137,
+								"value" : [ "imin" ]
+							}
+, 							{
+								"key" : 292,
+								"value" : [ "iidim" ]
+							}
+, 							{
+								"key" : 1160,
+								"value" : [ "bIIImaj" ]
+							}
+, 							{
+								"key" : 289,
+								"value" : [ "ivmin" ]
+							}
+, 							{
+								"key" : 1156,
+								"value" : [ "vmin" ]
+							}
+, 							{
+								"key" : 265,
+								"value" : [ "bVImaj" ]
+							}
+, 							{
+								"key" : 1060,
+								"value" : [ "bVIImaj" ]
 							}
 , 							{
 								"key" : 2193,
@@ -805,11 +842,11 @@
 							}
 , 							{
 								"key" : 549,
-								"value" : [ "ii-7" ]
+								"value" : [ "iimin7" ]
 							}
 , 							{
 								"key" : 2196,
-								"value" : [ "iii-7" ]
+								"value" : [ "iiimin7" ]
 							}
 , 							{
 								"key" : 561,
@@ -817,63 +854,251 @@
 							}
 , 							{
 								"key" : 2212,
-								"value" : [ "V7" ]
+								"value" : [ "Vdom7" ]
 							}
 , 							{
 								"key" : 657,
-								"value" : [ "vi-7" ]
+								"value" : [ "vimin7" ]
 							}
 , 							{
 								"key" : 2596,
-								"value" : [ "vii-7b5" ]
+								"value" : [ "viimin7b5" ]
+							}
+, 							{
+								"key" : 1161,
+								"value" : [ "imin7" ]
+							}
+, 							{
+								"key" : 293,
+								"value" : [ "iimin7b5" ]
+							}
+, 							{
+								"key" : 1164,
+								"value" : [ "bIIImaj7" ]
+							}
+, 							{
+								"key" : 297,
+								"value" : [ "ivmin7" ]
+							}
+, 							{
+								"key" : 1188,
+								"value" : [ "vmin7" ]
+							}
+, 							{
+								"key" : 393,
+								"value" : [ "bVImaj7" ]
+							}
+, 							{
+								"key" : 1316,
+								"value" : [ "bVIIdom7" ]
+							}
+, 							{
+								"key" : 137,
+								"value" : [ "Imin" ]
+							}
+, 							{
+								"key" : 292,
+								"value" : [ "iidim" ]
+							}
+, 							{
+								"key" : 2184,
+								"value" : [ "IIIaug" ]
+							}
+, 							{
+								"key" : 289,
+								"value" : [ "ivmin" ]
+							}
+, 							{
+								"key" : 293,
+								"value" : [ "ivmin6" ]
+							}
+, 							{
+								"key" : 2180,
+								"value" : [ "Vmaj" ]
+							}
+, 							{
+								"key" : 265,
+								"value" : [ "bVImaj" ]
+							}
+, 							{
+								"key" : 2084,
+								"value" : [ "VIIdim" ]
+							}
+, 							{
+								"key" : 1161,
+								"value" : [ "Iminmaj7" ]
+							}
+, 							{
+								"key" : 293,
+								"value" : [ "iimin7b5" ]
+							}
+, 							{
+								"key" : 2188,
+								"value" : [ "IIIaug7" ]
+							}
+, 							{
+								"key" : 297,
+								"value" : [ "ivmin7" ]
+							}
+, 							{
+								"key" : 2212,
+								"value" : [ "Vdom7" ]
+							}
+, 							{
+								"key" : 393,
+								"value" : [ "bVImaj7" ]
+							}
+, 							{
+								"key" : 2340,
+								"value" : [ "VIIdim7" ]
 							}
 , 							{
 								"key" : 530,
-								"value" : [ "V/II" ]
+								"value" : [ "V/IImaj" ]
 							}
 , 							{
-								"key" : 2088,
-								"value" : [ "V/III" ]
+								"key" : 2120,
+								"value" : [ "V/IIImaj" ]
 							}
 , 							{
 								"key" : 580,
-								"value" : [ "V/V" ]
+								"value" : [ "V/Vmaj" ]
 							}
 , 							{
 								"key" : 2320,
-								"value" : [ "V/VI" ]
-							}
-, 							{
-								"key" : 545,
-								"value" : [ "V/VII" ]
+								"value" : [ "V/VImaj" ]
 							}
 , 							{
 								"key" : 658,
-								"value" : [ "V7/II" ]
+								"value" : [ "V7/IIdom7" ]
 							}
 , 							{
-								"key" : 2600,
-								"value" : [ "V7/III" ]
+								"key" : 2632,
+								"value" : [ "V7/IIIdom7" ]
 							}
 , 							{
 								"key" : 1169,
-								"value" : [ "V7/IV" ]
+								"value" : [ "V7/IVdom7" ]
 							}
 , 							{
 								"key" : 581,
-								"value" : [ "V7/V" ]
+								"value" : [ "V7/Vdom7" ]
 							}
 , 							{
-								"key" : 2836,
-								"value" : [ "V7/VI" ]
+								"key" : 2324,
+								"value" : [ "V7/VIdom7" ]
+							}
+, 							{
+								"key" : 2338,
+								"value" : [ "subVdom7" ]
+							}
+, 							{
+								"key" : 1162,
+								"value" : [ "subV/IIdom7" ]
+							}
+, 							{
+								"key" : 1106,
+								"value" : [ "subV/IVdom7" ]
+							}
+, 							{
+								"key" : 329,
+								"value" : [ "subV/Vdom7" ]
+							}
+, 							{
+								"key" : 1316,
+								"value" : [ "subV/VIdom7" ]
+							}
+, 							{
+								"key" : 2632,
+								"value" : [ "subV/VIIdom7" ]
+							}
+, 							{
+								"key" : 1316,
+								"value" : [ "bVIIdom7" ]
 							}
 , 							{
 								"key" : 553,
-								"value" : [ "V7/VII" ]
+								"value" : [ "IV7dom7" ]
 							}
 , 							{
-								"key" : 290,
-								"value" : [ "bII6" ]
+								"key" : 161,
+								"value" : [ "Isus4" ]
+							}
+, 							{
+								"key" : 644,
+								"value" : [ "IIsus4" ]
+							}
+, 							{
+								"key" : 2576,
+								"value" : [ "IIIsus4" ]
+							}
+, 							{
+								"key" : 1057,
+								"value" : [ "IVsus4" ]
+							}
+, 							{
+								"key" : 133,
+								"value" : [ "Vsus4" ]
+							}
+, 							{
+								"key" : 532,
+								"value" : [ "VIsus4" ]
+							}
+, 							{
+								"key" : 2128,
+								"value" : [ "VIIsus4" ]
+							}
+, 							{
+								"key" : 1288,
+								"value" : [ "bIIIsus4" ]
+							}
+, 							{
+								"key" : 266,
+								"value" : [ "bVIsus4" ]
+							}
+, 							{
+								"key" : 1064,
+								"value" : [ "bVIIsus4" ]
+							}
+, 							{
+								"key" : 129,
+								"value" : [ "Isus2" ]
+							}
+, 							{
+								"key" : 516,
+								"value" : [ "IIsus2" ]
+							}
+, 							{
+								"key" : 2064,
+								"value" : [ "IIIsus2" ]
+							}
+, 							{
+								"key" : 33,
+								"value" : [ "IVsus2" ]
+							}
+, 							{
+								"key" : 132,
+								"value" : [ "Vsus2" ]
+							}
+, 							{
+								"key" : 528,
+								"value" : [ "VIsus2" ]
+							}
+, 							{
+								"key" : 2112,
+								"value" : [ "VIIsus2" ]
+							}
+, 							{
+								"key" : 1032,
+								"value" : [ "bIIIsus2" ]
+							}
+, 							{
+								"key" : 264,
+								"value" : [ "bVIsus2" ]
+							}
+, 							{
+								"key" : 1056,
+								"value" : [ "bVIIsus2" ]
 							}
  ]
 					}
@@ -900,7 +1125,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 2523.0, 1382.0, 109.0, 20.0 ],
-					"presentation_rect" : [ 2534.25, 1070.0, 0.0, 0.0 ],
 					"style" : "",
 					"text" : "live chord analysis"
 				}
@@ -912,8 +1136,7 @@
 					"maxclass" : "live.line",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 2465.0, 883.833374, 300.5, 5.0 ],
-					"presentation_rect" : [ 2465.0, 884.833374, 0.0, 0.0 ]
+					"patching_rect" : [ 2465.0, 883.833374, 300.5, 5.0 ]
 				}
 
 			}
@@ -925,7 +1148,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 2465.0, 892.833374, 338.0, 27.0 ],
-					"presentation_rect" : [ 2465.0, 893.833374, 0.0, 0.0 ],
 					"style" : "",
 					"text" : "MIDI plus key to relative chord symbol"
 				}
@@ -939,7 +1161,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 2446.0, 1382.0, 50.0, 22.0 ],
-					"presentation_rect" : [ 2465.0, 1227.0, 0.0, 0.0 ],
 					"style" : "",
 					"text" : "???"
 				}
@@ -953,7 +1174,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 2477.0, 1139.0, 67.5, 22.0 ],
-					"presentation_rect" : [ 2472.0, 995.0, 0.0, 0.0 ],
 					"style" : "",
 					"text" : "pack i i"
 				}
@@ -962,14 +1182,13 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-57",
-					"items" : [ "C", ",", "C#/Db", ",", "D", ",", "D#/Eb", ",", "F", ",", "F#/Gb", ",", "G", ",", "G#/Ab", ",", "A", ",", "A#/Bb", ",", "B" ],
+					"items" : [ "C", ",", "C#/Db", ",", "D", ",", "D#/Eb", ",", "E", ",", "F", ",", "F#/Gb", ",", "G", ",", "G#/Ab", ",", "A", ",", "A#/Bb", ",", "B" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "int", "", "" ],
 					"parameter_enable" : 0,
 					"patching_rect" : [ 2610.5, 966.166626, 59.0, 22.0 ],
-					"presentation_rect" : [ 2608.0, 986.0, 0.0, 0.0 ],
 					"style" : ""
 				}
 
@@ -982,7 +1201,6 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "int", "int", "int" ],
 					"patching_rect" : [ 2477.0, 1008.166626, 116.0, 22.0 ],
-					"presentation_rect" : [ 2472.0, 939.0, 0.0, 0.0 ],
 					"style" : "",
 					"text" : "notein"
 				}
@@ -1006,8 +1224,7 @@
 					"maxclass" : "live.line",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 2083.0, 883.833374, 300.5, 5.0 ],
-					"presentation_rect" : [ 2084.06543, 883.833374, 0.0, 0.0 ]
+					"patching_rect" : [ 2083.0, 883.833374, 300.5, 5.0 ]
 				}
 
 			}
@@ -1019,7 +1236,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 2083.0, 892.833374, 244.0, 27.0 ],
-					"presentation_rect" : [ 2084.06543, 892.833374, 0.0, 0.0 ],
 					"style" : "",
 					"text" : "MIDI to 12-tone cluster ID"
 				}
@@ -1300,13 +1516,13 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-160",
-					"linecount" : 8,
+					"linecount" : 11,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 2138.666748, 482.666809, 334.0, 114.0 ],
+					"patching_rect" : [ 2138.666748, 482.666809, 334.0, 154.0 ],
 					"style" : "",
-					"text" : "to do\nator\nneed all keys in rtoa so we can buld chords on any root note\nunpack absolute chord symbol\nabsolute chord symbol to relative chord symbol\n12-bit chord table notation\nchord dictionary\nmodal and intervallic transposition"
+					"text" : "to do\nator\nneed all keys in rtoa so we can buld chords on any root note\nunpack absolute chord symbol\nabsolute chord symbol to relative chord symbol\n12-bit chord table notation\nchord dictionary\nmodal and intervallic transposition\ncommon chord progressions\nchord progression generator\nvoice leading computer"
 				}
 
 			}
@@ -5518,6 +5734,15 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-9", 1 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-64", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-73", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
@@ -5691,19 +5916,19 @@
 			}
 , 			{
 				"name" : "bp.mtott.maxpat",
-				"bootpath" : "C74:/packages/BEAP/misc",
+				"bootpath" : "~/Documents/repositories/Beap/misc",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "pastebang.maxpat",
-				"bootpath" : "C74:/packages/BEAP/misc",
+				"bootpath" : "~/Documents/repositories/Beap/misc",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "bp.tttopc.maxpat",
-				"bootpath" : "C74:/packages/BEAP/misc",
+				"bootpath" : "~/Documents/repositories/Beap/misc",
 				"type" : "JSON",
 				"implicit" : 1
 			}
