@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 34.0, 79.0, 896.0, 662.0 ],
+		"rect" : [ 34.0, 79.0, 1212.0, 662.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -38,14 +38,227 @@
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
 				"box" : 				{
-					"id" : "obj-9",
+					"id" : "obj-82",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "int" ],
+					"patching_rect" : [ 2902.0, 1088.666626, 38.0, 22.0 ],
+					"presentation_rect" : [ 2902.0, 1089.666626, 0.0, 0.0 ],
+					"style" : "",
+					"text" : "% 12"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-83",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 2902.0, 1176.0, 54.0, 22.0 ],
+					"presentation_rect" : [ 2902.0, 1177.0, 0.0, 0.0 ],
+					"style" : "",
+					"text" : "bp.mtott"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-84",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "int", "???" ],
+					"patching_rect" : [ 2902.0, 1218.0, 110.0, 22.0 ],
+					"presentation_rect" : [ 2902.0, 1219.0, 0.0, 0.0 ],
+					"style" : "",
+					"text" : "t i ???"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-85",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "" ],
+					"patching_rect" : [ 2902.0, 1291.0, 79.0, 22.0 ],
+					"presentation_rect" : [ 2902.0, 1292.0, 0.0, 0.0 ],
+					"style" : "",
+					"text" : "route symbol"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-86",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 4,
+					"outlettype" : [ "", "", "", "" ],
+					"patching_rect" : [ 2902.0, 1259.0, 103.0, 22.0 ],
+					"saved_object_attributes" : 					{
+						"embed" : 0
+					}
+,
+					"style" : "",
+					"text" : "coll bp.mtoacs.txt"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-87",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 2948.0, 1382.0, 109.0, 20.0 ],
+					"presentation_rect" : [ 2948.0, 1383.0, 0.0, 0.0 ],
+					"style" : "",
+					"text" : "live chord analysis"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-89",
+					"maxclass" : "live.line",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 2890.0, 883.833374, 300.5, 5.0 ],
+					"presentation_rect" : [ 2890.0, 884.833374, 0.0, 0.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontsize" : 18.0,
+					"id" : "obj-90",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 2890.0, 892.833374, 338.0, 27.0 ],
+					"presentation_rect" : [ 2890.0, 893.833374, 0.0, 0.0 ],
+					"style" : "",
+					"text" : "MIDI absolute chord symbol"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-91",
 					"maxclass" : "message",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 2644.0, 1147.0, 50.0, 22.0 ],
+					"patching_rect" : [ 2781.0, 1382.0, 140.0, 22.0 ],
+					"presentation_rect" : [ 2781.0, 1383.0, 0.0, 0.0 ],
 					"style" : "",
-					"text" : "5"
+					"text" : "???"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-92",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 2902.0, 1139.0, 67.5, 22.0 ],
+					"presentation_rect" : [ 2902.0, 1140.0, 0.0, 0.0 ],
+					"style" : "",
+					"text" : "pack i i"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-94",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 3,
+					"outlettype" : [ "int", "int", "int" ],
+					"patching_rect" : [ 2902.0, 1048.166626, 116.0, 22.0 ],
+					"presentation_rect" : [ 2902.0, 1009.166626, 0.0, 0.0 ],
+					"style" : "",
+					"text" : "notein"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-75",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 2254.817627, 406.0, 169.0, 20.0 ],
+					"presentation_rect" : [ 2256.817627, 406.0, 0.0, 0.0 ],
+					"style" : "",
+					"text" : "midi to relative chord symbol"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-76",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 4,
+					"outlettype" : [ "", "", "", "" ],
+					"patching_rect" : [ 2144.317627, 406.0, 101.0, 22.0 ],
+					"saved_object_attributes" : 					{
+						"embed" : 0
+					}
+,
+					"style" : "",
+					"text" : "coll bp.mtorcs.txt"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-55",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 2254.817627, 372.0, 169.0, 20.0 ],
+					"presentation_rect" : [ 2257.817627, 369.833679, 0.0, 0.0 ],
+					"style" : "",
+					"text" : "midi to absolute chord symbol"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-18",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 4,
+					"outlettype" : [ "", "", "", "" ],
+					"patching_rect" : [ 2144.317627, 372.0, 103.0, 22.0 ],
+					"saved_object_attributes" : 					{
+						"embed" : 0
+					}
+,
+					"style" : "",
+					"text" : "coll bp.mtoacs.txt"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-8",
+					"maxclass" : "number",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "bang" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 181.666718, 295.333313, 50.0, 22.0 ],
+					"style" : ""
 				}
 
 			}
@@ -339,7 +552,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 1935.56543, 1372.812134, 127.0, 22.0 ],
 					"style" : "",
-					"text" : "0 0 0 0 0 0 0 0 0 0 0 0"
+					"text" : "1 0 0 0 1 0 0 1 0 0 0 0"
 				}
 
 			}
@@ -778,343 +991,18 @@
 			}
 , 			{
 				"box" : 				{
-					"coll_data" : 					{
-						"count" : 80,
-						"data" : [ 							{
-								"key" : 145,
-								"value" : [ "Imaj" ]
-							}
-, 							{
-								"key" : 548,
-								"value" : [ "iimin" ]
-							}
-, 							{
-								"key" : 2192,
-								"value" : [ "iiimin" ]
-							}
-, 							{
-								"key" : 545,
-								"value" : [ "IVmaj" ]
-							}
-, 							{
-								"key" : 2180,
-								"value" : [ "Vmaj" ]
-							}
-, 							{
-								"key" : 529,
-								"value" : [ "vimin" ]
-							}
-, 							{
-								"key" : 2084,
-								"value" : [ "viidim" ]
-							}
-, 							{
-								"key" : 137,
-								"value" : [ "imin" ]
-							}
-, 							{
-								"key" : 292,
-								"value" : [ "iidim" ]
-							}
-, 							{
-								"key" : 1160,
-								"value" : [ "bIIImaj" ]
-							}
-, 							{
-								"key" : 289,
-								"value" : [ "ivmin" ]
-							}
-, 							{
-								"key" : 1156,
-								"value" : [ "vmin" ]
-							}
-, 							{
-								"key" : 265,
-								"value" : [ "bVImaj" ]
-							}
-, 							{
-								"key" : 1060,
-								"value" : [ "bVIImaj" ]
-							}
-, 							{
-								"key" : 2193,
-								"value" : [ "Imaj7" ]
-							}
-, 							{
-								"key" : 549,
-								"value" : [ "iimin7" ]
-							}
-, 							{
-								"key" : 2196,
-								"value" : [ "iiimin7" ]
-							}
-, 							{
-								"key" : 561,
-								"value" : [ "IVmaj7" ]
-							}
-, 							{
-								"key" : 2212,
-								"value" : [ "Vdom7" ]
-							}
-, 							{
-								"key" : 657,
-								"value" : [ "vimin7" ]
-							}
-, 							{
-								"key" : 2596,
-								"value" : [ "viimin7b5" ]
-							}
-, 							{
-								"key" : 1161,
-								"value" : [ "imin7" ]
-							}
-, 							{
-								"key" : 293,
-								"value" : [ "iimin7b5" ]
-							}
-, 							{
-								"key" : 1164,
-								"value" : [ "bIIImaj7" ]
-							}
-, 							{
-								"key" : 297,
-								"value" : [ "ivmin7" ]
-							}
-, 							{
-								"key" : 1188,
-								"value" : [ "vmin7" ]
-							}
-, 							{
-								"key" : 393,
-								"value" : [ "bVImaj7" ]
-							}
-, 							{
-								"key" : 1316,
-								"value" : [ "bVIIdom7" ]
-							}
-, 							{
-								"key" : 137,
-								"value" : [ "Imin" ]
-							}
-, 							{
-								"key" : 292,
-								"value" : [ "iidim" ]
-							}
-, 							{
-								"key" : 2184,
-								"value" : [ "IIIaug" ]
-							}
-, 							{
-								"key" : 289,
-								"value" : [ "ivmin" ]
-							}
-, 							{
-								"key" : 293,
-								"value" : [ "ivmin6" ]
-							}
-, 							{
-								"key" : 2180,
-								"value" : [ "Vmaj" ]
-							}
-, 							{
-								"key" : 265,
-								"value" : [ "bVImaj" ]
-							}
-, 							{
-								"key" : 2084,
-								"value" : [ "VIIdim" ]
-							}
-, 							{
-								"key" : 1161,
-								"value" : [ "Iminmaj7" ]
-							}
-, 							{
-								"key" : 293,
-								"value" : [ "iimin7b5" ]
-							}
-, 							{
-								"key" : 2188,
-								"value" : [ "IIIaug7" ]
-							}
-, 							{
-								"key" : 297,
-								"value" : [ "ivmin7" ]
-							}
-, 							{
-								"key" : 2212,
-								"value" : [ "Vdom7" ]
-							}
-, 							{
-								"key" : 393,
-								"value" : [ "bVImaj7" ]
-							}
-, 							{
-								"key" : 2340,
-								"value" : [ "VIIdim7" ]
-							}
-, 							{
-								"key" : 530,
-								"value" : [ "V/IImaj" ]
-							}
-, 							{
-								"key" : 2120,
-								"value" : [ "V/IIImaj" ]
-							}
-, 							{
-								"key" : 580,
-								"value" : [ "V/Vmaj" ]
-							}
-, 							{
-								"key" : 2320,
-								"value" : [ "V/VImaj" ]
-							}
-, 							{
-								"key" : 658,
-								"value" : [ "V7/IIdom7" ]
-							}
-, 							{
-								"key" : 2632,
-								"value" : [ "V7/IIIdom7" ]
-							}
-, 							{
-								"key" : 1169,
-								"value" : [ "V7/IVdom7" ]
-							}
-, 							{
-								"key" : 581,
-								"value" : [ "V7/Vdom7" ]
-							}
-, 							{
-								"key" : 2324,
-								"value" : [ "V7/VIdom7" ]
-							}
-, 							{
-								"key" : 2338,
-								"value" : [ "subVdom7" ]
-							}
-, 							{
-								"key" : 1162,
-								"value" : [ "subV/IIdom7" ]
-							}
-, 							{
-								"key" : 1106,
-								"value" : [ "subV/IVdom7" ]
-							}
-, 							{
-								"key" : 329,
-								"value" : [ "subV/Vdom7" ]
-							}
-, 							{
-								"key" : 1316,
-								"value" : [ "subV/VIdom7" ]
-							}
-, 							{
-								"key" : 2632,
-								"value" : [ "subV/VIIdom7" ]
-							}
-, 							{
-								"key" : 1316,
-								"value" : [ "bVIIdom7" ]
-							}
-, 							{
-								"key" : 553,
-								"value" : [ "IV7dom7" ]
-							}
-, 							{
-								"key" : 161,
-								"value" : [ "Isus4" ]
-							}
-, 							{
-								"key" : 644,
-								"value" : [ "IIsus4" ]
-							}
-, 							{
-								"key" : 2576,
-								"value" : [ "IIIsus4" ]
-							}
-, 							{
-								"key" : 1057,
-								"value" : [ "IVsus4" ]
-							}
-, 							{
-								"key" : 133,
-								"value" : [ "Vsus4" ]
-							}
-, 							{
-								"key" : 532,
-								"value" : [ "VIsus4" ]
-							}
-, 							{
-								"key" : 2128,
-								"value" : [ "VIIsus4" ]
-							}
-, 							{
-								"key" : 1288,
-								"value" : [ "bIIIsus4" ]
-							}
-, 							{
-								"key" : 266,
-								"value" : [ "bVIsus4" ]
-							}
-, 							{
-								"key" : 1064,
-								"value" : [ "bVIIsus4" ]
-							}
-, 							{
-								"key" : 129,
-								"value" : [ "Isus2" ]
-							}
-, 							{
-								"key" : 516,
-								"value" : [ "IIsus2" ]
-							}
-, 							{
-								"key" : 2064,
-								"value" : [ "IIIsus2" ]
-							}
-, 							{
-								"key" : 33,
-								"value" : [ "IVsus2" ]
-							}
-, 							{
-								"key" : 132,
-								"value" : [ "Vsus2" ]
-							}
-, 							{
-								"key" : 528,
-								"value" : [ "VIsus2" ]
-							}
-, 							{
-								"key" : 2112,
-								"value" : [ "VIIsus2" ]
-							}
-, 							{
-								"key" : 1032,
-								"value" : [ "bIIIsus2" ]
-							}
-, 							{
-								"key" : 264,
-								"value" : [ "bVIsus2" ]
-							}
-, 							{
-								"key" : 1056,
-								"value" : [ "bVIIsus2" ]
-							}
- ]
-					}
-,
 					"id" : "obj-52",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 4,
 					"outlettype" : [ "", "", "", "" ],
-					"patching_rect" : [ 2477.0, 1259.0, 75.0, 22.0 ],
+					"patching_rect" : [ 2477.0, 1259.0, 101.0, 22.0 ],
 					"saved_object_attributes" : 					{
-						"embed" : 1
+						"embed" : 0
 					}
 ,
 					"style" : "",
-					"text" : "coll analysis"
+					"text" : "coll bp.mtorcs.txt"
 				}
 
 			}
@@ -1160,7 +1048,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 2446.0, 1382.0, 50.0, 22.0 ],
+					"patching_rect" : [ 2356.0, 1382.0, 140.0, 22.0 ],
 					"style" : "",
 					"text" : "???"
 				}
@@ -1516,13 +1404,13 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-160",
-					"linecount" : 11,
+					"linecount" : 12,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 2138.666748, 482.666809, 334.0, 154.0 ],
+					"patching_rect" : [ 2138.666748, 550.666809, 334.0, 167.0 ],
 					"style" : "",
-					"text" : "to do\nator\nneed all keys in rtoa so we can buld chords on any root note\nunpack absolute chord symbol\nabsolute chord symbol to relative chord symbol\n12-bit chord table notation\nchord dictionary\nmodal and intervallic transposition\ncommon chord progressions\nchord progression generator\nvoice leading computer"
+					"text" : "to do\nator\nneed all keys in rtoa so we can buld chords on any root note\nunpack absolute chord symbol\nabsolute chord symbol to relative chord symbol\n12-bit chord table notation\nchord dictionary\nmodal and intervallic transposition\ncommon chord progressions\nchord progression generator\nvoice leading computer\nadd harmony 4 to bp.mtorcs.txt"
 				}
 
 			}
@@ -2688,7 +2576,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 1830.333496, 470.533752, 83.333336, 22.0 ],
 					"style" : "",
-					"text" : "Eb7"
+					"text" : "Dø7"
 				}
 
 			}
@@ -2986,7 +2874,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 2361.317627, 433.833557, 37.0, 20.0 ],
+					"patching_rect" : [ 2361.317627, 498.833557, 37.0, 20.0 ],
 					"style" : "",
 					"text" : "temp"
 				}
@@ -3001,7 +2889,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 1319.216797, 1153.16687, 53.0, 22.0 ],
 					"style" : "",
-					"text" : "Cmaj7"
+					"text" : "Gmaj7"
 				}
 
 			}
@@ -3849,7 +3737,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 2361.317627, 384.500183, 132.0, 20.0 ],
+					"patching_rect" : [ 2361.317627, 449.500183, 132.0, 20.0 ],
 					"style" : "",
 					"text" : "will be chord dictionary"
 				}
@@ -3861,7 +3749,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 2254.817627, 433.833557, 45.0, 20.0 ],
+					"patching_rect" : [ 2254.817627, 498.833557, 45.0, 20.0 ],
 					"style" : "",
 					"text" : "scales"
 				}
@@ -3895,7 +3783,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 4,
 					"outlettype" : [ "", "", "", "" ],
-					"patching_rect" : [ 2146.817627, 428.000183, 66.0, 22.0 ],
+					"patching_rect" : [ 2146.817627, 493.000183, 66.0, 22.0 ],
 					"saved_object_attributes" : 					{
 						"embed" : 1
 					}
@@ -3911,7 +3799,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 2254.817627, 384.500183, 95.0, 20.0 ],
+					"patching_rect" : [ 2254.817627, 449.500183, 95.0, 20.0 ],
 					"style" : "",
 					"text" : "chord to voicing"
 				}
@@ -3924,7 +3812,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 4,
 					"outlettype" : [ "", "", "", "" ],
-					"patching_rect" : [ 2146.817627, 378.333435, 86.0, 22.0 ],
+					"patching_rect" : [ 2146.817627, 443.333435, 86.0, 22.0 ],
 					"saved_object_attributes" : 					{
 						"embed" : 0
 					}
@@ -4345,7 +4233,7 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-113",
-					"items" : [ "i-7", ",", "iiø7", ",", "bIII7", ",", "iv-7", ",", "V7", ",", "bVI7", ",", "bVII7" ],
+					"items" : [ "i-7", ",", "ii-7", ",", "III+7", ",", "IV7", ",", "V7", ",", "viø7", ",", "viiø7" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -5166,6 +5054,15 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-8", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-261", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-253", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
@@ -5520,7 +5417,7 @@
 					"destination" : [ "obj-51", 1 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 2577.5, 1337.5, 2486.5, 1337.5 ],
+					"midpoints" : [ 2577.5, 1332.0, 2486.5, 1332.0 ],
 					"source" : [ "obj-49", 1 ]
 				}
 
@@ -5540,6 +5437,16 @@
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-5", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-51", 1 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"midpoints" : [ 2546.5, 1332.0, 2486.5, 1332.0 ],
+					"source" : [ "obj-50", 1 ]
 				}
 
 			}
@@ -5734,15 +5641,6 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-9", 1 ],
-					"disabled" : 0,
-					"hidden" : 0,
-					"source" : [ "obj-64", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-73", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
@@ -5822,11 +5720,104 @@
 				}
 
 			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-92", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-82", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-84", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-83", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-86", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-84", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-91", 1 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"midpoints" : [ 3002.5, 1332.0, 2911.5, 1332.0 ],
+					"source" : [ "obj-84", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-91", 1 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"midpoints" : [ 2971.5, 1332.0, 2911.5, 1332.0 ],
+					"source" : [ "obj-85", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-91", 1 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-85", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-85", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-86", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-83", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-92", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-82", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-94", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-92", 1 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-94", 1 ]
+				}
+
+			}
  ],
 		"parameters" : 		{
-			"obj-294::obj-142" : [ "umenu[1]", "umenu[6]", 0 ],
 			"obj-142" : [ "umenu[6]", "umenu[6]", 0 ],
+			"obj-294::obj-142" : [ "umenu[1]", "umenu[6]", 0 ],
 			"obj-61::obj-2::obj-2" : [ "pastebang[1]", "pastebang", 0 ],
+			"obj-83::obj-2::obj-2" : [ "pastebang[2]", "pastebang", 0 ],
 			"obj-12::obj-2::obj-2" : [ "pastebang", "pastebang", 0 ]
 		}
 ,
@@ -5927,9 +5918,21 @@
 				"implicit" : 1
 			}
 , 			{
+				"name" : "bp.mtorcs.txt",
+				"bootpath" : "C74:/packages/BEAP/misc",
+				"type" : "TEXT",
+				"implicit" : 1
+			}
+, 			{
 				"name" : "bp.tttopc.maxpat",
 				"bootpath" : "~/Documents/repositories/Beap/misc",
 				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "bp.mtoacs.txt",
+				"bootpath" : "C74:/packages/BEAP/misc",
+				"type" : "TEXT",
 				"implicit" : 1
 			}
  ],
