@@ -160,13 +160,13 @@
 					"numinlets" : 1,
 					"numoutlets" : 4,
 					"outlettype" : [ "", "", "", "" ],
-					"patching_rect" : [ 64.900146, 196.500183, 72.0, 22.0 ],
+					"patching_rect" : [ 64.900146, 196.500183, 99.0, 22.0 ],
 					"saved_object_attributes" : 					{
 						"embed" : 0
 					}
 ,
 					"style" : "",
-					"text" : "coll bp.dtoa"
+					"text" : "coll bp.rnatoa.txt"
 				}
 
 			}
