@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 39.0, 86.0, 906.0, 662.0 ],
+		"rect" : [ 39.0, 86.0, 590.0, 662.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -42,7 +42,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 233.500168, 366.0, 102.0, 20.0 ],
+					"patching_rect" : [ 239.500168, 366.0, 102.0, 20.0 ],
 					"style" : "",
 					"text" : "absolute notation"
 				}
@@ -105,7 +105,7 @@
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 187.500168, 366.0, 30.0, 30.0 ],
+					"patching_rect" : [ 193.500168, 366.0, 30.0, 30.0 ],
 					"style" : ""
 				}
 
@@ -132,14 +132,14 @@
 					"numinlets" : 2,
 					"numoutlets" : 4,
 					"outlettype" : [ "dictionary", "", "", "" ],
-					"patching_rect" : [ 174.833496, 266.0, 57.0, 23.0 ],
+					"patching_rect" : [ 174.833496, 266.0, 75.0, 23.0 ],
 					"saved_object_attributes" : 					{
 						"embed" : 0,
 						"parameter_enable" : 0
 					}
 ,
 					"style" : "",
-					"text" : "dict rtoa"
+					"text" : "dict bp.rtoa"
 				}
 
 			}
@@ -150,9 +150,9 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 45.833496, 165.666748, 84.0, 22.0 ],
+					"patching_rect" : [ 45.833496, 165.666748, 101.0, 22.0 ],
 					"style" : "",
-					"text" : "read rtoa.json"
+					"text" : "read bp.rtoa.json"
 				}
 
 			}
@@ -176,7 +176,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 187.500168, 315.333252, 29.5, 22.0 ],
+					"patching_rect" : [ 193.500168, 315.333252, 29.5, 22.0 ],
 					"style" : "",
 					"text" : "$2"
 				}

@@ -1,0 +1,326 @@
+{
+	"maj" : 	{
+		"symbol" : "maj",
+		"class" : "major",
+		"type" : "triad",
+		"TT" : 145,
+		"aka" : "",
+		"voicings-rn" : 		{
+			"root" : "14 34 54",
+			"1st inversion" : "15 34 54",
+			"2nd inversion" : "15 35 54",
+			"Chorale 1" : "13 33 34 54",
+			"Chorale 2" : "13 53 34 15"
+		}
+,
+		"voicings-an" : 		{
+			"C" : 			{
+				"1st inversion" : "",
+				"2nd inversion" : "",
+				"3rd inversion" : "",
+				"Typical" : "",
+				"Alternate" : "",
+				"Chorale 1" : "",
+				"Chorale 2" : ""
+			}
+
+		}
+,
+		"found in" : 		{
+			"major" : "I IV V",
+			"minor natural" : "V VI VII",
+			"minor melodic" : "IV V",
+			"minor harmonic" : "V VI"
+		}
+
+	}
+,
+	"min" : 	{
+		"symbol" : "-",
+		"class" : "minor",
+		"type" : "triad",
+		"TT" : 137,
+		"aka" : "",
+		"voicings-rn" : 		{
+			"root" : "14 b34 54",
+			"1st inversion" : "15 b34 54",
+			"2nd inversion" : "15 b35 54",
+			"3rd inversion" : "",
+			"Typical" : "",
+			"Alternate" : "",
+			"Chorale 1" : "13 b33 b34 54",
+			"Chorale 2" : "13 53 b34 15"
+		}
+,
+		"voicings-an" : 		{
+			"C" : 			{
+				"1st inversion" : "",
+				"2nd inversion" : "",
+				"3rd inversion" : "",
+				"Typical" : "",
+				"Alternate" : "",
+				"Chorale 1" : "",
+				"Chorale 2" : ""
+			}
+
+		}
+,
+		"found in" : 		{
+			"major" : "",
+			"minor natural" : "",
+			"minor melodic" : "",
+			"minor harmonic" : ""
+		}
+
+	}
+,
+	"aug" : 	{
+		"symbol" : "+",
+		"class" : "triad",
+		"type" : "major",
+		"TT" : 273,
+		"aka" : "",
+		"voicings-rn" : 		{
+			"root" : "14 34 #54",
+			"1st inversion" : "15 34 #54",
+			"2nd inversion" : "15 35 #54"
+		}
+,
+		"voicings-an" : 		{
+			"C" : 			{
+				"1st inversion" : "",
+				"2nd inversion" : "",
+				"3rd inversion" : "",
+				"Typical" : "",
+				"Alternate" : "",
+				"Chorale 1" : "",
+				"Chorale 2" : ""
+			}
+
+		}
+,
+		"found in" : 		{
+			"major" : "",
+			"minor natural" : "",
+			"minor melodic" : "",
+			"minor harmonic" : ""
+		}
+
+	}
+,
+	"dim" : 	{
+		"symbol" : "°",
+		"class" : "minor",
+		"type" : "triad",
+		"TT" : 73,
+		"aka" : "",
+		"voicings-rn" : 		{
+			"root" : "14 34 b54",
+			"1st inversion" : "15 34 b54",
+			"2nd inversion" : "15 35 b54"
+		}
+,
+		"voicings-an" : 		{
+			"C" : 			{
+				"1st inversion" : "",
+				"2nd inversion" : "",
+				"3rd inversion" : "",
+				"Typical" : "",
+				"Alternate" : "",
+				"Chorale 1" : "",
+				"Chorale 2" : ""
+			}
+
+		}
+,
+		"found in" : 		{
+			"major" : "",
+			"minor natural" : "",
+			"minor melodic" : "",
+			"minor harmonic" : ""
+		}
+
+	}
+,
+	"sus2" : 	{
+		"symbol" : "sus2",
+		"class" : "",
+		"type" : "add",
+		"TT" : 133,
+		"aka" : "",
+		"voicings-rn" : 		{
+			"root" : "14 24 54",
+			"1st inversion" : "15 24 54",
+			"2nd inversion" : "15 25 54"
+		}
+,
+		"voicings-an" : 		{
+			"C" : 			{
+				"1st inversion" : "",
+				"2nd inversion" : "",
+				"3rd inversion" : "",
+				"Typical" : "",
+				"Alternate" : "",
+				"Chorale 1" : "",
+				"Chorale 2" : ""
+			}
+
+		}
+,
+		"found in" : 		{
+			"major" : "",
+			"minor natural" : "",
+			"minor melodic" : "",
+			"minor harmonic" : ""
+		}
+
+	}
+,
+	"sus4" : 	{
+		"symbol" : "sus4",
+		"class" : "",
+		"type" : "add",
+		"TT" : 161,
+		"aka" : "",
+		"voicings-rn" : 		{
+			"root" : "14 44 54",
+			"1st inversion" : "15 44 54",
+			"2nd inversion" : "15 45 54"
+		}
+,
+		"voicings-an" : 		{
+			"C" : 			{
+				"1st inversion" : "",
+				"2nd inversion" : "",
+				"3rd inversion" : "",
+				"Typical" : "",
+				"Alternate" : "",
+				"Chorale 1" : "",
+				"Chorale 2" : ""
+			}
+
+		}
+,
+		"found in" : 		{
+			"major" : "",
+			"minor natural" : "",
+			"minor melodic" : "",
+			"minor harmonic" : ""
+		}
+
+	}
+,
+	"maj6" : 	{
+		"symbol" : "maj6",
+		"class" : "major",
+		"type" : "add",
+		"TT" : 657,
+		"aka" : "",
+		"voicings-rn" : 		{
+			"root" : "14 34 54 64",
+			"1st inversion" : "15 34 54 64",
+			"2nd inversion" : "15 35 54 64",
+			"3rd inversion" : "15 35 55 64",
+			"Typical" : "14 54 65 35",
+			"Alternate" : "14 64 35 55"
+		}
+,
+		"voicings-an" : 		{
+			"C" : 			{
+				"1st inversion" : "",
+				"2nd inversion" : "",
+				"3rd inversion" : "",
+				"Typical" : "",
+				"Alternate" : "",
+				"Chorale 1" : "",
+				"Chorale 2" : ""
+			}
+
+		}
+,
+		"found in" : 		{
+			"major" : "",
+			"minor natural" : "",
+			"minor melodic" : "",
+			"minor harmonic" : ""
+		}
+
+	}
+,
+	"min6" : 	{
+		"symbol" : -6,
+		"class" : "minor",
+		"type" : "add",
+		"TT" : 649,
+		"aka" : "",
+		"voicings-rn" : 		{
+			"root" : "14 b34 54 64",
+			"1st inversion" : "15 b34 54 64",
+			"2nd inversion" : "15 b35 54 64",
+			"3rd inversion" : "15 b35 55 64",
+			"Typical" : "14 54 65 b35",
+			"Alternate" : "14 64 b35 55"
+		}
+,
+		"voicings-an" : 		{
+			"C" : 			{
+				"1st inversion" : "",
+				"2nd inversion" : "",
+				"3rd inversion" : "",
+				"Typical" : "",
+				"Alternate" : "",
+				"Chorale 1" : "",
+				"Chorale 2" : ""
+			}
+
+		}
+,
+		"found in" : 		{
+			"major" : "",
+			"minor natural" : "",
+			"minor melodic" : "",
+			"minor harmonic" : ""
+		}
+
+	}
+,
+	"empty" : 	{
+		"symbol" : "",
+		"class" : "",
+		"type" : "",
+		"TT" : "",
+		"aka" : "",
+		"voicings-rn" : 		{
+			"root" : "",
+			"1st inversion" : "",
+			"2nd inversion" : "",
+			"3rd inversion" : "",
+			"Typical" : "",
+			"Alternate" : "",
+			"Chorale 1" : "",
+			"Chorale 2" : ""
+		}
+,
+		"voicings-an" : 		{
+			"C" : 			{
+				"1st inversion" : "",
+				"2nd inversion" : "",
+				"3rd inversion" : "",
+				"Typical" : "",
+				"Alternate" : "",
+				"Chorale 1" : "",
+				"Chorale 2" : ""
+			}
+
+		}
+,
+		"found in" : 		{
+			"major" : "",
+			"minor natural" : "",
+			"minor melodic" : "",
+			"minor harmonic" : ""
+		}
+
+	}
+
+}
