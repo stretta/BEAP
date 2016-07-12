@@ -83,7 +83,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 219.0, 156.233368, 266.0, 47.0 ],
 					"style" : "",
-					"text" : "staring from the back of the string, look for an upper or lower case roman numeral, and output from there to the beginning."
+					"text" : "staring from the back of the string, look for an upper case roman numeral, and output from there to the beginning."
 				}
 
 			}
@@ -146,7 +146,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 42.099854, 100.0, 72.864502, 22.0 ],
+					"patching_rect" : [ 42.099854, 100.0, 76.364502, 22.0 ],
 					"style" : "",
 					"text" : "t s s"
 				}
@@ -189,9 +189,9 @@
 					"numinlets" : 1,
 					"numoutlets" : 5,
 					"outlettype" : [ "", "", "", "", "" ],
-					"patching_rect" : [ 95.964355, 160.5, 109.0, 21.0 ],
+					"patching_rect" : [ 99.464355, 160.5, 95.0, 21.0 ],
 					"style" : "",
-					"text" : "regexp .*[i|v|I|V](.+)"
+					"text" : "regexp .*[I|V](.+)"
 				}
 
 			}

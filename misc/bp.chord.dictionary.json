@@ -6,22 +6,22 @@
 		"TT" : 145,
 		"aka" : "",
 		"voicings-rn" : 		{
-			"root" : "14 34 54",
-			"1st inversion" : "15 34 54",
-			"2nd inversion" : "15 35 54",
-			"Chorale 1" : "13 33 34 54",
-			"Chorale 2" : "13 53 34 15"
+			"root" : "13 33 53",
+			"1st-inversion" : "14 33 53",
+			"2nd-inversion" : "14 34 53",
+			"chorale-1" : "12 32 33 53",
+			"chorale-2" : "12 52 33 14"
 		}
 ,
 		"voicings-an" : 		{
 			"C" : 			{
-				"1st inversion" : "",
-				"2nd inversion" : "",
+				"1st-inversion" : "",
+				"2nd-inversion" : "",
 				"3rd inversion" : "",
 				"Typical" : "",
 				"Alternate" : "",
-				"Chorale 1" : "",
-				"Chorale 2" : ""
+				"chorale-1" : "",
+				"chorale-2" : ""
 			}
 
 		}
@@ -42,25 +42,25 @@
 		"TT" : 137,
 		"aka" : "",
 		"voicings-rn" : 		{
-			"root" : "14 b34 54",
-			"1st inversion" : "15 b34 54",
-			"2nd inversion" : "15 b35 54",
+			"root" : "13 b33 53",
+			"1st-inversion" : "14 b33 53",
+			"2nd-inversion" : "14 b34 53",
 			"3rd inversion" : "",
 			"Typical" : "",
 			"Alternate" : "",
-			"Chorale 1" : "13 b33 b34 54",
-			"Chorale 2" : "13 53 b34 15"
+			"chorale-1" : "12 b32 b33 53",
+			"chorale-2" : "12 52 b33 14"
 		}
 ,
 		"voicings-an" : 		{
 			"C" : 			{
-				"1st inversion" : "",
-				"2nd inversion" : "",
+				"1st-inversion" : "",
+				"2nd-inversion" : "",
 				"3rd inversion" : "",
 				"Typical" : "",
 				"Alternate" : "",
-				"Chorale 1" : "",
-				"Chorale 2" : ""
+				"chorale-1" : "",
+				"chorale-2" : ""
 			}
 
 		}
@@ -81,20 +81,22 @@
 		"TT" : 273,
 		"aka" : "",
 		"voicings-rn" : 		{
-			"root" : "14 34 #54",
-			"1st inversion" : "15 34 #54",
-			"2nd inversion" : "15 35 #54"
+			"root" : "13 33 #53",
+			"1st-inversion" : "14 33 #53",
+			"2nd-inversion" : "14 34 #53",
+			"chorale-1" : "12 32 33 #53",
+			"chorale-2" : "12 #52 33 14"
 		}
 ,
 		"voicings-an" : 		{
 			"C" : 			{
-				"1st inversion" : "",
-				"2nd inversion" : "",
+				"1st-inversion" : "",
+				"2nd-inversion" : "",
 				"3rd inversion" : "",
 				"Typical" : "",
 				"Alternate" : "",
-				"Chorale 1" : "",
-				"Chorale 2" : ""
+				"chorale-1" : "",
+				"chorale-2" : ""
 			}
 
 		}
@@ -115,20 +117,22 @@
 		"TT" : 73,
 		"aka" : "",
 		"voicings-rn" : 		{
-			"root" : "14 34 b54",
-			"1st inversion" : "15 34 b54",
-			"2nd inversion" : "15 35 b54"
+			"root" : "13 33 b53",
+			"1st-inversion" : "14 33 b53",
+			"2nd-inversion" : "14 34 b53",
+			"chorale-1" : "12 32 33 b53",
+			"chorale-2" : "12 b52 33 14"
 		}
 ,
 		"voicings-an" : 		{
 			"C" : 			{
-				"1st inversion" : "",
-				"2nd inversion" : "",
+				"1st-inversion" : "",
+				"2nd-inversion" : "",
 				"3rd inversion" : "",
 				"Typical" : "",
 				"Alternate" : "",
-				"Chorale 1" : "",
-				"Chorale 2" : ""
+				"chorale-1" : "",
+				"chorale-2" : ""
 			}
 
 		}
@@ -149,20 +153,20 @@
 		"TT" : 133,
 		"aka" : "",
 		"voicings-rn" : 		{
-			"root" : "14 24 54",
-			"1st inversion" : "15 24 54",
-			"2nd inversion" : "15 25 54"
+			"root" : "13 23 53",
+			"1st-inversion" : "14 23 53",
+			"2nd-inversion" : "14 24 53"
 		}
 ,
 		"voicings-an" : 		{
 			"C" : 			{
-				"1st inversion" : "",
-				"2nd inversion" : "",
+				"1st-inversion" : "",
+				"2nd-inversion" : "",
 				"3rd inversion" : "",
 				"Typical" : "",
 				"Alternate" : "",
-				"Chorale 1" : "",
-				"Chorale 2" : ""
+				"chorale-1" : "",
+				"chorale-2" : ""
 			}
 
 		}
@@ -183,20 +187,20 @@
 		"TT" : 161,
 		"aka" : "",
 		"voicings-rn" : 		{
-			"root" : "14 44 54",
-			"1st inversion" : "15 44 54",
-			"2nd inversion" : "15 45 54"
+			"root" : "13 43 53",
+			"1st-inversion" : "14 43 53",
+			"2nd-inversion" : "14 44 53"
 		}
 ,
 		"voicings-an" : 		{
 			"C" : 			{
-				"1st inversion" : "",
-				"2nd inversion" : "",
+				"1st-inversion" : "",
+				"2nd-inversion" : "",
 				"3rd inversion" : "",
 				"Typical" : "",
 				"Alternate" : "",
-				"Chorale 1" : "",
-				"Chorale 2" : ""
+				"chorale-1" : "",
+				"chorale-2" : ""
 			}
 
 		}
@@ -217,23 +221,23 @@
 		"TT" : 657,
 		"aka" : "",
 		"voicings-rn" : 		{
-			"root" : "14 34 54 64",
-			"1st inversion" : "15 34 54 64",
-			"2nd inversion" : "15 35 54 64",
-			"3rd inversion" : "15 35 55 64",
-			"Typical" : "14 54 65 35",
-			"Alternate" : "14 64 35 55"
+			"root" : "13 33 53 63",
+			"1st-inversion" : "14 33 53 63",
+			"2nd-inversion" : "14 34 53 63",
+			"3rd inversion" : "14 34 54 63",
+			"Typical" : "12 52 63 33",
+			"Alternate" : "12 62 33 53"
 		}
 ,
 		"voicings-an" : 		{
 			"C" : 			{
-				"1st inversion" : "",
-				"2nd inversion" : "",
+				"1st-inversion" : "",
+				"2nd-inversion" : "",
 				"3rd inversion" : "",
 				"Typical" : "",
 				"Alternate" : "",
-				"Chorale 1" : "",
-				"Chorale 2" : ""
+				"chorale-1" : "",
+				"chorale-2" : ""
 			}
 
 		}
@@ -254,23 +258,816 @@
 		"TT" : 649,
 		"aka" : "",
 		"voicings-rn" : 		{
-			"root" : "14 b34 54 64",
-			"1st inversion" : "15 b34 54 64",
-			"2nd inversion" : "15 b35 54 64",
-			"3rd inversion" : "15 b35 55 64",
-			"Typical" : "14 54 65 b35",
-			"Alternate" : "14 64 b35 55"
+			"root" : "13 b33 53 63",
+			"1st-inversion" : "14 b33 53 63",
+			"2nd-inversion" : "14 b34 53 63",
+			"3rd inversion" : "14 b34 54 63",
+			"Typical" : "12 52 63 b33",
+			"Alternate" : "12 62 b32 52"
 		}
 ,
 		"voicings-an" : 		{
 			"C" : 			{
-				"1st inversion" : "",
-				"2nd inversion" : "",
+				"1st-inversion" : "",
+				"2nd-inversion" : "",
 				"3rd inversion" : "",
 				"Typical" : "",
 				"Alternate" : "",
-				"Chorale 1" : "",
-				"Chorale 2" : ""
+				"chorale-1" : "",
+				"chorale-2" : ""
+			}
+
+		}
+,
+		"found in" : 		{
+			"major" : "",
+			"minor natural" : "",
+			"minor melodic" : "",
+			"minor harmonic" : ""
+		}
+
+	}
+,
+	"maj7" : 	{
+		"symbol" : "maj7",
+		"class" : "major",
+		"type" : "seventh",
+		"TT" : 2193,
+		"aka" : "",
+		"voicings-rn" : 		{
+			"root" : "13 33 53 73",
+			"1st-inversion" : "14 33 53 73",
+			"2nd-inversion" : "14 34 53 73",
+			"3rd inversion" : "14 34 54 73",
+			"Typical" : "12 52 72 33",
+			"Alternate" : "12 72 33 53",
+			"chorale-1" : "",
+			"chorale-2" : ""
+		}
+,
+		"voicings-an" : 		{
+			"C" : 			{
+				"1st-inversion" : "",
+				"2nd-inversion" : "",
+				"3rd inversion" : "",
+				"Typical" : "",
+				"Alternate" : "",
+				"chorale-1" : "",
+				"chorale-2" : ""
+			}
+
+		}
+,
+		"found in" : 		{
+			"major" : "",
+			"minor natural" : "",
+			"minor melodic" : "",
+			"minor harmonic" : ""
+		}
+
+	}
+,
+	"minmaj7" : 	{
+		"symbol" : "minmaj7",
+		"class" : "minor",
+		"type" : "seventh",
+		"TT" : 2185,
+		"aka" : "",
+		"voicings-rn" : 		{
+			"root" : "13 b33 53 73",
+			"1st-inversion" : "14 b33 53 73",
+			"2nd-inversion" : "14 b34 53 73",
+			"3rd inversion" : "14 b34 54 73",
+			"Typical" : "12 52 72 b33",
+			"Alternate" : "12 72 b33 53",
+			"chorale-1" : "",
+			"chorale-2" : ""
+		}
+,
+		"voicings-an" : 		{
+			"C" : 			{
+				"1st-inversion" : "",
+				"2nd-inversion" : "",
+				"3rd inversion" : "",
+				"Typical" : "",
+				"Alternate" : "",
+				"chorale-1" : "",
+				"chorale-2" : ""
+			}
+
+		}
+,
+		"found in" : 		{
+			"major" : "",
+			"minor natural" : "",
+			"minor melodic" : "",
+			"minor harmonic" : ""
+		}
+
+	}
+,
+	"min7" : 	{
+		"symbol" : -7,
+		"class" : "minor",
+		"type" : "seventh",
+		"TT" : 1161,
+		"aka" : "",
+		"voicings-rn" : 		{
+			"root" : "13 b33 53 b73",
+			"1st-inversion" : "14 b33 53 b73",
+			"2nd-inversion" : "14 b34 53 b73",
+			"3rd inversion" : "14 b34 54 b73",
+			"Typical" : "12 52 b72 b33",
+			"Alternate" : "12 b72 b33 53",
+			"chorale-1" : "",
+			"chorale-2" : ""
+		}
+,
+		"voicings-an" : 		{
+			"C" : 			{
+				"1st-inversion" : "",
+				"2nd-inversion" : "",
+				"3rd inversion" : "",
+				"Typical" : "",
+				"Alternate" : "",
+				"chorale-1" : "",
+				"chorale-2" : ""
+			}
+
+		}
+,
+		"found in" : 		{
+			"major" : "",
+			"minor natural" : "",
+			"minor melodic" : "",
+			"minor harmonic" : ""
+		}
+
+	}
+,
+	"min7b5" : 	{
+		"symbol" : "-7b5",
+		"class" : "minor",
+		"type" : "seventh",
+		"TT" : 1097,
+		"aka" : "half-diminished, ø7",
+		"voicings-rn" : 		{
+			"root" : "13 b33 b53 b73",
+			"1st-inversion" : "14 b33 b53 b73",
+			"2nd-inversion" : "14 b34 b53 b73",
+			"3rd inversion" : "14 b34 b54 b73",
+			"Typical" : "12 b52 b72 b33",
+			"Alternate" : "12 b72 b32 b53",
+			"chorale-1" : "",
+			"chorale-2" : ""
+		}
+,
+		"voicings-an" : 		{
+			"C" : 			{
+				"1st-inversion" : "",
+				"2nd-inversion" : "",
+				"3rd inversion" : "",
+				"Typical" : "",
+				"Alternate" : "",
+				"chorale-1" : "",
+				"chorale-2" : ""
+			}
+
+		}
+,
+		"found in" : 		{
+			"major" : "",
+			"minor natural" : "",
+			"minor melodic" : "",
+			"minor harmonic" : ""
+		}
+
+	}
+,
+	"aug7" : 	{
+		"symbol" : "aug7",
+		"class" : "major",
+		"type" : "seventh",
+		"TT" : 2321,
+		"aka" : "+M7, +Δ7, M7♯5, M7(♯5), M7/♯5, M7+5",
+		"voicings-rn" : 		{
+			"root" : "13 33 #53 73",
+			"1st-inversion" : "14 33 #53 73",
+			"2nd-inversion" : "14 34 #53 73",
+			"3rd inversion" : "14 34 #54 73",
+			"Typical" : "12 #52 72 33",
+			"Alternate" : "12 72 33 #53",
+			"chorale-1" : "",
+			"chorale-2" : ""
+		}
+,
+		"voicings-an" : 		{
+			"C" : 			{
+				"1st-inversion" : "",
+				"2nd-inversion" : "",
+				"3rd inversion" : "",
+				"Typical" : "",
+				"Alternate" : "",
+				"chorale-1" : "",
+				"chorale-2" : ""
+			}
+
+		}
+,
+		"found in" : 		{
+			"major" : "",
+			"minor natural" : "",
+			"minor melodic" : "",
+			"minor harmonic" : ""
+		}
+
+	}
+,
+	"dim7" : 	{
+		"symbol" : "°7",
+		"class" : "minor",
+		"type" : "seventh",
+		"TT" : 585,
+		"aka" : "fully-diminished",
+		"voicings-rn" : 		{
+			"root" : "13 b33 b53 bb73",
+			"1st-inversion" : "14 b33 b53 bb73",
+			"2nd-inversion" : "14 b34 b53 bb73",
+			"3rd inversion" : "14 b34 b54 bb73",
+			"Typical" : "12 b52 bb72 b33",
+			"Alternate" : "12 bb72 b33 b53",
+			"chorale-1" : "12 b52 b33 b73",
+			"chorale-2" : ""
+		}
+,
+		"voicings-an" : 		{
+			"C" : 			{
+				"1st-inversion" : "",
+				"2nd-inversion" : "",
+				"3rd inversion" : "",
+				"Typical" : "",
+				"Alternate" : "",
+				"chorale-1" : "",
+				"chorale-2" : ""
+			}
+
+		}
+,
+		"found in" : 		{
+			"major" : "",
+			"minor natural" : "",
+			"minor melodic" : "",
+			"minor harmonic" : ""
+		}
+
+	}
+,
+	"min9" : 	{
+		"symbol" : -9,
+		"class" : "minor",
+		"type" : "seventh",
+		"TT" : 1037,
+		"aka" : "",
+		"voicings-rn" : 		{
+			"root" : "13 b33 53 b73 24",
+			"1st-inversion" : "14 b33 53 b73 24",
+			"2nd-inversion" : "14 b34 53 b73 24",
+			"3rd inversion" : "14 b34 54 b73 24",
+			"Typical" : "12 52 b72 b33 24",
+			"Alternate" : "12 b72 b33 53 24",
+			"chorale-1" : "",
+			"chorale-2" : ""
+		}
+,
+		"voicings-an" : 		{
+			"C" : 			{
+				"1st-inversion" : "",
+				"2nd-inversion" : "",
+				"3rd inversion" : "",
+				"Typical" : "",
+				"Alternate" : "",
+				"chorale-1" : "",
+				"chorale-2" : ""
+			}
+
+		}
+,
+		"found in" : 		{
+			"major" : "",
+			"minor natural" : "",
+			"minor melodic" : "",
+			"minor harmonic" : ""
+		}
+
+	}
+,
+	"min11" : 	{
+		"symbol" : -11,
+		"class" : "minor",
+		"type" : "seventh",
+		"TT" : 1037,
+		"aka" : "",
+		"voicings-rn" : 		{
+			"root" : "13 b33 53 b73 44",
+			"1st-inversion" : "14 b33 53 b73 44",
+			"2nd-inversion" : "14 b34 53 b73 44",
+			"3rd inversion" : "14 b34 54 b73 44",
+			"Typical" : "12 52 b72 b33 44",
+			"Alternate" : "12 b72 b33 53 44",
+			"chorale-1" : "",
+			"chorale-2" : ""
+		}
+,
+		"voicings-an" : 		{
+			"C" : 			{
+				"1st-inversion" : "",
+				"2nd-inversion" : "",
+				"3rd inversion" : "",
+				"Typical" : "",
+				"Alternate" : "",
+				"chorale-1" : "",
+				"chorale-2" : ""
+			}
+
+		}
+,
+		"found in" : 		{
+			"major" : "",
+			"minor natural" : "",
+			"minor melodic" : "",
+			"minor harmonic" : ""
+		}
+
+	}
+,
+	"dom7" : 	{
+		"symbol" : 7,
+		"class" : "major",
+		"type" : "dominant",
+		"TT" : 1169,
+		"aka" : "",
+		"voicings-rn" : 		{
+			"root" : "13 33 53 b73",
+			"1st-inversion" : "14 33 53 b73",
+			"2nd-inversion" : "14 34 53 b73",
+			"3rd inversion" : "14 34 54 b73",
+			"Typical" : "12 52 b72 33",
+			"Alternate" : "12 b72 33 53",
+			"chorale-1" : "32 13 b73 54",
+			"chorale-2" : ""
+		}
+,
+		"voicings-an" : 		{
+			"C" : 			{
+				"1st-inversion" : "",
+				"2nd-inversion" : "",
+				"3rd inversion" : "",
+				"Typical" : "",
+				"Alternate" : "",
+				"chorale-1" : "",
+				"chorale-2" : ""
+			}
+
+		}
+,
+		"found in" : 		{
+			"major" : "",
+			"minor natural" : "",
+			"minor melodic" : "",
+			"minor harmonic" : ""
+		}
+
+	}
+,
+	"dom7sus4" : 	{
+		"symbol" : "7sus4",
+		"class" : "",
+		"type" : "dominant",
+		"TT" : 1185,
+		"aka" : "",
+		"voicings-rn" : 		{
+			"root" : "13 43 53 b73",
+			"1st-inversion" : "14 43 53 b73",
+			"2nd-inversion" : "14 44 53 b73",
+			"3rd inversion" : "14 44 54 b73",
+			"Typical" : "",
+			"Alternate" : "",
+			"chorale-1" : "",
+			"chorale-2" : ""
+		}
+,
+		"voicings-an" : 		{
+			"C" : 			{
+				"1st-inversion" : "",
+				"2nd-inversion" : "",
+				"3rd inversion" : "",
+				"Typical" : "",
+				"Alternate" : "",
+				"chorale-1" : "",
+				"chorale-2" : ""
+			}
+
+		}
+,
+		"found in" : 		{
+			"major" : "",
+			"minor natural" : "",
+			"minor melodic" : "",
+			"minor harmonic" : ""
+		}
+
+	}
+,
+	"dom9" : 	{
+		"symbol" : 9,
+		"class" : "major",
+		"type" : "dominant",
+		"TT" : 1173,
+		"aka" : "",
+		"voicings-rn" : 		{
+			"root" : "13 33 53 b73 24",
+			"1st-inversion" : "14 33 53 b73 24",
+			"2nd-inversion" : "14 34 53 b73 24",
+			"3rd inversion" : "14 34 54 b73 24",
+			"Typical" : "12 32 b72 93",
+			"Alternate" : "12 b72 23 33",
+			"chorale-1" : "",
+			"chorale-2" : ""
+		}
+,
+		"voicings-an" : 		{
+			"C" : 			{
+				"1st-inversion" : "",
+				"2nd-inversion" : "",
+				"3rd inversion" : "",
+				"Typical" : "",
+				"Alternate" : "",
+				"chorale-1" : "",
+				"chorale-2" : ""
+			}
+
+		}
+,
+		"found in" : 		{
+			"major" : "",
+			"minor natural" : "",
+			"minor melodic" : "",
+			"minor harmonic" : ""
+		}
+
+	}
+,
+	"dom13" : 	{
+		"symbol" : 13,
+		"class" : "major",
+		"type" : "dominant",
+		"TT" : 1685,
+		"aka" : "",
+		"voicings-rn" : 		{
+			"root" : "13 33 53 b73 64",
+			"1st-inversion" : "14 33 53 b73 64",
+			"2nd-inversion" : "14 34 53 b73 64",
+			"3rd inversion" : "14 34 54 b73 64",
+			"Typical" : "12 32 b72 23 63",
+			"Alternate" : "12 b72 33 63",
+			"chorale-1" : "",
+			"chorale-2" : ""
+		}
+,
+		"voicings-an" : 		{
+			"C" : 			{
+				"1st-inversion" : "",
+				"2nd-inversion" : "",
+				"3rd inversion" : "",
+				"Typical" : "",
+				"Alternate" : "",
+				"chorale-1" : "",
+				"chorale-2" : ""
+			}
+
+		}
+,
+		"found in" : 		{
+			"major" : "",
+			"minor natural" : "",
+			"minor melodic" : "",
+			"minor harmonic" : ""
+		}
+
+	}
+,
+	"dom7b5" : 	{
+		"symbol" : "7b5",
+		"class" : "major",
+		"type" : "dominant",
+		"TT" : 1105,
+		"aka" : "",
+		"voicings-rn" : 		{
+			"root" : "13 33 b53 b73",
+			"1st-inversion" : "14 33 b53 b73",
+			"2nd-inversion" : "14 34 b53 b73",
+			"3rd inversion" : "14 34 b54 b73",
+			"Typical" : "12 b72 33 b53"
+		}
+,
+		"voicings-an" : 		{
+			"C" : 			{
+				"1st-inversion" : "",
+				"2nd-inversion" : "",
+				"3rd inversion" : "",
+				"Typical" : "",
+				"Alternate" : "",
+				"chorale-1" : "",
+				"chorale-2" : ""
+			}
+
+		}
+,
+		"found in" : 		{
+			"major" : "",
+			"minor natural" : "",
+			"minor melodic" : "",
+			"minor harmonic" : ""
+		}
+
+	}
+,
+	"dom7(#11)" : 	{
+		"symbol" : "7(#11)",
+		"class" : "major",
+		"type" : "dominant",
+		"TT" : 1105,
+		"aka" : "",
+		"voicings-rn" : 		{
+			"root" : "13 33 53 b73 #44",
+			"1st-inversion" : "14 33 53 b73 #44",
+			"2nd-inversion" : "14 34 53 b73 #44",
+			"3rd inversion" : "14 34 54 b73 #44",
+			"Typical" : "12 b72 33 #43"
+		}
+,
+		"voicings-an" : 		{
+			"C" : 			{
+				"1st-inversion" : "",
+				"2nd-inversion" : "",
+				"3rd inversion" : "",
+				"Typical" : "",
+				"Alternate" : "",
+				"chorale-1" : "",
+				"chorale-2" : ""
+			}
+
+		}
+,
+		"found in" : 		{
+			"major" : "",
+			"minor natural" : "",
+			"minor melodic" : "",
+			"minor harmonic" : ""
+		}
+
+	}
+,
+	"dom7(#9)" : 	{
+		"symbol" : "7(#9)",
+		"class" : "major",
+		"type" : "dominant",
+		"TT" : 1177,
+		"aka" : "",
+		"voicings-rn" : 		{
+			"root" : "13 33 53 b73 #24",
+			"1st-inversion" : "14 33 53 b73 #24",
+			"2nd-inversion" : "14 34 53 b73 #24",
+			"3rd inversion" : "14 34 54 b73 #24",
+			"Typical" : "12 32 b72 #23",
+			"Alternate" : "b72 33 53 #23"
+		}
+,
+		"voicings-an" : 		{
+			"C" : 			{
+				"1st-inversion" : "",
+				"2nd-inversion" : "",
+				"3rd inversion" : "",
+				"Typical" : "",
+				"Alternate" : "",
+				"chorale-1" : "",
+				"chorale-2" : ""
+			}
+
+		}
+,
+		"found in" : 		{
+			"major" : "",
+			"minor natural" : "",
+			"minor melodic" : "",
+			"minor harmonic" : ""
+		}
+
+	}
+,
+	"dom7(#5)" : 	{
+		"symbol" : "7(#5)",
+		"class" : "major",
+		"type" : "dominant",
+		"TT" : 1297,
+		"aka" : "",
+		"voicings-rn" : 		{
+			"root" : "13 33 #53 b73",
+			"1st-inversion" : "14 33 #53 b73",
+			"2nd-inversion" : "14 34 #53 b73",
+			"3rd inversion" : "14 34 #54 b73",
+			"Typical" : "12 32 b72 #53"
+		}
+,
+		"voicings-an" : 		{
+			"C" : 			{
+				"1st-inversion" : "",
+				"2nd-inversion" : "",
+				"3rd inversion" : "",
+				"Typical" : "",
+				"Alternate" : "",
+				"chorale-1" : "",
+				"chorale-2" : ""
+			}
+
+		}
+,
+		"found in" : 		{
+			"major" : "",
+			"minor natural" : "",
+			"minor melodic" : "",
+			"minor harmonic" : ""
+		}
+
+	}
+,
+	"dom7(b5b13)" : 	{
+		"symbol" : "7(b5b13)",
+		"class" : "major",
+		"type" : "dominant",
+		"TT" : 1361,
+		"aka" : "",
+		"voicings-rn" : 		{
+			"root" : "13 33 b53 b73 b64",
+			"1st-inversion" : "14 33 b53 b73 b64",
+			"2nd-inversion" : "14 34 b53 b73 b64",
+			"3rd inversion" : "14 34 b54 b73 b64",
+			"Typical" : "12 32 b72 b53 b63"
+		}
+,
+		"voicings-an" : 		{
+			"C" : 			{
+				"1st-inversion" : "",
+				"2nd-inversion" : "",
+				"3rd inversion" : "",
+				"Typical" : "",
+				"Alternate" : "",
+				"chorale-1" : "",
+				"chorale-2" : ""
+			}
+
+		}
+,
+		"found in" : 		{
+			"major" : "",
+			"minor natural" : "",
+			"minor melodic" : "",
+			"minor harmonic" : ""
+		}
+
+	}
+,
+	"dom7b5(b9)" : 	{
+		"symbol" : "7b5(b9)",
+		"class" : "major",
+		"type" : "dominant",
+		"TT" : 1171,
+		"aka" : "",
+		"voicings-rn" : 		{
+			"root" : "13 33 b53 b73 b24",
+			"1st-inversion" : "14 33 b53 b73 b24",
+			"2nd-inversion" : "14 34 b53 b73 b24",
+			"3rd inversion" : "14 34 b54 b73 b24",
+			"Typical" : "12 32 b72 b23"
+		}
+,
+		"voicings-an" : 		{
+			"C" : 			{
+				"1st-inversion" : "",
+				"2nd-inversion" : "",
+				"3rd inversion" : "",
+				"Typical" : "",
+				"Alternate" : "",
+				"chorale-1" : "",
+				"chorale-2" : ""
+			}
+
+		}
+,
+		"found in" : 		{
+			"major" : "",
+			"minor natural" : "",
+			"minor melodic" : "",
+			"minor harmonic" : ""
+		}
+
+	}
+,
+	"dom7b5(#9)" : 	{
+		"symbol" : "7b5(#9)",
+		"class" : "major",
+		"type" : "dominant",
+		"TT" : 1177,
+		"aka" : "",
+		"voicings-rn" : 		{
+			"root" : "13 33 b53 b73 #23",
+			"1st-inversion" : "14 33 b53 b73 #23",
+			"2nd-inversion" : "14 34 b53 b73 #23",
+			"3rd inversion" : "14 34 b54 b73 #23",
+			"Typical" : "12 32 b72 #23"
+		}
+,
+		"voicings-an" : 		{
+			"C" : 			{
+				"1st-inversion" : "",
+				"2nd-inversion" : "",
+				"3rd inversion" : "",
+				"Typical" : "",
+				"Alternate" : "",
+				"chorale-1" : "",
+				"chorale-2" : ""
+			}
+
+		}
+,
+		"found in" : 		{
+			"major" : "",
+			"minor natural" : "",
+			"minor melodic" : "",
+			"minor harmonic" : ""
+		}
+
+	}
+,
+	"dom7#5(b9)" : 	{
+		"symbol" : "7#5(b9)",
+		"class" : "major",
+		"type" : "dominant",
+		"TT" : 1299,
+		"aka" : "",
+		"voicings-rn" : 		{
+			"root" : "13 33 #53 b73 b24",
+			"1st-inversion" : "14 33 #53 b73 b24",
+			"2nd-inversion" : "14 34 #53 b73 b24",
+			"3rd inversion" : "14 34 #54 b73 b24",
+			"Typical" : "12 32 b72 b23 #53"
+		}
+,
+		"voicings-an" : 		{
+			"C" : 			{
+				"1st-inversion" : "",
+				"2nd-inversion" : "",
+				"3rd inversion" : "",
+				"Typical" : "",
+				"Alternate" : "",
+				"chorale-1" : "",
+				"chorale-2" : ""
+			}
+
+		}
+,
+		"found in" : 		{
+			"major" : "",
+			"minor natural" : "",
+			"minor melodic" : "",
+			"minor harmonic" : ""
+		}
+
+	}
+,
+	"dom7#5(#9)" : 	{
+		"symbol" : "7#5(#9)",
+		"class" : "major",
+		"type" : "dominant",
+		"TT" : 1305,
+		"aka" : "",
+		"voicings-rn" : 		{
+			"root" : "13 33 #53 b73 #23",
+			"1st-inversion" : "14 33 #53 b73 #23",
+			"2nd-inversion" : "14 34 #53 b73 #23",
+			"3rd inversion" : "14 34 #54 b73 #23",
+			"Typical" : "12 32 b72 #23 #53"
+		}
+,
+		"voicings-an" : 		{
+			"C" : 			{
+				"1st-inversion" : "",
+				"2nd-inversion" : "",
+				"3rd inversion" : "",
+				"Typical" : "",
+				"Alternate" : "",
+				"chorale-1" : "",
+				"chorale-2" : ""
 			}
 
 		}
@@ -292,24 +1089,24 @@
 		"aka" : "",
 		"voicings-rn" : 		{
 			"root" : "",
-			"1st inversion" : "",
-			"2nd inversion" : "",
+			"1st-inversion" : "",
+			"2nd-inversion" : "",
 			"3rd inversion" : "",
 			"Typical" : "",
 			"Alternate" : "",
-			"Chorale 1" : "",
-			"Chorale 2" : ""
+			"chorale-1" : "",
+			"chorale-2" : ""
 		}
 ,
 		"voicings-an" : 		{
 			"C" : 			{
-				"1st inversion" : "",
-				"2nd inversion" : "",
+				"1st-inversion" : "",
+				"2nd-inversion" : "",
 				"3rd inversion" : "",
 				"Typical" : "",
 				"Alternate" : "",
-				"Chorale 1" : "",
-				"Chorale 2" : ""
+				"chorale-1" : "",
+				"chorale-2" : ""
 			}
 
 		}
