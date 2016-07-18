@@ -150,9 +150,9 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 45.833496, 165.666748, 101.0, 22.0 ],
+					"patching_rect" : [ 45.833496, 165.666748, 84.0, 22.0 ],
 					"style" : "",
-					"text" : "read bp.rtoa.json"
+					"text" : "read rtoa.json"
 				}
 
 			}
