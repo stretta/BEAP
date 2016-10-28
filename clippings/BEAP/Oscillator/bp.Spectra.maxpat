@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 7,
 			"minor" : 2,
-			"revision" : 1,
+			"revision" : 4,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
@@ -56,7 +56,7 @@
 						"appversion" : 						{
 							"major" : 7,
 							"minor" : 2,
-							"revision" : 1,
+							"revision" : 4,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -97,7 +97,6 @@
 									"numoutlets" : 3,
 									"outlettype" : [ "bang", "bang", "" ],
 									"patching_rect" : [ 1828.199951, 228.0, 93.0, 22.0 ],
-									"presentation_rect" : [ 1827.25, 227.0, 0.0, 0.0 ],
 									"style" : "",
 									"text" : "sel 128 256"
 								}
@@ -111,7 +110,6 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 1828.199951, 190.063843, 93.0, 22.0 ],
-									"presentation_rect" : [ 1827.25, 189.063843, 0.0, 0.0 ],
 									"style" : "",
 									"text" : "r #0_gridsize"
 								}
@@ -125,7 +123,6 @@
 									"numoutlets" : 3,
 									"outlettype" : [ "bang", "bang", "" ],
 									"patching_rect" : [ 1450.199951, 237.0, 95.0, 22.0 ],
-									"presentation_rect" : [ 1473.0, 223.0, 0.0, 0.0 ],
 									"style" : "",
 									"text" : "sel 128 256"
 								}
@@ -139,7 +136,6 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 1450.199951, 199.063843, 93.0, 22.0 ],
-									"presentation_rect" : [ 1473.0, 185.063843, 0.0, 0.0 ],
 									"style" : "",
 									"text" : "r #0_gridsize"
 								}
@@ -153,7 +149,6 @@
 									"numoutlets" : 3,
 									"outlettype" : [ "bang", "bang", "" ],
 									"patching_rect" : [ 1077.0, 814.0, 96.0, 22.0 ],
-									"presentation_rect" : [ 1102.0, 814.0, 0.0, 0.0 ],
 									"style" : "",
 									"text" : "sel 128 256"
 								}
@@ -167,7 +162,6 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 1077.0, 776.063843, 93.0, 22.0 ],
-									"presentation_rect" : [ 1102.0, 776.063843, 0.0, 0.0 ],
 									"style" : "",
 									"text" : "r #0_gridsize"
 								}
@@ -181,7 +175,6 @@
 									"numoutlets" : 3,
 									"outlettype" : [ "bang", "bang", "" ],
 									"patching_rect" : [ 1454.0, 797.0, 89.0, 22.0 ],
-									"presentation_rect" : [ 1489.0, 761.0, 0.0, 0.0 ],
 									"style" : "",
 									"text" : "sel 128 256"
 								}
@@ -195,7 +188,6 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 1454.0, 759.063843, 93.0, 22.0 ],
-									"presentation_rect" : [ 1489.0, 723.063843, 0.0, 0.0 ],
 									"style" : "",
 									"text" : "r #0_gridsize"
 								}
@@ -282,7 +274,6 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 1115.5, 861.0, 29.5, 22.0 ],
-									"presentation_rect" : [ 1155.0, 840.0, 0.0, 0.0 ],
 									"style" : "",
 									"text" : "0"
 								}
@@ -309,7 +300,6 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 1454.0, 850.0, 29.5, 22.0 ],
-									"presentation_rect" : [ 1488.0, 858.0, 0.0, 0.0 ],
 									"style" : "",
 									"text" : "32"
 								}
@@ -323,7 +313,6 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "int" ],
 									"patching_rect" : [ 1408.0, 902.0, 65.0, 22.0 ],
-									"presentation_rect" : [ 1427.75, 901.0, 0.0, 0.0 ],
 									"style" : "",
 									"text" : "+ 0"
 								}
@@ -389,7 +378,6 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 1865.199951, 269.0, 29.5, 22.0 ],
-									"presentation_rect" : [ 1885.25, 268.0, 0.0, 0.0 ],
 									"style" : "",
 									"text" : "15"
 								}
@@ -403,7 +391,6 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 1828.199951, 269.0, 29.5, 22.0 ],
-									"presentation_rect" : [ 1833.0, 268.0, 0.0, 0.0 ],
 									"style" : "",
 									"text" : "7"
 								}
@@ -449,7 +436,7 @@
 										"appversion" : 										{
 											"major" : 7,
 											"minor" : 2,
-											"revision" : 1,
+											"revision" : 4,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -2080,10 +2067,20 @@
 									"numinlets" : 1,
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
-									"parameter_enable" : 0,
+									"parameter_enable" : 1,
 									"patching_rect" : [ 833.007568, 470.063843, 127.259033, 59.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 96.702057, 42.221527, 138.281021, 49.159897 ],
+									"saved_attribute_attributes" : 									{
+										"valueof" : 										{
+											"parameter_longname" : "Spectra",
+											"parameter_shortname" : "Spectra",
+											"parameter_type" : 3,
+											"parameter_invisible" : 1
+										}
+
+									}
+,
 									"setminmax" : [ 0.0, 1.0 ],
 									"size" : 32,
 									"slidercolor" : [ 0.278431, 0.839216, 1.0, 1.0 ],
@@ -2429,12 +2426,12 @@
 										"GridSize" : [ 0.0 ],
 										"Mute" : [ 0.0 ],
 										"Offset" : [ 0.0 ],
-										"Spectra" : [ 0.816327, 0.285714, 0.265306, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.142857, 0.693182, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.322034, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0 ]
+										"Spectra" : [ 0.816327, 0.755102, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.693182, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.322034, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0 ]
 									}
 ,
 									"style" : "",
 									"text" : "autopattr",
-									"varname" : "u409000414"
+									"varname" : "u437004467"
 								}
 
 							}
@@ -3677,11 +3674,12 @@
  ],
 		"lines" : [  ],
 		"parameters" : 		{
-			"obj-6::obj-53" : [ "Mute", "Mute", 0 ],
-			"obj-6::obj-23" : [ "CV", "CV", 0 ],
-			"obj-6::obj-115" : [ "GridSize", "GridSize", 0 ],
 			"obj-6::obj-33" : [ "Offset", "Offset", 0 ],
-			"obj-6::obj-80" : [ "EditMode", "EditMode", 0 ]
+			"obj-6::obj-80" : [ "EditMode", "EditMode", 0 ],
+			"obj-6::obj-13" : [ "Spectra", "Spectra", 0 ],
+			"obj-6::obj-115" : [ "GridSize", "GridSize", 0 ],
+			"obj-6::obj-53" : [ "Mute", "Mute", 0 ],
+			"obj-6::obj-23" : [ "CV", "CV", 0 ]
 		}
 ,
 		"dependency_cache" : [  ],
