@@ -3,9 +3,9 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 7,
-			"minor" : 0,
-			"revision" : 2,
-			"architecture" : "x86",
+			"minor" : 2,
+			"revision" : 4,
+			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
@@ -55,9 +55,9 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 7,
-							"minor" : 0,
-							"revision" : 2,
-							"architecture" : "x86",
+							"minor" : 2,
+							"revision" : 4,
+							"architecture" : "x64",
 							"modernui" : 1
 						}
 ,
@@ -100,9 +100,9 @@
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 7,
-											"minor" : 0,
-											"revision" : 2,
-											"architecture" : "x86",
+											"minor" : 2,
+											"revision" : 4,
+											"architecture" : "x64",
 											"modernui" : 1
 										}
 ,
@@ -898,9 +898,9 @@
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 7,
-											"minor" : 0,
-											"revision" : 2,
-											"architecture" : "x86",
+											"minor" : 2,
+											"revision" : 4,
+											"architecture" : "x64",
 											"modernui" : 1
 										}
 ,
@@ -1022,9 +1022,9 @@
 														"fileversion" : 1,
 														"appversion" : 														{
 															"major" : 7,
-															"minor" : 0,
-															"revision" : 2,
-															"architecture" : "x86",
+															"minor" : 2,
+															"revision" : 4,
+															"architecture" : "x64",
 															"modernui" : 1
 														}
 ,
@@ -1558,7 +1558,7 @@
 																	"destination" : [ "obj-82", 0 ],
 																	"disabled" : 0,
 																	"hidden" : 0,
-																	"midpoints" : [ 141.166672, 247.5, 307.0, 247.5 ],
+																	"midpoints" : [ 141.166667, 247.5, 307.0, 247.5 ],
 																	"source" : [ "obj-56", 2 ]
 																}
 
@@ -1569,7 +1569,7 @@
 																	"destination" : [ "obj-84", 0 ],
 																	"disabled" : 0,
 																	"hidden" : 0,
-																	"midpoints" : [ 141.166672, 407.5, 317.25, 407.5 ],
+																	"midpoints" : [ 141.166667, 407.5, 317.25, 407.5 ],
 																	"source" : [ "obj-56", 2 ]
 																}
 
@@ -2281,15 +2281,26 @@
 									"numinlets" : 1,
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
-									"parameter_enable" : 0,
+									"parameter_enable" : 1,
 									"patching_rect" : [ 771.363098, 390.265991, 149.0, 89.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 2.0, 42.221527, 232.0, 49.159897 ],
+									"saved_attribute_attributes" : 									{
+										"valueof" : 										{
+											"parameter_longname" : "multislider",
+											"parameter_shortname" : "multislider",
+											"parameter_type" : 3,
+											"parameter_invisible" : 1
+										}
+
+									}
+,
 									"setminmax" : [ 0.0, 1.0 ],
 									"setstyle" : 1,
 									"size" : 256,
 									"slidercolor" : [ 0.278431, 0.839216, 1.0, 1.0 ],
-									"style" : ""
+									"style" : "",
+									"varname" : "multislider"
 								}
 
 							}
@@ -2375,12 +2386,13 @@
 									"restore" : 									{
 										"EditMode" : [ 0.0 ],
 										"Response" : [ 1.0 ],
-										"bypass" : [ 0.0 ]
+										"bypass" : [ 0.0 ],
+										"multislider" : [ 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0 ]
 									}
 ,
 									"style" : "",
 									"text" : "autopattr",
-									"varname" : "u432001447"
+									"varname" : "u056004553"
 								}
 
 							}
@@ -2628,20 +2640,21 @@
  ],
 		"lines" : [  ],
 		"parameters" : 		{
-			"obj-6::obj-80" : [ "EditMode", "EditMode", 0 ],
 			"obj-6::obj-2" : [ "Response", "Response", 0 ],
-			"obj-6::obj-7" : [ "bypass", "bypass", 0 ],
-			"obj-6::obj-63::obj-8" : [ "StealthInit", "StealthInit", 0 ]
+			"obj-6::obj-80" : [ "EditMode", "EditMode", 0 ],
+			"obj-6::obj-71" : [ "multislider", "multislider", 0 ],
+			"obj-6::obj-63::obj-8" : [ "StealthInit", "StealthInit", 0 ],
+			"obj-6::obj-7" : [ "bypass", "bypass", 0 ]
 		}
 ,
 		"dependency_cache" : [ 			{
 				"name" : "bp.fp_fft.maxpat",
-				"bootpath" : "C74:/packages/Beap/misc",
+				"bootpath" : "C74:/packages/BEAP/misc",
 				"type" : "JSON",
 				"implicit" : 1
 			}
  ],
-		"embedsnapshot" : 0,
+		"autosave" : 0,
 		"styles" : [ 			{
 				"name" : "AudioStatus_Menu",
 				"default" : 				{
