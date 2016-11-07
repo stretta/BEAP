@@ -3,13 +3,13 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 7,
-			"minor" : 0,
-			"revision" : 3,
-			"architecture" : "x86",
+			"minor" : 3,
+			"revision" : 1,
+			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 59.0, 104.0, 903.0, 702.0 ],
+		"rect" : [ 39.0, 81.0, 850.0, 702.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -111,13 +111,13 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 7,
-							"minor" : 0,
-							"revision" : 3,
-							"architecture" : "x86",
+							"minor" : 3,
+							"revision" : 1,
+							"architecture" : "x64",
 							"modernui" : 1
 						}
 ,
-						"rect" : [ 59.0, 130.0, 903.0, 676.0 ],
+						"rect" : [ 39.0, 107.0, 850.0, 676.0 ],
 						"bgcolor" : [ 0.88, 0.88, 0.88, 1.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
@@ -148,6 +148,76 @@
 						"showontab" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
+									"bubble" : 1,
+									"bubblepoint" : 0.67,
+									"id" : "obj-15",
+									"linecount" : 4,
+									"maxclass" : "comment",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 542.0, 328.0, 275.0, 69.0 ],
+									"style" : "",
+									"text" : "Adjust the Gain and Q setting to affect the filters used for frequency analysis. Change the Slide setting to smooth the output result."
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"bubble" : 1,
+									"id" : "obj-14",
+									"linecount" : 3,
+									"maxclass" : "comment",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 542.0, 447.0, 275.0, 54.0 ],
+									"style" : "",
+									"text" : "Click on Send Analysis to transmit a snapshot of the current values to a receive object labeled 'beap_resynthesis'."
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-12",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 659.0, 592.0, 36.0, 23.0 ],
+									"style" : "",
+									"text" : "print"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-9",
+									"maxclass" : "newobj",
+									"numinlets" : 0,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 659.0, 548.0, 158.0, 23.0 ],
+									"style" : "",
+									"text" : "receive beap_resynthesis"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"bubble" : 1,
+									"bubblepoint" : 0.23,
+									"bubbleside" : 0,
+									"id" : "obj-8",
+									"linecount" : 4,
+									"maxclass" : "comment",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 327.0, 530.0, 274.0, 84.0 ],
+									"style" : "",
+									"text" : "Choose Manual to select the base frequency of the analysis, or choose External to use the 1v/oct input value. Quantize will lock the frequency setting to a standard musical note."
+								}
+
+							}
+, 							{
+								"box" : 								{
 									"bgmode" : 0,
 									"border" : 0,
 									"clickthrough" : 0,
@@ -162,7 +232,7 @@
 									"numoutlets" : 5,
 									"offset" : [ 0.0, 0.0 ],
 									"outlettype" : [ "signal", "signal", "signal", "signal", "signal" ],
-									"patching_rect" : [ 537.0, 139.0, 137.0, 116.0 ],
+									"patching_rect" : [ 318.0, 158.0, 137.0, 116.0 ],
 									"varname" : "bp.LFO",
 									"viewvisibility" : 1
 								}
@@ -187,13 +257,13 @@
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 7,
-											"minor" : 0,
-											"revision" : 3,
-											"architecture" : "x86",
+											"minor" : 3,
+											"revision" : 1,
+											"architecture" : "x64",
 											"modernui" : 1
 										}
 ,
-										"rect" : [ 287.0, 407.0, 524.0, 214.0 ],
+										"rect" : [ 49.0, 403.0, 524.0, 214.0 ],
 										"bgcolor" : [ 1.0, 1.0, 1.0, 0.0 ],
 										"bglocked" : 0,
 										"openinpresentation" : 1,
@@ -540,7 +610,7 @@
 ,
 													"style" : "",
 													"text" : "autopattr",
-													"varname" : "u462003453"
+													"varname" : "u615001506"
 												}
 
 											}
@@ -995,9 +1065,9 @@
 														"fileversion" : 1,
 														"appversion" : 														{
 															"major" : 7,
-															"minor" : 0,
-															"revision" : 3,
-															"architecture" : "x86",
+															"minor" : 3,
+															"revision" : 1,
+															"architecture" : "x64",
 															"modernui" : 1
 														}
 ,
@@ -2395,7 +2465,7 @@
 																	"destination" : [ "obj-3", 2 ],
 																	"disabled" : 0,
 																	"hidden" : 0,
-																	"midpoints" : [ 1073.5, 378.5, 271.928589, 378.5 ],
+																	"midpoints" : [ 1073.5, 378.5, 271.928574, 378.5 ],
 																	"source" : [ "obj-38", 0 ]
 																}
 
@@ -2425,7 +2495,7 @@
 																	"destination" : [ "obj-34", 2 ],
 																	"disabled" : 0,
 																	"hidden" : 0,
-																	"midpoints" : [ 1073.5, 361.5, 532.642822, 361.5 ],
+																	"midpoints" : [ 1073.5, 361.5, 532.642853, 361.5 ],
 																	"source" : [ "obj-38", 0 ]
 																}
 
@@ -2485,7 +2555,7 @@
 																	"destination" : [ "obj-75", 2 ],
 																	"disabled" : 0,
 																	"hidden" : 0,
-																	"midpoints" : [ 1073.5, 361.5, 153.214294, 361.5 ],
+																	"midpoints" : [ 1073.5, 361.5, 153.214287, 361.5 ],
 																	"source" : [ "obj-38", 0 ]
 																}
 
@@ -2705,7 +2775,7 @@
 																	"destination" : [ "obj-3", 1 ],
 																	"disabled" : 0,
 																	"hidden" : 0,
-																	"midpoints" : [ 911.5, 381.5, 256.428589, 381.5 ],
+																	"midpoints" : [ 911.5, 381.5, 256.428574, 381.5 ],
 																	"source" : [ "obj-39", 0 ]
 																}
 
@@ -2735,7 +2805,7 @@
 																	"destination" : [ "obj-34", 1 ],
 																	"disabled" : 0,
 																	"hidden" : 0,
-																	"midpoints" : [ 911.5, 364.5, 517.142822, 364.5 ],
+																	"midpoints" : [ 911.5, 364.5, 517.142853, 364.5 ],
 																	"source" : [ "obj-39", 0 ]
 																}
 
@@ -2785,7 +2855,7 @@
 																	"destination" : [ "obj-75", 1 ],
 																	"disabled" : 0,
 																	"hidden" : 0,
-																	"midpoints" : [ 911.5, 364.5, 137.714294, 364.5 ],
+																	"midpoints" : [ 911.5, 364.5, 137.714287, 364.5 ],
 																	"source" : [ "obj-39", 0 ]
 																}
 
@@ -2945,9 +3015,9 @@
 														"fileversion" : 1,
 														"appversion" : 														{
 															"major" : 7,
-															"minor" : 0,
-															"revision" : 3,
-															"architecture" : "x86",
+															"minor" : 3,
+															"revision" : 1,
+															"architecture" : "x64",
 															"modernui" : 1
 														}
 ,
@@ -4919,7 +4989,7 @@
  ]
 									}
 ,
-									"patching_rect" : [ 228.0, 277.0, 524.0, 214.0 ],
+									"patching_rect" : [ 10.0, 296.0, 524.0, 214.0 ],
 									"varname" : "Analysis",
 									"viewvisibility" : 1
 								}
@@ -4936,25 +5006,9 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 688.5, 177.0, 106.0, 40.0 ],
+									"patching_rect" : [ 462.5, 204.0, 195.0, 40.0 ],
 									"style" : "",
-									"text" : "Change LFO Freq"
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"fontname" : "Arial",
-									"fontsize" : 13.0,
-									"id" : "obj-8",
-									"linecount" : 3,
-									"maxclass" : "comment",
-									"numinlets" : 1,
-									"numoutlets" : 0,
-									"patching_rect" : [ 407.0, 505.0, 350.0, 50.0 ],
-									"style" : "",
-									"text" : "Analysis tools are incredibly useful for understanding what your audio is doing, seeing it in a visual sense can often help make more insteresting sounds.",
-									"textcolor" : [ 0.501961, 0.501961, 0.501961, 1.0 ]
+									"text" : "Change LFO Freq to change the oscillator frequency"
 								}
 
 							}
@@ -4976,13 +5030,13 @@
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 7,
-											"minor" : 0,
-											"revision" : 3,
-											"architecture" : "x86",
+											"minor" : 3,
+											"revision" : 1,
+											"architecture" : "x64",
 											"modernui" : 1
 										}
 ,
-										"rect" : [ 227.0, 672.0, 111.0, 116.0 ],
+										"rect" : [ 203.0, 649.0, 111.0, 116.0 ],
 										"bgcolor" : [ 1.0, 1.0, 1.0, 0.0 ],
 										"bglocked" : 0,
 										"openinpresentation" : 1,
@@ -5140,7 +5194,7 @@
 ,
 													"style" : "",
 													"text" : "autopattr",
-													"varname" : "u186003452"
+													"varname" : "u191001505"
 												}
 
 											}
@@ -5249,7 +5303,7 @@
  ]
 									}
 ,
-									"patching_rect" : [ 168.0, 542.0, 111.0, 116.0 ],
+									"patching_rect" : [ 164.0, 542.0, 111.0, 116.0 ],
 									"varname" : "GlobalTransport",
 									"viewvisibility" : 1
 								}
@@ -5270,7 +5324,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 0,
 									"offset" : [ 0.0, 0.0 ],
-									"patching_rect" : [ 14.0, 542.0, 148.0, 116.0 ],
+									"patching_rect" : [ 10.0, 542.0, 148.0, 116.0 ],
 									"varname" : "bp.Stereo",
 									"viewvisibility" : 1
 								}
@@ -5292,7 +5346,7 @@
 									"numoutlets" : 1,
 									"offset" : [ 0.0, 0.0 ],
 									"outlettype" : [ "signal" ],
-									"patching_rect" : [ 10.0, 126.0, 280.0, 116.0 ],
+									"patching_rect" : [ 10.0, 158.0, 280.0, 116.0 ],
 									"varname" : "bp.Cloud",
 									"viewvisibility" : 1
 								}
@@ -5303,12 +5357,13 @@
 									"fontname" : "Arial",
 									"fontsize" : 13.0,
 									"id" : "obj-5",
+									"linecount" : 3,
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 7.0, 69.0, 461.0, 21.0 ],
+									"patching_rect" : [ 10.0, 72.6875, 486.0, 50.0 ],
 									"style" : "",
-									"text" : "32 Different frequency bands ",
+									"text" : "Analysis tools are incredibly useful for understanding what your audio is doing, seeing it in a visual sense can often help make more insteresting sounds. This tool breaks down a signal into 32 different frequency bands.",
 									"textcolor" : [ 0.2, 0.2, 0.2, 1.0 ],
 									"varname" : "autohelp_top_digest"
 								}
@@ -5336,7 +5391,7 @@
 									"destination" : [ "obj-2", 1 ],
 									"disabled" : 0,
 									"hidden" : 0,
-									"midpoints" : [ 237.5, 529.0, 152.5, 529.0 ],
+									"midpoints" : [ 19.5, 529.0, 148.5, 529.0 ],
 									"source" : [ "obj-1", 0 ]
 								}
 
@@ -5346,7 +5401,7 @@
 									"destination" : [ "obj-2", 0 ],
 									"disabled" : 0,
 									"hidden" : 0,
-									"midpoints" : [ 237.5, 529.0, 23.5, 529.0 ],
+									"midpoints" : [ 19.5, 529.0, 19.5, 529.0 ],
 									"source" : [ "obj-1", 0 ]
 								}
 
@@ -5356,7 +5411,7 @@
 									"destination" : [ "obj-1", 0 ],
 									"disabled" : 0,
 									"hidden" : 0,
-									"midpoints" : [ 19.5, 263.0, 237.5, 263.0 ],
+									"midpoints" : [ 19.5, 263.0, 19.5, 263.0 ],
 									"source" : [ "obj-3", 0 ]
 								}
 
@@ -5366,8 +5421,17 @@
 									"destination" : [ "obj-3", 1 ],
 									"disabled" : 0,
 									"hidden" : 0,
-									"midpoints" : [ 546.5, 258.0, 300.0, 258.0, 300.0, 111.0, 106.5, 111.0 ],
+									"midpoints" : [ 327.5, 290.0, 300.0, 290.0, 300.0, 143.0, 106.5, 143.0 ],
 									"source" : [ "obj-4", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-12", 0 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-9", 0 ]
 								}
 
 							}
@@ -5426,72 +5490,74 @@
 			}
  ],
 		"parameters" : 		{
-			"obj-2::obj-7::obj-76" : [ "Transport", "Transport", 0 ],
-			"obj-2::obj-1::obj-49" : [ "quantize", "quantize", 0 ],
-			"obj-2::obj-3::obj-45" : [ "TimeMode", "TimeMode", 1 ],
-			"obj-2::obj-3::obj-129" : [ "CV2", "CV2", 0 ],
-			"obj-2::obj-3::obj-20" : [ "Mute", "Mute", 0 ],
-			"obj-2::obj-2::obj-22" : [ "Mute[1]", "Mute", 0 ],
-			"obj-2::obj-3::obj-51" : [ "Fatness", "Fatness", 0 ],
 			"obj-2::obj-1::obj-26" : [ "Gain", "Gain", 0 ],
-			"obj-2::obj-4::obj-12" : [ "Mute[2]", "Mute", 0 ],
-			"obj-2::obj-2::obj-56" : [ "OutputChannel", "OutputChannel", 0 ],
+			"obj-2::obj-1::obj-69" : [ "Lock", "Lock", 0 ],
+			"obj-2::obj-2::obj-55" : [ "DSP", "DSP", 0 ],
+			"obj-2::obj-3::obj-20" : [ "Mute", "Mute", 0 ],
+			"obj-2::obj-3::obj-331" : [ "WaveformCloud", "Waveform", 0 ],
+			"obj-2::obj-7::obj-76" : [ "Transport", "Transport", 0 ],
+			"obj-2::obj-1::obj-51" : [ "divide", "divide", 0 ],
+			"obj-2::obj-3::obj-129" : [ "CV2", "CV2", 0 ],
+			"obj-2::obj-4::obj-20" : [ "Frequency", "Freq", 0 ],
+			"obj-2::obj-3::obj-46" : [ "Offset", "Offset", 0 ],
+			"obj-2::obj-1::obj-33::obj-36::obj-2" : [ "pastebang", "pastebang", 0 ],
+			"obj-2::obj-1::obj-45" : [ "Slide", "Slide", 0 ],
+			"obj-2::obj-3::obj-51" : [ "Fatness", "Fatness", 0 ],
+			"obj-2::obj-2::obj-52" : [ "Level", "Level", 0 ],
+			"obj-2::obj-2::obj-22" : [ "Mute[1]", "Mute", 0 ],
+			"obj-2::obj-3::obj-45" : [ "TimeMode", "TimeMode", 1 ],
 			"obj-2::obj-1::obj-25" : [ "Base", "Base", 0 ],
 			"obj-2::obj-3::obj-106" : [ "CV3", "CV3", 0 ],
-			"obj-2::obj-1::obj-46" : [ "Q", "Q", 0 ],
-			"obj-2::obj-1::obj-45" : [ "Slide", "Slide", 0 ],
-			"obj-2::obj-1::obj-69" : [ "Lock", "Lock", 0 ],
-			"obj-2::obj-1::obj-33::obj-36::obj-2" : [ "pastebang", "pastebang", 0 ],
-			"obj-2::obj-3::obj-24" : [ "Freq", "Freq", 0 ],
 			"obj-2::obj-3::obj-107" : [ "Linear", "Linear", 0 ],
+			"obj-2::obj-2::obj-56" : [ "OutputChannel", "OutputChannel", 0 ],
 			"obj-2::obj-7::obj-129" : [ "Tempo", "Tempo", 0 ],
-			"obj-2::obj-3::obj-331" : [ "WaveformCloud", "Waveform", 0 ],
-			"obj-2::obj-4::obj-20" : [ "Frequency", "Freq", 0 ],
-			"obj-2::obj-2::obj-52" : [ "Level", "Level", 0 ],
-			"obj-2::obj-2::obj-55" : [ "DSP", "DSP", 0 ],
-			"obj-2::obj-3::obj-46" : [ "Offset", "Offset", 0 ],
-			"obj-2::obj-1::obj-51" : [ "divide", "divide", 0 ]
+			"obj-2::obj-3::obj-24" : [ "Freq", "Freq", 0 ],
+			"obj-2::obj-1::obj-49" : [ "quantize", "quantize", 0 ],
+			"obj-2::obj-4::obj-12" : [ "Mute[2]", "Mute", 0 ],
+			"obj-2::obj-1::obj-46" : [ "Q", "Q", 0 ]
 		}
 ,
 		"dependency_cache" : [ 			{
 				"name" : "bp.Cloud.maxpat",
-				"bootpath" : "C74:/packages/Beap/clippings/BEAP/Oscillator",
+				"bootpath" : "C74:/packages/BEAP/clippings/BEAP/Oscillator",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "bp.Stereo.maxpat",
-				"bootpath" : "C74:/packages/Beap/clippings/BEAP/Output",
+				"bootpath" : "C74:/packages/BEAP/clippings/BEAP/Output",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "a_chan.maxpat",
-				"bootpath" : "C74:/packages/Beap/misc",
+				"bootpath" : "C74:/packages/BEAP/misc",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "pastebang.maxpat",
-				"bootpath" : "C74:/packages/Beap/misc",
+				"bootpath" : "C74:/packages/BEAP/misc",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "bp.LFO.maxpat",
-				"bootpath" : "C74:/packages/Beap/clippings/BEAP/LFO",
+				"bootpath" : "C74:/packages/BEAP/clippings/BEAP/LFO",
 				"type" : "JSON",
 				"implicit" : 1
 			}
  ],
-		"embedsnapshot" : 1,
+		"autosave" : 0,
 		"snapshot" : 		{
 			"filetype" : "C74Snapshot",
-			"version" : 1,
-			"name" : "bp.32-band analysis.maxhelp",
-			"origin" : "bp.32-band analysis.maxhelp",
-			"type" : "patcher",
+			"version" : 2,
+			"minorversion" : 0,
+			"name" : "snapshotlist",
+			"origin" : "jpatcher",
+			"type" : "list",
 			"subtype" : "Undefined",
+			"embed" : 1,
 			"snapshot" : 			{
 				"name" : "bp.32-band analysis.maxhelp",
 				"valuedictionary" : 				{
@@ -5524,6 +5590,54 @@
 
 				}
 
+			}
+,
+			"snapshotlist" : 			{
+				"current_snapshot" : 0,
+				"entries" : [ 					{
+						"filetype" : "C74Snapshot",
+						"version" : 1,
+						"name" : "bp.32-band analysis.maxhelp",
+						"origin" : "bp.32-band analysis.maxhelp",
+						"type" : "patcher",
+						"subtype" : "Undefined",
+						"snapshot" : 						{
+							"name" : "bp.32-band analysis.maxhelp",
+							"valuedictionary" : 							{
+								"parameter_values" : 								{
+									"Base" : 60.0,
+									"CV2" : 100.0,
+									"CV3" : 0.0,
+									"DSP" : 0.0,
+									"Fatness" : 2.366432,
+									"Freq" : 6763.828125,
+									"Frequency" : 23.74876,
+									"Gain" : 100.0,
+									"Level" : -31.293474,
+									"Linear" : 0.0,
+									"Lock" : 0.0,
+									"Mute" : 0.0,
+									"Mute[1]" : 0.0,
+									"Mute[2]" : 0.0,
+									"Offset" : 0.0,
+									"OutputChannel" : 0.0,
+									"Q" : 15.748032,
+									"Slide" : 10.0,
+									"Tempo" : 80.0,
+									"Transport" : 1.0,
+									"WaveformCloud" : 0.0,
+									"divide" : 0.0,
+									"quantize" : 1.0,
+									"TimeMode" : 1.0
+								}
+
+							}
+
+						}
+,
+						"embed" : 0
+					}
+ ]
 			}
 
 		}
