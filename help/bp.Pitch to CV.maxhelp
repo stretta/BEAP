@@ -3,13 +3,13 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 7,
-			"minor" : 0,
-			"revision" : 2,
-			"architecture" : "x86",
+			"minor" : 3,
+			"revision" : 1,
+			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 34.0, 79.0, 846.0, 749.0 ],
+		"rect" : [ 39.0, 79.0, 846.0, 680.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -111,13 +111,13 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 7,
-							"minor" : 0,
-							"revision" : 2,
-							"architecture" : "x86",
+							"minor" : 3,
+							"revision" : 1,
+							"architecture" : "x64",
 							"modernui" : 1
 						}
 ,
-						"rect" : [ 34.0, 105.0, 846.0, 723.0 ],
+						"rect" : [ 39.0, 105.0, 846.0, 654.0 ],
 						"bgcolor" : [ 0.88, 0.88, 0.88, 1.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
@@ -158,7 +158,7 @@
 									"lockeddragscroll" : 0,
 									"maxclass" : "bpatcher",
 									"name" : "bp.Sequencer.maxpat",
-									"numinlets" : 1,
+									"numinlets" : 2,
 									"numoutlets" : 2,
 									"offset" : [ 0.0, 0.0 ],
 									"outlettype" : [ "signal", "signal" ],
@@ -201,7 +201,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 27.0, 509.5, 109.0, 37.0 ],
+									"patching_rect" : [ 17.0, 533.5, 109.0, 37.0 ],
 									"style" : "",
 									"text" : "Choose output\ndisplay format"
 								}
@@ -226,13 +226,13 @@
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 7,
-											"minor" : 0,
-											"revision" : 2,
-											"architecture" : "x86",
+											"minor" : 3,
+											"revision" : 1,
+											"architecture" : "x64",
 											"modernui" : 1
 										}
 ,
-										"rect" : [ 172.0, 580.0, 186.0, 116.0 ],
+										"rect" : [ 167.0, 604.0, 186.0, 116.0 ],
 										"bgcolor" : [ 1.0, 1.0, 1.0, 0.0 ],
 										"bglocked" : 0,
 										"openinpresentation" : 1,
@@ -359,9 +359,9 @@
 														"fileversion" : 1,
 														"appversion" : 														{
 															"major" : 7,
-															"minor" : 0,
-															"revision" : 2,
-															"architecture" : "x86",
+															"minor" : 3,
+															"revision" : 1,
+															"architecture" : "x64",
 															"modernui" : 1
 														}
 ,
@@ -1002,7 +1002,7 @@
 ,
 													"style" : "",
 													"text" : "autopattr",
-													"varname" : "u039000542"
+													"varname" : "u697001125"
 												}
 
 											}
@@ -1393,7 +1393,7 @@
  ]
 									}
 ,
-									"patching_rect" : [ 138.0, 475.111389, 186.0, 116.0 ],
+									"patching_rect" : [ 128.0, 499.111389, 186.0, 116.0 ],
 									"varname" : "pitch_to_cv",
 									"viewvisibility" : 1
 								}
@@ -1409,7 +1409,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 326.0, 524.111389, 145.0, 37.0 ],
+									"patching_rect" : [ 325.0, 551.111389, 145.0, 37.0 ],
 									"style" : "",
 									"text" : "Smooth out pitch transitions"
 								}
@@ -1447,7 +1447,7 @@
 									"numoutlets" : 1,
 									"offset" : [ 0.0, 0.0 ],
 									"outlettype" : [ "signal" ],
-									"patching_rect" : [ 487.0, 484.611389, 280.0, 116.0 ],
+									"patching_rect" : [ 492.0, 355.611389, 280.0, 116.0 ],
 									"varname" : "bp.Cloud",
 									"viewvisibility" : 1
 								}
@@ -1471,13 +1471,13 @@
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 7,
-											"minor" : 0,
-											"revision" : 2,
-											"architecture" : "x86",
+											"minor" : 3,
+											"revision" : 1,
+											"architecture" : "x64",
 											"modernui" : 1
 										}
 ,
-										"rect" : [ 59.0, 731.0, 111.0, 116.0 ],
+										"rect" : [ 706.0, 604.0, 111.0, 116.0 ],
 										"bgcolor" : [ 1.0, 1.0, 1.0, 0.0 ],
 										"bglocked" : 0,
 										"openinpresentation" : 1,
@@ -1640,7 +1640,7 @@
 ,
 													"style" : "",
 													"text" : "autopattr",
-													"varname" : "u319000540"
+													"varname" : "u073001123"
 												}
 
 											}
@@ -1747,7 +1747,7 @@
  ]
 									}
 ,
-									"patching_rect" : [ 25.0, 626.0, 111.0, 116.0 ],
+									"patching_rect" : [ 667.0, 499.111389, 111.0, 116.0 ],
 									"varname" : "GlobalTransport",
 									"viewvisibility" : 1
 								}
@@ -1771,13 +1771,13 @@
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 7,
-											"minor" : 0,
-											"revision" : 2,
-											"architecture" : "x86",
+											"minor" : 3,
+											"revision" : 1,
+											"architecture" : "x64",
 											"modernui" : 1
 										}
 ,
-										"rect" : [ 392.0, 736.0, 148.0, 116.0 ],
+										"rect" : [ 531.0, 604.0, 148.0, 116.0 ],
 										"bgcolor" : [ 1.0, 1.0, 1.0, 0.0 ],
 										"bglocked" : 0,
 										"openinpresentation" : 1,
@@ -2161,7 +2161,7 @@
 ,
 													"style" : "",
 													"text" : "autopattr",
-													"varname" : "u356000539"
+													"varname" : "u579001122"
 												}
 
 											}
@@ -2502,7 +2502,7 @@
  ]
 									}
 ,
-									"patching_rect" : [ 358.0, 631.0, 148.0, 116.0 ],
+									"patching_rect" : [ 492.0, 499.111389, 148.0, 116.0 ],
 									"varname" : "StereoOutput",
 									"viewvisibility" : 1
 								}
@@ -2562,7 +2562,6 @@
 									"destination" : [ "obj-9", 0 ],
 									"disabled" : 0,
 									"hidden" : 0,
-									"midpoints" : [ 314.5, 601.111389, 479.5, 601.111389, 479.5, 473.611389, 496.5, 473.611389 ],
 									"source" : [ "obj-13", 1 ]
 								}
 
@@ -2572,7 +2571,6 @@
 									"destination" : [ "obj-13", 0 ],
 									"disabled" : 0,
 									"hidden" : 0,
-									"midpoints" : [ 19.5, 467.555695, 147.5, 467.555695 ],
 									"source" : [ "obj-19", 0 ]
 								}
 
@@ -2600,7 +2598,6 @@
 									"destination" : [ "obj-6", 0 ],
 									"disabled" : 0,
 									"hidden" : 0,
-									"midpoints" : [ 496.5, 615.305664, 367.5, 615.305664 ],
 									"source" : [ "obj-9", 0 ]
 								}
 
@@ -2660,62 +2657,86 @@
 			}
  ],
 		"parameters" : 		{
-			"obj-2::obj-3::obj-76" : [ "Transport", "Transport", 0 ],
-			"obj-2::obj-19::obj-106" : [ "CV3[1]", "CV3", 0 ],
-			"obj-2::obj-6::obj-56" : [ "OutputChannel", "OutputChannel", 0 ],
-			"obj-2::obj-20::obj-25" : [ "GateTime", "GateTime", 0 ],
-			"obj-2::obj-19::obj-53" : [ "Mute[3]", "Mute", 0 ],
-			"obj-2::obj-20::obj-22" : [ "Pattern", "Pattern", 0 ],
-			"obj-2::obj-9::obj-331" : [ "WaveformCloud", "Waveform", 0 ],
-			"obj-2::obj-20::obj-185" : [ "Sequence", "Sequence", 0 ],
-			"obj-2::obj-13::obj-3" : [ "MIDI", "MIDI", 0 ],
-			"obj-2::obj-6::obj-22" : [ "Mute", "Mute", 0 ],
-			"obj-2::obj-9::obj-51" : [ "Fatness", "Fatness", 0 ],
-			"obj-2::obj-9::obj-107" : [ "Linear", "Linear", 0 ],
-			"obj-2::obj-9::obj-46" : [ "Offset", "Offset", 0 ],
-			"obj-2::obj-20::obj-155" : [ "Swing amount", "Swing amount", 0 ],
-			"obj-2::obj-20::obj-2" : [ "trans_trig", "trans_trig", 0 ],
-			"obj-2::obj-9::obj-129" : [ "CV2", "CV2", 0 ],
-			"obj-2::obj-13::obj-129" : [ "Semi", "Semi", 0 ],
 			"obj-2::obj-13::obj-43" : [ "Type", "Type", 0 ],
-			"obj-2::obj-9::obj-24" : [ "Freq", "Freq", 0 ],
-			"obj-2::obj-19::obj-107" : [ "Linear[1]", "Linear", 0 ],
-			"obj-2::obj-19::obj-46" : [ "Offset[1]", "Offset", 0 ],
-			"obj-2::obj-20::obj-157" : [ "Swing enable", "Swing enable", 0 ],
-			"obj-2::obj-9::obj-45" : [ "TimeMode", "TimeMode", 1 ],
-			"obj-2::obj-20::obj-89" : [ "Reset", "Reset", 0 ],
-			"obj-2::obj-13::obj-25" : [ "Smoothing", "Smooth", 0 ],
-			"obj-2::obj-19::obj-129" : [ "CV2[1]", "CV2", 0 ],
-			"obj-2::obj-13::obj-31" : [ "freq", "freq", 0 ],
-			"obj-2::obj-19::obj-45" : [ "FreqMode", "FreqMode", 0 ],
 			"obj-2::obj-9::obj-20" : [ "Mute[1]", "Mute", 0 ],
-			"obj-2::obj-19::obj-36" : [ "PW", "PW", 0 ],
-			"obj-2::obj-20::obj-28" : [ "Sync", "Sync", 0 ],
-			"obj-2::obj-20::obj-125" : [ "NoteGrid", "NoteGrid", 0 ],
-			"obj-2::obj-20::obj-4" : [ "live.text", "live.text", 0 ],
-			"obj-2::obj-3::obj-129" : [ "Tempo", "Tempo", 0 ],
-			"obj-2::obj-9::obj-106" : [ "CV3", "CV3", 0 ],
-			"obj-2::obj-6::obj-55" : [ "DSP", "DSP", 0 ],
-			"obj-2::obj-19::obj-51" : [ "Freq[1]", "Freq", 0 ],
-			"obj-2::obj-13::obj-12" : [ "Mute[2]", "Mute", 0 ],
-			"obj-2::obj-20::obj-120" : [ "Max pulse[1]", "Max pulse", 0 ],
+			"obj-2::obj-20::obj-2" : [ "trans_trig", "trans_trig", 0 ],
+			"obj-2::obj-20::obj-89" : [ "Reset", "Reset", 0 ],
+			"obj-2::obj-9::obj-45" : [ "TimeMode", "TimeMode", 1 ],
 			"obj-2::obj-6::obj-52" : [ "Level", "Level", 0 ],
-			"obj-2::obj-19::obj-11" : [ "PWM", "PWM", 0 ],
+			"obj-2::obj-19::obj-106" : [ "CV3[1]", "CV3", 0 ],
+			"obj-2::obj-9::obj-106" : [ "CV3", "CV3", 0 ],
+			"obj-2::obj-19::obj-46" : [ "Offset[1]", "Offset", 0 ],
+			"obj-2::obj-9::obj-107" : [ "Linear", "Linear", 0 ],
+			"obj-2::obj-20::obj-157" : [ "Swing enable", "Swing enable", 0 ],
+			"obj-2::obj-6::obj-56" : [ "OutputChannel", "OutputChannel", 0 ],
+			"obj-2::obj-20::obj-185" : [ "Sequence", "Sequence", 0 ],
+			"obj-2::obj-3::obj-129" : [ "Tempo", "Tempo", 0 ],
+			"obj-2::obj-19::obj-107" : [ "Linear[1]", "Linear", 0 ],
+			"obj-2::obj-9::obj-24" : [ "Freq", "Freq", 0 ],
+			"obj-2::obj-20::obj-22" : [ "Pattern", "Pattern", 0 ],
+			"obj-2::obj-13::obj-12" : [ "Mute[2]", "Mute", 0 ],
+			"obj-2::obj-19::obj-45" : [ "FreqMode", "FreqMode", 0 ],
+			"obj-2::obj-20::obj-125" : [ "NoteGrid", "NoteGrid", 0 ],
+			"obj-2::obj-19::obj-4" : [ "Waveform", "Waveform", 0 ],
+			"obj-2::obj-19::obj-51" : [ "Freq[1]", "Freq", 0 ],
+			"obj-2::obj-6::obj-55" : [ "DSP", "DSP", 0 ],
+			"obj-2::obj-19::obj-36" : [ "PW", "PW", 0 ],
+			"obj-2::obj-6::obj-22" : [ "Mute", "Mute", 0 ],
+			"obj-2::obj-20::obj-28" : [ "Sync", "Sync", 0 ],
+			"obj-2::obj-13::obj-25" : [ "Smoothing", "Smooth", 0 ],
+			"obj-2::obj-9::obj-331" : [ "WaveformCloud", "Waveform", 0 ],
+			"obj-2::obj-13::obj-31" : [ "freq", "freq", 0 ],
+			"obj-2::obj-20::obj-120" : [ "Max pulse[1]", "Max pulse", 0 ],
+			"obj-2::obj-19::obj-129" : [ "CV2[1]", "CV2", 0 ],
+			"obj-2::obj-3::obj-76" : [ "Transport", "Transport", 0 ],
+			"obj-2::obj-9::obj-129" : [ "CV2", "CV2", 0 ],
+			"obj-2::obj-19::obj-53" : [ "Mute[3]", "Mute", 0 ],
+			"obj-2::obj-20::obj-155" : [ "Swing amount", "Swing amount", 0 ],
+			"obj-2::obj-13::obj-3" : [ "MIDI", "MIDI", 0 ],
+			"obj-2::obj-9::obj-46" : [ "Offset", "Offset", 0 ],
+			"obj-2::obj-20::obj-96" : [ "Pulse", "Pulse", 0 ],
+			"obj-2::obj-20::obj-4" : [ "live.text", "live.text", 0 ],
+			"obj-2::obj-13::obj-129" : [ "Semi", "Semi", 0 ],
 			"obj-2::obj-20::obj-130" : [ "mute", "mute", 0 ],
 			"obj-2::obj-20::obj-95" : [ "Steps", "Steps", 0 ],
-			"obj-2::obj-19::obj-4" : [ "Waveform", "Waveform", 0 ],
-			"obj-2::obj-20::obj-96" : [ "Pulse", "Pulse", 0 ]
+			"obj-2::obj-20::obj-25" : [ "GateTime", "GateTime", 0 ],
+			"obj-2::obj-9::obj-51" : [ "Fatness", "Fatness", 0 ],
+			"obj-2::obj-19::obj-11" : [ "PWM", "PWM", 0 ]
 		}
 ,
 		"dependency_cache" : [ 			{
+				"name" : "bp.PitchToCV.maxhelp_20161108.maxsnap",
+				"bootpath" : "~/Documents/Max 7/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "bp.PitchToCV.maxhelp.maxsnap",
+				"bootpath" : "~/Documents/Max 7/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "bp.PitchToCV.maxhelp_20161020.maxsnap",
+				"bootpath" : "~/Documents/Max 7/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "bp.PitchToCV.maxhelp_20161107.maxsnap",
+				"bootpath" : "~/Documents/Max 7/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
 				"name" : "bp.Cloud.maxpat",
-				"bootpath" : "C74:/packages/Beap/clippings/BEAP/Oscillator",
+				"bootpath" : "C74:/packages/BEAP/clippings/BEAP/Oscillator",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "bp.Oscillator.maxpat",
-				"bootpath" : "C74:/packages/Beap/clippings/BEAP/Oscillator",
+				"bootpath" : "C74:/packages/BEAP/clippings/BEAP/Oscillator",
 				"type" : "JSON",
 				"implicit" : 1
 			}
@@ -2745,25 +2766,27 @@
 			}
 , 			{
 				"name" : "bp.Sequencer.maxpat",
-				"bootpath" : "C74:/packages/Beap/clippings/BEAP/Sequencer",
+				"bootpath" : "C74:/packages/BEAP/clippings/BEAP/Sequencer",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "swingCalc.js",
-				"bootpath" : "C74:/packages/Beap/misc",
+				"bootpath" : "C74:/packages/BEAP/misc",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
  ],
-		"embedsnapshot" : 1,
+		"autosave" : 0,
 		"snapshot" : 		{
 			"filetype" : "C74Snapshot",
-			"version" : 1,
-			"name" : "bp.PitchToCV.maxhelp",
-			"origin" : "bp.PitchToCV.maxhelp",
-			"type" : "patcher",
+			"version" : 2,
+			"minorversion" : 0,
+			"name" : "snapshotlist",
+			"origin" : "jpatcher",
+			"type" : "list",
 			"subtype" : "Undefined",
+			"embed" : 1,
 			"snapshot" : 			{
 				"name" : "bp.PitchToCV.maxhelp",
 				"valuedictionary" : 				{
@@ -2819,6 +2842,140 @@
 
 				}
 
+			}
+,
+			"snapshotlist" : 			{
+				"current_snapshot" : 0,
+				"entries" : [ 					{
+						"filetype" : "C74Snapshot",
+						"version" : 2,
+						"minorversion" : 0,
+						"name" : "bp.PitchToCV.maxhelp",
+						"origin" : "bp.Pitch to CV.maxhelp",
+						"type" : "patcher",
+						"subtype" : "Undefined",
+						"embed" : 0,
+						"snapshot" : 						{
+							"name" : "bp.PitchToCV.maxhelp",
+							"valuedictionary" : 							{
+								"parameter_values" : 								{
+									"CV2" : 0.0,
+									"CV2[1]" : 0.0,
+									"CV3" : 0.0,
+									"CV3[1]" : 0.0,
+									"DSP" : 0.0,
+									"Fatness" : 2.366432,
+									"Freq" : 6763.828125,
+									"FreqMode" : 1.0,
+									"Freq[1]" : 6763.828125,
+									"GateTime" : 80.0,
+									"Level" : -7.76378,
+									"Linear" : 0.0,
+									"Linear[1]" : 0.0,
+									"MIDI" : 51.972507,
+									"Mute" : 0.0,
+									"Mute[1]" : 0.0,
+									"Mute[2]" : 0.0,
+									"Mute[3]" : 0.0,
+									"Offset" : 0.0,
+									"Offset[1]" : 0.0,
+									"OutputChannel" : 0.0,
+									"PW" : 50.0,
+									"PWM" : 0.0,
+									"Pattern" : 1.0,
+									"Semi" : 51.972507,
+									"Smoothing" : 0.0,
+									"Steps" : 8.0,
+									"Swing amount" : 0.0,
+									"Swing enable" : 0.0,
+									"Sync" : 0.0,
+									"Tempo" : 80.0,
+									"Transport" : 1.0,
+									"Type" : 1.0,
+									"Waveform" : 2.0,
+									"WaveformCloud" : 1.0,
+									"freq" : 164.552246,
+									"live.text" : 0.0,
+									"mute" : 0.0,
+									"trans_trig" : 0.0,
+									"TimeMode" : 1.0,
+									"blob" : 									{
+										"NoteGrid" : [ 3, 8, 1, 0, 8, 0, 1000, 2000, 3000, 4000, 5000, 6000, 7000, 2, 2, 2, 2, 2, 2, 2, 2 ],
+										"Pulse" : [ 4.0 ],
+										"Reset" : [ 0.0 ],
+										"Sequence" : [ 1, 8, 0, 1, 12, 0, 8, 59.0, 80.0, 0, 0, 60, 101, 4, 100, 127, 63, 83, 4, 52, 127, 67, 57, 4, 74, 127, 74, 78, 4, 43, 127, 70, 35, 4, 100, 127, 67, 75, 4, 55, 127, 60, 114, 4, 83, 127, 70, 75, 4, 38, 127 ]
+									}
+
+								}
+
+							}
+
+						}
+,
+						"fileref" : 						{
+							"name" : "bp.PitchToCV.maxhelp",
+							"filename" : "bp.PitchToCV.maxhelp_20161108.maxsnap",
+							"filepath" : "~/Documents/Max 7/Snapshots",
+							"filepos" : -1,
+							"snapshotfileid" : "9c164ae0e4068cb516d44f59fbc8124d"
+						}
+
+					}
+, 					{
+						"filetype" : "C74Snapshot",
+						"version" : 2,
+						"minorversion" : 0,
+						"name" : "bp.PitchToCV.maxhelp",
+						"origin" : "bp.Pitch to CV.maxhelp",
+						"type" : "patcher",
+						"subtype" : "Undefined",
+						"embed" : 0,
+						"fileref" : 						{
+							"name" : "bp.PitchToCV.maxhelp",
+							"filename" : "bp.PitchToCV.maxhelp.maxsnap",
+							"filepath" : "~/Documents/Max 7/Snapshots",
+							"filepos" : -1,
+							"snapshotfileid" : "30fe3670490c7196f5d17a10502f1739"
+						}
+
+					}
+, 					{
+						"filetype" : "C74Snapshot",
+						"version" : 2,
+						"minorversion" : 0,
+						"name" : "bp.PitchToCV.maxhelp",
+						"origin" : "bp.Pitch to CV.maxhelp",
+						"type" : "patcher",
+						"subtype" : "Undefined",
+						"embed" : 0,
+						"fileref" : 						{
+							"name" : "bp.PitchToCV.maxhelp",
+							"filename" : "bp.PitchToCV.maxhelp_20161020.maxsnap",
+							"filepath" : "~/Documents/Max 7/Snapshots",
+							"filepos" : -1,
+							"snapshotfileid" : "362b9e9cf93dc07162b8f117fea7e2b2"
+						}
+
+					}
+, 					{
+						"filetype" : "C74Snapshot",
+						"version" : 2,
+						"minorversion" : 0,
+						"name" : "bp.PitchToCV.maxhelp",
+						"origin" : "bp.Pitch to CV.maxhelp",
+						"type" : "patcher",
+						"subtype" : "Undefined",
+						"embed" : 0,
+						"fileref" : 						{
+							"name" : "bp.PitchToCV.maxhelp",
+							"filename" : "bp.PitchToCV.maxhelp_20161107.maxsnap",
+							"filepath" : "~/Documents/Max 7/Snapshots",
+							"filepos" : -1,
+							"snapshotfileid" : "e545ce47ea290ad87b31339df9c5b1c5"
+						}
+
+					}
+ ]
 			}
 
 		}
