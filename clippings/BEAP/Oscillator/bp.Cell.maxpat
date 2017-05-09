@@ -362,7 +362,7 @@
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "" ],
 									"patching_rect" : [ 713.435913, 472.86792, 107.0, 22.0 ],
-									"restore" : [ "Macintosh HD:/Applications/Max6/examples/sounds/vibes-a1.aif" ],
+									"restore" : [ "vibes-a1.aif" ],
 									"saved_object_attributes" : 									{
 										"parameter_enable" : 0
 									}
