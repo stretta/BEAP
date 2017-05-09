@@ -495,7 +495,7 @@
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "" ],
 									"patching_rect" : [ 827.0, 222.0, 107.0, 22.0 ],
-									"restore" : [ "Macintosh HD:/Users/Shared/Battery 3 Library/07 - Battery 3 Kits/02 - Production Kits/Dub Remix Kit/Dub Remix Kit Samples/Hi Hat Dub Pedal_01.WAV" ],
+									"restore" : [ "anton.aif" ],
 									"saved_object_attributes" : 									{
 										"parameter_enable" : 0
 									}
