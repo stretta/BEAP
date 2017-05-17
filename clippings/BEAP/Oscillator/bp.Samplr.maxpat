@@ -1054,7 +1054,7 @@
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "" ],
 									"patching_rect" : [ 1306.051636, 221.433945, 93.0, 22.0 ],
-									"restore" : [ "Macintosh HD:/Applications/Max.app/Contents/Resources/C74/media/msp/cherokee.aif" ],
+									"restore" : [ "cherokee.aif" ],
 									"saved_object_attributes" : 									{
 										"parameter_enable" : 0
 									}

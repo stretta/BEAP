@@ -1026,7 +1026,7 @@
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "" ],
 									"patching_rect" : [ 128.0, 140.0, 77.0, 22.0 ],
-									"restore" : [ "Macintosh HD:/Applications/Max 6.1/examples/sounds/cherokee.aif" ],
+									"restore" : [ "cherokee.aif" ],
 									"saved_object_attributes" : 									{
 										"parameter_enable" : 0
 									}
