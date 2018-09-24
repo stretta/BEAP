@@ -1996,7 +1996,7 @@
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 638.130615, 115.646873, 114.0, 22.0 ],
 									"style" : "",
-									"text" : "read bp.scales.json"
+									"text" : "import bp.scales.json"
 								}
 
 							}
