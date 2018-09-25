@@ -101,7 +101,7 @@
 							}
 , 							{
 								"box" : 								{
-									"fontname" : "Arial Bold",
+									"fontname" : "Ableton Sans Bold Regular",
 									"fontsize" : 9.0,
 									"id" : "obj-44",
 									"maxclass" : "comment",
@@ -488,7 +488,7 @@
 									"bgfillcolor_proportion" : 0.39,
 									"bgfillcolor_type" : "color",
 									"fontface" : 0,
-									"fontname" : "Arial Bold",
+									"fontname" : "Ableton Sans Bold Regular",
 									"fontsize" : 10.0,
 									"id" : "obj-34",
 									"items" : [ "All", ",", "Pitch", ",", "Velocity", ",", "Duration" ],
@@ -1170,7 +1170,7 @@
 							}
 , 							{
 								"box" : 								{
-									"fontname" : "Arial Bold",
+									"fontname" : "Ableton Sans Bold Regular",
 									"fontsize" : 9.0,
 									"id" : "obj-24",
 									"maxclass" : "comment",
@@ -1214,7 +1214,7 @@
 							}
 , 							{
 								"box" : 								{
-									"fontname" : "Arial Bold",
+									"fontname" : "Ableton Sans Bold Regular",
 									"fontsize" : 9.0,
 									"id" : "obj-13",
 									"maxclass" : "comment",

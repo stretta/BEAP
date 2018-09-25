@@ -123,7 +123,7 @@
 										"openinpresentation" : 0,
 										"default_fontsize" : 10.0,
 										"default_fontface" : 0,
-										"default_fontname" : "Arial Bold",
+										"default_fontname" : "Ableton Sans Bold Regular",
 										"gridonopen" : 1,
 										"gridsize" : [ 15.0, 15.0 ],
 										"gridsnaponopen" : 1,
@@ -146,7 +146,7 @@
 										"style" : "",
 										"boxes" : [ 											{
 												"box" : 												{
-													"fontname" : "Arial Bold",
+													"fontname" : "Ableton Sans Bold Regular",
 													"fontsize" : 10.0,
 													"id" : "obj-19",
 													"maxclass" : "newobj",
@@ -161,7 +161,7 @@
 											}
 , 											{
 												"box" : 												{
-													"fontname" : "Arial Bold",
+													"fontname" : "Ableton Sans Bold Regular",
 													"fontsize" : 10.0,
 													"id" : "obj-18",
 													"maxclass" : "newobj",
@@ -176,7 +176,7 @@
 											}
 , 											{
 												"box" : 												{
-													"fontname" : "Arial Bold",
+													"fontname" : "Ableton Sans Bold Regular",
 													"fontsize" : 10.0,
 													"id" : "obj-17",
 													"maxclass" : "newobj",
@@ -657,7 +657,7 @@
 									"saved_object_attributes" : 									{
 										"description" : "",
 										"digest" : "",
-										"fontname" : "Arial Bold",
+										"fontname" : "Ableton Sans Bold Regular",
 										"fontsize" : 10.0,
 										"globalpatchername" : "",
 										"style" : "",
@@ -926,7 +926,7 @@
 							}
 , 							{
 								"box" : 								{
-									"fontname" : "Arial Bold",
+									"fontname" : "Ableton Sans Bold Regular",
 									"fontsize" : 9.0,
 									"id" : "obj-42",
 									"maxclass" : "comment",
@@ -943,7 +943,7 @@
 							}
 , 							{
 								"box" : 								{
-									"fontname" : "Arial Bold",
+									"fontname" : "Ableton Sans Bold Regular",
 									"fontsize" : 9.0,
 									"id" : "obj-24",
 									"maxclass" : "comment",
@@ -960,7 +960,7 @@
 							}
 , 							{
 								"box" : 								{
-									"fontname" : "Arial Bold",
+									"fontname" : "Ableton Sans Bold Regular",
 									"fontsize" : 9.0,
 									"id" : "obj-28",
 									"maxclass" : "comment",

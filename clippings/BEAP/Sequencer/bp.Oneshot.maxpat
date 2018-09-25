@@ -93,7 +93,7 @@
 						"subpatcher_template" : "",
 						"boxes" : [ 							{
 								"box" : 								{
-									"fontname" : "Arial Bold",
+									"fontname" : "Ableton Sans Bold Regular",
 									"fontsize" : 9.0,
 									"id" : "obj-21",
 									"maxclass" : "comment",
@@ -169,7 +169,7 @@
 							}
 , 							{
 								"box" : 								{
-									"fontname" : "Arial Bold",
+									"fontname" : "Ableton Sans Bold Regular",
 									"fontsize" : 9.0,
 									"id" : "obj-9",
 									"maxclass" : "comment",
@@ -186,7 +186,7 @@
 							}
 , 							{
 								"box" : 								{
-									"fontname" : "Arial Bold",
+									"fontname" : "Ableton Sans Bold Regular",
 									"fontsize" : 9.0,
 									"id" : "obj-54",
 									"maxclass" : "comment",
@@ -735,7 +735,7 @@
 							}
 , 							{
 								"box" : 								{
-									"fontname" : "Arial Bold",
+									"fontname" : "Ableton Sans Bold Regular",
 									"fontsize" : 9.0,
 									"id" : "obj-29",
 									"maxclass" : "comment",
@@ -805,7 +805,7 @@
 										"openinpresentation" : 0,
 										"default_fontsize" : 12.0,
 										"default_fontface" : 0,
-										"default_fontname" : "Arial Bold",
+										"default_fontname" : "Ableton Sans Bold Regular",
 										"gridonopen" : 1,
 										"gridsize" : [ 15.0, 15.0 ],
 										"gridsnaponopen" : 1,
@@ -830,7 +830,7 @@
 										"boxes" : [ 											{
 												"box" : 												{
 													"fontface" : 0,
-													"fontname" : "Arial Bold",
+													"fontname" : "Ableton Sans Bold Regular",
 													"fontsize" : 12.0,
 													"id" : "obj-3",
 													"maxclass" : "newobj",
@@ -845,7 +845,7 @@
 , 											{
 												"box" : 												{
 													"fontface" : 0,
-													"fontname" : "Arial Bold",
+													"fontname" : "Ableton Sans Bold Regular",
 													"fontsize" : 12.0,
 													"id" : "obj-2",
 													"maxclass" : "newobj",
@@ -861,7 +861,7 @@
 , 											{
 												"box" : 												{
 													"fontface" : 0,
-													"fontname" : "Arial Bold",
+													"fontname" : "Ableton Sans Bold Regular",
 													"fontsize" : 12.0,
 													"id" : "obj-18",
 													"maxclass" : "newobj",
@@ -878,7 +878,7 @@
 												"box" : 												{
 													"code" : "History k(9223372036854775799);\r\nHistory armed(0);\r\nHistory do_pulse(0);\r\nHistory not_do_pulse(0);\r\nHistory prev_in1(0);\r\nHistory prev_in2(0);\r\nHistory rearmed_by_time(0);\r\n\r\nParam rearm_dur(samplerate*5.);\r\nParam allow_rearm(0);\r\n \r\n/*\r\n * \r\n *\r\n *\r\n */\r\n\r\n// Only when going high\r\nif (in2 && !prev_in2) {\r\n\tarmed = 1;\r\n}\r\n\r\n// If going up or down...\r\nif (xor(in1,prev_in1)) {\r\n\tdo_pulse = in1 * armed;\r\n\tnot_do_pulse = in1 * !armed;\r\n\tif (do_pulse) {\r\n\t\t// Going high... (might make sense with following the falling edge, but this would throw off timings more)\r\n\t\tif (allow_rearm) {\r\n\t\t\tk = 0;\r\n\t\t\trearmed_by_time = 0;\r\n\t\t}\r\n\t\tarmed = 0;\r\n\t}\r\n\r\n}\r\n\r\n// Cancel as long as this is held...\r\nif (in3) {\r\n\tarmed = 0;\r\n\tdo_pulse = 0;\r\n\t// not_do_pulse = 0; // nothing this time, but switch for next time?\r\n\tk = 0;\r\n}\r\n\r\nrearmed_by_time = xor(k >= rearm_dur, rearmed_by_time);\r\narmed = armed || (allow_rearm && rearmed_by_time); // Will switch on once when ready.\r\n\r\nk = clip(k + 1,0, 9223372036854775800); // really long time...\r\n\r\nprev_in1 = in1;\r\nprev_in2 = in2;\r\nout1 = do_pulse;\r\nout2 = not_do_pulse;",
 													"fontface" : 0,
-													"fontname" : "Arial Bold",
+													"fontname" : "Ableton Sans Bold Regular",
 													"fontsize" : 12.0,
 													"id" : "obj-17",
 													"maxclass" : "codebox",
@@ -892,7 +892,7 @@
 											}
 , 											{
 												"box" : 												{
-													"fontname" : "Arial Bold",
+													"fontname" : "Ableton Sans Bold Regular",
 													"fontsize" : 12.0,
 													"id" : "obj-1",
 													"maxclass" : "newobj",
@@ -907,7 +907,7 @@
 											}
 , 											{
 												"box" : 												{
-													"fontname" : "Arial Bold",
+													"fontname" : "Ableton Sans Bold Regular",
 													"fontsize" : 12.0,
 													"id" : "obj-4",
 													"maxclass" : "newobj",
@@ -991,7 +991,7 @@
 							}
 , 							{
 								"box" : 								{
-									"fontname" : "Arial Bold",
+									"fontname" : "Ableton Sans Bold Regular",
 									"fontsize" : 9.0,
 									"id" : "obj-72",
 									"maxclass" : "comment",
@@ -1243,7 +1243,7 @@
 							}
 , 							{
 								"box" : 								{
-									"fontname" : "Arial Bold",
+									"fontname" : "Ableton Sans Bold Regular",
 									"fontsize" : 9.0,
 									"id" : "obj-8",
 									"maxclass" : "comment",
@@ -1260,7 +1260,7 @@
 							}
 , 							{
 								"box" : 								{
-									"fontname" : "Arial Bold",
+									"fontname" : "Ableton Sans Bold Regular",
 									"fontsize" : 9.0,
 									"id" : "obj-19",
 									"maxclass" : "comment",
@@ -1277,7 +1277,7 @@
 							}
 , 							{
 								"box" : 								{
-									"fontname" : "Arial Bold",
+									"fontname" : "Ableton Sans Bold Regular",
 									"fontsize" : 9.0,
 									"id" : "obj-13",
 									"maxclass" : "comment",

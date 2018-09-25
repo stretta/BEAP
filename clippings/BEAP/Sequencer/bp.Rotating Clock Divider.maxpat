@@ -14,7 +14,7 @@
 		"openinpresentation" : 0,
 		"default_fontsize" : 10.0,
 		"default_fontface" : 0,
-		"default_fontname" : "Arial Bold",
+		"default_fontname" : "Ableton Sans Bold Regular",
 		"gridonopen" : 1,
 		"gridsize" : [ 15.0, 15.0 ],
 		"gridsnaponopen" : 1,
@@ -334,7 +334,7 @@
 										"openinpresentation" : 0,
 										"default_fontsize" : 10.0,
 										"default_fontface" : 0,
-										"default_fontname" : "Arial Bold",
+										"default_fontname" : "Ableton Sans Bold Regular",
 										"gridonopen" : 1,
 										"gridsize" : [ 15.0, 15.0 ],
 										"gridsnaponopen" : 1,
@@ -358,7 +358,7 @@
 										"subpatcher_template" : "",
 										"boxes" : [ 											{
 												"box" : 												{
-													"fontname" : "Arial Bold",
+													"fontname" : "Ableton Sans Bold Regular",
 													"fontsize" : 10.0,
 													"id" : "obj-2",
 													"linecount" : 4,
@@ -500,7 +500,7 @@
 									"saved_object_attributes" : 									{
 										"description" : "",
 										"digest" : "",
-										"fontname" : "Arial Bold",
+										"fontname" : "Ableton Sans Bold Regular",
 										"fontsize" : 10.0,
 										"globalpatchername" : "",
 										"style" : "",
@@ -514,7 +514,7 @@
 							}
 , 							{
 								"box" : 								{
-									"fontname" : "Arial Bold",
+									"fontname" : "Ableton Sans Bold Regular",
 									"fontsize" : 12.0,
 									"id" : "obj-154",
 									"linecount" : 2,
@@ -552,7 +552,7 @@
 										"openinpresentation" : 0,
 										"default_fontsize" : 10.0,
 										"default_fontface" : 0,
-										"default_fontname" : "Arial Bold",
+										"default_fontname" : "Ableton Sans Bold Regular",
 										"gridonopen" : 1,
 										"gridsize" : [ 15.0, 15.0 ],
 										"gridsnaponopen" : 1,
@@ -705,7 +705,7 @@
 														"openinpresentation" : 0,
 														"default_fontsize" : 10.0,
 														"default_fontface" : 0,
-														"default_fontname" : "Arial Bold",
+														"default_fontname" : "Ableton Sans Bold Regular",
 														"gridonopen" : 1,
 														"gridsize" : [ 15.0, 15.0 ],
 														"gridsnaponopen" : 1,
@@ -729,7 +729,7 @@
 														"subpatcher_template" : "",
 														"boxes" : [ 															{
 																"box" : 																{
-																	"fontname" : "Arial Bold",
+																	"fontname" : "Ableton Sans Bold Regular",
 																	"fontsize" : 10.0,
 																	"id" : "obj-12",
 																	"maxclass" : "newobj",
@@ -744,7 +744,7 @@
 															}
 , 															{
 																"box" : 																{
-																	"fontname" : "Arial Bold",
+																	"fontname" : "Ableton Sans Bold Regular",
 																	"fontsize" : 10.0,
 																	"id" : "obj-11",
 																	"maxclass" : "newobj",
@@ -759,7 +759,7 @@
 															}
 , 															{
 																"box" : 																{
-																	"fontname" : "Arial Bold",
+																	"fontname" : "Ableton Sans Bold Regular",
 																	"fontsize" : 10.0,
 																	"id" : "obj-10",
 																	"maxclass" : "newobj",
@@ -774,7 +774,7 @@
 															}
 , 															{
 																"box" : 																{
-																	"fontname" : "Arial Bold",
+																	"fontname" : "Ableton Sans Bold Regular",
 																	"fontsize" : 10.0,
 																	"id" : "obj-9",
 																	"maxclass" : "newobj",
@@ -938,7 +938,7 @@
 													"saved_object_attributes" : 													{
 														"description" : "",
 														"digest" : "",
-														"fontname" : "Arial Bold",
+														"fontname" : "Ableton Sans Bold Regular",
 														"fontsize" : 10.0,
 														"globalpatchername" : "",
 														"style" : "",
@@ -1664,7 +1664,7 @@
 									"saved_object_attributes" : 									{
 										"description" : "",
 										"digest" : "",
-										"fontname" : "Arial Bold",
+										"fontname" : "Ableton Sans Bold Regular",
 										"fontsize" : 10.0,
 										"globalpatchername" : "",
 										"style" : "",
@@ -1765,7 +1765,7 @@
 										"openinpresentation" : 0,
 										"default_fontsize" : 10.0,
 										"default_fontface" : 0,
-										"default_fontname" : "Arial Bold",
+										"default_fontname" : "Ableton Sans Bold Regular",
 										"gridonopen" : 1,
 										"gridsize" : [ 15.0, 15.0 ],
 										"gridsnaponopen" : 1,
@@ -2183,7 +2183,7 @@
 									"saved_object_attributes" : 									{
 										"description" : "",
 										"digest" : "",
-										"fontname" : "Arial Bold",
+										"fontname" : "Ableton Sans Bold Regular",
 										"fontsize" : 10.0,
 										"globalpatchername" : "",
 										"style" : "",
@@ -2260,7 +2260,7 @@
 										"openinpresentation" : 0,
 										"default_fontsize" : 10.0,
 										"default_fontface" : 0,
-										"default_fontname" : "Arial Bold",
+										"default_fontname" : "Ableton Sans Bold Regular",
 										"gridonopen" : 1,
 										"gridsize" : [ 15.0, 15.0 ],
 										"gridsnaponopen" : 1,
@@ -3200,7 +3200,7 @@
 									"saved_object_attributes" : 									{
 										"description" : "",
 										"digest" : "",
-										"fontname" : "Arial Bold",
+										"fontname" : "Ableton Sans Bold Regular",
 										"fontsize" : 10.0,
 										"globalpatchername" : "",
 										"style" : "",
@@ -3250,7 +3250,7 @@
 										"openinpresentation" : 0,
 										"default_fontsize" : 10.0,
 										"default_fontface" : 0,
-										"default_fontname" : "Arial Bold",
+										"default_fontname" : "Ableton Sans Bold Regular",
 										"gridonopen" : 1,
 										"gridsize" : [ 15.0, 15.0 ],
 										"gridsnaponopen" : 1,
@@ -3692,7 +3692,7 @@
 									"saved_object_attributes" : 									{
 										"description" : "",
 										"digest" : "",
-										"fontname" : "Arial Bold",
+										"fontname" : "Ableton Sans Bold Regular",
 										"fontsize" : 10.0,
 										"globalpatchername" : "",
 										"style" : "",
@@ -3889,7 +3889,7 @@
 										"openinpresentation" : 0,
 										"default_fontsize" : 10.0,
 										"default_fontface" : 0,
-										"default_fontname" : "Arial Bold",
+										"default_fontname" : "Ableton Sans Bold Regular",
 										"gridonopen" : 1,
 										"gridsize" : [ 15.0, 15.0 ],
 										"gridsnaponopen" : 1,
@@ -4068,7 +4068,7 @@
 									"saved_object_attributes" : 									{
 										"description" : "",
 										"digest" : "",
-										"fontname" : "Arial Bold",
+										"fontname" : "Ableton Sans Bold Regular",
 										"fontsize" : 10.0,
 										"globalpatchername" : "",
 										"style" : "",
@@ -4700,7 +4700,7 @@
 							}
 , 							{
 								"box" : 								{
-									"fontname" : "Arial Bold",
+									"fontname" : "Ableton Sans Bold Regular",
 									"fontsize" : 9.0,
 									"id" : "obj-39",
 									"maxclass" : "comment",
@@ -5172,7 +5172,7 @@
 							}
 , 							{
 								"box" : 								{
-									"fontname" : "Arial Bold",
+									"fontname" : "Ableton Sans Bold Regular",
 									"fontsize" : 9.0,
 									"id" : "obj-204",
 									"maxclass" : "comment",
@@ -5189,7 +5189,7 @@
 							}
 , 							{
 								"box" : 								{
-									"fontname" : "Arial Bold",
+									"fontname" : "Ableton Sans Bold Regular",
 									"fontsize" : 9.0,
 									"id" : "obj-203",
 									"maxclass" : "comment",
@@ -5779,7 +5779,7 @@
 							}
 , 							{
 								"box" : 								{
-									"fontname" : "Arial Bold",
+									"fontname" : "Ableton Sans Bold Regular",
 									"fontsize" : 9.0,
 									"id" : "obj-123",
 									"maxclass" : "comment",
@@ -5796,7 +5796,7 @@
 							}
 , 							{
 								"box" : 								{
-									"fontname" : "Arial Bold",
+									"fontname" : "Ableton Sans Bold Regular",
 									"fontsize" : 9.0,
 									"id" : "obj-122",
 									"maxclass" : "comment",
@@ -5813,7 +5813,7 @@
 							}
 , 							{
 								"box" : 								{
-									"fontname" : "Arial Bold",
+									"fontname" : "Ableton Sans Bold Regular",
 									"fontsize" : 9.0,
 									"id" : "obj-121",
 									"maxclass" : "comment",
@@ -5830,7 +5830,7 @@
 							}
 , 							{
 								"box" : 								{
-									"fontname" : "Arial Bold",
+									"fontname" : "Ableton Sans Bold Regular",
 									"fontsize" : 9.0,
 									"id" : "obj-119",
 									"maxclass" : "comment",
@@ -5847,7 +5847,7 @@
 							}
 , 							{
 								"box" : 								{
-									"fontname" : "Arial Bold",
+									"fontname" : "Ableton Sans Bold Regular",
 									"fontsize" : 9.0,
 									"id" : "obj-118",
 									"maxclass" : "comment",
@@ -5864,7 +5864,7 @@
 							}
 , 							{
 								"box" : 								{
-									"fontname" : "Arial Bold",
+									"fontname" : "Ableton Sans Bold Regular",
 									"fontsize" : 9.0,
 									"id" : "obj-117",
 									"maxclass" : "comment",
@@ -5881,7 +5881,7 @@
 							}
 , 							{
 								"box" : 								{
-									"fontname" : "Arial Bold",
+									"fontname" : "Ableton Sans Bold Regular",
 									"fontsize" : 9.0,
 									"id" : "obj-115",
 									"maxclass" : "comment",
@@ -6372,7 +6372,7 @@
 										"openinpresentation" : 0,
 										"default_fontsize" : 10.0,
 										"default_fontface" : 0,
-										"default_fontname" : "Arial Bold",
+										"default_fontname" : "Ableton Sans Bold Regular",
 										"gridonopen" : 1,
 										"gridsize" : [ 15.0, 15.0 ],
 										"gridsnaponopen" : 1,
@@ -6408,7 +6408,7 @@
 											}
 , 											{
 												"box" : 												{
-													"fontname" : "Arial Bold",
+													"fontname" : "Ableton Sans Bold Regular",
 													"fontsize" : 10.0,
 													"id" : "obj-1",
 													"maxclass" : "newobj",
@@ -6664,7 +6664,7 @@
 									"saved_object_attributes" : 									{
 										"description" : "",
 										"digest" : "",
-										"fontname" : "Arial Bold",
+										"fontname" : "Ableton Sans Bold Regular",
 										"fontsize" : 10.0,
 										"globalpatchername" : "",
 										"style" : "",
@@ -6823,7 +6823,7 @@
 										"openinpresentation" : 0,
 										"default_fontsize" : 10.0,
 										"default_fontface" : 0,
-										"default_fontname" : "Arial Bold",
+										"default_fontname" : "Ableton Sans Bold Regular",
 										"gridonopen" : 1,
 										"gridsize" : [ 15.0, 15.0 ],
 										"gridsnaponopen" : 1,
@@ -6847,7 +6847,7 @@
 										"subpatcher_template" : "",
 										"boxes" : [ 											{
 												"box" : 												{
-													"fontname" : "Arial Bold",
+													"fontname" : "Ableton Sans Bold Regular",
 													"fontsize" : 10.0,
 													"id" : "obj-11",
 													"linecount" : 2,
@@ -6862,7 +6862,7 @@
 											}
 , 											{
 												"box" : 												{
-													"fontname" : "Arial Bold",
+													"fontname" : "Ableton Sans Bold Regular",
 													"fontsize" : 10.0,
 													"id" : "obj-6",
 													"maxclass" : "newobj",
@@ -6877,7 +6877,7 @@
 											}
 , 											{
 												"box" : 												{
-													"fontname" : "Arial Bold",
+													"fontname" : "Ableton Sans Bold Regular",
 													"fontsize" : 10.0,
 													"id" : "obj-9",
 													"maxclass" : "newobj",
@@ -6892,7 +6892,7 @@
 											}
 , 											{
 												"box" : 												{
-													"fontname" : "Arial Bold",
+													"fontname" : "Ableton Sans Bold Regular",
 													"fontsize" : 10.0,
 													"id" : "obj-8",
 													"maxclass" : "newobj",
@@ -6907,7 +6907,7 @@
 											}
 , 											{
 												"box" : 												{
-													"fontname" : "Arial Bold",
+													"fontname" : "Ableton Sans Bold Regular",
 													"fontsize" : 10.0,
 													"id" : "obj-7",
 													"maxclass" : "newobj",
@@ -6924,7 +6924,7 @@
 												"box" : 												{
 													"code" : "History k(0);\r\nHistory reset_k(0);\r\nHistory offset(0);\r\nHistory count1(1),count2(2),count3(3),count4(4),count5(5),count6(6),count7(7),count8(8);\r\nHistory should_reset(0);\r\nHistory k1(0),k2(0),k3(0),k4(0),k5(0),k6(0),k7(0),k8(0);\r\nHistory v(0);\r\nHistory count_direction(1);\r\nHistory prev_rising(0);\r\n\r\nParam bounds_mode(0);\r\nParam on1(1),on2(1),on3(1),on4(1),on5(1),on6(1),on7(1),on8(1);\r\nParam offset1(0),offset2(0),offset3(0),offset4(0),offset5(0),offset6(0),offset7(0),offset8(0);\r\n\r\nParam upbeat_count(0);\r\nParam reset(0);\r\nParam num_counts(8);\r\n\r\nParam reset_every(16);\r\nParam max_count(64);\r\nParam gate_mode(0);\r\nParam auto_reset(0);\r\n\r\nrising = (in1 > 2.5) - prev_rising;\r\nprev_rising = (in1 > 2.5);\r\n\r\nif (gate_mode) {\r\n\t\t// Count either edge on input...\r\n\tif (rising != 0) {\r\n\t\toffset = in2;\r\n\t\tcount_direction=in3;\r\n\t\treset_k += 0.5;\r\n\t\r\n\t\tif (should_reset) {\r\n\t\t\tk = 0;\r\n\t\t\t// Clear reset flag\r\n\t\t\tshould_reset = 0;\r\n\t\t} else {\r\n\t\t\t// Increment clock\r\n\t\t\tk += abs(count_direction)*0.5; // Halved since we're counting rising and falling edges\r\n\t\t\t// Wrap if need be\r\n\t\t\tif (auto_reset && reset_k >= reset_every) {\r\n\t\t\t\t// k = wrap(k,0,reset_every * abs(count_direction));\r\n\t\t\t\tk = 0;\r\n\t\t\t\treset_k = 0;\r\n\t\t\t}\r\n\t\t}\r\n\t\r\n\t\tif (bounds_mode) {\r\n\t\t\tcount1 = peek(possible_counts,clamp(peek(counts_to_pos,0)+offset,0,0.999)*num_counts);\r\n\t\t\tcount2 = peek(possible_counts,clamp(peek(counts_to_pos,1)+offset,0,0.999)*num_counts);\r\n\t\t\tcount3 = peek(possible_counts,clamp(peek(counts_to_pos,2)+offset,0,0.999)*num_counts);\r\n\t\t\tcount4 = peek(possible_counts,clamp(peek(counts_to_pos,3)+offset,0,0.999)*num_counts);\r\n\t\t\tcount5 = peek(possible_counts,clamp(peek(counts_to_pos,4)+offset,0,0.999)*num_counts);\r\n\t\t\tcount6 = peek(possible_counts,clamp(peek(counts_to_pos,5)+offset,0,0.999)*num_counts);\r\n\t\t\tcount7 = peek(possible_counts,clamp(peek(counts_to_pos,6)+offset,0,0.999)*num_counts);\r\n\t\t\tcount8 = peek(possible_counts,clamp(peek(counts_to_pos,7)+offset,0,0.999)*num_counts);\r\n\t\t} else {\r\n\t\t\tcount1 = peek(possible_counts,wrap(peek(counts_to_pos,0)+offset,0,1)*num_counts);\r\n\t\t\tcount2 = peek(possible_counts,wrap(peek(counts_to_pos,1)+offset,0,1)*num_counts);\r\n\t\t\tcount3 = peek(possible_counts,wrap(peek(counts_to_pos,2)+offset,0,1)*num_counts);\r\n\t\t\tcount4 = peek(possible_counts,wrap(peek(counts_to_pos,3)+offset,0,1)*num_counts);\r\n\t\t\tcount5 = peek(possible_counts,wrap(peek(counts_to_pos,4)+offset,0,1)*num_counts);\r\n\t\t\tcount6 = peek(possible_counts,wrap(peek(counts_to_pos,5)+offset,0,1)*num_counts);\r\n\t\t\tcount7 = peek(possible_counts,wrap(peek(counts_to_pos,6)+offset,0,1)*num_counts);\r\n\t\t\tcount8 = peek(possible_counts,wrap(peek(counts_to_pos,7)+offset,0,1)*num_counts);\r\n\t\t}\r\n\r\n\t\r\n\t\tif (count_direction < 0) {\t\r\n\t\t\tk1 = wrap(k-offset1,0,count1) >= count1*0.5;\r\n\t\t\tk2 = wrap(k-offset2,0,count2) >= count2*0.5;\r\n\t\t\tk3 = wrap(k-offset3,0,count3) >= count3*0.5;\r\n\t\t\tk4 = wrap(k-offset4,0,count4) >= count4*0.5;\r\n\t\t\tk5 = wrap(k-offset5,0,count5) >= count5*0.5;\r\n\t\t\tk6 = wrap(k-offset6,0,count6) >= count6*0.5;\r\n\t\t\tk7 = wrap(k-offset7,0,count7) >= count7*0.5;\r\n\t\t\tk8 = wrap(k-offset8,0,count8) >= count8*0.5;\r\n\t\t} else {\r\n\t\t\tk1 = wrap(k-offset1,0,count1) < count1*0.5;\r\n\t\t\tk2 = wrap(k-offset2,0,count2) < count2*0.5;\r\n\t\t\tk3 = wrap(k-offset3,0,count3) < count3*0.5;\r\n\t\t\tk4 = wrap(k-offset4,0,count4) < count4*0.5;\r\n\t\t\tk5 = wrap(k-offset5,0,count5) < count5*0.5;\r\n\t\t\tk6 = wrap(k-offset6,0,count6) < count6*0.5;\r\n\t\t\tk7 = wrap(k-offset7,0,count7) < count7*0.5;\r\n\t\t\tk8 = wrap(k-offset8,0,count8) < count8*0.5;\r\n\t\t}\r\n\t\r\n\t\tk1 *= on1*5;\r\n\t\tk2 *= on2*5;\r\n\t\tk3 *= on3*5;\r\n\t\tk4 *= on4*5;\r\n\t\tk5 *= on5*5;\r\n\t\tk6 *= on6*5;\r\n\t\tk7 *= on7*5;\r\n\t\tk8 *= on8*5;\r\n\t// All of the above on the rising edge...\t\r\n\t} else {\r\n\r\n\t\r\n\r\n\t}\r\n\t\r\n} else {\r\n\t// Sample offset on clock\r\n\tif (rising > 0) {\r\n\t\toffset = in2;\r\n\t\tcount_direction=in3;\r\n\t\treset_k += 1;\r\n\t\r\n\t\tif (should_reset) {\r\n\t\t\tk = 0;\r\n\t\t\t// Clear reset flag\r\n\t\t\tshould_reset = 0;\r\n\t\t} else {\r\n\t\t\t// Increment clock\r\n\t\t\tk += abs(count_direction);\r\n\t\t\t// Wrap if need be\r\n\t\t\tif (auto_reset && reset_k >= reset_every) {\r\n\t\t\t\t// k = wrap(k,0,reset_every * abs(count_direction));\r\n\t\t\t\tk = 0;\r\n\t\t\t\treset_k = 0;\r\n\t\t\t}\r\n\t\t}\r\n\t\r\n\t\tif (bounds_mode) {\r\n\t\t\tcount1 = peek(possible_counts,clamp(peek(counts_to_pos,0)+offset,0,0.999)*num_counts);\r\n\t\t\tcount2 = peek(possible_counts,clamp(peek(counts_to_pos,1)+offset,0,0.999)*num_counts);\r\n\t\t\tcount3 = peek(possible_counts,clamp(peek(counts_to_pos,2)+offset,0,0.999)*num_counts);\r\n\t\t\tcount4 = peek(possible_counts,clamp(peek(counts_to_pos,3)+offset,0,0.999)*num_counts);\r\n\t\t\tcount5 = peek(possible_counts,clamp(peek(counts_to_pos,4)+offset,0,0.999)*num_counts);\r\n\t\t\tcount6 = peek(possible_counts,clamp(peek(counts_to_pos,5)+offset,0,0.999)*num_counts);\r\n\t\t\tcount7 = peek(possible_counts,clamp(peek(counts_to_pos,6)+offset,0,0.999)*num_counts);\r\n\t\t\tcount8 = peek(possible_counts,clamp(peek(counts_to_pos,7)+offset,0,0.999)*num_counts);\r\n\t\t} else {\r\n\t\t\tcount1 = peek(possible_counts,wrap(peek(counts_to_pos,0)+offset,0,1)*num_counts);\r\n\t\t\tcount2 = peek(possible_counts,wrap(peek(counts_to_pos,1)+offset,0,1)*num_counts);\r\n\t\t\tcount3 = peek(possible_counts,wrap(peek(counts_to_pos,2)+offset,0,1)*num_counts);\r\n\t\t\tcount4 = peek(possible_counts,wrap(peek(counts_to_pos,3)+offset,0,1)*num_counts);\r\n\t\t\tcount5 = peek(possible_counts,wrap(peek(counts_to_pos,4)+offset,0,1)*num_counts);\r\n\t\t\tcount6 = peek(possible_counts,wrap(peek(counts_to_pos,5)+offset,0,1)*num_counts);\r\n\t\t\tcount7 = peek(possible_counts,wrap(peek(counts_to_pos,6)+offset,0,1)*num_counts);\r\n\t\t\tcount8 = peek(possible_counts,wrap(peek(counts_to_pos,7)+offset,0,1)*num_counts);\r\n\t\t}\r\n\r\n\t\r\n\t\tif (count_direction < 0) {\t\r\n\t\t\tk1 = wrap(k-offset1,0,count1) >= count1-1;\r\n\t\t\tk2 = wrap(k-offset2,0,count2) >= count2-1;\r\n\t\t\tk3 = wrap(k-offset3,0,count3) >= count3-1;\r\n\t\t\tk4 = wrap(k-offset4,0,count4) >= count4-1;\r\n\t\t\tk5 = wrap(k-offset5,0,count5) >= count5-1;\r\n\t\t\tk6 = wrap(k-offset6,0,count6) >= count6-1;\r\n\t\t\tk7 = wrap(k-offset7,0,count7) >= count7-1;\r\n\t\t\tk8 = wrap(k-offset8,0,count8) >= count8-1;\r\n\t\t} else {\r\n\t\t\tk1 = wrap(k-offset1,0,count1) < 1;\r\n\t\t\tk2 = wrap(k-offset2,0,count2) < 1;\r\n\t\t\tk3 = wrap(k-offset3,0,count3) < 1;\r\n\t\t\tk4 = wrap(k-offset4,0,count4) < 1;\r\n\t\t\tk5 = wrap(k-offset5,0,count5) < 1;\r\n\t\t\tk6 = wrap(k-offset6,0,count6) < 1;\r\n\t\t\tk7 = wrap(k-offset7,0,count7) < 1;\r\n\t\t\tk8 = wrap(k-offset8,0,count8) < 1;\r\n\t\t}\r\n\t\r\n\t\tk1 *= on1;\r\n\t\tk2 *= on2;\r\n\t\tk3 *= on3;\r\n\t\tk4 *= on4;\r\n\t\tk5 *= on5;\r\n\t\tk6 *= on6;\r\n\t\tk7 *= on7;\r\n\t\tk8 *= on8;\r\n\t// All of the above on the rising edge...\t\r\n\t\r\n\t} else {\r\n\t\t// Falling edge\r\n\t\tif (rising < 0) {\r\n\t\t\tk1 = 0; k2 = 0; k3 = 0; k4 = 0; k5 = 0; k6 = 0; k7 = 0; k8 = 0;\r\n\t\t}\r\n\t}\r\n}\r\n\r\n// Reset\r\nif (in4 > 0) {\r\n\tshould_reset = 1;\r\n}\r\n\r\nif (gate_mode) {\r\n\tout1 = k1; \r\n\tout2 = k2; \r\n\tout3 = k3; \r\n\tout4 = k4; \r\n\tout5 = k5; \r\n\tout6 = k6; \r\n\tout7 = k7; \r\n\tout8 = k8;\t\r\n} else {\r\n\tout1 = k1*in1; \r\n\tout2 = k2*in1; \r\n\tout3 = k3*in1; \r\n\tout4 = k4*in1; \r\n\tout5 = k5*in1; \r\n\tout6 = k6*in1; \r\n\tout7 = k7*in1; \r\n\tout8 = k8*in1;\r\n}",
 													"fontface" : 0,
-													"fontname" : "Arial Bold",
+													"fontname" : "Ableton Sans Bold Regular",
 													"fontsize" : 10.0,
 													"id" : "obj-5",
 													"maxclass" : "codebox",
@@ -6938,7 +6938,7 @@
 											}
 , 											{
 												"box" : 												{
-													"fontname" : "Arial Bold",
+													"fontname" : "Ableton Sans Bold Regular",
 													"fontsize" : 10.0,
 													"id" : "obj-28",
 													"maxclass" : "newobj",
@@ -6952,7 +6952,7 @@
 											}
 , 											{
 												"box" : 												{
-													"fontname" : "Arial Bold",
+													"fontname" : "Ableton Sans Bold Regular",
 													"fontsize" : 10.0,
 													"id" : "obj-27",
 													"maxclass" : "newobj",
@@ -6966,7 +6966,7 @@
 											}
 , 											{
 												"box" : 												{
-													"fontname" : "Arial Bold",
+													"fontname" : "Ableton Sans Bold Regular",
 													"fontsize" : 10.0,
 													"id" : "obj-26",
 													"maxclass" : "newobj",
@@ -6980,7 +6980,7 @@
 											}
 , 											{
 												"box" : 												{
-													"fontname" : "Arial Bold",
+													"fontname" : "Ableton Sans Bold Regular",
 													"fontsize" : 10.0,
 													"id" : "obj-25",
 													"maxclass" : "newobj",
@@ -6994,7 +6994,7 @@
 											}
 , 											{
 												"box" : 												{
-													"fontname" : "Arial Bold",
+													"fontname" : "Ableton Sans Bold Regular",
 													"fontsize" : 10.0,
 													"id" : "obj-24",
 													"maxclass" : "newobj",
@@ -7008,7 +7008,7 @@
 											}
 , 											{
 												"box" : 												{
-													"fontname" : "Arial Bold",
+													"fontname" : "Ableton Sans Bold Regular",
 													"fontsize" : 10.0,
 													"id" : "obj-23",
 													"maxclass" : "newobj",
@@ -7022,7 +7022,7 @@
 											}
 , 											{
 												"box" : 												{
-													"fontname" : "Arial Bold",
+													"fontname" : "Ableton Sans Bold Regular",
 													"fontsize" : 10.0,
 													"id" : "obj-22",
 													"maxclass" : "newobj",
@@ -7036,7 +7036,7 @@
 											}
 , 											{
 												"box" : 												{
-													"fontname" : "Arial Bold",
+													"fontname" : "Ableton Sans Bold Regular",
 													"fontsize" : 10.0,
 													"id" : "obj-18",
 													"maxclass" : "newobj",
@@ -7051,7 +7051,7 @@
 											}
 , 											{
 												"box" : 												{
-													"fontname" : "Arial Bold",
+													"fontname" : "Ableton Sans Bold Regular",
 													"fontsize" : 10.0,
 													"id" : "obj-21",
 													"maxclass" : "newobj",
@@ -7066,7 +7066,7 @@
 											}
 , 											{
 												"box" : 												{
-													"fontname" : "Arial Bold",
+													"fontname" : "Ableton Sans Bold Regular",
 													"fontsize" : 10.0,
 													"id" : "obj-3",
 													"maxclass" : "newobj",
@@ -7081,7 +7081,7 @@
 											}
 , 											{
 												"box" : 												{
-													"fontname" : "Arial Bold",
+													"fontname" : "Ableton Sans Bold Regular",
 													"fontsize" : 10.0,
 													"id" : "obj-13",
 													"maxclass" : "newobj",
@@ -7096,7 +7096,7 @@
 											}
 , 											{
 												"box" : 												{
-													"fontname" : "Arial Bold",
+													"fontname" : "Ableton Sans Bold Regular",
 													"fontsize" : 10.0,
 													"id" : "obj-1",
 													"maxclass" : "newobj",
@@ -7111,7 +7111,7 @@
 											}
 , 											{
 												"box" : 												{
-													"fontname" : "Arial Bold",
+													"fontname" : "Ableton Sans Bold Regular",
 													"fontsize" : 10.0,
 													"id" : "obj-2",
 													"maxclass" : "newobj",
@@ -7126,7 +7126,7 @@
 											}
 , 											{
 												"box" : 												{
-													"fontname" : "Arial Bold",
+													"fontname" : "Ableton Sans Bold Regular",
 													"fontsize" : 10.0,
 													"id" : "obj-4",
 													"maxclass" : "newobj",
@@ -7452,7 +7452,7 @@
 							}
 , 							{
 								"box" : 								{
-									"fontname" : "Arial Bold",
+									"fontname" : "Ableton Sans Bold Regular",
 									"fontsize" : 9.0,
 									"id" : "obj-8",
 									"maxclass" : "comment",
@@ -7469,7 +7469,7 @@
 							}
 , 							{
 								"box" : 								{
-									"fontname" : "Arial Bold",
+									"fontname" : "Ableton Sans Bold Regular",
 									"fontsize" : 9.0,
 									"id" : "obj-19",
 									"maxclass" : "comment",
@@ -7486,7 +7486,7 @@
 							}
 , 							{
 								"box" : 								{
-									"fontname" : "Arial Bold",
+									"fontname" : "Ableton Sans Bold Regular",
 									"fontsize" : 9.0,
 									"id" : "obj-13",
 									"maxclass" : "comment",
