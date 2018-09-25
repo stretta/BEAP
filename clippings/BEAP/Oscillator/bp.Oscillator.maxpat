@@ -63,7 +63,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 34.0, 527.0, 613.0, 298.0 ],
+						"rect" : [ 81.0, 130.0, 785.0, 621.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 1,
 						"default_fontsize" : 12.0,
@@ -292,7 +292,6 @@
 
 											}
  ],
-										"autosave" : 0,
 										"bgcolor" : [ 0.9, 0.9, 0.9, 1.0 ]
 									}
 ,
@@ -1204,13 +1203,13 @@
 									"presentation_rect" : [ 110.0, 78.0, 49.0, 15.0 ],
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
+											"parameter_initial" : [ 0.0 ],
+											"parameter_shortname" : "Linear",
 											"parameter_type" : 0,
 											"parameter_unitstyle" : 5,
 											"parameter_longname" : "Linear",
 											"parameter_initial_enable" : 1,
-											"parameter_mmax" : 1000.0,
-											"parameter_initial" : [ 0.0 ],
-											"parameter_shortname" : "Linear"
+											"parameter_mmax" : 1000.0
 										}
 
 									}
@@ -1236,13 +1235,13 @@
 									"presentation_rect" : [ 110.0, 60.0, 49.0, 15.0 ],
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
+											"parameter_initial" : [ 0.0 ],
+											"parameter_shortname" : "CV3",
 											"parameter_type" : 0,
 											"parameter_unitstyle" : 5,
 											"parameter_longname" : "CV3",
 											"parameter_initial_enable" : 1,
-											"parameter_mmax" : 100.0,
-											"parameter_initial" : [ 0.0 ],
-											"parameter_shortname" : "CV3"
+											"parameter_mmax" : 100.0
 										}
 
 									}
@@ -1268,13 +1267,13 @@
 									"presentation_rect" : [ 110.0, 42.0, 49.0, 15.0 ],
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
+											"parameter_initial" : [ 0.0 ],
+											"parameter_shortname" : "CV2",
 											"parameter_type" : 0,
 											"parameter_unitstyle" : 5,
 											"parameter_longname" : "CV2",
 											"parameter_initial_enable" : 1,
-											"parameter_mmax" : 100.0,
-											"parameter_initial" : [ 0.0 ],
-											"parameter_shortname" : "CV2"
+											"parameter_mmax" : 100.0
 										}
 
 									}
@@ -1324,7 +1323,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "signal" ],
-									"patching_rect" : [ 1628.571288999999979, 384.426666000000012, 140.406005999999991, 18.0 ],
+									"patching_rect" : [ 1628.571288999999979, 384.426666000000012, 140.406005999999991, 20.0 ],
 									"text" : "*~"
 								}
 
@@ -1380,7 +1379,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "float" ],
-									"patching_rect" : [ 1811.977294999999913, 310.587372000000016, 37.0, 18.0 ],
+									"patching_rect" : [ 1811.977294999999913, 310.587372000000016, 37.0, 20.0 ],
 									"text" : "* 0.01"
 								}
 
@@ -1430,6 +1429,7 @@
 , 							{
 								"box" : 								{
 									"activedialcolor" : [ 0.278431, 0.839216, 1.0, 1.0 ],
+									"activefgdialcolor" : [ 0.65098, 0.666667, 0.662745, 1.0 ],
 									"activeneedlecolor" : [ 1.0, 1.0, 1.0, 0.4 ],
 									"annotation" : "",
 									"bordercolor" : [ 1.0, 1.0, 1.0, 0.2 ],
@@ -1449,15 +1449,15 @@
 									"prototypename" : "freq",
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
+											"parameter_initial" : [ 0.6 ],
+											"parameter_speedlim" : 0.0,
+											"parameter_shortname" : "Freq",
 											"parameter_type" : 0,
 											"parameter_unitstyle" : 3,
 											"parameter_exponent" : 4.0,
 											"parameter_longname" : "Freq",
 											"parameter_initial_enable" : 1,
-											"parameter_mmax" : 20000.0,
-											"parameter_initial" : [ 0.6 ],
-											"parameter_speedlim" : 0.0,
-											"parameter_shortname" : "Freq"
+											"parameter_mmax" : 20000.0
 										}
 
 									}
@@ -1492,14 +1492,14 @@
 									"presentation_rect" : [ 45.0, 41.221527099609375, 33.0, 15.0 ],
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
+											"parameter_initial" : [ 1 ],
+											"parameter_speedlim" : 0.0,
+											"parameter_shortname" : "FreqMode",
 											"parameter_enum" : [ "Freq", "Semitone" ],
 											"parameter_type" : 2,
 											"parameter_longname" : "FreqMode",
 											"parameter_initial_enable" : 1,
-											"parameter_mmax" : 1.0,
-											"parameter_initial" : [ 1 ],
-											"parameter_speedlim" : 0.0,
-											"parameter_shortname" : "FreqMode"
+											"parameter_mmax" : 1.0
 										}
 
 									}
@@ -1514,6 +1514,7 @@
 , 							{
 								"box" : 								{
 									"activedialcolor" : [ 0.278431, 0.839216, 1.0, 1.0 ],
+									"activefgdialcolor" : [ 0.65098, 0.666667, 0.662745, 1.0 ],
 									"activeneedlecolor" : [ 1.0, 1.0, 1.0, 0.4 ],
 									"annotation" : "",
 									"bordercolor" : [ 1.0, 1.0, 1.0, 0.2 ],
@@ -1532,6 +1533,9 @@
 									"prototypename" : "freq",
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
+											"parameter_initial" : [ 0 ],
+											"parameter_speedlim" : 0.0,
+											"parameter_shortname" : "Offset",
 											"parameter_type" : 0,
 											"parameter_unitstyle" : 1,
 											"parameter_mmin" : -64.0,
@@ -1539,10 +1543,7 @@
 											"parameter_initial_enable" : 1,
 											"parameter_modmode" : 2,
 											"parameter_mmax" : 64.0,
-											"parameter_steps" : 129,
-											"parameter_initial" : [ 0 ],
-											"parameter_speedlim" : 0.0,
-											"parameter_shortname" : "Offset"
+											"parameter_steps" : 129
 										}
 
 									}
@@ -1611,7 +1612,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "signal" ],
-									"patching_rect" : [ 1346.0, 236.552582000000001, 140.406005999999991, 18.0 ],
+									"patching_rect" : [ 1346.0, 236.552582000000001, 140.406005999999991, 20.0 ],
 									"text" : "*~"
 								}
 
@@ -1667,7 +1668,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "float" ],
-									"patching_rect" : [ 1529.406005999999934, 162.713287000000008, 37.0, 18.0 ],
+									"patching_rect" : [ 1529.406005999999934, 162.713287000000008, 37.0, 20.0 ],
 									"text" : "* 0.01"
 								}
 
@@ -1738,7 +1739,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "signal" ],
-									"patching_rect" : [ 1023.00006099999996, 182.550934000000012, 140.406005999999991, 18.0 ],
+									"patching_rect" : [ 1023.00006099999996, 182.550934000000012, 140.406005999999991, 20.0 ],
 									"text" : "*~"
 								}
 
@@ -1794,7 +1795,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "float" ],
-									"patching_rect" : [ 1206.40625, 108.711639000000005, 37.0, 18.0 ],
+									"patching_rect" : [ 1206.40625, 108.711639000000005, 37.0, 20.0 ],
 									"text" : "* 0.01"
 								}
 
@@ -1989,13 +1990,13 @@
 									"presentation_rect" : [ 252.02581787109375, 19.0, 52.0, 14.764644622802734 ],
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
+											"parameter_initial" : [ 0.0 ],
+											"parameter_shortname" : "Mute",
 											"parameter_enum" : [ "val1", "val2" ],
 											"parameter_type" : 2,
 											"parameter_longname" : "Mute",
 											"parameter_initial_enable" : 1,
-											"parameter_mmax" : 1.0,
-											"parameter_initial" : [ 0.0 ],
-											"parameter_shortname" : "Mute"
+											"parameter_mmax" : 1.0
 										}
 
 									}
@@ -2010,6 +2011,7 @@
 , 							{
 								"box" : 								{
 									"activedialcolor" : [ 0.278431, 0.839216, 1.0, 1.0 ],
+									"activefgdialcolor" : [ 0.65098, 0.666667, 0.662745, 1.0 ],
 									"activeneedlecolor" : [ 1.0, 1.0, 1.0, 0.7 ],
 									"fontface" : 1,
 									"fontname" : "Ableton Sans Bold Regular",
@@ -2025,13 +2027,13 @@
 									"presentation_rect" : [ 260.648956298828125, 43.221527099609375, 47.0, 48.0 ],
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
+											"parameter_initial" : [ 0.0 ],
+											"parameter_shortname" : "PWM",
 											"parameter_type" : 0,
 											"parameter_unitstyle" : 5,
 											"parameter_longname" : "PWM",
 											"parameter_initial_enable" : 1,
-											"parameter_mmax" : 100.0,
-											"parameter_initial" : [ 0.0 ],
-											"parameter_shortname" : "PWM"
+											"parameter_mmax" : 100.0
 										}
 
 									}
@@ -2044,6 +2046,7 @@
 , 							{
 								"box" : 								{
 									"activedialcolor" : [ 0.278431, 0.839216, 1.0, 1.0 ],
+									"activefgdialcolor" : [ 0.65098, 0.666667, 0.662745, 1.0 ],
 									"activeneedlecolor" : [ 1.0, 1.0, 1.0, 0.7 ],
 									"fontname" : "Ableton Sans Bold Regular",
 									"hint" : "Pulse width/duty cycle. (only available when waveform is set to square)",
@@ -2058,13 +2061,13 @@
 									"presentation_rect" : [ 217.927764892578125, 43.221527099609375, 46.0, 48.0 ],
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
+											"parameter_initial" : [ 50 ],
+											"parameter_shortname" : "PW",
 											"parameter_type" : 0,
 											"parameter_unitstyle" : 5,
 											"parameter_longname" : "PW",
 											"parameter_initial_enable" : 1,
-											"parameter_mmax" : 100.0,
-											"parameter_initial" : [ 50 ],
-											"parameter_shortname" : "PW"
+											"parameter_mmax" : 100.0
 										}
 
 									}
@@ -2097,14 +2100,14 @@
 									"presentation_rect" : [ 163.286697387695312, 48.221527099609375, 54.919864654541016, 39.0 ],
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
+											"parameter_initial" : [ 0.0 ],
+											"parameter_speedlim" : 0.0,
+											"parameter_shortname" : "Waveform",
 											"parameter_enum" : [ "sine", "tri", "saw", "square" ],
 											"parameter_type" : 2,
 											"parameter_unitstyle" : 0,
 											"parameter_longname" : "Waveform",
-											"parameter_initial_enable" : 1,
-											"parameter_initial" : [ 0.0 ],
-											"parameter_speedlim" : 0.0,
-											"parameter_shortname" : "Waveform"
+											"parameter_initial_enable" : 1
 										}
 
 									}
@@ -2205,7 +2208,7 @@
 									}
 ,
 									"text" : "autopattr",
-									"varname" : "u522000365"
+									"varname" : "u081000452"
 								}
 
 							}
@@ -3197,16 +3200,16 @@
  ],
 		"lines" : [  ],
 		"parameters" : 		{
-			"obj-17::obj-106" : [ "CV3", "CV3", 0 ],
-			"obj-17::obj-107" : [ "Linear", "Linear", 0 ],
-			"obj-17::obj-4" : [ "Waveform", "Waveform", 0 ],
-			"obj-17::obj-51" : [ "Freq", "Freq", 0 ],
-			"obj-17::obj-46" : [ "Offset", "Offset", 0 ],
-			"obj-17::obj-36" : [ "PW", "PW", 0 ],
-			"obj-17::obj-129" : [ "CV2", "CV2", 0 ],
-			"obj-17::obj-53" : [ "Mute", "Mute", 0 ],
 			"obj-17::obj-45" : [ "FreqMode", "FreqMode", 0 ],
+			"obj-17::obj-4" : [ "Waveform", "Waveform", 0 ],
+			"obj-17::obj-53" : [ "Mute", "Mute", 0 ],
+			"obj-17::obj-106" : [ "CV3", "CV3", 0 ],
+			"obj-17::obj-36" : [ "PW", "PW", 0 ],
+			"obj-17::obj-107" : [ "Linear", "Linear", 0 ],
+			"obj-17::obj-46" : [ "Offset", "Offset", 0 ],
+			"obj-17::obj-51" : [ "Freq", "Freq", 0 ],
 			"obj-17::obj-11" : [ "PWM", "PWM", 0 ],
+			"obj-17::obj-129" : [ "CV2", "CV2", 0 ],
 			"parameterbanks" : 			{
 
 			}
