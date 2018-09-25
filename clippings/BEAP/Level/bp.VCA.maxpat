@@ -3,13 +3,13 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 7,
-			"minor" : 0,
-			"revision" : 1,
+			"minor" : 3,
+			"revision" : 3,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 34.0, 78.0, 1212.0, 641.0 ],
+		"rect" : [ 34.0, 79.0, 1212.0, 641.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -55,8 +55,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 7,
-							"minor" : 0,
-							"revision" : 1,
+							"minor" : 3,
+							"revision" : 3,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -438,7 +438,7 @@
 ,
 									"style" : "",
 									"text" : "autopattr",
-									"varname" : "u663004733"
+									"varname" : "u017000417"
 								}
 
 							}
@@ -477,6 +477,7 @@
 									"comment" : "Scaled output.",
 									"hint" : "",
 									"id" : "obj-11",
+									"index" : 1,
 									"maxclass" : "outlet",
 									"numinlets" : 1,
 									"numoutlets" : 0,
@@ -575,6 +576,7 @@
 									"comment" : "CV input. Modulation input. Modulator. This is the control signal input that scales the signal input. In two quadrant mode, 0 to +5v scales signal from 0-100%. In four quadrant mode, -5v to +5v scales and inverts accordingly.",
 									"hint" : "",
 									"id" : "obj-6",
+									"index" : 2,
 									"maxclass" : "inlet",
 									"numinlets" : 0,
 									"numoutlets" : 1,
@@ -590,6 +592,7 @@
 									"comment" : "Signal input. Carrier input. Audio input. This is the signal that will be scaled by the CV input. The result of this will appear at the output.",
 									"hint" : "",
 									"id" : "obj-17",
+									"index" : 1,
 									"maxclass" : "inlet",
 									"numinlets" : 0,
 									"numoutlets" : 1,
@@ -741,6 +744,7 @@
 									"disabled" : 0,
 									"hidden" : 0,
 									"midpoints" : [ 200.75, 448.354615, 145.75, 448.354615 ],
+									"order" : 2,
 									"source" : [ "obj-17", 0 ]
 								}
 
@@ -751,6 +755,7 @@
 									"disabled" : 0,
 									"hidden" : 0,
 									"midpoints" : [ 200.75, 453.060609, 272.5, 453.060609 ],
+									"order" : 0,
 									"source" : [ "obj-17", 0 ]
 								}
 
@@ -760,6 +765,7 @@
 									"destination" : [ "obj-9", 2 ],
 									"disabled" : 0,
 									"hidden" : 0,
+									"order" : 1,
 									"source" : [ "obj-17", 0 ]
 								}
 
@@ -787,6 +793,7 @@
 									"destination" : [ "obj-20", 1 ],
 									"disabled" : 0,
 									"hidden" : 0,
+									"order" : 2,
 									"source" : [ "obj-24", 0 ]
 								}
 
@@ -797,6 +804,7 @@
 									"disabled" : 0,
 									"hidden" : 0,
 									"midpoints" : [ 441.5, 293.456635, 466.5, 293.456635 ],
+									"order" : 1,
 									"source" : [ "obj-24", 0 ]
 								}
 
@@ -806,6 +814,7 @@
 									"destination" : [ "obj-4", 0 ],
 									"disabled" : 0,
 									"hidden" : 0,
+									"order" : 0,
 									"source" : [ "obj-24", 0 ]
 								}
 
@@ -915,6 +924,7 @@
 									"destination" : [ "obj-22", 0 ],
 									"disabled" : 0,
 									"hidden" : 0,
+									"order" : 1,
 									"source" : [ "obj-5", 0 ]
 								}
 
@@ -924,6 +934,7 @@
 									"destination" : [ "obj-24", 2 ],
 									"disabled" : 0,
 									"hidden" : 0,
+									"order" : 0,
 									"source" : [ "obj-5", 0 ]
 								}
 
@@ -976,13 +987,13 @@
  ],
 		"lines" : [  ],
 		"parameters" : 		{
-			"obj-42::obj-33" : [ "Quadrants", "Quadrants", 0 ],
 			"obj-42::obj-80" : [ "Response", "Response", 0 ],
-			"obj-42::obj-55" : [ "Bypass", "Bypass", 0 ]
+			"obj-42::obj-55" : [ "Bypass", "Bypass", 0 ],
+			"obj-42::obj-33" : [ "Quadrants", "Quadrants", 0 ]
 		}
 ,
 		"dependency_cache" : [  ],
-		"embedsnapshot" : 0
+		"autosave" : 0
 	}
 
 }
