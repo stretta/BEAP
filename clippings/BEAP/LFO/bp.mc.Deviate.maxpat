@@ -161,14 +161,14 @@
 									"presentation_rect" : [ 62.896636962890625, 43.221527099609375, 46.0, 48.0 ],
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
+											"parameter_initial" : [ 0.2 ],
 											"parameter_shortname" : "Deivation",
 											"parameter_type" : 0,
 											"parameter_unitstyle" : 3,
 											"parameter_exponent" : 4.0,
 											"parameter_longname" : "Deivation",
 											"parameter_initial_enable" : 1,
-											"parameter_mmax" : 4.0,
-											"parameter_initial" : [ 0.2 ]
+											"parameter_mmax" : 4.0
 										}
 
 									}
@@ -220,14 +220,14 @@
 									"presentation_rect" : [ 3.896636962890625, 43.221527099609375, 46.0, 48.0 ],
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
+											"parameter_initial" : [ 0.2 ],
 											"parameter_shortname" : "Rate",
 											"parameter_type" : 0,
 											"parameter_unitstyle" : 3,
 											"parameter_exponent" : 4.0,
 											"parameter_longname" : "Rate",
 											"parameter_initial_enable" : 1,
-											"parameter_mmax" : 4.0,
-											"parameter_initial" : [ 0.2 ]
+											"parameter_mmax" : 4.0
 										}
 
 									}
@@ -240,12 +240,13 @@
 , 							{
 								"box" : 								{
 									"id" : "obj-4",
+									"linecount" : 2,
 									"maxclass" : "newobj",
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "multichannelsignal" ],
-									"patching_rect" : [ 366.1875, 175.4375, 250.0, 20.0 ],
-									"text" : "mc.cycle~ @chans 4 @values 0.2 0.3 0.4 0.5"
+									"patching_rect" : [ 366.1875, 175.4375, 233.0, 32.0 ],
+									"text" : "mc.cycle~ @chans 8 @values 0.2 0.3 0.4 0.5"
 								}
 
 							}
@@ -299,13 +300,13 @@
 									"outlettype" : [ "", "", "", "" ],
 									"patching_rect" : [ 33.499991999999999, 111.9375, 59.5, 20.0 ],
 									"restore" : 									{
-										"Deivation" : [ 0.346456692913386 ],
+										"Deivation" : [ 0.256312499187441 ],
 										"Mute" : [ 0.0 ],
-										"Rate" : [ 0.047845629078326 ]
+										"Rate" : [ 0.096100384401155 ]
 									}
 ,
 									"text" : "autopattr",
-									"varname" : "u670009876"
+									"varname" : "u046004316"
 								}
 
 							}
@@ -328,14 +329,14 @@
 									"presentation_rect" : [ 59.896636962890625, 20.117677688598633, 52.0, 14.764644622802734 ],
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
+											"parameter_initial" : [ 0.0 ],
 											"parameter_shortname" : "Mute",
 											"parameter_enum" : [ "val1", "val2" ],
 											"parameter_defer" : 1,
 											"parameter_type" : 2,
 											"parameter_longname" : "Mute",
 											"parameter_initial_enable" : 1,
-											"parameter_mmax" : 1.0,
-											"parameter_initial" : [ 0.0 ]
+											"parameter_mmax" : 1.0
 										}
 
 									}
@@ -501,9 +502,9 @@
  ],
 		"lines" : [  ],
 		"parameters" : 		{
-			"obj-3::obj-26" : [ "Rate", "Rate", 0 ],
-			"obj-3::obj-22" : [ "Mute", "Mute", 0 ],
 			"obj-3::obj-14" : [ "Deivation", "Deivation", 0 ],
+			"obj-3::obj-22" : [ "Mute", "Mute", 0 ],
+			"obj-3::obj-26" : [ "Rate", "Rate", 0 ],
 			"parameterbanks" : 			{
 
 			}
