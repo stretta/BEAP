@@ -63,7 +63,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 34.0, 79.0, 476.0, 566.0 ],
+						"rect" : [ 34.0, 79.0, 1076.0, 659.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 1,
 						"default_fontsize" : 12.0,
@@ -97,7 +97,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 0,
 									"patching_rect" : [ 22.0, 68.0, 213.0, 18.0 ],
-									"text" : "## Slows down or smooth a signal ## "
+									"text" : "## Slow down or smooth a signal ## "
 								}
 
 							}
@@ -671,14 +671,14 @@
 									"presentation_rect" : [ 47.889892578125, 43.984611511230469, 44.0, 48.0 ],
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
-											"parameter_exponent" : 2.0,
 											"parameter_longname" : "Down",
 											"parameter_initial_enable" : 1,
 											"parameter_mmax" : 1000.0,
 											"parameter_initial" : [ 50 ],
 											"parameter_shortname" : "Down",
 											"parameter_type" : 0,
-											"parameter_unitstyle" : 2
+											"parameter_unitstyle" : 2,
+											"parameter_exponent" : 2.0
 										}
 
 									}
@@ -783,8 +783,8 @@
 									"numinlets" : 3,
 									"numoutlets" : 1,
 									"outlettype" : [ "multichannelsignal" ],
-									"patching_rect" : [ 494.0, 350.0, 162.0, 20.0 ],
-									"text" : "mc.rampsmooth~ 4410 4410"
+									"patching_rect" : [ 494.0, 350.0, 286.0, 20.0 ],
+									"text" : "mc.rampsmooth~ 4410 4410 @busymapname beap"
 								}
 
 							}
@@ -805,14 +805,14 @@
 									"presentation_rect" : [ 0.97717297077179, 43.984611511230469, 44.0, 48.0 ],
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
-											"parameter_exponent" : 2.0,
 											"parameter_longname" : "Up",
 											"parameter_initial_enable" : 1,
 											"parameter_mmax" : 1000.0,
 											"parameter_initial" : [ 50 ],
 											"parameter_shortname" : "Up",
 											"parameter_type" : 0,
-											"parameter_unitstyle" : 2
+											"parameter_unitstyle" : 2,
+											"parameter_exponent" : 2.0
 										}
 
 									}
@@ -900,10 +900,10 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 22.0, 44.754272, 29.0, 17.0 ],
+									"patching_rect" : [ 22.0, 44.7542724609375, 41.0, 17.0 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 1.75, 19.222732543945312, 29.0, 17.0 ],
-									"text" : "LAG",
+									"presentation_rect" : [ 1.75, 19.222732543945312, 41.0, 17.0 ],
+									"text" : "mc.LAG",
 									"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 								}
 
@@ -984,8 +984,8 @@
 									"numinlets" : 3,
 									"numoutlets" : 1,
 									"outlettype" : [ "multichannelsignal" ],
-									"patching_rect" : [ 284.670013427734375, 304.0, 120.0, 20.0 ],
-									"text" : "mc.slide~ 4410 4410"
+									"patching_rect" : [ 284.670013427734375, 304.0, 244.0, 20.0 ],
+									"text" : "mc.slide~ 4410 4410 @busymapname beap"
 								}
 
 							}
@@ -1008,7 +1008,7 @@
 									}
 ,
 									"text" : "autopattr",
-									"varname" : "u145000789"
+									"varname" : "u076004238"
 								}
 
 							}
@@ -1246,9 +1246,9 @@
 		"lines" : [  ],
 		"parameters" : 		{
 			"obj-1::obj-37" : [ "Up", "Up", 0 ],
-			"obj-1::obj-22" : [ "InterpMode", "InterpMode", 1 ],
-			"obj-1::obj-9" : [ "Down", "Down", 0 ],
 			"obj-1::obj-11" : [ "Link", "Link", 1 ],
+			"obj-1::obj-9" : [ "Down", "Down", 0 ],
+			"obj-1::obj-22" : [ "InterpMode", "InterpMode", 1 ],
 			"obj-1::obj-1" : [ "bypass", "bypass", 0 ],
 			"parameterbanks" : 			{
 

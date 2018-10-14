@@ -148,14 +148,14 @@
 									"presentation_rect" : [ 50.0, 19.0, 36.0, 14.764644622802734 ],
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
-											"parameter_enum" : [ "val1", "val2" ],
-											"parameter_defer" : 1,
-											"parameter_type" : 2,
 											"parameter_longname" : "bypass",
 											"parameter_initial_enable" : 1,
 											"parameter_mmax" : 1.0,
 											"parameter_initial" : [ 0.0 ],
-											"parameter_shortname" : "bypass"
+											"parameter_shortname" : "bypass",
+											"parameter_enum" : [ "val1", "val2" ],
+											"parameter_defer" : 1,
+											"parameter_type" : 2
 										}
 
 									}
@@ -195,7 +195,7 @@
 									}
 ,
 									"text" : "autopattr",
-									"varname" : "u017001385"
+									"varname" : "u528008722"
 								}
 
 							}
@@ -208,7 +208,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 256.173828000000015, 211.0, 43.0, 21.0 ],
+									"patching_rect" : [ 362.173828125, 183.0, 43.0, 21.0 ],
 									"text" : "$1 20"
 								}
 
@@ -222,7 +222,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 2,
 									"outlettype" : [ "signal", "bang" ],
-									"patching_rect" : [ 256.173828000000015, 241.0, 40.0, 21.0 ],
+									"patching_rect" : [ 362.173828125, 213.0, 40.0, 21.0 ],
 									"text" : "line~"
 								}
 
@@ -236,8 +236,8 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "multichannelsignal" ],
-									"patching_rect" : [ 224.173828125, 274.0, 40.0, 20.0 ],
-									"text" : "mc.*~"
+									"patching_rect" : [ 224.173828125, 274.0, 164.0, 20.0 ],
+									"text" : "mc.*~ @busymapname beap"
 								}
 
 							}
@@ -250,7 +250,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "float" ],
-									"patching_rect" : [ 256.173828000000015, 177.0, 42.0, 20.0 ],
+									"patching_rect" : [ 362.173828125, 149.0, 42.0, 20.0 ],
 									"text" : "* 0.01"
 								}
 
@@ -266,16 +266,16 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "float" ],
 									"parameter_enable" : 1,
-									"patching_rect" : [ 256.173828000000015, 110.5, 44.0, 48.0 ],
+									"patching_rect" : [ 362.173828125, 82.5, 44.0, 48.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 3.0, 43.0, 44.0, 48.0 ],
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
-											"parameter_type" : 0,
-											"parameter_unitstyle" : 5,
 											"parameter_longname" : "Signal",
 											"parameter_mmax" : 100.0,
-											"parameter_shortname" : "Signal"
+											"parameter_shortname" : "Signal",
+											"parameter_type" : 0,
+											"parameter_unitstyle" : 5
 										}
 
 									}
@@ -486,8 +486,8 @@
  ],
 		"lines" : [  ],
 		"parameters" : 		{
-			"obj-3::obj-20" : [ "bypass", "bypass", 0 ],
 			"obj-3::obj-3" : [ "Signal", "Signal", 0 ],
+			"obj-3::obj-20" : [ "bypass", "bypass", 0 ],
 			"parameterbanks" : 			{
 
 			}

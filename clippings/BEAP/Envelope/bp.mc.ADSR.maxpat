@@ -63,7 +63,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 143.0, 142.0, 830.0, 665.0 ],
+						"rect" : [ 140.0, 157.0, 830.0, 665.0 ],
 						"bglocked" : 1,
 						"openinpresentation" : 1,
 						"default_fontsize" : 12.0,
@@ -123,14 +123,14 @@
 									"presentation_rect" : [ 184.268768310546875, 42.459659576416016, 45.0, 14.764644622802734 ],
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
+											"parameter_mmax" : 1.0,
 											"parameter_initial" : [ 0.0 ],
 											"parameter_shortname" : "Legato",
 											"parameter_enum" : [ "val1", "val2" ],
 											"parameter_defer" : 1,
 											"parameter_type" : 2,
-											"parameter_longname" : "Legato[2]",
-											"parameter_initial_enable" : 1,
-											"parameter_mmax" : 1.0
+											"parameter_longname" : "Legato",
+											"parameter_initial_enable" : 1
 										}
 
 									}
@@ -284,13 +284,13 @@
 									"presentation_rect" : [ 91.484771728515625, 43.459659576416016, 44.0, 48.0 ],
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
+											"parameter_mmax" : 100.0,
 											"parameter_initial" : [ 100 ],
 											"parameter_shortname" : "Sustain",
 											"parameter_type" : 0,
 											"parameter_unitstyle" : 5,
-											"parameter_longname" : "Sustain[2]",
-											"parameter_initial_enable" : 1,
-											"parameter_mmax" : 100.0
+											"parameter_longname" : "Sustain",
+											"parameter_initial_enable" : 1
 										}
 
 									}
@@ -317,14 +317,14 @@
 									"presentation_rect" : [ 134.9771728515625, 43.459659576416016, 44.0, 48.0 ],
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
+											"parameter_mmax" : 8000.0,
 											"parameter_initial" : [ 200 ],
 											"parameter_shortname" : "Release",
 											"parameter_type" : 0,
 											"parameter_unitstyle" : 2,
 											"parameter_exponent" : 2.0,
-											"parameter_longname" : "Release[2]",
-											"parameter_initial_enable" : 1,
-											"parameter_mmax" : 8000.0
+											"parameter_longname" : "Release",
+											"parameter_initial_enable" : 1
 										}
 
 									}
@@ -351,14 +351,14 @@
 									"presentation_rect" : [ 47.99237060546875, 43.459659576416016, 44.0, 48.0 ],
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
+											"parameter_mmax" : 8000.0,
 											"parameter_initial" : [ 50 ],
 											"parameter_shortname" : "Decay",
 											"parameter_type" : 0,
 											"parameter_unitstyle" : 2,
 											"parameter_exponent" : 4.0,
-											"parameter_longname" : "Decay[2]",
-											"parameter_initial_enable" : 1,
-											"parameter_mmax" : 8000.0
+											"parameter_longname" : "Decay",
+											"parameter_initial_enable" : 1
 										}
 
 									}
@@ -385,14 +385,14 @@
 									"presentation_rect" : [ 4.5, 43.459659576416016, 44.0, 48.0 ],
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
+											"parameter_mmax" : 8000.0,
 											"parameter_initial" : [ 1 ],
 											"parameter_shortname" : "Attack",
 											"parameter_type" : 0,
 											"parameter_unitstyle" : 2,
 											"parameter_exponent" : 2.0,
-											"parameter_longname" : "Attack[2]",
-											"parameter_initial_enable" : 1,
-											"parameter_mmax" : 8000.0
+											"parameter_longname" : "Attack",
+											"parameter_initial_enable" : 1
 										}
 
 									}
@@ -421,14 +421,14 @@
 									"presentation_rect" : [ 184.268768310546875, 19.0, 45.0, 14.764644622802734 ],
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
+											"parameter_mmax" : 1.0,
 											"parameter_initial" : [ 0.0 ],
 											"parameter_shortname" : "Mute",
 											"parameter_enum" : [ "val1", "val2" ],
 											"parameter_defer" : 1,
 											"parameter_type" : 2,
-											"parameter_longname" : "Mute[3]",
-											"parameter_initial_enable" : 1,
-											"parameter_mmax" : 1.0
+											"parameter_longname" : "Mute",
+											"parameter_initial_enable" : 1
 										}
 
 									}
@@ -451,16 +451,16 @@
 									"outlettype" : [ "", "", "", "" ],
 									"patching_rect" : [ 48.0, 121.0, 59.5, 20.0 ],
 									"restore" : 									{
-										"Attack" : [ 50.0 ],
+										"Attack" : [ 1.0 ],
 										"Decay" : [ 49.999999999999993 ],
 										"Legato" : [ 0.0 ],
 										"Mute" : [ 0.0 ],
-										"Release" : [ 500.0 ],
-										"Sustain" : [ 70.0 ]
+										"Release" : [ 200.0 ],
+										"Sustain" : [ 100.0 ]
 									}
 ,
 									"text" : "autopattr",
-									"varname" : "u286002658"
+									"varname" : "u708008431"
 								}
 
 							}
@@ -487,8 +487,8 @@
 									"numinlets" : 5,
 									"numoutlets" : 5,
 									"outlettype" : [ "multichannelsignal", "multichannelsignal", "", "", "" ],
-									"patching_rect" : [ 141.0, 337.0, 220.25, 20.0 ],
-									"text" : "mc.adsr~"
+									"patching_rect" : [ 141.0, 337.0, 182.0, 20.0 ],
+									"text" : "mc.adsr~ @busymapname beap"
 								}
 
 							}
@@ -538,11 +538,10 @@
 									"fontname" : "Ableton Sans Bold Regular",
 									"fontsize" : 9.0,
 									"id" : "obj-13",
-									"linecount" : 2,
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 48.0, 60.907501220703125, 36.0, 28.0 ],
+									"patching_rect" : [ 48.0, 60.907501220703125, 47.0, 17.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 2.0, 19.0, 47.0, 17.0 ],
 									"text" : "mc.ADSR",
@@ -715,12 +714,12 @@
  ],
 		"lines" : [  ],
 		"parameters" : 		{
-			"obj-4::obj-20" : [ "Mute[3]", "Mute", 0 ],
-			"obj-4::obj-1" : [ "Attack[2]", "Attack", 0 ],
-			"obj-4::obj-31" : [ "Release[2]", "Release", 0 ],
-			"obj-4::obj-32" : [ "Sustain[2]", "Sustain", 0 ],
-			"obj-4::obj-29" : [ "Decay[2]", "Decay", 0 ],
-			"obj-4::obj-15" : [ "Legato[2]", "Legato", 0 ],
+			"obj-4::obj-31" : [ "Release", "Release", 0 ],
+			"obj-4::obj-29" : [ "Decay", "Decay", 0 ],
+			"obj-4::obj-32" : [ "Sustain", "Sustain", 0 ],
+			"obj-4::obj-20" : [ "Mute", "Mute", 0 ],
+			"obj-4::obj-15" : [ "Legato", "Legato", 0 ],
+			"obj-4::obj-1" : [ "Attack", "Attack", 0 ],
 			"parameterbanks" : 			{
 
 			}

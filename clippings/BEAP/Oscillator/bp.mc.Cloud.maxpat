@@ -812,15 +812,15 @@
 									"prototypename" : "freq",
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
+											"parameter_mmax" : 8.0,
+											"parameter_initial" : [ 0.7 ],
 											"parameter_speedlim" : 0.0,
 											"parameter_shortname" : "Fatness",
 											"parameter_type" : 0,
 											"parameter_unitstyle" : 1,
 											"parameter_exponent" : 2.0,
 											"parameter_longname" : "Fatness",
-											"parameter_initial_enable" : 1,
-											"parameter_mmax" : 8.0,
-											"parameter_initial" : [ 0.7 ]
+											"parameter_initial_enable" : 1
 										}
 
 									}
@@ -880,15 +880,15 @@
 									"presentation_rect" : [ 41.769271850585938, 41.375911712646484, 33.0, 15.0 ],
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
+											"parameter_mmax" : 1.0,
+											"parameter_initial" : [ 1 ],
+											"parameter_order" : 1,
 											"parameter_speedlim" : 0.0,
 											"parameter_shortname" : "TimeMode",
 											"parameter_enum" : [ "Freq", "Semitone" ],
 											"parameter_type" : 2,
 											"parameter_longname" : "TimeMode",
-											"parameter_initial_enable" : 1,
-											"parameter_mmax" : 1.0,
-											"parameter_initial" : [ 1 ],
-											"parameter_order" : 1
+											"parameter_initial_enable" : 1
 										}
 
 									}
@@ -976,11 +976,11 @@
 									"presentation_rect" : [ 107.413864135742188, 78.37591552734375, 46.826774597167969, 15.0 ],
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
+											"parameter_mmax" : 100.0,
 											"parameter_shortname" : "Linear",
 											"parameter_type" : 0,
 											"parameter_unitstyle" : 5,
-											"parameter_longname" : "Linear",
-											"parameter_mmax" : 100.0
+											"parameter_longname" : "Linear"
 										}
 
 									}
@@ -1004,11 +1004,11 @@
 									"presentation_rect" : [ 107.413864135742188, 60.375911712646484, 46.826774597167969, 15.0 ],
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
+											"parameter_mmax" : 100.0,
 											"parameter_shortname" : "CV3",
 											"parameter_type" : 0,
 											"parameter_unitstyle" : 5,
-											"parameter_longname" : "CV3",
-											"parameter_mmax" : 100.0
+											"parameter_longname" : "CV3"
 										}
 
 									}
@@ -1032,11 +1032,11 @@
 									"presentation_rect" : [ 107.413864135742188, 42.375911712646484, 46.826774597167969, 15.0 ],
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
+											"parameter_mmax" : 100.0,
 											"parameter_shortname" : "CV2",
 											"parameter_type" : 0,
 											"parameter_unitstyle" : 5,
-											"parameter_longname" : "CV2",
-											"parameter_mmax" : 100.0
+											"parameter_longname" : "CV2"
 										}
 
 									}
@@ -1210,15 +1210,15 @@
 									"prototypename" : "freq",
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
+											"parameter_mmax" : 20000.0,
+											"parameter_initial" : [ 261.625564999999995 ],
 											"parameter_speedlim" : 0.0,
 											"parameter_shortname" : "Freq",
 											"parameter_type" : 0,
 											"parameter_unitstyle" : 3,
 											"parameter_exponent" : 4.0,
 											"parameter_longname" : "Freq",
-											"parameter_initial_enable" : 1,
-											"parameter_mmax" : 20000.0,
-											"parameter_initial" : [ 261.625564999999995 ]
+											"parameter_initial_enable" : 1
 										}
 
 									}
@@ -1249,15 +1249,15 @@
 									"prototypename" : "freq",
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
+											"parameter_mmax" : 64.0,
+											"parameter_initial" : [ 0 ],
 											"parameter_speedlim" : 0.0,
 											"parameter_shortname" : "Offset",
 											"parameter_type" : 0,
 											"parameter_unitstyle" : 1,
 											"parameter_mmin" : -64.0,
 											"parameter_longname" : "Offset",
-											"parameter_initial_enable" : 1,
-											"parameter_mmax" : 64.0,
-											"parameter_initial" : [ 0 ]
+											"parameter_initial_enable" : 1
 										}
 
 									}
@@ -1704,14 +1704,14 @@
 									"presentation_rect" : [ 157.42523193359375, 41.0, 59.843528747558594, 52.37591552734375 ],
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
+											"parameter_initial" : [ 0 ],
 											"parameter_speedlim" : 0.0,
 											"parameter_shortname" : "Waveform",
 											"parameter_enum" : [ "saw", "square", "pulse" ],
 											"parameter_type" : 2,
 											"parameter_unitstyle" : 0,
 											"parameter_longname" : "WaveformCloud",
-											"parameter_initial_enable" : 1,
-											"parameter_initial" : [ 0 ]
+											"parameter_initial_enable" : 1
 										}
 
 									}
@@ -2238,13 +2238,13 @@
 													"box" : 													{
 														"maxclass" : "comment",
 														"text" : "modulated saws",
+														"bubble" : 1,
 														"numinlets" : 1,
 														"id" : "obj-61",
 														"fontsize" : 12.0,
 														"numoutlets" : 0,
 														"fontname" : "Arial",
-														"patching_rect" : [ 1482.202393000000029, 539.0, 114.0, 22.0 ],
-														"bubble" : 1
+														"patching_rect" : [ 1482.202393000000029, 539.0, 114.0, 22.0 ]
 													}
 
 												}
@@ -3469,8 +3469,8 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "multichannelsignal" ],
-									"patching_rect" : [ 195.537445068359375, 1260.50146484375, 48.0, 20.0 ],
-									"text" : "mc.gen~"
+									"patching_rect" : [ 195.537445068359375, 1260.50146484375, 150.0, 20.0 ],
+									"text" : "mc.gen~ @busymapname beap"
 								}
 
 							}
@@ -3497,7 +3497,7 @@
 									}
 ,
 									"text" : "autopattr",
-									"varname" : "u363003752"
+									"varname" : "u961009817"
 								}
 
 							}
@@ -3546,14 +3546,14 @@
 									"presentation_rect" : [ 216.42523193359375, 19.318798065185547, 58.62457275390625, 14.764644622802734 ],
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
+											"parameter_mmax" : 1.0,
+											"parameter_initial" : [ 0.0 ],
 											"parameter_shortname" : "Mute",
 											"parameter_enum" : [ "val1", "val2" ],
 											"parameter_defer" : 1,
 											"parameter_type" : 2,
 											"parameter_longname" : "Mute",
-											"parameter_initial_enable" : 1,
-											"parameter_mmax" : 1.0,
-											"parameter_initial" : [ 0.0 ]
+											"parameter_initial_enable" : 1
 										}
 
 									}
@@ -4064,15 +4064,15 @@
  ],
 		"lines" : [  ],
 		"parameters" : 		{
-			"obj-18::obj-45" : [ "TimeMode", "TimeMode", 1 ],
-			"obj-18::obj-129" : [ "CV2", "CV2", 0 ],
-			"obj-18::obj-331" : [ "WaveformCloud", "Waveform", 0 ],
-			"obj-18::obj-106" : [ "CV3", "CV3", 0 ],
-			"obj-18::obj-46" : [ "Offset", "Offset", 0 ],
-			"obj-18::obj-20" : [ "Mute", "Mute", 0 ],
-			"obj-18::obj-51" : [ "Fatness", "Fatness", 0 ],
-			"obj-18::obj-24" : [ "Freq", "Freq", 0 ],
 			"obj-18::obj-107" : [ "Linear", "Linear", 0 ],
+			"obj-18::obj-46" : [ "Offset", "Offset", 0 ],
+			"obj-18::obj-331" : [ "WaveformCloud", "Waveform", 0 ],
+			"obj-18::obj-45" : [ "TimeMode", "TimeMode", 1 ],
+			"obj-18::obj-51" : [ "Fatness", "Fatness", 0 ],
+			"obj-18::obj-20" : [ "Mute", "Mute", 0 ],
+			"obj-18::obj-106" : [ "CV3", "CV3", 0 ],
+			"obj-18::obj-129" : [ "CV2", "CV2", 0 ],
+			"obj-18::obj-24" : [ "Freq", "Freq", 0 ],
 			"parameterbanks" : 			{
 
 			}
