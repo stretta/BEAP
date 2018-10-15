@@ -102,7 +102,7 @@
 									"patching_rect" : [ 310.79998779296875, 216.5, 35.0, 17.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 167.0, -0.5, 31.0, 17.0 ],
-									"text" : "BUSY",
+									"text" : "Busy",
 									"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 									"textjustification" : 2
 								}
@@ -2116,7 +2116,7 @@
 									}
 ,
 									"text" : "autopattr",
-									"varname" : "u255002488"
+									"varname" : "u850010329"
 								}
 
 							}

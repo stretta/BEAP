@@ -133,7 +133,7 @@
 									}
 ,
 									"text" : "autopattr",
-									"varname" : "u948009973"
+									"varname" : "u975008945"
 								}
 
 							}
@@ -211,7 +211,7 @@
 									"parameter_enable" : 1,
 									"patching_rect" : [ 99.079284999999999, 225.470000999999996, 43.0, 19.0 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 33.140533447265625, 18.0, 52.0, 17.0 ],
+									"presentation_rect" : [ 46.0, 18.0, 39.140533447265625, 17.0 ],
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
 											"parameter_shortname" : "Bypass",
@@ -299,10 +299,10 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 15.0, 46.907501000000003, 30.0, 17.0 ],
+									"patching_rect" : [ 15.0, 46.907501220703125, 42.0, 17.0 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 2.0, 19.0, 30.0, 17.0 ],
-									"text" : "S&H",
+									"presentation_rect" : [ 2.0, 19.0, 42.0, 17.0 ],
+									"text" : "mc.S&H",
 									"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 								}
 

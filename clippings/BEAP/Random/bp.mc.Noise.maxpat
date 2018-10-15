@@ -106,12 +106,13 @@
 									"fontname" : "Arial",
 									"fontsize" : 12.0,
 									"id" : "obj-6",
+									"linecount" : 3,
 									"maxclass" : "newobj",
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "multichannelsignal" ],
-									"patching_rect" : [ 524.0, 84.529998779296875, 114.0, 20.0 ],
-									"text" : "mc.pink~ @chans 4"
+									"patching_rect" : [ 524.0, 84.529998779296875, 118.0, 44.0 ],
+									"text" : "mc.pink~ @chans 8 @busymapname beap"
 								}
 
 							}
@@ -191,12 +192,13 @@
 									"fontname" : "Arial",
 									"fontsize" : 12.0,
 									"id" : "obj-2",
+									"linecount" : 2,
 									"maxclass" : "newobj",
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "multichannelsignal" ],
-									"patching_rect" : [ 452.5, 52.810882568359375, 121.0, 20.0 ],
-									"text" : "mc.noise~ @chans 4"
+									"patching_rect" : [ 452.5, 52.810882568359375, 129.0, 32.0 ],
+									"text" : "mc.noise~ @chans 8 @busymapname beap"
 								}
 
 							}
@@ -216,7 +218,7 @@
 									}
 ,
 									"text" : "autopattr",
-									"varname" : "u229000692"
+									"varname" : "u155008728"
 								}
 
 							}
@@ -460,8 +462,8 @@
  ],
 		"lines" : [  ],
 		"parameters" : 		{
-			"obj-18::obj-55" : [ "Mute", "Mute", 0 ],
 			"obj-18::obj-69" : [ "NoiseType", "NoiseType", 0 ],
+			"obj-18::obj-55" : [ "Mute", "Mute", 0 ],
 			"parameterbanks" : 			{
 
 			}
