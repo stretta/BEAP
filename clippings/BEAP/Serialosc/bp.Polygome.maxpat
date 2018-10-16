@@ -21621,7 +21621,7 @@
 							}
 , 							{
 								"box" : 								{
-									"fontname" : "Arial Bold",
+									"fontname" : "Ableton Sans Bold Regular",
 									"fontsize" : 9.0,
 									"id" : "obj-151",
 									"linecount" : 2,
@@ -21639,7 +21639,7 @@
 							}
 , 							{
 								"box" : 								{
-									"fontname" : "Arial Bold",
+									"fontname" : "Ableton Sans Bold Regular",
 									"fontsize" : 9.0,
 									"id" : "obj-155",
 									"maxclass" : "comment",
@@ -22090,7 +22090,7 @@
 							}
 , 							{
 								"box" : 								{
-									"fontname" : "Arial Bold",
+									"fontname" : "Ableton Sans Bold Regular",
 									"fontsize" : 10.0,
 									"id" : "obj-716",
 									"maxclass" : "comment",
@@ -32295,7 +32295,7 @@
 							}
 , 							{
 								"box" : 								{
-									"fontname" : "Arial Bold",
+									"fontname" : "Ableton Sans Bold Regular",
 									"fontsize" : 10.0,
 									"id" : "obj-325",
 									"maxclass" : "comment",
@@ -32518,7 +32518,7 @@
 , 							{
 								"box" : 								{
 									"bgcolor" : [ 0.219608, 0.219608, 0.219608, 0.0 ],
-									"fontname" : "Arial Bold",
+									"fontname" : "Ableton Sans Bold Regular",
 									"fontsize" : 10.0,
 									"htricolor" : [ 0.219608, 0.219608, 0.219608, 0.0 ],
 									"id" : "obj-291",
@@ -32544,7 +32544,7 @@
 									"bgfillcolor_color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
 									"bgfillcolor_proportion" : 0.39,
 									"bgfillcolor_type" : "color",
-									"fontname" : "Arial Bold",
+									"fontname" : "Ableton Sans Bold Regular",
 									"fontsize" : 10.0,
 									"id" : "obj-290",
 									"items" : [ "waiting", "for", "origin", "press...", ",", "recording...", ",", "end" ],
@@ -33175,7 +33175,7 @@
 							}
 , 							{
 								"box" : 								{
-									"fontname" : "Arial Bold",
+									"fontname" : "Ableton Sans Bold Regular",
 									"fontsize" : 12.0,
 									"id" : "obj-651",
 									"maxclass" : "comment",
@@ -33189,7 +33189,7 @@
 							}
 , 							{
 								"box" : 								{
-									"fontname" : "Arial Bold",
+									"fontname" : "Ableton Sans Bold Regular",
 									"fontsize" : 12.0,
 									"id" : "obj-650",
 									"maxclass" : "comment",
@@ -34170,7 +34170,7 @@
 							}
 , 							{
 								"box" : 								{
-									"fontname" : "Arial Bold",
+									"fontname" : "Ableton Sans Bold Regular",
 									"fontsize" : 9.0,
 									"id" : "obj-6",
 									"maxclass" : "comment",
@@ -34187,7 +34187,7 @@
 							}
 , 							{
 								"box" : 								{
-									"fontname" : "Arial Bold",
+									"fontname" : "Ableton Sans Bold Regular",
 									"fontsize" : 9.0,
 									"id" : "obj-20",
 									"maxclass" : "comment",
@@ -34231,7 +34231,7 @@
 							}
 , 							{
 								"box" : 								{
-									"fontname" : "Arial Bold",
+									"fontname" : "Ableton Sans Bold Regular",
 									"fontsize" : 9.0,
 									"id" : "obj-23",
 									"maxclass" : "comment",
