@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 0,
-			"revision" : 0,
+			"revision" : 3,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
@@ -57,13 +57,13 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 0,
-							"revision" : 0,
+							"revision" : 3,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 140.0, 361.0, 914.0, 662.0 ],
+						"rect" : [ 140.0, 179.0, 914.0, 662.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 1,
 						"default_fontsize" : 12.0,
@@ -116,13 +116,13 @@
 									"presentation_rect" : [ 497.0, 79.0, 76.833335876464844, 12.0 ],
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
+											"parameter_initial" : [ 64 ],
+											"parameter_shortname" : "velocity",
 											"parameter_type" : 3,
 											"parameter_longname" : "velocity",
 											"parameter_initial_enable" : 1,
 											"parameter_invisible" : 1,
-											"parameter_mmax" : 126.0,
-											"parameter_initial" : [ 64 ],
-											"parameter_shortname" : "velocity"
+											"parameter_mmax" : 126.0
 										}
 
 									}
@@ -196,13 +196,13 @@
 									"presentation_rect" : [ 497.0, 56.0, 76.833335876464844, 20.0 ],
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
+											"parameter_initial" : [ 2.0 ],
+											"parameter_shortname" : "octave",
 											"parameter_enum" : [ "-2", "-1", "0", "1", "2" ],
 											"parameter_type" : 2,
 											"parameter_unitstyle" : 0,
 											"parameter_longname" : "octave",
-											"parameter_initial_enable" : 1,
-											"parameter_initial" : [ 2.0 ],
-											"parameter_shortname" : "octave"
+											"parameter_initial_enable" : 1
 										}
 
 									}
@@ -225,11 +225,11 @@
 									"presentation_rect" : [ 497.0, 41.0, 76.833335876464844, 15.333333015441895 ],
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
+											"parameter_shortname" : "live.text",
 											"parameter_enum" : [ "val1", "val2" ],
 											"parameter_type" : 2,
 											"parameter_longname" : "live.text",
-											"parameter_mmax" : 1.0,
-											"parameter_shortname" : "live.text"
+											"parameter_mmax" : 1.0
 										}
 
 									}
@@ -369,7 +369,7 @@
 										"appversion" : 										{
 											"major" : 8,
 											"minor" : 0,
-											"revision" : 0,
+											"revision" : 3,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -634,11 +634,11 @@
 									"presentation_rect" : [ 375.542236328125, 41.0, 48.0, 53.0 ],
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
+											"parameter_shortname" : "KeyboardMode",
 											"parameter_enum" : [ "Normal", "Drone", "Repeat" ],
 											"parameter_type" : 2,
 											"parameter_unitstyle" : 0,
-											"parameter_longname" : "KeyboardMode",
-											"parameter_shortname" : "KeyboardMode"
+											"parameter_longname" : "KeyboardMode"
 										}
 
 									}
@@ -660,7 +660,7 @@
 										"appversion" : 										{
 											"major" : 8,
 											"minor" : 0,
-											"revision" : 0,
+											"revision" : 3,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -705,7 +705,7 @@
 														"appversion" : 														{
 															"major" : 8,
 															"minor" : 0,
-															"revision" : 0,
+															"revision" : 3,
 															"architecture" : "x64",
 															"modernui" : 1
 														}
@@ -1230,7 +1230,7 @@
 													"numoutlets" : 3,
 													"outlettype" : [ "", "", "" ],
 													"patching_rect" : [ 51.0, 392.0, 61.0, 22.0 ],
-													"restore" : [ 0 ],
+													"restore" : [ 5 ],
 													"saved_object_attributes" : 													{
 														"parameter_enable" : 0,
 														"parameter_mappable" : 0
@@ -1574,7 +1574,7 @@
 										"appversion" : 										{
 											"major" : 8,
 											"minor" : 0,
-											"revision" : 0,
+											"revision" : 3,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -1629,7 +1629,7 @@
 													"numoutlets" : 3,
 													"outlettype" : [ "", "", "" ],
 													"patching_rect" : [ 98.0, 232.082703000000009, 78.0, 22.0 ],
-													"restore" : [ 1.309753 ],
+													"restore" : [ 0.136710273420547 ],
 													"saved_object_attributes" : 													{
 														"parameter_enable" : 0,
 														"parameter_mappable" : 0
@@ -1860,13 +1860,13 @@
 									"presentation_rect" : [ 424.542236328125, 79.0, 67.102203369140625, 15.0 ],
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
+											"parameter_initial" : [ 250 ],
+											"parameter_shortname" : "RepeatInterval",
 											"parameter_type" : 0,
 											"parameter_unitstyle" : 2,
 											"parameter_longname" : "RepeatInterval",
 											"parameter_initial_enable" : 1,
-											"parameter_mmax" : 1000.0,
-											"parameter_initial" : [ 250 ],
-											"parameter_shortname" : "RepeatInterval"
+											"parameter_mmax" : 1000.0
 										}
 
 									}
@@ -1973,7 +1973,7 @@
 									"fontsize" : 10.0,
 									"hint" : "MIDI port",
 									"id" : "obj-56",
-									"items" : [ "to Max 1", ",", "to Max 2" ],
+									"items" : [ "IAC Driver Bus 1", ",", "to Max 1", ",", "to Max 2", ",", "Satori Ensemble.amxd" ],
 									"maxclass" : "umenu",
 									"numinlets" : 1,
 									"numoutlets" : 3,
@@ -2071,11 +2071,11 @@
 									"presentation_rect" : [ 345.411712646484375, 41.0, 28.130523681640625, 53.0 ],
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
+											"parameter_shortname" : "Octave",
 											"parameter_enum" : [ "0", "+1", "+2" ],
 											"parameter_type" : 2,
 											"parameter_unitstyle" : 0,
-											"parameter_longname" : "Octave",
-											"parameter_shortname" : "Octave"
+											"parameter_longname" : "Octave"
 										}
 
 									}
@@ -2129,7 +2129,7 @@
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "" ],
 									"patching_rect" : [ 532.5, 439.0, 63.0, 20.0 ],
-									"restore" : [ 0.916667 ],
+									"restore" : [ 0.333333333333333 ],
 									"saved_object_attributes" : 									{
 										"parameter_enable" : 0,
 										"parameter_mappable" : 0
@@ -2155,23 +2155,22 @@
 										"MIDIPort" : [ "to Max 1" ],
 										"Octave" : [ 0.0 ],
 										"RepeatInterval" : [ 250.0 ],
-										"kslider" : [ -1 ],
+										"kslider" : [ 64 ],
 										"live.text" : [ 1.0 ],
 										"octave" : [ 2.0 ],
 										"velocity" : [ 64 ]
 									}
 ,
 									"text" : "autopattr",
-									"varname" : "u175009883"
+									"varname" : "u059003364"
 								}
 
 							}
 , 							{
 								"box" : 								{
-									"hkeycolor" : [ 0.815686, 0.858824, 0.34902, 1.0 ],
+									"hkeycolor" : [ 0.92156862745098, 0.917647058823529, 0.933333333333333, 1.0 ],
 									"id" : "obj-22",
 									"maxclass" : "kslider",
-									"mode" : 2,
 									"numinlets" : 2,
 									"numoutlets" : 2,
 									"outlettype" : [ "int", "int" ],
@@ -2652,13 +2651,13 @@
  ],
 		"lines" : [  ],
 		"parameters" : 		{
+			"obj-6::obj-48" : [ "live.text", "live.text", 0 ],
+			"obj-6::obj-5" : [ "Octave", "Octave", 0 ],
 			"obj-6::obj-15::obj-2" : [ "pastebang", "pastebang", 0 ],
 			"obj-6::obj-68" : [ "RepeatInterval", "RepeatInterval", 0 ],
-			"obj-6::obj-5" : [ "Octave", "Octave", 0 ],
-			"obj-6::obj-71" : [ "velocity", "velocity", 0 ],
-			"obj-6::obj-52" : [ "octave", "octave", 0 ],
-			"obj-6::obj-48" : [ "live.text", "live.text", 0 ],
 			"obj-6::obj-12" : [ "KeyboardMode", "KeyboardMode", 0 ],
+			"obj-6::obj-52" : [ "octave", "octave", 0 ],
+			"obj-6::obj-71" : [ "velocity", "velocity", 0 ],
 			"parameterbanks" : 			{
 
 			}

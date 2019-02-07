@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 0,
-			"revision" : 0,
+			"revision" : 3,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
@@ -57,7 +57,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 0,
-							"revision" : 0,
+							"revision" : 3,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -104,7 +104,7 @@
 										"appversion" : 										{
 											"major" : 8,
 											"minor" : 0,
-											"revision" : 0,
+											"revision" : 3,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -427,7 +427,7 @@
 										"appversion" : 										{
 											"major" : 8,
 											"minor" : 0,
-											"revision" : 0,
+											"revision" : 3,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -1542,14 +1542,13 @@
 											"parameter_longname" : "Offset",
 											"parameter_initial_enable" : 1,
 											"parameter_modmode" : 2,
-											"parameter_mmax" : 64.0,
-											"parameter_steps" : 129
+											"parameter_mmax" : 63.0
 										}
 
 									}
 ,
 									"textcolor" : [ 1.0, 1.0, 1.0, 0.6 ],
-									"varname" : "Offset[2]"
+									"varname" : "Offset"
 								}
 
 							}
@@ -2201,14 +2200,14 @@
 										"FreqMode" : [ 1.0 ],
 										"Linear" : [ 0.0 ],
 										"Mute" : [ 0.0 ],
-										"Offset[2]" : [ 0.0 ],
+										"Offset" : [ 0.0 ],
 										"PW" : [ 50.0 ],
 										"PWM" : [ 0.0 ],
 										"Waveform" : [ 2.0 ]
 									}
 ,
 									"text" : "autopattr",
-									"varname" : "u081000452"
+									"varname" : "u757002455"
 								}
 
 							}
@@ -3200,16 +3199,16 @@
  ],
 		"lines" : [  ],
 		"parameters" : 		{
-			"obj-17::obj-45" : [ "FreqMode", "FreqMode", 0 ],
-			"obj-17::obj-4" : [ "Waveform", "Waveform", 0 ],
-			"obj-17::obj-53" : [ "Mute", "Mute", 0 ],
-			"obj-17::obj-106" : [ "CV3", "CV3", 0 ],
-			"obj-17::obj-36" : [ "PW", "PW", 0 ],
 			"obj-17::obj-107" : [ "Linear", "Linear", 0 ],
-			"obj-17::obj-46" : [ "Offset", "Offset", 0 ],
+			"obj-17::obj-4" : [ "Waveform", "Waveform", 0 ],
 			"obj-17::obj-51" : [ "Freq", "Freq", 0 ],
-			"obj-17::obj-11" : [ "PWM", "PWM", 0 ],
+			"obj-17::obj-36" : [ "PW", "PW", 0 ],
 			"obj-17::obj-129" : [ "CV2", "CV2", 0 ],
+			"obj-17::obj-53" : [ "Mute", "Mute", 0 ],
+			"obj-17::obj-45" : [ "FreqMode", "FreqMode", 0 ],
+			"obj-17::obj-11" : [ "PWM", "PWM", 0 ],
+			"obj-17::obj-106" : [ "CV3", "CV3", 0 ],
+			"obj-17::obj-46" : [ "Offset", "Offset", 0 ],
 			"parameterbanks" : 			{
 
 			}
