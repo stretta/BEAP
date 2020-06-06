@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 1,
-			"revision" : 3,
+			"revision" : 4,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
@@ -37,7 +37,20 @@
 		"tags" : "",
 		"style" : "",
 		"subpatcher_template" : "",
+		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
+				"box" : 				{
+					"id" : "obj-18",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "signal" ],
+					"patching_rect" : [ 168.0, 630.0, 40.0, 22.0 ],
+					"text" : "*~ 0.4"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"id" : "obj-20",
 					"maxclass" : "newobj",
@@ -848,8 +861,8 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-47", 0 ],
-					"midpoints" : [ 537.737915000000044, 580.511405999999965, 107.737846000000005, 580.511405999999965 ],
+					"destination" : [ "obj-18", 0 ],
+					"midpoints" : [ 537.737915000000044, 580.511405999999965, 177.5, 580.511405999999965 ],
 					"source" : [ "obj-108", 0 ]
 				}
 
@@ -1063,6 +1076,13 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-47", 0 ],
+					"source" : [ "obj-18", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-23", 0 ],
 					"source" : [ "obj-19", 0 ]
 				}
@@ -1084,7 +1104,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-47", 0 ],
+					"destination" : [ "obj-18", 0 ],
 					"source" : [ "obj-23", 0 ]
 				}
 
@@ -1345,8 +1365,8 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-47", 0 ],
-					"midpoints" : [ 309.537963999999988, 580.511405999999965, 107.737846000000005, 580.511405999999965 ],
+					"destination" : [ "obj-18", 0 ],
+					"midpoints" : [ 309.537963999999988, 580.511405999999965, 177.5, 580.511405999999965 ],
 					"source" : [ "obj-76", 0 ]
 				}
 
@@ -1395,8 +1415,8 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-47", 0 ],
-					"midpoints" : [ 761.737915000000044, 580.511405999999965, 107.737846000000005, 580.511405999999965 ],
+					"destination" : [ "obj-18", 0 ],
+					"midpoints" : [ 761.737915000000044, 580.511405999999965, 177.5, 580.511405999999965 ],
 					"source" : [ "obj-93", 0 ]
 				}
 
