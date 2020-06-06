@@ -147,6 +147,24 @@
 						"assistshowspatchername" : 0,
 						"boxes" : [ 							{
 								"box" : 								{
+									"bubble" : 1,
+									"bubblepoint" : 0.3,
+									"fontname" : "Arial",
+									"fontsize" : 13.0,
+									"id" : "obj-7",
+									"linecount" : 2,
+									"maxclass" : "comment",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 657.0, 398.5, 143.0, 40.0 ],
+									"presentation_linecount" : 2,
+									"text" : "Curvature of segment 1 = linear",
+									"textcolor" : [ 0.501961, 0.501961, 0.501961, 1.0 ]
+								}
+
+							}
+, 							{
+								"box" : 								{
 									"bgcolor" : [ 0.0, 0.0, 0.0, 0.0 ],
 									"bubble" : 1,
 									"bubbleside" : 2,
@@ -323,7 +341,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 666.0, 328.5, 143.0, 79.0 ],
+									"patching_rect" : [ 663.0, 310.0, 143.0, 79.0 ],
 									"text" : "Play several notes, notice the changes in the release part of the sound, modulated by the above LFO",
 									"textcolor" : [ 0.501961, 0.501961, 0.501961, 1.0 ]
 								}
