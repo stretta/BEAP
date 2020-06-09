@@ -2193,7 +2193,7 @@
 													}
 ,
 													"text" : "autopattr",
-													"varname" : "u149001811"
+													"varname" : "u609007325"
 												}
 
 											}
@@ -3294,7 +3294,7 @@
 													"numoutlets" : 3,
 													"outlettype" : [ "", "", "" ],
 													"patching_rect" : [ 256.5, 740.0, 61.0, 22.0 ],
-													"restore" : [ -1.083333333333333 ],
+													"restore" : [ -1.916666666666667 ],
 													"saved_object_attributes" : 													{
 														"parameter_enable" : 0,
 														"parameter_mappable" : 0
@@ -3556,7 +3556,7 @@
 													}
 ,
 													"text" : "autopattr",
-													"varname" : "u180001807"
+													"varname" : "u902007321"
 												}
 
 											}
@@ -5941,7 +5941,7 @@
 													}
 ,
 													"text" : "autopattr",
-													"varname" : "u492001802"
+													"varname" : "u117007316"
 												}
 
 											}
@@ -11084,7 +11084,7 @@
 													}
 ,
 													"text" : "autopattr",
-													"varname" : "u030001801"
+													"varname" : "u398007315"
 												}
 
 											}
@@ -12521,8 +12521,8 @@
 			"obj-2::obj-15::obj-236" : [ "drummapnote[15]", "note", 0 ],
 			"obj-2::obj-18::obj-20" : [ "enable", "enable", 0 ],
 			"obj-2::obj-2::obj-51" : [ "Fatness[1]", "Fatness", 0 ],
-			"obj-2::obj-15::obj-226" : [ "drummapnote[5]", "note", 0 ],
 			"obj-2::obj-15::obj-22" : [ "clear", "clear", 0 ],
+			"obj-2::obj-15::obj-226" : [ "drummapnote[5]", "note", 0 ],
 			"obj-2::obj-41::obj-69" : [ "1voctled", "1voctled", 0 ],
 			"obj-2::obj-15::obj-12" : [ "Mute[3]", "Mute", 0 ],
 			"obj-2::obj-15::obj-5" : [ "drums", "drums", 0 ],
@@ -12619,6 +12619,10 @@
 ,
 				"obj-2::obj-1::obj-80" : 				{
 					"parameter_longname" : "Response[1]"
+				}
+,
+				"obj-2::obj-3::obj-76" : 				{
+					"parameter_initial" : 1
 				}
 ,
 				"obj-2::obj-8::obj-22" : 				{
