@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 531.0, 141.0, 699.0, 826.0 ],
+		"rect" : [ 682.0, 142.0, 576.0, 749.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -116,14 +116,14 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 531.0, 167.0, 699.0, 800.0 ],
+						"rect" : [ 682.0, 168.0, 576.0, 723.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 13.0,
 						"default_fontface" : 0,
 						"default_fontname" : "Arial",
 						"gridonopen" : 1,
-						"gridsize" : [ 10.0, 10.0 ],
+						"gridsize" : [ 5.0, 5.0 ],
 						"gridsnaponopen" : 1,
 						"objectsnaponopen" : 1,
 						"statusbarvisible" : 2,
@@ -148,32 +148,13 @@
 						"boxes" : [ 							{
 								"box" : 								{
 									"bubble" : 1,
-									"fontname" : "Arial",
-									"fontsize" : 13.0,
-									"id" : "obj-10",
+									"bubblepoint" : 0.0,
+									"id" : "obj-2",
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 170.0, 535.0, 383.0, 25.0 ],
-									"text" : "Two quadrant = VCA. Four quadrant for amplitude modulation",
-									"textcolor" : [ 0.2, 0.2, 0.2, 1.0 ],
-									"varname" : "autohelp_top_digest[3]"
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"bubble" : 1,
-									"fontname" : "Arial",
-									"fontsize" : 13.0,
-									"id" : "obj-9",
-									"maxclass" : "comment",
-									"numinlets" : 1,
-									"numoutlets" : 0,
-									"patching_rect" : [ 170.0, 510.0, 344.0, 25.0 ],
-									"text" : "Expo or linear response. (Expo for audio, linear for CV)",
-									"textcolor" : [ 0.2, 0.2, 0.2, 1.0 ],
-									"varname" : "autohelp_top_digest[1]"
+									"patching_rect" : [ 74.0, 230.0, 150.0, 25.0 ],
+									"text" : "Time until next trigger"
 								}
 
 							}
@@ -188,14 +169,28 @@
 									"id" : "obj-1",
 									"lockeddragscroll" : 0,
 									"maxclass" : "bpatcher",
-									"name" : "bp.Keyboard.maxpat",
-									"numinlets" : 0,
-									"numoutlets" : 4,
+									"name" : "bp.Poisson Pulse.maxpat",
+									"numinlets" : 4,
+									"numoutlets" : 3,
 									"offset" : [ 0.0, 0.0 ],
-									"outlettype" : [ "signal", "signal", "signal", "signal" ],
-									"patching_rect" : [ 50.0, 130.0, 578.0, 117.0 ],
-									"varname" : "bp.Keyboard",
+									"outlettype" : [ "signal", "signal", "signal" ],
+									"patching_rect" : [ 10.0, 109.0, 258.0, 116.0 ],
+									"varname" : "bp.Poisson Pulse",
 									"viewvisibility" : 1
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"bubble" : 1,
+									"bubblepoint" : 0.11,
+									"id" : "obj-33",
+									"linecount" : 3,
+									"maxclass" : "comment",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 270.0, 156.0, 178.0, 54.0 ],
+									"text" : "When \"triggered\" is on, events are snapped to the clock signal"
 								}
 
 							}
@@ -207,16 +202,16 @@
 									"enablehscroll" : 0,
 									"enablevscroll" : 0,
 									"extract" : 1,
-									"id" : "obj-4",
+									"id" : "obj-25",
 									"lockeddragscroll" : 0,
 									"maxclass" : "bpatcher",
-									"name" : "bp.ADSR.maxpat",
+									"name" : "bp.FM.maxpat",
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"offset" : [ 0.0, 0.0 ],
 									"outlettype" : [ "signal" ],
-									"patching_rect" : [ 400.0, 300.0, 234.0, 116.0 ],
-									"varname" : "bp.ADSR",
+									"patching_rect" : [ 169.0, 288.0, 211.0, 116.0 ],
+									"varname" : "bp.FM",
 									"viewvisibility" : 1
 								}
 
@@ -229,7 +224,29 @@
 									"enablehscroll" : 0,
 									"enablevscroll" : 0,
 									"extract" : 1,
-									"id" : "obj-3",
+									"id" : "obj-24",
+									"lockeddragscroll" : 0,
+									"maxclass" : "bpatcher",
+									"name" : "bp.Decay.maxpat",
+									"numinlets" : 1,
+									"numoutlets" : 1,
+									"offset" : [ 0.0, 0.0 ],
+									"outlettype" : [ "signal" ],
+									"patching_rect" : [ 10.0, 288.0, 91.0, 116.0 ],
+									"varname" : "bp.Decay",
+									"viewvisibility" : 1
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"bgmode" : 0,
+									"border" : 0,
+									"clickthrough" : 0,
+									"enablehscroll" : 0,
+									"enablevscroll" : 0,
+									"extract" : 1,
+									"id" : "obj-23",
 									"lockeddragscroll" : 0,
 									"maxclass" : "bpatcher",
 									"name" : "bp.VCA.maxpat",
@@ -237,7 +254,7 @@
 									"numoutlets" : 1,
 									"offset" : [ 0.0, 0.0 ],
 									"outlettype" : [ "signal" ],
-									"patching_rect" : [ 50.0, 470.0, 113.0, 116.0 ],
+									"patching_rect" : [ 169.0, 428.0, 113.0, 116.0 ],
 									"varname" : "bp.VCA",
 									"viewvisibility" : 1
 								}
@@ -251,15 +268,16 @@
 									"enablehscroll" : 0,
 									"enablevscroll" : 0,
 									"extract" : 1,
-									"id" : "obj-2",
+									"id" : "obj-22",
 									"lockeddragscroll" : 0,
 									"maxclass" : "bpatcher",
-									"name" : "bp.Stereo.maxpat",
-									"numinlets" : 2,
-									"numoutlets" : 0,
+									"name" : "bp.LFO.maxpat",
+									"numinlets" : 0,
+									"numoutlets" : 5,
 									"offset" : [ 0.0, 0.0 ],
-									"patching_rect" : [ 50.0, 630.0, 148.0, 116.0 ],
-									"varname" : "bp.Stereo",
+									"outlettype" : [ "signal", "signal", "signal", "signal", "signal" ],
+									"patching_rect" : [ 408.0, 288.0, 137.0, 116.0 ],
+									"varname" : "bp.LFO",
 									"viewvisibility" : 1
 								}
 
@@ -272,16 +290,15 @@
 									"enablehscroll" : 0,
 									"enablevscroll" : 0,
 									"extract" : 1,
-									"id" : "obj-6",
+									"id" : "obj-21",
 									"lockeddragscroll" : 0,
 									"maxclass" : "bpatcher",
-									"name" : "bp.Oscillator.maxpat",
-									"numinlets" : 6,
-									"numoutlets" : 2,
+									"name" : "bp.Stereo.maxpat",
+									"numinlets" : 2,
+									"numoutlets" : 0,
 									"offset" : [ 0.0, 0.0 ],
-									"outlettype" : [ "signal", "signal" ],
-									"patching_rect" : [ 50.0, 300.0, 314.0, 116.0 ],
-									"varname" : "bp.Oscillator",
+									"patching_rect" : [ 169.0, 561.0, 148.0, 116.0 ],
+									"varname" : "bp.Stereo[1]",
 									"viewvisibility" : 1
 								}
 
@@ -294,8 +311,8 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 50.0, 80.0, 331.0, 21.0 ],
-									"text" : "Use a signal to control the output level of another signal",
+									"patching_rect" : [ 10.0, 72.6875, 428.0, 21.0 ],
+									"text" : "Generate pulses following the Poisson distribution",
 									"textcolor" : [ 0.2, 0.2, 0.2, 1.0 ],
 									"varname" : "autohelp_top_digest"
 								}
@@ -309,8 +326,8 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 50.0, 30.0, 109.0, 60.0 ],
-									"text" : "VCA",
+									"patching_rect" : [ 10.0, 10.6875, 361.0, 60.0 ],
+									"text" : "Poisson Pulse",
 									"textcolor" : [ 0.2, 0.2, 0.2, 1.0 ],
 									"varname" : "autohelp_top_digest[2]"
 								}
@@ -319,68 +336,47 @@
  ],
 						"lines" : [ 							{
 								"patchline" : 								{
-									"destination" : [ "obj-4", 0 ],
-									"source" : [ "obj-1", 1 ]
-								}
-
-							}
-, 							{
-								"patchline" : 								{
-									"destination" : [ "obj-6", 0 ],
+									"destination" : [ "obj-24", 0 ],
 									"source" : [ "obj-1", 0 ]
 								}
 
 							}
 , 							{
 								"patchline" : 								{
-									"destination" : [ "obj-2", 1 ],
+									"destination" : [ "obj-25", 1 ],
+									"source" : [ "obj-22", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-21", 1 ],
 									"order" : 0,
-									"source" : [ "obj-3", 0 ]
+									"source" : [ "obj-23", 0 ]
 								}
 
 							}
 , 							{
 								"patchline" : 								{
-									"destination" : [ "obj-2", 0 ],
+									"destination" : [ "obj-21", 0 ],
 									"order" : 1,
-									"source" : [ "obj-3", 0 ]
+									"source" : [ "obj-23", 0 ]
 								}
 
 							}
 , 							{
 								"patchline" : 								{
-									"destination" : [ "obj-3", 1 ],
-									"source" : [ "obj-4", 0 ]
+									"destination" : [ "obj-23", 1 ],
+									"source" : [ "obj-24", 0 ]
 								}
 
 							}
 , 							{
 								"patchline" : 								{
-									"destination" : [ "obj-3", 0 ],
-									"source" : [ "obj-6", 0 ]
+									"destination" : [ "obj-23", 0 ],
+									"source" : [ "obj-25", 0 ]
 								}
 
-							}
- ],
-						"styles" : [ 							{
-								"name" : "Manuel1",
-								"default" : 								{
-									"fontsize" : [ 10.0 ],
-									"fontname" : [ "Arial Bold" ],
-									"bgfillcolor" : 									{
-										"type" : "gradient",
-										"color1" : [ 0.376471, 0.384314, 0.4, 1.0 ],
-										"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-										"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-										"angle" : 270.0,
-										"proportion" : 0.39
-									}
-,
-									"fontface" : [ 0 ]
-								}
-,
-								"parentstyle" : "",
-								"multi" : 0
 							}
  ],
 						"bgcolor" : [ 0.88, 0.88, 0.88, 1.0 ],
@@ -429,47 +425,64 @@
 			}
  ],
 		"parameters" : 		{
-			"obj-2::obj-1::obj-12" : [ "KeyboardMode", "KeyboardMode", 0 ],
-			"obj-2::obj-1::obj-15::obj-2" : [ "pastebang", "pastebang", 0 ],
-			"obj-2::obj-1::obj-48" : [ "live.text", "live.text", 0 ],
-			"obj-2::obj-1::obj-5" : [ "Octave", "Octave", 0 ],
-			"obj-2::obj-1::obj-52" : [ "octave", "octave", 0 ],
-			"obj-2::obj-1::obj-68" : [ "RepeatInterval", "RepeatInterval", 0 ],
-			"obj-2::obj-1::obj-71" : [ "velocity", "velocity", 0 ],
-			"obj-2::obj-2::obj-22" : [ "Mute[1]", "Mute", 0 ],
-			"obj-2::obj-2::obj-52" : [ "Level", "Level", 0 ],
-			"obj-2::obj-2::obj-55" : [ "DSP", "DSP", 0 ],
-			"obj-2::obj-2::obj-56" : [ "OutputChannel", "OutputChannel", 0 ],
-			"obj-2::obj-3::obj-33" : [ "Quadrants", "Quadrants", 0 ],
-			"obj-2::obj-3::obj-55" : [ "Bypass", "Bypass", 0 ],
-			"obj-2::obj-3::obj-80" : [ "Response", "Response", 0 ],
-			"obj-2::obj-4::obj-1" : [ "Attack", "Attack", 0 ],
-			"obj-2::obj-4::obj-15" : [ "Legato", "Legato", 0 ],
-			"obj-2::obj-4::obj-20" : [ "Mute[2]", "Mute", 0 ],
-			"obj-2::obj-4::obj-29" : [ "Decay", "Decay", 0 ],
-			"obj-2::obj-4::obj-31" : [ "Release", "Release", 0 ],
-			"obj-2::obj-4::obj-32" : [ "Sustain", "Sustain", 0 ],
-			"obj-2::obj-6::obj-106" : [ "CV3", "CV3", 0 ],
-			"obj-2::obj-6::obj-107" : [ "Linear", "Linear", 0 ],
-			"obj-2::obj-6::obj-11" : [ "PWM", "PWM", 0 ],
-			"obj-2::obj-6::obj-129" : [ "CV2", "CV2", 0 ],
-			"obj-2::obj-6::obj-36" : [ "PW", "PW", 0 ],
-			"obj-2::obj-6::obj-4" : [ "Waveform", "Waveform", 0 ],
-			"obj-2::obj-6::obj-45" : [ "FreqMode", "FreqMode", 0 ],
-			"obj-2::obj-6::obj-46" : [ "Offset", "Offset", 0 ],
-			"obj-2::obj-6::obj-51" : [ "Freq", "Freq", 0 ],
-			"obj-2::obj-6::obj-53" : [ "Mute", "Mute", 0 ],
+			"obj-2::obj-1::obj-10" : [ "Subdivide", "Subdiv", 0 ],
+			"obj-2::obj-1::obj-12" : [ "Mute", "Mute", 0 ],
+			"obj-2::obj-1::obj-14" : [ "Chaos", "Chaos", 0 ],
+			"obj-2::obj-1::obj-27" : [ "DurationCV", "CV", 0 ],
+			"obj-2::obj-1::obj-32" : [ "LongestDuration", "LongestDuration", 0 ],
+			"obj-2::obj-1::obj-38" : [ "InvertRateCV", "InvertCV", 0 ],
+			"obj-2::obj-1::obj-4" : [ "Rate", "Rate", 0 ],
+			"obj-2::obj-1::obj-40" : [ "NextIn", "NextIn", 0 ],
+			"obj-2::obj-1::obj-43" : [ "LimitDuration", "LimitDur", 0 ],
+			"obj-2::obj-1::obj-45" : [ "GateWidth", "Gate", 0 ],
+			"obj-2::obj-1::obj-51" : [ "Triggered", "Triggered", 0 ],
+			"obj-2::obj-21::obj-22" : [ "Mute[3]", "Mute", 0 ],
+			"obj-2::obj-21::obj-52" : [ "Level[1]", "Level", 0 ],
+			"obj-2::obj-21::obj-55" : [ "DSP[1]", "DSP", 0 ],
+			"obj-2::obj-21::obj-56" : [ "OutputChannel[1]", "OutputChannel", 0 ],
+			"obj-2::obj-22::obj-12" : [ "Mute[4]", "Mute", 0 ],
+			"obj-2::obj-22::obj-20" : [ "Frequency", "Freq", 0 ],
+			"obj-2::obj-23::obj-33" : [ "Quadrants", "Quadrants", 0 ],
+			"obj-2::obj-23::obj-55" : [ "Bypass", "Bypass", 0 ],
+			"obj-2::obj-23::obj-80" : [ "Response", "Response", 0 ],
+			"obj-2::obj-24::obj-20" : [ "mute[5]", "mute", 0 ],
+			"obj-2::obj-24::obj-32" : [ "Decay", "Decay", 0 ],
+			"obj-2::obj-25::obj-20" : [ "mute[4]", "mute", 0 ],
+			"obj-2::obj-25::obj-56" : [ "Depth", "Depth", 0 ],
+			"obj-2::obj-25::obj-80" : [ "Ratio", "Ratio", 0 ],
+			"obj-2::obj-25::obj-86" : [ "Amt", "Amt", 0 ],
+			"obj-2::obj-25::obj-91" : [ "Offset", "Offset", 0 ],
 			"parameterbanks" : 			{
 
 			}
 ,
 			"parameter_overrides" : 			{
-				"obj-2::obj-2::obj-22" : 				{
-					"parameter_longname" : "Mute[1]"
+				"obj-2::obj-21::obj-22" : 				{
+					"parameter_longname" : "Mute[3]"
 				}
 ,
-				"obj-2::obj-4::obj-20" : 				{
-					"parameter_longname" : "Mute[2]"
+				"obj-2::obj-21::obj-52" : 				{
+					"parameter_longname" : "Level[1]"
+				}
+,
+				"obj-2::obj-21::obj-55" : 				{
+					"parameter_longname" : "DSP[1]"
+				}
+,
+				"obj-2::obj-21::obj-56" : 				{
+					"parameter_longname" : "OutputChannel[1]"
+				}
+,
+				"obj-2::obj-22::obj-12" : 				{
+					"parameter_longname" : "Mute[4]"
+				}
+,
+				"obj-2::obj-24::obj-20" : 				{
+					"parameter_longname" : "mute[5]"
+				}
+,
+				"obj-2::obj-25::obj-20" : 				{
+					"parameter_longname" : "mute[4]"
 				}
 
 			}
@@ -478,47 +491,23 @@
 		}
 ,
 		"dependency_cache" : [ 			{
-				"name" : "bp.VCA.maxhelp.maxsnap",
+				"name" : "bp.M4L-In.maxhelp_20210413.maxsnap",
 				"bootpath" : "~/Documents/Max 8/Snapshots",
 				"patcherrelativepath" : "../../../Snapshots",
 				"type" : "mx@s",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "bp.Oscillator.maxpat",
-				"bootpath" : "~/Documents/Max 8/Dev/BEAP/clippings/BEAP/Oscillator",
-				"patcherrelativepath" : "../clippings/BEAP/Oscillator",
+				"name" : "bp.Stereo.maxpat",
+				"bootpath" : "~/Documents/Max 8/Dev/BEAP/clippings/BEAP/Output",
+				"patcherrelativepath" : "../clippings/BEAP/Output",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "sine.svg",
-				"bootpath" : "C74:/media/max/picts/m4l-picts",
-				"type" : "svg",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "updown.svg",
-				"bootpath" : "C74:/media/max/picts/m4l-picts",
-				"type" : "svg",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "up.svg",
-				"bootpath" : "C74:/media/max/picts/m4l-picts",
-				"type" : "svg",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "square.svg",
-				"bootpath" : "C74:/media/max/picts/m4l-picts",
-				"type" : "svg",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "bp.Stereo.maxpat",
-				"bootpath" : "~/Documents/Max 8/Dev/BEAP/clippings/BEAP/Output",
-				"patcherrelativepath" : "../clippings/BEAP/Output",
+				"name" : "bp.LFO.maxpat",
+				"bootpath" : "~/Documents/Max 8/Dev/BEAP/clippings/BEAP/LFO",
+				"patcherrelativepath" : "../clippings/BEAP/LFO",
 				"type" : "JSON",
 				"implicit" : 1
 			}
@@ -530,7 +519,7 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "bp.ADSR.maxpat",
+				"name" : "bp.Decay.maxpat",
 				"bootpath" : "~/Documents/Max 8/Dev/BEAP/clippings/BEAP/Envelope",
 				"patcherrelativepath" : "../clippings/BEAP/Envelope",
 				"type" : "JSON",
@@ -544,17 +533,24 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "bp.Keyboard.maxpat",
-				"bootpath" : "~/Documents/Max 8/Dev/BEAP/clippings/BEAP/Input",
-				"patcherrelativepath" : "../clippings/BEAP/Input",
+				"name" : "bp.FM.maxpat",
+				"bootpath" : "~/Documents/Max 8/Dev/BEAP/clippings/BEAP/Oscillator",
+				"patcherrelativepath" : "../clippings/BEAP/Oscillator",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "pastebang.maxpat",
+				"name" : "bp.Poisson Pulse.maxpat",
+				"bootpath" : "~/Documents/Max 8/Dev/BEAP/clippings/BEAP/Sequencer",
+				"patcherrelativepath" : "../clippings/BEAP/Sequencer",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "bp_poisson.gendsp",
 				"bootpath" : "~/Documents/Max 8/Dev/BEAP/misc",
 				"patcherrelativepath" : "../misc",
-				"type" : "JSON",
+				"type" : "gDSP",
 				"implicit" : 1
 			}
  ],
@@ -571,38 +567,32 @@
 			"snapshot" : 			{
 				"valuedictionary" : 				{
 					"parameter_values" : 					{
-						"Attack" : 632.455505000000016,
+						"Amt" : 26.929134000000001,
 						"Bypass" : 0.0,
-						"CV2" : 0.0,
-						"CV3" : 0.0,
-						"DSP" : 1.0,
-						"Decay" : 2249.365233999999873,
-						"Freq" : 6763.827789816807126,
-						"FreqMode" : 1.0,
-						"KeyboardMode" : 0.0,
-						"Legato" : 0.0,
-						"Level" : -20.0,
-						"Linear" : 0.0,
+						"Chaos" : 50.0,
+						"DSP[1]" : 1.0,
+						"Decay" : 203.93701200000001,
+						"Depth" : 37.606029999999997,
+						"DurationCV" : 0.0,
+						"Frequency" : 15.559785,
+						"GateWidth" : 50.0,
+						"InvertRateCV" : 0.0,
+						"Level[1]" : -13.366034000000001,
+						"LimitDuration" : 0.0,
+						"LongestDuration" : 100.0,
 						"Mute" : 0.0,
-						"Mute[1]" : 0.0,
-						"Mute[2]" : 0.0,
-						"Octave" : 0.0,
+						"Mute[3]" : 0.0,
+						"Mute[4]" : 0.0,
 						"Offset" : 0.0,
-						"OutputChannel" : 0.0,
-						"PW" : 50.0,
-						"PWM" : 0.0,
+						"OutputChannel[1]" : 0.0,
 						"Quadrants" : 0.0,
-						"Release" : 2000.0,
-						"RepeatInterval" : 250.0,
+						"Rate" : 115930.533231190755032,
+						"Ratio" : 33.538677,
 						"Response" : 0.0,
-						"Sustain" : 70.0,
-						"Waveform" : 2.0,
-						"live.text" : 1.0,
-						"octave" : 2.0,
-						"blob" : 						{
-							"velocity" : [ 64 ]
-						}
-
+						"Subdivide" : 1.0,
+						"Triggered" : 0.0,
+						"mute[4]" : 0.0,
+						"mute[5]" : 0.0
 					}
 
 				}
@@ -615,46 +605,40 @@
 						"filetype" : "C74Snapshot",
 						"version" : 2,
 						"minorversion" : 0,
-						"name" : "bp.VCA.maxhelp",
-						"origin" : "bp.VCA.maxhelp",
+						"name" : "bp.M4L-In.maxhelp",
+						"origin" : "bp.Poisson Pulse.maxhelp",
 						"type" : "patcher",
 						"subtype" : "Undefined",
 						"embed" : 0,
 						"snapshot" : 						{
 							"valuedictionary" : 							{
 								"parameter_values" : 								{
-									"Attack" : 632.455505000000016,
+									"Amt" : 26.929134000000001,
 									"Bypass" : 0.0,
-									"CV2" : 0.0,
-									"CV3" : 0.0,
-									"DSP" : 1.0,
-									"Decay" : 2249.365233999999873,
-									"Freq" : 6763.827789816807126,
-									"FreqMode" : 1.0,
-									"KeyboardMode" : 0.0,
-									"Legato" : 0.0,
-									"Level" : -20.0,
-									"Linear" : 0.0,
+									"Chaos" : 50.0,
+									"DSP[1]" : 1.0,
+									"Decay" : 203.93701200000001,
+									"Depth" : 37.606029999999997,
+									"DurationCV" : 0.0,
+									"Frequency" : 15.559785,
+									"GateWidth" : 50.0,
+									"InvertRateCV" : 0.0,
+									"Level[1]" : -13.366034000000001,
+									"LimitDuration" : 0.0,
+									"LongestDuration" : 100.0,
 									"Mute" : 0.0,
-									"Mute[1]" : 0.0,
-									"Mute[2]" : 0.0,
-									"Octave" : 0.0,
+									"Mute[3]" : 0.0,
+									"Mute[4]" : 0.0,
 									"Offset" : 0.0,
-									"OutputChannel" : 0.0,
-									"PW" : 50.0,
-									"PWM" : 0.0,
+									"OutputChannel[1]" : 0.0,
 									"Quadrants" : 0.0,
-									"Release" : 2000.0,
-									"RepeatInterval" : 250.0,
+									"Rate" : 115930.533231190755032,
+									"Ratio" : 33.538677,
 									"Response" : 0.0,
-									"Sustain" : 70.0,
-									"Waveform" : 2.0,
-									"live.text" : 1.0,
-									"octave" : 2.0,
-									"blob" : 									{
-										"velocity" : [ 64 ]
-									}
-
+									"Subdivide" : 1.0,
+									"Triggered" : 0.0,
+									"mute[4]" : 0.0,
+									"mute[5]" : 0.0
 								}
 
 							}
@@ -662,11 +646,11 @@
 						}
 ,
 						"fileref" : 						{
-							"name" : "bp.VCA.maxhelp",
-							"filename" : "bp.VCA.maxhelp.maxsnap",
+							"name" : "bp.M4L-In.maxhelp",
+							"filename" : "bp.M4L-In.maxhelp_20210413.maxsnap",
 							"filepath" : "~/Documents/Max 8/Snapshots",
 							"filepos" : -1,
-							"snapshotfileid" : "ae0908fa64037e05c6370423168c0066"
+							"snapshotfileid" : "d0228d167e6d7f32242c80a4d8f0d11a"
 						}
 
 					}
