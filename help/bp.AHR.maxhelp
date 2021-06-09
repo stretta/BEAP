@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 73.0, 99.0, 783.0, 726.0 ],
+		"rect" : [ 847.0, 96.0, 783.0, 726.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -116,7 +116,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 73.0, 125.0, 783.0, 700.0 ],
+						"rect" : [ 847.0, 122.0, 783.0, 700.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 13.0,
@@ -253,7 +253,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 0,
 									"patching_rect" : [ 429.0, 473.5, 335.0, 108.0 ],
-									"text" : "Attack - time taken for initial level increase from zero to peak, beginning when the gate is first received.\n\nHold - time to hold the before the decay stage.\n\nRelease - time taken for the level to decay from the sustain level to zero after the gate is released.",
+									"text" : "Attack - time taken for initial level increase from zero to peak, beginning when the gate is first received.\n\nHold - time to hold the before the release stage.\n\nRelease - time taken for the level to decay from the sustain level to zero after the hold is released.",
 									"textcolor" : [ 0.501961, 0.501961, 0.501961, 1.0 ]
 								}
 
