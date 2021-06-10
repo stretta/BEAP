@@ -776,7 +776,6 @@
 									"numinlets" : 1,
 									"numoutlets" : 0,
 									"patching_rect" : [ 655.0, 2511.5, 55.0, 37.0 ],
-									"presentation_linecount" : 2,
 									"text" : "Gate close",
 									"textcolor" : [ 0.695465922355652, 0.405832141637802, 0.040934309363365, 1.0 ]
 								}
@@ -790,7 +789,6 @@
 									"numinlets" : 1,
 									"numoutlets" : 0,
 									"patching_rect" : [ 536.0, 2858.0, 126.0, 33.0 ],
-									"presentation_linecount" : 2,
 									"text" : "Only send the user loop point one time"
 								}
 
@@ -1008,7 +1006,6 @@
 									"numinlets" : 1,
 									"numoutlets" : 0,
 									"patching_rect" : [ 867.5, 2689.0, 197.0, 66.0 ],
-									"presentation_linecount" : 3,
 									"text" : "When the gate first opens, make sure the loop end is set to the user's loop end point.",
 									"textcolor" : [ 0.0, 0.610370099544525, 0.612117409706116, 1.0 ]
 								}
@@ -1024,7 +1021,6 @@
 									"numinlets" : 1,
 									"numoutlets" : 0,
 									"patching_rect" : [ 427.5, 2592.0, 123.0, 64.0 ],
-									"presentation_linecount" : 4,
 									"text" : "When the gate opens, start at 0 and make sure looping is on",
 									"textcolor" : [ 0.0, 0.627498507499695, 0.629309892654419, 1.0 ]
 								}
@@ -1040,7 +1036,6 @@
 									"numinlets" : 1,
 									"numoutlets" : 0,
 									"patching_rect" : [ 1038.0, 2636.0, 150.0, 51.0 ],
-									"presentation_linecount" : 3,
 									"text" : "When the gate closes, set the loop end to the end of the sample.",
 									"textcolor" : [ 0.798592209815979, 0.470008224248886, 0.0, 1.0 ]
 								}
@@ -1080,8 +1075,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 736.5, 2427.5, 166.0, 93.0 ],
-									"presentation_linecount" : 5,
+									"patching_rect" : [ 736.5, 2427.5, 168.0, 93.0 ],
 									"text" : "At the end of the first loop that started from the sample beginning, quickly reset the loop point to the desired loop beginning point"
 								}
 
@@ -1171,7 +1165,6 @@
 									"numinlets" : 1,
 									"numoutlets" : 0,
 									"patching_rect" : [ 511.5, 2538.0, 55.0, 37.0 ],
-									"presentation_linecount" : 2,
 									"text" : "Gate open",
 									"textcolor" : [ 0.0, 0.605501294136047, 0.607230424880981, 1.0 ]
 								}
@@ -1201,8 +1194,8 @@
 										"basictuning" : 440,
 										"followglobaltempo" : 0,
 										"formantcorrection" : 0,
-										"loopend" : [ 2311.541950113378789, "ms" ],
-										"loopstart" : [ 514.444462244443457, "ms" ],
+										"loopend" : [ 1804.625912780966473, "ms" ],
+										"loopstart" : [ 1804.625912780966473, "ms" ],
 										"mode" : "basic",
 										"originallength" : [ 0.0, "ticks" ],
 										"originaltempo" : 120.0,
@@ -1225,7 +1218,6 @@
 									"numinlets" : 1,
 									"numoutlets" : 0,
 									"patching_rect" : [ 128.0, 2995.5, 247.0, 47.0 ],
-									"presentation_linecount" : 3,
 									"text" : "Loop\nAlways start at beginning of sample\nPlay through to end of sample at gate end"
 								}
 
@@ -1613,7 +1605,6 @@
 									"numinlets" : 1,
 									"numoutlets" : 0,
 									"patching_rect" : [ 1582.400023639202118, 944.400002360343933, 71.0, 20.0 ],
-									"presentation_linecount" : 2,
 									"text" : "sample end"
 								}
 
@@ -1719,7 +1710,6 @@
 									"numinlets" : 1,
 									"numoutlets" : 0,
 									"patching_rect" : [ 1733.400018513202667, 849.517571360343936, 74.0, 20.0 ],
-									"presentation_linecount" : 2,
 									"text" : "sample start"
 								}
 
@@ -2841,7 +2831,7 @@
 									"bgfillcolor_type" : "color",
 									"fontsize" : 9.0,
 									"id" : "obj-114",
-									"items" : [ "send to...", ",", 1380 ],
+									"items" : "send to...",
 									"maxclass" : "umenu",
 									"numinlets" : 1,
 									"numoutlets" : 3,
@@ -3062,7 +3052,7 @@
 									"parameter_enable" : 1,
 									"patching_rect" : [ 85.75743739339066, 2457.685347999999976, 27.0, 54.0 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 202.0, 136.0, 36.000000268220901, 54.0 ],
+									"presentation_rect" : [ 199.0, 136.0, 36.000000268220901, 54.0 ],
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
 											"parameter_initial" : [ 60 ],
@@ -3304,7 +3294,7 @@
 									"presentation" : 1,
 									"presentation_rect" : [ 2.122688055038452, 67.755348957143724, 354.910438150167465, 42.0 ],
 									"text" : "drag audio file here",
-									"textcolor" : [ 0.0, 0.0, 0.0, 0.0 ],
+									"textcolor" : [ 1.0, 1.0, 1.0, 0.1 ],
 									"textjustification" : 1
 								}
 
@@ -3982,7 +3972,7 @@
 									"outlettype" : [ "", "" ],
 									"patching_rect" : [ 1498.451636393390572, 253.268494360343936, 155.666626000000008, 42.0 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 155.506493002176285, 437.0, 355.069290361701974, 93.541664123535156 ]
+									"presentation_rect" : [ 9.104270638298033, 39.969034000000001, 351.749862580228807, 90.541663914287454 ]
 								}
 
 							}
@@ -4041,7 +4031,6 @@
 									"patching_rect" : [ 1961.451880393390638, 435.677681360343911, 133.0, 18.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 5.943695068359375, 108.0, 348.473236083984375, 18.0 ],
-									"text" : "anton.aif",
 									"textcolor" : [ 1.0, 1.0, 1.0, 0.23 ]
 								}
 
@@ -4166,8 +4155,8 @@
 									"patching_rect" : [ 385.40427239339067, 1381.189675360343927, 59.5, 22.0 ],
 									"restore" : 									{
 										"Loop" : [ 1.0 ],
-										"LoopEnd" : [ 783.106603059543204 ],
-										"LoopStart" : [ 514.444462244443457 ],
+										"LoopEnd" : [ 1804.625912780966473 ],
+										"LoopStart" : [ 1804.625912780966473 ],
 										"Loop[1]" : [ 1.0 ],
 										"RecordGate" : [ 0.0 ],
 										"Root" : [ 60.0 ],
