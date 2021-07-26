@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 84.0, 95.0, 914.0, 715.0 ],
+		"rect" : [ 134.0, 88.0, 767.0, 684.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -116,7 +116,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 84.0, 121.0, 914.0, 689.0 ],
+						"rect" : [ 134.0, 114.0, 767.0, 658.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 13.0,
@@ -280,7 +280,7 @@
 													"patching_rect" : [ 32.939940999999997, 874.170409999999947, 360.0, 155.0 ],
 													"presentation" : 1,
 													"presentation_rect" : [ 100.5, 42.838638000000003, 360.0, 155.0 ],
-													"setfilter" : [ 0, 1, 0, 0, 0, 15.469796180725098, 1.0, 0.749999761581421, 0.000099999997474, 22050.0, 0.000099999997474, 16.0, 0.5, 25.0 ],
+													"setfilter" : [ 0, 3, 0, 0, 0, 4239.35791015625, 1.0, 0.749999761581421, 0.000099999997474, 22050.0, 0.000099999997474, 16.0, 0.5, 25.0 ],
 													"textcolor" : [ 1.0, 1.0, 1.0, 0.0 ]
 												}
 
@@ -327,23 +327,7 @@
 													"presentation" : 1,
 													"presentation_rect" : [ 469.905640000000005, 180.838638000000003, 81.25, 17.0 ],
 													"saved_attribute_attributes" : 													{
-														"activetextoncolor" : 														{
-															"expression" : ""
-														}
-,
-														"bgcolor" : 														{
-															"expression" : ""
-														}
-,
-														"activebgcolor" : 														{
-															"expression" : ""
-														}
-,
 														"activebgoncolor" : 														{
-															"expression" : ""
-														}
-,
-														"textcolor" : 														{
 															"expression" : ""
 														}
 ,
@@ -352,6 +336,22 @@
 														}
 ,
 														"activetextcolor" : 														{
+															"expression" : ""
+														}
+,
+														"textcolor" : 														{
+															"expression" : ""
+														}
+,
+														"activetextoncolor" : 														{
+															"expression" : ""
+														}
+,
+														"activebgcolor" : 														{
+															"expression" : ""
+														}
+,
+														"bgcolor" : 														{
 															"expression" : ""
 														}
 ,
@@ -420,7 +420,7 @@
 													"presentation" : 1,
 													"presentation_rect" : [ 4.0, 152.5, 44.0, 48.0 ],
 													"saved_attribute_attributes" : 													{
-														"activeneedlecolor" : 														{
+														"activedialcolor" : 														{
 															"expression" : ""
 														}
 ,
@@ -428,7 +428,7 @@
 															"expression" : ""
 														}
 ,
-														"activedialcolor" : 														{
+														"activeneedlecolor" : 														{
 															"expression" : ""
 														}
 ,
@@ -479,7 +479,7 @@
 													"presentation" : 1,
 													"presentation_rect" : [ 4.0, 42.838638000000003, 44.0, 48.0 ],
 													"saved_attribute_attributes" : 													{
-														"activeneedlecolor" : 														{
+														"activedialcolor" : 														{
 															"expression" : ""
 														}
 ,
@@ -487,7 +487,7 @@
 															"expression" : ""
 														}
 ,
-														"activedialcolor" : 														{
+														"activeneedlecolor" : 														{
 															"expression" : ""
 														}
 ,
@@ -598,7 +598,7 @@
 													"patching_rect" : [ 446.939940999999976, 874.170409999999947, 360.0, 155.0 ],
 													"presentation" : 1,
 													"presentation_rect" : [ 100.5, 42.838638000000003, 360.0, 155.0 ],
-													"setfilter" : [ 0, 1, 0, 0, 0, 500.00006103515625, 1.0, 0.749999761581421, 0.000099999997474, 22050.0, 0.000099999997474, 16.0, 0.5, 25.0 ],
+													"setfilter" : [ 0, 3, 0, 0, 0, 164.085205078125, 1.0, 0.749999761581421, 0.000099999997474, 22050.0, 0.000099999997474, 16.0, 0.5, 25.0 ],
 													"textcolor" : [ 1.0, 1.0, 1.0, 0.47 ]
 												}
 
@@ -1021,7 +1021,7 @@
 													"presentation" : 1,
 													"presentation_rect" : [ 48.0, 152.5, 44.0, 48.0 ],
 													"saved_attribute_attributes" : 													{
-														"activeneedlecolor" : 														{
+														"activedialcolor" : 														{
 															"expression" : ""
 														}
 ,
@@ -1029,7 +1029,7 @@
 															"expression" : ""
 														}
 ,
-														"activedialcolor" : 														{
+														"activeneedlecolor" : 														{
 															"expression" : ""
 														}
 ,
@@ -1120,7 +1120,7 @@
 													"presentation" : 1,
 													"presentation_rect" : [ 48.0, 42.838638000000003, 44.0, 48.0 ],
 													"saved_attribute_attributes" : 													{
-														"activeneedlecolor" : 														{
+														"activedialcolor" : 														{
 															"expression" : ""
 														}
 ,
@@ -1128,7 +1128,7 @@
 															"expression" : ""
 														}
 ,
-														"activedialcolor" : 														{
+														"activeneedlecolor" : 														{
 															"expression" : ""
 														}
 ,
@@ -1232,7 +1232,7 @@
 													"presentation" : 1,
 													"presentation_rect" : [ 48.0, 97.669319000000002, 44.0, 48.0 ],
 													"saved_attribute_attributes" : 													{
-														"activeneedlecolor" : 														{
+														"activedialcolor" : 														{
 															"expression" : ""
 														}
 ,
@@ -1240,7 +1240,7 @@
 															"expression" : ""
 														}
 ,
-														"activedialcolor" : 														{
+														"activeneedlecolor" : 														{
 															"expression" : ""
 														}
 ,
@@ -1417,7 +1417,7 @@
 													"presentation" : 1,
 													"presentation_rect" : [ 4.0, 97.669319000000002, 44.0, 48.0 ],
 													"saved_attribute_attributes" : 													{
-														"activeneedlecolor" : 														{
+														"activedialcolor" : 														{
 															"expression" : ""
 														}
 ,
@@ -1425,7 +1425,7 @@
 															"expression" : ""
 														}
 ,
-														"activedialcolor" : 														{
+														"activeneedlecolor" : 														{
 															"expression" : ""
 														}
 ,
@@ -1493,23 +1493,7 @@
 													"presentation" : 1,
 													"presentation_rect" : [ 496.564940999999976, 19.0, 52.0, 17.0 ],
 													"saved_attribute_attributes" : 													{
-														"activetextoncolor" : 														{
-															"expression" : ""
-														}
-,
-														"bgcolor" : 														{
-															"expression" : ""
-														}
-,
-														"activebgcolor" : 														{
-															"expression" : ""
-														}
-,
 														"activebgoncolor" : 														{
-															"expression" : ""
-														}
-,
-														"textcolor" : 														{
 															"expression" : ""
 														}
 ,
@@ -1518,6 +1502,22 @@
 														}
 ,
 														"activetextcolor" : 														{
+															"expression" : ""
+														}
+,
+														"textcolor" : 														{
+															"expression" : ""
+														}
+,
+														"activetextoncolor" : 														{
+															"expression" : ""
+														}
+,
+														"activebgcolor" : 														{
+															"expression" : ""
+														}
+,
+														"bgcolor" : 														{
 															"expression" : ""
 														}
 ,
@@ -1567,10 +1567,10 @@
 														"CV1" : [ 100.0 ],
 														"CV2" : [ 0.0 ],
 														"CV3" : [ 0.0 ],
-														"Freq" : [ 500.000054005642028 ],
+														"Freq" : [ 164.085200611392992 ],
 														"Gain" : [ 1.0 ],
 														"Resonance" : [ 0.74999978489528 ],
-														"filter_mode" : [ 0.0 ],
+														"filter_mode" : [ 2.0 ],
 														"power[1]" : [ 0.0 ],
 														"spectral" : [ 0.0 ]
 													}
@@ -2261,7 +2261,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 0,
 									"patching_rect" : [ 583.0, 345.5, 163.0, 54.0 ],
-									"text" : "Try selecting different\nbands to hear how the \nfilter effects the sound"
+									"text" : "Try selecting different\nbands to hear how the \nfilter affects the sound"
 								}
 
 							}
@@ -2274,7 +2274,6 @@
 									"numinlets" : 1,
 									"numoutlets" : 0,
 									"patching_rect" : [ 467.0, 124.0, 186.0, 40.0 ],
-									"presentation_linecount" : 2,
 									"text" : "This LFO modulates the filter cutoff"
 								}
 
@@ -2451,7 +2450,7 @@
 		}
 ,
 		"dependency_cache" : [ 			{
-				"name" : "bp.Classroom Samplr.maxhelp.maxsnap",
+				"name" : "bp.Classroom Filter.maxhelp_20210726.maxsnap",
 				"bootpath" : "~/Documents/Max 8/Snapshots",
 				"patcherrelativepath" : "../../../Snapshots",
 				"type" : "mx@s",
@@ -2459,22 +2458,19 @@
 			}
 , 			{
 				"name" : "bp.Stereo.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/BEAP/clippings/BEAP/Output",
-				"patcherrelativepath" : "../clippings/BEAP/Output",
+				"bootpath" : "C74:/packages/BEAP/clippings/BEAP/Output",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "bp.Cloud.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/BEAP/clippings/BEAP/Oscillator",
-				"patcherrelativepath" : "../clippings/BEAP/Oscillator",
+				"bootpath" : "C74:/packages/BEAP/clippings/BEAP/Oscillator",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "bp.LFO.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/BEAP/clippings/BEAP/LFO",
-				"patcherrelativepath" : "../clippings/BEAP/LFO",
+				"bootpath" : "C74:/packages/BEAP/clippings/BEAP/LFO",
 				"type" : "JSON",
 				"implicit" : 1
 			}
@@ -2490,7 +2486,6 @@
 			"subtype" : "Undefined",
 			"embed" : 1,
 			"snapshot" : 			{
-				"name" : "bp.Classroom Filter.maxhelp",
 				"valuedictionary" : 				{
 					"parameter_values" : 					{
 						"CV1" : 100.0,
@@ -2500,11 +2495,11 @@
 						"CV3[1]" : 0.0,
 						"DSP" : 1.0,
 						"Fatness" : 2.366432,
-						"Freq" : 6763.828125,
-						"Freq[1]" : 7886.054199000000153,
+						"Freq" : 6763.827789816807126,
+						"Freq[1]" : 5842.3922048251261,
 						"Frequency" : 30.835374999999999,
 						"Gain" : 4.0,
-						"Level" : -3.475141,
+						"Level" : -34.967638396969278,
 						"Linear" : 0.0,
 						"Mute" : 0.0,
 						"Mute[1]" : 0.0,
@@ -2513,7 +2508,7 @@
 						"OutputChannel" : 0.0,
 						"Resonance" : 2.413723,
 						"WaveformCloud" : 0.0,
-						"filter_mode" : 1.0,
+						"filter_mode" : 2.0,
 						"power" : 0.0,
 						"spectral" : 0.0,
 						"TimeMode" : 1.0
@@ -2527,13 +2522,14 @@
 				"current_snapshot" : 0,
 				"entries" : [ 					{
 						"filetype" : "C74Snapshot",
-						"version" : 1,
+						"version" : 2,
+						"minorversion" : 0,
 						"name" : "bp.Classroom Filter.maxhelp",
 						"origin" : "bp.Classroom Filter.maxhelp",
 						"type" : "patcher",
 						"subtype" : "Undefined",
+						"embed" : 1,
 						"snapshot" : 						{
-							"name" : "bp.Classroom Filter.maxhelp",
 							"valuedictionary" : 							{
 								"parameter_values" : 								{
 									"CV1" : 100.0,
@@ -2543,11 +2539,11 @@
 									"CV3[1]" : 0.0,
 									"DSP" : 1.0,
 									"Fatness" : 2.366432,
-									"Freq" : 6763.828125,
-									"Freq[1]" : 7886.054199000000153,
+									"Freq" : 6763.827789816807126,
+									"Freq[1]" : 5842.3922048251261,
 									"Frequency" : 30.835374999999999,
 									"Gain" : 4.0,
-									"Level" : -3.475141,
+									"Level" : -34.967638396969278,
 									"Linear" : 0.0,
 									"Mute" : 0.0,
 									"Mute[1]" : 0.0,
@@ -2556,7 +2552,7 @@
 									"OutputChannel" : 0.0,
 									"Resonance" : 2.413723,
 									"WaveformCloud" : 0.0,
-									"filter_mode" : 1.0,
+									"filter_mode" : 2.0,
 									"power" : 0.0,
 									"spectral" : 0.0,
 									"TimeMode" : 1.0
@@ -2566,23 +2562,12 @@
 
 						}
 ,
-						"embed" : 0
-					}
-, 					{
-						"filetype" : "C74Snapshot",
-						"version" : 2,
-						"minorversion" : 0,
-						"name" : "bp.Classroom Samplr.maxhelp",
-						"origin" : "bp.Classroom Filter.maxhelp",
-						"type" : "patcher",
-						"subtype" : "Undefined",
-						"embed" : 0,
 						"fileref" : 						{
-							"name" : "bp.Classroom Samplr.maxhelp",
-							"filename" : "bp.Classroom Samplr.maxhelp.maxsnap",
+							"name" : "bp.Classroom Filter.maxhelp",
+							"filename" : "bp.Classroom Filter.maxhelp_20210726.maxsnap",
 							"filepath" : "~/Documents/Max 8/Snapshots",
 							"filepos" : -1,
-							"snapshotfileid" : "0f7df59d36b46e1495a6c425986c3985"
+							"snapshotfileid" : "f4627aa2093cfc791d2bd73c3d4c7414"
 						}
 
 					}
