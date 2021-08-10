@@ -3442,7 +3442,7 @@
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "" ],
 									"patching_rect" : [ 1332.451636393390572, 379.833947360343927, 93.0, 22.0 ],
-									"restore" : [ "Macintosh HD:/Applications/Max.app/Contents/Resources/C74/media/msp/anton.aif" ],
+									"restore" : [ "anton.aif" ],
 									"saved_object_attributes" : 									{
 										"parameter_enable" : 0,
 										"parameter_mappable" : 0
